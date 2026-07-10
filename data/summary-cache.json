@@ -126,6 +126,42 @@
         "0."
       ],
       "cachedAt": "2026-07-10T13:55:46.404Z"
+    },
+    "9e66788724fbfcac": {
+      "url": "https://news.yahoo.co.jp/pickup/6587472?source=rss",
+      "summaryJa": [
+        "退職自衛官支援へ「庁」新設検討",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-10T14:01:33.786Z"
+    },
+    "6b31822af1ec8b84": {
+      "url": "https://speakerdeck.com/oikon48/claude-codetohanesunituitekao-etemiru",
+      "summaryJa": [
+        "AI駆動開発勉強会 福岡出張版+ EnjoyAIDeveloping : https://enjoy-dev-ai.",
+        "connpass.",
+        "com/event/397844/"
+      ],
+      "cachedAt": "2026-07-10T14:01:33.786Z"
+    },
+    "cbd395b29c731f14": {
+      "url": "https://unstack.io/write-code-like-a-human-will-maintain-it",
+      "summaryJa": [
+        "Write code like a human will maintain it",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-10T14:01:33.786Z"
+    },
+    "1a049bfccf652c21": {
+      "url": "https://www.byran.ee/posts/creation/",
+      "summaryJa": [
+        "Hello!",
+        "I&#x27;m Byran.",
+        "I spent the past ~6 months engineering a laptop from scratch."
+      ],
+      "cachedAt": "2026-07-10T14:01:33.786Z"
     }
   }
 }

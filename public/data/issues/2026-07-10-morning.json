@@ -6,7 +6,7 @@
   "date": "2026-07-10",
   "dateDisplay": "Friday, July 10, 2026",
   "pressTimeJst": "2026-07-10 05:00",
-  "generatedAt": "2026-07-10T13:55:35.802Z",
+  "generatedAt": "2026-07-10T14:00:20.592Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "fallback",
@@ -39,9 +39,9 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 64523,
-        "priceJpy": 10438412,
-        "change24hPct": 2.47,
+        "priceUsd": 64443,
+        "priceJpy": 10425402,
+        "change24hPct": 2.28,
         "sparkline7d": [
           61907.59,
           62876.14,
@@ -55,9 +55,9 @@
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1805,
-        "priceJpy": 292007,
-        "change24hPct": 3.39,
+        "priceUsd": 1802.55,
+        "priceJpy": 291612,
+        "change24hPct": 3.21,
         "sparkline7d": [
           1734.19,
           1785.86,
@@ -71,9 +71,9 @@
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.190928,
-        "priceJpy": 30.89,
-        "change24hPct": 4.92,
+        "priceUsd": 0.190498,
+        "priceJpy": 30.82,
+        "change24hPct": 4.47,
         "sparkline7d": [
           0.200693,
           0.210383,
@@ -87,9 +87,9 @@
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 254.09,
-        "priceJpy": 41106,
-        "change24hPct": 7,
+        "priceUsd": 253.73,
+        "priceJpy": 41048,
+        "change24hPct": 6.84,
         "sparkline7d": [
           226.14,
           231.21,
@@ -104,8 +104,8 @@
   },
   "top": [
     "hatebu-it-02a07b54",
-    "hn-front-9ae43c64",
-    "hatebu-it-cf5310d9"
+    "hatebu-it-cf5310d9",
+    "hn-front-9ae43c64"
   ],
   "sections": [
     {
@@ -115,17 +115,17 @@
         "nhk-top-0c6eb1c1",
         "nhk-top-89437861",
         "nhk-world-a553610a",
-        "nhk-world-6a37b5ff"
+        "yahoo-topics-9e667887"
       ]
     },
     {
       "id": "tech",
       "title": "世界のテック",
       "articleIds": [
+        "hatebu-it-6b31822a",
+        "hn-front-51a88932",
         "hatebu-it-02c0e865",
-        "hn-front-5ed33a92",
-        "hn-front-a196e9e1",
-        "hatebu-it-c491e2f6"
+        "hn-front-5ed33a92"
       ]
     },
     {
@@ -154,13 +154,42 @@
         "programming"
       ],
       "heat": {
-        "temperature": 87,
+        "temperature": 89,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 70,
           "ageHours": 6,
           "crossSources": 1,
-          "velocity": 11.3
+          "velocity": 11.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-cf5310d9",
+      "title": "安いエアコンが消える？　「エアコン2027年問題」でメーカーは来年どう動くのか、ダイキンに聞いた",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/10/news130.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-07-10T09:25:47.000Z",
+      "summaryJa": [
+        "2027年4月から適用される新しい省エネ基準により、安いエアコンが売り場から消えるのではないかと話題になっている、いわゆる「エアコン2027年問題」。",
+        "資源エネルギー庁は「基準値を満たさない製品の製造・出荷を禁止するものではない」としているが、実際のところメーカーは安価なエアコンを作り続けられるのだろうか。",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "安いエアコンが消える？",
+        "ダイキンに聞いた"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 46,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 10.1
         }
       },
       "image": null
@@ -187,40 +216,11 @@
       "heat": {
         "temperature": 86,
         "signals": {
-          "hnPoints": 68,
+          "hnPoints": 73,
           "hatebuCount": 0,
           "ageHours": 2,
           "crossSources": 1,
-          "velocity": 35.3
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-cf5310d9",
-      "title": "安いエアコンが消える？　「エアコン2027年問題」でメーカーは来年どう動くのか、ダイキンに聞いた",
-      "url": "https://www.itmedia.co.jp/news/articles/2607/10/news130.html",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-07-10T09:25:47.000Z",
-      "summaryJa": [
-        "2027年4月から適用される新しい省エネ基準により、安いエアコンが売り場から消えるのではないかと話題になっている、いわゆる「エアコン2027年問題」。",
-        "資源エネルギー庁は「基準値を満たさない製品の製造・出荷を禁止するものではない」としているが、実際のところメーカーは安価なエアコンを作り続けられるのだろうか。",
-        "."
-      ],
-      "category": "programming",
-      "keywords": [
-        "安いエアコンが消える？",
-        "ダイキンに聞いた"
-      ],
-      "heat": {
-        "temperature": 85,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 42,
-          "ageHours": 4,
-          "crossSources": 1,
-          "velocity": 9.3
+          "velocity": 36.4
         }
       },
       "image": null
@@ -317,32 +317,90 @@
       "image": null
     },
     {
-      "id": "nhk-world-6a37b5ff",
-      "title": "スペイン南部 大規模山火事 少なくとも11人死亡 19人行方不明",
-      "url": "https://news.web.nhk/newsweb/na/na-k10015173961000",
-      "source": "NHKニュース 国際",
-      "sourceId": "nhk-world",
-      "publishedAt": "2026-07-10T12:19:56.000Z",
+      "id": "yahoo-topics-9e667887",
+      "title": "退職自衛官支援へ「庁」新設検討",
+      "url": "https://news.yahoo.co.jp/pickup/6587472?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-07-10T13:17:10.000Z",
       "summaryJa": [
-        "スペイン南部で大規模な山火事が発生し、地元当局によりますと、これまでに少なくとも11人が死亡したほか、19人が行方不明になっているということです。",
-        "出典: NHKニュース 国際",
+        "退職自衛官支援へ「庁」新設検討",
+        "出典: Yahoo!ニュース トピックス",
         "詳細は元記事を参照してください。"
       ],
       "category": "news",
       "keywords": [
-        "スペイン南部",
-        "大規模山火事",
-        "少なくとも11人死亡",
-        "19人行方不明"
+        "退職自衛官支援へ「庁」新設検討"
       ],
       "heat": {
         "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 2,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-6b31822a",
+      "title": "Claude Codeとハーネスについて考えてみる",
+      "url": "https://speakerdeck.com/oikon48/claude-codetohanesunituitekao-etemiru",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-07-10T11:58:18.000Z",
+      "summaryJa": [
+        "AI駆動開発勉強会 福岡出張版+ EnjoyAIDeveloping : https://enjoy-dev-ai.",
+        "connpass.",
+        "com/event/397844/"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Codeとハーネスについて考えてみる"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 17,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 8.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-51a88932",
+      "title": "Write code like a human will maintain it",
+      "url": "https://unstack.io/write-code-like-a-human-will-maintain-it",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-07-10T13:33:00.000Z",
+      "summaryJa": [
+        "Write code like a human will maintain it",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Write",
+        "code",
+        "like",
+        "human",
+        "will"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 18,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 36
         }
       },
       "image": null
@@ -368,7 +426,7 @@
         "BLOG"
       ],
       "heat": {
-        "temperature": 84,
+        "temperature": 83,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 113,
@@ -397,84 +455,24 @@
         "5.6"
       ],
       "heat": {
-        "temperature": 83,
+        "temperature": 81,
         "signals": {
-          "hnPoints": 1401,
+          "hnPoints": 1403,
           "hatebuCount": 0,
           "ageHours": 21,
           "crossSources": 1,
-          "velocity": 67.2
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-a196e9e1",
-      "title": "EU Commission: addictive design Instagram and Facebook in breach of the DSA",
-      "url": "https://ec.europa.eu/commission/presscorner/home/en",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-07-10T11:00:15.000Z",
-      "summaryJa": [
-        "EU Commission: addictive design Instagram and Face",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "EU",
-        "Commission",
-        "addictive",
-        "design",
-        "Instagram"
-      ],
-      "heat": {
-        "temperature": 83,
-        "signals": {
-          "hnPoints": 103,
-          "hatebuCount": 0,
-          "ageHours": 3,
-          "crossSources": 1,
-          "velocity": 35.2
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-c491e2f6",
-      "title": "Cloudflareだけで独自ドメインメールをGmailから送受信できるようになってた",
-      "url": "https://zenn.dev/9m/articles/d08dcc093e1bbf",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-07-10T03:47:12.000Z",
-      "summaryJa": [
-        "TL;DR メールの受信は Cloudflare Email Routing メールの送信は Cloudflare Email Sending メールの閲覧・作",
-        "独自ドメインのメールアドレスにお金かけたくない問題 個人開発をやっているとポコポコ独.",
-        "."
-      ],
-      "category": "programming",
-      "keywords": [
-        "programming"
-      ],
-      "heat": {
-        "temperature": 81,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 84,
-          "ageHours": 10,
-          "crossSources": 1,
-          "velocity": 8.3
+          "velocity": 67
         }
       },
       "image": null
     },
     {
       "id": "gtrends-jp-ccbd37e7",
-      "title": "tbs",
+      "title": "skhy",
       "url": "https://trends.google.com/trending/rss?geo=JP",
       "source": "Google トレンド",
       "sourceId": "gtrends-jp",
-      "publishedAt": "2026-07-10T13:40:00.000Z",
+      "publishedAt": "2026-07-10T13:50:00.000Z",
       "summaryJa": [
         "arthur fery",
         "出典: Google トレンド",
@@ -482,7 +480,7 @@
       ],
       "category": "trends",
       "keywords": [
-        "tbs"
+        "skhy"
       ],
       "heat": {
         "temperature": 55,
@@ -499,32 +497,33 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "show-hn-aaad82ae",
-      "title": "Show HN: Homebrew 6.0.0",
-      "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
+      "id": "show-hn-9a48ce0c",
+      "title": "Show HN: I made an open-source laptop from scratch",
+      "url": "https://www.byran.ee/posts/creation/",
       "source": "Show HN",
       "sourceId": "show-hn",
-      "publishedAt": "2026-06-11T13:24:29.000Z",
+      "publishedAt": "2025-01-22T20:41:52.000Z",
       "summaryJa": [
-        "Today, I’m proud to announce Homebrew 6.",
-        "0.",
-        "0."
+        "Hello!",
+        "I&#x27;m Byran.",
+        "I spent the past ~6 months engineering a laptop from scratch."
       ],
       "category": "tech",
       "keywords": [
         "Show",
         "HN",
-        "Homebrew",
-        "6.0.0"
+        "made",
+        "an",
+        "open"
       ],
       "heat": {
-        "temperature": 80,
+        "temperature": 75,
         "signals": {
-          "hnPoints": 1481,
+          "hnPoints": 3237,
           "hatebuCount": 0,
-          "ageHours": 697,
+          "ageHours": 12809,
           "crossSources": 1,
-          "velocity": 2.1
+          "velocity": 0.3
         }
       },
       "image": null
