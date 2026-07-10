@@ -15,6 +15,13 @@
       "edition": "midday",
       "theme": "自律的な道具たち",
       "path": "issues/2026-07-11-midday.json"
+    },
+    {
+      "issueNo": 3,
+      "date": "2026-07-11",
+      "edition": "morning",
+      "theme": "計算の境界線",
+      "path": "issues/2026-07-11-morning.json"
     }
   ]
 }
