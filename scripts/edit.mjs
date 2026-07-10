@@ -325,7 +325,8 @@ export async function edit({ editorPromptTemplate, candidates, gemCandidates, ed
     const res = await provider.generate(promptCtx, { candidates, gemCandidates, editionConfig, models: sourcesConfig.editor.models, apiKey });
     raw = res.output;
     modelUsed = res.model;
-  } catch {
+  } catch (err) {
+    console.error(`編集AI(${providerName})が失敗したためフォールバックします: ${err?.message ?? err}`);
     raw = null;
   }
 

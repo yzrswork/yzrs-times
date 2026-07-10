@@ -3,7 +3,7 @@
   "coins": ["bitcoin", "ethereum", "bitcoin-cash", "stellar"],
   "editor": {
     "provider": "gemini",
-    "models": ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"],
+    "models": ["gemini-3.5-flash", "gemini-flash-latest", "gemini-3-flash-preview"],
     "maxCandidates": 30,
     "maxSnippetChars": 300,
     "perSourceQuota": 8
