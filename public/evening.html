@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>YZRS Times — 夕刊（探索版）</title>
+<style>
+  /* 夕刊は意図して夜の紙面。朝刊のテラコッタ×クリームを夜空側へ反転する */
+  :root {
+    --night: #14110c;
+    --night-2: #1d1913;
+    --night-3: #262017;
+    --ink: #e9dfc9;
+    --ink-dim: #8b7f66;
+    --accent: #d96f36;
+    --line: rgba(233, 223, 201, 0.14);
+    --c-tech: #d96f36;
+    --c-news: #5e97d6;
+    --c-programming: #b08a29;
+    --c-oss: #47a06e;
+    --c-blog: #b571c0;
+    --c-trends: #d16a86;
+    --c-general: #8d8577;
+    --c-issue: #e9dfc9;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; overflow: hidden; }
+  body {
+    background: var(--night);
+    color: var(--ink);
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+    display: flex; flex-direction: column;
+  }
+
+  header.masthead {
+    flex: none;
+    border-bottom: 1px solid var(--line);
+    padding: 10px 16px 8px;
+    background: var(--night);
+    z-index: 5;
+  }
+  .masthead-row { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .brand { font-size: 20px; font-weight: 700; letter-spacing: 0.06em; }
+  .brand a { color: var(--ink); text-decoration: none; }
+  .edition-tag {
+    color: var(--accent); border: 1px solid var(--accent);
+    font-size: 11px; padding: 1px 8px; letter-spacing: 0.2em;
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  }
+  .meta { color: var(--ink-dim); font-size: 12px; }
+  .back-link { margin-left: auto; font-size: 12px; }
+  .back-link a { color: var(--ink-dim); text-decoration: none; border-bottom: 1px solid var(--line); }
+  .back-link a:hover { color: var(--ink); }
+
+  .controls {
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+    margin-top: 8px;
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  }
+  .controls input[type="search"] {
+    background: var(--night-2); border: 1px solid var(--line); color: var(--ink);
+    padding: 5px 10px; font-size: 13px; width: 200px; border-radius: 3px;
+    font-family: inherit;
+  }
+  .controls input[type="search"]:focus { outline: 1px solid var(--accent); }
+  .toggle {
+    display: inline-flex; align-items: center; gap: 5px;
+    color: var(--ink-dim); font-size: 12px; cursor: pointer; user-select: none;
+  }
+  .toggle input { accent-color: var(--accent); cursor: pointer; }
+  .btn-reset {
+    background: none; border: 1px solid var(--line); color: var(--ink-dim);
+    font-size: 12px; padding: 4px 10px; cursor: pointer; border-radius: 3px; font-family: inherit;
+  }
+  .btn-reset:hover { color: var(--ink); border-color: var(--ink-dim); }
+  .legend { display: inline-flex; gap: 10px; flex-wrap: wrap; margin-left: auto; }
+  .legend .chip { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; color: var(--ink-dim); }
+  .legend .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+
+  main { flex: 1; position: relative; overflow: hidden; }
+  /* canvasは置換要素のため inset:0 だけでは伸びない。width/heightを明示する */
+  canvas#graph { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; }
+  canvas#graph.dragging { cursor: grabbing; }
+
+  .hint {
+    position: absolute; left: 12px; bottom: 10px; color: var(--ink-dim);
+    font-size: 11px; pointer-events: none; opacity: 0.8;
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  }
+
+  aside#panel {
+    position: absolute; top: 0; right: 0; bottom: 0; width: 320px; max-width: 88vw;
+    background: rgba(29, 25, 19, 0.96); border-left: 1px solid var(--line);
+    padding: 16px; overflow-y: auto; transform: translateX(0); transition: transform 0.18s ease;
+  }
+  aside#panel.hidden { transform: translateX(105%); }
+  #panel .panel-close {
+    position: absolute; top: 8px; right: 10px; background: none; border: none;
+    color: var(--ink-dim); font-size: 18px; cursor: pointer; font-family: inherit;
+  }
+  #panel .panel-kicker { color: var(--accent); font-size: 11px; letter-spacing: 0.2em; margin-bottom: 6px;
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; }
+  #panel h2 { font-size: 16px; line-height: 1.5; margin-bottom: 8px; font-weight: 700; }
+  #panel h2 a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
+  #panel h2 a:hover { border-bottom-color: var(--accent); }
+  #panel .panel-meta { color: var(--ink-dim); font-size: 12px; margin-bottom: 10px; line-height: 1.7; }
+  #panel .summary { border-left: 2px solid var(--accent); padding-left: 10px; margin: 10px 0; }
+  #panel .summary p { font-size: 13px; line-height: 1.9; color: var(--ink); }
+  #panel .kw-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  #panel .kw-chips span {
+    font-size: 11px; color: var(--ink-dim); border: 1px solid var(--line);
+    padding: 1px 8px; border-radius: 10px;
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  }
+  #panel ul.linked { list-style: none; margin-top: 8px; }
+  #panel ul.linked li { margin-bottom: 8px; font-size: 13px; line-height: 1.6; }
+  #panel ul.linked li a { color: var(--ink); text-decoration: none; cursor: pointer; border-bottom: 1px dotted var(--line); }
+  #panel ul.linked li a:hover { color: var(--accent); }
+  #panel ul.linked li .sub { color: var(--ink-dim); font-size: 11px; display: block; }
+  #panel .cat-mark { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
+
+  footer.colophon {
+    flex: none; border-top: 1px solid var(--line); color: var(--ink-dim);
+    font-size: 11px; text-align: center; padding: 6px 10px;
+  }
+
+  @media (max-width: 640px) {
+    .controls input[type="search"] { width: 130px; }
+    .legend { display: none; }
+    aside#panel { width: 100%; max-width: 100%; top: auto; height: 46%; border-left: none; border-top: 1px solid var(--line); }
+    aside#panel.hidden { transform: translateY(105%); }
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-row">
+    <div class="brand"><a href="./index.html">YZRS Times</a></div>
+    <div class="edition-tag">夕刊 EVENING EDITION</div>
+    <div class="meta" id="meta-line">縮刷版を読み込み中…</div>
+    <div class="back-link"><a href="./index.html">一面へ戻る</a></div>
+  </div>
+  <div class="controls">
+    <input type="search" id="search" placeholder="記事、キーワードを探す" autocomplete="off">
+    <label class="toggle"><input type="checkbox" id="tgl-keyword" checked>キーワード</label>
+    <label class="toggle"><input type="checkbox" id="tgl-category" checked>カテゴリ</label>
+    <label class="toggle"><input type="checkbox" id="tgl-issue" checked>号の鎖</label>
+    <button class="btn-reset" id="btn-reset">表示リセット</button>
+    <div class="legend" id="legend"></div>
+  </div>
+</header>
+
+<main>
+  <canvas id="graph"></canvas>
+  <div class="hint">ドラッグで移動 / ホイール、ピンチで拡大 / 点を選ぶと詳細</div>
+  <aside id="panel" class="hidden">
+    <button class="panel-close" id="panel-close">×</button>
+    <div id="panel-body"></div>
+  </aside>
+</main>
+
+<footer class="colophon">YZRS Times 夕刊 — 縮刷版アーカイブの探索モード。号を重ねるほど星図は育つ</footer>
+
+<script>
+(function () {
+'use strict';
+
+/* ---------- 配色（カテゴリはCVD検証済みパレット） ---------- */
+var CAT_COLORS = {
+  tech: '#d96f36', news: '#5e97d6', programming: '#b08a29',
+  oss: '#47a06e', blog: '#b571c0', trends: '#d16a86', general: '#8d8577',
+};
+var CAT_FALLBACK = '#8d8577';
+var COLOR_ISSUE = '#e9dfc9';
+var COLOR_KEYWORD = '#7d7360';
+var COLOR_EDGE = 'rgba(233, 223, 201, 0.16)';
+var COLOR_EDGE_SEQ = 'rgba(217, 111, 54, 0.45)';
+var COLOR_EDGE_HI = 'rgba(217, 111, 54, 0.75)';
+var CAT_LABEL = {
+  tech: 'テック', news: '時事', programming: 'プログラミング',
+  oss: 'OSS', blog: 'ブログ', trends: 'トレンド', general: 'その他',
+};
+function catColor(c) { return CAT_COLORS[c] || CAT_FALLBACK; }
+
+/* ---------- 状態 ---------- */
+var canvas = document.getElementById('graph');
+var ctx = canvas.getContext('2d');
+var nodes = [], edges = [], nodeById = {};
+var adj = {};            // id -> Set(隣接id)
+var view = { x: 0, y: 0, scale: 1 };
+var alpha = 0;           // シミュレーション温度（0で静止）
+var selected = null, hovered = null, searchHits = null;
+var showKeyword = true, showCategory = true, showIssue = true;
+var dpr = Math.max(1, window.devicePixelRatio || 1);
+
+function visible(n) {
+  if (n.type === 'keyword') return showKeyword;
+  if (n.type === 'category') return showCategory;
+  if (n.type === 'issue') return showIssue;
+  return true;
+}
+function edgeVisible(e) { return visible(nodeById[e.s]) && visible(nodeById[e.t]); }
+
+/* ---------- 読み込み ---------- */
+fetch('data/graph.json', { cache: 'no-cache' })
+  .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+  .then(init)
+  .catch(function (err) {
+    document.getElementById('meta-line').textContent = '縮刷版の読み込みに失敗しました（' + err.message + '）';
+  });
+
+function init(graph) {
+  nodes = graph.nodes;
+  edges = graph.edges;
+  var W = canvas.clientWidth || window.innerWidth;
+  var H = canvas.clientHeight || (window.innerHeight - 120);
+
+  nodes.forEach(function (n, i) {
+    nodeById[n.id] = n;
+    adj[n.id] = adj[n.id] || new Set();
+    // 初期配置: 号は横の時間軸に、他はその周囲に散らす（決定論の必要はないが安定する）
+    if (n.type === 'issue') {
+      var order = nodes.filter(function (m) { return m.type === 'issue'; }).indexOf(n);
+      n.x = W / 2 + (order - graph.counts.issues / 2) * 140;
+      n.y = H / 2;
+    } else {
+      var ang = (i * 2.399963) % (Math.PI * 2); // 黄金角で均す
+      var rad = 90 + (i % 13) * 22;
+      n.x = W / 2 + Math.cos(ang) * rad;
+      n.y = H / 2 + Math.sin(ang) * rad;
+    }
+    n.vx = 0; n.vy = 0;
+    n.r = radiusOf(n);
+  });
+  edges.forEach(function (e) {
+    adj[e.s] = adj[e.s] || new Set(); adj[e.t] = adj[e.t] || new Set();
+    adj[e.s].add(e.t); adj[e.t].add(e.s);
+  });
+  nodes.forEach(function (n) { n.deg = adj[n.id] ? adj[n.id].size : 0; n.r = radiusOf(n); });
+
+  var dates = nodes.filter(function (n) { return n.type === 'issue'; }).map(function (n) { return n.date; }).sort();
+  document.getElementById('meta-line').textContent =
+    '全' + graph.counts.issues + '号 ' + graph.counts.articles + '記事' +
+    (dates.length ? '（' + dates[0].replace(/-/g, '.') + ' から ' + dates[dates.length - 1].replace(/-/g, '.') + '）' : '');
+
+  buildLegend();
+  resize();
+  heat(1);
+  requestAnimationFrame(tick);
+}
+
+function radiusOf(n) {
+  if (n.type === 'issue') return 13;
+  if (n.type === 'category') return 8 + Math.min(6, (n.count || 1) * 0.4);
+  if (n.type === 'keyword') return 4 + Math.min(4, (n.count || 1));
+  return 6 + Math.min(6, (n.deg || 1) * 0.8); // article
+}
+
+function buildLegend() {
+  var host = document.getElementById('legend');
+  var present = {};
+  nodes.forEach(function (n) { if (n.type === 'article') present[n.category] = true; });
+  Object.keys(CAT_COLORS).forEach(function (c) {
+    if (!present[c]) return;
+    var chip = document.createElement('span');
+    chip.className = 'chip';
+    var dot = document.createElement('span');
+    dot.className = 'dot'; dot.style.background = catColor(c);
+    chip.appendChild(dot);
+    chip.appendChild(document.createTextNode(CAT_LABEL[c] || c));
+    host.appendChild(chip);
+  });
+}
+
+/* ---------- 物理（簡易力学。数千ノードまではO(n^2)で足りる） ---------- */
+var REST = { pub: 90, kw: 70, cat: 110, seq: 150 };
+var STRENGTH = { pub: 0.012, kw: 0.02, cat: 0.006, seq: 0.03 };
+
+function heat(a) { alpha = Math.max(alpha, a); }
+
+function step() {
+  var vis = nodes.filter(visible);
+  var i, j, n, m;
+  // 斥力
+  for (i = 0; i < vis.length; i++) {
+    n = vis[i];
+    for (j = i + 1; j < vis.length; j++) {
+      m = vis[j];
+      var dx = n.x - m.x, dy = n.y - m.y;
+      var d2 = dx * dx + dy * dy;
+      if (d2 < 1) d2 = 1;
+      if (d2 > 160000) continue; // 400px超は無視して負荷を抑える
+      var f = 900 / d2;
+      var d = Math.sqrt(d2);
+      var fx = (dx / d) * f, fy = (dy / d) * f;
+      n.vx += fx; n.vy += fy; m.vx -= fx; m.vy -= fy;
+    }
+  }
+  // ばね（エッジ）
+  for (i = 0; i < edges.length; i++) {
+    var e = edges[i];
+    if (!edgeVisible(e)) continue;
+    n = nodeById[e.s]; m = nodeById[e.t];
+    var ddx = m.x - n.x, ddy = m.y - n.y;
+    var dist = Math.sqrt(ddx * ddx + ddy * ddy) || 1;
+    var diff = dist - (REST[e.type] || 90);
+    var k = (STRENGTH[e.type] || 0.01) * diff;
+    var ux = ddx / dist, uy = ddy / dist;
+    n.vx += ux * k; n.vy += uy * k;
+    m.vx -= ux * k; m.vy -= uy * k;
+  }
+  // 中心重力 + 減衰 + 反映
+  var W = canvas.clientWidth, H = canvas.clientHeight;
+  for (i = 0; i < vis.length; i++) {
+    n = vis[i];
+    n.vx += (W / 2 - n.x) * 0.0012;
+    n.vy += (H / 2 - n.y) * 0.0012;
+    if (n === dragNode) { n.vx = 0; n.vy = 0; continue; }
+    n.vx *= 0.82; n.vy *= 0.82;
+    n.x += n.vx * alpha; n.y += n.vy * alpha;
+  }
+  alpha *= 0.985;
+  if (alpha < 0.02) alpha = 0;
+}
+
+/* ---------- 描画 ---------- */
+function resize() {
+  var w = canvas.clientWidth, h = canvas.clientHeight;
+  canvas.width = w * dpr; canvas.height = h * dpr;
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+}
+window.addEventListener('resize', function () { resize(); heat(0.3); });
+
+function tick() {
+  if (alpha > 0) step();
+  draw();
+  requestAnimationFrame(tick);
+}
+
+function highlightSet() {
+  var focus = hovered || selected;
+  if (!focus && !searchHits) return null;
+  var set = new Set();
+  if (focus) {
+    set.add(focus.id);
+    (adj[focus.id] || []).forEach(function (id) { set.add(id); });
+  }
+  if (searchHits) searchHits.forEach(function (id) { set.add(id); });
+  return set;
+}
+
+function draw() {
+  var w = canvas.clientWidth, h = canvas.clientHeight;
+  ctx.clearRect(0, 0, w, h);
+  ctx.save();
+  ctx.translate(view.x, view.y);
+  ctx.scale(view.scale, view.scale);
+
+  var hi = highlightSet();
+
+  // エッジ
+  ctx.lineWidth = 1 / view.scale;
+  edges.forEach(function (e) {
+    if (!edgeVisible(e)) return;
+    var a = nodeById[e.s], b = nodeById[e.t];
+    var lit = hi && hi.has(a.id) && hi.has(b.id);
+    if (hi && !lit) { ctx.strokeStyle = 'rgba(233,223,201,0.05)'; }
+    else if (lit) { ctx.strokeStyle = COLOR_EDGE_HI; ctx.lineWidth = 1.6 / view.scale; }
+    else { ctx.strokeStyle = e.type === 'seq' ? COLOR_EDGE_SEQ : COLOR_EDGE; ctx.lineWidth = (e.type === 'seq' ? 1.5 : 1) / view.scale; }
+    ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+  });
+
+  // ノード
+  nodes.forEach(function (n) {
+    if (!visible(n)) return;
+    var dim = hi && !hi.has(n.id);
+    ctx.globalAlpha = dim ? 0.18 : 1;
+    ctx.beginPath();
+    ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
+    if (n.type === 'issue') ctx.fillStyle = COLOR_ISSUE;
+    else if (n.type === 'keyword') ctx.fillStyle = COLOR_KEYWORD;
+    else if (n.type === 'category') ctx.fillStyle = catColor(n.label);
+    else ctx.fillStyle = catColor(n.category);
+    ctx.fill();
+    if (n.type === 'category') { // カテゴリはリングで区別（色だけに頼らない）
+      ctx.strokeStyle = 'rgba(20,17,12,0.9)'; ctx.lineWidth = 2 / view.scale; ctx.stroke();
+      ctx.beginPath(); ctx.arc(n.x, n.y, n.r + 3 / view.scale, 0, Math.PI * 2);
+      ctx.strokeStyle = catColor(n.label); ctx.lineWidth = 1 / view.scale; ctx.stroke();
+    }
+    if (n.gem && n.type === 'article') { // Hidden Gemは輪郭で光らせる
+      ctx.beginPath(); ctx.arc(n.x, n.y, n.r + 2.5 / view.scale, 0, Math.PI * 2);
+      ctx.strokeStyle = COLOR_ISSUE; ctx.lineWidth = 1 / view.scale; ctx.stroke();
+    }
+    if (n === selected) {
+      ctx.beginPath(); ctx.arc(n.x, n.y, n.r + 4 / view.scale, 0, Math.PI * 2);
+      ctx.strokeStyle = COLOR_EDGE_HI; ctx.lineWidth = 1.6 / view.scale; ctx.stroke();
+    }
+    ctx.globalAlpha = 1;
+  });
+
+  // ラベル（号とカテゴリは常時。記事は拡大時か強調時のみ）
+  var labelArticles = view.scale > 1.35;
+  ctx.textAlign = 'center';
+  nodes.forEach(function (n) {
+    if (!visible(n)) return;
+    var dim = hi && !hi.has(n.id);
+    var show = n.type === 'issue' || n.type === 'category' ||
+      (n.type === 'article' && (labelArticles || (hi && hi.has(n.id)))) ||
+      (n.type === 'keyword' && (labelArticles || (hi && hi.has(n.id))));
+    if (!show || dim) return;
+    var size = (n.type === 'issue' ? 12 : n.type === 'category' ? 11 : 10) / view.scale;
+    if (size < 3) return;
+    ctx.font = size + 'px "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif';
+    ctx.fillStyle = n.type === 'issue' ? 'rgba(233,223,201,0.9)' : 'rgba(233,223,201,0.65)';
+    var label = n.type === 'category' ? (CAT_LABEL[n.label] || n.label) : n.label;
+    if (n.type === 'article' && label.length > 24) label = label.slice(0, 23) + '…';
+    ctx.fillText(label, n.x, n.y + n.r + size + 2 / view.scale);
+  });
+
+  ctx.restore();
+}
+
+/* ---------- 座標変換とヒットテスト ---------- */
+function toWorld(px, py) {
+  return { x: (px - view.x) / view.scale, y: (py - view.y) / view.scale };
+}
+function pick(px, py) {
+  var p = toWorld(px, py);
+  var best = null, bestD = Infinity;
+  nodes.forEach(function (n) {
+    if (!visible(n)) return;
+    var dx = n.x - p.x, dy = n.y - p.y;
+    var d = Math.sqrt(dx * dx + dy * dy);
+    var hitR = Math.max(n.r + 4, 12 / view.scale); // 当たり判定は見た目より広く
+    if (d < hitR && d < bestD) { best = n; bestD = d; }
+  });
+  return best;
+}
+
+/* ---------- 操作（マウス + タッチ） ---------- */
+var dragNode = null, panning = false, lastX = 0, lastY = 0, moved = 0;
+var pinchDist = 0;
+
+canvas.addEventListener('pointerdown', function (ev) {
+  canvas.setPointerCapture(ev.pointerId);
+  var n = pick(ev.offsetX, ev.offsetY);
+  moved = 0;
+  if (n) { dragNode = n; heat(0.4); }
+  else { panning = true; canvas.classList.add('dragging'); }
+  lastX = ev.offsetX; lastY = ev.offsetY;
+});
+canvas.addEventListener('pointermove', function (ev) {
+  if (dragNode) {
+    var p = toWorld(ev.offsetX, ev.offsetY);
+    dragNode.x = p.x; dragNode.y = p.y;
+    heat(0.35);
+  } else if (panning) {
+    view.x += ev.offsetX - lastX; view.y += ev.offsetY - lastY;
+  } else {
+    var h = pick(ev.offsetX, ev.offsetY);
+    if (h !== hovered) { hovered = h; canvas.style.cursor = h ? 'pointer' : 'grab'; }
+  }
+  moved += Math.abs(ev.offsetX - lastX) + Math.abs(ev.offsetY - lastY);
+  lastX = ev.offsetX; lastY = ev.offsetY;
+});
+canvas.addEventListener('pointerup', function (ev) {
+  if (dragNode && moved < 6) select(dragNode);
+  else if (panning && moved < 6) { select(null); }
+  dragNode = null; panning = false;
+  canvas.classList.remove('dragging');
+});
+canvas.addEventListener('pointerleave', function () { hovered = null; });
+
+canvas.addEventListener('wheel', function (ev) {
+  ev.preventDefault();
+  var factor = ev.deltaY < 0 ? 1.12 : 1 / 1.12;
+  zoomAt(ev.offsetX, ev.offsetY, factor);
+}, { passive: false });
+
+// ピンチズーム（2本指タッチ）
+canvas.addEventListener('touchmove', function (ev) {
+  if (ev.touches.length === 2) {
+    ev.preventDefault();
+    var t0 = ev.touches[0], t1 = ev.touches[1];
+    var d = Math.hypot(t0.clientX - t1.clientX, t0.clientY - t1.clientY);
+    if (pinchDist > 0) {
+      var rect = canvas.getBoundingClientRect();
+      var cx = (t0.clientX + t1.clientX) / 2 - rect.left;
+      var cy = (t0.clientY + t1.clientY) / 2 - rect.top;
+      zoomAt(cx, cy, d / pinchDist);
+    }
+    pinchDist = d;
+  }
+}, { passive: false });
+canvas.addEventListener('touchend', function () { pinchDist = 0; });
+
+function zoomAt(px, py, factor) {
+  var newScale = Math.min(6, Math.max(0.25, view.scale * factor));
+  var real = factor === 0 ? 1 : newScale / view.scale;
+  view.x = px - (px - view.x) * real;
+  view.y = py - (py - view.y) * real;
+  view.scale = newScale;
+}
+
+/* ---------- 選択と詳細パネル ---------- */
+var panel = document.getElementById('panel');
+var panelBody = document.getElementById('panel-body');
+document.getElementById('panel-close').addEventListener('click', function () { select(null); });
+
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+  });
+}
+
+function select(n) {
+  selected = n;
+  if (!n) { panel.classList.add('hidden'); return; }
+  panel.classList.remove('hidden');
+  if (n.type === 'article') renderArticle(n);
+  else renderHub(n);
+}
+
+function renderArticle(n) {
+  var html = '<div class="panel-kicker">' + esc(CAT_LABEL[n.category] || n.category) +
+    (n.gem ? ' ・ HIDDEN GEM' : '') + '</div>';
+  html += '<h2><a href="' + esc(n.url) + '" target="_blank" rel="noopener">' + esc(n.label) + '</a></h2>';
+  html += '<div class="panel-meta">' + esc(n.date) + ' 掲載 / ' + esc(n.source || '') +
+    (n.temperature != null ? ' / Heat ' + esc(n.temperature) + '℃' : '') + '</div>';
+  if (n.summaryJa && n.summaryJa.length) {
+    html += '<div class="summary">';
+    n.summaryJa.forEach(function (line) { html += '<p>' + esc(line) + '</p>'; });
+    html += '</div>';
+  }
+  if (n.keywords && n.keywords.length) {
+    html += '<div class="kw-chips">';
+    n.keywords.forEach(function (k) { html += '<span>' + esc(k) + '</span>'; });
+    html += '</div>';
+  }
+  html += linkedList(n, 'この記事とつながる点');
+  panelBody.innerHTML = html;
+  bindLinked();
+}
+
+function renderHub(n) {
+  var kicker = n.type === 'issue' ? '号' : n.type === 'keyword' ? 'キーワード' : 'カテゴリ';
+  var title = n.type === 'category' ? (CAT_LABEL[n.label] || n.label) : n.label;
+  var html = '<div class="panel-kicker">' + kicker + '</div><h2>' + esc(title) + '</h2>';
+  if (n.type === 'issue') {
+    html += '<div class="panel-meta">' + esc(n.date) + (n.theme ? ' / テーマ『' + esc(n.theme) + '』' : '') + '</div>';
+  } else {
+    html += '<div class="panel-meta">' + esc(n.count || (adj[n.id] || []).size) + '記事とつながっています</div>';
+  }
+  html += linkedList(n, 'つながる記事');
+  panelBody.innerHTML = html;
+  bindLinked();
+}
+
+function linkedList(n, heading) {
+  var ids = [...(adj[n.id] || [])];
+  var arts = ids.map(function (id) { return nodeById[id]; })
+    .filter(function (m) { return m && m.type === 'article'; })
+    .sort(function (a, b) { return (b.temperature || 0) - (a.temperature || 0); });
+  if (!arts.length) return '';
+  var html = '<div class="panel-kicker" style="margin-top:16px">' + esc(heading) + '</div><ul class="linked">';
+  arts.slice(0, 20).forEach(function (m) {
+    html += '<li><span class="cat-mark" style="background:' + catColor(m.category) + '"></span>' +
+      '<a data-node="' + esc(m.id) + '">' + esc(m.label) + '</a>' +
+      '<span class="sub">' + esc(m.date) + ' / ' + esc(CAT_LABEL[m.category] || m.category) + '</span></li>';
+  });
+  html += '</ul>';
+  return html;
+}
+
+function bindLinked() {
+  panelBody.querySelectorAll('a[data-node]').forEach(function (a) {
+    a.addEventListener('click', function (ev) {
+      ev.preventDefault();
+      var n = nodeById[a.getAttribute('data-node')];
+      if (n) { select(n); centerOn(n); }
+    });
+  });
+}
+
+function centerOn(n) {
+  var w = canvas.clientWidth, h = canvas.clientHeight;
+  view.x = w / 2 - n.x * view.scale;
+  view.y = h / 2 - n.y * view.scale;
+}
+
+/* ---------- 検索とトグル ---------- */
+var searchBox = document.getElementById('search');
+searchBox.addEventListener('input', function () {
+  var q = searchBox.value.trim().toLowerCase();
+  if (!q) { searchHits = null; return; }
+  searchHits = new Set();
+  nodes.forEach(function (n) {
+    if (!visible(n)) return;
+    var hay = (n.label || '').toLowerCase() + ' ' + ((n.keywords || []).join(' ')).toLowerCase();
+    if (hay.indexOf(q) !== -1) searchHits.add(n.id);
+  });
+});
+searchBox.addEventListener('keydown', function (ev) {
+  if (ev.key === 'Enter' && searchHits && searchHits.size) {
+    var first = nodeById[[...searchHits][0]];
+    select(first); centerOn(first);
+  }
+});
+
+document.getElementById('tgl-keyword').addEventListener('change', function (ev) { showKeyword = ev.target.checked; heat(0.5); });
+document.getElementById('tgl-category').addEventListener('change', function (ev) { showCategory = ev.target.checked; heat(0.5); });
+document.getElementById('tgl-issue').addEventListener('change', function (ev) { showIssue = ev.target.checked; heat(0.5); });
+document.getElementById('btn-reset').addEventListener('click', function () {
+  view = { x: 0, y: 0, scale: 1 };
+  searchBox.value = ''; searchHits = null;
+  select(null); heat(0.6);
+});
+
+})();
+</script>
+</body>
+</html>

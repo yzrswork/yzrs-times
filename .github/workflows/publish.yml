@@ -43,6 +43,9 @@ jobs:
           if [ "$FORCE" = "true" ]; then ARGS="--force"; fi
           node scripts/build-issue.mjs morning $ARGS
 
+      - name: Build graph (夕刊の探索データを再導出)
+        run: node scripts/build-graph.mjs
+
       - name: Commit and push
         run: |
           git config user.name "YZRS Times 編集部"

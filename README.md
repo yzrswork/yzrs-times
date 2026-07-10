@@ -18,6 +18,8 @@ Less scrolling. More discovering.
   ④ publish : 号JSONを生成して commit & push
        ↓ pushを検知して Cloudflare（Workers静的アセット）が自動デプロイ
 静的な紙面 public/index.html が latest.json を読んで描画
+夕刊 public/evening.html は縮刷版アーカイブ全体の探索モード（発行なし・
+graph.json を読む派生ビュー。発行のたびに自動で育つ）
 ```
 
 ランニングコストは **¥0**（GitHub Actions無料枠・Gemini API無料枠・Cloudflare Workers無料枠）。
@@ -50,6 +52,7 @@ Less scrolling. More discovering.
 ```
 public/            Cloudflare が配信する公開ディレクトリ（wrangler.jsonc の assets.directory）
   index.html       紙面（単一ファイル）
+  evening.html     夕刊 = 縮刷版探索モード（単一ファイル・Graph View）
   data/            号アーカイブ・月次index・latest.json
 scripts/           発行パイプライン（collect → rank → edit → publish）
   sources/         ソース型別フェッチャー（rss / hn / hatebu / coingecko / …）

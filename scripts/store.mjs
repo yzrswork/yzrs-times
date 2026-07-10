@@ -113,7 +113,7 @@ export function saveIssue(issue) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
   fs.writeFileSync(
     LAST_MESSAGE_FILE,
-    `Issue #${issue.issueNo} — ${issue.date} Morning Edition『${issue.theme?.title ?? ''}』\n`,
+    `Issue #${issue.issueNo} — ${issue.date} ${issue.editionTitle ?? issue.edition}『${issue.theme?.title ?? ''}』\n`,
     'utf8',
   );
 

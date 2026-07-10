@@ -4,6 +4,7 @@ const CATEGORY_BY_SOURCE = {
   'nhk-top': 'news', 'nhk-world': 'news', 'yahoo-topics': 'news',
   'hn-front': 'tech', 'hatebu-it': 'programming', 'gtrends-jp': 'trends',
   'show-hn': 'tech', 'github-gems': 'oss', 'indieblog': 'blog',
+  'zenn-trend': 'programming', 'qiita-popular': 'programming', 'lobsters': 'tech',
 };
 
 // snippetを整形して要約代わりの3行を機械的に組み立てる（フォールバック・mock用）。

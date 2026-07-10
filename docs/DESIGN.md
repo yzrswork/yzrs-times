@@ -72,3 +72,14 @@
 - editions/*.json による版のデータ駆動化 → 昼刊は設定ファイル追加のみ
 - フィードバック・切り抜きはlocalStorage → 将来Workers KVへ（最初のWorkers学習題材）
 - 紙面RSS配信・週刊まとめ特別号・「明日の朝刊で深掘り」は構想のみ（README外・ここに記録）
+
+## 追記（2026-07-11）: 昼刊・夕刊を実装
+
+- **昼刊**: editions/midday.json + publish-midday.yml（12:00 JST・13:00補習）。技術インプット専門版。
+  ソースに Zenn / Qiita / Lobsters を追加（optional・fail-soft）。設計どおり「設定ファイル追加のみ」で増設できた
+- **夕刊**: 「毎夕発行される号」ではなく**縮刷版アーカイブ全体の常設探索モード**として設計判断。
+  public/evening.html（Obsidian Graph View風・単一ファイル・依存なしCanvas）が
+  public/data/graph.json を読む。graph.json は scripts/build-graph.mjs が全号JSONから
+  再導出する派生物（データ契約の「号JSONが正典」に従う。AIなし・決定論）で、
+  朝刊・昼刊の発行workflowが発行のたびに再生成する。ノードは号・記事・キーワード・カテゴリの
+  4種、号同士は時系列の鎖でつなぐ。記事はURL正規化で全号横断の重複を1点に束ねる
