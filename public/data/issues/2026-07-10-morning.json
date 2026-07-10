@@ -6,7 +6,7 @@
   "date": "2026-07-10",
   "dateDisplay": "Friday, July 10, 2026",
   "pressTimeJst": "2026-07-10 05:00",
-  "generatedAt": "2026-07-10T14:00:20.592Z",
+  "generatedAt": "2026-07-10T14:09:33.296Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "fallback",
@@ -18,7 +18,7 @@
     "note": "本日は自動編成でお届けします。"
   },
   "editorial": {
-    "comment": "本日は編集AIが利用できなかったため、Heat順の自動編成でお届けします。一面は「「メールが届かなくても仕方ない」を普通にしませんか」です。",
+    "comment": "本日は編集AIが利用できなかったため、Heat順の自動編成でお届けします。一面は「Punk, or why I don't stream anymore」です。",
     "passedOver": "本日は自動編成のため、見送り記事の選定は行っていません。",
     "signature": "—— YZRS Times 編集長"
   },
@@ -39,9 +39,9 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 64443,
-        "priceJpy": 10425402,
-        "change24hPct": 2.28,
+        "priceUsd": 64262,
+        "priceJpy": 10398424,
+        "change24hPct": 2.14,
         "sparkline7d": [
           61907.59,
           62876.14,
@@ -55,9 +55,9 @@
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1802.55,
-        "priceJpy": 291612,
-        "change24hPct": 3.21,
+        "priceUsd": 1796.13,
+        "priceJpy": 290679,
+        "change24hPct": 3.03,
         "sparkline7d": [
           1734.19,
           1785.86,
@@ -71,9 +71,9 @@
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.190498,
-        "priceJpy": 30.82,
-        "change24hPct": 4.47,
+        "priceUsd": 0.189922,
+        "priceJpy": 30.73,
+        "change24hPct": 4.03,
         "sparkline7d": [
           0.200693,
           0.210383,
@@ -87,9 +87,9 @@
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 253.73,
-        "priceJpy": 41048,
-        "change24hPct": 6.84,
+        "priceUsd": 252.13,
+        "priceJpy": 40800,
+        "change24hPct": 6.01,
         "sparkline7d": [
           226.14,
           231.21,
@@ -103,9 +103,9 @@
     ]
   },
   "top": [
+    "hn-front-fc5487b8",
     "hatebu-it-02a07b54",
-    "hatebu-it-cf5310d9",
-    "hn-front-9ae43c64"
+    "hn-front-51a88932"
   ],
   "sections": [
     {
@@ -122,10 +122,10 @@
       "id": "tech",
       "title": "世界のテック",
       "articleIds": [
+        "hatebu-it-cf5310d9",
         "hatebu-it-6b31822a",
-        "hn-front-51a88932",
-        "hatebu-it-02c0e865",
-        "hn-front-5ed33a92"
+        "hn-front-5ed33a92",
+        "hn-front-9ae43c64"
       ]
     },
     {
@@ -137,6 +137,38 @@
     }
   ],
   "articles": [
+    {
+      "id": "hn-front-fc5487b8",
+      "title": "Punk, or why I don't stream anymore",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/05/03/punk-or-why-i-dont-stream.html",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-07-10T13:30:19.000Z",
+      "summaryJa": [
+        "Punk, or why I don't stream anymore",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Punk",
+        "or",
+        "why",
+        "don",
+        "stream"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 34,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 52
+        }
+      },
+      "image": null
+    },
     {
       "id": "hatebu-it-02a07b54",
       "title": "「メールが届かなくても仕方ない」を普通にしませんか",
@@ -154,73 +186,45 @@
         "programming"
       ],
       "heat": {
-        "temperature": 89,
+        "temperature": 87,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 70,
           "ageHours": 6,
           "crossSources": 1,
-          "velocity": 11.2
+          "velocity": 10.9
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-cf5310d9",
-      "title": "安いエアコンが消える？　「エアコン2027年問題」でメーカーは来年どう動くのか、ダイキンに聞いた",
-      "url": "https://www.itmedia.co.jp/news/articles/2607/10/news130.html",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-07-10T09:25:47.000Z",
-      "summaryJa": [
-        "2027年4月から適用される新しい省エネ基準により、安いエアコンが売り場から消えるのではないかと話題になっている、いわゆる「エアコン2027年問題」。",
-        "資源エネルギー庁は「基準値を満たさない製品の製造・出荷を禁止するものではない」としているが、実際のところメーカーは安価なエアコンを作り続けられるのだろうか。",
-        "."
-      ],
-      "category": "programming",
-      "keywords": [
-        "安いエアコンが消える？",
-        "ダイキンに聞いた"
-      ],
-      "heat": {
-        "temperature": 88,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 46,
-          "ageHours": 5,
-          "crossSources": 1,
-          "velocity": 10.1
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-9ae43c64",
-      "title": "Late Bronze Age Collapse",
-      "url": "https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/",
+      "id": "hn-front-51a88932",
+      "title": "Write code like a human will maintain it",
+      "url": "https://unstack.io/write-code-like-a-human-will-maintain-it",
       "source": "Hacker News",
       "sourceId": "hn-front",
-      "publishedAt": "2026-07-10T11:59:55.000Z",
+      "publishedAt": "2026-07-10T13:33:00.000Z",
       "summaryJa": [
-        "Late Bronze Age Collapse",
+        "Write code like a human will maintain it",
         "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Late",
-        "Bronze",
-        "Age",
-        "Collapse"
+        "Write",
+        "code",
+        "like",
+        "human",
+        "will"
       ],
       "heat": {
-        "temperature": 86,
+        "temperature": 87,
         "signals": {
-          "hnPoints": 73,
+          "hnPoints": 28,
           "hatebuCount": 0,
-          "ageHours": 2,
+          "ageHours": 1,
           "crossSources": 1,
-          "velocity": 36.4
+          "velocity": 46
         }
       },
       "image": null
@@ -345,6 +349,35 @@
       "image": null
     },
     {
+      "id": "hatebu-it-cf5310d9",
+      "title": "安いエアコンが消える？　「エアコン2027年問題」でメーカーは来年どう動くのか、ダイキンに聞いた",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/10/news130.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-07-10T09:25:47.000Z",
+      "summaryJa": [
+        "2027年4月から適用される新しい省エネ基準により、安いエアコンが売り場から消えるのではないかと話題になっている、いわゆる「エアコン2027年問題」。",
+        "資源エネルギー庁は「基準値を満たさない製品の製造・出荷を禁止するものではない」としているが、実際のところメーカーは安価なエアコンを作り続けられるのだろうか。",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "安いエアコンが消える？",
+        "ダイキンに聞いた"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 47,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 9.9
+        }
+      },
+      "image": null
+    },
+    {
       "id": "hatebu-it-6b31822a",
       "title": "Claude Codeとハーネスについて考えてみる",
       "url": "https://speakerdeck.com/oikon48/claude-codetohanesunituitekao-etemiru",
@@ -365,74 +398,10 @@
         "temperature": 84,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 17,
+          "hatebuCount": 19,
           "ageHours": 2,
           "crossSources": 1,
-          "velocity": 8.4
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-51a88932",
-      "title": "Write code like a human will maintain it",
-      "url": "https://unstack.io/write-code-like-a-human-will-maintain-it",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-07-10T13:33:00.000Z",
-      "summaryJa": [
-        "Write code like a human will maintain it",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Write",
-        "code",
-        "like",
-        "human",
-        "will"
-      ],
-      "heat": {
-        "temperature": 84,
-        "signals": {
-          "hnPoints": 18,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 36
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-02c0e865",
-      "title": "AWSの強い権限は使い捨てに ── ZOZOがJITアクセスを全社導入した設計と運用 - ZOZO TECH BLOG",
-      "url": "https://techblog.zozo.com/entry/just-in-time-access-company-wide-rollout-at-zozo",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-07-10T02:03:48.000Z",
-      "summaryJa": [
-        "はじめに こんにちは、全社AWS管理部門の江島です。",
-        "社内で利用されているAWS環境を全社横断的に管理する役割を担っています。",
-        "全社AWS管理部門では、AWSを安全に運用するために日頃からさまざまな取り組みを行っています。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "AWSの強い権限は使い捨てに",
-        "──",
-        "ZOZO",
-        "TECH",
-        "BLOG"
-      ],
-      "heat": {
-        "temperature": 83,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 113,
-          "ageHours": 12,
-          "crossSources": 1,
-          "velocity": 9.5
+          "velocity": 8.7
         }
       },
       "image": null
@@ -455,13 +424,44 @@
         "5.6"
       ],
       "heat": {
-        "temperature": 81,
+        "temperature": 83,
         "signals": {
-          "hnPoints": 1403,
+          "hnPoints": 1408,
           "hatebuCount": 0,
           "ageHours": 21,
           "crossSources": 1,
-          "velocity": 67
+          "velocity": 66.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-9ae43c64",
+      "title": "Late Bronze Age Collapse",
+      "url": "https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-07-10T11:59:55.000Z",
+      "summaryJa": [
+        "Late Bronze Age Collapse",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Late",
+        "Bronze",
+        "Age",
+        "Collapse"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 80,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 37
         }
       },
       "image": null
@@ -497,31 +497,31 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "show-hn-9a48ce0c",
-      "title": "Show HN: I made an open-source laptop from scratch",
-      "url": "https://www.byran.ee/posts/creation/",
+      "id": "show-hn-272fef31",
+      "title": "Show HN: Jmail – Google Suite for Epstein files",
+      "url": "https://www.jmail.world",
       "source": "Show HN",
       "sourceId": "show-hn",
-      "publishedAt": "2025-01-22T20:41:52.000Z",
+      "publishedAt": "2025-12-20T21:00:05.000Z",
       "summaryJa": [
-        "Hello!",
-        "I&#x27;m Byran.",
-        "I spent the past ~6 months engineering a laptop from scratch."
+        "Hi everyone!",
+        "My name&#x27;s Luke and I made the original Jmail here alongside Riley Walz.",
+        "We had a ton of friends collaborate on building out more of the app suite last n"
       ],
       "category": "tech",
       "keywords": [
         "Show",
         "HN",
-        "made",
-        "an",
-        "open"
+        "Jmail",
+        "Google",
+        "Suite"
       ],
       "heat": {
         "temperature": 75,
         "signals": {
-          "hnPoints": 3237,
+          "hnPoints": 1557,
           "hatebuCount": 0,
-          "ageHours": 12809,
+          "ageHours": 4841,
           "crossSources": 1,
           "velocity": 0.3
         }
