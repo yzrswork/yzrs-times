@@ -16,11 +16,11 @@ Less scrolling. More discovering.
   ③ edit    : LLM（Gemini無料枠）が編集長として、記事の選定・並び・
               日本語3行要約・今日のテーマ・編集長コメント・Hidden Gemを決める
   ④ publish : 号JSONを生成して commit & push
-       ↓ pushを検知して Cloudflare Pages が自動デプロイ
+       ↓ pushを検知して Cloudflare（Workers静的アセット）が自動デプロイ
 静的な紙面 public/index.html が latest.json を読んで描画
 ```
 
-ランニングコストは **¥0**（GitHub Actions無料枠・Gemini API無料枠・Cloudflare Pages無料枠）。
+ランニングコストは **¥0**（GitHub Actions無料枠・Gemini API無料枠・Cloudflare Workers無料枠）。
 
 ## 紙面憲法（変えないこと）
 
@@ -48,7 +48,7 @@ Less scrolling. More discovering.
 ## リポジトリ構成
 
 ```
-public/            Cloudflare Pages が配信する公開ディレクトリ
+public/            Cloudflare が配信する公開ディレクトリ（wrangler.jsonc の assets.directory）
   index.html       紙面（単一ファイル）
   data/            号アーカイブ・月次index・latest.json
 scripts/           発行パイプライン（collect → rank → edit → publish）
@@ -71,4 +71,4 @@ npm run serve            # http://localhost:8000 で紙面確認
 GEMINI_API_KEY=... npm run publish:morning   # 本番と同じ発行
 ```
 
-セットアップ手順（Cloudflare Pages・Gemini APIキー）は [SETUP.md](SETUP.md)。
+セットアップ手順（Cloudflare・Gemini APIキー）は [SETUP.md](SETUP.md)。

@@ -19,25 +19,35 @@ Geminiには無料枠があり、クレジットカード登録は不要です�
 > 使わないため、枠を心配する必要はありません。無料枠では入力データがGoogleの
 > モデル改善に使われることがありますが、送っているのは公開ニュースの見出しと抜粋だけです。
 
-## 2. Cloudflare Pages に接続する（10分・Cloudflare初体験向け）
+## 2. Cloudflare に接続する（10分・Cloudflare初体験向け）
 
-Cloudflare Pagesは「GitHubリポジトリを接続すると、pushのたびに自動で世界中に配信される
-静的ホスティング」です。GitHub Pagesの高速版だと思ってください。無料です。
+Cloudflareに「GitHubリポジトリを接続すると、pushのたびに自動で世界中に配信される」
+無料ホスティングを設定します。
+
+> **注**: Cloudflareは2026年現在、新規プロジェクトを「Pages」ではなく
+> 「Workers（静的アセット配信）」に統合しています。ダッシュボードに
+> `npx wrangler deploy` と表示される新しい画面が出るのはそのためです。
+> このリポジトリには対応する設定ファイル `wrangler.jsonc` が含まれているので、
+> 接続するだけで動きます。
 
 1. https://dash.cloudflare.com/sign-up でアカウント作成（メールアドレスだけでOK）
-2. ダッシュボード左メニューの **Workers & Pages** → **Create** → **Pages**タブ
-3. **Connect to Git** をクリック → GitHubとの連携を許可
+2. ダッシュボード左メニューの **Workers & Pages**（または **Compute (Workers)**）→
+   **Create** / **Create application**
+3. 「**Import a repository**」（Gitリポジトリの接続）を選ぶ → GitHubとの連携を許可
    - 「リポジトリへのアクセス」を聞かれたら **Only select repositories** で `yzrs-times` を選ぶ
-4. `yzrs-times` リポジトリを選択して **Begin setup**
-5. ビルド設定は次の通り：
-   - **Project name**: `yzrs-times`（そのまま）
+4. `yzrs-times` リポジトリを選択。設定は次の通り：
+   - **Project / Worker name**: `yzrs-times`（そのまま）
    - **Production branch**: `main`
    - **Build command**: （空欄のまま）
-   - **Build output directory**: `public`
-6. **Save and Deploy**
+   - **Deploy command**: `npx wrangler deploy`（デフォルトのまま）
+5. **Save and Deploy**（Deploy）
 
-1〜2分で `https://yzrs-times.pages.dev` が発行されます。以後、リポジトリにpushされる
-たび（＝毎朝の発行のたび）に自動でデプロイされます。
+1〜2分で `https://yzrs-times.<あなたのサブドメイン>.workers.dev` が発行されます。
+以後、リポジトリにpushされるたび（＝毎朝の発行のたび）に自動でデプロイされます。
+
+> 旧UIの **Pages** タブが表示される環境なら、従来どおり
+> Connect to Git → Build output directory: `public` でも同じものが動きます。
+> どちらでも紙面は変わりません。
 
 > 紙面を自分だけに公開したい場合：Cloudflareダッシュボードの **Zero Trust** →
 > **Access** でこのPagesドメインにメール認証（One-time PIN）を無料で掛けられます。

@@ -1,0 +1,9 @@
+// Cloudflare Workers（静的アセット配信のみ・サーバコードなし）の設定。
+// 新ダッシュボードの「Import a repository」→ deploy command `npx wrangler deploy` で使われる。
+{
+  "name": "yzrs-times",
+  "compatibility_date": "2026-07-01",
+  "assets": {
+    "directory": "./public"
+  }
+}

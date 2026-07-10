@@ -20,7 +20,7 @@
 |---|---|---|
 | MVP範囲 | 朝刊のみ | 検証対象は「情報収集の質」。UIは後から育てる |
 | 紙面の言語 | 見出し原文＋要約は日本語3行 | 翻訳コスト最小・原文リンクとの違和感なし |
-| ホスティング | Cloudflare Pages・専用リポジトリ | 毎日の発行commitで作品集の履歴を汚さない |
+| ホスティング | Cloudflare（Workers静的アセット）・専用リポジトリ | 毎日の発行commitで作品集の履歴を汚さない |
 | 編集パイプライン | GitHub Actions cron ＋ **Gemini API無料枠** | 完全¥0。ユーザーはClaude Proのため、Claude Code Routineだと日々の利用枠を消費してしまう。Claudeは開発・改善役に回す |
 | AIの守備範囲 | 編集判断のみ（選定・並び・要約・テーマ・コメント・Gem） | 収集・重複除去・Heat計算・事実データは決定論的コード |
 
@@ -38,7 +38,7 @@
 毎朝 5:00 JST — GitHub Actions cron（8:00 JSTに補習cron・冪等）
   collect（fail-soft収集）→ rank（重複除去・Heat・クォータ）
   → edit（Gemini: IDと文章のみ返す）→ publish（号JSON commit & push）
-  → Cloudflare Pages 自動デプロイ → 静的紙面
+  → Cloudflare（Workers静的アセット）自動デプロイ → 静的紙面
 ```
 
 設計レビュー（2巡＋自己レビュー）で確定した規律は README.md の
