@@ -1,1 +1,122 @@
-{ "schemaVersion": 1, "entries": {} }
+{
+  "schemaVersion": 1,
+  "entries": {
+    "02a07b5493b3121b": {
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/063002060/",
+      "summaryJa": [
+        "筆者が最近頭を悩ませていることの1つが、親族宛てに届くフィッシング詐欺メールだ。",
+        "もちろん今に始まった話ではない。",
+        "ただ、メールや電話で問い合わせを受け、限られた情報を基に詐欺メールかどうかを回答する頻度が高まっている。"
+      ],
+      "cachedAt": "2026-07-10T13:49:14.300Z"
+    },
+    "ae95130ff5f86267": {
+      "url": "https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/",
+      "summaryJa": [
+        "Late Bronze Age Collapse",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-10T13:49:14.300Z"
+    },
+    "cf5310d91478ca76": {
+      "url": "https://www.itmedia.co.jp/news/articles/2607/10/news130.html",
+      "summaryJa": [
+        "2027年4月から適用される新しい省エネ基準により、安いエアコンが売り場から消えるのではないかと話題になっている、いわゆる「エアコン2027年問題」。",
+        "資源エネルギー庁は「基準値を満たさない製品の製造・出荷を禁止するものではない」としているが、実際のところメーカーは安価なエアコンを作り続けられるのだろうか。",
+        "."
+      ],
+      "cachedAt": "2026-07-10T13:49:14.300Z"
+    },
+    "0c6eb1c1c4740b0e": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015173061000",
+      "summaryJa": [
+        "大型で非常に強い台風9号は沖縄県の先島諸島を暴風域に巻き込みながら北寄りに進んでいて沖縄県では非常に強い風が吹いています。",
+        "先島諸島では風がさらに強まり11日の夜にかけて長時間暴風となる見込みで、頑丈な…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-10T13:49:14.300Z"
+    },
+    "894378619993813a": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015174091000",
+      "summaryJa": [
+        "愛媛県の警察署に勤務する巡査が、制限速度を110キロ上回る時速およそ160キロで一般道を走行したとして、警察はこの巡査を道路交通法違反の疑いで書類送検するととも",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-10T13:49:14.300Z"
+    },
+    "a553610ac3eaa056": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015174081000",
+      "summaryJa": [
+        "フィリピンでは台風9号などの影響で大雨となっていて、南部のミンダナオ島では土砂崩れが発生し、これまでに16人が死亡しました。",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-10T13:49:14.300Z"
+    },
+    "6a37b5ffc5460588": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015173961000",
+      "summaryJa": [
+        "スペイン南部で大規模な山火事が発生し、地元当局によりますと、これまでに少なくとも11人が死亡したほか、19人が行方不明になっているということです。",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-10T13:49:14.300Z"
+    },
+    "02c0e86541e14c0a": {
+      "url": "https://techblog.zozo.com/entry/just-in-time-access-company-wide-rollout-at-zozo",
+      "summaryJa": [
+        "はじめに こんにちは、全社AWS管理部門の江島です。",
+        "社内で利用されているAWS環境を全社横断的に管理する役割を担っています。",
+        "全社AWS管理部門では、AWSを安全に運用するために日頃からさまざまな取り組みを行っています。"
+      ],
+      "cachedAt": "2026-07-10T13:49:14.300Z"
+    },
+    "caaa735c832bdb26": {
+      "url": "https://openai.com/index/gpt-5-6/",
+      "summaryJa": [
+        "<a href=\"https:&#x2F;&#x2F;deploymentsafety.",
+        "openai.",
+        "com&#x2F;gpt-5-6&#x2F;gpt-5-6."
+      ],
+      "cachedAt": "2026-07-10T13:49:14.300Z"
+    },
+    "ab135b9af29a99f3": {
+      "url": "https://ec.europa.eu/commission/presscorner/home/en",
+      "summaryJa": [
+        "EU Commission: addictive design Instagram and Face",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-10T13:49:14.300Z"
+    },
+    "c491e2f6aa430056": {
+      "url": "https://zenn.dev/9m/articles/d08dcc093e1bbf",
+      "summaryJa": [
+        "TL;DR メールの受信は Cloudflare Email Routing メールの送信は Cloudflare Email Sending メールの閲覧・作",
+        "独自ドメインのメールアドレスにお金かけたくない問題 個人開発をやっているとポコポコ独.",
+        "."
+      ],
+      "cachedAt": "2026-07-10T13:49:14.300Z"
+    },
+    "ccbd37e77e18af80": {
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "summaryJa": [
+        "arthur fery",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-10T13:49:14.300Z"
+    },
+    "af092e1bf90ac6f8": {
+      "url": "https://dosaygo-studio.github.io/hn-front-page-2035/news",
+      "summaryJa": [
+        "Show HN: Gemini Pro 3 imagines the HN front page 1",
+        "出典: Show HN",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-10T13:49:14.300Z"
+    }
+  }
+}

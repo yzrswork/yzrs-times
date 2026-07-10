@@ -1,1 +1,6 @@
-{ "schemaVersion": 1, "months": ["2026-07"] }
+{
+  "schemaVersion": 1,
+  "months": [
+    "2026-07"
+  ]
+}

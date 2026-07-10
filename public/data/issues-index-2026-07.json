@@ -1,5 +1,13 @@
 {
   "schemaVersion": 1,
   "month": "2026-07",
-  "issues": []
+  "issues": [
+    {
+      "issueNo": 1,
+      "date": "2026-07-10",
+      "edition": "morning",
+      "theme": "編集部より",
+      "path": "issues/2026-07-10-morning.json"
+    }
+  ]
 }
