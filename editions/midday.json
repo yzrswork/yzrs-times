@@ -1,0 +1,14 @@
+{
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "pressTimeJst": "12:00",
+  "maxArticlesTotal": 12,
+  "topCount": 3,
+  "sections": [
+    { "id": "deep-tech", "title": "技術の深掘り", "sources": ["hatebu-it", "hn-front"], "max": 5 },
+    { "id": "jp-tech", "title": "日本語の技術記事", "sources": ["zenn-trend", "qiita-popular"], "max": 4 },
+    { "id": "global-tech", "title": "海外の技術記事", "sources": ["lobsters"], "max": 3 }
+  ],
+  "widgets": ["market"],
+  "hiddenGemSources": ["show-hn", "github-gems", "indieblog"]
+}

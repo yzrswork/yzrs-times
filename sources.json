@@ -69,6 +69,30 @@
       "optional": true
     },
     {
+      "id": "zenn-trend",
+      "name": "Zenn トレンド",
+      "type": "rss",
+      "url": "https://zenn.dev/feed",
+      "lang": "ja",
+      "optional": true
+    },
+    {
+      "id": "qiita-popular",
+      "name": "Qiita 人気記事",
+      "type": "rss",
+      "url": "https://qiita.com/popular-items/feed",
+      "lang": "ja",
+      "optional": true
+    },
+    {
+      "id": "lobsters",
+      "name": "Lobsters",
+      "type": "rss",
+      "url": "https://lobste.rs/rss",
+      "lang": "en",
+      "optional": true
+    },
+    {
       "id": "show-hn",
       "name": "Show HN",
       "type": "hn",

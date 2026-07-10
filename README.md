@@ -10,7 +10,7 @@ Less scrolling. More discovering.
 ## 仕組み
 
 ```
-毎朝 5:00 JST — GitHub Actions（cron）
+朝刊 5:00 JST・昼刊 12:00 JST — GitHub Actions（cron）
   ① collect : 無料API/RSSから収集（AIなし・全ソースfail-soft）
   ② rank    : 重複除去 → Heat Index計算 → ソース別クォータで候補30件に
   ③ edit    : LLM（Gemini無料枠）が編集長として、記事の選定・並び・
