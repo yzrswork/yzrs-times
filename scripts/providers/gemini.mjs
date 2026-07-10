@@ -59,7 +59,7 @@ export async function generate(promptCtx, { candidates, gemCandidates, editionCo
   let lastErr;
   for (const model of models) {
     try {
-      const text = await withRetry(() => callModel(model, apiKey, promptCtx.promptText, schema), { retries: 2, baseDelayMs: 800 });
+      const text = await withRetry(() => callModel(model, apiKey, promptCtx.promptText, schema), { retries: 3, baseDelayMs: 4000 });
       return { output: JSON.parse(text), model };
     } catch (err) {
       lastErr = err;
