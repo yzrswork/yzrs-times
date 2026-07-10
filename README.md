@@ -40,6 +40,8 @@ Less scrolling. More discovering.
 - 各号は出自を記録する：`generator: { appVersion, provider, model, promptHash }`。
 - Heat Indexは表示温度だけでなく**生シグナル**（`signals`）を保存する。式は後から全号再計算できる。
 - 同日同版の再実行は**上書き**であり、号数は既存の番号を再利用する（採番の冪等性）。
+- 月次index（`issues-index-YYYY-MM.json`）のエントリは `{ issueNo, date, edition, theme, path }`。
+  `path` は `public/data/` からの相対パス（例 `issues/2026-07-11-morning.json`）。エントリも追加のみ。
 
 スキーマの実例: `public/data/issues/2026-07-11-morning.json`（サンプル号）
 
