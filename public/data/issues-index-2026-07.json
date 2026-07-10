@@ -8,6 +8,13 @@
       "edition": "morning",
       "theme": "透明な道具たち",
       "path": "issues/2026-07-10-morning.json"
+    },
+    {
+      "issueNo": 2,
+      "date": "2026-07-11",
+      "edition": "midday",
+      "theme": "自律的な道具たち",
+      "path": "issues/2026-07-11-midday.json"
     }
   ]
 }

@@ -3,47 +3,62 @@
   "sources": {
     "nhk-top": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-10T14:14:00.693Z",
+      "lastSuccessAt": "2026-07-10T20:47:36.433Z",
       "lastFailureAt": null
     },
     "nhk-world": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-10T14:14:00.693Z",
+      "lastSuccessAt": "2026-07-10T20:47:36.433Z",
       "lastFailureAt": null
     },
     "yahoo-topics": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-10T14:14:00.693Z",
+      "lastSuccessAt": "2026-07-10T20:47:36.433Z",
       "lastFailureAt": null
     },
     "hatebu-it": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-10T14:14:00.693Z",
+      "lastSuccessAt": "2026-07-10T20:47:36.433Z",
       "lastFailureAt": null
     },
     "hn-front": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-10T14:14:00.693Z",
+      "lastSuccessAt": "2026-07-10T20:47:36.433Z",
       "lastFailureAt": null
     },
     "gtrends-jp": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-10T14:14:00.693Z",
+      "lastSuccessAt": "2026-07-10T20:47:36.433Z",
       "lastFailureAt": null
     },
     "show-hn": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-10T14:14:00.693Z",
+      "lastSuccessAt": "2026-07-10T20:47:36.433Z",
       "lastFailureAt": null
     },
     "github-gems": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-10T14:14:00.693Z",
+      "lastSuccessAt": "2026-07-10T20:47:36.433Z",
       "lastFailureAt": null
     },
     "indieblog": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-10T14:14:00.693Z",
+      "lastSuccessAt": "2026-07-10T20:47:36.433Z",
+      "lastFailureAt": null
+    },
+    "zenn-trend": {
+      "consecutiveFailures": 0,
+      "lastSuccessAt": "2026-07-10T20:47:36.433Z",
+      "lastFailureAt": null
+    },
+    "qiita-popular": {
+      "consecutiveFailures": 0,
+      "lastSuccessAt": "2026-07-10T20:47:36.433Z",
+      "lastFailureAt": null
+    },
+    "lobsters": {
+      "consecutiveFailures": 0,
+      "lastSuccessAt": "2026-07-10T20:47:36.433Z",
       "lastFailureAt": null
     }
   }

@@ -198,6 +198,87 @@
         "nyc is a massive isometric pixel art map of NYC, built with nano banana and codi"
       ],
       "cachedAt": "2026-07-10T14:15:01.415Z"
+    },
+    "8efba39a67000f2d": {
+      "url": "https://qiita.com/Koukyosyumei/items/3bd4696237ea64c38971",
+      "summaryJa": [
+        "こんにちは！",
+        "コロンビア大学の博士課程でAI・セキュリティの研究をしている Koukyosyumei です。",
+        "さて、読者のほとんどの方が Claude Code や Codex を使って開発をしていると思いますが、皆さんは「AIエージェントがシェルコマンドやネットワーク"
+      ],
+      "cachedAt": "2026-07-10T20:49:06.984Z"
+    },
+    "dfccedba30c8e541": {
+      "url": "https://zenn.dev/atrae/articles/08f2b2c3f2217d",
+      "summaryJa": [
+        "はじめに AI を入れても速くならない AI で開発すると、短時間でものすごい量のコードが生成されます。",
+        "それをいちから確認するのは極めて大変です。",
+        "以前は、手を動かして計画・実装している間に脳内を整理できていました。"
+      ],
+      "cachedAt": "2026-07-10T20:49:06.984Z"
+    },
+    "f159c7f76c4c94ee": {
+      "url": "https://qiita.com/otokoumeKM/items/b554419018c40775649e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "AIの性能向上に伴い、かつて推奨されていた「プロンプトのテクニック」の価値は落ちてきているらしい。",
+        "最近の推論系モデル、特に自律的な推論を行うReasoningモデルを前提にすると 、不要になった手法と、現在重要とされる要件定義のあり方について、初学者の自分が",
+        "."
+      ],
+      "cachedAt": "2026-07-10T20:49:06.984Z"
+    },
+    "790cab11eed0561a": {
+      "url": "https://www2.eecs.berkeley.edu/Pubs/TechRpts/1997/Archive/CSD-97-946.pdf",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-10T20:49:06.985Z"
+    },
+    "71643a81a3383888": {
+      "url": "https://qiita.com/umekikazuya/items/ec67802c538afdf924aa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "Miseのdotfiles機能、ご存知でしょうか？",
+        "実は昨日、試験用から正式版にリリースされたものですっ！",
+        "！"
+      ],
+      "cachedAt": "2026-07-10T20:49:06.985Z"
+    },
+    "fdc67109ac9cf05d": {
+      "url": "https://zenn.dev/xtm_blog/articles/9b7fa5f94eae28",
+      "summaryJa": [
+        "はじめに クロステック・マネジメント Foundation Dept.",
+        "所属の Radish です。",
+        "先日、社内輪読会で『テスト駆動開発』(Kent Beck 著、和田卓人 訳) を読んでいたとき、17 章で 欠陥挿入（defect insertion） という"
+      ],
+      "cachedAt": "2026-07-10T20:49:06.985Z"
+    },
+    "39dc6b106e221649": {
+      "url": "https://avi.press/posts/2026-07-10-after-7-years-in-production-scarf-has-reluctantly-moved-away-from-haskell.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-10T20:49:06.985Z"
+    },
+    "1fbf4355a3ddf278": {
+      "url": "https://github.com/malisper/pgrust",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-10T20:49:06.985Z"
+    },
+    "55c1074b9c629938": {
+      "url": "https://jameshard.ing/pilot",
+      "summaryJa": [
+        "Hey HN!",
+        "<p>Pilots everywhere are required to keep a logbook of all their flying hours, a",
+        "Since I track everything digitally (some people still just use paper logbooks!"
+      ],
+      "cachedAt": "2026-07-10T20:49:06.985Z"
     }
   }
 }
