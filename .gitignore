@@ -1,0 +1,4 @@
+node_modules/
+.tmp/
+*.log
+data/last-issue-message.txt

@@ -1,0 +1,14 @@
+{
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "pressTimeJst": "05:00",
+  "maxArticlesTotal": 15,
+  "topCount": 3,
+  "sections": [
+    { "id": "news", "title": "時事", "sources": ["nhk-top", "nhk-world", "yahoo-topics"], "max": 4 },
+    { "id": "tech", "title": "世界のテック", "sources": ["hn-front", "hatebu-it"], "max": 4 },
+    { "id": "trends", "title": "トレンド", "sources": ["gtrends-jp"], "max": 3 }
+  ],
+  "widgets": ["weather", "market"],
+  "hiddenGemSources": ["show-hn", "github-gems", "indieblog"]
+}

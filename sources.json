@@ -1,0 +1,99 @@
+{
+  "weatherLocation": { "name": "Tokyo", "lat": 35.6812, "lon": 139.7671 },
+  "coins": ["bitcoin", "ethereum", "bitcoin-cash", "stellar"],
+  "editor": {
+    "provider": "gemini",
+    "models": ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"],
+    "maxCandidates": 30,
+    "maxSnippetChars": 300,
+    "perSourceQuota": 8
+  },
+  "hiddenGem": {
+    "blockedDomains": [
+      "github.com/microsoft", "github.com/google", "github.com/facebook",
+      "github.com/openai", "github.com/anthropics", "github.com/vercel",
+      "nytimes.com", "bbc.com", "cnn.com", "techcrunch.com", "theverge.com",
+      "wired.com", "arstechnica.com", "youtube.com", "medium.com"
+    ],
+    "githubStarsMin": 100,
+    "githubStarsMax": 3000,
+    "noRepeatDays": 30
+  },
+  "sources": [
+    {
+      "id": "nhk-top",
+      "name": "NHKニュース 主要",
+      "type": "rss",
+      "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
+      "lang": "ja",
+      "optional": false
+    },
+    {
+      "id": "nhk-world",
+      "name": "NHKニュース 国際",
+      "type": "rss",
+      "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
+      "lang": "ja",
+      "optional": false
+    },
+    {
+      "id": "yahoo-topics",
+      "name": "Yahoo!ニュース トピックス",
+      "type": "rss",
+      "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
+      "lang": "ja",
+      "optional": true
+    },
+    {
+      "id": "hatebu-it",
+      "name": "はてなブックマーク テクノロジー",
+      "type": "hatebu",
+      "url": "https://b.hatena.ne.jp/hotentry/it.rss",
+      "lang": "ja",
+      "optional": false
+    },
+    {
+      "id": "hn-front",
+      "name": "Hacker News",
+      "type": "hn",
+      "query": "front_page",
+      "lang": "en",
+      "optional": false
+    },
+    {
+      "id": "gtrends-jp",
+      "name": "Google トレンド",
+      "type": "rss",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "lang": "ja",
+      "optional": true
+    },
+    {
+      "id": "show-hn",
+      "name": "Show HN",
+      "type": "hn",
+      "query": "show_hn",
+      "lang": "en",
+      "optional": true,
+      "gemPool": true
+    },
+    {
+      "id": "github-gems",
+      "name": "GitHub 小さなOSS",
+      "type": "github-gems",
+      "topics": ["esp32", "arduino", "raspberry-pi", "synthesizer", "generative-art", "e-ink", "cli", "self-hosted"],
+      "lang": "en",
+      "optional": true,
+      "gemPool": true
+    },
+    {
+      "id": "indieblog",
+      "name": "indieblog.page（個人ブログ）",
+      "type": "indieblog",
+      "url": "https://indieblog.page/random",
+      "lang": "en",
+      "optional": true,
+      "gemPool": true
+    }
+  ]
+}

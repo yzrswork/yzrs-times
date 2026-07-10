@@ -1,0 +1,57 @@
+name: Publish Morning Edition
+
+on:
+  schedule:
+    # 発行 5:00 JST（Actions cronは遅延するため、5:30の紙面到着を狙って早めに設定）
+    - cron: '0 20 * * *'
+    # 補習発行 8:00 JST — その日の号が未発行の場合のみ発行される（冪等）
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: '既に発行済みでも再発行する（同日同版は上書き・号数は再利用）'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Build issue
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          ARGS=""
+          if [ "$FORCE" = "true" ]; then ARGS="--force"; fi
+          node scripts/build-issue.mjs morning $ARGS
+
+      - name: Commit and push
+        run: |
+          git config user.name "YZRS Times 編集部"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/data data
+          if git diff --cached --quiet; then
+            echo "本日の号は発行済み。変更なし。"
+            exit 0
+          fi
+          MSG=$(cat data/last-issue-message.txt 2>/dev/null || echo "Publish issue")
+          git commit -m "$MSG"
+          git push

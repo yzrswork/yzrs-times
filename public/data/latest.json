@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 1,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-07-11",
+  "dateDisplay": "Saturday, July 11, 2026",
+  "pressTimeJst": "2026-07-11 05:00",
+  "generatedAt": "2026-07-10T20:04:31Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "mock",
+    "model": "mock",
+    "promptHash": "d41d8cd9"
+  },
+  "theme": {
+    "title": "静かな技術",
+    "note": "派手な発表の裏で、手を動かす人たちの話題が豊作でした。"
+  },
+  "editorial": {
+    "comment": "今朝の一面はESP32の新しい省電力手法です。Maker界隈が静かに盛り上がっており、時事は比較的落ち着いた朝でした。相場はFear & Greedが中立圏に戻っています。",
+    "passedOver": "AI大手の資金調達の話題が多数ありましたが、既報の域を出ないため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れのち曇り",
+    "icon": "sunny",
+    "tempMax": 34,
+    "tempMin": 26,
+    "precipChancePct": 20
+  },
+  "market": {
+    "fearGreed": { "value": 54, "label": "Neutral" },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 118234.12,
+        "priceJpy": 17390000,
+        "change24hPct": 2.14,
+        "sparkline7d": [112000, 113500, 112800, 115200, 116900, 117500, 118234]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 4180.55,
+        "priceJpy": 615000,
+        "change24hPct": -1.02,
+        "sparkline7d": [4300, 4270, 4210, 4150, 4230, 4200, 4180]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 512.4,
+        "priceJpy": 75300,
+        "change24hPct": 0.35,
+        "sparkline7d": [505, 500, 498, 510, 515, 511, 512]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.4182,
+        "priceJpy": 61.5,
+        "change24hPct": 4.8,
+        "sparkline7d": [0.39, 0.395, 0.4, 0.398, 0.405, 0.41, 0.418]
+      }
+    ]
+  },
+  "top": ["hn-44012345", "nhk-a1b2c3", "hatebu-e5f6"],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": ["nhk-d4e5f6", "yahoo-g7h8"]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": ["hn-44012999", "hatebu-i9j0", "hn-44013111"]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": ["gtrends-k1l2"]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hn-44012345",
+      "title": "Show HN: Sub-milliwatt ESP32 sensor nodes with a custom sleep scheduler",
+      "url": "https://example.com/esp32-sleep",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-07-10T14:20:00Z",
+      "summaryJa": [
+        "ESP32のディープスリープを独自スケジューラで制御し、平均消費電力1mW未満を達成した個人プロジェクト。",
+        "コイン電池で1年以上動くセンサーノードを想定し、実測データとともに手法を公開している。",
+        "HNでは電源設計の実践知が集まるスレッドに発展中。"
+      ],
+      "category": "maker",
+      "keywords": ["ESP32", "省電力", "センサー", "電子工作"],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 412,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 41.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-a1b2c3",
+      "title": "（サンプル）主要ニュースの見出しがここに入ります",
+      "url": "https://example.com/nhk-1",
+      "source": "NHKニュース",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-07-10T18:00:00Z",
+      "summaryJa": [
+        "サンプル記事の1行目です。事実の要点をここに書きます。",
+        "2行目では背景や経緯を補足します。",
+        "3行目は今後の見通しや影響です。"
+      ],
+      "category": "news",
+      "keywords": ["時事"],
+      "heat": {
+        "temperature": 61,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-e5f6",
+      "title": "（サンプル）はてブで話題の技術記事",
+      "url": "https://example.com/hatebu-1",
+      "source": "はてなブックマーク",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-07-10T09:00:00Z",
+      "summaryJa": [
+        "サンプルの3行要約・1行目。",
+        "2行目。",
+        "3行目。"
+      ],
+      "category": "programming",
+      "keywords": ["開発", "ツール"],
+      "heat": {
+        "temperature": 74,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 356,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 23.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-d4e5f6",
+      "title": "（サンプル）時事セクションの記事",
+      "url": "https://example.com/nhk-2",
+      "source": "NHKニュース",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-07-10T20:00:00Z",
+      "summaryJa": ["1行目。", "2行目。", "3行目。"],
+      "category": "news",
+      "keywords": ["時事"],
+      "heat": { "temperature": 42, "signals": { "hnPoints": 0, "hatebuCount": 0, "ageHours": 4, "crossSources": 1, "velocity": 0 } },
+      "image": null
+    },
+    {
+      "id": "yahoo-g7h8",
+      "title": "（サンプル）Yahoo!トピックスの記事",
+      "url": "https://example.com/yahoo-1",
+      "source": "Yahoo!ニュース",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-07-10T21:00:00Z",
+      "summaryJa": ["1行目。", "2行目。", "3行目。"],
+      "category": "news",
+      "keywords": ["時事"],
+      "heat": { "temperature": 38, "signals": { "hnPoints": 0, "hatebuCount": 0, "ageHours": 3, "crossSources": 1, "velocity": 0 } },
+      "image": null
+    },
+    {
+      "id": "hn-44012999",
+      "title": "A tiny language model that runs entirely in your terminal",
+      "url": "https://example.com/tiny-lm",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-07-10T12:00:00Z",
+      "summaryJa": ["1行目。", "2行目。", "3行目。"],
+      "category": "ai",
+      "keywords": ["LLM", "CLI", "軽量モデル"],
+      "heat": { "temperature": 79, "signals": { "hnPoints": 289, "hatebuCount": 12, "ageHours": 12, "crossSources": 2, "velocity": 24.1 } },
+      "image": null
+    },
+    {
+      "id": "hatebu-i9j0",
+      "title": "（サンプル）テックセクションの記事",
+      "url": "https://example.com/hatebu-2",
+      "source": "はてなブックマーク",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-07-10T08:00:00Z",
+      "summaryJa": ["1行目。", "2行目。", "3行目。"],
+      "category": "programming",
+      "keywords": ["開発"],
+      "heat": { "temperature": 55, "signals": { "hnPoints": 0, "hatebuCount": 180, "ageHours": 16, "crossSources": 1, "velocity": 11.3 } },
+      "image": null
+    },
+    {
+      "id": "hn-44013111",
+      "title": "The forgotten art of hand-drawn PCB layouts",
+      "url": "https://example.com/pcb-art",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-07-10T06:00:00Z",
+      "summaryJa": ["1行目。", "2行目。", "3行目。"],
+      "category": "maker",
+      "keywords": ["PCB", "レトロ", "電子工作"],
+      "heat": { "temperature": 47, "signals": { "hnPoints": 96, "hatebuCount": 0, "ageHours": 18, "crossSources": 1, "velocity": 5.3 } },
+      "image": null
+    },
+    {
+      "id": "gtrends-k1l2",
+      "title": "（サンプル）急上昇ワード",
+      "url": "https://example.com/trend-1",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-07-10T22:00:00Z",
+      "summaryJa": ["1行目。", "2行目。", "3行目。"],
+      "category": "trends",
+      "keywords": ["急上昇"],
+      "heat": { "temperature": 65, "signals": { "hnPoints": 0, "hatebuCount": 0, "ageHours": 2, "crossSources": 1, "velocity": 0 } },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "gh-quietsynth",
+      "title": "quietsynth — a 400-star modular synth engine for microcontrollers",
+      "url": "https://example.com/quietsynth",
+      "source": "GitHub",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-07-08T00:00:00Z",
+      "summaryJa": [
+        "マイコン向けのモジュラーシンセエンジン。スター400程度の小さなOSSだが設計が美しい。",
+        "ESP32とRP2040に対応し、パッチをテキストで記述できる。",
+        "作者は個人で、ドキュメントに手作りの温かさがある。"
+      ],
+      "category": "music",
+      "keywords": ["シンセ", "マイコン", "OSS", "音楽"],
+      "heat": { "temperature": 30, "signals": { "hnPoints": 0, "hatebuCount": 0, "ageHours": 48, "crossSources": 1, "velocity": 0 } },
+      "image": null
+    },
+    "reason": "有名になる前の道具にはまだ余白があります。音とマイコンの両方を触るあなたの作業台に置いてほしい一本です。"
+  },
+  "unavailableSources": []
+}
