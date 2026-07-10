@@ -43,7 +43,7 @@ Less scrolling. More discovering.
 - 月次index（`issues-index-YYYY-MM.json`）のエントリは `{ issueNo, date, edition, theme, path }`。
   `path` は `public/data/` からの相対パス（例 `issues/2026-07-11-morning.json`）。エントリも追加のみ。
 
-スキーマの実例: `public/data/issues/2026-07-11-morning.json`（サンプル号）
+スキーマの実例: `samples/sample-issue.json`（サンプル号）
 
 ## リポジトリ構成
 
