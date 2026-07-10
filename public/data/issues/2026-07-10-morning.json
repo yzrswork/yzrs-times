@@ -6,7 +6,7 @@
   "date": "2026-07-10",
   "dateDisplay": "Friday, July 10, 2026",
   "pressTimeJst": "2026-07-10 05:00",
-  "generatedAt": "2026-07-10T13:49:03.397Z",
+  "generatedAt": "2026-07-10T13:55:35.802Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "fallback",
@@ -39,9 +39,9 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 64434,
-        "priceJpy": 10424064,
-        "change24hPct": 2.57,
+        "priceUsd": 64523,
+        "priceJpy": 10438412,
+        "change24hPct": 2.47,
         "sparkline7d": [
           61907.59,
           62876.14,
@@ -55,9 +55,9 @@
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1802.15,
-        "priceJpy": 291548,
-        "change24hPct": 3.49,
+        "priceUsd": 1805,
+        "priceJpy": 292007,
+        "change24hPct": 3.39,
         "sparkline7d": [
           1734.19,
           1785.86,
@@ -71,9 +71,9 @@
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.190861,
-        "priceJpy": 30.88,
-        "change24hPct": 4.98,
+        "priceUsd": 0.190928,
+        "priceJpy": 30.89,
+        "change24hPct": 4.92,
         "sparkline7d": [
           0.200693,
           0.210383,
@@ -87,9 +87,9 @@
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 253.73,
-        "priceJpy": 41047,
-        "change24hPct": 6.92,
+        "priceUsd": 254.09,
+        "priceJpy": 41106,
+        "change24hPct": 7,
         "sparkline7d": [
           226.14,
           231.21,
@@ -160,7 +160,7 @@
           "hatebuCount": 70,
           "ageHours": 6,
           "crossSources": 1,
-          "velocity": 11.5
+          "velocity": 11.3
         }
       },
       "image": null
@@ -187,11 +187,11 @@
       "heat": {
         "temperature": 86,
         "signals": {
-          "hnPoints": 64,
+          "hnPoints": 68,
           "hatebuCount": 0,
           "ageHours": 2,
           "crossSources": 1,
-          "velocity": 35.2
+          "velocity": 35.3
         }
       },
       "image": null
@@ -217,10 +217,10 @@
         "temperature": 85,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 40,
+          "hatebuCount": 42,
           "ageHours": 4,
           "crossSources": 1,
-          "velocity": 9.1
+          "velocity": 9.3
         }
       },
       "image": null
@@ -340,7 +340,7 @@
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 2,
           "crossSources": 1,
           "velocity": 0
         }
@@ -374,7 +374,7 @@
           "hatebuCount": 113,
           "ageHours": 12,
           "crossSources": 1,
-          "velocity": 9.6
+          "velocity": 9.5
         }
       },
       "image": null
@@ -399,11 +399,11 @@
       "heat": {
         "temperature": 83,
         "signals": {
-          "hnPoints": 1398,
+          "hnPoints": 1401,
           "hatebuCount": 0,
           "ageHours": 21,
           "crossSources": 1,
-          "velocity": 67.4
+          "velocity": 67.2
         }
       },
       "image": null
@@ -431,11 +431,11 @@
       "heat": {
         "temperature": 83,
         "signals": {
-          "hnPoints": 98,
+          "hnPoints": 103,
           "hatebuCount": 0,
           "ageHours": 3,
           "crossSources": 1,
-          "velocity": 34.8
+          "velocity": 35.2
         }
       },
       "image": null
@@ -463,18 +463,18 @@
           "hatebuCount": 84,
           "ageHours": 10,
           "crossSources": 1,
-          "velocity": 8.4
+          "velocity": 8.3
         }
       },
       "image": null
     },
     {
       "id": "gtrends-jp-ccbd37e7",
-      "title": "arthur fery",
+      "title": "tbs",
       "url": "https://trends.google.com/trending/rss?geo=JP",
       "source": "Google トレンド",
       "sourceId": "gtrends-jp",
-      "publishedAt": "2026-07-10T13:20:00.000Z",
+      "publishedAt": "2026-07-10T13:40:00.000Z",
       "summaryJa": [
         "arthur fery",
         "出典: Google トレンド",
@@ -482,8 +482,7 @@
       ],
       "category": "trends",
       "keywords": [
-        "arthur",
-        "fery"
+        "tbs"
       ],
       "heat": {
         "temperature": 55,
@@ -500,33 +499,32 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "show-hn-50b1136f",
-      "title": "Show HN: Gemini Pro 3 imagines the HN front page 10 years from now",
-      "url": "https://dosaygo-studio.github.io/hn-front-page-2035/news",
+      "id": "show-hn-aaad82ae",
+      "title": "Show HN: Homebrew 6.0.0",
+      "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
       "source": "Show HN",
       "sourceId": "show-hn",
-      "publishedAt": "2025-12-09T15:00:38.000Z",
+      "publishedAt": "2026-06-11T13:24:29.000Z",
       "summaryJa": [
-        "Show HN: Gemini Pro 3 imagines the HN front page 1",
-        "出典: Show HN",
-        "詳細は元記事を参照してください。"
+        "Today, I’m proud to announce Homebrew 6.",
+        "0.",
+        "0."
       ],
       "category": "tech",
       "keywords": [
         "Show",
         "HN",
-        "Gemini",
-        "Pro",
-        "imagines"
+        "Homebrew",
+        "6.0.0"
       ],
       "heat": {
         "temperature": 80,
         "signals": {
-          "hnPoints": 3346,
+          "hnPoints": 1481,
           "hatebuCount": 0,
-          "ageHours": 5111,
+          "ageHours": 697,
           "crossSources": 1,
-          "velocity": 0.7
+          "velocity": 2.1
         }
       },
       "image": null
