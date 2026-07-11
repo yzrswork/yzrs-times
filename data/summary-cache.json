@@ -333,6 +333,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-10T21:00:27.541Z"
+    },
+    "8407a498a1c8d86e": {
+      "url": "https://zenn.dev/kamo78/articles/kaji-guarded-loop-engineering",
+      "summaryJa": [
+        "「動きました！",
+        "」（動いてない） 「全テストパスしました！",
+        "」（通るように書いたテストが、通っただけ） 「完了しました ✅」（何も完了していない） AI coding agent を業務で使っている人なら、どれか一つは見"
+      ],
+      "cachedAt": "2026-07-11T20:40:25.740Z"
+    },
+    "3d0a56b663da54e1": {
+      "url": "https://note.com/art_reflection/n/n7ffd5ce3320c",
+      "summaryJa": [
+        "ここ最近、いかに「AIでAI臭くない文章を書かせられるか？",
+        "」を試行錯誤しています。",
+        "書かれた文章は自分としてもそれなりに思考を凝らせたものとなっていますが、実のところそろそろアイディアが枯渇し、頭打ちになってきまし。"
+      ],
+      "cachedAt": "2026-07-11T20:40:25.740Z"
+    },
+    "a6faffaac9e696fa": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015173931000",
+      "summaryJa": [
+        "新型コロナの後遺症とされるけん怠感などの症状は、体内に潜伏していた別のウイルスが新型コロナの感染によって活性化することで起きるとする研究成果を、東京慈恵会医科大",
+        "新しい治…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-11T20:40:25.740Z"
+    },
+    "b2f2c1eea2a4d959": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015174731000",
+      "summaryJa": [
+        "アメリカの有力紙ニューヨーク・タイムズは、トランプ大統領が使用する新たな大統領専用機に、ミサイル攻撃に対応する機能が備わっていないなどと報じた自社の記者に対し、",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-11T20:40:25.740Z"
+    },
+    "470a6689693e8e10": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015174401000",
+      "summaryJa": [
+        "世界最大の熱帯雨林、南米のアマゾンでは気候変動による気温の上昇などの影響で先住民族が薬や食料として利用してきた植物のおよそ3割が失われる可能性があるとの分析結果",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-11T20:40:25.740Z"
+    },
+    "00573cdd32302f63": {
+      "url": "https://antjs.org",
+      "summaryJa": [
+        "Hello HN!",
+        "<p>I&#x27;m the author of Ant, a JavaScript ecosystem built around a runtime wit",
+        "Ant also includes a package manager, the ants."
+      ],
+      "cachedAt": "2026-07-11T20:40:25.740Z"
+    },
+    "87c4ef91d697f71b": {
+      "url": "https://www.itmedia.co.jp/mobile/articles/2607/11/news002.html",
+      "summaryJa": [
+        "4月、ある小型端末がSNSを中心に再び注目を集めた。",
+        "ワンプッシュで日用品を注文できた「Amazon Dash Button（アマゾン・ダッシュ・ボタン）」だ。",
+        "既に端末の販売およびサービスは終了しているが、買い忘れを防ぐ画期的な仕組みは多くの家庭で重宝された実績があり、現在もさまざまな視点で当時の存在意義が語られた。"
+      ],
+      "cachedAt": "2026-07-11T20:40:25.740Z"
+    },
+    "12b1854178ae0aaa": {
+      "url": "https://github.com/ailyProject/aily-blockly",
+      "summaryJa": [
+        "AI IDE for hardware development, support Arduino, MicroPython, ESP32, STM32, RP2",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-07-11T20:40:25.740Z"
     }
   }
 }
