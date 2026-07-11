@@ -253,6 +253,68 @@
     color: var(--muted);
     white-space: nowrap;
   }
+
+  /* 熱源明細（Heat Index の内訳） */
+  .heat-meter {
+    font-family: var(--sans-jp);
+    font-size: 11px;
+    color: var(--muted);
+    width: 100%;
+    min-width: 0;
+  }
+  .heat-meter > summary {
+    cursor: pointer;
+    list-style: none;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+  }
+  .heat-meter > summary::-webkit-details-marker { display: none; }
+  .heat-meter > summary::after { content: ' \25b8'; }
+  .heat-meter[open] > summary::after { content: ' \25be'; }
+  .heat-rows {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .heat-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .heat-label {
+    flex: none;
+    width: 3.4em;
+    white-space: nowrap;
+    text-align: justify;
+    text-align-last: justify;
+    color: var(--muted);
+  }
+  .heat-bar {
+    flex: 1 1 auto;
+    max-width: 200px;
+    height: 7px;
+    background: var(--paper-2);
+    border: 1px solid var(--rule-soft);
+  }
+  .heat-fill {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: var(--ink-soft);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .heat-fill { transition: width 240ms ease-out; }
+  }
+  .heat-val {
+    flex: none;
+    min-width: 3.2em;
+    text-align: right;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
   .article-title {
     font-family: var(--serif-jp);
     font-weight: 700;
@@ -604,10 +666,65 @@
     return null;
   }
 
-  function heatBadge(temp) {
-    if (typeof temp !== 'number' || isNaN(temp)) return null;
-    var icon = temp >= 80 ? '🔥' : (temp >= 40 ? '🌡️' : '🌱');
-    return icon + ' ' + Math.round(temp) + '℃';
+  /* ---------- 熱源明細（Heat Index の内訳） ----------
+     反響（はてブ / HN）と勢いは対数正規化（log10(n+1)/log10(上限+1)）。
+     人気度は指数的に伸びるため、線形だと大反響の記事以外のバーが潰れて見える。 */
+  var HEAT_ROWS = [
+    { key: 'hatebuCount', label: 'はてブ', norm: function (v) { return logNorm(v, 1000); }, fmt: function (v) { return String(Math.round(v)); } },
+    { key: 'hnPoints', label: 'ＨＮ', norm: function (v) { return logNorm(v, 1000); }, fmt: function (v) { return String(Math.round(v)); } },
+    { key: 'velocity', label: '勢い', norm: function (v) { return logNorm(v, 100); }, fmt: function (v) { return round1(v) + '/h'; } },
+    { key: 'ageHours', label: '鮮度', norm: function (v) { return clamp01((48 - v) / 48); }, fmt: fmtAge, isAge: true },
+    { key: 'crossSources', label: '横断', norm: function (v) { return clamp01((v - 1) / 3); }, fmt: function (v) { return v + '元'; } },
+  ];
+
+  function clamp01(x) { return x < 0 ? 0 : (x > 1 ? 1 : x); }
+  function logNorm(v, max) { return clamp01(Math.log10((v || 0) + 1) / Math.log10(max + 1)); }
+  function round1(n) { return Math.round(n * 10) / 10; }
+  function fmtAge(h) {
+    if (h < 24) return Math.round(h) + 'h前';
+    return Math.round(h / 24) + '日前';
+  }
+
+  // 記事カードのHeat Index表示（details要素。summaryはHeat N℃、開くとシグナル別の内訳バー）
+  function buildHeatMeter(heat, opts) {
+    if (!heat || typeof heat.temperature !== 'number' || isNaN(heat.temperature)) return null;
+    opts = opts || {};
+    var details = el('details', { className: 'heat-meter' });
+    if (opts.open) details.setAttribute('open', '');
+
+    var summary = el('summary', { text: 'Heat ' + Math.round(heat.temperature) + '℃' });
+    details.appendChild(summary);
+
+    var signals = heat.signals;
+    if (signals) {
+      var ariaParts = [];
+      var rowsHost = el('div', { className: 'heat-rows' });
+      HEAT_ROWS.forEach(function (row) {
+        var raw = signals[row.key];
+        if (typeof raw !== 'number' || isNaN(raw)) return;
+        var norm = row.norm(raw);
+        var valText = norm > 0 ? row.fmt(raw) : '—';
+        var rowEl = el('div', { className: 'heat-row' });
+        rowEl.appendChild(el('span', { className: 'heat-label', text: row.label }));
+        var bar = el('span', { className: 'heat-bar' });
+        var fill = el('span', { className: 'heat-fill' });
+        bar.appendChild(fill);
+        rowEl.appendChild(bar);
+        rowEl.appendChild(el('span', { className: 'heat-val', text: valText }));
+        rowsHost.appendChild(rowEl);
+        // 初回描画はwidth 0で挿入し、次フレームで実値にして「刷られる」動きを出す
+        if (norm > 0) {
+          requestAnimationFrame(function () {
+            fill.style.width = Math.round(norm * 100) + '%';
+          });
+          ariaParts.push(row.label + row.fmt(raw));
+        }
+      });
+      details.appendChild(rowsHost);
+      details.setAttribute('aria-label', 'Heat ' + Math.round(heat.temperature) + '度。' + (ariaParts.length ? ariaParts.join('、') : '反響データなし'));
+      details.setAttribute('role', 'group');
+    }
+    return details;
   }
 
   function formatPressTime(pressTimeJst) {
@@ -725,8 +842,8 @@
     var wrap = el('div', { className: 'article' + (opts.lead ? ' lead' : '') });
 
     var head = el('div', { className: 'article-head' });
-    var badgeText = article.heat && heatBadge(article.heat.temperature);
-    if (badgeText) head.appendChild(el('span', { className: 'badge', text: badgeText }));
+    var heatMeter = buildHeatMeter(article.heat, { open: !!opts.lead });
+    if (heatMeter) head.appendChild(heatMeter);
     wrap.appendChild(head);
 
     wrap.appendChild(el('h3', { className: 'article-title', text: article.title || '(無題)' }));
@@ -1064,6 +1181,20 @@
   } else {
     boot();
   }
+
+  // 印刷時は熱源明細をすべて展開し、印刷後に元の開閉状態へ戻す
+  var printClosedMeters = [];
+  window.addEventListener('beforeprint', function () {
+    printClosedMeters = [];
+    document.querySelectorAll('.heat-meter:not([open])').forEach(function (d) {
+      printClosedMeters.push(d);
+      d.setAttribute('open', '');
+    });
+  });
+  window.addEventListener('afterprint', function () {
+    printClosedMeters.forEach(function (d) { d.removeAttribute('open'); });
+    printClosedMeters = [];
+  });
 }());
 </script>
 </body>
