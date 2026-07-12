@@ -36,6 +36,13 @@
       "edition": "midday",
       "theme": "手懐ける思考",
       "path": "issues/2026-07-12-midday.json"
+    },
+    {
+      "issueNo": 6,
+      "date": "2026-07-13",
+      "edition": "morning",
+      "theme": "透明な道具",
+      "path": "issues/2026-07-13-morning.json"
     }
   ]
 }

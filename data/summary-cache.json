@@ -495,6 +495,78 @@
         "Write code, compile, and run on 19 real boards — Arduino Uno, ESP32, ESP32-C3, R"
       ],
       "cachedAt": "2026-07-12T05:52:40.891Z"
+    },
+    "398431a5f118d841": {
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "summaryJa": [
+        "This started based off of a hunch.",
+        "We usually use OpenCode, but were &#x27;forced&#x27; to use Claude Code for a wh",
+        "In that time, we saw the usage meter rise much, much more quickly than when usin"
+      ],
+      "cachedAt": "2026-07-12T20:39:48.348Z"
+    },
+    "a1590a9d5cf8394c": {
+      "url": "https://nikkan-spa.jp/2172263",
+      "summaryJa": [
+        "今年に入り、新たなデバイスが台頭しつつある。",
+        "それはスマートグラスだ。",
+        "5月下旬、レイバンと米メタが共同開発した「Ray-Ban Meta（第2世代）」が国内で正式発売された。"
+      ],
+      "cachedAt": "2026-07-12T20:39:48.348Z"
+    },
+    "816487364d7fdb46": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015175291000",
+      "summaryJa": [
+        "タイの首都バンコクにある飲食店で13日未明、大規模な火災があり、AP通信によりますと、少なくとも27人が死亡したということです。",
+        "火はすでに消し止められたということで、当局が火災の詳しい原因を調べていま…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-12T20:39:48.348Z"
+    },
+    "976c81f45d8b9281": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015175131000",
+      "summaryJa": [
+        "国会の会期末が4日後に迫る中、与党は皇室典範改正案や、「副首都」構想の関連法案など残る法案の成立に全力を挙げる方針です。",
+        "これに対し野党は、課題のある法案も多く丁寧な審議が必要だとしていて、会期末を見据…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-12T20:39:48.348Z"
+    },
+    "b5370f3cd61cb067": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015171821000",
+      "summaryJa": [
+        "スマートフォンを購入する際に勧められるオプションサービス。",
+        "「不要なオプションを契約し、長年にわたって支払いが続いていた」などのトラブルの相談が消費生活センターに相次いでいます。",
+        "中には本人が気づかないま…"
+      ],
+      "cachedAt": "2026-07-12T20:39:48.348Z"
+    },
+    "7ee541a08a9407c1": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015175071000",
+      "summaryJa": [
+        "自転車などのヘルメットの着用率を上げようと、警視庁は「かぶりたくなるデザイン」をテーマにしたヘルメットを大学生などとともに開発し、12日、都内で開かれた交通安全",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-12T20:39:48.348Z"
+    },
+    "a293ec4e4d07dd59": {
+      "url": "https://zenn.dev/knowledge_graph/articles/ai-agent-five-graph-types",
+      "summaryJa": [
+        "本シリーズ 第1部（全3部）: AI エージェント文脈のグラフを Node / Edge の意味で 5 種類に分類します。",
+        "特殊化は 第2部、レイヤー連携と本番構成は第3部（執筆予定）で扱います。",
+        "前提: ナレッジグラフの基礎（エンティティ・関係・GraphRAG との区別）は「ナレッジグラフ入門」「RAG を超える知識統合」で扱っています."
+      ],
+      "cachedAt": "2026-07-12T20:39:48.348Z"
+    },
+    "73ba7e7ecaeb1fe0": {
+      "url": "https://github.com/tobychui/arozos",
+      "summaryJa": [
+        "Web Desktop Operating System for low power platforms, Now written in Go!",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-12T20:39:48.348Z"
     }
   }
 }
