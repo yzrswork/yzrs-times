@@ -405,6 +405,96 @@
         "."
       ],
       "cachedAt": "2026-07-11T20:40:25.740Z"
+    },
+    "074dae8e8cc38922": {
+      "url": "https://zenn.dev/xin9le/articles/6fb2045805996c",
+      "summaryJa": [
+        "数日前、@neuecc 先生が Claude Fable 5 を利用したパフォーマンスチューニング手法を投稿してました。",
+        "それを読んで「できるところから真似してみよう！",
+        "」と思い立ち、早速やってみました。"
+      ],
+      "cachedAt": "2026-07-12T05:52:40.891Z"
+    },
+    "f01ed4863cfda187": {
+      "url": "https://zenn.dev/hatsu/articles/github-actions-steps-parallel",
+      "summaryJa": [
+        "こんにちは、hatsu です。",
+        "先日、GitHub Actions で同じ job の中にある複数のステップを並列に実行できる parallel / background が 2026-06-",
+        "これまで job の並列化はできましたが、step の並列化はできませんでした。"
+      ],
+      "cachedAt": "2026-07-12T05:52:40.891Z"
+    },
+    "36e3fd275ce75a92": {
+      "url": "https://zenn.dev/aws_japan/articles/aidlc-workflows-v2-harness-engineering",
+      "summaryJa": [
+        "はじめに AI コーディングエージェントが日々の開発に浸透するにつれ、多くのチームが同じ壁に行き着きます。",
+        "エージェント向けのワークフローが「バグ修正でも新規開発でも同じ重厚な手順」を強制してくる一方で、自動化に慣れるほど人間側は「AI に全部決めさせる」受動的な姿勢",
+        "."
+      ],
+      "cachedAt": "2026-07-12T05:52:40.891Z"
+    },
+    "0a4e3366b28bbfda": {
+      "url": "https://evanhahn.com/prefer-strict-tables-in-sqlite/",
+      "summaryJa": [
+        "Prefer strict tables in SQLite",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-12T05:52:40.891Z"
+    },
+    "3a784e346b8292d6": {
+      "url": "https://framagit.org/ppom/reaction",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-12T05:52:40.891Z"
+    },
+    "d381fcbd57249779": {
+      "url": "https://zenn.dev/lambdalisue/articles/introduce-unofficial-national-economy",
+      "summaryJa": [
+        "どうも、健康診断で良い判定を受けつづけ、医者から「酒を控えて痩せろ」と言われてしまった、ありすえです。",
+        "突然ですが、皆さんは ナショナルエコノミー というボードゲームをご存知でしょうか。",
+        "ナショナルエコノミーとは ゲーム工房スパ帝国 さんが出している 2〜4 人用のワーカープレイスメントです。"
+      ],
+      "cachedAt": "2026-07-12T05:52:40.891Z"
+    },
+    "164cdebcbc83649d": {
+      "url": "https://danq.me/2026/07/10/rescuing-7234-gifs/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-12T05:52:40.891Z"
+    },
+    "cc651a508efd4a04": {
+      "url": "https://github.com/cdacamar/gap",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-12T05:52:40.891Z"
+    },
+    "e4f8f2afe6a9bc9e": {
+      "url": "https://mimo.xiaomi.com/blog/mimo-v2-5-inference",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-12T05:52:40.891Z"
+    },
+    "e6c5baab094c22f2": {
+      "url": "https://github.com/davidmonterocrespo24/velxio",
+      "summaryJa": [
+        "Emulate Arduino, ESP32 & Raspberry Pi.",
+        "in your browser.",
+        "Write code, compile, and run on 19 real boards — Arduino Uno, ESP32, ESP32-C3, R"
+      ],
+      "cachedAt": "2026-07-12T05:52:40.891Z"
     }
   }
 }
