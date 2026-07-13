@@ -2,10 +2,10 @@ name: Publish Midday Edition
 
 on:
   schedule:
-    # 発行 12:00 JST（Actions cronは遅延するため、昼休みの紙面到着を狙う）
-    - cron: '0 3 * * *'
-    # 補習発行 13:00 JST — その日の昼刊が未発行の場合のみ発行される（冪等）
-    - cron: '0 4 * * *'
+    # 発行 12:05 JST（毎時00分は混雑して遅延しやすいため5分ずらす）
+    - cron: '5 3 * * *'
+    # 補習発行 12:35 JST — その日の昼刊が未発行の場合のみ発行される（冪等、13:00までに収める）
+    - cron: '35 3 * * *'
   workflow_dispatch:
     inputs:
       force:

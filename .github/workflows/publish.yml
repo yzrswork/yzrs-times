@@ -2,10 +2,10 @@ name: Publish Morning Edition
 
 on:
   schedule:
-    # 発行 5:00 JST（Actions cronは遅延するため、5:30の紙面到着を狙って早めに設定）
-    - cron: '0 20 * * *'
-    # 補習発行 8:00 JST — その日の号が未発行の場合のみ発行される（冪等）
-    - cron: '0 23 * * *'
+    # 発行 5:05 JST（毎時00分は混雑して遅延しやすいため5分ずらす。5:30の紙面到着を狙う）
+    - cron: '5 20 * * *'
+    # 補習発行 8:05 JST — その日の号が未発行の場合のみ発行される（冪等）
+    - cron: '5 23 * * *'
   workflow_dispatch:
     inputs:
       force:
