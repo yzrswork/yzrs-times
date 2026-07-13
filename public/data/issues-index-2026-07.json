@@ -43,6 +43,13 @@
       "edition": "morning",
       "theme": "透明な道具",
       "path": "issues/2026-07-13-morning.json"
+    },
+    {
+      "issueNo": 7,
+      "date": "2026-07-14",
+      "edition": "morning",
+      "theme": "手の内にある道具",
+      "path": "issues/2026-07-14-morning.json"
     }
   ]
 }
