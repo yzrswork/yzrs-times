@@ -2,10 +2,8 @@ name: Publish Midday Edition
 
 on:
   schedule:
-    # 発行 11:47 JST（:47は混雑が少ない非典型分。遅延込みで12:00前後の到着を狙う）
-    - cron: '47 2 * * *'
-    # 補習発行 13:17 JST — その日の昼刊が未発行の場合のみ発行される（冪等。1.5時間後、異なる分で混雑分散）
-    - cron: '17 4 * * *'
+    - cron: '47 2 * * *'  # 11:47 JST
+    - cron: '17 4 * * *'  # 13:17 JST (補習)
   workflow_dispatch:
     inputs:
       force:
@@ -16,7 +14,6 @@ on:
 permissions:
   contents: write
 
-# 朝刊workflowと同じグループ名で直列化する（同時pushの衝突防止）
 concurrency:
   group: publish
   cancel-in-progress: false
@@ -25,37 +22,9 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
+      - uses: ./.github/actions/publish-edition
         with:
-          node-version: 20
-
-      - name: Install dependencies
-        run: npm install --no-audit --no-fund
-
-      - name: Build issue
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FORCE: ${{ inputs.force }}
-        run: |
-          ARGS=""
-          if [ "$FORCE" = "true" ]; then ARGS="--force"; fi
-          node scripts/build-issue.mjs midday $ARGS
-
-      - name: Build graph (夕刊の探索データを再導出)
-        run: node scripts/build-graph.mjs
-
-      - name: Commit and push
-        run: |
-          git config user.name "YZRS Times 編集部"
-          git config user.email "actions@users.noreply.github.com"
-          git add public/data data
-          if git diff --cached --quiet; then
-            echo "本日の昼刊は発行済み。変更なし。"
-            exit 0
-          fi
-          MSG=$(cat data/last-issue-message.txt 2>/dev/null || echo "Publish issue")
-          git commit -m "$MSG"
-          git push
+          edition: midday
+          force: ${{ inputs.force }}
+          gemini-api-key: ${{ secrets.GEMINI_API_KEY }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
