@@ -57,6 +57,13 @@
       "edition": "midday",
       "theme": "静かなる最適化",
       "path": "issues/2026-07-14-midday.json"
+    },
+    {
+      "issueNo": 9,
+      "date": "2026-07-15",
+      "edition": "morning",
+      "theme": "創造の境界",
+      "path": "issues/2026-07-15-morning.json"
     }
   ]
 }
