@@ -50,6 +50,13 @@
       "edition": "morning",
       "theme": "手の内にある道具",
       "path": "issues/2026-07-14-morning.json"
+    },
+    {
+      "issueNo": 8,
+      "date": "2026-07-14",
+      "edition": "midday",
+      "theme": "静かなる最適化",
+      "path": "issues/2026-07-14-midday.json"
     }
   ]
 }

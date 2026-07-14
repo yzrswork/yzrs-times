@@ -639,6 +639,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-13T21:11:17.934Z"
+    },
+    "8b2655052efe6e00": {
+      "url": "https://zenn.dev/coji/articles/natural-japanese-ai-smell-lint",
+      "summaryJa": [
+        "これはなに？",
+        "AIが書いた日本語を自然な日本語に直すAgent Skill、natural-japanese を作りました。",
+        "Claude CodeやCodexで動きます。"
+      ],
+      "cachedAt": "2026-07-14T07:20:51.617Z"
+    },
+    "0adfedc404ec1c48": {
+      "url": "https://lobste.rs/s/ko1ji1/lobste_rs_is_now_running_on_sqlite",
+      "summaryJa": [
+        "This past Saturday, @pushcx and I deployed the SQLite pull request to production",
+        "We were waiting till this morning to see how it would react to the Monday traffi",
+        "Needless to say, SQLite seems to have passed with flying colors: cpu usage is do"
+      ],
+      "cachedAt": "2026-07-14T07:20:51.618Z"
+    },
+    "d0a3ee837f922c3f": {
+      "url": "https://zenn.dev/tenkei/articles/5ba5c993dfb8d6",
+      "summaryJa": [
+        "Crit とは Crit は、ローカルで動くレビュー用の UI ツールです。",
+        "https://github.",
+        "com/tomasz-tomczyk/crit ざっくり言うと、AI が作ったコード差分や画面に対して、GitHub PR のようにコメントを付けられるツール "
+      ],
+      "cachedAt": "2026-07-14T07:20:51.618Z"
+    },
+    "6e13ed6b6d222712": {
+      "url": "https://developers.freee.co.jp/entry/mysql-order-by-limit-slow-query",
+      "summaryJa": [
+        "こんにちは。",
+        "freee請求書エンジニアのshunです。",
+        "24卒未経験でfreeeに入社し、freee請求書プロダクトの開発を行っています。"
+      ],
+      "cachedAt": "2026-07-14T07:20:51.618Z"
+    },
+    "72f0d178c923dfa1": {
+      "url": "https://qiita.com/minorun365/items/699e89544da8b0de300d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "以下の内容をそのままコピペして、Claude CodeやCodexに「ユーザースコープのスキルに追加しといて」と頼めばOK。",
+        "--- name: writing-guide description: AI臭さを消す汎用執筆ガイド。",
+        "ブログ・スライドなど、あらゆる書き物."
+      ],
+      "cachedAt": "2026-07-14T07:20:51.618Z"
+    },
+    "27f768f786ec625e": {
+      "url": "https://www.youtube.com/watch?v=xz5aPCRxsv4",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-14T07:20:51.618Z"
+    },
+    "34526ba6bad26173": {
+      "url": "https://css-dos.ahmedamer.co.uk/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-14T07:20:51.618Z"
+    },
+    "1737e8a215e54269": {
+      "url": "https://github.com/shorepine/tulipcc",
+      "summaryJa": [
+        "The Tulip Creative Computer and AMYboard - portable Python synthesizers",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-14T07:20:51.618Z"
     }
   }
 }
