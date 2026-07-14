@@ -2,10 +2,8 @@ name: Publish Morning Edition
 
 on:
   schedule:
-    # 発行 5:17 JST（:17は混雑が少ない非典型分。遅延込みで5:30前後の到着を狙う）
-    - cron: '17 20 * * *'
-    # 補習発行 7:47 JST — その日の号が未発行の場合のみ発行される（冪等。プライマリと異なる分で混雑分散）
-    - cron: '47 22 * * *'
+    - cron: '17 20 * * *'  # 5:17 JST
+    - cron: '47 22 * * *'  # 7:47 JST (補習)
   workflow_dispatch:
     inputs:
       force:
@@ -24,37 +22,9 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
+      - uses: ./.github/actions/publish-edition
         with:
-          node-version: 20
-
-      - name: Install dependencies
-        run: npm install --no-audit --no-fund
-
-      - name: Build issue
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FORCE: ${{ inputs.force }}
-        run: |
-          ARGS=""
-          if [ "$FORCE" = "true" ]; then ARGS="--force"; fi
-          node scripts/build-issue.mjs morning $ARGS
-
-      - name: Build graph (夕刊の探索データを再導出)
-        run: node scripts/build-graph.mjs
-
-      - name: Commit and push
-        run: |
-          git config user.name "YZRS Times 編集部"
-          git config user.email "actions@users.noreply.github.com"
-          git add public/data data
-          if git diff --cached --quiet; then
-            echo "本日の号は発行済み。変更なし。"
-            exit 0
-          fi
-          MSG=$(cat data/last-issue-message.txt 2>/dev/null || echo "Publish issue")
-          git commit -m "$MSG"
-          git push
+          edition: morning
+          force: ${{ inputs.force }}
+          gemini-api-key: ${{ secrets.GEMINI_API_KEY }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}

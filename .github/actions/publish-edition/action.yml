@@ -1,0 +1,57 @@
+name: Publish Edition
+description: Build and publish a YZRS Times edition
+inputs:
+  edition:
+    description: 'Edition to publish (morning / midday)'
+    required: true
+  force:
+    description: 'Re-publish even if already published'
+    required: false
+    default: 'false'
+  gemini-api-key:
+    description: 'Gemini API key'
+    required: true
+  github-token:
+    description: 'GitHub token for source fetching'
+    required: true
+runs:
+  using: composite
+  steps:
+    - uses: actions/checkout@v4
+
+    - uses: actions/setup-node@v6
+      with:
+        node-version: 20
+        cache: npm
+
+    - name: Install dependencies
+      shell: bash
+      run: npm ci
+
+    - name: Build issue
+      shell: bash
+      env:
+        GEMINI_API_KEY: ${{ inputs.gemini-api-key }}
+        GITHUB_TOKEN: ${{ inputs.github-token }}
+      run: |
+        ARGS=""
+        if [ "${{ inputs.force }}" = "true" ]; then ARGS="--force"; fi
+        node scripts/build-issue.mjs ${{ inputs.edition }} $ARGS
+
+    - name: Build graph
+      shell: bash
+      run: node scripts/build-graph.mjs
+
+    - name: Commit and push
+      shell: bash
+      run: |
+        git config user.name "YZRS Times 編集部"
+        git config user.email "actions@users.noreply.github.com"
+        git add public/data data
+        if git diff --cached --quiet; then
+          echo "変更なし。"
+          exit 0
+        fi
+        MSG=$(cat data/last-issue-message.txt 2>/dev/null || echo "Publish issue")
+        git commit -m "$MSG"
+        git push
