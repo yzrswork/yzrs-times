@@ -864,6 +864,69 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-15T05:18:11.421Z"
+    },
+    "2fe98d05b4bbb687": {
+      "url": "https://note.com/uchita_success/n/n030ad63765d3",
+      "summaryJa": [
+        "一番意外だったのは、7つのうち“1つの型”だけで45%を占めていたこと。",
+        "一流ほど、派手な技より“基本の型”を使い倒すんです。",
+        "全部言語化して、AIで再現するプロンプトも作ったので置いておきます。"
+      ],
+      "cachedAt": "2026-07-15T21:18:29.254Z"
+    },
+    "5ae5e6cbae43a595": {
+      "url": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/",
+      "summaryJa": [
+        "Running Gemma 4 26B at 5 tokens/sec on a 13-year-o",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-15T21:18:29.254Z"
+    },
+    "64b32c3f6720eeef": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015178061000",
+      "summaryJa": [
+        "中東地域を管轄するアメリカ中央軍はアメリカ東部時間の15日午後3時、日本時間の16日午前4時からイランに対する追加攻撃を開始したと発表しました。",
+        "イランへの攻撃は5日連続で行われ、15日に入ってからは2…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-15T21:18:29.255Z"
+    },
+    "244046abb66aa71f": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015176901000",
+      "summaryJa": [
+        "第175回芥川賞と直木賞の選考会が15日、都内で開かれ、芥川賞に小砂川チトさんの「ゾンビ回収婦」が、直木賞に朝倉かすみさんの「けんぐゎい」がそれぞれ選ばれました",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-15T21:18:29.255Z"
+    },
+    "c7808fa7dbc7650e": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015177751000",
+      "summaryJa": [
+        "冷凍食品大手の「ニチレイ」でシステム障害が発生し、外食チェーンなどの間で商品の欠品などの影響が出ている問題で、会社はサイバー攻撃を受けたと公表しました。",
+        "ニチレイは13日、不正アクセスによるシステ…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-15T21:18:29.255Z"
+    },
+    "8c3acf43834d43ba": {
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "summaryJa": [
+        "Inkling: Our Open-Weights Model",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-15T21:18:29.255Z"
+    },
+    "f6b9f0630137ba81": {
+      "url": "https://github.com/dmellok/tesserae",
+      "summaryJa": [
+        "E-ink dashboard companion.",
+        "Compose dashboards in a browser, render server-side, and push to e-ink panels ov",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-15T21:18:29.255Z"
     }
   }
 }

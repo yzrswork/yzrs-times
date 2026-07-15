@@ -71,6 +71,13 @@
       "edition": "midday",
       "theme": "道具の手触り",
       "path": "issues/2026-07-15-midday.json"
+    },
+    {
+      "issueNo": 11,
+      "date": "2026-07-16",
+      "edition": "morning",
+      "theme": "創る人の足元",
+      "path": "issues/2026-07-16-morning.json"
     }
   ]
 }
