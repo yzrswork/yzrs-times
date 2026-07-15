@@ -774,6 +774,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-14T21:18:59.567Z"
+    },
+    "656bee235eb67a4b": {
+      "url": "https://zenn.dev/neet/articles/11bafab8645995",
+      "summaryJa": [
+        "!",
+        "AI 利用の開示：この記事を書くにあたっての調査やブレインストーミング、校正には AI を用いましたが、本文の執筆やコードの実装、および出典の確認はすべて人間が",
+        "AI は好きだが AI 企業は嫌いだ こんにちは。"
+      ],
+      "cachedAt": "2026-07-15T05:18:11.420Z"
+    },
+    "0d15af861f868e97": {
+      "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+      "summaryJa": [
+        "Jurassic Park computers in excruciating detail",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-15T05:18:11.420Z"
+    },
+    "827d361d1bbc1d17": {
+      "url": "https://lrc.cs.dartmouth.edu/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-15T05:18:11.420Z"
+    },
+    "a0bc0f630680e91c": {
+      "url": "https://prismml.com/news/bonsai-27b",
+      "summaryJa": [
+        "Bonsai 27B: A 27B-Class model that runs on a phone",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-15T05:18:11.421Z"
+    },
+    "7ed22b7a3a3a9b0d": {
+      "url": "https://yatta47.hateblo.jp/entry/2026/03/20/221447",
+      "summaryJa": [
+        "今回はコラムのような感じ。",
+        "ちょっとしたきっかけで思い浮かんだので書いてみる。",
+        "きっかけ: 6年前のスライドが今も正しかった Songmu氏（松木雅幸、Nature CTO）が2020年のInfra Study Meetupで発表した「In"
+      ],
+      "cachedAt": "2026-07-15T05:18:11.421Z"
+    },
+    "4462e9e4a435cdad": {
+      "url": "https://zenn.dev/genda_jp/articles/46745564b7a9dd",
+      "summaryJa": [
+        "はじめに 株式会社GENDA 開発部エンジニアの奥山です。",
+        "先日、「Claude Code サブエージェントのネスト機能で .",
+        "claude/agents/ の定義が効いた話」を書きました。"
+      ],
+      "cachedAt": "2026-07-15T05:18:11.421Z"
+    },
+    "118d38dbe287824e": {
+      "url": "https://qiita.com/akachiryo/items/5a1deaa541d70e11d85f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "お疲れ様です！",
+        "前回までで「index」「レースコンディション（ユニーク制約）」あたりを扱ってきましたが、今回は 暗号化とハッシュ の話です。",
+        "Railsを使っていると当たり前に出てくる master."
+      ],
+      "cachedAt": "2026-07-15T05:18:11.421Z"
+    },
+    "f40f74ff7f26b8a4": {
+      "url": "https://nelsonslog.wordpress.com/2026/07/14/a-modern-http-request/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-15T05:18:11.421Z"
+    },
+    "15ab653984df00d7": {
+      "url": "https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-15T05:18:11.421Z"
+    },
+    "fddb522133ad3c74": {
+      "url": "https://github.com/probonopd/MiniDexed",
+      "summaryJa": [
+        "Dexed FM synthesizer similar to 8x DX7 (TX816/TX802) running on a bare metal Ras",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-15T05:18:11.421Z"
     }
   }
 }
