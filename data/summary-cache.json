@@ -927,6 +927,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-15T21:18:29.255Z"
+    },
+    "38df8dd73584557d": {
+      "url": "https://levtech.jp/media/detail_891/",
+      "summaryJa": [
+        "ゲームエンジン「吉里吉里1～3」開発者 W.",
+        "Dee ソフトウェアエンジニア。",
+        "学生だった1999年、ゲームエンジン「吉里吉里」シリーズおよびスクリプト言語「TJS」、シナリオシステム「KAG」の開発を開始する。"
+      ],
+      "cachedAt": "2026-07-16T05:32:16.211Z"
+    },
+    "b513ed18a6663e92": {
+      "url": "https://qiita.com/morishio/items/df304e891fb2405a2d30?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "こちらの記事は 「Medley Summer Tech Blog Relay」 の 3日目 の記事です はじめに こんにちは。",
+        "株式会社メドレーの SRE グループ所属の森川です⚙️ 弊社が運営するサービス ジョブメドレー では開発者向けに「sb 環境」と呼ばれる検.",
+        "."
+      ],
+      "cachedAt": "2026-07-16T05:32:16.211Z"
+    },
+    "0f8eef59c4b9a323": {
+      "url": "https://madcampos.dev/blog/2026/07/accessibility-from-scratch/",
+      "summaryJa": [
+        "If you want to create a button from scratch, you m",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-16T05:32:16.211Z"
+    },
+    "39ac7d2823d28fef": {
+      "url": "https://tenderlovemaking.com/2026/07/15/detecting-full-table-scans-with-sqlite/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-16T05:32:16.211Z"
+    },
+    "1b238512edead14c": {
+      "url": "https://zenn.dev/kyome/articles/eb4a9f664002ad",
+      "summaryJa": [
+        "はじめに RunCat Neo はmacOSのメニューバーでネコが走る常駐アプリです。",
+        "CPU負荷に応じてネコの走る速さが変わるので、直感的にマシンの状態が確認できます。",
+        "このアプリには カスタムメトリクス という機能があります。"
+      ],
+      "cachedAt": "2026-07-16T05:32:16.211Z"
+    },
+    "dd8f9abb2059e106": {
+      "url": "https://qiita.com/jqit_suwa/items/2f38d32328996d826d48?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに Claude Code、コードを書かせるだけで使ってませんか？",
+        "それ、正直めちゃくちゃもったいないです。",
+        "Claude Code のすごいところは、手を動かしてくれる相棒であると同時に、隣に座ってる先生でもあること。"
+      ],
+      "cachedAt": "2026-07-16T05:32:16.211Z"
+    },
+    "9c6b53671e679c50": {
+      "url": "https://zenn.dev/sre_holdings/articles/c994b1db6ff812",
+      "summaryJa": [
+        "SREホールディングス株式会社でエンジニアをしているサティヤです。",
+        "はじめに フロントエンド開発では、Figmaなどで作成されたデザインをもとに、Reactで画面を実装することがよくあります。",
+        "一見すると「デザイン通りに作るだけ」に見えますが、実際に実装してみると確認すべきポイントは意外と多いです。"
+      ],
+      "cachedAt": "2026-07-16T05:32:16.211Z"
+    },
+    "33408f3b605046f0": {
+      "url": "https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-16T05:32:16.211Z"
+    },
+    "35daf53c9b876ec6": {
+      "url": "https://crowdhailer.me/2026-07-15/abstracting-effects-with-continuations/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-16T05:32:16.211Z"
+    },
+    "edf3c4eb77338423": {
+      "url": "https://parakeet.co/blog/the-shape-of-apps/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-16T05:32:16.211Z"
+    },
+    "9a1d3010529efa46": {
+      "url": "https://github.com/usetrmnl/trmnl-firmware",
+      "summaryJa": [
+        "TRMNL ePaper device firmware",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-16T05:32:16.211Z"
     }
   }
 }

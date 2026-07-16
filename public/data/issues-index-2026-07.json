@@ -78,6 +78,13 @@
       "edition": "morning",
       "theme": "創る人の足元",
       "path": "issues/2026-07-16-morning.json"
+    },
+    {
+      "issueNo": 12,
+      "date": "2026-07-16",
+      "edition": "midday",
+      "theme": "静かなる設計の美学",
+      "path": "issues/2026-07-16-midday.json"
     }
   ]
 }
