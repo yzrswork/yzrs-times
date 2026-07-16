@@ -85,6 +85,13 @@
       "edition": "midday",
       "theme": "静かなる設計の美学",
       "path": "issues/2026-07-16-midday.json"
+    },
+    {
+      "issueNo": 13,
+      "date": "2026-07-17",
+      "edition": "morning",
+      "theme": "設計の拡張",
+      "path": "issues/2026-07-17-morning.json"
     }
   ]
 }
