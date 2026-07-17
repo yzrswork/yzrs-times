@@ -92,6 +92,13 @@
       "edition": "morning",
       "theme": "設計の拡張",
       "path": "issues/2026-07-17-morning.json"
+    },
+    {
+      "issueNo": 14,
+      "date": "2026-07-17",
+      "edition": "midday",
+      "theme": "自作の精神",
+      "path": "issues/2026-07-17-midday.json"
     }
   ]
 }
