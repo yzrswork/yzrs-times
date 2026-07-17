@@ -1179,6 +1179,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-17T05:31:12.448Z"
+    },
+    "a66b6c912f5dea2e": {
+      "url": "https://fabscene.com/new/make/esp32-c3-dns-adblock-hash-in-flash/",
+      "summaryJa": [
+        "自宅のネットワーク全体で広告をブロックするなら、Pi-holeを入れたRaspberry Piを常時動かすのが定番だ。",
+        "もっと小さく安くと考えてESP32でやろうとすると、ブロック対象のドメインを覚えておくメモリーが足りず、PSRAMを積んだ高い方のチップが要る。",
+        "M-Abozaid氏は、覚え方を変えることで、200円台のESP32-C3で同じこと."
+      ],
+      "cachedAt": "2026-07-17T21:07:39.087Z"
+    },
+    "c7cdee2026f3ae5e": {
+      "url": "https://tech-lab.sios.jp/archives/53462",
+      "summaryJa": [
+        "こんにちは、サイオステクノロジー武井です。",
+        "今回はasync/awaitの動きをOSカーネルのレイヤーから追うことで理解を深めようとしてみます。",
+        "1."
+      ],
+      "cachedAt": "2026-07-17T21:07:39.087Z"
+    },
+    "1c6e26b187a271fa": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015179941000",
+      "summaryJa": [
+        "湿った空気の影響で、栃木県と群馬県では17日夕方から雨雲がかかり続けて記録的な大雨になり、土砂災害や浸水被害が相次いでいます。",
+        "18日も北日本から西日本で雷雨のおそれがあり、特に北海道では月曜日にかけて…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-17T21:07:39.087Z"
+    },
+    "081ce90ede22b48d": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015179761000",
+      "summaryJa": [
+        "インドでは脱炭素社会の実現を目指す中、水素を使った燃料電池で動き二酸化炭素を排出しない列車が開発され、17日から運行を開始しました。",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-17T21:07:39.087Z"
+    },
+    "1448cfe26492227f": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015179891000",
+      "summaryJa": [
+        "ハワイにある太平洋津波警報センターから気象庁に入った連絡によりますと、日本時間の17日午後11時49分ごろ、メキシコのチアパス州沿岸を震源とするマグニチュード7",
+        "4の大きな地震がありました。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-17T21:07:39.087Z"
+    },
+    "ca3ddac10730e554": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015179621000",
+      "summaryJa": [
+        "SNS上で「人気キャラクターのおもちゃを無料で譲る」などとして偽の大手運送会社のサイトに誘導し、電話番号や住所などの個人情報を入力させる不審な投稿が相次いでいま",
+        "安易に入力すると情報を取られて悪用さ…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-17T21:07:39.087Z"
+    },
+    "34111744bc3bd638": {
+      "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
+      "summaryJa": [
+        "Learning a few things about running SQLite",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-17T21:07:39.087Z"
+    },
+    "3317f451e873b111": {
+      "url": "https://zenn.dev/loglass/articles/6aa18c80496ec6",
+      "summaryJa": [
+        "この記事は毎週必ず記事がでるテックブログ Loglass Tech Blog Sprint の152週目の記事です！",
+        "3年間連続達成まで残り7週となりました！",
+        "こんにちは、ログラスの松岡(@little_hand_s)です。"
+      ],
+      "cachedAt": "2026-07-17T21:07:39.087Z"
+    },
+    "a6305fb0e133a812": {
+      "url": "https://fabscene.com/new/pr/escalator-lidar-recomputer-jetson/",
+      "summaryJa": [
+        "エスカレーターで歩く人を半分に減らしたAI──名古屋発、駅の見守りシステムを支えるLiDAR技術とreComputer Jetson 2026 7/17 エスカ",
+        "しかし近年、その慣習を見直す動きが各地で広がっている。",
+        "2023年10月、名古屋市は政令指定都市として全国初となる、."
+      ],
+      "cachedAt": "2026-07-17T21:07:39.087Z"
+    },
+    "c2d00a0d84d8c383": {
+      "url": "https://news.ycombinator.com/item?id=48945241",
+      "summaryJa": [
+        "URL already posted: <a href=\"https:&#x2F;&#x2F;health.",
+        "aws.",
+        "amazon."
+      ],
+      "cachedAt": "2026-07-17T21:07:39.087Z"
+    },
+    "8fa7ff612c0a18ce": {
+      "url": "https://non.io",
+      "summaryJa": [
+        "Heya HN, I&#x27;ve been working on a reddit-like platform as my primary side pro",
+        "Doing a (very) soft launch today, mainly because I want to use it to encourage d",
+        "<p>How non."
+      ],
+      "cachedAt": "2026-07-17T21:07:39.087Z"
     }
   }
 }

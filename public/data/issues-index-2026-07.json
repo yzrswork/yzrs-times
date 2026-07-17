@@ -99,6 +99,13 @@
       "edition": "midday",
       "theme": "自作の精神",
       "path": "issues/2026-07-17-midday.json"
+    },
+    {
+      "issueNo": 15,
+      "date": "2026-07-18",
+      "edition": "morning",
+      "theme": "限られた器で創る",
+      "path": "issues/2026-07-18-morning.json"
     }
   ]
 }
