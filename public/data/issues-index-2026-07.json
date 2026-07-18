@@ -113,6 +113,13 @@
       "edition": "midday",
       "theme": "制約と実装の愉しみ",
       "path": "issues/2026-07-18-midday.json"
+    },
+    {
+      "issueNo": 17,
+      "date": "2026-07-19",
+      "edition": "morning",
+      "theme": "道具と自律",
+      "path": "issues/2026-07-19-morning.json"
     }
   ]
 }
