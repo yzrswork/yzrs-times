@@ -106,6 +106,13 @@
       "edition": "morning",
       "theme": "限られた器で創る",
       "path": "issues/2026-07-18-morning.json"
+    },
+    {
+      "issueNo": 16,
+      "date": "2026-07-18",
+      "edition": "midday",
+      "theme": "制約と実装の愉しみ",
+      "path": "issues/2026-07-18-midday.json"
     }
   ]
 }

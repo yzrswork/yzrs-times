@@ -1278,6 +1278,33 @@
         "<p>How non."
       ],
       "cachedAt": "2026-07-17T21:07:39.087Z"
+    },
+    "8d6ebe6a353fe9d5": {
+      "url": "https://zenn.dev/pksha/articles/python-memory-leak-jemalloc",
+      "summaryJa": [
+        "要約 FastAPI サーバで、メモリ使用率が単調増加し、OOM が発生する現象に遭遇した。",
+        "同じアプリケーションコードと負荷試験内容のまま jemalloc に差し替えると OOM が発生しなくなったため、主要因は glibc malloc（ptmal",
+        "Linux 上の Ruby on Rails や Node."
+      ],
+      "cachedAt": "2026-07-18T05:17:20.645Z"
+    },
+    "14e255bf923aa1cf": {
+      "url": "https://zenn.dev/1amageek/articles/swift-web-fullstack",
+      "summaryJa": [
+        "こんにちは、Stamp Incの村本です。",
+        "※ English version: Building and Running Web Apps with Just Swift 以前、次世代のサーバー見えなく",
+        "という記事で、Distributed Actorによってサーバーの実装が隠蔽されていく未来について書きました。"
+      ],
+      "cachedAt": "2026-07-18T05:17:20.645Z"
+    },
+    "c748544f30090784": {
+      "url": "https://github.com/moltis-org/moltis",
+      "summaryJa": [
+        "A secure persistent personal agent server in Rust.",
+        "One binary, sandboxed execution, multi-provider LLMs, voice, memory, Telegram, W",
+        "Secure by design, runs on your hardware."
+      ],
+      "cachedAt": "2026-07-18T05:17:20.645Z"
     }
   }
 }
