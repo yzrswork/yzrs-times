@@ -127,6 +127,13 @@
       "edition": "midday",
       "theme": "設計の手触り",
       "path": "issues/2026-07-19-midday.json"
+    },
+    {
+      "issueNo": 19,
+      "date": "2026-07-20",
+      "edition": "morning",
+      "theme": "手の中の物語",
+      "path": "issues/2026-07-20-morning.json"
     }
   ]
 }
