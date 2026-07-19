@@ -120,6 +120,13 @@
       "edition": "morning",
       "theme": "道具と自律",
       "path": "issues/2026-07-19-morning.json"
+    },
+    {
+      "issueNo": 18,
+      "date": "2026-07-19",
+      "edition": "midday",
+      "theme": "設計の手触り",
+      "path": "issues/2026-07-19-midday.json"
     }
   ]
 }

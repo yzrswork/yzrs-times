@@ -1413,6 +1413,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-18T21:07:32.094Z"
+    },
+    "04a2c71552116fe1": {
+      "url": "https://zenn.dev/shim_03248/articles/5094579401a468",
+      "summaryJa": [
+        "はじめに 個人で運営しているPHP8技術者認定初級試験の模擬試験サイト（Laravel製）に、OpenTelemetry + Grafanaスタックで可観測性基",
+        "アプリコードほぼ変更なし（ゼロコード自動計装） 本番はDockerを使わず、全部バイナリ + systemd 可視化は日本語UIのGrafanaに一元化（Jae",
+        "単一VPSで運用する個人開発サイトを想定した内容ですが、小規模チームのLaravelアプリでもそのまま使えるはずです。"
+      ],
+      "cachedAt": "2026-07-19T05:39:57.463Z"
+    },
+    "71d61e0fd00cea3c": {
+      "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
+      "summaryJa": [
+        "Transcribe.cpp",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-19T05:39:57.463Z"
+    },
+    "ebdb659dd463eb38": {
+      "url": "https://gigazine.net/news/20260719-emacs-in-pop-culture/",
+      "summaryJa": [
+        "Emacsはオリジナルが1976年にリリースされ、50年経った記事作成時点でも脈々と更新が続いている古参かつ現役のテキストエディタです。",
+        "歴史の長さゆえに根強い愛好者が多く、同じく長い歴史を持つviとの「エディタ戦争」に代表されるミームにも事欠きません。",
+        "そんなEmacsは映画などのワンシーンを演出するツールとしても."
+      ],
+      "cachedAt": "2026-07-19T05:39:57.463Z"
+    },
+    "fb116affe8cb993e": {
+      "url": "https://zenn.dev/edash_tech_blog/articles/528ab6bd044c35",
+      "summaryJa": [
+        "はじめに Zenn 読者のみなさん、こんにちは。",
+        "e-dash VPoE の伊藤です。",
+        "最近、AI コーディングエージェントや LLM ベースの自動化を業務に組み込む機会がぐっと増えました。"
+      ],
+      "cachedAt": "2026-07-19T05:39:57.463Z"
+    },
+    "c038f9b106b25702": {
+      "url": "https://qiita.com/Asahi_tech_dev/items/5a3c6420cb0b2fa0e823?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに この数年、AIの登場によって開発現場は大きく様変わりした。",
+        "バイブコーディングをはじめ、未経験者が開発に参入するハードルは一気に下がり、参入者は急増している。",
+        "もはやプロダクトの「インフレ状態」と言ってもいいかもしれない。"
+      ],
+      "cachedAt": "2026-07-19T05:39:57.463Z"
+    },
+    "a5cf6c27d44408e0": {
+      "url": "https://qiita.com/Shiro_Shihi/items/dc923fc9ae3ffbc1ec03?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "業務システムで申請や登録をしようとすると、かなりの確率でこのような画面に遭遇します。",
+        "□ 入力内容に誤りがないことを確認しました □ 上記の注意事項を確認しました □ 本操作を取り消せないことを理解しました ［申請する］ チェックを入れなければ、",
+        "."
+      ],
+      "cachedAt": "2026-07-19T05:39:57.463Z"
+    },
+    "063708cf8c9ee4ff": {
+      "url": "https://negroniventurestudios.com/2026/07/18/the-computer-at-the-bottom-of-a-canal/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-19T05:39:57.463Z"
+    },
+    "2c21f72f3fc5dae9": {
+      "url": "https://www.elbeno.com/blog/?p=1836",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-19T05:39:57.463Z"
+    },
+    "ca481fe524994927": {
+      "url": "https://pradyun.net/blog/metrics_matter.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-19T05:39:57.463Z"
+    },
+    "a12498aaccb61114": {
+      "url": "http://www.dogbunnypuzzle.com/",
+      "summaryJa": [
+        "Show HN: I may have created a new type of puzzle",
+        "出典: Show HN",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-19T05:39:57.463Z"
     }
   }
 }
