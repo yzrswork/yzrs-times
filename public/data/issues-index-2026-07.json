@@ -141,6 +141,13 @@
       "edition": "midday",
       "theme": "自分で組み立てる",
       "path": "issues/2026-07-20-midday.json"
+    },
+    {
+      "issueNo": 21,
+      "date": "2026-07-21",
+      "edition": "morning",
+      "theme": "静かな技術",
+      "path": "issues/2026-07-21-morning.json"
     }
   ]
 }
