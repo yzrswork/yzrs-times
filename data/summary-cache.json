@@ -1566,6 +1566,87 @@
         "<p>I used both a Leica BLK 360 and Matterport Pro 2 to do the scanning and the M"
       ],
       "cachedAt": "2026-07-19T21:11:12.238Z"
+    },
+    "2c8163508da5617b": {
+      "url": "https://zenn.dev/uhyo/articles/import-lint-intro",
+      "summaryJa": [
+        "皆さんこんにちは。",
+        "今回は、筆者が最近Claude Fable 5さんと一緒に開発したImportLintを紹介します。",
+        "https://github."
+      ],
+      "cachedAt": "2026-07-20T05:56:19.483Z"
+    },
+    "bac9af52070d5ca9": {
+      "url": "https://qiita.com/potato11/items/6f010e9bd4d74f88c855?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 最近セルフネイルを始めたのですが、ショート動画を見て「このデザインを真似したい！",
+        "」と思っても、使用しているネイル用品が動画内に散らばっていたり、そもそも何のアイテムを使っているのか紹介されていなかったりすることがあります。",
+        "そこで、ネイルデザインだけでなく「使用."
+      ],
+      "cachedAt": "2026-07-20T05:56:19.483Z"
+    },
+    "6cc80501a8d6f8db": {
+      "url": "https://p2ptk.org/digital-rights/5632",
+      "summaryJa": [
+        "以下の文章は、電子フロンティア財団の「Hate “The Algorithm?",
+        "” RSS Is One of the Tools You’ve Been Looking For」という記事を翻訳したものである。",
+        "Electronic Frontier Foundation オンラインのソーシャルネットワーク――あるいはインターネット文化をめぐるあらゆる会話――を軽く覗く"
+      ],
+      "cachedAt": "2026-07-20T05:56:19.483Z"
+    },
+    "445430a898f7fee7": {
+      "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
+      "summaryJa": [
+        "Claude Fable produced a counterexample to the Jaco",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-20T05:56:19.483Z"
+    },
+    "8ff0c1c284c8273a": {
+      "url": "https://zenn.dev/tkou15/articles/bonsai-1bit-llm-guide",
+      "summaryJa": [
+        "はじめに 2026年3月31日、Caltech 発のスタートアップ PrismML が 1-bit LLM ファミリー Bonsai を発表しました。",
+        "8B クラスのモデルがわずか 1.",
+        "15GB、必要メモリ約 1."
+      ],
+      "cachedAt": "2026-07-20T05:56:19.483Z"
+    },
+    "90f87c0e0228de2c": {
+      "url": "https://qiita.com/natsugure/items/e12091867becb931bce0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 私は以前ブログサービスのnoteで記事を書いていたのですが、note公式で実装されているクリエイター向け統計画面（ダッシュボード）には「固定された期間",
+        "「これ、自分で作った.",
+        "."
+      ],
+      "cachedAt": "2026-07-20T05:56:19.483Z"
+    },
+    "758569bf77ecdb52": {
+      "url": "https://lobste.rs/s/69mche/what_is_your_favorite_blog_read_recently",
+      "summaryJa": [
+        "Especially interesting what it adds beyond an academic paper would.",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-20T05:56:19.483Z"
+    },
+    "9ca556b09308d1b5": {
+      "url": "https://taoofmac.com/space/blog/2026/06/18/1845",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-20T05:56:19.483Z"
+    },
+    "e0ac7bdac66be57a": {
+      "url": "https://github.com/HomeSpan/HomeSpan",
+      "summaryJa": [
+        "HomeKit Library for the Arduino-ESP32",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-20T05:56:19.483Z"
     }
   }
 }

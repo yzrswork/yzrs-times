@@ -134,6 +134,13 @@
       "edition": "morning",
       "theme": "手の中の物語",
       "path": "issues/2026-07-20-morning.json"
+    },
+    {
+      "issueNo": 20,
+      "date": "2026-07-20",
+      "edition": "midday",
+      "theme": "自分で組み立てる",
+      "path": "issues/2026-07-20-midday.json"
     }
   ]
 }
