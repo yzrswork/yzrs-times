@@ -155,6 +155,13 @@
       "edition": "midday",
       "theme": "手触りのある技術",
       "path": "issues/2026-07-21-midday.json"
+    },
+    {
+      "issueNo": 23,
+      "date": "2026-07-22",
+      "edition": "morning",
+      "theme": "道具と地力",
+      "path": "issues/2026-07-22-morning.json"
     }
   ]
 }

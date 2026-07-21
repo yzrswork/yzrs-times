@@ -1809,6 +1809,87 @@
         "I immediately started making games in my newfound free time (a lifelong interest"
       ],
       "cachedAt": "2026-07-21T05:37:46.345Z"
+    },
+    "e34a1c7cb7f4eedc": {
+      "url": "https://freeink.org/",
+      "summaryJa": [
+        "FreeInk: Open ecosystem for e-readers",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-21T20:20:06.611Z"
+    },
+    "f2474414ea70804c": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015182261000",
+      "summaryJa": [
+        "システム障害が発生し、出荷などの業務に影響が出た冷凍食品大手「ニチレイ」へのサイバー攻撃について、ハッカー集団が21日夜、犯行声明を出したことがセキュリティー会",
+        "このハッカー集…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-21T20:20:06.611Z"
+    },
+    "87cd749dc466ae7e": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015181481000",
+      "summaryJa": [
+        "21日は、岐阜県と愛知県で、最高気温が40度以上となり、気象庁が運用を始めてから初めての「酷暑日」となりました。",
+        "22日も関東甲信や東海で「酷暑日」が予想されていて、熱中症に厳重に警戒してください。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-21T20:20:06.611Z"
+    },
+    "c21084bdf77c6e96": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015182211000",
+      "summaryJa": [
+        "21日のニューヨーク外国為替市場ではイラン情勢の緊迫化を背景に円を売って有事に強いとされるドルを買う動きが進み、円相場は一時、1ドル＝163円台に値下がりしまし",
+        "これは、およそ39年半ぶりの円安ドル…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-21T20:20:06.611Z"
+    },
+    "1a0c3f980d9d9257": {
+      "url": "https://news.yahoo.co.jp/pickup/6588825?source=rss",
+      "summaryJa": [
+        "梨5000個盗まれ「栽培辞めます」",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-21T20:20:06.611Z"
+    },
+    "ce0fbec3a5789a70": {
+      "url": "https://zenn.dev/mizchi/scraps/4e5d72496e2bfc",
+      "summaryJa": [
+        "自分が気に入ってる Claude Code Web を使った開発の(一部)自動化の手法を紹介します。",
+        "周りにあまり使ってる人がいないのですが、作者のボリスを参考に自分も開発の一部を自動化するのにある程度成功しています。",
+        "Claude Code Web Claude Code は Web 上のダッシュボードからコンテナ環境で開発することができます (一."
+      ],
+      "cachedAt": "2026-07-21T20:20:06.611Z"
+    },
+    "0febbeb11c9bbed3": {
+      "url": "https://joisino.hatenablog.com/entry/hack",
+      "summaryJa": [
+        "LLM の内部状態やパラメータ、いわばLLM の「脳内」を局所的に書き換えることで、LLM の動作に介入する手法が発展を遂げています。",
+        "まずは最も基本的な操舵ベクトルについてみていきましょう。",
+        "操舵ベクトル LLM の内部状態を特定の方向に動かすことで動作を操作できます。"
+      ],
+      "cachedAt": "2026-07-21T20:20:06.611Z"
+    },
+    "a33b744cfdfed563": {
+      "url": "https://note.com/ymdpharm3/n/n8515d151e56d",
+      "summaryJa": [
+        "AIに会社の地図を持たせたら、3年目社員のように働き始めた 〜精度とトークン効率を上げるオントロジーの実践〜 AI に仕事を頼むと、まず会社のことを説明する仕事",
+        "この困りごとは世界共通のようで、Y Combinator は「Company Brain」というカテゴリを立て、世界のすべての会社が必要とするようになる、と言.",
+        "."
+      ],
+      "cachedAt": "2026-07-21T20:20:06.611Z"
+    },
+    "5d51075a2d16caab": {
+      "url": "https://github.com/Botspot/pi-apps",
+      "summaryJa": [
+        "Raspberry Pi App Store for Open Source Projects",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-21T20:20:06.611Z"
     }
   }
 }
