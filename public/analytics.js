@@ -3,7 +3,7 @@
 // 全ページがこのファイルを読み込んでいるので、ここ1か所の変更で計測が有効になる。
 // 未設定 (XXXX のまま) の間は何もしない安全設計。
 (function () {
-  var ID = "G-LWXZY6WJT7";
+  var ID = "G-56D3SSB529";
   if (ID.indexOf("XXXX") > -1) return; // 未設定なら no-op
   var s = document.createElement("script");
   s.async = true;
