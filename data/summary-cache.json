@@ -1710,6 +1710,105 @@
         "自社ではAIオウンドメディアを11サイト運営しており、Next."
       ],
       "cachedAt": "2026-07-20T21:32:28.162Z"
+    },
+    "b789d4c1436f66f0": {
+      "url": "https://zenn.dev/joeee/articles/048addcc0c2ce6",
+      "summaryJa": [
+        "自作サーバー 自宅で開発する際に使う検証機や、開発の際に使うもの、またはVercelなどのようにホスティングで使えるサーバーです。",
+        "画像だけアップロードできるようにしておくのも良さそうです。",
+        "開発サーバーの構成 今回以下のスペックでサーバーを組みました。"
+      ],
+      "cachedAt": "2026-07-21T05:37:46.344Z"
+    },
+    "0829dcd515cb491d": {
+      "url": "https://bellkiosk.website/blog/reasons-to-website.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-21T05:37:46.344Z"
+    },
+    "f601999746f1db98": {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/21/news012.html",
+      "summaryJa": [
+        "「AIコーディングブーム」が去ったUSで、エンジニアに求められる「本体の強さ」：Go AbekawaのGo Global！",
+        "牛尾剛さん AI vs.",
+        "人間編（前編）（1/2 ページ） 米国MS開発の最前線では「コーディングエージェントブーム」は既に終息し、AIは日常の文房具に。"
+      ],
+      "cachedAt": "2026-07-21T05:37:46.345Z"
+    },
+    "7607084db1851125": {
+      "url": "https://zenn.dev/ncdc/articles/6c8eabde83cf0a",
+      "summaryJa": [
+        "会議の場で「あいまい検索でお願いします」「部分一致でお願いします」という言葉だけが飛び交うことがよくありますが、この4つのどれを指しているかで、実装コストが変わ",
+        "完全一致・前方一致であればRDBのB-treeインデックスがそのまま使えますが、後方一致・部分一致はLIKE '%〇〇%'の形になり、インデックス.",
+        "."
+      ],
+      "cachedAt": "2026-07-21T05:37:46.345Z"
+    },
+    "89dbcb754705783c": {
+      "url": "https://github.com/janestreet/incremental",
+      "summaryJa": [
+        "Jane Street: Incremental",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-21T05:37:46.345Z"
+    },
+    "57af8df26e556837": {
+      "url": "https://qiita.com/jqit-yukiono/items/d33908602fd060f5e1d1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "個人開発でApp Storeリリースフローを学ぶ ― UIKit + FastAPI + K8sで作るMinecraftサーバー監視アプリ「MineWatch」",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-07-21T05:37:46.345Z"
+    },
+    "ff856b81387b0b21": {
+      "url": "https://zenn.dev/uhyo/articles/async-react-action-queue",
+      "summaryJa": [
+        "useActionStateは、React 19で導入された新しいフックです。",
+        "その挙動を見ると、非同期版useReducerと言えるような挙動をします。",
+        "ただ、筆者は最近、このフックの真髄はユーザーの操作を妨げないUXを作ることにあるのではないかと考えています。"
+      ],
+      "cachedAt": "2026-07-21T05:37:46.345Z"
+    },
+    "be68aee418660c3b": {
+      "url": "https://zenn.dev/juth/articles/9dc12f2621e2c1",
+      "summaryJa": [
+        "Linuxサーバーを触っていて、「あれ、PostgreSQLの設定ファイルってどこだっけ？",
+        "」「アプリのデータってどこに保存されてるの？",
+        "」と迷ったことはありませんか？"
+      ],
+      "cachedAt": "2026-07-21T05:37:46.345Z"
+    },
+    "23c60ada2adfaaa4": {
+      "url": "https://evertpot.com/ssh-tunnel-if-unresolvable/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-21T05:37:46.345Z"
+    },
+    "4c8467715f232746": {
+      "url": "https://www.kevinalbrecht.com/code/joy-mirror/j01tut.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-21T05:37:46.345Z"
+    },
+    "6eaefa5355f8684c": {
+      "url": "https://news.ycombinator.com/item?id=43186406",
+      "summaryJa": [
+        "I was at FB&#x2F;Meta from late 2013 to early 2023, mostly working in the compil",
+        "I got hit in the spring 2023 layoff wave.",
+        "I immediately started making games in my newfound free time (a lifelong interest"
+      ],
+      "cachedAt": "2026-07-21T05:37:46.345Z"
     }
   }
 }

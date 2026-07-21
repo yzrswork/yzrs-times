@@ -148,6 +148,13 @@
       "edition": "morning",
       "theme": "静かな技術",
       "path": "issues/2026-07-21-morning.json"
+    },
+    {
+      "issueNo": 22,
+      "date": "2026-07-21",
+      "edition": "midday",
+      "theme": "手触りのある技術",
+      "path": "issues/2026-07-21-midday.json"
     }
   ]
 }
