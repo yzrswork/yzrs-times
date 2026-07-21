@@ -4,6 +4,7 @@
   "name": "yzrs-times-scheduler",
   "compatibility_date": "2026-07-01",
   "main": "src/index.mjs",
+  "workers_dev": false,
   "triggers": {
     "crons": [
       "17 20 * * *", // 5:17 JST 朝刊
