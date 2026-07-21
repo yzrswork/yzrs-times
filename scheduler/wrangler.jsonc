@@ -1,0 +1,13 @@
+// yzrs-times の発行ワークフローを狙った時刻に起動するだけの専用Worker。
+// 静的紙面を配信している本体Worker（../wrangler.jsonc）とは分離してデプロイする。
+{
+  "name": "yzrs-times-scheduler",
+  "compatibility_date": "2026-07-01",
+  "main": "src/index.mjs",
+  "triggers": {
+    "crons": [
+      "17 20 * * *", // 5:17 JST 朝刊
+      "47 2 * * *"   // 11:47 JST 昼刊
+    ]
+  }
+}

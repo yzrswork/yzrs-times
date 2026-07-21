@@ -83,3 +83,11 @@
   再導出する派生物（データ契約の「号JSONが正典」に従う。AIなし・決定論）で、
   朝刊・昼刊の発行workflowが発行のたびに再生成する。ノードは号・記事・キーワード・カテゴリの
   4種、号同士は時系列の鎖でつなぐ。記事はURL正規化で全号横断の重複を1点に束ねる
+
+## 追記(2026-07-21): 「Cloudflare Workers Cron + KV」の見送りを一部撤回、発行タイミングの精度改善に採用
+
+策定時に見送った理由は「学びは大きいがMVPには過剰」で、当時は運用実績がゼロの時点の判断だった。運用開始から11日、朝刊、昼刊とも発行の成功率自体は良好(7/15から7/20の6日間、欠号やフォールバックなし)だったが、発行時刻はSETUP.mdの想定(数分から数十分の遅れ)を超えて悪化を続けていた。具体的には昼刊の補習枠(13:17 JST発行想定)の遅延が7/15の134分遅れから7/20には196分遅れ(3時間16分)まで伸びており、GitHub Actions無料枠のscheduleトリガー自体の混雑(GitHub公式が時刻を保証しないと明言する仕様)が原因と特定した。cron時刻の調整(PR#1、PR#2)では解決しない領域だったため、見送っていたCloudflare Workers Cronを発行タイミングの精度改善という限定用途で採用した。
+
+- 新設: scheduler(yzrs-times-scheduler)。GitHub Actionsのscheduleトリガーとは別に、Cloudflare Workers Cron Triggers(5:17 JST、11:47 JST)からworkflow_dispatch APIを叩いて発行workflowを起動する
+- GitHub Actions側のscheduleトリガー(publish.yml、publish-midday.yml)は削除せず維持する。発行スクリプトの冪等性(当日分発行済みなら即終了)を活かし、Workerが失敗した場合の安全網として残す設計
+- 当初見送った「Workers KVによるフィードバック収集」は据え置き。今回採用したのはCron Triggersのみで、KV導入はまだ先

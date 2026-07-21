@@ -1,6 +1,6 @@
 # セットアップ手順
 
-初回だけ、次の3つを手作業で行います（合計15分程度）。
+初回だけ、次の3つを手作業で行います（合計15分程度）。発行タイミングの精度を上げたい場合は4つ目も行います（任意、10分）。
 
 ## 1. Gemini APIキーを発行してリポジトリに登録する（5分）
 
@@ -63,12 +63,29 @@ Cloudflareに「GitHubリポジトリを接続すると、pushのたびに自動
 4. **Settings** → **Notifications** でActionsの失敗通知メールが届くことを確認
    （発行が失敗し続けると60日でcronが自動停止するため、失敗に気付けることが重要）
 
+## 4. 発行タイミングの精度を上げる（任意、10分）
+
+Actionsのscheduleトリガーは混雑時に数十分から3時間以上遅れることがあります（発行自体は必ず成功しますが、時刻がずれます）。発行時刻を5:17 JST、11:47 JST付近にできるだけ合わせたい場合は、scheduler/ディレクトリのCloudflare Workerを追加でデプロイします。
+
+1. GitHubの自分のアカウント設定（右上のアバター、Settings、左メニュー最下部のDeveloper settings、Personal access tokens、Fine-grained tokens）から、新規トークンを発行
+   - Repository access: Only select repositories で yzrs-times のみ選択
+   - Permissions: Repository permissionsのActionsを Read and write に設定（他はすべて既定のNo accessのままでよい）
+2. トークンをコピーし、scheduler/ディレクトリで次を実行
+   ```
+   npx wrangler login
+   npx wrangler secret put GITHUB_PAT
+   npx wrangler deploy
+   ```
+3. Cloudflareダッシュボードの Workers and Pages、yzrs-times-scheduler、Triggersタブで、cronが2本登録されていることを確認
+
+この手順を行わなくても紙面は毎日発行されます。あくまで発行時刻の精度を上げるための追加設定です。詳細は scheduler/README.md にも記載しています。
+
 ## 発行スケジュール
 
-- 朝刊：毎朝 **5:00 JST** に発行（Actionsのcronは数分〜数十分遅れることがあります）
-- **8:00 JST** に朝刊の補習発行：朝の発行が失敗・欠落していた場合だけ動きます
-- 昼刊（技術インプット版）：毎昼 **12:00 JST** に発行、**13:00 JST** に補習発行
+- 朝刊：毎朝 **5:17 JST** に発行（Actionsのcronは混雑時に数十分から3時間以上遅れることがあります。scheduler/導入済みならこの時刻付近で発行されます）
+- **7:47 JST** に朝刊の補習発行：朝の発行が失敗、欠落していた場合だけ実質的に動きます（スケジュール自体は毎日起動しますが、発行済みなら即終了します）
+- 昼刊（技術インプット版）：毎昼 **11:47 JST** に発行、**13:17 JST** に補習発行
 - Geminiが応答しない日も、要約なしのフォールバック紙面が必ず発行されます
 - 紙面（latest.json）は常に最新の版を表示します。昼刊発行後は昼刊、翌朝はまた朝刊
-- 夕刊（/evening.html）は発行のない常設ページ：縮刷版アーカイブ全体をGraph Viewで
-  探索するモードで、朝刊・昼刊が発行されるたびに自動で育ちます
+- 夕刊（/evening.html）は発行のない常設ページ。縮刷版アーカイブ全体をGraph Viewで
+  探索するモードで、朝刊、昼刊が発行されるたびに自動で育ちます
