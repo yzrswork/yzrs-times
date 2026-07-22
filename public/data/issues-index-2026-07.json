@@ -162,6 +162,13 @@
       "edition": "morning",
       "theme": "道具と地力",
       "path": "issues/2026-07-22-morning.json"
+    },
+    {
+      "issueNo": 24,
+      "date": "2026-07-22",
+      "edition": "midday",
+      "theme": "手で動かす仕組み",
+      "path": "issues/2026-07-22-midday.json"
     }
   ]
 }

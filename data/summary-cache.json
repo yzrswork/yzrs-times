@@ -1890,6 +1890,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-21T20:20:06.611Z"
+    },
+    "c9348c60168d2d32": {
+      "url": "https://zenn.dev/tkada/articles/1ba97707dee14a",
+      "summaryJa": [
+        "はじめに Unity公式のCLIであるUnity CLIがリリースされました。",
+        "https://unity.",
+        "com/ja/blog/meet-the-unity-cli 今回はUnity CLIのインストール方法、AIエージェントの連携について解説し、最終的にはゲーム"
+      ],
+      "cachedAt": "2026-07-22T02:49:56.136Z"
+    },
+    "13d9ec31a6cd42d6": {
+      "url": "https://www.lexaloffle.com/bbs/?tid=152582",
+      "summaryJa": [
+        "It's a flat-array APL on the PICO-8 with modern features like promote and root, ",
+        "Comments",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-22T02:49:56.136Z"
+    },
+    "1c91c391ff199a02": {
+      "url": "https://zenn.dev/estie/articles/f0f114389662ba",
+      "summaryJa": [
+        "こんにちは、株式会社estie（エスティ） 取締役CTO の Nari （@tiwanari）です。",
+        "みなさんはコードレビューにAIツールを活用されているでしょうか？",
+        "汎用のAIコードレビューツールは便利なのですが、自社のコードにおける書き振りへの対応やレビューでどのような指摘を行うか、といったところまでは拾いきれません。"
+      ],
+      "cachedAt": "2026-07-22T02:49:56.136Z"
+    },
+    "46c1368dd10bd2d2": {
+      "url": "https://zenn.dev/cybozu_frontend/articles/opentelemetry-browser-frontend",
+      "summaryJa": [
+        "OpenTelemetry と聞くと、サーバーサイドのトレースやメトリクスを集めるためのもの、という印象を持っている人は多いと思います。",
+        "実際、バックエンドでは OpenTelemetry を使った計装をよく見かけるようになりました。",
+        "一方で、フロントエンドの監視は Sentry や Datadog のような SaaS の SDK に任せることが多く、OpenTelemetry をブラウザの計"
+      ],
+      "cachedAt": "2026-07-22T02:49:56.136Z"
+    },
+    "b41c76f6ea3a5e8a": {
+      "url": "https://qiita.com/keishin_nishiura/items/64862bd19bc8b6976b18?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "1.",
+        "はじめに ソーイ株式会社の西浦です。",
+        "普段は受託開発でWebアプリケーションの開発を担当しています。"
+      ],
+      "cachedAt": "2026-07-22T02:49:56.136Z"
+    },
+    "59bafd6a37a85987": {
+      "url": "https://seg6.space/posts/resurrecting-ipad-mini",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-22T02:49:56.136Z"
+    },
+    "490232864968ddcb": {
+      "url": "https://www.ti.com/lit/eb/slyy228/slyy228.pdf",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-22T02:49:56.136Z"
+    },
+    "cc59028607fe3edc": {
+      "url": "https://github.com/opencardev/crankshaft",
+      "summaryJa": [
+        "Crankshaft: A turnkey GNU/Linux solution that transforms a Raspberry Pi to an An",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-22T02:49:56.136Z"
     }
   }
 }
