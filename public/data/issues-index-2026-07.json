@@ -169,6 +169,13 @@
       "edition": "midday",
       "theme": "手で動かす仕組み",
       "path": "issues/2026-07-22-midday.json"
+    },
+    {
+      "issueNo": 25,
+      "date": "2026-07-23",
+      "edition": "morning",
+      "theme": "シンプルへの回帰",
+      "path": "issues/2026-07-23-morning.json"
     }
   ]
 }
