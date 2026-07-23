@@ -176,6 +176,13 @@
       "edition": "morning",
       "theme": "シンプルへの回帰",
       "path": "issues/2026-07-23-morning.json"
+    },
+    {
+      "issueNo": 26,
+      "date": "2026-07-23",
+      "edition": "midday",
+      "theme": "言語と基盤を手で弄む",
+      "path": "issues/2026-07-23-midday.json"
     }
   ]
 }

@@ -2034,6 +2034,114 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-22T20:18:31.615Z"
+    },
+    "79ed5e6c033a3881": {
+      "url": "https://github.com/koka-lang/libhandler",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-23T02:49:51.207Z"
+    },
+    "12b5b87f808290c6": {
+      "url": "https://zenn.dev/kawasima/articles/souther-essentials",
+      "summaryJa": [
+        "Javaでドメインモデルを素直に表そうとすると、型が増えます。",
+        "従業員IDと文字列を分け、金額と整数を分け、申請の状態ごとに別の型を用意する。",
+        "値の検証や業務上の却下も型と戻り値で表し、現在時刻やデータベースアクセスは外から注入する。"
+      ],
+      "cachedAt": "2026-07-23T02:49:51.207Z"
+    },
+    "42e2fd765cf29f54": {
+      "url": "https://codeberg.org/Codeberg/org/pulls/1254",
+      "summaryJa": [
+        "Codeberg Bans Cryptocurrency Projects",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-23T02:49:51.207Z"
+    },
+    "f7c8b3545a22d9f9": {
+      "url": "https://pc.watch.impress.co.jp/docs/news/2127021.html",
+      "summaryJa": [
+        "未来を見据えて「秒」の再定義が議論に――うるう秒は実質廃止、月の標準時など",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-23T02:49:51.207Z"
+    },
+    "520cf72deab7b47a": {
+      "url": "https://github.com/marcelroed/gigatoken/",
+      "summaryJa": [
+        "GigaToken: ~1000x faster Language model tokenizati",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-23T02:49:51.207Z"
+    },
+    "25f891ef794de88d": {
+      "url": "https://www.itmedia.co.jp/news/articles/2607/23/news074.html",
+      "summaryJa": [
+        "「POPOPO」サ終前にMac対応、未公開のWindows版技術はオープンソース化 「最後まで盛り上がっていこう！",
+        "」 「もうせっかくなのでできることは何でもやるよｗ 最後まで盛り上がっていこう！",
+        "」――9月17日にサービス終了予定のアバター通話アプリ「POPOPO」運営元のCTOであるMIRO（岩城進之介）氏は7月21日、同アプリをMac."
+      ],
+      "cachedAt": "2026-07-23T02:49:51.207Z"
+    },
+    "1f2a0855ccf6b7e8": {
+      "url": "https://zenn.dev/cybozu_frontend/articles/contenteditable-tab",
+      "summaryJa": [
+        "この記事は、CYBOZU SUMMER BLOG FES '26の記事です。",
+        "こんにちは！",
+        "26卒でフロントエンドエンジニア職として入社したコサキンです。"
+      ],
+      "cachedAt": "2026-07-23T02:49:51.207Z"
+    },
+    "f4c0a16bc10c68f2": {
+      "url": "https://zenn.dev/estie/articles/f310f04c5fe5cc",
+      "summaryJa": [
+        "先日Rust 1.",
+        "97.",
+        "0がリリースされて、恒例の勝手にリリースパーティーイベントで主要な変更について解説しました。"
+      ],
+      "cachedAt": "2026-07-23T02:49:51.207Z"
+    },
+    "1bdaa462d60d7489": {
+      "url": "https://qiita.com/prumnn/items/0fe99e9afff2c9f79fcd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 先輩に「なぜこうしたの？",
+        "」と聞かれてパニックになった新人エンジニアぷらむんが気づいたのは、\"考えていない\"んじゃなく\"考えを整理していない\"だけだったということでした。",
+        "会社で自称マスコットキャラをやってるのに、社内で一番空気が読めない、ぷらむんです🐯."
+      ],
+      "cachedAt": "2026-07-23T02:49:51.207Z"
+    },
+    "f3c43ff92aeef0fe": {
+      "url": "https://mattjhall.co.uk/posts/taking-ocaml-eio-for-a-spin.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-23T02:49:51.207Z"
+    },
+    "fd53bcbd5b5f66eb": {
+      "url": "https://tokio.rs/blog/2026-07-22-announcing-topcoat",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-23T02:49:51.207Z"
+    },
+    "3ec6f26cd3b99c5e": {
+      "url": "https://github.com/abey79/vsketch",
+      "summaryJa": [
+        "Generative plotter art environment for Python",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-23T02:49:51.207Z"
     }
   }
 }
