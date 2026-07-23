@@ -2142,6 +2142,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-23T02:49:51.207Z"
+    },
+    "31ded297382248be": {
+      "url": "https://haqr.eu/tinyrenderer/",
+      "summaryJa": [
+        "Software rendering in 500 lines of bare C++",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-23T20:20:17.959Z"
+    },
+    "529f64350b431b35": {
+      "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+      "summaryJa": [
+        "Writing by hand is good for your brain",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-23T20:20:17.959Z"
+    },
+    "2fa1961ac2c1ef00": {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/23/news055.html",
+      "summaryJa": [
+        "Google Cloudは2026年6月12日（米国時間）、大規模言語モデル（LLM）を活用するAIエージェントが必要とするナレッジを表現するためのオープンフォ",
+        "1を公開した。",
+        "OKFは、YAMLフロントマター（YAML形式のメタデータ）を持つMarkdownファイルのディレクトリとしてナ."
+      ],
+      "cachedAt": "2026-07-23T20:20:17.959Z"
+    },
+    "b400a62fe574e1bf": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015184691000",
+      "summaryJa": [
+        "23日のニューヨーク外国為替市場では、中東情勢が一段と悪化することへの懸念から円を売ってドルを買う動きが進み、円相場は一時、1ドル＝163円90銭台後半まで値下",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-23T20:20:17.959Z"
+    },
+    "40f4111e0408d720": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015184541000",
+      "summaryJa": [
+        "9月にイタリアで開幕する世界3大映画祭の1つ、ベネチア国際映画祭で、最優秀賞の金獅子賞を競う部門に日本からは是枝裕和監督と塚本晋也監督の2作品が出品されることに",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-23T20:20:17.959Z"
+    },
+    "996adb976887d4ca": {
+      "url": "https://news.yahoo.co.jp/pickup/6589084?source=rss",
+      "summaryJa": [
+        "入国警備官に退職自衛官を活用へ",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-23T20:20:17.959Z"
+    },
+    "cb3b27aeeff1eba8": {
+      "url": "https://zenn.dev/mskbhd/articles/lab-198-gura105-operational-ontology-o",
+      "summaryJa": [
+        "はじめに Palantir Foundry の「オントロジー（Ontology）」—— 物理データを意味のあるビジネスオブジェクトに抽象化し、Read/Writ",
+        "あの概念を ミニマム実装した OSS が公開されていたので、動かして検証した。",
+        "本家リポジトリ: gura105/operational-ontology (MIT, 22★) この記事では、実際."
+      ],
+      "cachedAt": "2026-07-23T20:20:17.959Z"
+    },
+    "fe050caed1c10464": {
+      "url": "https://lukekanies.com/writing/building-on-atproto/",
+      "summaryJa": [
+        "Building on ATProto",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-23T20:20:17.959Z"
+    },
+    "825ac5d80454529c": {
+      "url": "https://togetter.com/li/2723874",
+      "summaryJa": [
+        "サイバー被害のニチレイ、バックアップで早期再開 システム復旧成功 - 日本経済新聞 ニチレイで発生したシステム障害で、ハッカー集団がインターネット上で犯行声明を",
+        "同社はバックアップデータからのシステム復旧に成功しており、週内にも通常稼働に戻る見込み… 3 users 日本経済新.",
+        "."
+      ],
+      "cachedAt": "2026-07-23T20:20:17.959Z"
+    },
+    "288155c4fa17e197": {
+      "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+      "summaryJa": [
+        "The arguments against open source AI are bad",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-23T20:20:17.959Z"
+    },
+    "23d123a1ef67f9d1": {
+      "url": "https://github.com/aitjcize/esp32-photoframe",
+      "summaryJa": [
+        "Feature-rich firmware for ESP32-based e-paper displays with superior image quali",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-23T20:20:17.959Z"
     }
   }
 }
