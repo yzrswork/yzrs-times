@@ -2241,6 +2241,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-23T20:20:17.959Z"
+    },
+    "4bccb0dc11a17539": {
+      "url": "https://jdan.github.io/98.css/#status-bar",
+      "summaryJa": [
+        "98.css",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-24T02:49:53.568Z"
+    },
+    "1fbd786281f59280": {
+      "url": "https://qiita.com/miruky/items/4be4d7e683632ba8c396?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに こんばんは。",
+        "2026年3月、お笑い芸人の狩野英孝さんがXへ投稿したはずのポストに、なぜか1992年9月2日と表示されて話題になりました。",
+        "彼は笑いの神様に愛されるあまり、時空まで操れるようになったのでしょうか。"
+      ],
+      "cachedAt": "2026-07-24T02:49:53.568Z"
+    },
+    "0a63079e0ebdf5e5": {
+      "url": "https://yogthos.net/posts/2026-07-02-jolt.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-24T02:49:53.568Z"
+    },
+    "0d394cbc43bf5e3b": {
+      "url": "https://speakerdeck.com/itohiro73/beyond-just-vibe-coding-combining-classic-principles-with-ai-driven-development",
+      "summaryJa": [
+        "『動くだけ』のその先へ — AI駆動開発で品質と速度を両取りする温故知新な新手法 / Beyond Just Vibe Coding - Combining C",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-24T02:49:53.568Z"
+    },
+    "421b9ac2aec58ec3": {
+      "url": "https://zenn.dev/layerx/articles/f7124d4e761c1f",
+      "summaryJa": [
+        "はじめに こんにちは、バクラク事業部アカウント基盤開発部IDチームの @convto です。",
+        "各種利用サービスのIDに一貫性があり、 GitHub も X も大体 convto を確保できているのが密かな自慢です。",
+        "やはりIDチーム所属なので、自分のIDにも一貫性が必要とされています。"
+      ],
+      "cachedAt": "2026-07-24T02:49:53.568Z"
+    },
+    "63393eae79d0c178": {
+      "url": "https://zenn.dev/135yshr/books/go-service-design",
+      "summaryJa": [
+        "「クリーンアーキテクチャというアーキテクチャはない」——大事なのは図の形を真似ることではなく、依存の向きを設計し、変更に強いサービスを育てることです。",
+        "本書は、Go でサービスを設計・運用する中で得た判断基準を、原則の理解、層ごとの設計判断、ドメインの表現、CI での維持、そして読書ログサービスを題材にしたハン",
+        "読み終えたとき、自分のサービスを設計して作りはじめられる状態になることがゴールです。"
+      ],
+      "cachedAt": "2026-07-24T02:49:53.568Z"
+    },
+    "a3e24ad4d2ed33fb": {
+      "url": "https://qiita.com/akachiryo/items/0dea3706713f90e7ef7d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "お疲れ様です！",
+        "「Rubyってインタプリタ言語だから、1行ずつ翻訳しながら実行してるんでしょ？",
+        "」と思っていませんか？"
+      ],
+      "cachedAt": "2026-07-24T02:49:53.568Z"
+    },
+    "46ab755f581e04e4": {
+      "url": "https://www.youtube.com/watch?v=5F-2Y1LPRek",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-24T02:49:53.568Z"
+    },
+    "93dfe7d0b59b5713": {
+      "url": "https://blog.haschek.at/2026/you-should-selfhost-your-mail.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-24T02:49:53.568Z"
+    },
+    "eea633541f500a61": {
+      "url": "https://github.com/zeeyado/koassistant.koplugin",
+      "summaryJa": [
+        "A powerful AI assistant integrated into KOReader.",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-24T02:49:53.568Z"
     }
   }
 }
