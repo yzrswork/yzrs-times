@@ -197,6 +197,13 @@
       "edition": "midday",
       "theme": "骨組みを暴く",
       "path": "issues/2026-07-24-midday.json"
+    },
+    {
+      "issueNo": 29,
+      "date": "2026-07-25",
+      "edition": "morning",
+      "theme": "プロトコルを分解する",
+      "path": "issues/2026-07-25-morning.json"
     }
   ]
 }

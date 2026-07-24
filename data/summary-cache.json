@@ -2331,6 +2331,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-24T02:49:53.568Z"
+    },
+    "4f13ae8b9cc61b57": {
+      "url": "https://qiita.com/Rabbit_Program/items/7c3b004ff56ec4cc6b06",
+      "summaryJa": [
+        "はじめに 地上デジタル放送のテレビ局が送出しているものは、突き詰めると「MPEG-TS ストリーム」と「その中に埋め込まれた PSI/SI テーブル」の2つに集",
+        "であれば、同じ構造のストリームを自前で組み立てれば、市販のテレビ録画ソフトがそれを \"本物のチャンネル\" として認識するのではないか —— そう思い立ち.",
+        "."
+      ],
+      "cachedAt": "2026-07-24T20:18:20.461Z"
+    },
+    "32595666dfcc4639": {
+      "url": "https://zenn.dev/singularity/articles/diy-terminal-500-commits",
+      "summaryJa": [
+        "僕は長いこと、ターミナルの中で暮らしています。",
+        "エディタは emacs、VS Code や GUI 系のツールはどうにも手に馴染まない。",
+        "Web 上の開発環境も、あの「ちょっとした不便」が積もって結局使わなくなる。"
+      ],
+      "cachedAt": "2026-07-24T20:18:20.461Z"
+    },
+    "ae45ce1479447b4f": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015185721000",
+      "summaryJa": [
+        "クレジットカードの決済代行サービスを行う「全東信」が経営破綻し、利用していた飲食店を中心に影響が広がっていることを受けて、経済産業省と金融庁は、決済代行サービス",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-24T20:18:20.461Z"
+    },
+    "28de80e8a76e8dc7": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015185671000",
+      "summaryJa": [
+        "6月末時点の民間のコメの在庫量は243万トンと、過去最大となったことが農林水産省の調査で分かりました。",
+        "適正な水準とされる量を大幅に上回る状況で、新米の価格に与える影響が焦点です。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-24T20:18:20.462Z"
+    },
+    "8e75834258435150": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015185791000",
+      "summaryJa": [
+        "大規模災害の際に首都の代替機能を担う「副首都」構想の関連法が成立したことを受けて、愛知県の大村知事と名古屋市の広沢市長が24日、そろって記者会見を開き、愛知県と",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-24T20:18:20.462Z"
+    },
+    "4f563224feb85028": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015185751000",
+      "summaryJa": [
+        "イギリスのバーナム首相は、地方分権を進める政策の一環として、首相官邸の機能の一部を首都ロンドンからイングランド北部に移すため、新たに設けられた官邸を初めて訪れま",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-24T20:18:20.462Z"
+    },
+    "88f0de8f2d97e636": {
+      "url": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
+      "summaryJa": [
+        "Postgres LISTEN/NOTIFY actually scales",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-24T20:18:20.462Z"
+    },
+    "e5001c0456a4eec3": {
+      "url": "https://hhh.hn/hanwha-github-token/",
+      "summaryJa": [
+        "My security camera shipped a GitHub admin token in",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-24T20:18:20.462Z"
+    },
+    "ead04ed25ef61063": {
+      "url": "https://ytch.xyz",
+      "summaryJa": [
+        "Show HN: If YouTube had actual channels",
+        "出典: Show HN",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-24T20:18:20.462Z"
     }
   }
 }
