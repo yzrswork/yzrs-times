@@ -204,6 +204,13 @@
       "edition": "morning",
       "theme": "プロトコルを分解する",
       "path": "issues/2026-07-25-morning.json"
+    },
+    {
+      "issueNo": 30,
+      "date": "2026-07-25",
+      "edition": "midday",
+      "theme": "道具を自作し、設計を飼い慣らす",
+      "path": "issues/2026-07-25-midday.json"
     }
   ]
 }

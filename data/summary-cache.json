@@ -2412,6 +2412,69 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-24T20:18:20.462Z"
+    },
+    "c12c04c456f9c49b": {
+      "url": "https://github.com/AngelOnFira/weblings",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-25T02:49:10.738Z"
+    },
+    "852eea3a0a01daf2": {
+      "url": "https://qiita.com/ma-shiratori/items/2d6eaea260e8d223b49b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "Flutter公式のバインディングが存在しないサードパーティ製Cライブラリを、AIエージェント(Claude Code)に「Native Assets(Hook",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-07-25T02:49:10.738Z"
+    },
+    "70728894e4a290e1": {
+      "url": "https://zenn.dev/kanaria007/articles/c392cbd1c1fc21",
+      "summaryJa": [
+        "ソフトウェア開発には、多くの設計原則があります。",
+        "わかりやすい変数名を付ける 関数を小さくする 単一責任にする 凝集度を高くする 結合度を低くする 情報を隠蔽する DBを正規化する ドメインの言葉を使う Bou",
+        "しかし、実際に設計していると、こういう疑問が出てきます。"
+      ],
+      "cachedAt": "2026-07-25T02:49:10.738Z"
+    },
+    "6d91274d389a4f17": {
+      "url": "https://zenn.dev/fukke/articles/20260723_nextjs-structure",
+      "summaryJa": [
+        "なぜ使い回せる技術構成が必要か 受託開発では、短い期間で成果を出しつつ品質の高いものを作ることが大切です。",
+        "そのためには、案件ごとに技術スタックの検討にかける時間をなるべく減らし、その分を要件定義や設計に充てられる状態が理想です。",
+        "品質の高いものを低コストで出せる技術構成には、それ自体に価値があります。"
+      ],
+      "cachedAt": "2026-07-25T02:49:10.738Z"
+    },
+    "99ec6698e80bdc96": {
+      "url": "https://theconsensus.dev/p/2026/07/19/observing-gos-garbage-collector-old-and-new.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-25T02:49:10.738Z"
+    },
+    "b2c9dd2e9ca5e6e2": {
+      "url": "https://github.com/alexpusch/rust-magic-patterns/blob/master/delightful-integration-tests/Readme.md",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-25T02:49:10.738Z"
+    },
+    "01781a524b53d76f": {
+      "url": "https://th0mas.nl/downloads/pdftris.pdf",
+      "summaryJa": [
+        "I realized that the PDF engines of modern desktop browsers (PDFium and PDF.",
+        "js) support JavaScript with enough I&#x2F;O primitives to make a basic game like",
+        "<p>It was a bit tricky to find a union of features that work in both engines, bu"
+      ],
+      "cachedAt": "2026-07-25T02:49:10.738Z"
     }
   }
 }
