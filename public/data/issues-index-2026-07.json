@@ -211,6 +211,13 @@
       "edition": "midday",
       "theme": "道具を自作し、設計を飼い慣らす",
       "path": "issues/2026-07-25-midday.json"
+    },
+    {
+      "issueNo": 31,
+      "date": "2026-07-26",
+      "edition": "morning",
+      "theme": "手のひらのハックと街角のAI",
+      "path": "issues/2026-07-26-morning.json"
     }
   ]
 }
