@@ -61,6 +61,7 @@ async function main() {
   // --- edit ---
   const editorPromptTemplate = fs.readFileSync(path.join(ROOT, 'prompts', 'editor.md'), 'utf8');
   const prevIssue = store.loadLatestIssue();
+  const recentThemes = store.loadRecentThemes();
   const summaryCache = store.getSummaryCache();
   const providerName = process.env.EDITOR_PROVIDER || sourcesConfig.editor.provider;
 
@@ -70,6 +71,7 @@ async function main() {
     gemCandidates,
     editionConfig,
     prevIssue,
+    recentThemes,
     sourcesConfig,
     providerName,
     apiKey: process.env.GEMINI_API_KEY,

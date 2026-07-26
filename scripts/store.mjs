@@ -19,6 +19,8 @@ const MANIFEST_FILE = path.join(PUBLIC_DATA_DIR, 'index-manifest.json');
 
 const GEM_HISTORY_DAYS = 30;
 const SUMMARY_CACHE_DAYS = 90;
+// 編集AIへ見せる直近テーマの本数。朝昼2版なら約3週間分にあたる。
+const RECENT_THEMES_LIMIT = 40;
 
 function readJson(file, fallback) {
   try {
@@ -126,6 +128,26 @@ export function saveIssue(issue) {
 
 export function loadLatestIssue() {
   return readJson(LATEST_FILE, null);
+}
+
+// --- 最近のテーマ（題の使い回しを避けるため編集プロンプトへ渡す） ---
+// 月次indexが既に theme を持っているので号JSONは開かない（アーカイブが何号に育っても
+// 読むのは新しい方から数ファイルだけ）。号JSONが正典でindexは派生物、というデータ契約は保つ。
+export function loadRecentThemes(limit = RECENT_THEMES_LIMIT) {
+  const collected = [];
+  for (const file of allIssueIndexFiles().sort().reverse()) {
+    const index = readJson(path.join(PUBLIC_DATA_DIR, file), { issues: [] });
+    for (const i of index.issues) {
+      if (typeof i.theme === 'string' && i.theme.trim()) collected.push(i);
+    }
+    // 月単位で読み切ってから判定する。新しい月から順に読むので、limit件そろった時点で
+    // 直近limit件は必ずこの中に含まれている。
+    if (collected.length >= limit) break;
+  }
+  return collected
+    .sort((a, b) => (b.issueNo ?? 0) - (a.issueNo ?? 0))
+    .slice(0, limit)
+    .map((i) => ({ issueNo: i.issueNo, date: i.date, edition: i.edition, theme: i.theme.trim() }));
 }
 
 // --- Hidden Gem 履歴（30日再掲禁止） ---

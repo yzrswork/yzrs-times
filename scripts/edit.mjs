@@ -7,6 +7,9 @@ import { urlCacheKey, setSummaryCache } from './store.mjs';
 
 const PROVIDERS = { gemini, mock };
 
+// 編集AIの出力が使えなかったときの題。毎回同じ文字列になるため重複検出からは除外する。
+const FALLBACK_THEME_TITLE = '編集部より';
+
 // --- プロンプト組み立て（純関数） ---
 export function toCandidateView(item, maxSnippetChars) {
   return {
@@ -19,7 +22,7 @@ export function toCandidateView(item, maxSnippetChars) {
   };
 }
 
-export function buildPromptContext({ editorPromptTemplate, candidates, gemCandidates, editionConfig, prevIssue, maxSnippetChars, summaryCache }) {
+export function buildPromptContext({ editorPromptTemplate, candidates, gemCandidates, editionConfig, prevIssue, recentThemes = [], maxSnippetChars, summaryCache }) {
   const withCacheFlag = (c) => {
     const view = toCandidateView(c, maxSnippetChars);
     const cached = summaryCache?.entries?.[urlCacheKey(c.url)];
@@ -44,6 +47,11 @@ export function buildPromptContext({ editorPromptTemplate, candidates, gemCandid
     '## 前号の文脈',
     prevContext ? JSON.stringify(prevContext, null, 2) : '（前号なし・創刊号です）',
     '',
+    '## 最近のテーマ（この題は再利用しない）',
+    recentThemes.length
+      ? JSON.stringify(recentThemes.map((t) => t.theme), null, 2)
+      : '（まだありません）',
+    '',
     '## 候補記事（これ以外のIDは存在しません）',
     JSON.stringify(candidateViews, null, 2),
     '',
@@ -55,7 +63,22 @@ export function buildPromptContext({ editorPromptTemplate, candidates, gemCandid
     '{"theme":{"title":string,"note":string},"top":[id,...],"sections":[{"id":string,"articleIds":[id,...]}],"summaries":{"id":[string,string,string]},"editorial":{"comment":string,"passedOver":string},"hiddenGem":{"id":string,"reason":string},"categories":{"id":{"category":string,"keywords":[string,...]}}}',
   ].join('\n');
 
-  return { promptText, candidateViews, gemViews, sectionsInfo, prevContext };
+  return { promptText, candidateViews, gemViews, sectionsInfo, prevContext, recentThemes };
+}
+
+// 題の使い回しは紙面を壊さないので発行は止めない。気づけるようにログにだけ残す
+// （直近テーマをプロンプトへ渡すようになった後も繰り返すなら、指示側の作り直しが要る）。
+// フォールバックの題は必ず過去と一致するが、それは編集AIの失敗として別に記録済みなので対象外。
+export function findThemeRepeat(title, recentThemes = []) {
+  const norm = (s) => String(s ?? '').trim().toLowerCase();
+  const t = norm(title);
+  if (!t || t === norm(FALLBACK_THEME_TITLE)) return null;
+  for (const r of recentThemes) {
+    const past = norm(r.theme);
+    if (!past) continue;
+    if (past === t || past.includes(t) || t.includes(past)) return r;
+  }
+  return null;
 }
 
 // --- 検証と修復（フィールド単位でフォールバック） ---
@@ -173,7 +196,7 @@ function validateTheme(raw) {
   if (raw && typeof raw.title === 'string' && raw.title.trim() && typeof raw.note === 'string' && raw.note.trim()) {
     return { title: raw.title.trim(), note: raw.note.trim() };
   }
-  return { title: '編集部より', note: '本日の紙面をお届けします。' };
+  return { title: FALLBACK_THEME_TITLE, note: '本日の紙面をお届けします。' };
 }
 
 function defaultTop(candidates, topCount) {
@@ -230,7 +253,7 @@ export function fallbackEdit({ candidates, gemCandidates, editionConfig }) {
     : '本日は取得できたソースが少なく、編集AIも利用できなかったため、静かな紙面をお届けします。';
 
   return {
-    theme: { title: '編集部より', note: '本日は自動編成でお届けします。' },
+    theme: { title: FALLBACK_THEME_TITLE, note: '本日は自動編成でお届けします。' },
     top,
     sections,
     summaries,
@@ -301,7 +324,7 @@ function applySummaryCache(edited, summaryCache) {
 }
 
 // --- エントリポイント ---
-export async function edit({ editorPromptTemplate, candidates, gemCandidates, editionConfig, prevIssue, sourcesConfig, providerName, apiKey, summaryCache }) {
+export async function edit({ editorPromptTemplate, candidates, gemCandidates, editionConfig, prevIssue, recentThemes = [], sourcesConfig, providerName, apiKey, summaryCache }) {
   if (candidates.length === 0) {
     const edited = fallbackEdit({ candidates, gemCandidates, editionConfig });
     applySummaryCache(edited, summaryCache);
@@ -314,6 +337,7 @@ export async function edit({ editorPromptTemplate, candidates, gemCandidates, ed
     gemCandidates,
     editionConfig,
     prevIssue,
+    recentThemes,
     maxSnippetChars: sourcesConfig.editor.maxSnippetChars,
     summaryCache,
   });
@@ -334,6 +358,10 @@ export async function edit({ editorPromptTemplate, candidates, gemCandidates, ed
   const finalProvider = validated ? providerName : 'fallback';
   const finalModel = validated ? modelUsed : 'fallback';
   const edited = validated ?? fallbackEdit({ candidates, gemCandidates, editionConfig });
+  const repeated = findThemeRepeat(edited.theme?.title, recentThemes);
+  if (repeated) {
+    console.warn(`テーマが過去号と重複しています: 『${edited.theme.title}』 (issue #${repeated.issueNo} 『${repeated.theme}』)`);
+  }
   applySummaryCache(edited, summaryCache);
   return { result: assemble(edited), provider: finalProvider, model: finalModel };
 }
