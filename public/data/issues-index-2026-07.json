@@ -225,6 +225,13 @@
       "edition": "midday",
       "theme": "私的空間のインフラを耕す",
       "path": "issues/2026-07-26-midday.json"
+    },
+    {
+      "issueNo": 33,
+      "date": "2026-07-27",
+      "edition": "morning",
+      "theme": "指示の変容と道具の手綱",
+      "path": "issues/2026-07-27-morning.json"
     }
   ]
 }
