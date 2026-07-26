@@ -2556,6 +2556,96 @@
         "We did it by reverse engineering the iMessage protocol and encryption system."
       ],
       "cachedAt": "2026-07-25T20:20:13.134Z"
+    },
+    "b48df69ce32e191a": {
+      "url": "https://zenn.dev/munenick/articles/b507a9848b6fdd",
+      "summaryJa": [
+        "はじめに 本記事は以下のミラーです。",
+        "https://www.",
+        "munenick."
+      ],
+      "cachedAt": "2026-07-26T02:47:53.908Z"
+    },
+    "f1a912ac8c953d3e": {
+      "url": "https://vimuser.org/l2tp.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-26T02:47:53.908Z"
+    },
+    "524e125276c5be7a": {
+      "url": "https://qiita.com/ta-061/items/cd8b63e9b4d9f46f758b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "ターミナルでAIエージェント、エディタ、開発サーバー、ログ監視を並べたい。",
+        "けれど、tmuxは設定やキー操作を覚えるまでが少し大変――そんな人に試してほしいのがZellijです。",
+        "Zellijは、初期状態からタブ、ペイン、マウス操作、画面下のキーヒントが使えるターミナルワーク."
+      ],
+      "cachedAt": "2026-07-26T02:47:53.908Z"
+    },
+    "8e418fc06184a07b": {
+      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "summaryJa": [
+        "The new rules of context engineering for Claude 5 ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-26T02:47:53.909Z"
+    },
+    "2ab711a0f92f16cd": {
+      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+      "summaryJa": [
+        "Open-weight AI is having its Kubernetes moment",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-26T02:47:53.909Z"
+    },
+    "93fe4e99606497ed": {
+      "url": "https://qiita.com/archeleeds/items/042d8a9ffaf888d90752?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "「ホーム画面から装備画面へ遷移して、確認ダイアログを開いて、前の画面に戻る」 どんなゲームにも必ずある、ごくありふれた処理です。",
+        "それなのに、シーン遷移とダイアログ管理の実装はプロジェクトごとに毎回ゼロから書かれ、毎回少しずつ壊れやすいものが出来上がっていきます。",
+        "なぜでしょう."
+      ],
+      "cachedAt": "2026-07-26T02:47:53.909Z"
+    },
+    "668d8e37681efb40": {
+      "url": "https://qiita.com/watany/items/11358e8e8966d5e48a09?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 2026年5月2日に『Agentic Coding 生成AI時代のシステム開発入門』という単著を出しました。",
+        "生成AI×システム開発の情報がネットの場当たり的なものばかりで困っている人、エージェントの使い方をどこから学べばいいか分からない人、そして自分は大丈夫でも.",
+        "."
+      ],
+      "cachedAt": "2026-07-26T02:47:53.909Z"
+    },
+    "df756f9e9357080d": {
+      "url": "https://zigbyexample.neocities.org/",
+      "summaryJa": [
+        "Inspired by the infamous Go by Example Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-26T02:47:53.909Z"
+    },
+    "dcf27ffe7cfdb3a5": {
+      "url": "https://fosstodon.org/@pimalaya/116983467890532240",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-26T02:47:53.909Z"
+    },
+    "9abdb9ec7c8e4116": {
+      "url": "https://internalregister.github.io/2019/03/14/Homebrew-Console.html",
+      "summaryJa": [
+        "Show HN: A retro video game console I've been work",
+        "出典: Show HN",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-26T02:47:53.909Z"
     }
   }
 }

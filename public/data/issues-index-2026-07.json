@@ -218,6 +218,13 @@
       "edition": "morning",
       "theme": "手のひらのハックと街角のAI",
       "path": "issues/2026-07-26-morning.json"
+    },
+    {
+      "issueNo": 32,
+      "date": "2026-07-26",
+      "edition": "midday",
+      "theme": "私的空間のインフラを耕す",
+      "path": "issues/2026-07-26-midday.json"
     }
   ]
 }
