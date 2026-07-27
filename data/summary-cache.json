@@ -2835,6 +2835,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-27T02:49:54.714Z"
+    },
+    "054d6afbaf34ee36": {
+      "url": "https://zenn.dev/singularity/articles/stopped-reviewing-my-code",
+      "summaryJa": [
+        "最近、マージボタンを押すとき、僕はその diff を読んでいないことのほうが多くなりました。",
+        "コードレビューをしていません。",
+        "場合によっては、動作確認もしていません。"
+      ],
+      "cachedAt": "2026-07-27T20:22:53.210Z"
+    },
+    "783e91edc66dbcad": {
+      "url": "https://zenn.dev/raamenwakamatu/articles/software-architecture-fundamentals-review",
+      "summaryJa": [
+        "書籍情報 書名：ソフトウェアアーキテクチャの基礎 第2版 ―エンジニアリングに基づく体系的アプローチ 著者：Mark Richards, Neal Ford 訳",
+        "AIエージェントの普及によって、開発者一人がカバーする範囲が広がっている.",
+        "."
+      ],
+      "cachedAt": "2026-07-27T20:22:53.210Z"
+    },
+    "7d9084c753baa3d3": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015187371000",
+      "summaryJa": [
+        "生成AIが普及する中、法務省の有識者検討会は、著名人が名前や写真を無断で使われない権利「パブリシティ権」が肖像と同様に声についても認められるなどとした報告書の案",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-27T20:22:53.210Z"
+    },
+    "5560b2942c26a5b0": {
+      "url": "https://news.yahoo.co.jp/pickup/6589556?source=rss",
+      "summaryJa": [
+        "食品消費税1% 政府・与党が方針",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-27T20:22:53.210Z"
+    },
+    "80f476ad703b5b05": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015187291000",
+      "summaryJa": [
+        "「容疑者Xの献身」や「白夜行」など、数々のベストセラー小説で知られる直木賞作家の東野圭吾さんが、大腸がんのため、今月23日に亡くなりました。",
+        "68歳でした。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-27T20:22:53.210Z"
+    },
+    "47d46f5bba586135": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015187641000",
+      "summaryJa": [
+        "アメリカ軍基地の移設工事が進む沖縄県名護市辺野古の沖合で船が転覆し、研修旅行中の同志社国際高校の女子生徒など2人が死亡した事故で、女子生徒の遺族が、高校の校長や",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-27T20:22:53.210Z"
+    },
+    "f0c45d8c07e0c6b6": {
+      "url": "https://www.itmedia.co.jp/aiplus/article/2607/27/2000000223/",
+      "summaryJa": [
+        "MIXIは7月27日、2026年度入社の新卒エンジニア向けに実施した技術研修の資料とアーカイブ動画を公開した。",
+        "全12科目を通じ、業務におけるAIの活用法などを紹介している。",
+        "Gitやコンテナ技術、セキュリティ、モバイルアプリ開発、データ活用などのテーマごとに実施した全12科目の研修資料と一部のアーカイブ動画を公開した."
+      ],
+      "cachedAt": "2026-07-27T20:22:53.210Z"
+    },
+    "f37839a72ca1cd87": {
+      "url": "https://www.techdirt.com/2026/07/27/judge-rejects-googles-attempt-to-dmca-its-way-out-of-being-scraped/",
+      "summaryJa": [
+        "Judge Rejects Google's Attempt to DMCA Its Way Out",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-27T20:22:53.210Z"
+    },
+    "e8377be828df98b4": {
+      "url": "https://github.com/atomvm/AtomVM",
+      "summaryJa": [
+        "Tiny Erlang VM",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-27T20:22:53.210Z"
     }
   }
 }

@@ -3,62 +3,62 @@
   "sources": {
     "nhk-top": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-27T02:48:13.164Z",
+      "lastSuccessAt": "2026-07-27T20:18:12.913Z",
       "lastFailureAt": null
     },
     "nhk-world": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-27T02:48:13.164Z",
+      "lastSuccessAt": "2026-07-27T20:18:12.913Z",
       "lastFailureAt": null
     },
     "yahoo-topics": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-27T02:48:13.164Z",
+      "lastSuccessAt": "2026-07-27T20:18:12.913Z",
       "lastFailureAt": null
     },
     "hatebu-it": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-27T02:48:13.164Z",
+      "lastSuccessAt": "2026-07-27T20:18:12.913Z",
       "lastFailureAt": null
     },
     "hn-front": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-27T02:48:13.164Z",
+      "lastSuccessAt": "2026-07-27T20:18:12.913Z",
       "lastFailureAt": null
     },
     "gtrends-jp": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-27T02:48:13.164Z",
+      "lastSuccessAt": "2026-07-27T20:18:12.913Z",
       "lastFailureAt": null
     },
     "show-hn": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-27T02:48:13.164Z",
+      "lastSuccessAt": "2026-07-27T20:18:12.913Z",
       "lastFailureAt": null
     },
     "github-gems": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-27T02:48:13.164Z",
+      "lastSuccessAt": "2026-07-27T20:18:12.913Z",
       "lastFailureAt": null
     },
     "indieblog": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-27T02:48:13.164Z",
+      "lastSuccessAt": "2026-07-27T20:18:12.913Z",
       "lastFailureAt": null
     },
     "zenn-trend": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-27T02:48:13.164Z",
+      "lastSuccessAt": "2026-07-27T20:18:12.913Z",
       "lastFailureAt": null
     },
     "qiita-popular": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-27T02:48:13.164Z",
+      "lastSuccessAt": "2026-07-27T20:18:12.913Z",
       "lastFailureAt": null
     },
     "lobsters": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-07-27T02:48:13.164Z",
+      "lastSuccessAt": "2026-07-27T20:18:12.913Z",
       "lastFailureAt": "2026-07-18T05:12:21.831Z"
     }
   }
