@@ -232,6 +232,13 @@
       "edition": "morning",
       "theme": "指示の変容と道具の手綱",
       "path": "issues/2026-07-27-morning.json"
+    },
+    {
+      "issueNo": 34,
+      "date": "2026-07-27",
+      "edition": "midday",
+      "theme": "ブラックボックスに手を突っ込む",
+      "path": "issues/2026-07-27-midday.json"
     }
   ]
 }
