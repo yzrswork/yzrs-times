@@ -253,6 +253,13 @@
       "edition": "midday",
       "theme": "泥臭い試行とシンプルな構造",
       "path": "issues/2026-07-28-midday.json"
+    },
+    {
+      "issueNo": 37,
+      "date": "2026-07-29",
+      "edition": "morning",
+      "theme": "動的メカニズムの可視化",
+      "path": "issues/2026-07-29-morning.json"
     }
   ]
 }

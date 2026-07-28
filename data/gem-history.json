@@ -200,6 +200,11 @@
       "id": "github-gems-4a992d3e",
       "url": "https://github.com/pschatzmann/ESP32-A2DP",
       "date": "2026-07-28"
+    },
+    {
+      "id": "github-gems-ebd51f8b",
+      "url": "https://github.com/pschatzmann/arduino-audio-tools",
+      "date": "2026-07-29"
     }
   ]
 }
