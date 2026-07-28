@@ -2916,6 +2916,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-27T20:22:53.210Z"
+    },
+    "d59ee014035d0878": {
+      "url": "https://qiita.com/TSA2019/items/b46853dfef5690470a6a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "この記事は IBM Bob（AI コーディングアシスタント）と実際にペアプログラミングして感熱プリンタの USB 印刷アプリを作った体験記です。",
+        "うまくいったこと、全くうまくいかなかったこと、人間が悩んで試行錯誤した過程を包み隠さず書きます。",
+        "なぜこんなことをしたのか 発."
+      ],
+      "cachedAt": "2026-07-28T02:51:08.709Z"
+    },
+    "4308f99953694724": {
+      "url": "https://zenn.dev/pksha/articles/6cdf19e5fe8065",
+      "summaryJa": [
+        "要約 Rich Hickey の講演「Simple Made Easy」の考え方を、UI/UX に当てはめて整理した記事です。",
+        "「シンプル(Simple)」と「簡単(Easy)」は別物で、Simple は「モノの構造」の話、Easy は「人との親近性」の話です。",
+        "Easy を優先した UI は「Easy but Complex」の罠に陥りがちです。"
+      ],
+      "cachedAt": "2026-07-28T02:51:08.709Z"
+    },
+    "00ae3b18bbd7b7c8": {
+      "url": "https://www.cyan.sh/blog/posts/tutorial-quick-easy-parser-combinators.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-28T02:51:08.709Z"
+    },
+    "6a454934fcba31af": {
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md",
+      "summaryJa": [
+        "Benchmarking Opus 5 on SlopCodeBench",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-28T02:51:08.709Z"
+    },
+    "ca1fe0897c865f37": {
+      "url": "https://tech.techtouch.jp/entry/dc-oai-hackathon",
+      "summaryJa": [
+        "どんなイベントだったのか 作ったもの ━━ 配信を盛り上げる実況・コメントアプリ 1 時間半をどう戦ったか 勝因を振り返る ハッカソンから持ち帰った学び 先日開",
+        "制限時間はわずか 1 時間半。",
+        "テーマは自由で、「Codex を使う."
+      ],
+      "cachedAt": "2026-07-28T02:51:08.709Z"
+    },
+    "97218f4e0816af8b": {
+      "url": "https://qiita.com/Fukuda_Genee/items/e348eee25fc2b75e84ae?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "PHPで常駐サーバーを動かす「Swoole」入門 ── なぜ速いのかを仕組みから理解する この記事で伝えたいこと 「PHPは1リクエストごとに毎回ゼロから起動す",
+        "ところが Swoole という拡張を入れると、その前提そのものがひ.",
+        "."
+      ],
+      "cachedAt": "2026-07-28T02:51:08.709Z"
+    },
+    "0c66e0784d29c085": {
+      "url": "https://zenn.dev/fusic/articles/83c6b9a1e7c7d0",
+      "summaryJa": [
+        "はじめに 現在、複数人の開発メンバーで新規のWebアプリケーションを開発しています。",
+        "開発メンバーは5人、さらに、仕様駆動開発の考えを導入した上でDevinも実装者に加わっています。",
+        "インフラの構築が落ち着き、ある程度の開発基盤も整った段階で、運用上以下の状況が発生していました。"
+      ],
+      "cachedAt": "2026-07-28T02:51:08.709Z"
+    },
+    "623b3e9109f4da27": {
+      "url": "https://writings.stephenwolfram.com/2026/07/towards-a-theory-of-bugs-the-ruliology-of-the-unexpected/",
+      "summaryJa": [
+        "Wolfram uses his own notation for TMs here, which I figured out by looking at th",
+        "wolframscience.",
+        "com/nks/p78--turing-machines/ It's basically a cellular-automata-ized TM where t"
+      ],
+      "cachedAt": "2026-07-28T02:51:08.709Z"
+    },
+    "5ab88ebae1074ea7": {
+      "url": "https://antithesis.com/blog/2026/finding-bugs-in-raft-implementations/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-28T02:51:08.709Z"
+    },
+    "299dd30ee96b39a7": {
+      "url": "https://github.com/pschatzmann/ESP32-A2DP",
+      "summaryJa": [
+        "A Simple ESP32 Bluetooth A2DP Library (to implement a Music Receiver or Sender) ",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-28T02:51:08.709Z"
     }
   }
 }
