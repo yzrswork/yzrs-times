@@ -3,6 +3,7 @@
 import * as gemini from './providers/gemini.mjs';
 import * as mock from './providers/mock.mjs';
 import { summarizeFromSnippet, deriveCategory } from './editorial-helpers.mjs';
+import { cleanKeywords } from './keywords.mjs';
 import { urlCacheKey, setSummaryCache } from './store.mjs';
 
 const PROVIDERS = { gemini, mock };
@@ -162,8 +163,8 @@ function validateCategories(raw, ids) {
     for (const id of ids) {
       const v = raw[id];
       if (v && typeof v.category === 'string' && Array.isArray(v.keywords)) {
-        const keywords = v.keywords.filter((k) => typeof k === 'string' && k.trim()).slice(0, 5);
-        out[id] = { category: v.category.trim(), keywords };
+        // 編集AI由来のキーワードも品質フィルタを通す（タイトル断片、機能語、括弧混入を発行前に落とす）
+        out[id] = { category: v.category.trim(), keywords: cleanKeywords(v.keywords, 5) };
       }
     }
   }

@@ -9,33 +9,17 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { ISSUES_DIR, PUBLIC_DATA_DIR } from './store.mjs';
 import { normalizeUrl } from './util.mjs';
+import { cleanKeyword } from './keywords.mjs';
 
 const GRAPH_FILE = path.join(PUBLIC_DATA_DIR, 'graph.json');
 const EDITION_ORDER = { morning: 0, midday: 1, evening: 2 };
 const EDITION_LABEL = { morning: '朝刊', midday: '昼刊', evening: '夕刊' };
 
-// タイトル分割由来のキーワードから接続語を除く（en最小セット。日本語はフレーズ塊で来るため対象外）
-const STOPWORDS = new Set([
-  'the', 'a', 'an', 'and', 'or', 'but', 'for', 'nor', 'with', 'from', 'into', 'onto',
-  'that', 'this', 'these', 'those', 'are', 'is', 'was', 'were', 'be', 'been', 'being',
-  'have', 'has', 'had', 'not', 'no', 'yes', 'you', 'your', 'yours', 'our', 'ours',
-  'its', 'his', 'her', 'their', 'they', 'them', 'what', 'when', 'where', 'why', 'how',
-  'who', 'which', 'will', 'would', 'can', 'could', 'should', 'about', 'over', 'under',
-  'more', 'most', 'less', 'least', 'very', 'just', 'now', 'new', 'via', 'using', 'use',
-  'like', 'than', 'then', 'there', 'here', 'out', 'off', 'own', 'all', 'any', 'some',
-  'other', 'after', 'before', 'between', 'without', 'don', 'dont', 'doesn', 'isn', 'ask',
-]);
-
+// キーワード品質の正は keywords.mjs（生成側と同じ判定）。グラフ側はハブ統合のため小文字に寄せる。
+// 既発行号に残る旧ノイズ（Show HN断片、機能語、括弧混入）もここで遡及的に除去される。
 function normalizeKeyword(raw) {
-  const k = (raw || '')
-    .trim()
-    .replace(/^[\s"'“”‘’「」『』()（）\[\]【】<>《》.,!?！？:;…]+/, '')
-    .replace(/[\s"'“”‘’「」『』()（）\[\]【】<>《》.,!?！？:;…]+$/, '')
-    .toLowerCase();
-  if (k.length < 2 || k.length > 20) return null;
-  if (!/\p{L}/u.test(k)) return null; // 文字を含まない（数字・記号のみ）は捨てる
-  if (STOPWORDS.has(k)) return null;
-  return k;
+  const k = cleanKeyword(raw);
+  return k ? k.toLowerCase() : null;
 }
 
 function listIssueFiles() {
