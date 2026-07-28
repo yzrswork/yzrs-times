@@ -33,8 +33,10 @@ export function deriveCategory(item) {
 
 function tokenizeTitle(title) {
   return stripPostPrefix(title || '')
-    .split(/[\s\-:—|,、。・"'“”]+/)
+    .split(/[\s\-:—|,、。・"'“”「」『』()（）\[\]【】]+/)
     .map((t) => t.trim())
-    .filter(Boolean)
+    // ひらがな始まりは助詞ごと切れた断片（「の落とし穴について」等）。機械分割の限界なので捨てる。
+    // 編集AI経路のキーワードには適用しない（「ものづくり」のような語はそちらでは正当）。
+    .filter((t) => t && !/^[぀-ゟ]/.test(t))
     .slice(0, 12);
 }
