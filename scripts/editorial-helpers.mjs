@@ -1,4 +1,5 @@
 // edit.mjsとproviders/mock.mjsの両方から使う小さな純関数群（循環import回避のため分離）。
+import { stripPostPrefix, cleanKeywords } from './keywords.mjs';
 
 const CATEGORY_BY_SOURCE = {
   'nhk-top': 'news', 'nhk-world': 'news', 'yahoo-topics': 'news',
@@ -26,16 +27,16 @@ export function summarizeFromSnippet(item) {
 
 export function deriveCategory(item) {
   const category = CATEGORY_BY_SOURCE[item.sourceId] ?? 'general';
-  const keywords = [...tokenizeTitle(item.title)].slice(0, 5);
+  const keywords = cleanKeywords(tokenizeTitle(item.title), 5);
   return { category, keywords: keywords.length > 0 ? keywords : [category] };
 }
 
 function tokenizeTitle(title) {
-  return new Set(
-    (title || '')
-      .split(/[\s\-:—|,、。・"'“”]+/)
-      .map((t) => t.trim())
-      .filter((t) => t.length >= 2 && t.length <= 20)
-      .slice(0, 8),
-  );
+  return stripPostPrefix(title || '')
+    .split(/[\s\-:—|,、。・"'“”「」『』()（）\[\]【】]+/)
+    .map((t) => t.trim())
+    // ひらがな始まりは助詞ごと切れた断片（「の落とし穴について」等）。機械分割の限界なので捨てる。
+    // 編集AI経路のキーワードには適用しない（「ものづくり」のような語はそちらでは正当）。
+    .filter((t) => t && !/^[぀-ゟ]/.test(t))
+    .slice(0, 12);
 }
