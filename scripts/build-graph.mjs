@@ -1,10 +1,11 @@
 // 縮刷版アーカイブ（public/data/issues/ の全号）から夕刊（探索モード）用の
 // グラフデータ public/data/graph.json を導出する。
-// 号JSONが正典・graph.jsonは再生成可能な派生物（README データ契約）。AIは使わない。
+// 号JSONが正典、graph.jsonは再生成可能な派生物（README データ契約）。AIは使わない。
 //
-// ノード4種: issue（号）/ article（記事）/ keyword（共起キーワード）/ category（カテゴリ）
-// エッジ4種: pub（号-記事）/ kw（記事-キーワード）/ cat（記事-カテゴリ）/ seq（号-号 時系列）
-// 記事はURL正規化で全号横断の重複を1ノードに束ねる（朝刊と昼刊に同じ話題が載っても1点）。
+// schemaVersion 2（夕刊2.0）: issues[] と articles[] の2配列のみ。
+// 記事はURL正規化で全号横断の重複を1点に束ね、掲載号を article.issues[] に持つ。
+// キーワード索引とカテゴリ集計は夕刊がクライアント側で導出する（エッジ配列は持たない）。
+// 号同士の時系列鎖（旧seqエッジ）は廃止 -- X軸が時間を表すため情報が重複する（DESIGN.md 2026-07-28）。
 import fs from 'node:fs';
 import path from 'node:path';
 import { ISSUES_DIR, PUBLIC_DATA_DIR } from './store.mjs';
@@ -13,7 +14,6 @@ import { cleanKeyword } from './keywords.mjs';
 
 const GRAPH_FILE = path.join(PUBLIC_DATA_DIR, 'graph.json');
 const EDITION_ORDER = { morning: 0, midday: 1, evening: 2 };
-const EDITION_LABEL = { morning: '朝刊', midday: '昼刊', evening: '夕刊' };
 
 // キーワード品質の正は keywords.mjs（生成側と同じ判定）。グラフ側はハブ統合のため小文字に寄せる。
 // 既発行号に残る旧ノイズ（Show HN断片、機能語、括弧混入）もここで遡及的に除去される。
@@ -40,12 +40,9 @@ function listIssueFiles() {
 }
 
 export function buildGraph() {
-  const nodes = [];
-  const edges = [];
-  const articleByUrl = new Map(); // normalizedUrl -> article node
-  const keywordToArticles = new Map(); // keyword -> Set(articleNodeId)
-  const categoryToArticles = new Map(); // category -> Set(articleNodeId)
-  const issueNodeIds = [];
+  const issues = [];
+  const articleByUrl = new Map(); // normalizedUrl -> article
+  const keywordSpan = new Map(); // keyword -> Set(issueId)（counts用）
 
   for (const meta of listIssueFiles()) {
     let issue;
@@ -56,16 +53,14 @@ export function buildGraph() {
     }
 
     const issueId = `i:${meta.date}-${meta.edition}`;
-    nodes.push({
+    issues.push({
       id: issueId,
-      type: 'issue',
-      label: `#${issue.issueNo} ${EDITION_LABEL[meta.edition] ?? meta.edition}`,
       date: meta.date,
       edition: meta.edition,
       issueNo: issue.issueNo,
       theme: issue.theme?.title ?? null,
+      themeNote: issue.theme?.note ?? null,
     });
-    issueNodeIds.push(issueId);
 
     const articles = [...(issue.articles ?? [])];
     if (issue.hiddenGem?.article) articles.push({ ...issue.hiddenGem.article, gem: true });
@@ -75,10 +70,10 @@ export function buildGraph() {
       const urlKey = normalizeUrl(a.url);
       let node = articleByUrl.get(urlKey);
       if (!node) {
+        const kws = [...new Set((a.keywords ?? []).map(normalizeKeyword).filter(Boolean))];
         node = {
           id: `a:${urlKey}`,
-          type: 'article',
-          label: a.title,
+          title: a.title,
           url: a.url,
           category: a.category || 'general',
           date: meta.date,
@@ -86,57 +81,37 @@ export function buildGraph() {
           temperature: a.heat?.temperature ?? null,
           summaryJa: Array.isArray(a.summaryJa) ? a.summaryJa : [],
           gem: Boolean(a.gem),
-          keywords: [],
+          keywords: kws,
+          issues: [],
         };
         articleByUrl.set(urlKey, node);
-        nodes.push(node);
-
-        const kws = new Set((a.keywords ?? []).map(normalizeKeyword).filter(Boolean));
-        node.keywords = [...kws];
-        for (const kw of kws) {
-          if (!keywordToArticles.has(kw)) keywordToArticles.set(kw, new Set());
-          keywordToArticles.get(kw).add(node.id);
-        }
-        const cat = node.category;
-        if (!categoryToArticles.has(cat)) categoryToArticles.set(cat, new Set());
-        categoryToArticles.get(cat).add(node.id);
       }
-      edges.push({ s: issueId, t: node.id, type: 'pub' });
+      if (a.gem) node.gem = true;
+      if (!node.issues.includes(issueId)) node.issues.push(issueId);
+      for (const kw of node.keywords) {
+        if (!keywordSpan.has(kw)) keywordSpan.set(kw, new Set());
+        keywordSpan.get(kw).add(issueId);
+      }
     }
   }
 
-  // 号の時系列チェーン（縮刷版の背表紙）
-  for (let i = 1; i < issueNodeIds.length; i++) {
-    edges.push({ s: issueNodeIds[i - 1], t: issueNodeIds[i], type: 'seq' });
-  }
-
-  // 2記事以上で共起したキーワードだけをハブノード化する（1記事だけの語は結線を生まない）
-  for (const [kw, arts] of keywordToArticles) {
-    if (arts.size < 2) continue;
-    const kwId = `k:${kw}`;
-    nodes.push({ id: kwId, type: 'keyword', label: kw, count: arts.size });
-    for (const aid of arts) edges.push({ s: kwId, t: aid, type: 'kw' });
-  }
-
-  // カテゴリはタグとして常設（記事が必ずどこかの島に属するようにする）
-  for (const [cat, arts] of categoryToArticles) {
-    const catId = `c:${cat}`;
-    nodes.push({ id: catId, type: 'category', label: cat, count: arts.size });
-    for (const aid of arts) edges.push({ s: catId, t: aid, type: 'cat' });
-  }
+  const articles = [...articleByUrl.values()];
+  const categories = new Set(articles.map((a) => a.category));
 
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     generatedAt: new Date().toISOString(),
     counts: {
-      issues: issueNodeIds.length,
-      articles: articleByUrl.size,
-      keywords: [...keywordToArticles.values()].filter((s) => s.size >= 2).length,
-      categories: categoryToArticles.size,
-      edges: edges.length,
+      issues: issues.length,
+      articles: articles.length,
+      // 2記事以上で共起する語（クライアント導出と同じ基準の参考値）
+      keywords: [...keywordSpan.keys()].filter(
+        (kw) => articles.filter((a) => a.keywords.includes(kw)).length >= 2,
+      ).length,
+      categories: categories.size,
     },
-    nodes,
-    edges,
+    issues,
+    articles,
   };
 }
 
@@ -144,5 +119,5 @@ const graph = buildGraph();
 fs.mkdirSync(PUBLIC_DATA_DIR, { recursive: true });
 fs.writeFileSync(GRAPH_FILE, JSON.stringify(graph), 'utf8');
 console.log(
-  `graph.json を再生成: 号${graph.counts.issues} 記事${graph.counts.articles} キーワード${graph.counts.keywords} カテゴリ${graph.counts.categories} エッジ${graph.counts.edges}`,
+  `graph.json を再生成 (schema v2): 号${graph.counts.issues} 記事${graph.counts.articles} キーワード${graph.counts.keywords} カテゴリ${graph.counts.categories}`,
 );
