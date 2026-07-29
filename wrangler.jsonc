@@ -3,6 +3,12 @@
 {
   "name": "yzrs-times",
   "compatibility_date": "2026-07-01",
+  "routes": [
+    {
+      "pattern": "yzrswork.com",
+      "custom_domain": true
+    }
+  ],
   "assets": {
     "directory": "./public"
   }
