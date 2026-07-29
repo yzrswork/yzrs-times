@@ -3078,6 +3078,114 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-28T20:19:46.783Z"
+    },
+    "801877cefe7c0751": {
+      "url": "https://blog.tymscar.com/posts/opensourcedimmer/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-29T02:49:51.617Z"
+    },
+    "b84c1990e8a515b8": {
+      "url": "https://github.com/twalichiewicz/HNewhere",
+      "summaryJa": [
+        "HN is great for the links people share, but a big part of the value I get comes ",
+        "I realized I was always opening the article in one tab and the comments in anoth",
+        "<p>I figured there was probably a simpler way, so I threw t"
+      ],
+      "cachedAt": "2026-07-29T02:49:51.617Z"
+    },
+    "0396f91aad59fe52": {
+      "url": "https://zenn.dev/explaza/articles/20f7f41cff8428",
+      "summaryJa": [
+        "ごまんと触れられてきた話題であるのにも関わらず、細かい所に手の届くツールが無かったので作成しました。",
+        "有名どころから個人で制作されているツールまで、一通り使わせていただいたのですが実際に困った場面があり・・・ サマリ 課題 同じプロジェクトでCodexとClau",
+        "mdやSKILLSなどの変更が片方にしか適用されない 同期ツールは出ているものの、自動コピーやSymlinkの作成に留まり、差分があることを想定していない 目指"
+      ],
+      "cachedAt": "2026-07-29T02:49:51.617Z"
+    },
+    "dcaa6d7c84f6439a": {
+      "url": "https://mac-classic.com/news/half-life-ported-to-mac-os-9/",
+      "summaryJa": [
+        "Half-Life ported to Mac OS 9",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-29T02:49:51.617Z"
+    },
+    "450e6a5e7e596198": {
+      "url": "https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/",
+      "summaryJa": [
+        "Substack writers, you need a website",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-29T02:49:51.617Z"
+    },
+    "3da6330848084318": {
+      "url": "https://blog.nnn.dev/entry/2026/07/29/110000",
+      "summaryJa": [
+        "こんにちは！",
+        "株式会社ドワンゴ教育事業本部で、学習アプリ「ZEN Study」の Android 版開発を担当している本藤です。",
+        "ZEN Study Android は 10 年以上にわたって開発が続いているアプリで、その歴史の中でさまざまな技術選定の積み重ねがあります。"
+      ],
+      "cachedAt": "2026-07-29T02:49:51.617Z"
+    },
+    "ecec0e6793b0f6d1": {
+      "url": "https://zenn.dev/xtm_blog/articles/f016695e2839ee",
+      "summaryJa": [
+        "Claude CodeやCodexの設定をチームで揃える「Microsoft APM」入門 ─ npmとの対比で理解する はじめに Claude CodeやCo",
+        "自分だけで使ううちは、ローカルへファイルを置いたり、必要なものをコピーしたりするだけでも困りません。",
+        "ただ、複数のAIエージェントをチームで使い始めると、次のようなズレが出てきます。"
+      ],
+      "cachedAt": "2026-07-29T02:49:51.617Z"
+    },
+    "d6ebda5b8912e251": {
+      "url": "https://qiita.com/jqit_suwa/items/74a96ce83dde5245407a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "あなたのシステムプロンプトに、こんな一文が入っていませんか。",
+        "最後に、出力内容を検証してください。",
+        "Claude Opus 5 では、これは消したほうがいい一文になりました。"
+      ],
+      "cachedAt": "2026-07-29T02:49:51.617Z"
+    },
+    "5e013c77e0ff1ac1": {
+      "url": "https://zenn.dev/fixstars/articles/kimi-k3-benchmark",
+      "summaryJa": [
+        "はじめに 2026年7月27日、Moonshot AI から Kimi-K3 のモデルウェイトが公開されました。",
+        "7月16日のモデル発表時点から「オープンウェイトモデルとして史上最大」と大きな話題になっていたモデルです。",
+        "フィックスターズでは、ウェイト公開の当日に NVIDIA B300 x8 のシングルノード環境へデプロイし、推論性能のベンチマークを実施しました。"
+      ],
+      "cachedAt": "2026-07-29T02:49:51.617Z"
+    },
+    "a305485a176c8c05": {
+      "url": "https://starling.build",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-29T02:49:51.617Z"
+    },
+    "1aaaafd65c5b2db8": {
+      "url": "https://hondu.co/blog/building-systems-software",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-29T02:49:51.618Z"
+    },
+    "15c29099c8c0d089": {
+      "url": "http://typelit.io",
+      "summaryJa": [
+        "Show HN: I made a site where you practice typing b",
+        "出典: Show HN",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-29T02:49:51.618Z"
     }
   }
 }

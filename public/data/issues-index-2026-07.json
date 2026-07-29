@@ -260,6 +260,13 @@
       "edition": "morning",
       "theme": "動的メカニズムの可視化",
       "path": "issues/2026-07-29-morning.json"
+    },
+    {
+      "issueNo": 38,
+      "date": "2026-07-29",
+      "edition": "midday",
+      "theme": "わずかな不便への自作の回答",
+      "path": "issues/2026-07-29-midday.json"
     }
   ]
 }
