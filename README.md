@@ -17,7 +17,8 @@ Less scrolling. More discovering.
               日本語3行要約・今日のテーマ・編集長コメント・Hidden Gemを決める
   ④ publish : 号JSONを生成して commit & push
        ↓ pushを検知して Cloudflare（Workers静的アセット）が自動デプロイ
-静的な紙面 public/index.html が latest.json を読んで描画
+静的な工房トップ public/index.html から各作業台・道具・読み物を案内
+YZRS Timesの紙面 public/times/index.html が latest.json を読んで描画
 夕刊 public/evening.html は縮刷版アーカイブ全体の探索モード（発行なし・
 graph.json を読む派生ビュー。発行のたびに自動で育つ。入口は「編集長の目次」、
 星図はX軸=時間の決定論レイアウト。設計は docs/DESIGN.md 2026-07-28追記）
@@ -52,7 +53,8 @@ graph.json を読む派生ビュー。発行のたびに自動で育つ。入口
 
 ```
 public/            Cloudflare が配信する公開ディレクトリ（wrangler.jsonc の assets.directory）
-  index.html       紙面（単一ファイル）
+  index.html       や印工務店の総合トップ（静的HTML）
+  times/index.html YZRS Times紙面（単一ファイル）
   evening.html     夕刊 = 縮刷版探索モード（単一ファイル。目次 + 時間軸の星図）
   data/            号アーカイブ・月次index・latest.json
 scripts/           発行パイプライン（collect → rank → edit → publish）

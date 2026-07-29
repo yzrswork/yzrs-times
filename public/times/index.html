@@ -1,0 +1,1229 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>YZRS Times — や印工務店</title>
+<meta name="description" content="技術、AI、ものづくり周辺の情報を拾い、日々読むためのデジタル新聞としてまとめる、や印工務店の読み物です。" />
+<meta name="google-adsense-account" content="ca-pub-8467165715973366" />
+<link rel="canonical" href="https://yzrswork.com/times/" />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8467165715973366"
+     crossorigin="anonymous"></script>
+<script src="/analytics.js"></script>
+<script>
+(function () {
+  // 19:00-翌5:00は夕刊(探索版/グラフビュー)へ自動誘導する。
+  // ?mode=day で明示的に一面へ戻ってきた場合と、過去号(?issue=)を読んでいる場合は対象外。
+  var params = new URLSearchParams(location.search);
+  if (params.get('mode') === 'day') {
+    try { sessionStorage.setItem('yzrsTimesForceDay', '1'); } catch (e) {}
+    return;
+  }
+  if (params.get('issue')) return;
+  try {
+    if (sessionStorage.getItem('yzrsTimesForceDay') === '1') return;
+  } catch (e) {}
+  var h = new Date().getHours();
+  if (h >= 19 || h < 5) location.replace('/evening.html');
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Serif+JP:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --paper: #f3ede0;
+    --paper-2: #eae2d0;
+    --ink: #211d16;
+    --ink-soft: #3a3427;
+    --muted: #746a58;
+    --rule: #2c261c;
+    --rule-soft: rgba(44, 38, 28, 0.28);
+    --accent: #7d2318;
+    --accent-soft: rgba(125, 35, 24, 0.08);
+    --up: #2f6b3a;
+    --down: #a3271c;
+    --serif-en: "EB Garamond", "Times New Roman", serif;
+    --serif-jp: "Noto Serif JP", "Hiragino Mincho ProN", serif;
+    --sans-jp: "Noto Sans JP", "Hiragino Kaku Gothic ProN", sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+
+  body {
+    background-color: var(--paper);
+    color: var(--ink);
+    font-family: var(--serif-jp);
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.75;
+    min-height: 100vh;
+    position: relative;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background-image:
+      radial-gradient(rgba(70, 50, 30, 0.07) 1px, transparent 1px),
+      radial-gradient(rgba(70, 50, 30, 0.05) 1px, transparent 1px);
+    background-size: 3px 3px, 7px 7px;
+    background-position: 0 0, 1px 2px;
+    mix-blend-mode: multiply;
+    opacity: 0.85;
+    z-index: 0;
+  }
+
+  .page {
+    position: relative;
+    z-index: 1;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 28px 20px 64px;
+  }
+
+  a { color: var(--ink); }
+
+  hr.rule {
+    border: none;
+    border-top: 1px solid var(--rule-soft);
+    margin: 0 0 18px;
+  }
+  hr.rule-thick {
+    border: none;
+    border-top: 2px solid var(--rule);
+    margin: 10px 0 8px;
+  }
+  hr.rule-thin {
+    border: none;
+    border-top: 1px solid var(--rule-soft);
+    margin: 6px 0 14px;
+  }
+
+  /* ---- notices ---- */
+  .notice {
+    font-family: var(--sans-jp);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border: 1px solid rgba(125, 35, 24, 0.25);
+    padding: 8px 12px;
+    margin-bottom: 14px;
+  }
+  .notice.subtle {
+    color: var(--muted);
+    background: transparent;
+    border: 1px dashed var(--rule-soft);
+  }
+
+  /* ---- masthead ---- */
+  .masthead { text-align: center; margin-bottom: 4px; }
+  .title-en {
+    font-family: var(--serif-en);
+    font-weight: 600;
+    font-size: clamp(44px, 12vw, 68px);
+    letter-spacing: 0.01em;
+    margin: 6px 0 8px;
+    color: var(--ink);
+  }
+  .masthead-meta {
+    font-family: var(--sans-jp);
+    font-size: 11.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .masthead-meta .sep { margin: 0 8px; color: var(--accent); }
+  .tagline {
+    font-family: var(--serif-en);
+    font-style: italic;
+    font-size: 13px;
+    color: var(--muted);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 0 0 22px;
+  }
+
+  /* ---- theme band ---- */
+  .theme-band {
+    text-align: center;
+    padding: 16px 10px 20px;
+    margin-bottom: 22px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+  .theme-band .theme-title {
+    font-family: var(--serif-jp);
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 0.02em;
+    margin: 0 0 6px;
+  }
+  .theme-band .theme-note {
+    font-family: var(--sans-jp);
+    font-size: 12.5px;
+    color: var(--muted);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  /* ---- press strip ---- */
+  .press-strip {
+    background: var(--paper-2);
+    border: 1px solid var(--rule-soft);
+    padding: 14px 16px;
+    margin-bottom: 28px;
+    font-family: var(--sans-jp);
+  }
+  .press-strip .press-label {
+    font-size: 10.5px;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .press-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 0;
+    justify-content: space-between;
+  }
+  .press-cell {
+    flex: 1 1 auto;
+    min-width: 130px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 8px;
+    border-left: 1px solid var(--rule-soft);
+  }
+  .press-cell:first-child { border-left: none; }
+  .press-cell .glyph { font-size: 18px; line-height: 1; }
+  .press-cell .info { font-size: 11.5px; line-height: 1.5; }
+  .press-cell .info .main { font-weight: 700; color: var(--ink); }
+  .press-cell .info .sub { color: var(--muted); }
+
+  .coins-row {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid var(--rule-soft);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px 14px;
+  }
+  .coin-cell {
+    min-width: 0;
+    font-size: 11px;
+    padding-bottom: 2px;
+  }
+  .coin-cell .coin-top,
+  .coin-cell .coin-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  .coin-cell .coin-top { margin-bottom: 3px; }
+  .coin-cell .symbol { font-weight: 700; letter-spacing: 0.02em; }
+  .coin-cell .price { color: var(--ink-soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .coin-cell .change { white-space: nowrap; }
+  .coin-cell .change.up { color: var(--up); }
+  .coin-cell .change.down { color: var(--down); }
+  .coin-cell svg { display: block; flex-shrink: 0; }
+
+  /* ---- section head ---- */
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-family: var(--serif-jp);
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.06em;
+    margin: 34px 0 4px;
+  }
+  .section-head .en {
+    font-family: var(--serif-en);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--muted);
+    letter-spacing: 0.02em;
+  }
+  .front-page > .section-head { margin-top: 0; }
+
+  /* ---- articles ---- */
+  .article {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .article:last-child { border-bottom: none; }
+  .article-head {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+  .badge {
+    font-family: var(--sans-jp);
+    font-size: 11px;
+    letter-spacing: 0.03em;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  /* 熱源明細（Heat Index の内訳） */
+  .heat-meter {
+    font-family: var(--sans-jp);
+    font-size: 11px;
+    color: var(--muted);
+    width: 100%;
+    min-width: 0;
+  }
+  .heat-meter > summary {
+    cursor: pointer;
+    list-style: none;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+  }
+  .heat-meter > summary::-webkit-details-marker { display: none; }
+  .heat-meter > summary::after { content: ' \25b8'; }
+  .heat-meter[open] > summary::after { content: ' \25be'; }
+  .heat-rows {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .heat-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .heat-label {
+    flex: none;
+    width: 3.4em;
+    white-space: nowrap;
+    text-align: justify;
+    text-align-last: justify;
+    color: var(--muted);
+  }
+  .heat-bar {
+    flex: 1 1 auto;
+    max-width: 200px;
+    height: 7px;
+    background: var(--paper-2);
+    border: 1px solid var(--rule-soft);
+  }
+  .heat-fill {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: var(--ink-soft);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .heat-fill { transition: width 240ms ease-out; }
+  }
+  .heat-val {
+    flex: none;
+    min-width: 3.2em;
+    text-align: right;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .article-title {
+    font-family: var(--serif-jp);
+    font-weight: 700;
+    line-height: 1.45;
+    margin: 0 0 6px;
+    color: var(--ink);
+  }
+  .front-page .article-title { font-size: 20px; }
+  .front-page .article.lead .article-title { font-size: 25px; }
+  #sections-container .article-title { font-size: 16px; }
+  .article-source {
+    font-family: var(--sans-jp);
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.03em;
+    margin-bottom: 8px;
+  }
+  .article-summary {
+    font-family: var(--sans-jp);
+    font-size: 13.5px;
+    color: var(--ink-soft);
+    line-height: 1.85;
+    margin: 0 0 12px;
+  }
+  .article-summary span { display: block; }
+  .article-actions {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    font-family: var(--sans-jp);
+  }
+  .link-open {
+    font-size: 12px;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .link-open:hover { opacity: 0.7; }
+  .btn-save {
+    font-family: var(--sans-jp);
+    font-size: 11.5px;
+    color: var(--ink-soft);
+    background: transparent;
+    border: 1px solid var(--rule-soft);
+    padding: 4px 10px;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+  }
+  .btn-save:hover { border-color: var(--accent); color: var(--accent); }
+  .btn-save.saved { color: var(--up); border-color: var(--up); }
+
+  /* ---- hidden gem ---- */
+  .hidden-gem {
+    margin-top: 34px;
+    padding: 22px 18px;
+    border: 1px solid var(--rule);
+    background: var(--paper-2);
+  }
+  .hidden-gem .gem-label {
+    font-family: var(--sans-jp);
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+  .hidden-gem .gem-reason {
+    font-family: var(--sans-jp);
+    font-size: 13px;
+    color: var(--ink-soft);
+    line-height: 1.85;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed var(--rule-soft);
+  }
+  .hidden-gem .gem-reason .signer {
+    display: block;
+    margin-top: 8px;
+    font-style: italic;
+    font-family: var(--serif-en);
+    color: var(--muted);
+  }
+
+  /* ---- editorial ---- */
+  .from-editor {
+    margin-top: 34px;
+    padding-top: 4px;
+  }
+  .editor-comment, .editor-passed {
+    font-family: var(--sans-jp);
+    font-size: 13.5px;
+    color: var(--ink-soft);
+    line-height: 1.9;
+    margin: 0 0 16px;
+  }
+  .editor-passed-label {
+    font-family: var(--sans-jp);
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+  .editor-signature {
+    text-align: right;
+    font-family: var(--serif-en);
+    font-style: italic;
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 18px;
+  }
+
+  /* ---- closing ---- */
+  .closing {
+    text-align: center;
+    margin-top: 46px;
+    padding-top: 26px;
+    border-top: 2px solid var(--rule);
+  }
+  .closing-text {
+    font-family: var(--serif-jp);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    margin: 0 0 20px;
+  }
+  .feedback-prompt {
+    font-family: var(--sans-jp);
+    font-size: 12.5px;
+    color: var(--muted);
+    margin-bottom: 14px;
+  }
+  .feedback-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .feedback-buttons button {
+    font-family: var(--sans-jp);
+    font-size: 12px;
+    background: transparent;
+    border: 1px solid var(--rule-soft);
+    padding: 8px 12px;
+    cursor: pointer;
+    color: var(--ink-soft);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    min-width: 68px;
+  }
+  .feedback-buttons button .em { font-size: 18px; }
+  .feedback-buttons button:hover { border-color: var(--accent); color: var(--accent); }
+  .feedback-done {
+    font-family: var(--sans-jp);
+    font-size: 12.5px;
+    color: var(--up);
+  }
+
+  /* ---- clippings ---- */
+  .clippings { margin-top: 40px; }
+  .clippings-empty {
+    font-family: var(--sans-jp);
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .clipping-item {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 9px 0;
+    border-bottom: 1px solid var(--rule-soft);
+    font-family: var(--sans-jp);
+    font-size: 13px;
+  }
+  .clipping-item a { text-decoration: none; color: var(--ink-soft); }
+  .clipping-item a:hover { color: var(--accent); }
+  .clipping-item .clip-remove {
+    font-size: 11px;
+    color: var(--muted);
+    background: none;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    flex-shrink: 0;
+  }
+  .clipping-item .clip-remove:hover { color: var(--accent); }
+
+  /* ---- back issues ---- */
+  .back-issues { margin-top: 40px; padding-bottom: 10px; }
+  .back-issues-month {
+    font-family: var(--sans-jp);
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    margin: 14px 0 6px;
+  }
+  .back-issue-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 7px 0;
+    border-bottom: 1px solid var(--rule-soft);
+    font-family: var(--sans-jp);
+    font-size: 12.5px;
+  }
+  .back-issue-item a { text-decoration: none; color: var(--ink-soft); }
+  .back-issue-item a:hover { color: var(--accent); }
+  .back-issue-item .biq-date { color: var(--muted); white-space: nowrap; }
+  .evening-link { margin-top: 14px; font-size: 13px; }
+  .evening-link a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-soft); }
+  .evening-link a:hover { border-bottom-color: var(--accent); }
+  .back-issues-empty {
+    font-family: var(--sans-jp);
+    font-size: 12px;
+    color: var(--muted);
+  }
+
+  footer.colophon {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid var(--rule);
+    font-family: var(--sans-jp);
+    font-size: 10.5px;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    text-align: center;
+  }
+  footer.colophon a { color: inherit; }
+  footer.colophon .legal-links { display: block; margin-top: 5px; letter-spacing: 0.04em; }
+
+  @media (min-width: 600px) {
+    .page { padding: 48px 32px 72px; }
+    .front-page .article.lead .article-title { font-size: 30px; }
+  }
+
+  @media print {
+    body::before { display: none; }
+    .btn-save, .feedback-buttons, .clip-remove, #past-issue-notice.no-print-hide { display: none !important; }
+    .notice { display: none; }
+    .page { max-width: 100%; padding: 0 8mm; }
+  }
+</style>
+</head>
+<body>
+  <main class="page" id="page">
+
+    <div class="notice" id="version-notice" hidden>この号は古い形式のため一部を表示できません。</div>
+    <div class="notice subtle" id="past-issue-notice" hidden>これは過去の紙面です。</div>
+
+    <header class="masthead">
+      <h1 class="title-en">YZRS Times</h1>
+      <div class="masthead-meta">
+        <span id="edition-title"></span><span class="sep">・</span><span id="issue-no"></span><span class="sep">・</span><span id="date-display"></span>
+      </div>
+      <hr class="rule-thick">
+      <p class="tagline">Less scrolling. More discovering.</p>
+    </header>
+
+    <section class="theme-band" id="theme-band" hidden>
+      <p class="theme-title" id="theme-title"></p>
+      <p class="theme-note" id="theme-note"></p>
+    </section>
+
+    <section class="press-strip" id="press-strip" hidden>
+      <div class="press-label" id="press-label"></div>
+      <div class="press-grid" id="press-grid"></div>
+      <div class="coins-row" id="coins-row" hidden></div>
+    </section>
+
+    <section class="front-page" id="front-page" hidden>
+      <div class="section-head">一面 <span class="en">Front Page</span></div>
+      <hr class="rule">
+      <div id="top-articles"></div>
+    </section>
+
+    <div id="sections-container"></div>
+
+    <section class="hidden-gem" id="hidden-gem-section" hidden>
+      <div class="gem-label">💎 本日の Hidden Gem</div>
+      <div id="hidden-gem-article"></div>
+      <p class="gem-reason" id="gem-reason"></p>
+    </section>
+
+    <section class="from-editor" id="editorial-section" hidden>
+      <div class="section-head">編集部より <span class="en">From the Editor</span></div>
+      <hr class="rule">
+      <p class="editor-comment" id="editor-comment" hidden></p>
+      <div id="editor-passed-block" hidden>
+        <div class="editor-passed-label">今日の見送り</div>
+        <p class="editor-passed" id="editor-passed"></p>
+      </div>
+      <p class="editor-signature" id="editor-signature" hidden></p>
+    </section>
+
+    <section class="closing">
+      <p class="closing-text">本日はここまで。</p>
+      <div id="feedback-block"></div>
+    </section>
+
+    <section class="clippings" id="clippings-section">
+      <div class="section-head">切り抜き <span class="en">Clippings</span></div>
+      <hr class="rule">
+      <div id="clippings-list"></div>
+    </section>
+
+    <footer class="back-issues" id="back-issues">
+      <div class="section-head">縮刷版 <span class="en">Back Issues</span></div>
+      <hr class="rule">
+      <div id="back-issues-list"><p class="back-issues-empty">読み込み中…</p></div>
+      <p class="evening-link"><a href="/evening.html">夕刊（探索版）を開く — 編集長の目次と、全号がつながる星図</a></p>
+    </footer>
+
+    <footer class="colophon">
+      YZRS Times — AI編集長が毎日編集する、自分専用のデジタル新聞
+      <span class="legal-links"><a href="/">工房トップ</a> ／ <a href="/about/">運営者・編集方針</a> ／ <a href="/privacy/">プライバシー</a> ／ <a href="https://apps.yzrswork.com/">や印工務店の道具箱</a></span>
+    </footer>
+
+  </main>
+
+<script>
+(function () {
+  'use strict';
+
+  var CLIP_KEY = 'yzrsTimesClippings';
+  var FEEDBACK_PREFIX = 'yzrsTimesFeedback:';
+
+  /* ---------- small DOM helpers (no innerHTML for data) ---------- */
+  function el(tag, opts) {
+    var e = document.createElement(tag);
+    opts = opts || {};
+    if (opts.className) e.className = opts.className;
+    if (opts.text != null) e.textContent = opts.text;
+    if (opts.attrs) {
+      for (var k in opts.attrs) e.setAttribute(k, opts.attrs[k]);
+    }
+    return e;
+  }
+  function show(node) { if (node) node.hidden = false; }
+  function text(id, val) {
+    var n = document.getElementById(id);
+    if (n) n.textContent = val;
+    return n;
+  }
+
+  /* ---------- tolerant getters ---------- */
+  function articleById(issue, id) {
+    var list = Array.isArray(issue.articles) ? issue.articles : [];
+    for (var i = 0; i < list.length; i++) {
+      if (list[i] && list[i].id === id) return list[i];
+    }
+    return null;
+  }
+
+  /* ---------- 熱源明細（Heat Index の内訳） ----------
+     反響（はてブ / HN）と勢いは対数正規化（log10(n+1)/log10(上限+1)）。
+     人気度は指数的に伸びるため、線形だと大反響の記事以外のバーが潰れて見える。 */
+  var HEAT_ROWS = [
+    { key: 'hatebuCount', label: 'はてブ', norm: function (v) { return logNorm(v, 1000); }, fmt: function (v) { return String(Math.round(v)); } },
+    { key: 'hnPoints', label: 'ＨＮ', norm: function (v) { return logNorm(v, 1000); }, fmt: function (v) { return String(Math.round(v)); } },
+    { key: 'velocity', label: '勢い', norm: function (v) { return logNorm(v, 100); }, fmt: function (v) { return round1(v) + '/h'; } },
+    { key: 'ageHours', label: '鮮度', norm: function (v) { return clamp01((48 - v) / 48); }, fmt: fmtAge, isAge: true },
+    { key: 'crossSources', label: '横断', norm: function (v) { return clamp01((v - 1) / 3); }, fmt: function (v) { return v + '元'; } },
+  ];
+
+  function clamp01(x) { return x < 0 ? 0 : (x > 1 ? 1 : x); }
+  function logNorm(v, max) { return clamp01(Math.log10((v || 0) + 1) / Math.log10(max + 1)); }
+  function round1(n) { return Math.round(n * 10) / 10; }
+  function fmtAge(h) {
+    if (h < 24) return Math.round(h) + 'h前';
+    return Math.round(h / 24) + '日前';
+  }
+
+  // 記事カードのHeat Index表示（details要素。summaryはHeat N℃、開くとシグナル別の内訳バー）
+  function buildHeatMeter(heat, opts) {
+    if (!heat || typeof heat.temperature !== 'number' || isNaN(heat.temperature)) return null;
+    opts = opts || {};
+    var details = el('details', { className: 'heat-meter' });
+    if (opts.open) details.setAttribute('open', '');
+
+    var summary = el('summary', { text: 'Heat ' + Math.round(heat.temperature) + '℃' });
+    details.appendChild(summary);
+
+    var signals = heat.signals;
+    if (signals) {
+      var ariaParts = [];
+      var rowsHost = el('div', { className: 'heat-rows' });
+      HEAT_ROWS.forEach(function (row) {
+        var raw = signals[row.key];
+        if (typeof raw !== 'number' || isNaN(raw)) return;
+        var norm = row.norm(raw);
+        var valText = norm > 0 ? row.fmt(raw) : '—';
+        var rowEl = el('div', { className: 'heat-row' });
+        rowEl.appendChild(el('span', { className: 'heat-label', text: row.label }));
+        var bar = el('span', { className: 'heat-bar' });
+        var fill = el('span', { className: 'heat-fill' });
+        bar.appendChild(fill);
+        rowEl.appendChild(bar);
+        rowEl.appendChild(el('span', { className: 'heat-val', text: valText }));
+        rowsHost.appendChild(rowEl);
+        // 初回描画はwidth 0で挿入し、次フレームで実値にして「刷られる」動きを出す
+        if (norm > 0) {
+          requestAnimationFrame(function () {
+            fill.style.width = Math.round(norm * 100) + '%';
+          });
+          ariaParts.push(row.label + row.fmt(raw));
+        }
+      });
+      details.appendChild(rowsHost);
+      details.setAttribute('aria-label', 'Heat ' + Math.round(heat.temperature) + '度。' + (ariaParts.length ? ariaParts.join('、') : '反響データなし'));
+      details.setAttribute('role', 'group');
+    }
+    return details;
+  }
+
+  function formatPressTime(pressTimeJst) {
+    if (typeof pressTimeJst !== 'string') return null;
+    var parts = pressTimeJst.split(' ');
+    if (parts.length < 2) return null;
+    var dateParts = parts[0].split('-');
+    if (dateParts.length !== 3) return null;
+    var month = parseInt(dateParts[1], 10);
+    var day = parseInt(dateParts[2], 10);
+    if (!month || !day) return null;
+    var timeParts = parts[1].split(':');
+    var hour = parseInt(timeParts[0], 10);
+    var minute = timeParts[1] || '00';
+    if (isNaN(hour)) return null;
+    return month + '月' + day + '日 ' + hour + ':' + minute + '時点';
+  }
+
+  var WEATHER_ICONS = {
+    sunny: '☀️', clear: '☀️', 'partly-cloudy': '⛅', 'partly_cloudy': '⛅',
+    cloudy: '☁️', overcast: '☁️', rain: '🌧️', rainy: '🌧️', showers: '🌦️',
+    thunderstorm: '⛈️', thunder: '⛈️', snow: '❄️', snowy: '❄️',
+    fog: '🌫️', mist: '🌫️', wind: '🌬️', windy: '🌬️'
+  };
+  function weatherIcon(icon) {
+    if (typeof icon !== 'string') return '🌤️';
+    return WEATHER_ICONS[icon] || '🌤️';
+  }
+
+  function fmtNum(n, digits) {
+    if (typeof n !== 'number' || isNaN(n)) return null;
+    return n.toLocaleString('en-US', { maximumFractionDigits: digits == null ? 2 : digits, minimumFractionDigits: 0 });
+  }
+
+  /* ---------- sparkline (static inline SVG, no external data) ---------- */
+  var SVGNS = 'http://www.w3.org/2000/svg';
+  function sparkline(values, isUp) {
+    if (!Array.isArray(values) || values.length < 2) return null;
+    var nums = values.filter(function (v) { return typeof v === 'number' && !isNaN(v); });
+    if (nums.length < 2) return null;
+    var w = 46, h = 16, pad = 2;
+    var min = Math.min.apply(null, nums);
+    var max = Math.max.apply(null, nums);
+    var range = max - min || 1;
+    var step = (w - pad * 2) / (nums.length - 1);
+    var points = nums.map(function (v, i) {
+      var x = pad + i * step;
+      var y = pad + (1 - (v - min) / range) * (h - pad * 2);
+      return x.toFixed(1) + ',' + y.toFixed(1);
+    }).join(' ');
+    var svg = document.createElementNS(SVGNS, 'svg');
+    svg.setAttribute('width', w);
+    svg.setAttribute('height', h);
+    svg.setAttribute('viewBox', '0 0 ' + w + ' ' + h);
+    svg.setAttribute('aria-hidden', 'true');
+    var polyline = document.createElementNS(SVGNS, 'polyline');
+    polyline.setAttribute('points', points);
+    polyline.setAttribute('fill', 'none');
+    polyline.setAttribute('stroke', isUp ? '#2f6b3a' : '#a3271c');
+    polyline.setAttribute('stroke-width', '1.4');
+    polyline.setAttribute('stroke-linecap', 'round');
+    polyline.setAttribute('stroke-linejoin', 'round');
+    svg.appendChild(polyline);
+    return svg;
+  }
+
+  /* ---------- clippings (saved articles) ---------- */
+  function getClippings() {
+    try {
+      var raw = localStorage.getItem(CLIP_KEY);
+      var arr = raw ? JSON.parse(raw) : [];
+      return Array.isArray(arr) ? arr : [];
+    } catch (e) { return []; }
+  }
+  function setClippings(arr) {
+    try { localStorage.setItem(CLIP_KEY, JSON.stringify(arr)); } catch (e) {}
+  }
+  function isClipped(id) {
+    return getClippings().some(function (c) { return c.id === id; });
+  }
+  function addClipping(article) {
+    var arr = getClippings();
+    if (arr.some(function (c) { return c.id === article.id; })) return;
+    arr.unshift({ id: article.id, title: article.title, url: article.url });
+    setClippings(arr);
+  }
+  function removeClipping(id) {
+    setClippings(getClippings().filter(function (c) { return c.id !== id; }));
+  }
+  function renderClippings() {
+    var host = document.getElementById('clippings-list');
+    host.textContent = '';
+    var arr = getClippings();
+    if (!arr.length) {
+      host.appendChild(el('p', { className: 'clippings-empty', text: 'まだ切り抜きはありません。記事の「保存」から追加できます。' }));
+      return;
+    }
+    arr.forEach(function (c) {
+      var row = el('div', { className: 'clipping-item' });
+      var a = el('a', { attrs: { href: c.url || '#', target: '_blank', rel: 'noopener noreferrer' }, text: c.title || '(無題)' });
+      var btn = el('button', { className: 'clip-remove', text: '取り消す' });
+      btn.addEventListener('click', function () {
+        removeClipping(c.id);
+        renderClippings();
+      });
+      row.appendChild(a);
+      row.appendChild(btn);
+      host.appendChild(row);
+    });
+  }
+
+  /* ---------- article rendering ---------- */
+  function buildArticleNode(article, opts) {
+    opts = opts || {};
+    var wrap = el('div', { className: 'article' + (opts.lead ? ' lead' : '') });
+
+    var head = el('div', { className: 'article-head' });
+    var heatMeter = buildHeatMeter(article.heat, { open: !!opts.lead });
+    if (heatMeter) head.appendChild(heatMeter);
+    wrap.appendChild(head);
+
+    wrap.appendChild(el('h3', { className: 'article-title', text: article.title || '(無題)' }));
+
+    if (article.source) {
+      wrap.appendChild(el('div', { className: 'article-source', text: article.source }));
+    }
+
+    if (Array.isArray(article.summaryJa) && article.summaryJa.length) {
+      var p = el('p', { className: 'article-summary' });
+      article.summaryJa.forEach(function (line) {
+        p.appendChild(el('span', { text: line }));
+      });
+      wrap.appendChild(p);
+    }
+
+    var actions = el('div', { className: 'article-actions' });
+    if (article.url) {
+      actions.appendChild(el('a', {
+        className: 'link-open', text: '開く',
+        attrs: { href: article.url, target: '_blank', rel: 'noopener noreferrer' }
+      }));
+    }
+    var saveBtn = el('button', { className: 'btn-save no-print', text: isClipped(article.id) ? '保存済み' : '保存' });
+    if (isClipped(article.id)) saveBtn.classList.add('saved');
+    saveBtn.addEventListener('click', function () {
+      addClipping(article);
+      saveBtn.textContent = '保存済み';
+      saveBtn.classList.add('saved');
+      renderClippings();
+    });
+    actions.appendChild(saveBtn);
+    wrap.appendChild(actions);
+
+    return wrap;
+  }
+
+  /* ---------- main render ---------- */
+  function renderIssue(issue, opts) {
+    opts = opts || {};
+
+    if (issue.schemaVersion !== 1) {
+      show(document.getElementById('version-notice'));
+    }
+    if (opts.isPastIssue) {
+      show(document.getElementById('past-issue-notice'));
+    }
+
+    // masthead
+    if (issue.editionTitle) text('edition-title', issue.editionTitle);
+    if (typeof issue.issueNo === 'number') {
+      text('issue-no', 'Issue #' + String(issue.issueNo).padStart(3, '0'));
+    }
+    if (issue.dateDisplay) text('date-display', issue.dateDisplay);
+
+    // theme band
+    if (issue.theme && issue.theme.title) {
+      text('theme-title', '今日のテーマ:『' + issue.theme.title + '』');
+      if (issue.theme.note) text('theme-note', issue.theme.note);
+      show(document.getElementById('theme-band'));
+    }
+
+    // press strip
+    renderPressStrip(issue);
+
+    // front page (top)
+    var topIds = Array.isArray(issue.top) ? issue.top : [];
+    var topArticles = topIds.map(function (id) { return articleById(issue, id); }).filter(Boolean);
+    if (topArticles.length) {
+      var frontHost = document.getElementById('top-articles');
+      topArticles.forEach(function (a, i) {
+        frontHost.appendChild(buildArticleNode(a, { lead: i === 0 }));
+      });
+      show(document.getElementById('front-page'));
+    }
+
+    // sections
+    var sectionsHost = document.getElementById('sections-container');
+    var sections = Array.isArray(issue.sections) ? issue.sections : [];
+    sections.forEach(function (sec) {
+      if (!sec || !sec.title) return;
+      var ids = Array.isArray(sec.articleIds) ? sec.articleIds : [];
+      var arts = ids.map(function (id) { return articleById(issue, id); }).filter(Boolean);
+      if (!arts.length) return;
+      var section = el('section', { className: 'section-block' });
+      var head = el('div', { className: 'section-head' });
+      head.appendChild(document.createTextNode(sec.title + ' '));
+      section.appendChild(head);
+      section.appendChild(el('hr', { className: 'rule' }));
+      arts.forEach(function (a) { section.appendChild(buildArticleNode(a)); });
+      sectionsHost.appendChild(section);
+    });
+
+    // hidden gem
+    if (issue.hiddenGem && issue.hiddenGem.article && issue.hiddenGem.article.title) {
+      var gemHost = document.getElementById('hidden-gem-article');
+      gemHost.appendChild(buildArticleNode(issue.hiddenGem.article));
+      if (issue.hiddenGem.reason) {
+        var reasonP = document.getElementById('gem-reason');
+        reasonP.textContent = '編集長より—— ' + issue.hiddenGem.reason;
+        show(reasonP);
+      }
+      show(document.getElementById('hidden-gem-section'));
+    }
+
+    // editorial
+    if (issue.editorial) {
+      var any = false;
+      if (issue.editorial.comment) {
+        var c = document.getElementById('editor-comment');
+        c.textContent = issue.editorial.comment;
+        show(c);
+        any = true;
+      }
+      if (issue.editorial.passedOver) {
+        document.getElementById('editor-passed').textContent = issue.editorial.passedOver;
+        show(document.getElementById('editor-passed-block'));
+        any = true;
+      }
+      if (issue.editorial.signature) {
+        var s = document.getElementById('editor-signature');
+        s.textContent = issue.editorial.signature;
+        show(s);
+        any = true;
+      }
+      if (any) show(document.getElementById('editorial-section'));
+    }
+
+    // feedback
+    renderFeedback(issue);
+
+    // clippings
+    renderClippings();
+
+    // back issues
+    renderBackIssues(issue);
+  }
+
+  function renderPressStrip(issue) {
+    var grid = document.getElementById('press-grid');
+    var label = document.getElementById('press-label');
+    var any = false;
+
+    // ラベルだけでは帯を出さない（全ウィジェット欠損の日に空枠が残るのを防ぐ）
+    var pressLabel = formatPressTime(issue.pressTimeJst);
+    if (pressLabel) label.textContent = pressLabel;
+
+    var w = issue.weather;
+    if (w && typeof w === 'object' && (w.tempMax != null || w.tempMin != null || w.summary)) {
+      var cell = el('div', { className: 'press-cell' });
+      cell.appendChild(el('span', { className: 'glyph', text: weatherIcon(w.icon) }));
+      var info = el('div', { className: 'info' });
+      var mainLine = [];
+      if (typeof w.tempMax === 'number') mainLine.push(w.tempMax + '℃');
+      if (typeof w.tempMin === 'number') mainLine.push('/ ' + w.tempMin + '℃');
+      info.appendChild(el('div', { className: 'main', text: mainLine.join(' ') || (w.summary || '') }));
+      var subParts = [];
+      if (w.summary && mainLine.length) subParts.push(w.summary);
+      if (typeof w.precipChancePct === 'number') subParts.push('降水 ' + w.precipChancePct + '%');
+      if (subParts.length) info.appendChild(el('div', { className: 'sub', text: subParts.join(' ・ ') }));
+      cell.appendChild(info);
+      grid.appendChild(cell);
+      any = true;
+    }
+
+    var m = issue.market;
+    var fg = m && m.fearGreed;
+    if (fg && typeof fg.value === 'number') {
+      var fgCell = el('div', { className: 'press-cell' });
+      fgCell.appendChild(el('span', { className: 'glyph', text: '📊' }));
+      var fgInfo = el('div', { className: 'info' });
+      fgInfo.appendChild(el('div', { className: 'main', text: 'F&G ' + fg.value }));
+      if (fg.label) fgInfo.appendChild(el('div', { className: 'sub', text: fg.label }));
+      fgCell.appendChild(fgInfo);
+      grid.appendChild(fgCell);
+      any = true;
+    }
+
+    if (m && Array.isArray(m.coins) && m.coins.length) {
+      var row = document.getElementById('coins-row');
+      var coinsShown = 0;
+      m.coins.forEach(function (coin) {
+        // Skip a coin entirely when there is no usable price — an empty
+        // shell (symbol only) is not worth a newspaper column.
+        if (!coin || !coin.symbol || typeof coin.priceUsd !== 'number') return;
+        var cell = el('div', { className: 'coin-cell' });
+        var isUp = typeof coin.change24hPct === 'number' && coin.change24hPct >= 0;
+
+        var top = el('div', { className: 'coin-top' });
+        top.appendChild(el('span', { className: 'symbol', text: coin.symbol }));
+        if (typeof coin.change24hPct === 'number') {
+          top.appendChild(el('span', {
+            className: 'change ' + (isUp ? 'up' : 'down'),
+            text: (isUp ? '+' : '') + coin.change24hPct.toFixed(2) + '%'
+          }));
+        }
+        cell.appendChild(top);
+
+        var bottom = el('div', { className: 'coin-bottom' });
+        var priceStr = fmtNum(coin.priceUsd, coin.priceUsd < 10 ? 4 : 2);
+        if (priceStr) bottom.appendChild(el('span', { className: 'price', text: '$' + priceStr }));
+        var spark = sparkline(coin.sparkline7d, isUp);
+        if (spark) bottom.appendChild(spark);
+        cell.appendChild(bottom);
+
+        row.appendChild(cell);
+        coinsShown++;
+      });
+      if (coinsShown) {
+        show(row);
+        any = true;
+      }
+    }
+
+    if (any) show(document.getElementById('press-strip'));
+  }
+
+  /* ---------- feedback ---------- */
+  function feedbackKey(issue) {
+    return FEEDBACK_PREFIX + (issue.date || '') + ':' + (issue.edition || '');
+  }
+  function renderFeedback(issue) {
+    var host = document.getElementById('feedback-block');
+    host.textContent = '';
+    var key = feedbackKey(issue);
+    var saved = null;
+    try {
+      var raw = localStorage.getItem(key);
+      saved = raw ? JSON.parse(raw) : null;
+    } catch (e) { saved = null; }
+
+    if (saved && saved.rating) {
+      host.appendChild(el('p', { className: 'feedback-done', text: 'ご意見ありがとうございました。明日の紙面に活かします。' }));
+      return;
+    }
+
+    host.appendChild(el('p', { className: 'feedback-prompt', text: '今日の紙面はいかがでしたか。' }));
+    var buttons = el('div', { className: 'feedback-buttons no-print' });
+    var options = [
+      { rating: 'harvest', emoji: '🌾', label: '大収穫' },
+      { rating: 'good', emoji: '🙂', label: '面白かった' },
+      { rating: 'neutral', emoji: '😐', label: '普通' },
+      { rating: 'miss', emoji: '😴', label: '空振り' }
+    ];
+    options.forEach(function (opt) {
+      var btn = el('button', {});
+      btn.appendChild(el('span', { className: 'em', text: opt.emoji }));
+      btn.appendChild(el('span', { text: opt.label }));
+      btn.addEventListener('click', function () {
+        var payload = { date: issue.date, edition: issue.edition, rating: opt.rating };
+        try { localStorage.setItem(key, JSON.stringify(payload)); } catch (e) {}
+        renderFeedback(issue);
+      });
+      buttons.appendChild(btn);
+    });
+    host.appendChild(buttons);
+  }
+
+  /* ---------- back issues (縮刷版) ---------- */
+  function renderBackIssues(currentIssue) {
+    var host = document.getElementById('back-issues-list');
+    host.textContent = '';
+    fetch('/data/index-manifest.json').then(function (r) {
+      if (!r.ok) throw new Error('manifest http ' + r.status);
+      return r.json();
+    }).then(function (manifest) {
+      var months = Array.isArray(manifest.months) ? manifest.months.slice().sort().reverse() : [];
+      if (!months.length) {
+        host.appendChild(el('p', { className: 'back-issues-empty', text: '縮刷版はまだありません。' }));
+        return;
+      }
+      var chain = Promise.resolve();
+      var any = false;
+      months.forEach(function (month) {
+        chain = chain.then(function () {
+          return fetch('/data/issues-index-' + month + '.json').then(function (r) {
+            if (!r.ok) throw new Error('http ' + r.status);
+            return r.json();
+          }).then(function (idx) {
+            var issues = Array.isArray(idx.issues) ? idx.issues.slice().reverse() : [];
+            if (!issues.length) return;
+            any = true;
+            host.appendChild(el('div', { className: 'back-issues-month', text: month }));
+            issues.forEach(function (item) {
+              if (!item) return;
+              var date = item.date || item.issueDate;
+              var edition = item.edition || 'morning';
+              var path = item.path || item.file || item.filename ||
+                (date ? 'issues/' + date + '-' + edition + '.json' : null);
+              if (!path) return;
+              var row = el('div', { className: 'back-issue-item' });
+              var issueNo = item.issueNo != null ? item.issueNo : item.issue;
+              var linkText = 'Issue #' + (typeof issueNo === 'number' ? String(issueNo).padStart(3, '0') : '?');
+              var theme = (item.theme && item.theme.title) || item.theme || item.themeTitle;
+              if (theme) linkText += '　' + theme;
+              var a = el('a', { text: linkText, attrs: { href: '?issue=' + path } });
+              row.appendChild(a);
+              if (date) row.appendChild(el('span', { className: 'biq-date', text: date }));
+              host.appendChild(row);
+            });
+          }).catch(function () { /* skip a broken month silently */ });
+        });
+      });
+      chain.then(function () {
+        if (!any) host.appendChild(el('p', { className: 'back-issues-empty', text: '縮刷版はまだありません。' }));
+      });
+    }).catch(function () {
+      host.textContent = '';
+      host.appendChild(el('p', { className: 'back-issues-empty', text: '縮刷版を読み込めませんでした。' }));
+    });
+  }
+
+  /* ---------- boot ---------- */
+  function boot() {
+    var params = new URLSearchParams(location.search);
+    var issueParam = params.get('issue');
+    var url = issueParam ? '/data/' + issueParam : '/data/latest.json';
+    var isPastIssue = !!issueParam;
+
+    fetch(url).then(function (r) {
+      if (!r.ok) throw new Error('http ' + r.status);
+      return r.json();
+    }).then(function (issue) {
+      renderIssue(issue, { isPastIssue: isPastIssue });
+    }).catch(function (err) {
+      var host = document.getElementById('page');
+      var msg = el('div', { className: 'notice', text: '紙面を読み込めませんでした。時間を置いてお試しください。' });
+      host.insertBefore(msg, host.firstChild);
+      console.error('[yzrs-times] failed to load issue:', err);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+
+  // 印刷時は熱源明細をすべて展開し、印刷後に元の開閉状態へ戻す
+  var printClosedMeters = [];
+  window.addEventListener('beforeprint', function () {
+    printClosedMeters = [];
+    document.querySelectorAll('.heat-meter:not([open])').forEach(function (d) {
+      printClosedMeters.push(d);
+      d.setAttribute('open', '');
+    });
+  });
+  window.addEventListener('afterprint', function () {
+    printClosedMeters.forEach(function (d) { d.removeAttribute('open'); });
+    printClosedMeters = [];
+  });
+}());
+</script>
+</body>
+</html>
