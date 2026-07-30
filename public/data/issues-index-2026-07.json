@@ -281,6 +281,13 @@
       "edition": "midday",
       "theme": "自分だけが動かせる道具を組み上げる",
       "path": "issues/2026-07-30-midday.json"
+    },
+    {
+      "issueNo": 41,
+      "date": "2026-07-31",
+      "edition": "morning",
+      "theme": "素朴な質感と開発の足場",
+      "path": "issues/2026-07-31-morning.json"
     }
   ]
 }
