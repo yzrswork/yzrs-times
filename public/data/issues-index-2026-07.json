@@ -274,6 +274,13 @@
       "edition": "morning",
       "theme": "制御の境界を押し広げる",
       "path": "issues/2026-07-30-morning.json"
+    },
+    {
+      "issueNo": 40,
+      "date": "2026-07-30",
+      "edition": "midday",
+      "theme": "自分だけが動かせる道具を組み上げる",
+      "path": "issues/2026-07-30-midday.json"
     }
   ]
 }

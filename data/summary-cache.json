@@ -3249,6 +3249,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-29T20:20:38.558Z"
+    },
+    "7767f12764a9c19b": {
+      "url": "https://tech-lab.sios.jp/archives/53583",
+      "summaryJa": [
+        "こんな方へ特におすすめ エヴァンゲリオンが好きな方 ローカルLLM（Ollama）や Raspberry Pi で、何か動くものを作ってみたい方 LangGra",
+        "サイオステクノロジーのはらちゃんです！",
+        "今回はOSCの展示ブース用開発として、『新世紀エヴァンゲリオン』の意思決定コンピ."
+      ],
+      "cachedAt": "2026-07-30T02:49:49.619Z"
+    },
+    "fd95e3bf72d027b9": {
+      "url": "https://tomekw.com/overengineered-calculator-zig-qbe/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-30T02:49:49.619Z"
+    },
+    "7cfd61c901fe0867": {
+      "url": "https://www.superlogical.com/",
+      "summaryJa": [
+        "<a href=\"https:&#x2F;&#x2F;mitchellh.",
+        "com&#x2F;writing&#x2F;superlogical\" rel=\"nofollow\">https:&#x2F;&#x2F;mitchellh.",
+        "com&#x2F;writing&#x2F;superlogical</a>"
+      ],
+      "cachedAt": "2026-07-30T02:49:49.619Z"
+    },
+    "19b4765e1f65eebd": {
+      "url": "https://zenn.dev/aircloset/articles/6b47018589df0f",
+      "summaryJa": [
+        "みなさまこんにちは！",
+        "エアークローゼットでCTOをしている辻です。",
+        "GitHub ActionsのランナーをGitHub hosted→Blacksmith→Namespaceと2回乗り換えました。"
+      ],
+      "cachedAt": "2026-07-30T02:49:49.619Z"
+    },
+    "663f9eb50581397f": {
+      "url": "https://zenn.dev/test_myname/articles/gpt-5-6-blender-mcp-modeling",
+      "summaryJa": [
+        "Vtuberの「ぷらむらいす」です。",
+        "GPT-5.",
+        "6とBlender MCPを使い、1枚の見本画像から「銀装飾の黒いアンティーク鍵」を3Dモデリングさせました。"
+      ],
+      "cachedAt": "2026-07-30T02:49:49.619Z"
+    },
+    "622c2de9f220172b": {
+      "url": "https://zenn.dev/reizt/articles/super-mcp-chatgpt",
+      "summaryJa": [
+        "こちらの記事は「MEDLEY Summer Tech Blog Relay」の12日目の記事です。",
+        "はじめに こんにちは、株式会社メドレーの高橋です。",
+        "メドレーは「医療ヘルスケアの未来をつくる」をミッションに掲げ、テクノロジーを活用した事業やプロジェクトを通じて「納得できる医療」の実現を目指しています。"
+      ],
+      "cachedAt": "2026-07-30T02:49:49.619Z"
+    },
+    "392cccab64bcdfc8": {
+      "url": "https://zenn.dev/bull/books/cloud-competition",
+      "summaryJa": [
+        "AWS GameDayに着想を得た実践型クラウド演習を、自分で設計・実装・開催する本です。",
+        "参加者の体験とストーリーを起点に、ローカルChallenge、AWS Challenge、AWS Battleを簡単な順に一から作り、TenkaCloudで複数",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-30T02:49:49.619Z"
+    },
+    "589bc9f93273e291": {
+      "url": "https://qiita.com/Kaitou/items/33e9a09af8ea5bdeebeb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "夏休み中で小学生が家に居るおとうさん、おかあさん。",
+        "暑い中でなかなか外では遊べませんが、動画視聴やゲームばかりというのも気になります。",
+        "せっかくの機会なので、お子さんの苦手分野のプリントを作って、クイズ的に一緒にやってみませんか？"
+      ],
+      "cachedAt": "2026-07-30T02:49:49.619Z"
+    },
+    "a1a1d04ac270734c": {
+      "url": "https://lobste.rs/s/mbk56v/what_side_projects_have_you_enjoyed_most",
+      "summaryJa": [
+        "In the spirit of https://blog.",
+        "jsbarretto.",
+        "com/post/software-is-joy, what side projects have you enjoyed working on the mos"
+      ],
+      "cachedAt": "2026-07-30T02:49:49.619Z"
+    },
+    "32e262963343885b": {
+      "url": "https://lynn.github.io/blog/pico-timers/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-30T02:49:49.619Z"
+    },
+    "7ee2fc1345233149": {
+      "url": "https://github.com/raspberrypi/rpi-imager",
+      "summaryJa": [
+        "The home of Raspberry Pi Imager, a user-friendly tool for creating bootable medi",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-30T02:49:49.619Z"
     }
   }
 }
