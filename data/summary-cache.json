@@ -3447,6 +3447,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-30T20:19:56.579Z"
+    },
+    "b70f49194fad6896": {
+      "url": "https://zenn.dev/u1/articles/rhw-reviewable-html-workbench",
+      "summaryJa": [
+        "出力量が増えると何が起きるか 2026 年 4 月の CHI ワークショップで発表された研究が、この負荷の分布を実際に観察しています(Catalan et al",
+        ")。",
+        "Samsung R&D Institute Philippines と York University のグループが、経験 1 年未満から 10 年超まで 4 "
+      ],
+      "cachedAt": "2026-07-31T02:50:37.072Z"
+    },
+    "865ead93f52d73f3": {
+      "url": "https://marcin.juszkiewicz.com.pl/2026/07/29/new-keyboard-alicja-v2/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-31T02:50:37.072Z"
+    },
+    "998e566f7ccdf926": {
+      "url": "https://5gctextbook.com/",
+      "summaryJa": [
+        "5GC教科書 — 世界最高品質の無料5G Coreオンライン教材¶ このサイトのゴールは「仕様書を要約すること」ではありません。",
+        "あなたが 5G Core Network（5GC）を 本当に理解し、自分の言葉で説明でき、実務で使えるようになること を最優先にした教科書です。",
+        "なぜこのサイトを作ったのか（Why）¶ 3GPP仕様書（TS 23."
+      ],
+      "cachedAt": "2026-07-31T02:50:37.072Z"
+    },
+    "5bf70fae6c670e13": {
+      "url": "https://zenn.dev/estie/articles/c5503dfe56f7a1",
+      "summaryJa": [
+        "こんにちは、株式会社estie（エスティ） 取締役CTO の Nari（@tiwanari）です。",
+        "みなさんは、新しいプロダクトを世に出す前に、「抜け漏れ」がないか不安になった経験はないですか？",
+        "先日、あるプロダクトのリリース前チェックで「個人情報がエラー監視ツールへ送られる実装になっている」と指摘されました。"
+      ],
+      "cachedAt": "2026-07-31T02:50:37.072Z"
+    },
+    "b01c6a08cb21114c": {
+      "url": "https://qiita.com/kaneko_desu/items/a75831913a96757444fa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "C#で new を差し替える実験的モックツールを作っている話 C# のテストで、次のようなコードに出会うことがあります。",
+        "namespace TargetApp; public class UserService { public string GetDispl.",
+        "."
+      ],
+      "cachedAt": "2026-07-31T02:50:37.072Z"
+    },
+    "c49ec0f18622e7ce": {
+      "url": "https://qiita.com/ikageso17g/items/734ee24a5cd1c203b835?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "TL;DR Web版Claude(claude.",
+        "ai)のプロジェクト機能＋MCPコネクタ（Gmail・Notion・Google Drive）だけで、結婚式準備の情報集約ハブを構築しました プロジェクトのカス",
+        "."
+      ],
+      "cachedAt": "2026-07-31T02:50:37.072Z"
+    },
+    "ccb52241cc93f20c": {
+      "url": "https://www.openmymind.net/std-io-writer-allocating-ate-my-memory/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-31T02:50:37.072Z"
+    },
+    "4c6312874204fb17": {
+      "url": "https://lwn.net/SubscriberLink/1083202/f1ba926cd57ac5c5/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-31T02:50:37.072Z"
+    },
+    "a0dcf0d1f6c73722": {
+      "url": "https://github.com/raphaelameaume/fragment",
+      "summaryJa": [
+        "[alpha] A modern toolkit for creative coding",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-31T02:50:37.072Z"
     }
   }
 }

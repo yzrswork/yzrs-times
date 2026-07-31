@@ -288,6 +288,13 @@
       "edition": "morning",
       "theme": "素朴な質感と開発の足場",
       "path": "issues/2026-07-31-morning.json"
+    },
+    {
+      "issueNo": 42,
+      "date": "2026-07-31",
+      "edition": "midday",
+      "theme": "開発の手応えを手入れする",
+      "path": "issues/2026-07-31-midday.json"
     }
   ]
 }
