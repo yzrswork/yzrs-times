@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "month": "2026-08",
+  "issues": [
+    {
+      "issueNo": 43,
+      "date": "2026-08-01",
+      "edition": "morning",
+      "theme": "実機の操作と画面の応答",
+      "path": "issues/2026-08-01-morning.json"
+    }
+  ]
+}

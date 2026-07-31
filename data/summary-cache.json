@@ -3528,6 +3528,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-07-31T02:50:37.072Z"
+    },
+    "89097b1a3486fba1": {
+      "url": "https://www.itmedia.co.jp/aiplus/article/2607/31/2000000322/",
+      "summaryJa": [
+        "スクウェア・エニックスが、ゲームの品質を検証するQAテストの自動化に米GoogleのAI「Gemini」を活用している。",
+        "同社の荒牧岳志氏（AI＆エンジン開発ディビジョン ジェネラル・マネージャー）が7月30日、「Google Cloud Next Tokyo '26」の基調講演で",
+        "AIがゲーム画面を見て状況を把握し、コントローラーを自動で."
+      ],
+      "cachedAt": "2026-07-31T20:19:25.890Z"
+    },
+    "42136e8fe5ff15d4": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015193011000",
+      "summaryJa": [
+        "ほかの国の国民になりすまし、海外企業から収入を得る北朝鮮のIT労働者への監視を強めようと、日本やアメリカなど11か国の関係機関が共同で文書を公表し、北朝鮮側の手",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-31T20:19:25.890Z"
+    },
+    "f5a126490d5862de": {
+      "url": "https://tailscale.com/blog/hugging-face-intrusion",
+      "summaryJa": [
+        "Tailscale didn't stop the Hugging Face intrusion",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-31T20:19:25.890Z"
+    },
+    "dbc989cc6e6ec0cc": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015191761000",
+      "summaryJa": [
+        "日銀は、31日まで開いた金融政策決定会合で、今の政策を維持することを決めました。",
+        "6月、利上げに踏み切ったばかりで、家計や企業への影響を見極める必要があると判断したとみられます。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-31T20:19:25.890Z"
+    },
+    "e77a22ad89555786": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015192671000",
+      "summaryJa": [
+        "自転車の交通違反に対して反則金の納付を通告するいわゆる「青切符」による取り締まりはことし4月の導入後3か月間に全国で7000件余りで、中でもスマホを見ながらの運",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-31T20:19:25.890Z"
+    },
+    "1857dfbdda304b5f": {
+      "url": "https://pc.watch.impress.co.jp/docs/news/2129506.html",
+      "summaryJa": [
+        "\"先に言っといて\"はAIにも効く。OpenAIの新文字起こしは誤認識が半減",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-31T20:19:25.890Z"
+    },
+    "04234651d216dc79": {
+      "url": "https://github.com/golang/go/issues/80590",
+      "summaryJa": [
+        "Golang proposal: container/: generic collection ty",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-07-31T20:19:25.890Z"
+    },
+    "d5c4dcc3d50b887a": {
+      "url": "https://github.com/homebridge/docker-homebridge",
+      "summaryJa": [
+        "Homebridge Docker.",
+        "HomeKit support for the impatient using Docker on x86_64, Raspberry Pi (ARM64).",
+        "Includes ffmpeg + libfdk-aac."
+      ],
+      "cachedAt": "2026-07-31T20:19:25.890Z"
     }
   }
 }
