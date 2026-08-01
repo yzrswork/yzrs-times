@@ -3699,6 +3699,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-01T02:50:57.118Z"
+    },
+    "b001beb17f2a173e": {
+      "url": "https://ameblo.jp/miyamotokarin-official/entry-12974440752.html",
+      "summaryJa": [
+        "HANAKIN配信システムの技術構成2026年7月31日、5thシングル「HANAKIN／シャニカマー」の発売週に、10時間のYouTube生配信をやりました。",
+        "企画は「みんなと協力して家にあるものでMV再現配信」。",
+        "視聴者がCDを買ってハッシュタグで投稿するたびに、メイク・衣装・編集アプリが解禁されていく参加型の配信です。"
+      ],
+      "cachedAt": "2026-08-01T20:20:21.039Z"
+    },
+    "f5e04389e007ff38": {
+      "url": "https://zenn.dev/shunsuke_suzuki/articles/make-cli-ai-friendly",
+      "summaryJa": [
+        "自分は趣味で様々な CLI を OSS として公開しています (aqua, pinact, tfcmt, ghalint, ghir, etc)。",
+        "昨今では AI がこれらを扱うことも増えてきていますが、それなりに知られた OSS でないかぎり AI はその OSS に関する質問に答えたりトラブルシューティ",
+        "そのため Co."
+      ],
+      "cachedAt": "2026-08-01T20:20:21.039Z"
+    },
+    "2fcbfb144151ab6a": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015193131000",
+      "summaryJa": [
+        "熊本県は今回の地震で県内では災害との関連を調査している2人を含めて36人が死亡し、3400を超える住宅に被害があったと発表しました。",
+        "建物の調査が進んでいない地域もあるため今後被害が大きく増えるおそれが…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-01T20:20:21.039Z"
+    },
+    "00b5624a73e36d8b": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015193191000",
+      "summaryJa": [
+        "1日も広い範囲で気温が上がり、東海や九州では40度に迫る危険な暑さとなりました。",
+        "2日は暑さがさらに厳しく、大分県日田市では40度と「酷暑日」が予想されるほか、熊本県の地震の被災地でも猛暑が続く見込みで…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-01T20:20:21.039Z"
+    },
+    "db247b70b4e1388c": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015193951000",
+      "summaryJa": [
+        "アメリカのメディアは、トランプ政権がこの週末にもイスラエルとともにイランへの攻撃を計画していると報じました。",
+        "一方、イラン側も「アメリカの盾となる国は戦火で焼かれることになる」などと強くけん制し、攻撃の…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-01T20:20:21.039Z"
+    },
+    "1c20b4951f237e2f": {
+      "url": "https://kawarimidoll.com/posts/202608011/",
+      "summaryJa": [
+        "cclens — a lens onto your Claude Code usage.",
+        "Contribute to lambdalisue/cclens development by creating an account on GitHub.",
+        "機能 cclensはClaude Codeの使い方を分析するCLIツールです。"
+      ],
+      "cachedAt": "2026-08-01T20:20:21.039Z"
+    },
+    "8fd5aecba5c63873": {
+      "url": "https://andrewshell.org/2026/07/i-%e2%99%a5-rss/",
+      "summaryJa": [
+        "A directory of people who love RSS",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-01T20:20:21.039Z"
+    },
+    "c45ba3253e79d881": {
+      "url": "https://github.com/cncjs/cncjs",
+      "summaryJa": [
+        "A web-based interface for CNC milling controller running Grbl, Marlin, Smoothiew",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-01T20:20:21.039Z"
     }
   }
 }

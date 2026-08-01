@@ -15,6 +15,13 @@
       "edition": "midday",
       "theme": "対話的な開発の手応え",
       "path": "issues/2026-08-01-midday.json"
+    },
+    {
+      "issueNo": 45,
+      "date": "2026-08-02",
+      "edition": "morning",
+      "theme": "言葉で組み立てる独自のシステム",
+      "path": "issues/2026-08-02-morning.json"
     }
   ]
 }

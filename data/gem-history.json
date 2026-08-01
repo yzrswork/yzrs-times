@@ -240,6 +240,11 @@
       "id": "github-gems-9e8382e2",
       "url": "https://github.com/simplefoc/Arduino-FOC",
       "date": "2026-08-01"
+    },
+    {
+      "id": "github-gems-1388008e",
+      "url": "https://github.com/cncjs/cncjs",
+      "date": "2026-08-02"
     }
   ]
 }
