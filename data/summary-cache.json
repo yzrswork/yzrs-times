@@ -3600,6 +3600,105 @@
         "Includes ffmpeg + libfdk-aac."
       ],
       "cachedAt": "2026-07-31T20:19:25.890Z"
+    },
+    "56db7c648fda4297": {
+      "url": "https://qiita.com/RyoWakabayashi/items/4095d86be797008d799e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに Llamex は、 @piacerex さんが作っている Elixir で書かれた LLM 推論エンジン です LLM の API クライアントではあ",
+        "cpp のような推論パイプラインそのものを Elixir で最小構成に書いたものです.",
+        "."
+      ],
+      "cachedAt": "2026-08-01T02:50:57.117Z"
+    },
+    "4434ccf9d8cade5b": {
+      "url": "https://zenn.dev/ubie_dev/articles/gh-stack-introduction",
+      "summaryJa": [
+        "GitHubでPRを細かく作り、前のブランチに対して数珠つなぎのようにPRを作る私が大歓喜！",
+        "GitHubに「スタックプルリクエスト」機能が来ました💐 3行まとめ 大きな変更を、順序付きの小さなPR群（スタック）に分割して扱える機能がGitHub公式で",
+        "."
+      ],
+      "cachedAt": "2026-08-01T02:50:57.117Z"
+    },
+    "874a930fea69fac5": {
+      "url": "https://www.youtube.com/watch?v=yeJRK_1rS4Y",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-01T02:50:57.117Z"
+    },
+    "4efe3997818bc9e3": {
+      "url": "https://note.com/chan_san_jp/n/n3c72de4fedd9",
+      "summaryJa": [
+        "はじめにこんにちは、ちゃんさんです。",
+        "大吉祥寺.",
+        "pm 2026で、すどうさんと一緒にコアスタッフ（広報）をやりましたが、Recap動画を絶対作りたい！"
+      ],
+      "cachedAt": "2026-08-01T02:50:57.117Z"
+    },
+    "a885262f51a2c91f": {
+      "url": "https://servo.org/blog/2026/07/31/june-in-servo/",
+      "summaryJa": [
+        "June in Servo: real world compat, media queries, S",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-01T02:50:57.117Z"
+    },
+    "a4cbcf4d41d370bc": {
+      "url": "https://speakerdeck.com/yuukiyo/building-strong-teams-in-the-age-of-ai",
+      "summaryJa": [
+        "「それ、どこに出しても恥ずかしくないTerraformコードになってるか？",
+        "」 / Terraform AWS Best Practices",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-01T02:50:57.117Z"
+    },
+    "770eb154ae4b8d4d": {
+      "url": "https://zenn.dev/mkj/articles/claudian-orchestra-build_20260720",
+      "summaryJa": [
+        "こんにちは，松尾研究所の尾崎です．25卒でデータサイエンティストをやっています． このところ，ObsidianのVaultを人間とAIの共有メモリに据えたPer",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-08-01T02:50:57.117Z"
+    },
+    "836a2ad4c7bb8734": {
+      "url": "https://zenn.dev/hisaju01/books/meteorfall-development",
+      "summaryJa": [
+        "AIエージェントで粗い初期実装をまず落とし、人間が観測・分解・修正していく開発手法「メテオフォール開発」の考え方と実践をまとめた本。",
+        "依頼設計・レビュー・タスク分解・ジュニア参加・品質ゲート・ケーススタディ・テンプレートまでを扱う。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-01T02:50:57.117Z"
+    },
+    "08c7c05889ce1dd2": {
+      "url": "https://tusharhero.codeberg.page/guix-shell-in-emacs.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-01T02:50:57.117Z"
+    },
+    "d82d72d50fcbd0e7": {
+      "url": "https://beza1e1.tuxen.de/git_two_users.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-01T02:50:57.118Z"
+    },
+    "ff3b40182218712c": {
+      "url": "https://github.com/simplefoc/Arduino-FOC",
+      "summaryJa": [
+        "Arduino FOC for BLDC and Stepper motors - Arduino Based Field Oriented Control A",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-01T02:50:57.118Z"
     }
   }
 }
