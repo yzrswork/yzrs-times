@@ -29,6 +29,13 @@
       "edition": "midday",
       "theme": "肥大化を削ぎ落とす開発の余白",
       "path": "issues/2026-08-02-midday.json"
+    },
+    {
+      "issueNo": 47,
+      "date": "2026-08-03",
+      "edition": "morning",
+      "theme": "余剰を削ぎ、骨格を際立たせる",
+      "path": "issues/2026-08-03-morning.json"
     }
   ]
 }
