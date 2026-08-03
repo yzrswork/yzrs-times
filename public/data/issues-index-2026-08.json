@@ -36,6 +36,13 @@
       "edition": "morning",
       "theme": "余剰を削ぎ、骨格を際立たせる",
       "path": "issues/2026-08-03-morning.json"
+    },
+    {
+      "issueNo": 48,
+      "date": "2026-08-03",
+      "edition": "midday",
+      "theme": "手元のハードウェアを叩き起こす",
+      "path": "issues/2026-08-03-midday.json"
     }
   ]
 }

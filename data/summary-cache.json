@@ -3906,6 +3906,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-02T20:19:12.443Z"
+    },
+    "5f8ccbbeab9f9310": {
+      "url": "https://zenn.dev/hellohazime/articles/kimi_k3_reap640_512gb_mac",
+      "summaryJa": [
+        "お疲れ様です波浪です。",
+        "今回は、最近流行りのKimi K3です。",
+        "前回の失敗を活かして自分の中でも熱があるうちにBLOGにしました。"
+      ],
+      "cachedAt": "2026-08-03T02:50:34.256Z"
+    },
+    "b2425a5889f3b1ec": {
+      "url": "https://github.com/pg83/shitty",
+      "summaryJa": [
+        "Show HN: Shitty – fast terminal. Memory-unsafe and",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-03T02:50:34.256Z"
+    },
+    "f89c9b669d2da87a": {
+      "url": "https://sf.isopolis.city/",
+      "summaryJa": [
+        "Show HN: Isopolis – isometric pixel map of SF",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-03T02:50:34.256Z"
+    },
+    "110be558030d063c": {
+      "url": "https://github.com/johnsonjh/cpm386",
+      "summaryJa": [
+        "CP/M-386 – CP/M for 386 protected mode, derived fr",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-03T02:50:34.256Z"
+    },
+    "983dfa341f73f869": {
+      "url": "https://internet.watch.impress.co.jp/docs/column/shimizu/2128634.html",
+      "summaryJa": [
+        "これはTailscaleか？　国産WireGuardメッシュ「ロリポップ！ゼロトラストリンク byG",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-03T02:50:34.256Z"
+    },
+    "0bb0f063fd5bb4b1": {
+      "url": "https://qiita.com/ennagara128/items/5bcc4e448048a1e15f5d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "起きたこと Reactでリストを日付順に並べ替えて表示する処理をAIに書いてもらったところ、なぜか元のstateの並び順まで変わってしまう不具合が起きました。",
+        "const [items, setItems] = useState(originalItems); func.",
+        "."
+      ],
+      "cachedAt": "2026-08-03T02:50:34.256Z"
+    },
+    "cc4516f262346ba7": {
+      "url": "https://zenn.dev/headwaters/articles/76f20490b76952",
+      "summaryJa": [
+        "背景 今まではタスクは自分の頭で整理するか、メモ帳のようなものに書き留めていました。",
+        "それくらいの管理で十分でした。",
+        "しかし最近、案件業務・社内業務とタスクが増え、整理していかないと厳しい状態になってきました。"
+      ],
+      "cachedAt": "2026-08-03T02:50:34.256Z"
+    },
+    "540bc495c6c10ecb": {
+      "url": "https://pythonspeed.com/articles/faster-float-math-rust/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-03T02:50:34.256Z"
+    },
+    "7ac036a31b627f1c": {
+      "url": "https://www.joelonsoftware.com/2000/04/10/controlling-your-environment-makes-you-happy/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-03T02:50:34.256Z"
+    },
+    "e672f0fcf14ac643": {
+      "url": "https://github.com/schellingb/TinySoundFont",
+      "summaryJa": [
+        "SoundFont2 synthesizer library in a single C/C++ file",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-03T02:50:34.256Z"
     }
   }
 }
