@@ -43,6 +43,13 @@
       "edition": "midday",
       "theme": "手元のハードウェアを叩き起こす",
       "path": "issues/2026-08-03-midday.json"
+    },
+    {
+      "issueNo": 49,
+      "date": "2026-08-04",
+      "edition": "morning",
+      "theme": "自動化の波間に残る手作業の足跡",
+      "path": "issues/2026-08-04-morning.json"
     }
   ]
 }

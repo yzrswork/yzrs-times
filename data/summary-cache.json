@@ -3996,6 +3996,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-03T02:50:34.256Z"
+    },
+    "67f3850ffc0a3886": {
+      "url": "https://ameblo.jp/miyamotokarin-official/entry-12974640519.html",
+      "summaryJa": [
+        "こんにちは！",
+        "2020年までハロー！",
+        "プロジェクト Juice=Juiceで活動をし、卒業以降はソロで音楽活動をしております。"
+      ],
+      "cachedAt": "2026-08-03T20:20:10.078Z"
+    },
+    "bd7cfec7102c195d": {
+      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+      "summaryJa": [
+        "SQLite Critical CVEs or LLM Slop?",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-03T20:20:10.078Z"
+    },
+    "1d7c82cecd9ac75c": {
+      "url": "https://zenn.dev/dress_code/articles/c73500ae73361c",
+      "summaryJa": [
+        "SDD は Spec-Driven Development（仕様駆動開発）のことで、仕様を源泉としてコードを書く・生成する開発スタイルを指しています。",
+        "Dress Code では OpenSpec を使って導入していて、その実践については別のメンバーが記事にしています。",
+        "データ層では Event Sourcing で「状態」ではなく「変化（イベント）」を残してい."
+      ],
+      "cachedAt": "2026-08-03T20:20:10.078Z"
+    },
+    "0931b40bac4ad907": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015195441000",
+      "summaryJa": [
+        "東京 日野市の多摩動物公園では2日までに飼育していたライオン3頭が相次いで死んだと発表しました。",
+        "動物園は熱中症の疑いがあるとみていて、今後詳しい調査を行うことにしています。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-03T20:20:10.078Z"
+    },
+    "053067bf3f8fab8a": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015194581000",
+      "summaryJa": [
+        "7月28日に最大震度7の非常に激しい揺れを観測した熊本県では、地震活動が活発になっているほか、熊本市などで日中の最高気温が40度を超える初の酷暑日になり、4日も",
+        "気象庁は引き…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-03T20:20:10.078Z"
+    },
+    "29e8ae797b52a12a": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015195291000",
+      "summaryJa": [
+        "小学館の漫画アプリの編集部が、性加害事件を起こして連載が中止となった漫画家を別のペンネームで原作者として再び起用していた問題で、小学館が設置した第三者委員会は、",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-03T20:20:10.078Z"
+    },
+    "342a64417fb6de91": {
+      "url": "https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384",
+      "summaryJa": [
+        "概要 Claude CodeやCodexのようなAIコーディングエージェントは、コードの調査、実装、テスト、ドキュメント更新などをまとめて進められます。",
+        "小さな修正であれば、「この不具合を直してください」という指示だけでも十分な結果が得られることがあります。",
+        "一方、数十〜数百件のタスクを含む開発では、同じ進め方は通用."
+      ],
+      "cachedAt": "2026-08-03T20:20:10.078Z"
+    },
+    "d9432c0689e6667e": {
+      "url": "https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase",
+      "summaryJa": [
+        "Celebrating 45 Years of Kermit with the First New ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-03T20:20:10.078Z"
+    },
+    "907ade74157a98c8": {
+      "url": "https://anond.hatelabo.jp/20260803162719",
+      "summaryJa": [
+        "こんにちは。",
+        "突然ですが、みなさんは仕事を効率化していますか？",
+        "僕はしていました。"
+      ],
+      "cachedAt": "2026-08-03T20:20:10.078Z"
+    },
+    "0f1a6267701c7d7d": {
+      "url": "https://blog.exe.dev/devtools-must-be-open-source",
+      "summaryJa": [
+        "Devtools must be open source",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-03T20:20:10.078Z"
+    },
+    "0aac257adf236073": {
+      "url": "https://github.com/Szybet/InkWatchy",
+      "summaryJa": [
+        "A firmware for the open source Watchy/Yatchy - with some unique features",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-03T20:20:10.078Z"
     }
   }
 }
