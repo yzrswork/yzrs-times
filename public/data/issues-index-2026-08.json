@@ -57,6 +57,13 @@
       "edition": "midday",
       "theme": "道具を作り、道具に作られる",
       "path": "issues/2026-08-04-midday.json"
+    },
+    {
+      "issueNo": 51,
+      "date": "2026-08-05",
+      "edition": "morning",
+      "theme": "計算が紡ぐ色彩と歴史の年譜",
+      "path": "issues/2026-08-05-morning.json"
     }
   ]
 }
