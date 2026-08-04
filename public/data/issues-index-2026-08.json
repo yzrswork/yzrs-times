@@ -50,6 +50,13 @@
       "edition": "morning",
       "theme": "自動化の波間に残る手作業の足跡",
       "path": "issues/2026-08-04-morning.json"
+    },
+    {
+      "issueNo": 50,
+      "date": "2026-08-04",
+      "edition": "midday",
+      "theme": "道具を作り、道具に作られる",
+      "path": "issues/2026-08-04-midday.json"
     }
   ]
 }

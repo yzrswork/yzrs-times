@@ -4095,6 +4095,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-03T20:20:10.078Z"
+    },
+    "967491fbfdd428b2": {
+      "url": "https://levtech.jp/media/detail_902/",
+      "summaryJa": [
+        "プログラマー フリーソフト・シェアウェア開発者 たかぼー 静岡県浜松市在住。",
+        "システムエンジニア、プログラマーとして長年ソフトウェア開発に携わる。",
+        "個人としては「TAKABO SOFT」名義にて、ドット絵エディタ「EDGE」や、シェアウェア「EDGE2」を開発。"
+      ],
+      "cachedAt": "2026-08-04T02:50:32.719Z"
+    },
+    "35b568b1d098f869": {
+      "url": "https://zenn.dev/jtechjapan_pub/articles/intent-cli-herdr-orchestration",
+      "summaryJa": [
+        "株式会社ジェイテックジャパン CTOの高丘 @tomohisaです。",
+        "AIエージェントを4体、止まりを見つけて再開させながら回して開発を進める、ということを日常的にやっています。",
+        "設計・オーケストレーション・実装・レビューの4スレッドが、GitHub の Issue と PR を通じて協調する仕組みです。"
+      ],
+      "cachedAt": "2026-08-04T02:50:32.719Z"
+    },
+    "f24dd03a59f6594d": {
+      "url": "https://qiita.com/jqit_suwa/items/2dee3e3d53080c3676a0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "36.",
+        "2%。",
+        "これ、何の数字だと思いますか。"
+      ],
+      "cachedAt": "2026-08-04T02:50:32.719Z"
+    },
+    "87da4fd2d88c7015": {
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "summaryJa": [
+        "LLMs reward expertise",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-04T02:50:32.719Z"
+    },
+    "7745990cfc57d41e": {
+      "url": "https://qiita.com/jqit_suwa/items/2adb0c35fffb41514791?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "プロンプトには、こう書いてありました。",
+        "この環境はシミュレーションです。",
+        "インターネットへのアクセスはありません。"
+      ],
+      "cachedAt": "2026-08-04T02:50:32.719Z"
+    },
+    "d318d4f519e07be7": {
+      "url": "https://www.crowdsupply.com/baochip/dabao",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-04T02:50:32.719Z"
+    },
+    "8c0563f07539e1d5": {
+      "url": "https://www.youtube.com/watch?v=V_qzqY1bb7I",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-04T02:50:32.719Z"
+    },
+    "d391748e5c28bf53": {
+      "url": "https://john.fun/elevators",
+      "summaryJa": [
+        "Show HN: Elevators",
+        "出典: Show HN",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-04T02:50:32.719Z"
     }
   }
 }
