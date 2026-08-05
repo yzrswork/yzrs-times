@@ -4338,6 +4338,105 @@
         "Check!"
       ],
       "cachedAt": "2026-08-05T02:50:44.042Z"
+    },
+    "b3dd0a05db13ace9": {
+      "url": "https://note.com/fladdict/n/nd10afb769a62",
+      "summaryJa": [
+        "オープン社内報です。",
+        "このままAI駆動開発が進むと、ソフトウェア開発は工芸から農業へ近づいていくんじゃないかなと思っています。",
+        "従来の開発は、人間が一行づつこころを込めてコードを書いてました。"
+      ],
+      "cachedAt": "2026-08-05T20:20:17.147Z"
+    },
+    "9527c3055c057d6c": {
+      "url": "https://blog.fogus.me/llm/born-against.html",
+      "summaryJa": [
+        "Born Against, or why hobby programming communities",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-05T20:20:17.147Z"
+    },
+    "56367d99e98733f1": {
+      "url": "https://www.47news.jp/14745830.html",
+      "summaryJa": [
+        "【ロンドン共同】英政府機関AIセキュリティー研究所は4日、米アンソロピックなどの人工知能（AI）が試験中に別人になりすましたり、偽のメッセージを送ったりして、サ",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-05T20:20:17.147Z"
+    },
+    "cadfc144b27c6599": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015197191000",
+      "summaryJa": [
+        "食料品の消費税減税について、政府は、5日の臨時閣議で、来年4月から2年間、税率を1％に引き下げるなどとした基本方針を決定しました。",
+        "決定された基本方針では、中低所得の人などの税や社会保険料の負担軽減を図…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-05T20:20:17.147Z"
+    },
+    "1f44a79866c667d0": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015197471000",
+      "summaryJa": [
+        "広島に原爆が投下されて6日で81年です。",
+        "世界で核による脅しや核抑止力を強化しようとする動きがみられる中、被爆地・広島は、犠牲者を追悼するとともに、核兵器の廃絶を改めて国内外に訴えます。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-05T20:20:17.147Z"
+    },
+    "f6e75644d6f627e0": {
+      "url": "https://news.yahoo.co.jp/pickup/6590670?source=rss",
+      "summaryJa": [
+        "スペースXロケット残骸 月衝突か",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-05T20:20:17.147Z"
+    },
+    "050c74b3cdc0d942": {
+      "url": "https://zed.dev/deltadb",
+      "summaryJa": [
+        "Zed DeltaDB",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-05T20:20:17.147Z"
+    },
+    "12dd29c0cb472c86": {
+      "url": "https://speakerdeck.com/masuda220/jin-kosowen-kitaisohutoueashe-ji-domeinqu-dong-she-ji-zai-ru-men",
+      "summaryJa": [
+        "①ソフトウェア開発の基本課題 ②AI技術をソフトウェア開発に活用するアプローチ ③これからのソフトウェア開発にどう取り組むか ④ドメイン駆動設計 再入門",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-05T20:20:17.147Z"
+    },
+    "2048ae2af934206c": {
+      "url": "https://speakerdeck.com/mikimhk/how-a-skill-born-from-a-chance-encounter-became-the-most-used-tool-in-the-company",
+      "summaryJa": [
+        "『Claude Code Skills利用Skill Top5 誕生と運用の苦労も大公開！",
+        "』登壇資料 https://findy-aiplus.",
+        "connpass."
+      ],
+      "cachedAt": "2026-08-05T20:20:17.147Z"
+    },
+    "eb39e1b5923c62a7": {
+      "url": "https://blog.cloudflare.com/cloudflare-os/",
+      "summaryJa": [
+        "Cloudflare OS: an open platform for agents, apps, ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-05T20:20:17.147Z"
+    },
+    "5f37a127620be06c": {
+      "url": "https://github.com/YunoHost/yunohost",
+      "summaryJa": [
+        "YunoHost is an operating system aiming to simplify as much as possible the admin",
+        "This repository corresponds to the core code, written mostly in Python and Bash.",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-05T20:20:17.147Z"
     }
   }
 }

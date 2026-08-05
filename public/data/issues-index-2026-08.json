@@ -71,6 +71,13 @@
       "edition": "midday",
       "theme": "制御と音声を自ら組み上げる",
       "path": "issues/2026-08-05-midday.json"
+    },
+    {
+      "issueNo": 53,
+      "date": "2026-08-06",
+      "edition": "morning",
+      "theme": "工芸の領域と自動化の境界",
+      "path": "issues/2026-08-06-morning.json"
     }
   ]
 }
