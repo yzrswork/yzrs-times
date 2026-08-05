@@ -4239,6 +4239,105 @@
         "dev, Copilot CLI, Factory Droid Coding."
       ],
       "cachedAt": "2026-08-04T20:20:20.830Z"
+    },
+    "b6d093ebdafa8ddf": {
+      "url": "https://zenn.dev/kimushun1101/books/ros2-handson",
+      "summaryJa": [
+        "ROS 2 Jazzy で TurtleBot3 をシミュレーション (Gazebo) 上で動かしながら、ノード / トピックの基礎、launch ファイル、自",
+        "回答例付きのハンズオン演習を11本収録。",
+        "Windows (WSL) / Ubuntu のどちらでも進められます。"
+      ],
+      "cachedAt": "2026-08-05T02:50:44.041Z"
+    },
+    "b709f7d0b2acde87": {
+      "url": "https://qiita.com/taguchi_sapeet/items/f2da1003b168b52f5770?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "まず、これを聴いてください 音声①：自作したTTSで「こんにちは」 聞き覚えのある感じ、しませんか。",
+        "∧＿∧ （ ´∀｀） ＜ こんにちは （ ） ｜ ｜ ｜ （_＿）＿） そう、モナーです。",
+        "一応、本人（？"
+      ],
+      "cachedAt": "2026-08-05T02:50:44.041Z"
+    },
+    "06e686e8bdd04b97": {
+      "url": "https://tech.findy.co.jp/entry/2026/08/05/070000",
+      "summaryJa": [
+        "こんにちは。",
+        "ファインディ株式会社でプリンシパルエンジニアをしている戸田です。",
+        "先日、GitHubのスタックプルリクエスト（Stacked Pull Requests）がpublic previewになりました。"
+      ],
+      "cachedAt": "2026-08-05T02:50:44.041Z"
+    },
+    "b1fb4ee9db031afb": {
+      "url": "https://zenn.dev/benjuwan/articles/c2ba48e7662f92",
+      "summaryJa": [
+        "はじめに スキル（SKILL.",
+        "md）で定型業務をAIに移譲したり、特定業務の自動化・半自動化を実現したりといった状況は珍しくなくなってきたと思います。",
+        "例えば、ブラウザ操作のトレースはplaywright-mcpまたはplaywright-cliで行い、そのトレース結果からAIに業務効率化のスキル作成までをして"
+      ],
+      "cachedAt": "2026-08-05T02:50:44.041Z"
+    },
+    "e762e41d1a2ba1ad": {
+      "url": "https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/",
+      "summaryJa": [
+        "libexpat now funded by the City of Munich for up t",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-05T02:50:44.041Z"
+    },
+    "963ec29507870862": {
+      "url": "https://zenn.dev/estie/articles/882e14dcad0d46",
+      "summaryJa": [
+        "こんにちは。",
+        "株式会社estie（エスティ）で Rust や Python でデータパイプラインや Web サーバーサイドの開発に取り組んでいる Masaki Miyazak",
+        "前職も含め、これまで様々なアプリケーション Rust プロジェクトを見てきた中で、Rust のテストエコシステムへの理解不足に起因する時間的・金銭的損失を数多く"
+      ],
+      "cachedAt": "2026-08-05T02:50:44.041Z"
+    },
+    "a058130e12493d20": {
+      "url": "https://qiita.com/shou-dev19/items/e1583af614a573e4b245?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "この記事は誰のために書いたのか この記事は、IT業界で働いていて、プログラミングは普通にできる。",
+        "でもAIエージェントを使った開発の経験はほぼゼロ、という人に向けて書いています。",
+        "最近、恐れ多くも同僚や知人にAI駆動開発についてお話しする機会が増えました。"
+      ],
+      "cachedAt": "2026-08-05T02:50:44.042Z"
+    },
+    "f563c8fd612a1718": {
+      "url": "https://github.com/larrasket/emacs-liquid-glass",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-05T02:50:44.042Z"
+    },
+    "20dba9d051ee28f7": {
+      "url": "https://codeberg.org/dlowe/irken",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-05T02:50:44.042Z"
+    },
+    "bbc1216f917aea31": {
+      "url": "https://bal-e.org/speed/krabby/2026/query-system-design/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-05T02:50:44.042Z"
+    },
+    "5453af9f797ee01c": {
+      "url": "https://github.com/aceinnolab/Inkycal",
+      "summaryJa": [
+        "Create awesome e-paper dashboards within minutes!",
+        "Modularity?",
+        "Check!"
+      ],
+      "cachedAt": "2026-08-05T02:50:44.042Z"
     }
   }
 }

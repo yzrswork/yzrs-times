@@ -64,6 +64,13 @@
       "edition": "morning",
       "theme": "計算が紡ぐ色彩と歴史の年譜",
       "path": "issues/2026-08-05-morning.json"
+    },
+    {
+      "issueNo": 52,
+      "date": "2026-08-05",
+      "edition": "midday",
+      "theme": "制御と音声を自ら組み上げる",
+      "path": "issues/2026-08-05-midday.json"
     }
   ]
 }
