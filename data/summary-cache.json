@@ -4536,6 +4536,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-06T02:50:31.720Z"
+    },
+    "1700cf97ad63cf71": {
+      "url": "https://provenmetal.com",
+      "summaryJa": [
+        "Hey HN, we’re Will &amp; Johnny from ProvenMetal (<a href=\"https:&#x2F;&#x2F;pro",
+        "com\">https:&#x2F;&#x2F;provenmetal.",
+        "com</a>)."
+      ],
+      "cachedAt": "2026-08-06T20:21:07.112Z"
+    },
+    "cf3b3b892d0a2c30": {
+      "url": "https://www.itmedia.co.jp/news/article/2608/06/2000000421/",
+      "summaryJa": [
+        "米Googleは、Web版のGmailで他社メールアドレスを差出人に設定できる機能を2027年1月に終了すると発表した。",
+        "Web版・モバイル版ともに対象。",
+        "「維持に過剰なリソースを必要とする機能」だったため。"
+      ],
+      "cachedAt": "2026-08-06T20:21:07.112Z"
+    },
+    "881ebf867927e45e": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015197581000",
+      "summaryJa": [
+        "大型で強い台風13号は、沖縄県の大東島地方と鹿児島県の奄美地方の一部を暴風域に巻き込みながら西寄りに進んでいます。",
+        "台風が接近する沖縄・奄美では一部の住宅が倒壊するような猛烈な風が吹くおそれがあるほか、…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-06T20:21:07.112Z"
+    },
+    "8790c0e54eb3d18f": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015198631000",
+      "summaryJa": [
+        "先月28日の地震で、日本製紙の熊本県八代市にある工場の煙突が倒壊するなどして9人が死亡したことを受けて、経済産業省は自家用の火力発電設備の煙突を設置している全国",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-06T20:21:07.112Z"
+    },
+    "487c62d3d50943f1": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015197811000",
+      "summaryJa": [
+        "広島に原爆が投下されて6日で81年です。",
+        "世界で核による脅しや、核抑止力を強化しようとする動きがみられる中、被爆地・広島では、犠牲者を追悼するとともに、核兵器の廃絶を改めて国内外に訴える1日が続いていま",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-06T20:21:07.112Z"
+    },
+    "a1b050352255a45e": {
+      "url": "https://news.yahoo.co.jp/pickup/6590795?source=rss",
+      "summaryJa": [
+        "太陽表面 過去最高の解像度で観測",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-06T20:21:07.112Z"
+    },
+    "042832b16289352c": {
+      "url": "https://zenn.dev/ait/articles/google-design-md-measured",
+      "summaryJa": [
+        "デザイナー向けに、値の話を抜いた解説も置いています → Wiki 効くところと効かないところ 効く 色や書体の指示がブレなくなる。",
+        "セッションが変わっても、担当者が変わっても同じ値が出る WCAG のコントラスト比を機械でチェックできる Tailwind の設定や CSS 変数として書き出せ",
+        "."
+      ],
+      "cachedAt": "2026-08-06T20:21:07.112Z"
+    },
+    "bd6a03c1adce9571": {
+      "url": "https://japan.cnet.com/article/35251353/",
+      "summaryJa": [
+        "中国企業Zbtlink製のルーターがバックドアを組み込んだ状態で出荷されていることが、サイバーセキュリティ企業VulnCheckの新たな報告で明らかになった。",
+        "VulnCheckはZbtlink製の20機種を調査し、各機種のファームウェアで、中国にあるクラウドサーバーと自動的に通信する不正プログラムを発見した。",
+        "VulnCheckの最高技術."
+      ],
+      "cachedAt": "2026-08-06T20:21:07.112Z"
+    },
+    "a79453c6a096872e": {
+      "url": "https://github.com/MacRimi/ProxMenux",
+      "summaryJa": [
+        "Menu-driven Proxmox VE toolkit — post-install, backup/restore and a live web das",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-06T20:21:07.112Z"
     }
   }
 }

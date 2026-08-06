@@ -85,6 +85,13 @@
       "edition": "midday",
       "theme": "現場の足場を固める設計思想",
       "path": "issues/2026-08-06-midday.json"
+    },
+    {
+      "issueNo": 55,
+      "date": "2026-08-07",
+      "edition": "morning",
+      "theme": "インフラの節目と手元の再設計",
+      "path": "issues/2026-08-07-morning.json"
     }
   ]
 }
