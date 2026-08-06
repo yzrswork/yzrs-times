@@ -78,6 +78,13 @@
       "edition": "morning",
       "theme": "工芸の領域と自動化の境界",
       "path": "issues/2026-08-06-morning.json"
+    },
+    {
+      "issueNo": 54,
+      "date": "2026-08-06",
+      "edition": "midday",
+      "theme": "現場の足場を固める設計思想",
+      "path": "issues/2026-08-06-midday.json"
     }
   ]
 }
