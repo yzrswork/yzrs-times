@@ -4725,6 +4725,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-07T02:50:36.516Z"
+    },
+    "5c970cc4af2cfed0": {
+      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "summaryJa": [
+        "Oracle bans AI-generated code from OpenJDK",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-07T20:17:46.820Z"
+    },
+    "6613850b14c2411c": {
+      "url": "https://forest.watch.impress.co.jp/docs/news/2131497.html",
+      "summaryJa": [
+        "老舗のマウスユーティリティ「チューチューマウス」がAIの力を借りて15年ぶりに復活／64bit化、W",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-07T20:17:46.820Z"
+    },
+    "9a630ca45e2cd495": {
+      "url": "https://ancientlibrary.net/",
+      "summaryJa": [
+        "Ancient Library – 1,060 Greek/Latin texts, click a",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-07T20:17:46.820Z"
+    },
+    "bfaf26f7d86cf49e": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015199841000",
+      "summaryJa": [
+        "大型で非常に強い台風13号は、依然として沖縄本島地方や・奄美地方を暴風域に巻き込みながら西寄りに進んでいます。",
+        "暴風などに厳重な警戒を続けてください。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-07T20:17:46.820Z"
+    },
+    "38e77f6fcfb9c9a4": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015199481000",
+      "summaryJa": [
+        "熱波の影響が続くヨーロッパでは、ドナウ川の水位が記録的な低さとなり、川底からマンモスのものとみられる骨や沈没した船が姿を現しました。",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-07T20:17:46.820Z"
+    },
+    "dee14e02769725c9": {
+      "url": "https://news.web.nhk/newsweb/na/na-k10015199381000",
+      "summaryJa": [
+        "茨城県の税務署の職員が税務調査で知り合った高齢の女性からおよそ1億5000万円を受け取って競艇につぎ込んだうえ、脱税していたとして、関東信越国税局は懲戒免職の処",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-07T20:17:46.820Z"
+    },
+    "12a203aee41753a2": {
+      "url": "https://tech.timee.co.jp/entry/2026/08/07/164910",
+      "summaryJa": [
+        "はじめに こんにちは、タイミーのプラットフォームエンジニアリングチームに所属している徳富(@yannKazu1)です。",
+        "この記事では、スキマバイトサービス「タイミー」のバックエンド（Rails API）に Datadog Test Impact Analysis（TIA） を導入",
+        "."
+      ],
+      "cachedAt": "2026-08-07T20:17:46.820Z"
+    },
+    "1d8ea36d46d8b342": {
+      "url": "https://github.com/RavenSystem/esp-homekit-devices",
+      "summaryJa": [
+        "Advanced firmware to add native Apple HomeKit and custom configurations, compati",
+        "(Shelly, Sonoff, Electrodragon, Tuya.",
+        "."
+      ],
+      "cachedAt": "2026-08-07T20:17:46.820Z"
     }
   }
 }

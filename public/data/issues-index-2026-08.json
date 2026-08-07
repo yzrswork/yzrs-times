@@ -99,6 +99,13 @@
       "edition": "midday",
       "theme": "試行の美意識と小さな実装",
       "path": "issues/2026-08-07-midday.json"
+    },
+    {
+      "issueNo": 57,
+      "date": "2026-08-08",
+      "edition": "morning",
+      "theme": "規律の境界と時を越える道具",
+      "path": "issues/2026-08-08-morning.json"
     }
   ]
 }
