@@ -4617,6 +4617,114 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-06T20:21:07.112Z"
+    },
+    "ce7c808760e117c4": {
+      "url": "https://notashelf.dev/posts/taste-is-all-thats-left",
+      "summaryJa": [
+        "Taste Is All That's Left",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-07T02:50:36.516Z"
+    },
+    "0c4b52da53d2566d": {
+      "url": "https://github.com/gmpalter/cl-forth",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-07T02:50:36.516Z"
+    },
+    "c48585f0de9fe7b6": {
+      "url": "https://zenn.dev/aiforall/articles/cb36b724e20a43",
+      "summaryJa": [
+        "はじめに プロンプトの細かな差異（空白の有無、指示の構造など）は、LLM の回答の質を大きく左右します。",
+        "「なんとなく書いたら動いた／動かなかった」を卒業するには、勘ではなくテスト駆動で Skill を育てていく発想が有効です。",
+        "この記事では、mizchi 氏が提唱する「empirical-prompt-tuning」の手法を GitHub Copilot 環境で試し、意図的に品質を落と"
+      ],
+      "cachedAt": "2026-08-07T02:50:36.516Z"
+    },
+    "680afa7c39461709": {
+      "url": "https://zenn.dev/finatext/articles/2ea88e4b1c2e5b",
+      "summaryJa": [
+        "Open Knowledge Format（OKF）— LLM Wikiパターンの標準化 ナウキャストで長期LLMインターンをしている北川です。",
+        "LLM系のタスクのキャッチアップをする中で、最近「OKF」という技術を耳にする機会が増えました。",
+        "OKFはまだ登場したばかりの仕様で、その概念を理解するにはRAGやLLM wikiといった周辺技術への理解が欠かせ."
+      ],
+      "cachedAt": "2026-08-07T02:50:36.516Z"
+    },
+    "29a29d5c58eb9503": {
+      "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
+      "summaryJa": [
+        "Mario Meets Pareto",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-07T02:50:36.516Z"
+    },
+    "74b19e69547787b9": {
+      "url": "https://www.itmedia.co.jp/aiplus/article/2608/06/2000000418/",
+      "summaryJa": [
+        "リクルートは8月5日、2026年度の新卒エンジニア向けの研修資料を公開した。",
+        "エンジニアとして生き残るためのAIの活用法や、AIによるソフトウェア開発の考え方の変化など、業務やキャリア形成に必要な知見を幅広く紹介している。",
+        "26年度の研修で利用した13の資料を公開した。"
+      ],
+      "cachedAt": "2026-08-07T02:50:36.516Z"
+    },
+    "6ac58a7ce3a938b5": {
+      "url": "https://zenn.dev/rakko_inc/articles/claude-code-security-guidance-intro",
+      "summaryJa": [
+        "AI にコードを書かせるようになって、実装のスピードが上がりました。",
+        "一方で次なる課題も山のようにありますよね。",
+        "今日はその中から「セキュリティ対策」をテーマに選びました。"
+      ],
+      "cachedAt": "2026-08-07T02:50:36.516Z"
+    },
+    "d0995676d7dd7660": {
+      "url": "https://qiita.com/jqit_suwa/items/aefb1adac27a34646cf3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "AI にバグの原因を聞くと、けっこう当ててきます。",
+        "でも、たまにとんでもなく的外れなことを言う。",
+        "しかも自信満々で。"
+      ],
+      "cachedAt": "2026-08-07T02:50:36.516Z"
+    },
+    "c0a615d8f7340a05": {
+      "url": "https://qiita.com/maskot1977/items/198f98dbbdce80c1790e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "user: 「システム設計視点の行動経済学」も 10回目まで連載しました。",
+        "ここで、これまでの内容の振り返りをしたいと思います。",
+        "Claude Codeさん、まとめを作ってください。"
+      ],
+      "cachedAt": "2026-08-07T02:50:36.516Z"
+    },
+    "0b5b2fb89ba76e4b": {
+      "url": "https://celld.dev/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-07T02:50:36.516Z"
+    },
+    "dc1864f923db9890": {
+      "url": "https://trevmex.com/post/824245295374303232/my-son-found-a-world-atlas-in-a-thrift-store-so-i",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-07T02:50:36.516Z"
+    },
+    "3d312c359e3fba3c": {
+      "url": "https://github.com/Devin-AXIS/iPolloWork",
+      "summaryJa": [
+        "A source-available, local-first alternative to Codex and Claude Code: an AI work",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-07T02:50:36.516Z"
     }
   }
 }

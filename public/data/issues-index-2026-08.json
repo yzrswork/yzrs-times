@@ -92,6 +92,13 @@
       "edition": "morning",
       "theme": "インフラの節目と手元の再設計",
       "path": "issues/2026-08-07-morning.json"
+    },
+    {
+      "issueNo": 56,
+      "date": "2026-08-07",
+      "edition": "midday",
+      "theme": "試行の美意識と小さな実装",
+      "path": "issues/2026-08-07-midday.json"
     }
   ]
 }
