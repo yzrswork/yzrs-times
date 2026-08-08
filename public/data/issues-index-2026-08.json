@@ -113,6 +113,13 @@
       "edition": "midday",
       "theme": "波形とコードが刻む拍動",
       "path": "issues/2026-08-08-midday.json"
+    },
+    {
+      "issueNo": 59,
+      "date": "2026-08-09",
+      "edition": "morning",
+      "theme": "コードの本質と標準の更新",
+      "path": "issues/2026-08-09-morning.json"
     }
   ]
 }

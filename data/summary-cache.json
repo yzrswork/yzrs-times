@@ -4896,6 +4896,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-08T02:47:40.436Z"
+    },
+    "fabda0a665d08b24": {
+      "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+      "summaryJa": [
+        "\"Code was never the hard part\" is an insult to all",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-08T20:20:58.270Z"
+    },
+    "e69d0d9cf1dd9650": {
+      "url": "https://qiita.com/tatsuya582/items/a800739c02eadff68c70",
+      "summaryJa": [
+        "Web API設計の現在地 2026、いま従うべき標準とデファクトの一覧 Web API設計を調べると、検索上位に出てくる記事が2015〜2019年あたりで止ま",
+        "その間にエラーレスポンスの標準ができ、OAuthのグラントタイプは選択基準が変わり、APIの廃止告知にまでRFCが生えました。",
+        "この記事では、Web API設計."
+      ],
+      "cachedAt": "2026-08-08T20:20:58.271Z"
+    },
+    "fe00ccb38e936981": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20260809de42887",
+      "summaryJa": [
+        "長崎に原爆が投下されて、9日で81年です。",
+        "「被爆者なき時代」が刻々と近づき、核兵器をめぐる国際情勢が厳しさを増す中、被爆地・長崎は、原爆のすべての犠牲者に祈りをささげ、「長崎を最後の被爆地に」とい…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-08T20:20:58.271Z"
+    },
+    "7823ebc6a8cdbaa8": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20260808de42871",
+      "summaryJa": [
+        "大型で非常に強い台風13号は次第に沖縄から離れていますが、波は高く、風も強い見込みで、気象庁は高波に厳重に警戒し、強風に十分注意するよう呼びかけています。",
+        "一方、大型の台風15号は火曜日ごろ、北日本や東…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-08T20:20:58.271Z"
+    },
+    "dfd7da73325eb396": {
+      "url": "https://news.yahoo.co.jp/pickup/6591027?source=rss",
+      "summaryJa": [
+        "戦時中 複数大学で輸血の人体実験",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-08T20:20:58.271Z"
+    },
+    "5beaadc8a79a4f9b": {
+      "url": "https://qiita.com/hrfm1623/items/91115760e4bd66f7995a",
+      "summaryJa": [
+        "この記事の使い方 先に問題を出します。",
+        "鍵をまだ交換していないのに、どうやって暗号化を始めているのですか 公開鍵認証で、サーバに送っているものは何ですか ssh を3回叩いたら、TCP 接続は3本にな",
+        "."
+      ],
+      "cachedAt": "2026-08-08T20:20:58.271Z"
+    },
+    "3f185c2ddb45c89e": {
+      "url": "https://blog.takaumada.com/entry/ai-organization-flow",
+      "summaryJa": [
+        "「ブライスのパラドックス」と呼ばれる現象があります。",
+        "混雑するネットワークに新しい道を加えたのに、各人が自分にとって最短の経路を選んだ結果、全員の移動時間が逆に長くなることがある、という交通工学のパラドックスです。",
+        "逆に「道をなくす」ことで、移動時間が短縮されることもあります。"
+      ],
+      "cachedAt": "2026-08-08T20:20:58.271Z"
+    },
+    "ba683429278f1da8": {
+      "url": "https://github.com/earlephilhower/arduino-pico",
+      "summaryJa": [
+        "Raspberry Pi Pico Arduino core, for all RP2040 and RP2350 boards",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-08T20:20:58.271Z"
     }
   }
 }

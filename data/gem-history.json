@@ -310,6 +310,11 @@
       "id": "github-gems-af27f1c6",
       "url": "https://github.com/earlephilhower/ESP8266Audio",
       "date": "2026-08-08"
+    },
+    {
+      "id": "github-gems-fbb33e73",
+      "url": "https://github.com/earlephilhower/arduino-pico",
+      "date": "2026-08-09"
     }
   ]
 }
