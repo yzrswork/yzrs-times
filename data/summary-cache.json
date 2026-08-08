@@ -4797,6 +4797,105 @@
         "."
       ],
       "cachedAt": "2026-08-07T20:17:46.820Z"
+    },
+    "b48d312d168846e2": {
+      "url": "https://www.asahi.com/articles/ASV8723PZV87UCVL05TM.html",
+      "summaryJa": [
+        "1980年に発売されて販売不振などで2年間で生産が終わったのに、今も世界のミュージシャンを魅了している日本製の電子楽器がある。",
+        "ローランドが生産した、ドラムや手拍子、カウベルなど16種類の音が鳴らせる…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-08T02:47:40.436Z"
+    },
+    "a409ccc755cc1b74": {
+      "url": "https://zenn.dev/kesin11/articles/20260806_stacked_pr",
+      "summaryJa": [
+        "https://github.",
+        "blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/ Stack",
+        "changelogの記事の雰囲気を見た感じ、１つの機能を実装するときに１つの大きなPRを作るのではなく、複数の小さなPRに分解して実装していくという以前から良い"
+      ],
+      "cachedAt": "2026-08-08T02:47:40.436Z"
+    },
+    "b60a3073f2e74e02": {
+      "url": "https://zenn.dev/pipipipipi/articles/661b28da670728",
+      "summaryJa": [
+        "業務で社内MCPを作成する機会がありました。",
+        "Cloudflare AccessのManaged OAuthを使うことで簡単に実装できたので備忘録もかねてZennに投稿することにしまいた。",
+        "要件 社内メンバーのみが利用できること MCPから行えるのは読み取り操作だけであること 簡単がいい！"
+      ],
+      "cachedAt": "2026-08-08T02:47:40.436Z"
+    },
+    "1d5cf36718f6e92c": {
+      "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
+      "summaryJa": [
+        "Assembly Hall of Shame",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-08T02:47:40.436Z"
+    },
+    "f23daaf278f0e688": {
+      "url": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
+      "summaryJa": [
+        "The Nixpkgs core team has disbanded",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-08T02:47:40.436Z"
+    },
+    "c86476dbea846a79": {
+      "url": "https://qiita.com/tamashiro_nobuyuki/items/573178ed3b8a6a22ebb1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "Claude Codeの覚えておきたいスラッシュコマンドまとめ Claude Codeを使っていて「コマンド何だっけ?",
+        "」となることが多かったので、よく使うスラッシュコマンドを用途別に整理しました。",
+        "早見表 コマンド 何をするか /compact 会話を要約."
+      ],
+      "cachedAt": "2026-08-08T02:47:40.436Z"
+    },
+    "a182a5f77b1f2cf9": {
+      "url": "https://qiita.com/can-can/items/ec8cd4dd183e12ac5781?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "「AI で業務効率化」が当たり前になった一方で、こんな経験はないでしょうか。",
+        "思ったような出力をしてくれない… 出力に、いらないデータが混ざっている… 事実と異なる結果を、それっぽく返してくる… さらに、チームで使い始めると別の不安も出て",
+        "このエージェント、社."
+      ],
+      "cachedAt": "2026-08-08T02:47:40.436Z"
+    },
+    "3d4c3fa198fde7a3": {
+      "url": "https://zenn.dev/levtech/articles/how-to-concrete-optimistic-lock",
+      "summaryJa": [
+        "これはなに こんにちは、レバテック開発部のもりたです。",
+        "今回はアプリケーションを作る上でわりと出会う楽観ロックの実装方法についてまとめます。",
+        "コードの例はPHP/Laravelですが、基本的には言語やフレームワークに制限はありません。"
+      ],
+      "cachedAt": "2026-08-08T02:47:40.436Z"
+    },
+    "2d755d8cb467f7c1": {
+      "url": "https://www.youtube.com/watch?v=-aI_XEwmKFk",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-08T02:47:40.436Z"
+    },
+    "9b96d3e9ce02d4d5": {
+      "url": "https://planetscale.com/blog/concurrency-vs-throughput-vitess-mysql",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-08T02:47:40.436Z"
+    },
+    "e30f4354d3265595": {
+      "url": "https://github.com/earlephilhower/ESP8266Audio",
+      "summaryJa": [
+        "Arduino library to play MOD, WAV, FLAC, MIDI, RTTTL, OGG/Opus, MP3, and AAC file",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-08T02:47:40.436Z"
     }
   }
 }

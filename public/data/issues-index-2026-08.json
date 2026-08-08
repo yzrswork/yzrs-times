@@ -106,6 +106,13 @@
       "edition": "morning",
       "theme": "規律の境界と時を越える道具",
       "path": "issues/2026-08-08-morning.json"
+    },
+    {
+      "issueNo": 58,
+      "date": "2026-08-08",
+      "edition": "midday",
+      "theme": "波形とコードが刻む拍動",
+      "path": "issues/2026-08-08-midday.json"
     }
   ]
 }

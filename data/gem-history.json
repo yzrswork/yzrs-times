@@ -305,6 +305,11 @@
       "id": "github-gems-411a292b",
       "url": "https://github.com/RavenSystem/esp-homekit-devices",
       "date": "2026-08-08"
+    },
+    {
+      "id": "github-gems-af27f1c6",
+      "url": "https://github.com/earlephilhower/ESP8266Audio",
+      "date": "2026-08-08"
     }
   ]
 }
