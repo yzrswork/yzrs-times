@@ -120,6 +120,13 @@
       "edition": "morning",
       "theme": "コードの本質と標準の更新",
       "path": "issues/2026-08-09-morning.json"
+    },
+    {
+      "issueNo": 60,
+      "date": "2026-08-09",
+      "edition": "midday",
+      "theme": "休眠ハードウェアの再点火",
+      "path": "issues/2026-08-09-midday.json"
     }
   ]
 }

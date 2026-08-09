@@ -4968,6 +4968,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-08T20:20:58.271Z"
+    },
+    "664518f288036bbe": {
+      "url": "https://seg6.space/posts/phone-server/",
+      "summaryJa": [
+        "My server is a phone now",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-09T02:49:05.655Z"
+    },
+    "cf845bdb91e9e54e": {
+      "url": "https://zenn.dev/tetsu_don/articles/e40b95dfc726ac",
+      "summaryJa": [
+        "Claude Code で「ループエンジニアリング」を実践し、Maker-Checker構成で本物のバグを検出できた話 はじめに てつどんです。",
+        "データエンジニアとして 日々業務をこなしております。",
+        "最近、バズワードのように、いろんなところで「ループエンジニアリング」というのを聞くことが多くなりました。"
+      ],
+      "cachedAt": "2026-08-09T02:49:05.655Z"
+    },
+    "78b23e98a8f17c95": {
+      "url": "https://os8088.com/",
+      "summaryJa": [
+        "Os8088: A powerful Mac-like OS for the IBM XT, 286",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-09T02:49:05.655Z"
+    },
+    "f63632aafb13d6a1": {
+      "url": "https://qiita.com/Syoitu/items/068db63a8bf3bb961b2b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "前書き 2026年8月5日、Amazon DynamoDBがリアルタイムベクトル検索に対応しました。",
+        "これまでAWSでベクトル検索をやりたい場合、AWS Marketplace利用しない場合、選択肢はだいたい次の5つでした。",
+        "Amazon OpenSearch S."
+      ],
+      "cachedAt": "2026-08-09T02:49:05.655Z"
+    },
+    "cf712d270092f177": {
+      "url": "https://qiita.com/tanahiro2010/items/e536eabc73691f87dc0e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "LTをしたことがある人に聞いてみたいことがある。",
+        "登壇の直前、演台に立つ寸前のあの数十秒間、自分の身体に何が起きていたかを覚えているだろうか。",
+        "僕にはある。"
+      ],
+      "cachedAt": "2026-08-09T02:49:05.655Z"
+    },
+    "a1e1ea334758d8e4": {
+      "url": "https://www.sheeeeeeeep.art/multistack-catlangs.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-09T02:49:05.655Z"
+    },
+    "4f7d751bc2dca239": {
+      "url": "https://atomstr.data.haus/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-09T02:49:05.655Z"
+    },
+    "3dbd526666946088": {
+      "url": "https://ethulhu.co.uk/systemd-dynamicuser",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-09T02:49:05.655Z"
+    },
+    "6307f92dfaad3b70": {
+      "url": "https://github.com/Zer0-bit/gaggiuino",
+      "summaryJa": [
+        "A Gaggia Classic control project using microcontrollers.",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-09T02:49:05.655Z"
     }
   }
 }
