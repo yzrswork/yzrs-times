@@ -127,6 +127,13 @@
       "edition": "midday",
       "theme": "休眠ハードウェアの再点火",
       "path": "issues/2026-08-09-midday.json"
+    },
+    {
+      "issueNo": 61,
+      "date": "2026-08-10",
+      "edition": "morning",
+      "theme": "重力とコードが描く軌道",
+      "path": "issues/2026-08-10-morning.json"
     }
   ]
 }
