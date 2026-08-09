@@ -471,6 +471,53 @@
     font: 11px/1.8 var(--mono);
     letter-spacing: 0.08em;
   }
+  .guide-feature { background: var(--paper-light); }
+  .guide-grid {
+    margin-top: 23px;
+    display: grid;
+    grid-template-columns: minmax(260px, 0.9fr) minmax(0, 1.1fr);
+    border: 1px solid var(--line);
+  }
+  .guide-figure {
+    margin: 0;
+    min-height: 100%;
+    background: #fff;
+    border-right: 1px solid var(--line);
+  }
+  .guide-figure img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 330px;
+    object-fit: cover;
+  }
+  .guide-copy { padding: clamp(26px, 5vw, 52px); }
+  .guide-code {
+    margin: 0;
+    color: var(--accent);
+    font: 11px/1.6 var(--mono);
+    letter-spacing: 0.14em;
+  }
+  .guide-copy h2 {
+    margin: 13px 0 16px;
+    color: var(--ink);
+    font-size: clamp(25px, 3.3vw, 38px);
+    line-height: 1.45;
+  }
+  .guide-copy > p:not(.guide-code) {
+    margin: 0;
+    color: var(--ink-soft);
+  }
+  .guide-facts {
+    margin: 22px 0 0;
+    padding: 12px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px 17px;
+    border-block: 1px solid var(--line-soft);
+    color: var(--muted);
+    font: 11px/1.7 var(--mono);
+  }
   .reason-grid {
     margin-top: 25px;
     display: grid;
@@ -707,6 +754,10 @@
       grid-template-columns: 1fr;
       gap: 22px;
     }
+    .guide-grid { grid-template-columns: 1fr; }
+    .guide-figure { border-right: 0; border-bottom: 1px solid var(--line); }
+    .guide-figure img { min-height: 0; }
+    .guide-copy { padding: 25px 20px 29px; }
     .bench-grid { grid-template-columns: 1fr; }
     .bench {
       min-height: 0;
@@ -776,10 +827,11 @@
         <a href="#bench-electronics">電子工作</a>
         <a href="#bench-pc">自作PC</a>
         <a href="#bench-diy">DIY・模型</a>
+        <a href="#guides">Guide</a>
         <a href="#toolbox">道具箱</a>
         <a href="#reading">読み物</a>
         <a href="#operator">工房案内</a>
-        <a class="nav-cta" href="#toolbox">困りごとから探す</a>
+        <a class="nav-cta" href="#guides">Guide 01を読む</a>
       </nav>
     </div>
   </header>
@@ -789,11 +841,11 @@
       <div class="inner hero-grid">
         <div>
           <p class="eyebrow">電子工作 ／ 自作PC ／ DIY・模型 — workshop tools &amp; notes</p>
-          <h1 id="hero-title">迷ったとき、<br />作業台の横で開く道具箱。</h1>
+          <h1 id="hero-title">作る。直す。<br />測って確かめる。</h1>
           <div class="draft-ticks" aria-hidden="true"></div>
           <p class="hero-copy">電子工作、自作PC、DIY・模型。作業中の計算や部品選び、配線確認、原因探しに使うWebツールと、制作・修理で分かったことをまとめています。</p>
           <div class="actions">
-            <a class="button primary" href="#toolbox">困りごとから探す　→</a>
+            <a class="button primary" href="/guides/hajimete-no-denshi-kousaku-starter-guide/">Guide 01を読む　→</a>
             <a class="button" href="https://apps.yzrswork.com/">道具箱を開く</a>
           </div>
           <p class="utility-note">apps.yzrswork.com ／ 登録不要 ／ ブラウザだけで動きます</p>
@@ -802,6 +854,7 @@
         <aside class="workshop-index" aria-labelledby="workshop-index-title">
           <div class="index-title" id="workshop-index-title">工房の構成 — index</div>
           <ul class="index-list">
+            <li><span>Guide 01（はじめての電子工作）</span><code>実践</code></li>
             <li><span>道具箱（Webツール）</span><code>apps</code></li>
             <li><span>YZRS Times</span><code>読み物</code></li>
             <li><span>note（制作記録）</span><code>記録</code></li>
@@ -849,9 +902,27 @@
       </div>
     </section>
 
+    <section class="section guide-feature" id="guides" aria-labelledby="guide-title">
+      <div class="inner section-inner">
+        <p class="section-label"><span class="section-no">03</span><span class="section-ja">工 房 の ガ イ ド</span><span class="section-en">First-party guide</span></p>
+        <div class="guide-grid">
+          <figure class="guide-figure">
+            <img src="/guides/hajimete-no-denshi-kousaku-starter-guide/assets/tools-step1-set.jpg" alt="ハンダごてとこて台、ニッパー、ブレッドボードとジャンパー線を描いたイラスト" loading="lazy" decoding="async" />
+          </figure>
+          <div class="guide-copy">
+            <p class="guide-code">GUIDE 01 ／ ELECTRONICS — BEGINNER</p>
+            <h2 id="guide-title">はじめての電子工作<br />スターターガイド</h2>
+            <p>部品はどこで買う？ 工具は何から？ 消耗品はどこまで必要？ 3本の制作記事を、最初に揃える順番でひとつのGuideに再編集しました。</p>
+            <div class="guide-facts"><span>約13分</span><span>3ステップ</span><span>失敗例あり</span><span>画像6点</span></div>
+            <div class="actions"><a class="button primary" href="/guides/hajimete-no-denshi-kousaku-starter-guide/">Guide 01を読む　→</a><a class="button" href="https://apps.yzrswork.com/kit/">装備ナビを開く</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="section" id="toolbox" aria-labelledby="toolbox-title">
       <div class="inner section-inner">
-        <p class="section-label"><span class="section-no">03</span><span class="section-ja">困 り ご と か ら 探 す</span><span class="section-en">Problem index</span></p>
+        <p class="section-label"><span class="section-no">04</span><span class="section-ja">困 り ご と か ら 探 す</span><span class="section-en">Problem index</span></p>
         <div class="toolbox-head">
           <h2 id="toolbox-title">道具の名前ではなく、<br />いま困っていることから。</h2>
           <p>計算機、早見表、診断ナビ。作業台でそのまま使える代表的な6つの道具です。</p>
@@ -916,7 +987,7 @@
 
     <section class="section" aria-labelledby="reason-title">
       <div class="inner section-inner">
-        <p class="section-label"><span class="section-no">04</span><span class="section-ja">こ の 道 具 箱 を 作 っ て い る 理 由</span><span class="section-en">Why it exists</span></p>
+        <p class="section-label"><span class="section-no">05</span><span class="section-ja">こ の 道 具 箱 を 作 っ て い る 理 由</span><span class="section-en">Why it exists</span></p>
         <div class="reason-grid">
           <div>
             <h2 id="reason-title">毎回調べ直すなら、<br />次に使える形で残す。</h2>
@@ -937,7 +1008,7 @@
 
     <section class="section reading" id="reading" aria-labelledby="reading-title">
       <div class="inner section-inner">
-        <p class="section-label"><span class="section-no">05</span><span class="section-ja">読 み 物</span><span class="section-en">Reading</span></p>
+        <p class="section-label"><span class="section-no">06</span><span class="section-ja">読 み 物</span><span class="section-en">Reading</span></p>
         <h2 id="reading-title">作業の続きは、読み物に。</h2>
         <div class="reading-grid">
           <article class="reading-item">
@@ -956,7 +1027,7 @@
 
     <section class="section" id="operator" aria-labelledby="operator-title">
       <div class="inner section-inner">
-        <p class="section-label"><span class="section-no">06</span><span class="section-ja">こ の 工 房 に つ い て</span><span class="section-en">Operator</span></p>
+        <p class="section-label"><span class="section-no">07</span><span class="section-ja">こ の 工 房 に つ い て</span><span class="section-en">Operator</span></p>
         <div class="operator-grid">
           <p id="operator-title">や印工務店は個人で運営しています。サイトを作っている理由、運営者情報、お問い合わせ、利用上の注意やプライバシーについては工房案内にまとめています。</p>
           <a class="button" href="/about/">工房案内を見る　→</a>

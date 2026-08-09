@@ -1,0 +1,62 @@
+# image-manifest: hajimete-no-denshi-kousaku-starter-guide
+# 2026-08-09 final sync
+# 第三者性が高いreference画像6点は本文tokenとmanifest entryの両方から削除しました。
+# 残る6点は、オーナー確認済みの自作またはAI生成画像で、一般公開に利用できます。
+# source_urlは残存画像について変更していません。
+# 内訳: hero 1件、illustration 5件、reference 0件、procedure 0件。
+# rights_reviewは残存6件すべてfalseです。
+
+images:
+  - id: tools-step1-set
+    source_url: "https://assets.st-note.com/img/1776227054-2UA3KPl8qseRFLwag5z7Mmct.jpg"
+    source_article: "2026-04-15_【電子工作vol.2】電子工作、まず何から揃える？工具の話.md"
+    placement: "STEP2 工具は何から揃える？ / 「まず絶対いる3つ」の直前。本ガイドのhero画像としても使用"
+    alt: "ハンダごてとこて台、ニッパー、ブレッドボードとジャンパー線を描いたフラットデザインのイラスト（実写真ではない）"
+    caption: "必須の3点: ハンダごて＋こて台、ニッパー、ブレッドボード＋ジャンパー線セット（イメージイラスト）"
+    role: hero
+    rights_review: false
+
+  - id: tools-step2-set
+    source_url: "https://assets.st-note.com/img/1776227065-YNR1BjzTbEcrIWAL07uP9XvV.jpg"
+    source_article: "2026-04-15_【電子工作vol.2】電子工作、まず何から揃える？工具の話.md"
+    placement: "STEP2 工具は何から揃える？ / 「あると作業が変わる工具」の直前"
+    alt: "テスター、先の分かれた工具、ペンチ状の工具を描いたフラットデザインのイラスト（実写真ではない）"
+    caption: "早めに揃えたい工具のイメージ（テスター＋プローブ、サポートスタンド等の工具、ワイヤーストリッパー）"
+    role: illustration
+    rights_review: false
+
+  - id: tools-step3-psu
+    source_url: "https://assets.st-note.com/img/1776227077-nTJ5yiabuOXkemwYW0cHtQzG.jpg"
+    source_article: "2026-04-15_【電子工作vol.2】電子工作、まず何から揃える？工具の話.md"
+    placement: "STEP2 工具は何から揃える？ / 「これはある程度やってから」の直前"
+    alt: "汎用的な直流安定化電源を描いたフラットデザインのイラスト（メーカーロゴなし、実写真ではない）"
+    caption: "慣れてきたら: 直流安定化電源（イメージイラスト）"
+    role: illustration
+    rights_review: false
+
+  - id: parts-amazon-stock-set
+    source_url: "https://assets.st-note.com/img/1776400026-62uZOWdIqLr3sB84GYhXinyp.png"
+    source_article: "2026-04-17_【電子工作vol.3】電子工作、次は何を買えばいい？消耗品と部品ストックの話.md"
+    placement: "STEP3 消耗品と部品ストックは？ / 「Amazonで揃えておくもの」節の末尾"
+    alt: "抵抗、電解コンデンサ、セラミックコンデンサ、LED、熱収縮チューブをラベル付きで並べた図解イラスト（実写真ではない）"
+    caption: "Amazonで揃えておくもの一式（イメージ図解）"
+    role: illustration
+    rights_review: false
+
+  - id: parts-domestic-stock-set
+    source_url: "https://assets.st-note.com/img/1776400365-iUVAGSjuxMsFzLQ3Prgbmd7q.png"
+    source_article: "2026-04-17_【電子工作vol.3】電子工作、次は何を買えばいい？消耗品と部品ストックの話.md"
+    placement: "STEP3 消耗品と部品ストックは？ / 「消耗品は国内・国産で」節の末尾"
+    alt: "ハンダとハンダ吸い取り線をラベル付きで並べた図解イラスト（実写真ではない）"
+    caption: "国内・国産で揃えておくもの一式（イメージ図解）"
+    role: illustration
+    rights_review: false
+
+  - id: parts-china-stock-set
+    source_url: "https://assets.st-note.com/img/1776400463-Otabchuk3niCoxGYwZTdQLXm.png"
+    source_article: "2026-04-17_【電子工作vol.3】電子工作、次は何を買えばいい？消耗品と部品ストックの話.md"
+    placement: "STEP3 消耗品と部品ストックは？ / 「まとめ買いに向いているもの」節の末尾"
+    alt: "ユニバーサル基板とArduino互換ボードをラベル付きで並べた図解イラスト（実写真ではない）"
+    caption: "まとめ買いに向いているもの一式（イメージ図解）"
+    role: illustration
+    rights_review: false
