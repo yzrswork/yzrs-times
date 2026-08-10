@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-1db08d87",
-      "url": "https://jameshard.ing/pilot",
-      "date": "2026-07-11"
-    },
-    {
-      "id": "show-hn-6707352f",
-      "url": "https://bitsnpieces.dev/posts/a-synth-for-my-daughter/",
-      "date": "2026-07-11"
-    },
-    {
       "id": "github-gems-6fd4eb7b",
       "url": "https://github.com/ailyProject/aily-blockly",
       "date": "2026-07-12"
@@ -299,6 +289,11 @@
     {
       "id": "github-gems-50496e26",
       "url": "https://github.com/Ameobea/web-synth",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "github-gems-6ff84613",
+      "url": "https://github.com/SharpAI/DeepCamera",
       "date": "2026-08-10"
     }
   ]

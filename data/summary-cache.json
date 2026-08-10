@@ -5121,6 +5121,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-09T20:19:07.258Z"
+    },
+    "ae8d9268f48a04c4": {
+      "url": "https://zenn.dev/gsy0911/articles/a4dc76f0639576",
+      "summaryJa": [
+        "はじめに 本記事ではRaspberry Pi 5 で Claude Code を常時起動し、外部から常時アクセス可能にします。",
+        "低消費電力で 24 時間つけっぱなしにできる Pi 5 は、Agent の常駐場所として手頃です。",
+        "母艦の Mac とは切り離された専用機なので、多少強い権限を与えても隔離された中で完結します。"
+      ],
+      "cachedAt": "2026-08-10T02:50:41.658Z"
+    },
+    "86656d0ad66e6dd9": {
+      "url": "https://zenn.dev/awesome_kou/articles/7a5bb472fcdfa8",
+      "summaryJa": [
+        "あの --- を、また書いている気がしませんか ブログを書いたことがある人なら、記事ファイルの先頭にこんな数行を打った記憶があるはずです。",
+        "三本のハイフンで囲んだ、この小さな設定ブロック。",
+        "これを Front Matter（フロントマター）と呼びます。"
+      ],
+      "cachedAt": "2026-08-10T02:50:41.658Z"
+    },
+    "c8040ab456c05e71": {
+      "url": "https://lemire.me/blog/2026/08/09/profile-guided-optimization-in-go/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-10T02:50:41.658Z"
+    },
+    "8361ea51f23ca6b7": {
+      "url": "https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/",
+      "summaryJa": [
+        "How We Pushed CDC into Postgres",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-10T02:50:41.658Z"
+    },
+    "b2d4554ee517d9da": {
+      "url": "https://qiita.com/gyu-don/items/f02f1c55e18281c916a5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 先日、OpenAI Build Weekというのが開かれていました。",
+        "これは、Codexを使って自由にプロダクトを作り、それを投稿するといった趣旨のものです。",
+        "偶然、応募する機会があったので、そのとき作ったものを紹介します。"
+      ],
+      "cachedAt": "2026-08-10T02:50:41.658Z"
+    },
+    "f6e7b396ee536b30": {
+      "url": "https://qiita.com/ITvision/items/345e0dc5e98775c16cd7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "ヘリコプター操縦ゲームです。",
+        "日本語プログラミング言語 Mind9(Windowsのみ対応)で作りました。",
+        "使用方法は、ソースコード先頭に書いています。"
+      ],
+      "cachedAt": "2026-08-10T02:50:41.658Z"
+    },
+    "b5fa74eda716327c": {
+      "url": "https://zenn.dev/gamella/articles/d5ad80722d01ae",
+      "summaryJa": [
+        "AlpacaTechの北山です。",
+        "このブログでは、気になったクオンツネタを取り上げています。",
+        "億万株姫☆あばねちゃんのチャンネルに、いつもお世話になっているUKIさん・Hohetoさんが出演したということで覗いてみました。"
+      ],
+      "cachedAt": "2026-08-10T02:50:41.658Z"
+    },
+    "655ed5d338902136": {
+      "url": "https://qiita.com/TheGateBreaker/items/c7cf0baa0dc76ed8435b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "TL;DR: さくらのAI Engineで動かしているAI小説執筆エンジンに、登場人物や伏線を構造化して持つ「ナレッジグラフ」を新設し、AIが自分の判断で検索で",
+        "実装自体は正しく動いた(セッション内で確認した範囲では、テストも全件パスした)。",
+        "しかし、."
+      ],
+      "cachedAt": "2026-08-10T02:50:41.658Z"
+    },
+    "ad1f1a7e4f2a3d38": {
+      "url": "https://fzakaria.com/2026/08/09/nixpkgs-multiverse-every-version-that-ever-existed",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-10T02:50:41.658Z"
+    },
+    "35c1739d4892fe92": {
+      "url": "https://postmarketos.org/blog/2026/08/06/pmOS-update-2026-07/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-10T02:50:41.658Z"
+    },
+    "ff02783e628a7de6": {
+      "url": "https://github.com/SharpAI/DeepCamera",
+      "summaryJa": [
+        "Open-Source AI Camera Skills Platform, AI NVR & CCTV Surveillance.",
+        "Local VLM video analysis with Qwen, DeepSeek, SmolVLM, LLaVA, YOLO26.",
+        "LLM-powered agentic security camera agent — watches, understands, remembers & gu"
+      ],
+      "cachedAt": "2026-08-10T02:50:41.658Z"
     }
   }
 }

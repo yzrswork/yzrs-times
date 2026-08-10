@@ -134,6 +134,13 @@
       "edition": "morning",
       "theme": "重力とコードが描く軌道",
       "path": "issues/2026-08-10-morning.json"
+    },
+    {
+      "issueNo": 62,
+      "date": "2026-08-10",
+      "edition": "midday",
+      "theme": "極小環境と制御の骨格",
+      "path": "issues/2026-08-10-midday.json"
     }
   ]
 }
