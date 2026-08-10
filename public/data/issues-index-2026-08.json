@@ -141,6 +141,13 @@
       "edition": "midday",
       "theme": "極小環境と制御の骨格",
       "path": "issues/2026-08-10-midday.json"
+    },
+    {
+      "issueNo": 63,
+      "date": "2026-08-11",
+      "edition": "morning",
+      "theme": "独立した箱に宿る自律",
+      "path": "issues/2026-08-11-morning.json"
     }
   ]
 }
