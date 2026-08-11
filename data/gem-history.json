@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-6fd4eb7b",
-      "url": "https://github.com/ailyProject/aily-blockly",
-      "date": "2026-07-12"
-    },
-    {
-      "id": "github-gems-52414d83",
-      "url": "https://github.com/davidmonterocrespo24/velxio",
-      "date": "2026-07-12"
-    },
-    {
       "id": "github-gems-a3671c35",
       "url": "https://github.com/tobychui/arozos",
       "date": "2026-07-13"
@@ -299,6 +289,11 @@
     {
       "id": "github-gems-1385a9cd",
       "url": "https://github.com/MengTo/kage",
+      "date": "2026-08-11"
+    },
+    {
+      "id": "github-gems-d4bbb213",
+      "url": "https://github.com/sepandhaghighi/samila",
       "date": "2026-08-11"
     }
   ]

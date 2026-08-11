@@ -148,6 +148,13 @@
       "edition": "morning",
       "theme": "独立した箱に宿る自律",
       "path": "issues/2026-08-11-morning.json"
+    },
+    {
+      "issueNo": 64,
+      "date": "2026-08-11",
+      "edition": "midday",
+      "theme": "極限まで引き締まるデータと数理",
+      "path": "issues/2026-08-11-midday.json"
     }
   ]
 }

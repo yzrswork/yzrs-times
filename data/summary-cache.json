@@ -5292,6 +5292,114 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-10T20:20:33.538Z"
+    },
+    "7c4c5b27f76a0362": {
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "summaryJa": [
+        "Muse Glimmer: 30B-parameter model optimized for al",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-11T02:48:44.837Z"
+    },
+    "bef1d98f48b870d0": {
+      "url": "https://zenn.dev/fast/articles/44f261437d706c",
+      "summaryJa": [
+        "!",
+        "この記事はシリーズの第3部です。",
+        "第1部: メモリレイアウトの観察 第2部: MIR・LLVM IR・ASMを追う 第3部: コンパイラ内部を読む（本記事） 第4部: ニッチ最適化の実践パターン"
+      ],
+      "cachedAt": "2026-08-11T02:48:44.837Z"
+    },
+    "ab15954351319b90": {
+      "url": "https://everycube.alen.is/",
+      "summaryJa": [
+        "Show HN: Scroll through all 43252003274489856000 R",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-11T02:48:44.837Z"
+    },
+    "2c3a236eede1b0e6": {
+      "url": "https://code.call-cc.org/releases/6.0.0/NEWS",
+      "summaryJa": [
+        "Chicken Scheme 6.0",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-11T02:48:44.837Z"
+    },
+    "f44e3816e72a8eb3": {
+      "url": "https://expajp-tech.hatenablog.com/entry/2026/08/09/191222",
+      "summaryJa": [
+        "「エンジニアのための自己管理入門」を読み終えました。",
+        "本書は自己管理を通して日々の生活に「余白」を作り出し、成果を上げてスキルを磨き、キャリアを前進させる方法を述べた本です。",
+        "www."
+      ],
+      "cachedAt": "2026-08-11T02:48:44.837Z"
+    },
+    "484333e537cd8374": {
+      "url": "https://zenn.dev/aws_japan/articles/agent-plugins-1-0-deep-dive",
+      "summaryJa": [
+        "はじめに こんにちは、 AWS Japan でソリューションアーキテクトをしているいなりくです。",
+        "2026 年 8 月 6 日、AI エージェントの拡張機能をパッケージングするオープン標準 Agent Plugins Specification 1.",
+        "0."
+      ],
+      "cachedAt": "2026-08-11T02:48:44.837Z"
+    },
+    "64b5995afde91c0b": {
+      "url": "https://qiita.com/Omochaya/items/851106dfe25b5c34afae?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "TL;DR Omochaya Story は Unity の標準コルーチン（IEnumerator）を完全置き換えするゼロアロケーション非同期タスクエンジンです",
+        "Ver 1.",
+        "3."
+      ],
+      "cachedAt": "2026-08-11T02:48:44.837Z"
+    },
+    "3ef4fffdc1fbff8a": {
+      "url": "https://qiita.com/ma-ryu/items/9614d08d25a9b9adc2d6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "最近、Maestro CLIとMaestro MCPというものを見かけて気になっていました。",
+        "ネイティブアプリのE2Eテストを自然言語で書ける、という話を聞いて、実際に手元のサンプルアプリで触ってみることにしました。",
+        "普段からネイティブアプリの動作確認は手動でポチポチやるこ."
+      ],
+      "cachedAt": "2026-08-11T02:48:44.837Z"
+    },
+    "c17f3485dfee3fc3": {
+      "url": "https://linebender.org/blog/hyperbezier/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-11T02:48:44.837Z"
+    },
+    "d45d4746df606295": {
+      "url": "https://fzakaria.com/2026/08/01/a-c++-toolchain-from-357-bytes-in-bazel",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-11T02:48:44.837Z"
+    },
+    "fadb8ae3d7bf75db": {
+      "url": "https://claytonwramsey.com/blog/mvt/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-11T02:48:44.837Z"
+    },
+    "652aa6294f7d81af": {
+      "url": "https://github.com/sepandhaghighi/samila",
+      "summaryJa": [
+        "A Generative Art Generator",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-11T02:48:44.837Z"
     }
   }
 }
