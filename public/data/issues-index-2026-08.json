@@ -155,6 +155,13 @@
       "edition": "midday",
       "theme": "極限まで引き締まるデータと数理",
       "path": "issues/2026-08-11-midday.json"
+    },
+    {
+      "issueNo": 65,
+      "date": "2026-08-12",
+      "edition": "morning",
+      "theme": "モデルが捕らえる現象の輪郭",
+      "path": "issues/2026-08-12-morning.json"
     }
   ]
 }
