@@ -5481,6 +5481,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-11T20:21:10.525Z"
+    },
+    "d59ef4e003498eb8": {
+      "url": "https://zenn.dev/phpmyadmin/articles/used-server-gpu-local-llm",
+      "summaryJa": [
+        "追記：2026年8月11日 MI50とP40の情報を加えました。",
+        "表では触れていますが本文ではあまり触れられていません。",
+        "データセンターやマイニングで役目を終えた GPU が中古市場に流れている。"
+      ],
+      "cachedAt": "2026-08-12T02:51:03.986Z"
+    },
+    "65f13d665d08d630": {
+      "url": "https://punkx.org/jackdoe/home.html",
+      "summaryJa": [
+        "I made this computer to have a place where I can calm my mind, and to re-learn p",
+        "Comments",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-12T02:51:03.986Z"
+    },
+    "ab9bb70304ed29fd": {
+      "url": "https://qiita.com/hez2010/items/2aff0b2b40b9d0bfda91",
+      "summaryJa": [
+        "従来の async/await .",
+        "NET の非同期処理といえば、長いあいだ async/await が中心だった。",
+        "見た目は同期コードに近く、複雑になりやすい非同期処理を素直に書ける。"
+      ],
+      "cachedAt": "2026-08-12T02:51:03.986Z"
+    },
+    "7385db150ead2cf4": {
+      "url": "https://zenn.dev/knowledgesense/articles/9e55a3bb67729c",
+      "summaryJa": [
+        "導入 こんにちは、株式会社ナレッジセンスの須藤英寿です。",
+        "今回は、コード探索にBM25を組み込むことで、回答品質とトークン消費がどのように変わるのかを、自社のコードベースで検証しました。",
+        "きっかけは、2026年7月に公開された論文「BM25 Wins at Scale」[1]です。"
+      ],
+      "cachedAt": "2026-08-12T02:51:03.986Z"
+    },
+    "4d4084e184ee42f8": {
+      "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
+      "summaryJa": [
+        "Go is an ideal language for AI-assisted software e",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-12T02:51:03.986Z"
+    },
+    "1195380b6985eead": {
+      "url": "https://zenn.dev/techfish4/articles/0c502382253a4e",
+      "summaryJa": [
+        "レンタルサーバーを作ってみた話と、これから作りたいもの こんにちは、さかなです。",
+        "2026年、技術者3人で「SORAHOST」というレンタルサーバーサービスを作り始めました。",
+        "現在は、Discord BotやWebアプリケーション、Minecraftサーバーなどを動かすためのホスティングサービスを提供しています。"
+      ],
+      "cachedAt": "2026-08-12T02:51:03.986Z"
+    },
+    "846e32075604e659": {
+      "url": "https://zenn.dev/mtmtdack/articles/2026-08-11-n-plus-one-counting-queries",
+      "summaryJa": [
+        "一覧ページが遅い。",
+        "SQL のログを見ると、同じ形のクエリが 100 本並んでいる。",
+        "これが N+1 問題の典型的な現場です。"
+      ],
+      "cachedAt": "2026-08-12T02:51:03.986Z"
+    },
+    "1366561a039a3faf": {
+      "url": "https://qiita.com/shibacorgi/items/21ec803d0c38980a9f9a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "〜無料枠で動くAI調査レポート自動生成システムの開発ログ〜 この記事はさくらのAI Engine 使い倒したで賞への応募記事です。",
+        "1.",
+        "はじめに：作ったもの 「テーマを入力するだけで、数分後にMarkdownレポートが完成する」 Webアプリを作りました。"
+      ],
+      "cachedAt": "2026-08-12T02:51:03.986Z"
+    },
+    "16d5e0e6dac9a743": {
+      "url": "https://vitaut.net/posts/2026/yy-dtoa/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-12T02:51:03.986Z"
+    },
+    "20cd5b07f3d8cf62": {
+      "url": "https://entropicthoughts.com/fft",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-12T02:51:03.986Z"
+    },
+    "e7c8e5bc55c64197": {
+      "url": "https://github.com/generative-design/Code-Package-p5.js",
+      "summaryJa": [
+        "Code package of the book: Generative Design – Creative Coding for the Web with J",
+        "js",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-12T02:51:03.986Z"
     }
   }
 }

@@ -162,6 +162,13 @@
       "edition": "morning",
       "theme": "モデルが捕らえる現象の輪郭",
       "path": "issues/2026-08-12-morning.json"
+    },
+    {
+      "issueNo": 66,
+      "date": "2026-08-12",
+      "edition": "midday",
+      "theme": "手元で動かす計算の足場",
+      "path": "issues/2026-08-12-midday.json"
     }
   ]
 }

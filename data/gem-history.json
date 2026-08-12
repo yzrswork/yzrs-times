@@ -2,11 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-a3671c35",
-      "url": "https://github.com/tobychui/arozos",
-      "date": "2026-07-13"
-    },
-    {
       "id": "github-gems-551e05b2",
       "url": "https://github.com/jameshball/osci-render",
       "date": "2026-07-14"
@@ -299,6 +294,11 @@
     {
       "id": "github-gems-32f4429d",
       "url": "https://github.com/tsl0922/EPD-nRF5",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "github-gems-43a6fa9c",
+      "url": "https://github.com/generative-design/Code-Package-p5.js",
       "date": "2026-08-12"
     }
   ]
