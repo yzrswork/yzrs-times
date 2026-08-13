@@ -183,6 +183,13 @@
       "edition": "midday",
       "theme": "実行基盤へ切り込む最適化",
       "path": "issues/2026-08-13-midday.json"
+    },
+    {
+      "issueNo": 69,
+      "date": "2026-08-14",
+      "edition": "morning",
+      "theme": "長く残るコードと、変わりゆく土台",
+      "path": "issues/2026-08-14-morning.json"
     }
   ]
 }
