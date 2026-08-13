@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-551e05b2",
-      "url": "https://github.com/jameshball/osci-render",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "github-gems-6edb6109",
-      "url": "https://github.com/shorepine/tulipcc",
-      "date": "2026-07-14"
-    },
-    {
       "id": "github-gems-7c19f251",
       "url": "https://github.com/FluidSynth/fluidsynth",
       "date": "2026-07-15"
@@ -304,6 +294,11 @@
     {
       "id": "show-hn-aaad82ae",
       "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
+      "date": "2026-08-13"
+    },
+    {
+      "id": "github-gems-ba6b50c6",
+      "url": "https://github.com/frain-dev/convoy",
       "date": "2026-08-13"
     }
   ]

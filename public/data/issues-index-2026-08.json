@@ -176,6 +176,13 @@
       "edition": "morning",
       "theme": "静かに潜むバグと個人の創出力",
       "path": "issues/2026-08-13-morning.json"
+    },
+    {
+      "issueNo": 68,
+      "date": "2026-08-13",
+      "edition": "midday",
+      "theme": "実行基盤へ切り込む最適化",
+      "path": "issues/2026-08-13-midday.json"
     }
   ]
 }

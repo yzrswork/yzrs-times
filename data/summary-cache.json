@@ -5643,6 +5643,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-12T20:19:11.809Z"
+    },
+    "9ea22d3fd64dfa9b": {
+      "url": "https://zenn.dev/dinii/articles/a272b7c3b60ab8",
+      "summaryJa": [
+        "はじめに !",
+        "修正や追加等はコメントまたはGitHubで編集リクエストをお待ちしております。",
+        "ダイニーで一番若いエンジニアのriya amemiya(21歳)です。"
+      ],
+      "cachedAt": "2026-08-13T02:50:32.516Z"
+    },
+    "dd34bc220390f43c": {
+      "url": "https://qiita.com/moritalous/items/8049684e8d746a81af3b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "こんなTypeScriptのソースがあるとします。",
+        "cli.",
+        "ts console."
+      ],
+      "cachedAt": "2026-08-13T02:50:32.516Z"
+    },
+    "e24db92b449a0a91": {
+      "url": "https://alan.norbauer.com/articles/github-stacks-with-jujutsu/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-13T02:50:32.517Z"
+    },
+    "cb9c2175cb8fbf44": {
+      "url": "https://qiita.com/haystacker/items/376d86bcbeefc3885183",
+      "summaryJa": [
+        "これを下から順番に理解していくと、「今どの話をしているのか」「何がどの上に乗っているのか」が見えやすくなります。",
+        "この記事で扱う題材 扱う概念は次の 5 つです。",
+        "Animal（動物） Mammal（哺乳類） Cat（猫） Dog（犬） hasLegCount（足の本数） そして、基本となる知識は次の通りです。"
+      ],
+      "cachedAt": "2026-08-13T02:50:32.517Z"
+    },
+    "ea455006446f24b4": {
+      "url": "https://zenn.dev/hellorusk/articles/3328866ca9e922",
+      "summaryJa": [
+        "2026年8月、Anthropic が「Claude の生成テキストに機械可読なマーク（電子透かし）を埋め込む」と発表しました[1]。",
+        "EU AI Act 第50条の透明性規範（Code of Practice on Transparency of AI-Generated Content）に署",
+        "."
+      ],
+      "cachedAt": "2026-08-13T02:50:32.517Z"
+    },
+    "49d05da81f8ee9c3": {
+      "url": "https://qiita.com/y0us91/items/2feffd2cc6c672717973",
+      "summaryJa": [
+        "はじめに Coding Agentの進化によって、ソフトウェア開発の形が大きく変わり始めています。",
+        "少し前までAIによる開発支援といえば、 コード補完 コード生成 リファクタリング テストコード生成 など、「人間が主体で、AIが支援する」使い方が中心でした。",
+        "しかし現在のCoding Agentは、単にコードを生成するだけではあり."
+      ],
+      "cachedAt": "2026-08-13T02:50:32.517Z"
+    },
+    "a3270937401e8db2": {
+      "url": "https://qiita.com/kaku_zui/items/81af00d831d1a412f953?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに この記事では IBM Bob に Confluent MCP サーバー を接続することで、日本語のチャットだけで Kafka トピックの作成・データ投",
+        "コマンドはセットアップ時にほんの少し打.",
+        "."
+      ],
+      "cachedAt": "2026-08-13T02:50:32.517Z"
+    },
+    "44072ee0c23550b6": {
+      "url": "https://zenn.dev/knowledgework/articles/2114d46c201da3",
+      "summaryJa": [
+        "はじめに ナレッジワークのQAエンジニアのtettanです。",
+        "ナレッジワークでは、マネージャーではなく、いちQAエンジニアという立場で、プロダクトのQA業務や品質施策の横断的な活動を行っています。",
+        "2026年8月5日に開催された「QA Test Talk Vol."
+      ],
+      "cachedAt": "2026-08-13T02:50:32.517Z"
+    },
+    "5d9eb5a27c8cd666": {
+      "url": "https://lithostech.com/2026/08/decrypting-flume-water-monitor-traffic/",
+      "summaryJa": [
+        "Previously submitted: https://lobste.",
+        "rs/s/vnigrw/diving_into_flume_water_monitor Comments",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-13T02:50:32.517Z"
+    },
+    "e3416fac4d9deb5a": {
+      "url": "https://blog.himanshuanand.com/2026/08/i-found-a-kvm-guest-to-host-heap-corruption-bug-and-someone-else-got-there-first/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-13T02:50:32.517Z"
+    },
+    "7f81ef9e68c63ba4": {
+      "url": "https://github.com/frain-dev/convoy",
+      "summaryJa": [
+        "The Cloud Native Webhooks Gateway",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-13T02:50:32.517Z"
     }
   }
 }
