@@ -197,6 +197,13 @@
       "edition": "midday",
       "theme": "見えない構造の解剖と速度の追求",
       "path": "issues/2026-08-14-midday.json"
+    },
+    {
+      "issueNo": 71,
+      "date": "2026-08-15",
+      "edition": "morning",
+      "theme": "言語化の限界と機械の補完",
+      "path": "issues/2026-08-15-morning.json"
     }
   ]
 }
