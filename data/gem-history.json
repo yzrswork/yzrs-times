@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-7c19f251",
-      "url": "https://github.com/FluidSynth/fluidsynth",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "github-gems-c30261fb",
-      "url": "https://github.com/probonopd/MiniDexed",
-      "date": "2026-07-15"
-    },
-    {
       "id": "github-gems-ac0e96d5",
       "url": "https://github.com/dmellok/tesserae",
       "date": "2026-07-16"
@@ -304,6 +294,11 @@
     {
       "id": "show-hn-50b1136f",
       "url": "https://dosaygo-studio.github.io/hn-front-page-2035/news",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "show-hn-5293a25e",
+      "url": "https://cannoneyed.com/isometric-nyc/",
       "date": "2026-08-14"
     }
   ]

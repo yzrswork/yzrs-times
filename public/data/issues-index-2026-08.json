@@ -190,6 +190,13 @@
       "edition": "morning",
       "theme": "長く残るコードと、変わりゆく土台",
       "path": "issues/2026-08-14-morning.json"
+    },
+    {
+      "issueNo": 70,
+      "date": "2026-08-14",
+      "edition": "midday",
+      "theme": "見えない構造の解剖と速度の追求",
+      "path": "issues/2026-08-14-midday.json"
     }
   ]
 }

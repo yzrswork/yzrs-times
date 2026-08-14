@@ -5814,6 +5814,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-13T20:18:38.344Z"
+    },
+    "0fcb1c4786e1a538": {
+      "url": "https://zenn.dev/estie/articles/64b80da2fbf175",
+      "summaryJa": [
+        "はじめに こんにちは、デザインエンジニアのyamarinです。",
+        "BiomeとOxlintは、同じRust製でどちらも速い印象がありますね。",
+        "estie(エスティ)ではfrontendの静的解析ツールにBiomeを採用しており、Oxlintどんなもんかなと大体同じ条件で試してみたところ、条件次第でOx"
+      ],
+      "cachedAt": "2026-08-14T02:50:45.010Z"
+    },
+    "8085d320f59fc227": {
+      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+      "summaryJa": [
+        "Spaghettifying DRAM",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-14T02:50:45.010Z"
+    },
+    "a261344ebf519df7": {
+      "url": "https://qiita.com/M_Ozu/items/346f6c8ab4b662a08f3e",
+      "summaryJa": [
+        "同じ質問を投げたのに、部署ごとに違う数字が返ってくる。",
+        "しかも、どちらのAIも間違ってない。",
+        "生成AIを業務に入れた組織で、いま静かに起きている現象です。"
+      ],
+      "cachedAt": "2026-08-14T02:50:45.010Z"
+    },
+    "ec7bf1a28a9531b0": {
+      "url": "https://qiita.com/hez2010/items/85c1fa4100e5898d1a55?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "ジェネリックメソッド .",
+        "NET のジェネリックメソッドは、1つ以上の型パラメーターを持つメソッドだ。",
+        "型安全性を維持しながら、さまざまなデータ型を扱える。"
+      ],
+      "cachedAt": "2026-08-14T02:50:45.011Z"
+    },
+    "0be67204ef491c4b": {
+      "url": "https://qiita.com/yama3133/items/6459627a4029eb5cbee7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに Claude Codeで長めのタスクを回していると 作業が終わったのか、まだ止まらずに動いているのかが画面を見るまでわからない という状態がよくありま",
+        "他のウィンドウで別作業をしていると尚更で、結局こまめに画面を覗きに行く癖がついていました。",
+        "「それなら音で."
+      ],
+      "cachedAt": "2026-08-14T02:50:45.011Z"
+    },
+    "2ce8c5e3023d68b6": {
+      "url": "https://rustmagazine.org/issue-2/write-a-sql-optimizer-using-egg",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-14T02:50:45.011Z"
+    },
+    "6662b901536bb4e0": {
+      "url": "https://github.com/djc/oxish",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-14T02:50:45.011Z"
+    },
+    "cc63af1cbf538e7b": {
+      "url": "https://youtu.be/a7qEOtkkDb8",
+      "summaryJa": [
+        "Starts at 4:21 Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-14T02:50:45.011Z"
     }
   }
 }
