@@ -211,6 +211,13 @@
       "edition": "midday",
       "theme": "最小の構成、最大の掌握",
       "path": "issues/2026-08-15-midday.json"
+    },
+    {
+      "issueNo": 73,
+      "date": "2026-08-16",
+      "edition": "morning",
+      "theme": "実行基盤の切り詰めと個人の実装力",
+      "path": "issues/2026-08-16-morning.json"
     }
   ]
 }
