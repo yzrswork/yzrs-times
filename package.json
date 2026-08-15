@@ -5,6 +5,7 @@
   "type": "module",
   "description": "YZRS Times — AI編集長が毎日編集する、自分専用のデジタル新聞",
   "scripts": {
+    "build": "npm run build:guide",
     "build:guide": "node scripts/build-guide.mjs",
     "publish:morning": "node scripts/build-issue.mjs morning",
     "dry-run": "EDITOR_PROVIDER=mock node scripts/build-issue.mjs morning --force",

@@ -23,6 +23,8 @@ function read(relativePath) {
 
 const GUIDE = 'guides/hajimete-no-denshi-kousaku-starter-guide/index.html';
 const GUIDE_URL = 'https://yzrswork.com/guides/hajimete-no-denshi-kousaku-starter-guide/';
+const LP = 'lp/electronics-starter/index.html';
+const LP_URL = 'https://yzrswork.com/lp/electronics-starter/';
 const contentPages = ['index.html', 'times/index.html', 'evening.html', GUIDE];
 const trustPages = ['about/index.html', 'privacy/index.html'];
 
@@ -122,6 +124,24 @@ for (const image of guideImages) {
     if (!image.includes(attribute)) errors.push(`Guide画像の属性が不足: ${attribute}`);
   }
 }
+
+const lp = read(LP);
+for (const [label, expected] of [
+  ['LPのcanonical', `<link rel="canonical" href="${LP_URL}"`],
+  ['LPのrobots', '<meta name="robots" content="noindex,follow"'],
+  ['LPのGA4', '<script src="/analytics.js"></script>'],
+  ['LPのGuide URL', 'href="/guides/hajimete-no-denshi-kousaku-starter-guide/"'],
+]) {
+  if (!lp.includes(expected)) errors.push(`${label}がない`);
+}
+const lpCtas = [...lp.matchAll(/data-cta-position="([^"]+)"/g)].map((match) => match[1]);
+if (lpCtas.length !== 3 || lpCtas.join(',') !== 'hero,middle,final') errors.push(`LPのCTA位置がhero,middle,finalではない: ${lpCtas.join(',')}`);
+if ((lp.match(/href="\/guides\/hajimete-no-denshi-kousaku-starter-guide\//g) || []).length < 4) errors.push('LPのGuide導線が不足');
+for (const forbidden of ['__manus__', 'Manus Analytics', 'OWNER_OPEN_ID', 'API_KEY', 'access_token', 'JWT', 'shadcn', 'from "react"', "from 'react'"]) {
+  if (lp.includes(forbidden)) errors.push(`LPに禁止語がある: ${forbidden}`);
+}
+if (lp.includes('https://amzn.to/')) errors.push('LPにAmazon直リンクがある');
+if (lp.includes('target="_blank"')) errors.push('LPに不要な別タブ遷移がある');
 
 const expectedAdsTxt = `google.com, ${PUBLISHER}, DIRECT, ${AUTHORITY}\n`;
 if (read('ads.txt') !== expectedAdsTxt) errors.push('ads.txtが発行値と一致しない');
