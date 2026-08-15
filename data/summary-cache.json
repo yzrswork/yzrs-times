@@ -5949,6 +5949,114 @@
         "Try a modern browser like Firefox or Chrome for the best experience."
       ],
       "cachedAt": "2026-08-14T20:22:18.512Z"
+    },
+    "e09d799fa1b262f1": {
+      "url": "https://zenn.dev/takeshi_teshima/articles/bae79b2f0f97be",
+      "summaryJa": [
+        "最近、ソフトウェア開発における概念設計の威力と重要さについて人に伝えたい機会が何度かあった。",
+        "[1] しかし、概念の整理がなぜどのように重要なのか、という一点を取り上げて書かれたものは少ないようで、人に渡すのにちょうどよい文章や書籍が見つからなかったので",
+        "そのアプ."
+      ],
+      "cachedAt": "2026-08-15T02:48:37.846Z"
+    },
+    "8de5d458239701be": {
+      "url": "https://zenn.dev/rdlabo/articles/cloudflare-workers-after-rich-programming",
+      "summaryJa": [
+        "Cloudflareへ移るまで、我々が富豪プログラミングをしているとは気づきませんでした。",
+        "EC2で動かしていたNestJSをHono + Cloudflare Workersへ移しました。",
+        "RDSはそのまま使い、ElastiCacheの役割はCloudflare側へ移しています。"
+      ],
+      "cachedAt": "2026-08-15T02:48:37.846Z"
+    },
+    "1e0de7f739d1748c": {
+      "url": "https://eliasfarhan.ch/gamedev/cpp/2026/08/14/srnative-01-why-a-custom-engine.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-15T02:48:37.846Z"
+    },
+    "25fb2a3813e92b0c": {
+      "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+      "summaryJa": [
+        "Firefox is now the last major browser that still s",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-15T02:48:37.846Z"
+    },
+    "86c77befbf32bd34": {
+      "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+      "summaryJa": [
+        "Why does Opus 5 feel worse to work with?",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-15T02:48:37.846Z"
+    },
+    "e85652d7b5a66519": {
+      "url": "https://pc.watch.impress.co.jp/docs/news/2132909.html",
+      "summaryJa": [
+        "「Qwen3.8-27B」ついに公開！3.6を大きく上回る性能でローカルAIの定番になるか",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-15T02:48:37.846Z"
+    },
+    "17eff0a2aa395873": {
+      "url": "https://qiita.com/jksoft/items/65f7824679ddf171a93d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "「見事な手さばき」を笑えなかった話 先日、隣の席の若手エンジニアの画面をたまたま見て、手が止まりました。",
+        "エラーが出る。",
+        "コピーする。"
+      ],
+      "cachedAt": "2026-08-15T02:48:37.846Z"
+    },
+    "789cb576f9ecb415": {
+      "url": "https://zenn.dev/nabettu/articles/a964f988e7cc75",
+      "summaryJa": [
+        "こんにちは、@nabettuです。",
+        "Webサービスの運営コストは、安ければ安いほど嬉しいですね！",
+        "以前「貧者のアークテクチャ」という記事で、Next."
+      ],
+      "cachedAt": "2026-08-15T02:48:37.846Z"
+    },
+    "f8304d2a4cdd9e87": {
+      "url": "https://qiita.com/tatsuya582/items/e5c56a2f7b976cfc17ea?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "エラーレスポンス設計の現在地 2026、標準はコードに焼いて規約は最小にする 前回の記事「Web API設計の現在地 2026、いま従うべき標準とデファクトの一",
+        "この記事はその深掘りです。",
+        "エ."
+      ],
+      "cachedAt": "2026-08-15T02:48:37.846Z"
+    },
+    "605d15b5ff683367": {
+      "url": "https://qiita.com/kikuziro/items/6a1e8a7de067a8f9973a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "TL:DR ベクトル検索対応したDynamoDBでセマンティックキャッシュは機能した コストは実質「ミス率 × クエリ数」で決まる。",
+        "間欠トラフィックならDynamoDBが圧倒的に安い サーバーレス構成ならDynamoDB、常時高トラフィックや最速レイテンシ狙いならVal.",
+        "."
+      ],
+      "cachedAt": "2026-08-15T02:48:37.846Z"
+    },
+    "6e4bb9f83ca72ad0": {
+      "url": "https://jva.lol/weblog/my-comment-section-is-static-html/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-15T02:48:37.846Z"
+    },
+    "e795fb28b358e3e5": {
+      "url": "https://o.ee/blog/activitypub-won-by-being-boring/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-15T02:48:37.846Z"
     }
   }
 }

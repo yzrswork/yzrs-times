@@ -204,6 +204,13 @@
       "edition": "morning",
       "theme": "言語化の限界と機械の補完",
       "path": "issues/2026-08-15-morning.json"
+    },
+    {
+      "issueNo": 72,
+      "date": "2026-08-15",
+      "edition": "midday",
+      "theme": "最小の構成、最大の掌握",
+      "path": "issues/2026-08-15-midday.json"
     }
   ]
 }
