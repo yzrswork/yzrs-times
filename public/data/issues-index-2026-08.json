@@ -225,6 +225,13 @@
       "edition": "midday",
       "theme": "設計の骨格とローカルの手触り",
       "path": "issues/2026-08-16-midday.json"
+    },
+    {
+      "issueNo": 75,
+      "date": "2026-08-17",
+      "edition": "morning",
+      "theme": "AIの浸透と工芸的知性の境界",
+      "path": "issues/2026-08-17-morning.json"
     }
   ]
 }
