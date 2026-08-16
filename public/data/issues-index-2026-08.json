@@ -218,6 +218,13 @@
       "edition": "morning",
       "theme": "実行基盤の切り詰めと個人の実装力",
       "path": "issues/2026-08-16-morning.json"
+    },
+    {
+      "issueNo": 74,
+      "date": "2026-08-16",
+      "edition": "midday",
+      "theme": "設計の骨格とローカルの手触り",
+      "path": "issues/2026-08-16-midday.json"
     }
   ]
 }

@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-5bd001da",
-      "url": "https://github.com/psmux/psmux",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "github-gems-2afbb1c1",
-      "url": "https://github.com/SolderedElectronics/Inkplate-Arduino-library",
-      "date": "2026-07-17"
-    },
-    {
       "id": "show-hn-fe18a579",
       "url": "https://non.io",
       "date": "2026-07-18"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-a10a4428",
       "url": "https://github.com/ace-trump-tech/MindPaw",
+      "date": "2026-08-16"
+    },
+    {
+      "id": "show-hn-1db08d87",
+      "url": "https://jameshard.ing/pilot",
       "date": "2026-08-16"
     }
   ]

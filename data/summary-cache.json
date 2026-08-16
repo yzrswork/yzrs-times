@@ -6120,6 +6120,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-15T20:21:28.577Z"
+    },
+    "5f1e032c4c4f5cb9": {
+      "url": "https://kawarimidoll.com/posts/202608152/",
+      "summaryJa": [
+        "ローカル開発サーバーにHTTPSのドメインを割り当て、外への公開もできるCLIツールslimの紹介です。",
+        "Slim maps localhost to pretty .",
+        "test domains with automatic HTTPS, SSL certificates, WebSocket & HMR support, pa"
+      ],
+      "cachedAt": "2026-08-16T02:49:50.706Z"
+    },
+    "cbc4ade7b41ffd44": {
+      "url": "https://paper2.hatenablog.com/entry/2026/08/15/170823",
+      "summaryJa": [
+        "本記事は、Rich Mironov 氏の The Slippery Slope of Sales-Led Development（2018-11-02）の日本語",
+        "直訳ではなく、論点と口調が残るようにAIで意訳しています。",
+        "公式訳ではありません。"
+      ],
+      "cachedAt": "2026-08-16T02:49:50.706Z"
+    },
+    "827a4968165913ee": {
+      "url": "https://ai.itokoba.com/archives/861/",
+      "summaryJa": [
+        "AIを使っているなら全員入れるべきAgent Skill 4選【ChatGPT / Codex / ",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-16T02:49:50.706Z"
+    },
+    "d6050661b92e11f3": {
+      "url": "https://zenn.dev/koki_n22/articles/986f61d16989cb",
+      "summaryJa": [
+        "対象読者 Claude CodeでOpus 5を使っている人 以前のモデル向けにCLAUDE.",
+        "md / skills / rulesを育ててきた人 Opus 5では既存設定を読み込ませない方がうまく動く気がするが、全部捨てるのも違うと思っている人 モチベ",
+        "md / skills / rulesを育てていた Opus 5では、それらを読み込ませない方が期待通り動くことが増え、一時的に読み込ませない運用にしていた 毎"
+      ],
+      "cachedAt": "2026-08-16T02:49:50.706Z"
+    },
+    "2726c6f753a6488d": {
+      "url": "https://qiita.com/yama3133/items/95588213b35738823375?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "AWSのストレージ比較記事でInstance Storeが出てくると、だいたい同じ紹介のされ方をされます。",
+        "ホストに直付けのNVMe SSDでEBSより速いが、停止すると中身が消える この最後の一文、たいてい注意書きのトーンで書かれていて、そのあとは決まって手堅い使い",
+        "."
+      ],
+      "cachedAt": "2026-08-16T02:49:50.706Z"
+    },
+    "5799144cc4e7bbd5": {
+      "url": "https://qiita.com/gmo-co-kitaura/items/acb76b46b710348c60cd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに GMOコネクトの北浦です。",
+        "少人数のチームでタスク管理ツールを選ぼうとすると、だいたい行き詰まります。",
+        "有料プランは機能が過剰で、数人のために払う額ではない。"
+      ],
+      "cachedAt": "2026-08-16T02:49:50.706Z"
+    },
+    "d9fb31e48d3ac7cf": {
+      "url": "https://github.com/cordiverse/paper/blob/main/paper.pdf",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-16T02:49:50.706Z"
+    },
+    "73b035a0bc221b4e": {
+      "url": "https://github.com/lazy-promise/lazy-promise",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-16T02:49:50.706Z"
+    },
+    "2cb83cb6c499816f": {
+      "url": "https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf",
+      "summaryJa": [
+        "This paper discusses the ways in which automation of industrial processes may ex",
+        "Some comments will be made on methods of alleviating these problems within the \"",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-16T02:49:50.706Z"
     }
   }
 }
