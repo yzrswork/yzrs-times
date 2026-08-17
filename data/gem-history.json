@@ -300,6 +300,11 @@
       "id": "github-gems-c22bfac4",
       "url": "https://github.com/nRF24/RF24",
       "date": "2026-08-17"
+    },
+    {
+      "id": "github-gems-551e05b2",
+      "url": "https://github.com/jameshball/osci-render",
+      "date": "2026-08-18"
     }
   ]
 }
