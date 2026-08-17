@@ -9,7 +9,8 @@
     "publish:morning": "node scripts/build-issue.mjs morning",
     "dry-run": "EDITOR_PROVIDER=mock node scripts/build-issue.mjs morning --force",
     "serve": "python3 -m http.server 8000 -d public",
-    "check": "node scripts/check-public.mjs"
+    "check": "node scripts/check-public.mjs",
+    "test": "node --test test/times-delivery.test.mjs"
   },
   "engines": { "node": ">=20" },
   "dependencies": {
