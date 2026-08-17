@@ -232,6 +232,13 @@
       "edition": "morning",
       "theme": "AIの浸透と工芸的知性の境界",
       "path": "issues/2026-08-17-morning.json"
+    },
+    {
+      "issueNo": 76,
+      "date": "2026-08-17",
+      "edition": "midday",
+      "theme": "指先と基盤のチューニング",
+      "path": "issues/2026-08-17-midday.json"
     }
   ]
 }

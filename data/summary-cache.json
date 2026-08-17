@@ -6264,6 +6264,114 @@
         "connpass."
       ],
       "cachedAt": "2026-08-16T20:20:06.756Z"
+    },
+    "fc4f705487c0283b": {
+      "url": "https://zenn.dev/gacchi/articles/my-cornix-setting",
+      "summaryJa": [
+        "Keychronとギズモード・ジャパンが共同開発したKeychron Orca echoのクラウドファンディングが6億円に迫るなど、分割キーボードが最近盛り上が",
+        "私は、昨今の盛り上がりの火付け役となったと思われるCornixを使っているのですが、いろいろと試行錯誤しながら設定を変えてきました。",
+        "変更するたびに毎回「今回は完璧だな！"
+      ],
+      "cachedAt": "2026-08-17T02:50:05.603Z"
+    },
+    "131ad7139eb2d0c1": {
+      "url": "https://voluntas.ghost.io/local-llm-2026-08/",
+      "summaryJa": [
+        "NVIDIA DGX Spark 互換機 (以下 Spark) を 2 台購入し、クラスター起動して ローカルで DeepSeek V4 Flash 0731 ",
+        "前提悪いのでそもそもコスパを検討するなら API 利用をすべきなので、コスト面でのメリットはとても薄い。",
+        "速度まずローカル LLM の一番気になっていた「速度」だが."
+      ],
+      "cachedAt": "2026-08-17T02:50:05.603Z"
+    },
+    "e17ea68148d61c7c": {
+      "url": "https://www.ponylang.io/blog/2026/08/ponys-arena-allocator/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-17T02:50:05.603Z"
+    },
+    "0ef5795694b3dbb2": {
+      "url": "https://rvembedded.com/blog_post/12/",
+      "summaryJa": [
+        "A 3rd World Embedded Engineer Responds to \"RISC-V ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-17T02:50:05.603Z"
+    },
+    "6f147f5037dfb6fd": {
+      "url": "https://tech.techtouch.jp/entry/cloudfront-realtime-log-with-rust",
+      "summaryJa": [
+        "テックタッチの SRE チームの tabito です。",
+        "Rust, AWS, Terraform, Lambda が大好きです。",
+        "最近は、業務外で Terraform の AWS Provider にコントリビュートしています （コントリビュートを始めてから約1年で、マージされたPR数は約"
+      ],
+      "cachedAt": "2026-08-17T02:50:05.603Z"
+    },
+    "2a253b3ab75e6c98": {
+      "url": "https://zenn.dev/aws_japan/articles/2b62886aa8735e",
+      "summaryJa": [
+        "皆さんは仕事でどれぐらいのアプリケーションを使用するでしょうか。",
+        "GitHub、Slack、Notion、Outlook/Gmail・・・などの SaaS はもちろん、社内の業務システムもあるでしょう。",
+        "AI エージェントに仕事を任せるとき、これらのサービスと連携させたくなるのは自然です。"
+      ],
+      "cachedAt": "2026-08-17T02:50:05.603Z"
+    },
+    "82737ed8e25dd988": {
+      "url": "https://zenn.dev/r1013t/articles/37669abac10840",
+      "summaryJa": [
+        "はじめに Solid 2.",
+        "0 が RC になりました。",
+        "公式ブログを読みつつ触ってみましたので共有します。"
+      ],
+      "cachedAt": "2026-08-17T02:50:05.603Z"
+    },
+    "26f0ad2c241cbd01": {
+      "url": "https://qiita.com/Omizu-25/items/555c6319df5a97d3c90f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに こんにちは！",
+        "KDDIアイレット株式会社の水野 永遠です。",
+        "この記事は「2026 Japan AWS Jr."
+      ],
+      "cachedAt": "2026-08-17T02:50:05.603Z"
+    },
+    "803162887b9693d4": {
+      "url": "https://zenn.dev/gamella/articles/f5e6bddab37c8d",
+      "summaryJa": [
+        "AlpacaTechの北山です。",
+        "今回は大作、かつ、かなりマニアックな話題なので、興味のある人だけお付き合いください。",
+        "発端は以下のXのやり取りでした。"
+      ],
+      "cachedAt": "2026-08-17T02:50:05.603Z"
+    },
+    "4894b420e1f2f19a": {
+      "url": "https://www.benjoffe.com/fast-day-of-week",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-17T02:50:05.603Z"
+    },
+    "572807654d55fb67": {
+      "url": "https://unsung.aresluna.org/i-think-theres-a-lot-of-value-in-these/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-17T02:50:05.603Z"
+    },
+    "d70982af535293e8": {
+      "url": "https://github.com/nRF24/RF24",
+      "summaryJa": [
+        "OSI Layer 2 driver for nRF24L01 on Arduino & Raspberry Pi/Linux Devices",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-17T02:50:05.603Z"
     }
   }
 }

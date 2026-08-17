@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-fe18a579",
-      "url": "https://non.io",
-      "date": "2026-07-18"
-    },
-    {
-      "id": "github-gems-0957d799",
-      "url": "https://github.com/moltis-org/moltis",
-      "date": "2026-07-18"
-    },
-    {
       "id": "github-gems-aef1d765",
       "url": "https://github.com/jgromes/RadioLib",
       "date": "2026-07-19"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-a3671c35",
       "url": "https://github.com/tobychui/arozos",
+      "date": "2026-08-17"
+    },
+    {
+      "id": "github-gems-c22bfac4",
+      "url": "https://github.com/nRF24/RF24",
       "date": "2026-08-17"
     }
   ]
