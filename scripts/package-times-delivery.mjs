@@ -12,8 +12,11 @@ import { fileURLToPath } from 'node:url';
 export const SOURCE_REPOSITORY = 'yzrswork/yzrs-times';
 export const DELIVERY_MANIFEST = 'delivery-manifest.json';
 export const DELIVERY_SCHEMA_VERSION = 1;
+export const SUPPORTED_EDITIONS = Object.freeze(['morning', 'midday']);
 
 const REQUIRED_DATA_FILES = ['latest.json', 'graph.json', 'index-manifest.json'];
+const ISSUE_PATH_PATTERN = /^issues\/\d{4}-(?:0[1-9]|1[0-2])-(?:0[1-9]|[12]\d|3[01])-(?:morning|midday)\.json$/;
+const MONTH_INDEX_PATH_PATTERN = /^issues-index-\d{4}-(?:0[1-9]|1[0-2])\.json$/;
 
 class DeliveryPackagingError extends Error {
   constructor(message) {
@@ -38,13 +41,13 @@ function normalizeRunId(value) {
 
 function normalizeSha(value) {
   const text = String(value ?? '').trim().toLowerCase();
-  if (!/^[0-9a-f]{7,64}$/.test(text)) fail('sourceSha must be a hexadecimal Git SHA');
+  if (!/^[0-9a-f]{40}$/.test(text)) fail('sourceSha must be a full 40-character hexadecimal Git SHA');
   return text;
 }
 
 function normalizeEdition(value) {
   const text = String(value ?? '').trim();
-  if (!/^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$/.test(text)) fail('edition has an unsafe format');
+  if (!SUPPORTED_EDITIONS.includes(text)) fail(`unsupported edition: ${text || '(empty)'}`);
   return text;
 }
 
@@ -54,6 +57,21 @@ function canonicalPublishedAt(value) {
     fail('publishedAt must be canonical UTC ISO-8601');
   }
   return text;
+}
+
+function normalizeIssueDate(value, label = 'date') {
+  const text = String(value ?? '').trim();
+  if (!/^\d{4}-(?:0[1-9]|1[0-2])-(?:0[1-9]|[12]\d|3[01])$/.test(text)) {
+    fail(`${label} must be YYYY-MM-DD`);
+  }
+  const parsed = new Date(`${text}T00:00:00.000Z`);
+  if (parsed.toISOString().slice(0, 10) !== text) fail(`${label} must be a valid calendar date`);
+  return text;
+}
+
+function normalizeIssueNo(value, label = 'issueNo') {
+  if (!Number.isSafeInteger(value) || value <= 0) fail(`${label} must be a positive integer`);
+  return value;
 }
 
 function safeRelativePath(filePath) {
@@ -98,8 +116,8 @@ async function readJson(filePath, displayPath) {
 
 function isDataPathAllowed(filePath) {
   return REQUIRED_DATA_FILES.includes(filePath)
-    || /^issues-index-(?:\d{4})-(?:0[1-9]|1[0-2])\.json$/.test(filePath)
-    || /^issues\/(?:[^/]+\/)*[^/]+\.json$/.test(filePath);
+    || MONTH_INDEX_PATH_PATTERN.test(filePath)
+    || ISSUE_PATH_PATTERN.test(filePath);
 }
 
 function normalizeManifest(raw) {
@@ -116,7 +134,75 @@ function normalizeManifest(raw) {
   };
 }
 
-async function inspectDataRoot(dataRoot) {
+function canonicalJson(value) {
+  if (Array.isArray(value)) return `[${value.map(canonicalJson).join(',')}]`;
+  if (isRecord(value)) {
+    return `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${canonicalJson(value[key])}`).join(',')}}`;
+  }
+  return JSON.stringify(value);
+}
+
+function validateLatestSnapshot(latest, expectedEdition) {
+  if (!isRecord(latest)) fail('latest.json must contain a JSON object');
+  if (latest.schemaVersion !== 1) fail('latest.json schemaVersion must be 1');
+  const issueNo = normalizeIssueNo(latest.issueNo, 'latest.json issueNo');
+  const date = normalizeIssueDate(latest.date, 'latest.json date');
+  const edition = normalizeEdition(latest.edition);
+  const generatedAt = canonicalPublishedAt(latest.generatedAt);
+  if (expectedEdition && edition !== expectedEdition) fail('latest.json edition does not match workflow edition');
+  return { issueNo, date, edition, generatedAt };
+}
+
+function validateGraph(graph) {
+  if (!isRecord(graph)) fail('graph.json must contain a JSON object');
+  if (graph.schemaVersion !== 2) fail('graph.json schemaVersion must be 2');
+  if (!Array.isArray(graph.issues)) fail('graph.json issues must be an array');
+  if (!Array.isArray(graph.articles)) fail('graph.json articles must be an array');
+}
+
+function validateIndexManifest(indexManifest, fileMap) {
+  if (!isRecord(indexManifest) || indexManifest.schemaVersion !== 1 || !Array.isArray(indexManifest.months)) {
+    fail('index-manifest.json must contain schemaVersion 1 and a months array');
+  }
+  for (const month of indexManifest.months) {
+    if (typeof month !== 'string' || !/^\d{4}-(?:0[1-9]|1[0-2])$/.test(month)) {
+      fail(`invalid issue index month: ${String(month)}`);
+    }
+    const issueIndexPath = `issues-index-${month}.json`;
+    const index = fileMap.get(issueIndexPath);
+    if (!index) fail(`${issueIndexPath} is required by index-manifest.json`);
+    if (!isRecord(index.value) || index.value.schemaVersion !== 1 || index.value.month !== month || !Array.isArray(index.value.issues)) {
+      fail(`${issueIndexPath} has an invalid monthly index structure`);
+    }
+  }
+}
+
+function validateCanonicalIssue(latest, identity, fileMap) {
+  const issuePath = `issues/${identity.date}-${identity.edition}.json`;
+  const issueFile = fileMap.get(issuePath);
+  if (!issueFile) fail(`${issuePath} is required for latest.json`);
+  if (!isRecord(issueFile.value)) fail(`${issuePath} must contain a JSON object`);
+  for (const field of ['schemaVersion', 'issueNo', 'date', 'edition', 'generatedAt']) {
+    if (issueFile.value[field] !== latest[field]) fail(`${issuePath} ${field} does not match latest.json`);
+  }
+  if (canonicalJson(issueFile.value) !== canonicalJson(latest)) fail(`${issuePath} does not match latest.json`);
+  return issuePath;
+}
+
+function validateLatestMonthIndex(identity, fileMap, issuePath) {
+  const month = identity.date.slice(0, 7);
+  const indexPath = `issues-index-${month}.json`;
+  const index = fileMap.get(indexPath)?.value;
+  if (!index) fail(`${indexPath} is required for latest.json`);
+  const matches = index.issues.some((entry) => isRecord(entry)
+    && entry.issueNo === identity.issueNo
+    && entry.date === identity.date
+    && entry.edition === identity.edition
+    && entry.path === issuePath);
+  if (!matches) fail(`${indexPath} is missing the canonical latest issue entry`);
+}
+
+async function inspectDataRoot(dataRoot, expectedEdition = '') {
   let rootStats;
   try {
     rootStats = await lstat(dataRoot);
@@ -127,11 +213,11 @@ async function inspectDataRoot(dataRoot) {
 
   const walked = await walkFiles(dataRoot);
   for (const directory of walked.directories) {
-    if (directory !== 'issues' && !directory.startsWith('issues/')) fail(`unexpected data directory: ${directory}`);
+    if (directory !== 'issues') fail(`unexpected data directory: ${directory}`);
   }
   for (const file of walked.files) {
     if (!isDataPathAllowed(file.path)) fail(`unexpected data path or type: ${file.path}`);
-    await readJson(file.fullPath, file.path);
+    file.value = await readJson(file.fullPath, file.path);
   }
 
   const fileMap = new Map(walked.files.map((file) => [file.path, file]));
@@ -139,20 +225,12 @@ async function inspectDataRoot(dataRoot) {
     if (!fileMap.has(required)) fail(`${required} is required`);
   }
 
-  const indexManifest = await readJson(fileMap.get('index-manifest.json').fullPath, 'index-manifest.json');
-  if (!isRecord(indexManifest) || !Array.isArray(indexManifest.months)) {
-    fail('index-manifest.json must contain a months array');
-  }
-  for (const month of indexManifest.months) {
-    if (typeof month !== 'string' || !/^\d{4}-(?:0[1-9]|1[0-2])$/.test(month)) {
-      fail(`invalid issue index month: ${String(month)}`);
-    }
-    const issueIndex = `issues-index-${month}.json`;
-    if (!fileMap.has(issueIndex)) fail(`${issueIndex} is required by index-manifest.json`);
-  }
-
-  const latest = await readJson(fileMap.get('latest.json').fullPath, 'latest.json');
-  if (!isRecord(latest)) fail('latest.json must contain a JSON object');
+  const latest = fileMap.get('latest.json').value;
+  const identity = validateLatestSnapshot(latest, expectedEdition);
+  validateGraph(fileMap.get('graph.json').value);
+  validateIndexManifest(fileMap.get('index-manifest.json').value, fileMap);
+  const issuePath = validateCanonicalIssue(latest, identity, fileMap);
+  validateLatestMonthIndex(identity, fileMap, issuePath);
   return { files: walked.files, latest };
 }
 
@@ -161,7 +239,7 @@ async function inspectPackage(packageRoot) {
   const dataFiles = [];
   let manifest;
   for (const directory of walked.directories) {
-    if (directory !== 'data' && !directory.startsWith('data/issues')) {
+    if (directory !== 'data' && directory !== 'data/issues') {
       fail(`unexpected package directory: ${directory}`);
     }
   }
@@ -175,7 +253,7 @@ async function inspectPackage(packageRoot) {
     }
   }
   if (!manifest) fail('delivery-manifest.json is required');
-  await inspectDataRoot(join(packageRoot, 'data'));
+  await inspectDataRoot(join(packageRoot, 'data'), manifest.edition);
   return { files: walked.files, dataFiles, manifest };
 }
 
@@ -186,8 +264,8 @@ export function publicationOutputs({ changed, sourceSha }) {
   };
 }
 
-export function shouldDispatch({ published, enabled }) {
-  return published === 'true' && enabled === 'true';
+export function shouldDispatch({ published, enabled, ref }) {
+  return published === 'true' && enabled === 'true' && ref === 'refs/heads/main';
 }
 
 export function dispatchPayload({ sourceRunId, sourceSha, edition, publishedAt }) {
@@ -203,10 +281,7 @@ export async function packageDelivery({ sourceRoot, destination, sourceRunId, so
   const normalizedRunId = normalizeRunId(sourceRunId);
   const normalizedSha = normalizeSha(sourceSha);
   const normalizedEdition = normalizeEdition(edition);
-  const inspected = await inspectDataRoot(sourceRoot);
-  if (inspected.latest.edition !== normalizedEdition) {
-    fail('latest.json edition does not match workflow edition');
-  }
+  const inspected = await inspectDataRoot(sourceRoot, normalizedEdition);
   const publishedAt = canonicalPublishedAt(inspected.latest.generatedAt);
   const manifest = {
     schemaVersion: DELIVERY_SCHEMA_VERSION,

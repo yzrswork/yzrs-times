@@ -30,6 +30,14 @@ graph.json を読む派生ビュー。発行のたびに自動で育つ。入口
 
 Site (`yzrswork/yzrswork-site`) がSite repositoryへの唯一のwriterです。Times senderはSite contents:writeを持たず、Site workflow dispatch専用の `SITE_SYNC_TOKEN` を使います。自動dispatchは repository variable `SITE_SYNC_ENABLED == 'true'` のときだけ有効で、未設定・falseでは発行を成功させたままdispatchをskipします。新しいdelivery cronは追加せず、既存のCloudflare scheduler、GitHub schedule、publish timingは変更しません。Shadow firstであり、Production/cutoverは変更しません。
 
+### Cross-repo token scopes
+
+- `TIMES_ARTIFACT_READ_TOKEN`（Site側で使用）: repository accessは `yzrswork/yzrs-times` のみに制限し、Actions: Read と Contents: Readだけを付与します。write権限は不要です。
+- `SITE_SYNC_TOKEN`（このsender側で使用）: repository accessは `yzrswork/yzrswork-site` のみに制限し、Actions: Writeだけを付与します。Site Contents: Writeは付与しません。
+- Site receiverの `GITHUB_TOKEN` が、Site自身の `public/data/` の最終commit/pushを担当します。Times senderにはSite Contents: Write権限を与えません。
+
+`SITE_SYNC_ENABLED` を将来有効にしても、senderのcross-repo dispatchは `refs/heads/main` からの発行に限定されます。Site dispatchの5xx/API transport失敗だけを最大1回再試行し、認証失敗・入力不正・その他の決定的失敗は再試行しません。
+
 ランニングコストは **¥0**（GitHub Actions無料枠・Gemini API無料枠・Cloudflare Workers無料枠）。
 
 ## 紙面憲法（変えないこと）
