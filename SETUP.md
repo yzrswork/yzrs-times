@@ -89,3 +89,13 @@ Actionsのscheduleトリガーは混雑時に数十分から3時間以上遅れ�
 - 紙面（latest.json）は常に最新の版を表示します。昼刊発行後は昼刊、翌朝はまた朝刊
 - 夕刊（/evening.html）は発行のない常設ページ。縮刷版アーカイブ全体をGraph Viewで
   探索するモードで、朝刊、昼刊が発行されるたびに自動で育ちます
+
+## Shadow cross-repo delivery token scopes
+
+Shadow E2E setupで使うtokenは、実値をRepositoryへ保存せず、次の最小権限にします。
+
+- `TIMES_ARTIFACT_READ_TOKEN`: `yzrswork/yzrs-times` のみにrepository accessを制限し、Actions: Read と Contents: Readを付与します。Contents readは、Site receiverが公開コミットのprovenanceを検証するために必要です。write権限は付与しません。
+- `SITE_SYNC_TOKEN`: `yzrswork/yzrswork-site` のみにrepository accessを制限し、Actions: Writeだけを付与します。Site Contents: Writeは付与しません。
+- Site receiverの `GITHUB_TOKEN`: `yzrswork-site` のworkflowが自身の `public/data/` を受け入れた場合のcommit/pushに使うSite repository credentialです。Times senderのcredentialではありません。
+
+`SITE_SYNC_ENABLED` はこのハードニング作業では変更しません。Cloudflare、DNS、custom domain、deploy、production cutoverも変更しません。

@@ -1,5 +1,15 @@
 name: Publish Edition
 description: Build and publish a YZRS Times edition
+outputs:
+  published:
+    description: Whether this run generated and pushed a new Times edition
+    value: ${{ steps.commit.outputs.published }}
+  source_sha:
+    description: The actual post-publication repository HEAD SHA
+    value: ${{ steps.commit.outputs.source_sha }}
+  published_at:
+    description: Canonical generatedAt of the published edition
+    value: ${{ steps.commit.outputs.published_at }}
 inputs:
   edition:
     description: 'Edition to publish (morning / midday)'
@@ -36,20 +46,44 @@ runs:
         if [ "${{ inputs.force }}" = "true" ]; then ARGS="--force"; fi
         node scripts/build-issue.mjs ${{ inputs.edition }} $ARGS
 
+    - name: Detect new publication
+      id: detect
+      shell: bash
+      run: |
+        set -euo pipefail
+        if [ -z "$(git status --porcelain -- public/data data)" ]; then
+          echo "published=false" >> "$GITHUB_OUTPUT"
+        else
+          echo "published=true" >> "$GITHUB_OUTPUT"
+        fi
+
     - name: Build graph
       shell: bash
       run: node scripts/build-graph.mjs
 
     - name: Commit and push
+      id: commit
       shell: bash
       run: |
+        set -euo pipefail
         git config user.name "YZRS Times 編集部"
         git config user.email "actions@users.noreply.github.com"
         git add public/data data
         if git diff --cached --quiet; then
           echo "変更なし。"
+          echo "published=false" >> "$GITHUB_OUTPUT"
+          echo "source_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "published_at=" >> "$GITHUB_OUTPUT"
           exit 0
         fi
         MSG=$(cat data/last-issue-message.txt 2>/dev/null || echo "Publish issue")
         git commit -m "$MSG"
         git push
+        echo "published=${{ steps.detect.outputs.published }}" >> "$GITHUB_OUTPUT"
+        echo "source_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+        if [ "${{ steps.detect.outputs.published }}" = "true" ]; then
+          PUBLISHED_AT=$(node -e "const x=JSON.parse(require('fs').readFileSync('public/data/latest.json','utf8')); if (new Date(x.generatedAt).toISOString() !== x.generatedAt) process.exit(1); process.stdout.write(x.generatedAt)")
+          echo "published_at=$PUBLISHED_AT" >> "$GITHUB_OUTPUT"
+        else
+          echo "published_at=" >> "$GITHUB_OUTPUT"
+        fi

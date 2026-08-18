@@ -15,7 +15,7 @@ Less scrolling. More discovering.
   ② rank    : 重複除去 → Heat Index計算 → ソース別クォータで候補30件に
   ③ edit    : LLM（Gemini無料枠）が編集長として、記事の選定・並び・
               日本語3行要約・今日のテーマ・編集長コメント・Hidden Gemを決める
-  ④ publish : 号JSONを生成して commit & push
+④ publish : 号JSONを生成して commit & push
        ↓ pushを検知して Cloudflare（Workers静的アセット）が自動デプロイ
 静的な工房トップ public/index.html から各作業台・道具・読み物を案内
 YZRS Timesの紙面 public/times/index.html が latest.json を読んで描画
@@ -23,6 +23,20 @@ YZRS Timesの紙面 public/times/index.html が latest.json を読んで描画
 graph.json を読む派生ビュー。発行のたびに自動で育つ。入口は「編集長の目次」、
 星図はX軸=時間の決定論レイアウト。設計は docs/DESIGN.md 2026-07-28追記）
 ```
+
+## Cross-repo delivery（Shadow v0.1）
+
+新しい号が生成された発行commitの後段だけ、publish actionは現在の `public/data/` をJSON-onlyの `times-delivery` artifactとして保存します。重複/fallback runで `graph.json` だけが変わる場合は `published=false` としてartifactとdispatchを行いません。artifactには `delivery-manifest.json`（実際にpushしたpost-publication HEAD、Actions run ID、edition、`latest.json.generatedAt`）を含めます。HTML、CSS、JS、workflow、scripts、内部 `data/`、scheduler、prompt、secretは送信しません。
+
+Site (`yzrswork/yzrswork-site`) がSite repositoryへの唯一のwriterです。Times senderはSite contents:writeを持たず、Site workflow dispatch専用の `SITE_SYNC_TOKEN` を使います。自動dispatchは repository variable `SITE_SYNC_ENABLED == 'true'` のときだけ有効で、未設定・falseでは発行を成功させたままdispatchをskipします。新しいdelivery cronは追加せず、既存のCloudflare scheduler、GitHub schedule、publish timingは変更しません。Shadow firstであり、Production/cutoverは変更しません。
+
+### Cross-repo token scopes
+
+- `TIMES_ARTIFACT_READ_TOKEN`（Site側で使用）: repository accessは `yzrswork/yzrs-times` のみに制限し、Actions: Read と Contents: Readだけを付与します。write権限は不要です。
+- `SITE_SYNC_TOKEN`（このsender側で使用）: repository accessは `yzrswork/yzrswork-site` のみに制限し、Actions: Writeだけを付与します。Site Contents: Writeは付与しません。
+- Site receiverの `GITHUB_TOKEN` が、Site自身の `public/data/` の最終commit/pushを担当します。Times senderにはSite Contents: Write権限を与えません。
+
+`SITE_SYNC_ENABLED` を将来有効にしても、senderのcross-repo dispatchは `refs/heads/main` からの発行に限定されます。Site dispatchの5xx/API transport失敗だけを最大1回再試行し、認証失敗・入力不正・その他の決定的失敗は再試行しません。
 
 ランニングコストは **¥0**（GitHub Actions無料枠・Gemini API無料枠・Cloudflare Workers無料枠）。
 

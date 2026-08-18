@@ -23,9 +23,44 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: ./.github/actions/publish-edition
+      - id: publish
+        uses: ./.github/actions/publish-edition
         with:
           edition: midday
           force: ${{ inputs.force }}
           gemini-api-key: ${{ secrets.GEMINI_API_KEY }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Package Times delivery
+        id: package_delivery
+        if: steps.publish.outputs.published == 'true'
+        env:
+          SOURCE_RUN_ID: ${{ github.run_id }}
+          SOURCE_SHA: ${{ steps.publish.outputs.source_sha }}
+          EDITION: midday
+        run: |
+          node scripts/package-times-delivery.mjs \
+            --source-root public/data \
+            --destination "$RUNNER_TEMP/times-delivery" \
+            --source-run-id "$SOURCE_RUN_ID" \
+            --source-sha "$SOURCE_SHA" \
+            --edition "$EDITION" \
+            --output "$GITHUB_OUTPUT"
+
+      - name: Upload Times delivery artifact
+        if: steps.publish.outputs.published == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: times-delivery
+          path: ${{ runner.temp }}/times-delivery
+          if-no-files-found: error
+
+      - name: Dispatch Site receiver
+        if: steps.publish.outputs.published == 'true' && vars.SITE_SYNC_ENABLED == 'true' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ secrets.SITE_SYNC_TOKEN }}
+          SOURCE_RUN_ID: ${{ github.run_id }}
+          SOURCE_SHA: ${{ steps.publish.outputs.source_sha }}
+          EDITION: midday
+          PUBLISHED_AT: ${{ steps.package_delivery.outputs.published_at }}
+        run: node scripts/dispatch-site.mjs

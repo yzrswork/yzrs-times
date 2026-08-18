@@ -8,6 +8,8 @@ GitHub Actionsのscheduleトリガーは、GitHub公式が「混雑時は遅延�
 
 GitHub Actions側の`schedule`トリガー(publish.yml、publish-midday.yml)は削除していない。このWorkerが何らかの理由で動かなくなっても、既存のscheduleトリガーが(遅れてでも)最終的に発行する安全網として残る。発行スクリプト側はその日の号が既に発行済みなら即終了するため、両方が動いても二重発行にはならない。
 
+Timesのcross-repo deliveryは既存publish workflowの成功後段にchainされるだけで、新しいcronやscheduler動作は追加しない。senderは `public/data/` のJSON artifactを作り、Site dispatchは `SITE_SYNC_ENABLED == 'true'` の場合だけ行う。既存のschedule fallbackと発行タイミングは変更しない。
+
 ## セットアップ
 
 初回だけ、このディレクトリで以下を実行する(所要10分、詳細はリポジトリ直下のSETUP.md「4. 発行タイミングの精度を上げる」も参照):
