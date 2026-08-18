@@ -253,6 +253,13 @@
       "edition": "midday",
       "theme": "機構の解剖と描画の工夫",
       "path": "issues/2026-08-18-midday.json"
+    },
+    {
+      "issueNo": 79,
+      "date": "2026-08-19",
+      "edition": "morning",
+      "theme": "走査と復旧、物理層の手触り",
+      "path": "issues/2026-08-19-morning.json"
     }
   ]
 }
