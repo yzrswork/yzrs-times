@@ -239,6 +239,13 @@
       "edition": "midday",
       "theme": "指先と基盤のチューニング",
       "path": "issues/2026-08-17-midday.json"
+    },
+    {
+      "issueNo": 77,
+      "date": "2026-08-18",
+      "edition": "morning",
+      "theme": "自動の波間に歪む輪郭",
+      "path": "issues/2026-08-18-morning.json"
     }
   ]
 }
