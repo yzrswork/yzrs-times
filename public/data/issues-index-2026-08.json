@@ -246,6 +246,13 @@
       "edition": "morning",
       "theme": "自動の波間に歪む輪郭",
       "path": "issues/2026-08-18-morning.json"
+    },
+    {
+      "issueNo": 78,
+      "date": "2026-08-18",
+      "edition": "midday",
+      "theme": "機構の解剖と描画の工夫",
+      "path": "issues/2026-08-18-midday.json"
     }
   ]
 }

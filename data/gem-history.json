@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-aef1d765",
-      "url": "https://github.com/jgromes/RadioLib",
-      "date": "2026-07-19"
-    },
-    {
-      "id": "show-hn-247159c1",
-      "url": "http://www.dogbunnypuzzle.com/",
-      "date": "2026-07-19"
-    },
-    {
       "id": "show-hn-1be73848",
       "url": "https://giza.mused.org/en/guided/266/inside-the-great-pyramid",
       "date": "2026-07-20"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-551e05b2",
       "url": "https://github.com/jameshball/osci-render",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "github-gems-6edb6109",
+      "url": "https://github.com/shorepine/tulipcc",
       "date": "2026-08-18"
     }
   ]

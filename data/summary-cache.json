@@ -6444,6 +6444,114 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-17T20:18:23.822Z"
+    },
+    "2e745fe075c33d76": {
+      "url": "https://www.publickey1.jp/blog/26/pythonmojo10.html",
+      "summaryJa": [
+        "Pythonライクで高速な「Mojo言語」がバージョン1.",
+        "0に到達、今後はコンパイラをオープンソース化すると表明 Modular社は、AIを高速に実行することを目指したPythonライクなプログラミング言語「Mojo」",
+        "0に到達したことを発表しました。"
+      ],
+      "cachedAt": "2026-08-18T02:51:23.760Z"
+    },
+    "a52672b0840956f8": {
+      "url": "https://timmarinin.net/2026/bluesky-screenshots/",
+      "summaryJa": [
+        "How Bluesky draws its logo on screenshots",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-18T02:51:23.760Z"
+    },
+    "c3421db32768c171": {
+      "url": "https://zenn.dev/dress_code/articles/da536c39873876",
+      "summaryJa": [
+        "こんにちは。",
+        "Dress Code株式会社でプロダクトエンジニアをしているぽこひで（@pokohide）です。",
+        "アプリ用のAurora PostgreSQLにRDS Proxyを導入し、数ヶ月運用した末に撤去しました。"
+      ],
+      "cachedAt": "2026-08-18T02:51:23.760Z"
+    },
+    "4f5a33c12fbbc92c": {
+      "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
+      "summaryJa": [
+        "A Preview of DuckDB v2.0",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-18T02:51:23.760Z"
+    },
+    "b961931d546f10f9": {
+      "url": "https://fabiensanglard.net/quake_shareware_cd/index.html",
+      "summaryJa": [
+        "Quake Shareware, a CD-ROM just a little too full",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-18T02:51:23.760Z"
+    },
+    "5662d2ab59a1abfe": {
+      "url": "https://zenn.dev/hidebike712/books/oauth-attacks-and-bcp",
+      "summaryJa": [
+        "OAuth における代表的な攻撃手法とその対抗策を最新のベストプラクティスに基づいて解説します。",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-18T02:51:23.760Z"
+    },
+    "33097263981dc14c": {
+      "url": "https://zenn.dev/dev_commune/articles/acb91817341f8f",
+      "summaryJa": [
+        "こんにちは、コミューンでプロダクトマネージャーをしているひぐ(@zerebom_3)です。",
+        "Webサービスを多くの方に使っていただくには、わかりやすく網羅的なガイドブックが欠かせません。",
+        "https://learn."
+      ],
+      "cachedAt": "2026-08-18T02:51:23.760Z"
+    },
+    "132942b7a0290689": {
+      "url": "https://zenn.dev/n4mlz/articles/fec8711345dd70",
+      "summaryJa": [
+        "はじめに 先日、セキュリティ・キャンプ 2026 ネクストを修了しました。",
+        "https://x.",
+        "com/n4mlz/status/2088274277854527578 セキュリティキャンプ・ネクストでは、全国大会と異なって本人の得意不得意に関係なく参加者"
+      ],
+      "cachedAt": "2026-08-18T02:51:23.760Z"
+    },
+    "91d7a9c059f76342": {
+      "url": "https://qiita.com/jqit_suwa/items/3906db61d153fe8691aa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "Qiita で Mermaid を使うと、日本語で崩れます。",
+        "ノードのラベルが変な位置で折り返される ダークテーマで文字が見えなくなる subgraph のラベルが枠を突き抜ける 自分は毎回これを踏んでいて、対策として で",
+        "."
+      ],
+      "cachedAt": "2026-08-18T02:51:23.760Z"
+    },
+    "a7af7af5aa33835e": {
+      "url": "https://github.com/codereport/max-odd-binary/blob/main/WHY_BQN_WINS.md",
+      "summaryJa": [
+        "All BQN solutions outperformed everything else in this perf wars video, this fil",
+        "Comments",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-18T02:51:23.760Z"
+    },
+    "1c255fcd10b3a952": {
+      "url": "https://www.dra27.uk/blog/platform/2025/09/25/building-with-effects.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-18T02:51:23.760Z"
+    },
+    "e3ef5c21777cc332": {
+      "url": "https://thefloatingcontinent.com/blog/upside-down-arrow-unicode/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-18T02:51:23.760Z"
     }
   }
 }
