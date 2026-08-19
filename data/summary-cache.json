@@ -6651,6 +6651,78 @@
         "カタログハウスがITmedia NEWSの取."
       ],
       "cachedAt": "2026-08-18T20:20:41.432Z"
+    },
+    "07219bb6dc06194c": {
+      "url": "https://qiita.com/jqit_suwa/items/acb61138c4550eef4803?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "GitHub Trending に「14MB のモデル」が来ていました。",
+        "Cactus Compute の Needle 2 です。",
+        "45M パラメータで、ツール呼び出しに特化しています。"
+      ],
+      "cachedAt": "2026-08-19T02:49:11.042Z"
+    },
+    "743354b8cabd0056": {
+      "url": "https://zenn.dev/itome/articles/e087c6d11d0bd2",
+      "summaryJa": [
+        "こんにちは。",
+        "itome(@itometeam)です。",
+        "Rustでアプリが書けるフレームワークを作ったので、その紹介をします。"
+      ],
+      "cachedAt": "2026-08-19T02:49:11.043Z"
+    },
+    "ff6ae513ffbb6589": {
+      "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2133686.html",
+      "summaryJa": [
+        "【特集】 sigmarion IIIも甦る！「Claude Code」が凄すぎて2カ月間下僕になった",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-19T02:49:11.043Z"
+    },
+    "9d46ade5d1942892": {
+      "url": "https://github.com/DenisSergeevitch/desktop-fly",
+      "summaryJa": [
+        "A 3D fruit fly on macOS desktop powered by the rea",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-19T02:49:11.043Z"
+    },
+    "c7ef34d78abf12e9": {
+      "url": "https://zenn.dev/ito/articles/6b042aa27d65bc",
+      "summaryJa": [
+        "はじめに AIコーディングエージェントに仕事を任せていると、たまにギョッとする瞬間があります。",
+        "通らないテストを skip にして「全テストがパスしました！",
+        "」と報告してくる。"
+      ],
+      "cachedAt": "2026-08-19T02:49:11.043Z"
+    },
+    "b81f04c5bc261bec": {
+      "url": "https://odin-lang.org/docs/inline-asm/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-19T02:49:11.043Z"
+    },
+    "0afc1c9c836dd779": {
+      "url": "https://www.modular.com/blog/mojo-open-source",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-19T02:49:11.043Z"
+    },
+    "d67a2dc3c218f0c2": {
+      "url": "https://github.com/zynaddsubfx/zynaddsubfx",
+      "summaryJa": [
+        "ZynAddSubFX open source synthesizer",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-19T02:49:11.043Z"
     }
   }
 }

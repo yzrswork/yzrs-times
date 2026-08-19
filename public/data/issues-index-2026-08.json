@@ -260,6 +260,13 @@
       "edition": "morning",
       "theme": "走査と復旧、物理層の手触り",
       "path": "issues/2026-08-19-morning.json"
+    },
+    {
+      "issueNo": 80,
+      "date": "2026-08-19",
+      "edition": "midday",
+      "theme": "手元で駆動する極小の機構",
+      "path": "issues/2026-08-19-midday.json"
     }
   ]
 }

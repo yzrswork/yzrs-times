@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-1be73848",
-      "url": "https://giza.mused.org/en/guided/266/inside-the-great-pyramid",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "github-gems-64ed6381",
-      "url": "https://github.com/HomeSpan/HomeSpan",
-      "date": "2026-07-20"
-    },
-    {
       "id": "show-hn-de6f8fe5",
       "url": "https://news.ycombinator.com/item?id=48968606",
       "date": "2026-07-21"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-7c19f251",
       "url": "https://github.com/FluidSynth/fluidsynth",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "github-gems-3248396f",
+      "url": "https://github.com/zynaddsubfx/zynaddsubfx",
       "date": "2026-08-19"
     }
   ]
