@@ -267,6 +267,13 @@
       "edition": "midday",
       "theme": "手元で駆動する極小の機構",
       "path": "issues/2026-08-19-midday.json"
+    },
+    {
+      "issueNo": 81,
+      "date": "2026-08-20",
+      "edition": "morning",
+      "theme": "古典的な力学と時の堆積",
+      "path": "issues/2026-08-20-morning.json"
     }
   ]
 }
