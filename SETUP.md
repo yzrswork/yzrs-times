@@ -1,14 +1,14 @@
 # セットアップ手順
 
-> **SUPERSEDED / 2026-08-19 cutover前の旧手順**
->
 > **現行Productionに関する重要注意**
 >
 > 2026-08-19にProduction sourceは `yzrswork/yzrs-times` から `yzrswork/yzrswork-site` へ切り替わりました。
 > 現在の経路は `Cloudflare Workers Builds` → `yzrswork/yzrswork-site/main` → 既存Worker `yzrs-times` → `yzrswork.com` です。
-> 以下の `yzrs-times` 直接接続・Save and Deploy手順は旧構成の履歴・rollback referenceです。現行Production用には実行しないでください。
+> この文書には、現行Times setupと、cutover前の旧Cloudflare Production接続手順が併存します。
+> `## 2.` の旧Cloudflare Production接続手順だけが **SUPERSEDED** です。現行Production用にはSection 2を実行しないでください。
+> `## 4.` のscheduler Worker deployは、現行Times運用のための別物であり、`yzrswork.com` のProduction Site deployとは別です。
 
-現在のTimes運用に必要な初回設定と、cutover前の旧手順を記録します。Section 2は履歴・rollback referenceとして保持し、現行Production用には実行しません。
+現在のTimes運用に必要な初回設定と、Section 2に記録したcutover前の旧手順を併記します。Section 2は履歴・rollback referenceとして保持し、現行Production用には実行しません。
 
 ## 1. Gemini APIキーを発行してリポジトリに登録する（5分）
 
