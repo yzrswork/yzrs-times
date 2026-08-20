@@ -274,6 +274,13 @@
       "edition": "morning",
       "theme": "古典的な力学と時の堆積",
       "path": "issues/2026-08-20-morning.json"
+    },
+    {
+      "issueNo": 82,
+      "date": "2026-08-20",
+      "edition": "midday",
+      "theme": "手元のテキストと、組み立てる骨組み",
+      "path": "issues/2026-08-20-midday.json"
     }
   ]
 }
