@@ -16,19 +16,22 @@ Less scrolling. More discovering.
   ③ edit    : LLM（Gemini無料枠）が編集長として、記事の選定・並び・
               日本語3行要約・今日のテーマ・編集長コメント・Hidden Gemを決める
 ④ publish : 号JSONを生成して commit & push
-       ↓ pushを検知して Cloudflare（Workers静的アセット）が自動デプロイ
-静的な工房トップ public/index.html から各作業台・道具・読み物を案内
-YZRS Timesの紙面 public/times/index.html が latest.json を読んで描画
+       ↓ 新規号の `times-delivery` artifactを作成し、
+         `yzrswork/yzrswork-site` の `sync-times.yml` を workflow_dispatch
+       ↓ Siteが検証してSite-owned `public/data/` を更新
+       ↓ Cloudflare Workers Buildsが `yzrswork-site/main` をProduction deploy
+静的な工房トップは `yzrswork-site` の `public/index.html` から配信
+YZRS Timesの紙面は `yzrswork-site/public/times/index.html` が latest.json を読んで描画
 夕刊 public/evening.html は縮刷版アーカイブ全体の探索モード（発行なし・
 graph.json を読む派生ビュー。発行のたびに自動で育つ。入口は「編集長の目次」、
 星図はX軸=時間の決定論レイアウト。設計は docs/DESIGN.md 2026-07-28追記）
 ```
 
-## Cross-repo delivery（Shadow v0.1）
+## Cross-repo delivery（Current Production path）
 
 新しい号が生成された発行commitの後段だけ、publish actionは現在の `public/data/` をJSON-onlyの `times-delivery` artifactとして保存します。重複/fallback runで `graph.json` だけが変わる場合は `published=false` としてartifactとdispatchを行いません。artifactには `delivery-manifest.json`（実際にpushしたpost-publication HEAD、Actions run ID、edition、`latest.json.generatedAt`）を含めます。HTML、CSS、JS、workflow、scripts、内部 `data/`、scheduler、prompt、secretは送信しません。
 
-Site (`yzrswork/yzrswork-site`) がSite repositoryへの唯一のwriterです。Times senderはSite contents:writeを持たず、Site workflow dispatch専用の `SITE_SYNC_TOKEN` を使います。自動dispatchは repository variable `SITE_SYNC_ENABLED == 'true'` のときだけ有効で、未設定・falseでは発行を成功させたままdispatchをskipします。新しいdelivery cronは追加せず、既存のCloudflare scheduler、GitHub schedule、publish timingは変更しません。Shadow firstであり、Production/cutoverは変更しません。
+Site (`yzrswork/yzrswork-site`) がSite repositoryへの唯一のwriterです。Times senderはSite contents:writeを持たず、Site workflow dispatch専用の `SITE_SYNC_TOKEN` を使います。自動dispatchは repository variable `SITE_SYNC_ENABLED == 'true'` のときだけ有効で、未設定・falseでは発行を成功させたままdispatchをskipします。新しいdelivery cronは追加せず、既存のCloudflare scheduler、GitHub schedule、publish timingは変更しません。2026-08-19のcutover後、このartifact → Site workflow dispatch経路が現在のProduction data delivery pathです。Production Site sourceは `yzrswork/yzrswork-site` です。
 
 ### Cross-repo token scopes
 
@@ -66,7 +69,7 @@ Site (`yzrswork/yzrswork-site`) がSite repositoryへの唯一のwriterです。
 ## リポジトリ構成
 
 ```
-public/            Cloudflare が配信する公開ディレクトリ（wrangler.jsonc の assets.directory）
+public/            Times側の生成・配送出力（現在の `yzrswork.com` の直接Production sourceではありません）
   index.html       や印工務店の総合トップ（静的HTML）
   times/index.html YZRS Times紙面（単一ファイル）
   evening.html     夕刊 = 縮刷版探索モード（単一ファイル。目次 + 時間軸の星図）
@@ -81,6 +84,8 @@ sources.json       情報源の宣言
 data/              パイプラインの状態（gem履歴・要約キャッシュ・ソース死活）
 samples/           dry-run用の固定候補fixture
 ```
+
+現在の `yzrswork.com` は `yzrswork-site/main` をProduction sourceとし、このRepositoryはTimesの生成・artifact作成・Site dispatchを担当します。
 
 ## 開発
 
