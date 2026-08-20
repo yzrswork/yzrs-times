@@ -281,6 +281,13 @@
       "edition": "midday",
       "theme": "手元のテキストと、組み立てる骨組み",
       "path": "issues/2026-08-20-midday.json"
+    },
+    {
+      "issueNo": 83,
+      "date": "2026-08-21",
+      "edition": "morning",
+      "theme": "見えない波形と、日常の綻び",
+      "path": "issues/2026-08-21-morning.json"
     }
   ]
 }
