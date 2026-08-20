@@ -1,6 +1,14 @@
 # セットアップ手順
 
-初回だけ、次の3つを手作業で行います（合計15分程度）。発行タイミングの精度を上げたい場合は4つ目も行います（任意、10分）。
+> **SUPERSEDED / 2026-08-19 cutover前の旧手順**
+>
+> **現行Productionに関する重要注意**
+>
+> 2026-08-19にProduction sourceは `yzrswork/yzrs-times` から `yzrswork/yzrswork-site` へ切り替わりました。
+> 現在の経路は `Cloudflare Workers Builds` → `yzrswork/yzrswork-site/main` → 既存Worker `yzrs-times` → `yzrswork.com` です。
+> 以下の `yzrs-times` 直接接続・Save and Deploy手順は旧構成の履歴・rollback referenceです。現行Production用には実行しないでください。
+
+現在のTimes運用に必要な初回設定と、cutover前の旧手順を記録します。Section 2は履歴・rollback referenceとして保持し、現行Production用には実行しません。
 
 ## 1. Gemini APIキーを発行してリポジトリに登録する（5分）
 
@@ -19,7 +27,10 @@ Geminiには無料枠があり、クレジットカード登録は不要です�
 > 使わないため、枠を心配する必要はありません。無料枠では入力データがGoogleの
 > モデル改善に使われることがありますが、送っているのは公開ニュースの見出しと抜粋だけです。
 
-## 2. Cloudflare に接続する（10分・Cloudflare初体験向け）
+## 2. [SUPERSEDED] 旧Cloudflare Production接続手順（2026-08-19 cutover前・実行しない）
+
+> この節はcutover前の構成を記録したものです。旧手順本文は履歴・rollback referenceとして保持しますが、現行Productionの接続先を示すものではありません。
+
 
 Cloudflareに「GitHubリポジトリを接続すると、pushのたびに自動で世界中に配信される」
 無料ホスティングを設定します。
@@ -65,6 +76,9 @@ Cloudflareに「GitHubリポジトリを接続すると、pushのたびに自動
 
 ## 4. 発行タイミングの精度を上げる（任意、10分）
 
+> ここでの `npx wrangler deploy` はTimes scheduler Workerのdeployです。`yzrswork.com` のProduction Site deployとは別物です。
+
+
 Actionsのscheduleトリガーは混雑時に数十分から3時間以上遅れることがあります（発行自体は必ず成功しますが、時刻がずれます）。発行時刻を5:17 JST、11:47 JST付近にできるだけ合わせたい場合は、scheduler/ディレクトリのCloudflare Workerを追加でデプロイします。
 
 1. GitHubの自分のアカウント設定（右上のアバター、Settings、左メニュー最下部のDeveloper settings、Personal access tokens、Fine-grained tokens）から、新規トークンを発行
@@ -98,4 +112,4 @@ Shadow E2E setupで使うtokenは、実値をRepositoryへ保存せず、次の�
 - `SITE_SYNC_TOKEN`: `yzrswork/yzrswork-site` のみにrepository accessを制限し、Actions: Writeだけを付与します。Site Contents: Writeは付与しません。
 - Site receiverの `GITHUB_TOKEN`: `yzrswork-site` のworkflowが自身の `public/data/` を受け入れた場合のcommit/pushに使うSite repository credentialです。Times senderのcredentialではありません。
 
-`SITE_SYNC_ENABLED` はこのハードニング作業では変更しません。Cloudflare、DNS、custom domain、deploy、production cutoverも変更しません。
+`SITE_SYNC_ENABLED` はこのハードニング作業では変更しません。Cloudflare、DNS、custom domain、Production Site cutoverはこのTimes setupの対象外です。Timesの現行責務は生成、artifact作成、`yzrswork-site` へのworkflow dispatchです。
