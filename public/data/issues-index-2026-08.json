@@ -295,6 +295,13 @@
       "edition": "midday",
       "theme": "時をまたぐ規格と、内部の解剖",
       "path": "issues/2026-08-21-midday.json"
+    },
+    {
+      "issueNo": 85,
+      "date": "2026-08-22",
+      "edition": "morning",
+      "theme": "眠れる機能の覚醒と、見えざる創出",
+      "path": "issues/2026-08-22-morning.json"
     }
   ]
 }
