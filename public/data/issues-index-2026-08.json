@@ -288,6 +288,13 @@
       "edition": "morning",
       "theme": "見えない波形と、日常の綻び",
       "path": "issues/2026-08-21-morning.json"
+    },
+    {
+      "issueNo": 84,
+      "date": "2026-08-21",
+      "edition": "midday",
+      "theme": "時をまたぐ規格と、内部の解剖",
+      "path": "issues/2026-08-21-midday.json"
     }
   ]
 }

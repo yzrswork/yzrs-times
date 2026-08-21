@@ -6948,6 +6948,96 @@
         "org&#x2F;2026&#x2F;08&#x2F;20&#x2F;supply-chain-attack-on-arrayref&#x2F;\" rel=\"n"
       ],
       "cachedAt": "2026-08-20T20:18:28.231Z"
+    },
+    "88cba788d4c320eb": {
+      "url": "https://zenn.dev/ymotongpoo/books/go-json-v2-history",
+      "summaryJa": [
+        "encoding/json は Go 1.",
+        "0 から14年間、大文字小文字を区別しないフィールド一致のような既知の問題を抱えたまま修正されませんでした。",
+        "Go 1."
+      ],
+      "cachedAt": "2026-08-21T02:49:15.091Z"
+    },
+    "4033400d943c0746": {
+      "url": "http://mistys-internet.website/blog/blog/2026/08/01/decoding-magic-school-lunars-save-game-format",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-21T02:49:15.091Z"
+    },
+    "89f498fb7aa4e702": {
+      "url": "https://qiita.com/jqit_suwa/items/c87c377fa192de27e2a1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "AGENTS.",
+        "md は、Codex や Cursor など複数のコーディングエージェントが読む共通の指示ファイルです。",
+        "Claude Code はこれを読みません。"
+      ],
+      "cachedAt": "2026-08-21T02:49:15.091Z"
+    },
+    "be076157386177f8": {
+      "url": "https://note.com/fuchagi/n/n42c43cfe0ff0",
+      "summaryJa": [
+        "「次の単語を当てているだけ」のAIが、なぜ数学の証明までできるのか——LLMの創発研究の現在地を調べてみた 「LLMは、次に来る単語を確率的に予測しているだけ」",
+        "GPTもClaudeも、事前学習でやっていることは突き詰めれば次トークンの予測であり、目的関数にそれ以上の何かは書かれてい.",
+        "."
+      ],
+      "cachedAt": "2026-08-21T02:49:15.091Z"
+    },
+    "5585b5d8013ec488": {
+      "url": "https://zenn.dev/mkj/articles/aad5698672aef3",
+      "summaryJa": [
+        "こんにちは、松尾研究所 データサイエンスチームのマネージャーの浮田です。",
+        "最近のAI Agentは、一般的な調査や実装であればかなり高い水準でこなせるようになってきました。",
+        "一方で、実際の社内業務に必要な社内固有の知識は持っておらず、非常に優秀だが、まだオンボーディングを受けていない新入社員に近い状態です。"
+      ],
+      "cachedAt": "2026-08-21T02:49:15.091Z"
+    },
+    "02ed539fac86d3e4": {
+      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "summaryJa": [
+        "The August 17 outage, and the work ahead",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-21T02:49:15.091Z"
+    },
+    "536ba56d32e8bd3c": {
+      "url": "https://zenn.dev/dress_code/articles/2b2832d66b883b",
+      "summaryJa": [
+        "Type-Aware Linting Stable と React Compiler Support を載せた。",
+        "TypeScript 7 への一本化はこれから。",
+        "PR の CI の正は tsc のまま はじめに こんにちは。"
+      ],
+      "cachedAt": "2026-08-21T02:49:15.091Z"
+    },
+    "2d8f9fafce8620df": {
+      "url": "https://qiita.com/KKTeX/items/006cd0dc9e8418dcd703?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "TeXで共通テスト数学の解答用紙を再現 この記事で作るものは、非公式の学習用テンプレートです。",
+        "実際の試験で使用される解答用紙ではありません。",
+        "ロゴや団体名は含めず、科目名なども再現用のダミーとして扱っています。"
+      ],
+      "cachedAt": "2026-08-21T02:49:15.091Z"
+    },
+    "ff6abc89117e87f9": {
+      "url": "https://github.com/emacs-mirror/emacs/blob/062dcd2aead00c3b47c14ff5b6c40313f7a775f5/etc/HISTORY#L246",
+      "summaryJa": [
+        "Biggest thing for me is that tree-sitter's ABI is being bumped to 15 -- fixes co",
+        "For the impatient, RC1 has been posted: https://lists.",
+        "gnu."
+      ],
+      "cachedAt": "2026-08-21T02:49:15.091Z"
+    },
+    "51ca60da9e227069": {
+      "url": "https://00f.net/2026/08/19/why-compiling-rust-to-webassembly-is-slow/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-21T02:49:15.091Z"
     }
   }
 }

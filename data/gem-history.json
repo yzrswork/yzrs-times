@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-24c8dccc",
-      "url": "https://github.com/Botspot/pi-apps",
-      "date": "2026-07-22"
-    },
-    {
-      "id": "github-gems-a9532c92",
-      "url": "https://github.com/opencardev/crankshaft",
-      "date": "2026-07-22"
-    },
-    {
       "id": "indieblog-04f0f779",
       "url": "https://amandastjerna.se/blog/tangara/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
       "date": "2026-07-23"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-f6ae6f69",
       "url": "https://github.com/usetrmnl/trmnl-firmware",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "github-gems-2afbb1c1",
+      "url": "https://github.com/SolderedElectronics/Inkplate-Arduino-library",
       "date": "2026-08-21"
     }
   ]
