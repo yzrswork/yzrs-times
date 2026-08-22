@@ -309,6 +309,13 @@
       "edition": "midday",
       "theme": "AIとの共存と設計の解像度",
       "path": "issues/2026-08-22-midday.json"
+    },
+    {
+      "issueNo": 87,
+      "date": "2026-08-23",
+      "edition": "morning",
+      "theme": "加速の背後で軋むシステム",
+      "path": "issues/2026-08-23-morning.json"
     }
   ]
 }
