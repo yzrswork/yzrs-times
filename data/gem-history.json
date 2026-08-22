@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "indieblog-04f0f779",
-      "url": "https://amandastjerna.se/blog/tangara/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "github-gems-2f754b14",
-      "url": "https://github.com/abey79/vsketch",
-      "date": "2026-07-23"
-    },
-    {
       "id": "github-gems-d4a9ebeb",
       "url": "https://github.com/aitjcize/esp32-photoframe",
       "date": "2026-07-24"
@@ -304,6 +294,11 @@
     {
       "id": "show-hn-fe18a579",
       "url": "https://non.io",
+      "date": "2026-08-22"
+    },
+    {
+      "id": "github-gems-83f0eda9",
+      "url": "https://github.com/altsem/gitu",
       "date": "2026-08-22"
     }
   ]

@@ -7101,6 +7101,123 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-21T20:18:44.684Z"
+    },
+    "fc2222e9a9df62c5": {
+      "url": "https://www.sbbit.jp/article/cont1/186558",
+      "summaryJa": [
+        "「バイブコーディング」の次に来るAI開発の形が、早くも見え始めている。",
+        "いま筆者の開発作業では、直したい点や作りたい機能を短い文章で伝え、自作の自動運転コマンドを起動するだけだ。",
+        "その後は放っておけば、設計書の作成から実装、テスト、本番への反映まで自動で進み、筆者は途中で上がってくる報告に目を通すだけ."
+      ],
+      "cachedAt": "2026-08-22T02:51:04.427Z"
+    },
+    "27b7e490bced9706": {
+      "url": "https://danluu.com/perf-opt/",
+      "summaryJa": [
+        "There's no reason for software to be slow anymore",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-22T02:51:04.427Z"
+    },
+    "668443e7c93a292c": {
+      "url": "https://zenn.dev/onclimb/articles/ts-to-js-pipeline-onclimb",
+      "summaryJa": [
+        "TypeScript で記載したプログラム（.",
+        "ts）は、.",
+        "js に変換されてから実行されます。"
+      ],
+      "cachedAt": "2026-08-22T02:51:04.427Z"
+    },
+    "0e3f01e84696a65a": {
+      "url": "https://zenn.dev/factory_dx_eng/articles/ai-productivity-team-divide",
+      "summaryJa": [
+        "「すぐには理解できないが、正しいことを言っているのだと思う」 週次の報告会で、上司がそう言った。",
+        "私はAIで作ったスライドとHTMLレポートを画面に映していた。",
+        "上司は内容を否定しなかった。"
+      ],
+      "cachedAt": "2026-08-22T02:51:04.427Z"
+    },
+    "002bec9dcc625f6b": {
+      "url": "https://zenn.dev/dmikurube/articles/a-logresearch-er",
+      "summaryJa": [
+        "Embulk というオープンソース・ソフトウェアのメンテナーをやっていました。",
+        "「やっていました」と過去形なのは、いちおうまだメンテナー権限を持ってはいるものの、プロジェクトは「メンテナンス・モード」として実質的にメンテナンスを終了している",
+        "今から二年ほど前の 202."
+      ],
+      "cachedAt": "2026-08-22T02:51:04.427Z"
+    },
+    "b1eac14e55dcb97e": {
+      "url": "https://hackaday.com/2026/08/20/homebrew-68k-machine-has-a-pci-bus/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-22T02:51:04.427Z"
+    },
+    "0ea259a2cd1df5f6": {
+      "url": "https://qiita.com/a_sato_JQIT/items/a82fccf6d52c05156384?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに はじめまして！",
+        "QAエンジニアのSAです！",
+        "私はQA事業部の代表として、日々ソフトウェアの品質と向き合っています。"
+      ],
+      "cachedAt": "2026-08-22T02:51:04.427Z"
+    },
+    "e0e3c0fb64336b4c": {
+      "url": "https://qiita.com/Hatachi/items/7d59d4860b01cfa21393?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 私はプログラミング学習3ヶ月目、Swift学習1ヶ月程度の新人エンジニアです。",
+        "最近実務で「設計パターン」や「MVVM」を学習する機会があったので、MVVMパターンを理解する過程の実体験をもとに「使うとどんないいことがあるのか」をまとめまし",
+        "MVVMとは？"
+      ],
+      "cachedAt": "2026-08-22T02:51:04.427Z"
+    },
+    "a937e478d607316a": {
+      "url": "https://zenn.dev/knowledgework/articles/197309c80efb28",
+      "summaryJa": [
+        "こんにちは。",
+        "特撮熱が爆上がり中のbun913と申します。",
+        "2026年8月より株式会社ナレッジワークでQAエンジニアとして働き始めました。"
+      ],
+      "cachedAt": "2026-08-22T02:51:04.427Z"
+    },
+    "5df73227ee8a0be5": {
+      "url": "https://htmlcat.net",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-22T02:51:04.427Z"
+    },
+    "4b1055d5198c97a8": {
+      "url": "https://func25.dev/posts/go-memory-visibility/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-22T02:51:04.427Z"
+    },
+    "748b90f42d330cb9": {
+      "url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-22T02:51:04.427Z"
+    },
+    "8a30713ea751d0b9": {
+      "url": "https://github.com/altsem/gitu",
+      "summaryJa": [
+        "A TUI Git client inspired by Magit",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-22T02:51:04.427Z"
     }
   }
 }
