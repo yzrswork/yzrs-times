@@ -7290,6 +7290,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-22T20:18:11.660Z"
+    },
+    "3bfc17e907a3e430": {
+      "url": "https://zenn.dev/holy_fox/articles/53b82eed45f956",
+      "summaryJa": [
+        "2026年8月22日時点のFreeToken 0.",
+        "1.",
+        "2を、RTX 5090 32GBとRAM 128GBのPCで試しました。"
+      ],
+      "cachedAt": "2026-08-23T02:49:58.051Z"
+    },
+    "53de3fca829591e9": {
+      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "summaryJa": [
+        "Why your local LLM feels dumber than it is",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-23T02:49:58.051Z"
+    },
+    "4106bedf5b97be4d": {
+      "url": "https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384?__readwiseLocation=",
+      "summaryJa": [
+        "概要 Claude CodeやCodexのようなAIコーディングエージェントは、コードの調査、実装、テスト、ドキュメント更新などをまとめて進められます。",
+        "小さな修正であれば、「この不具合を直してください」という指示だけでも十分な結果が得られることがあります。",
+        "一方、数十〜数百件のタスクを含む開発では、同じ進め方は通用."
+      ],
+      "cachedAt": "2026-08-23T02:49:58.051Z"
+    },
+    "e0d8c8c7bd37a766": {
+      "url": "https://note.com/npaka/n/nf7108e6bd18e",
+      "summaryJa": [
+        "「Qwen3.",
+        "8-27B」におすすめのハーネスをまとめました。",
+        "1."
+      ],
+      "cachedAt": "2026-08-23T02:49:58.051Z"
+    },
+    "aad77f87b7ad5e3e": {
+      "url": "https://zenn.dev/uhyo/articles/react-use-browser-usage",
+      "summaryJa": [
+        "皆さんこんにちは。",
+        "最近、React公式ドキュメントにbrowser() APIの記事が追加されました。",
+        "この記事公開時点ではまだ正式版のReactでは使用できませんが、次バージョンのReact 19."
+      ],
+      "cachedAt": "2026-08-23T02:49:58.051Z"
+    },
+    "afa6df717e4e7b6f": {
+      "url": "https://qiita.com/Gotoubun_taiwan/items/cd6dc2ce80e2fafce712?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに こんにちは、事業会社で働いているデータサイエンティストです。",
+        "突然ですが、予測精度が一番高いモデルを選べば、一番良いモデルを選んだことになるのでしょうか？",
+        "機械学習モデルを作るとき、RMSEやMAE、AUCなどの予測精度を比較して、「一番当たるモデル」を採."
+      ],
+      "cachedAt": "2026-08-23T02:49:58.051Z"
+    },
+    "eea01cc9bee80d93": {
+      "url": "https://www.thebyteattic.com/2026/08/the-immortal-macintosh-restoration-diary.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-23T02:49:58.051Z"
+    },
+    "87575a6fbc4b15d2": {
+      "url": "https://blog.wybxc.cc/blog/rust-gui-survey-2026/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-23T02:49:58.051Z"
+    },
+    "8c2f342ea8fe68bc": {
+      "url": "https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-23T02:49:58.051Z"
     }
   }
 }

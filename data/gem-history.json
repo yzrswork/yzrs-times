@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-d4a9ebeb",
-      "url": "https://github.com/aitjcize/esp32-photoframe",
-      "date": "2026-07-24"
-    },
-    {
-      "id": "github-gems-09bae87e",
-      "url": "https://github.com/zeeyado/koassistant.koplugin",
-      "date": "2026-07-24"
-    },
-    {
       "id": "show-hn-1f47465a",
       "url": "https://ytch.xyz",
       "date": "2026-07-25"
@@ -304,6 +294,11 @@
     {
       "id": "show-hn-247159c1",
       "url": "http://www.dogbunnypuzzle.com/",
+      "date": "2026-08-23"
+    },
+    {
+      "id": "show-hn-1be73848",
+      "url": "https://giza.mused.org/en/guided/266/inside-the-great-pyramid",
       "date": "2026-08-23"
     }
   ]

@@ -316,6 +316,13 @@
       "edition": "morning",
       "theme": "加速の背後で軋むシステム",
       "path": "issues/2026-08-23-morning.json"
+    },
+    {
+      "issueNo": 88,
+      "date": "2026-08-23",
+      "edition": "midday",
+      "theme": "手のひらの端末とローカルの駆動",
+      "path": "issues/2026-08-23-midday.json"
     }
   ]
 }
