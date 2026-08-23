@@ -323,6 +323,13 @@
       "edition": "midday",
       "theme": "手のひらの端末とローカルの駆動",
       "path": "issues/2026-08-23-midday.json"
+    },
+    {
+      "issueNo": 89,
+      "date": "2026-08-24",
+      "edition": "morning",
+      "theme": "狂う基準値と極微の計算系",
+      "path": "issues/2026-08-24-morning.json"
     }
   ]
 }
