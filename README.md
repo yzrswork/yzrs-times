@@ -29,7 +29,7 @@ graph.json を読む派生ビュー。発行のたびに自動で育つ。入口
 
 ## Cross-repo delivery（Current Production path）
 
-新しい号が生成された発行commitの後段だけ、publish actionは現在の `public/data/` をJSON-onlyの `times-delivery` artifactとして保存します。重複/fallback runで `graph.json` だけが変わる場合は `published=false` としてartifactとdispatchを行いません。artifactには `delivery-manifest.json`（実際にpushしたpost-publication HEAD、Actions run ID、edition、`latest.json.generatedAt`）を含めます。HTML、CSS、JS、workflow、scripts、内部 `data/`、scheduler、prompt、secretは送信しません。
+新しい号が生成されると、publish actionはまずローカルcommitを作り、そのcommitと同一のclean treeからJSON-onlyの `times-delivery` artifactを作成・検証します。検証に成功したcommitだけをTimes側へpushし、その後artifact保存とSite dispatchへ進みます。`graph.json` は最新号の `generatedAt` から決定論的に再生成されるため、重複/fallback runはtracked diff、commit、artifact、dispatchを発生させません。artifactには `delivery-manifest.json`（検証済みpost-publication HEAD、Actions run ID、edition、`latest.json.generatedAt`）を含めます。HTML、CSS、JS、workflow、scripts、内部 `data/`、scheduler、prompt、secretは送信しません。
 
 Site (`yzrswork/yzrswork-site`) がSite repositoryへの唯一のwriterです。Times senderはSite contents:writeを持たず、Site workflow dispatch専用の `SITE_SYNC_TOKEN` を使います。自動dispatchは repository variable `SITE_SYNC_ENABLED == 'true'` のときだけ有効で、未設定・falseでは発行を成功させたままdispatchをskipします。新しいdelivery cronは追加せず、既存のCloudflare scheduler、GitHub schedule、publish timingは変更しません。2026-08-19のcutover後、このartifact → Site workflow dispatch経路が現在のProduction data delivery pathです。Production Site sourceは `yzrswork/yzrswork-site` です。
 

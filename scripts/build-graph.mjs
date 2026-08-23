@@ -8,6 +8,7 @@
 // 号同士の時系列鎖（旧seqエッジ）は廃止 -- X軸が時間を表すため情報が重複する（DESIGN.md 2026-07-28）。
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { ISSUES_DIR, PUBLIC_DATA_DIR } from './store.mjs';
 import { normalizeUrl } from './util.mjs';
 import { cleanKeyword } from './keywords.mjs';
@@ -22,10 +23,10 @@ function normalizeKeyword(raw) {
   return k ? k.toLowerCase() : null;
 }
 
-function listIssueFiles() {
-  if (!fs.existsSync(ISSUES_DIR)) return [];
+function listIssueFiles(issuesDir) {
+  if (!fs.existsSync(issuesDir)) return [];
   return fs
-    .readdirSync(ISSUES_DIR)
+    .readdirSync(issuesDir)
     .filter((f) => f.endsWith('.json'))
     .map((f) => {
       const m = f.match(/^(\d{4}-\d{2}-\d{2})-(\w+)\.json$/);
@@ -39,18 +40,20 @@ function listIssueFiles() {
     );
 }
 
-export function buildGraph() {
+export function buildGraph({ issuesDir = ISSUES_DIR } = {}) {
   const issues = [];
   const articleByUrl = new Map(); // normalizedUrl -> article
   const keywordSpan = new Map(); // keyword -> Set(issueId)（counts用）
+  let latestGeneratedAt = null;
 
-  for (const meta of listIssueFiles()) {
+  for (const meta of listIssueFiles(issuesDir)) {
     let issue;
     try {
-      issue = JSON.parse(fs.readFileSync(path.join(ISSUES_DIR, meta.file), 'utf8'));
+      issue = JSON.parse(fs.readFileSync(path.join(issuesDir, meta.file), 'utf8'));
     } catch {
       continue; // 壊れた号があっても他の号でグラフは成立させる（fail-soft）
     }
+    latestGeneratedAt = typeof issue.generatedAt === 'string' ? issue.generatedAt : null;
 
     const issueId = `i:${meta.date}-${meta.edition}`;
     issues.push({
@@ -100,7 +103,8 @@ export function buildGraph() {
 
   return {
     schemaVersion: 2,
-    generatedAt: new Date().toISOString(),
+    // graph.jsonは派生物。壁時計ではなく、入力集合の最新号が持つ時刻から導出する。
+    generatedAt: latestGeneratedAt,
     counts: {
       issues: issues.length,
       articles: articles.length,
@@ -115,9 +119,17 @@ export function buildGraph() {
   };
 }
 
-const graph = buildGraph();
-fs.mkdirSync(PUBLIC_DATA_DIR, { recursive: true });
-fs.writeFileSync(GRAPH_FILE, JSON.stringify(graph), 'utf8');
-console.log(
-  `graph.json を再生成 (schema v2): 号${graph.counts.issues} 記事${graph.counts.articles} キーワード${graph.counts.keywords} カテゴリ${graph.counts.categories}`,
-);
+export function writeGraph({ issuesDir = ISSUES_DIR, graphFile = GRAPH_FILE } = {}) {
+  const graph = buildGraph({ issuesDir });
+  fs.mkdirSync(path.dirname(graphFile), { recursive: true });
+  fs.writeFileSync(graphFile, JSON.stringify(graph), 'utf8');
+  return graph;
+}
+
+const thisFile = fileURLToPath(import.meta.url);
+if (process.argv[1] && path.resolve(process.argv[1]) === thisFile) {
+  const graph = writeGraph();
+  console.log(
+    `graph.json を再生成 (schema v2): 号${graph.counts.issues} 記事${graph.counts.articles} キーワード${graph.counts.keywords} カテゴリ${graph.counts.categories}`,
+  );
+}
