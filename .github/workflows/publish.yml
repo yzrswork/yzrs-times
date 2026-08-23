@@ -31,22 +31,6 @@ jobs:
           gemini-api-key: ${{ secrets.GEMINI_API_KEY }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Package Times delivery
-        id: package_delivery
-        if: steps.publish.outputs.published == 'true'
-        env:
-          SOURCE_RUN_ID: ${{ github.run_id }}
-          SOURCE_SHA: ${{ steps.publish.outputs.source_sha }}
-          EDITION: morning
-        run: |
-          node scripts/package-times-delivery.mjs \
-            --source-root public/data \
-            --destination "$RUNNER_TEMP/times-delivery" \
-            --source-run-id "$SOURCE_RUN_ID" \
-            --source-sha "$SOURCE_SHA" \
-            --edition "$EDITION" \
-            --output "$GITHUB_OUTPUT"
-
       - name: Upload Times delivery artifact
         if: steps.publish.outputs.published == 'true'
         uses: actions/upload-artifact@v4
@@ -62,5 +46,5 @@ jobs:
           SOURCE_RUN_ID: ${{ github.run_id }}
           SOURCE_SHA: ${{ steps.publish.outputs.source_sha }}
           EDITION: morning
-          PUBLISHED_AT: ${{ steps.package_delivery.outputs.published_at }}
+          PUBLISHED_AT: ${{ steps.publish.outputs.published_at }}
         run: node scripts/dispatch-site.mjs
