@@ -337,6 +337,13 @@
       "edition": "midday",
       "theme": "ローカルモデルの探査とハードウェアの自作",
       "path": "issues/2026-08-24-midday.json"
+    },
+    {
+      "issueNo": 91,
+      "date": "2026-08-25",
+      "edition": "morning",
+      "theme": "不可視の刻印と、変わりゆく世界の歩調",
+      "path": "issues/2026-08-25-morning.json"
     }
   ]
 }
