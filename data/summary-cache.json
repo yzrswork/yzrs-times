@@ -7452,6 +7452,87 @@
         "md Role あなたは Rust の学習を支援するメンターです。"
       ],
       "cachedAt": "2026-08-23T20:19:58.606Z"
+    },
+    "176c1a9de246f13e": {
+      "url": "https://www.scd31.com/posts/defcon-choker",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-24T02:50:14.411Z"
+    },
+    "7c71ec22db3b8607": {
+      "url": "https://qiita.com/Tks_Yoshinaga/items/21997eab275b57539173?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 以前、手軽に始める 360° 画像を用いた Gaussian Splatting（基本手順編） という記事で、360° Gaussian を使って 3",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-08-24T02:50:14.411Z"
+    },
+    "e664ca8c7a7963d7": {
+      "url": "https://news.denfaminicogamer.jp/news/260824f",
+      "summaryJa": [
+        "SteamにてSQLで事件の真相に迫るゲーム『Ghost in the SQL Data』のストアページが公開されている。",
+        "日本語にも対応予定のタイトルだ。",
+        "本作において、事件の捜査はデータベースを操作するためのプログラミング言語「SQL」を操ることで行う。"
+      ],
+      "cachedAt": "2026-08-24T02:50:14.411Z"
+    },
+    "fc500e25b689402b": {
+      "url": "https://qiita.com/utah_T/items/833f106807bb8642fa35?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "背景 私は最近、業務もプライベートでもコーディングエージェントと作業することが多くなりGUIエディタを使わずターミナル中心になってきています。",
+        "しかしコードレビューの際はGUIエディタがないと読みづらく、なんとなくコミットしがちになってしまうので、ただレビューの為.",
+        "."
+      ],
+      "cachedAt": "2026-08-24T02:50:14.411Z"
+    },
+    "85079d2bd0304420": {
+      "url": "https://zenn.dev/biwacoder/articles/fbbf12f755f5d8",
+      "summaryJa": [
+        "はじめに 例外について、言語によって考え方も違うため、C#の例外の使い方に整理しておく。",
+        "例外って言ってるのだから、制御できる失敗は、戻り値で処理する 通常の制御フロー(if、戻り値)で管理できる失敗は、例外を使わず戻り値で処理する。",
+        "これが原則で、例外はその原則から外れた場合にだけ使う道具だ。"
+      ],
+      "cachedAt": "2026-08-24T02:50:14.411Z"
+    },
+    "f5f2e3dc94d6d2cf": {
+      "url": "https://zenn.dev/kimushun1101/articles/family-ai-agents-on-discord",
+      "summaryJa": [
+        "はじめに もともと自分専用のAIエージェントをDiscordに常駐させて、メモの記録や調べ物をチャットから頼んでおりました。",
+        "使っているうちに旅行の計画や献立の相談など家族に関わる話題が増えてきたため、妻も同じサーバーからエージェントに話しかけられる形に拡張しました。",
+        "ただしClaude Maxのような個人向け定額プランは、アカウントを本人以外が使うと規約違反になってしまいます。"
+      ],
+      "cachedAt": "2026-08-24T02:50:14.411Z"
+    },
+    "ac4e51d0ef197e1b": {
+      "url": "https://hugodaniel.com/posts/declarative-webgpu-with-s-expressions/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-24T02:50:14.411Z"
+    },
+    "f6b2f4821033e1ec": {
+      "url": "https://tympanus.net/codrops/2019/02/19/svg-filter-effects-creating-texture-with-feturbulence/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-24T02:50:14.411Z"
+    },
+    "77565ed3c7a60d48": {
+      "url": "https://github.com/ailyProject/aily-builder",
+      "summaryJa": [
+        "Faster Arduino compilation CLI.",
+        "Arduino快速编译工具，小项目提速50%，大项目提速80%!",
+        "时间就是金钱，我的朋友!"
+      ],
+      "cachedAt": "2026-08-24T02:50:14.411Z"
     }
   }
 }

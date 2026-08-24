@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-1f47465a",
-      "url": "https://ytch.xyz",
-      "date": "2026-07-25"
-    },
-    {
-      "id": "show-hn-d3100b5a",
-      "url": "https://th0mas.nl/downloads/pdftris.pdf",
-      "date": "2026-07-25"
-    },
-    {
       "id": "show-hn-3914195c",
       "url": "https://www.beeper.com/",
       "date": "2026-07-26"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-aef1d765",
       "url": "https://github.com/jgromes/RadioLib",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "github-gems-a2ac0310",
+      "url": "https://github.com/ailyProject/aily-builder",
       "date": "2026-08-24"
     }
   ]

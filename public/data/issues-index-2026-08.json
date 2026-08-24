@@ -330,6 +330,13 @@
       "edition": "morning",
       "theme": "狂う基準値と極微の計算系",
       "path": "issues/2026-08-24-morning.json"
+    },
+    {
+      "issueNo": 90,
+      "date": "2026-08-24",
+      "edition": "midday",
+      "theme": "ローカルモデルの探査とハードウェアの自作",
+      "path": "issues/2026-08-24-midday.json"
     }
   ]
 }
