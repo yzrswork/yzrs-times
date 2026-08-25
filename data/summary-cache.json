@@ -7605,6 +7605,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-24T20:17:41.743Z"
+    },
+    "8243a86ed2b95034": {
+      "url": "https://routeup.dev",
+      "summaryJa": [
+        "I built Routeup around a simple idea: local apps should use their real names.",
+        "It was inspired by Portless, but I also wanted built-in public tunneling, select",
+        "Instead of opening localhost:3000, I can give a project a stable, trusted HTTPS "
+      ],
+      "cachedAt": "2026-08-25T02:47:47.130Z"
+    },
+    "bc47bf9195e2babe": {
+      "url": "https://qiita.com/Latte72R/items/49c5f37e78d6eb59d582?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに こんにちは，Latte72 です． この度，セキュリティキャンプ2026全国大会の 開発L2ゼミ に参加してきました． 自分は特に日記などを取ったりし",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-08-25T02:47:47.130Z"
+    },
+    "709e0b895ec42c31": {
+      "url": "https://zenn.dev/newt_st21/articles/next-template-2026",
+      "summaryJa": [
+        "フロントエンドの Web アプリケーションを開発する用に、私がよく使う設定を盛り込んだテンプレートリポジトリを育てています。",
+        "https://github.",
+        "com/newt239/next-template リポジトリ名は next-template となっていますが、React Router や Tanstack"
+      ],
+      "cachedAt": "2026-08-25T02:47:47.130Z"
+    },
+    "830fb7d3be5f3abf": {
+      "url": "https://techblog.zozo.com/entry/cc-plugin-marketplace",
+      "summaryJa": [
+        "はじめに こんにちは、データシステム部MLOpsブロックの木村と、推薦基盤ブロックの上國料です。",
+        "ZOZOでは2025年7月より、Claude Codeをはじめとする各種AI開発ツールを利用できる制度を開始しました。",
+        "corp."
+      ],
+      "cachedAt": "2026-08-25T02:47:47.130Z"
+    },
+    "9b41d02f37dd6cb6": {
+      "url": "https://kaminashi-developer.hatenablog.jp/entry/2026/08/25/two-battles-of-saas",
+      "summaryJa": [
+        "はじめに カミナシでSWEをしている osuzu です。",
+        "筆者はSaaSと呼ばれる業務ソフトウェア開発を前職含め6年ちょっと経験し、最近ようやく言語化できたことがあります。",
+        "それは「SaaSの技術的な難しさは、ホリゾンタルかバーティカルかで種類が異なる」ということ。"
+      ],
+      "cachedAt": "2026-08-25T02:47:47.130Z"
+    },
+    "b1e724b7f9c42423": {
+      "url": "https://zenn.dev/kaiyo/articles/65f98a5abadac5",
+      "summaryJa": [
+        "この記事ではClaude Designによる学会用ポスター作成で分かったことについて紹介します。",
+        "TLDL Claude Designのポスター作成能力をざっくり言うと レイアウト面(ブロックの配置、色の作り方) 強い人 > Claude Design >>",
+        "."
+      ],
+      "cachedAt": "2026-08-25T02:47:47.130Z"
+    },
+    "b3fd5b4c682ed44a": {
+      "url": "https://zenn.dev/simplex/articles/c24bd2788f5831",
+      "summaryJa": [
+        "シンプレクスでエンジニアをしている清家です。",
+        "とあるプロジェクトで、複数サブシステムを跨いでログ・メトリクスをどのように取得するかを検討する必要がありました。",
+        "分散システムの運用で特に重要なのは、ユーザのリクエストをセッション単位で追跡し、時系列順にユーザの操作とそれに伴うサブシステム毎のログを把握できることです。"
+      ],
+      "cachedAt": "2026-08-25T02:47:47.130Z"
+    },
+    "c61a7f44849ebd88": {
+      "url": "https://adriansieber.com/announcing-perspec-1-0/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-25T02:47:47.130Z"
+    },
+    "9f89718420eb3e9e": {
+      "url": "https://diggingforfire.blog/posts/can-a-blog-post-be-handwritten/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-25T02:47:47.130Z"
+    },
+    "2768cc84423a54b8": {
+      "url": "https://github.com/vshymanskyy/TinyGSM",
+      "summaryJa": [
+        "A small Arduino library for GSM modules, that just works",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-25T02:47:47.130Z"
     }
   }
 }

@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-3914195c",
-      "url": "https://www.beeper.com/",
-      "date": "2026-07-26"
-    },
-    {
-      "id": "show-hn-f2a17242",
-      "url": "https://internalregister.github.io/2019/03/14/Homebrew-Console.html",
-      "date": "2026-07-26"
-    },
-    {
       "id": "show-hn-103552e9",
       "url": "https://justine.lol/redbean/index.html",
       "date": "2026-07-27"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-24c8dccc",
       "url": "https://github.com/Botspot/pi-apps",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "github-gems-f5c12733",
+      "url": "https://github.com/vshymanskyy/TinyGSM",
       "date": "2026-08-25"
     }
   ]

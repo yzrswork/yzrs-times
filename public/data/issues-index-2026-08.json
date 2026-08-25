@@ -344,6 +344,13 @@
       "edition": "morning",
       "theme": "不可視の刻印と、変わりゆく世界の歩調",
       "path": "issues/2026-08-25-morning.json"
+    },
+    {
+      "issueNo": 92,
+      "date": "2026-08-25",
+      "edition": "midday",
+      "theme": "自分仕様の道具と、手書きの輪郭",
+      "path": "issues/2026-08-25-midday.json"
     }
   ]
 }
