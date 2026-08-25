@@ -351,6 +351,13 @@
       "edition": "midday",
       "theme": "自分仕様の道具と、手書きの輪郭",
       "path": "issues/2026-08-25-midday.json"
+    },
+    {
+      "issueNo": 93,
+      "date": "2026-08-26",
+      "edition": "morning",
+      "theme": "計算資源の更新と、拡張される手元",
+      "path": "issues/2026-08-26-morning.json"
     }
   ]
 }
