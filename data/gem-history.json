@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-103552e9",
-      "url": "https://justine.lol/redbean/index.html",
-      "date": "2026-07-27"
-    },
-    {
-      "id": "show-hn-b817d175",
-      "url": "http://jgthms.com/web-design-in-4-minutes/",
-      "date": "2026-07-27"
-    },
-    {
       "id": "github-gems-338ddf1b",
       "url": "https://github.com/atomvm/AtomVM",
       "date": "2026-07-28"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-98e14f7c",
       "url": "https://github.com/nextcloud/nextcloudpi",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "github-gems-a9532c92",
+      "url": "https://github.com/opencardev/crankshaft",
       "date": "2026-08-26"
     }
   ]

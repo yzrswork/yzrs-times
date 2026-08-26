@@ -358,6 +358,13 @@
       "edition": "morning",
       "theme": "計算資源の更新と、拡張される手元",
       "path": "issues/2026-08-26-morning.json"
+    },
+    {
+      "issueNo": 94,
+      "date": "2026-08-26",
+      "edition": "midday",
+      "theme": "自律と自動の境界線を歩く",
+      "path": "issues/2026-08-26-midday.json"
     }
   ]
 }

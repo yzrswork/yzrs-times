@@ -7767,6 +7767,96 @@
         "."
       ],
       "cachedAt": "2026-08-25T20:20:42.464Z"
+    },
+    "5f364b694342fd6d": {
+      "url": "https://zenn.dev/eggletric/articles/4ea81df765fb66",
+      "summaryJa": [
+        "SNSに溢れる「AI常時ぶん回し」への違和感 近年、SNSでこういう投稿をよく見かけます。",
+        "「AIエージェントを24時間動かして開発を完全自動化しました」 「寝ている間もAIがコードを書き続けています」 「AI社員を常時稼働させて、プロダクトを量産中で",
+        "実際、こうした."
+      ],
+      "cachedAt": "2026-08-26T02:51:07.666Z"
+    },
+    "b83ff923ceab5743": {
+      "url": "https://zenn.dev/layerx/articles/e01465a15e79c2",
+      "summaryJa": [
+        "こんにちは。",
+        "アカウント基盤開発部でエンジニアをしている tkmt (たくまつ) です。",
+        "今回は、IETF で標準化が進んでいる Transaction Tokens について調査してまとめてみました。"
+      ],
+      "cachedAt": "2026-08-26T02:51:07.666Z"
+    },
+    "df1f73b59713f07d": {
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
+      "summaryJa": [
+        "FDA authorizes first wearable device that monitors",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-26T02:51:07.666Z"
+    },
+    "7efb044fb105763a": {
+      "url": "https://ai-x-security-con.findy-tools.io/2026",
+      "summaryJa": [
+        "AIの進化と浸透により、企業におけるAI利活用は急速に広がっています。",
+        "生成AIの個人利用やAIエージェントの増加が進む一方で、Shadow AIによる情報漏洩リスクや、AIエージェントへの過剰な権限付与、従来の境界型防御では対応し",
+        "."
+      ],
+      "cachedAt": "2026-08-26T02:51:07.666Z"
+    },
+    "9f62213c8d213e87": {
+      "url": "https://qiita.com/sewiihidekikudo/items/1c835d5d1f0a8b3dbf65?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに こんにちは！",
+        "ソーイ株式会社の工藤です。",
+        "日常業務でAPIを実装し、Postmanで動作確認、手動のAPI単体テストを行っています。"
+      ],
+      "cachedAt": "2026-08-26T02:51:07.666Z"
+    },
+    "3b3019c8d78b6b6b": {
+      "url": "https://qiita.com/songchong/items/0788ebd25ea6400df81e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "「うちのシステムにもAPIがあります。",
+        "相手にもAPIがあります。",
+        "だから繋がりますよね？"
+      ],
+      "cachedAt": "2026-08-26T02:51:07.666Z"
+    },
+    "178de6265ced8f8b": {
+      "url": "https://qiita.com/nr-mito/items/20d4b104679227ff4314?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "2026年7月のNew Relic のアップデートをまとめて紹介です！",
+        "！",
+        "AIエージェントがテレメトリデータへアクセスし、障害調査の自律自動化と即時復旧を実現するAutopilot(旧SRE Agent)や、トラブルシューティングの際"
+      ],
+      "cachedAt": "2026-08-26T02:51:07.666Z"
+    },
+    "5721fab066fcbf44": {
+      "url": "https://kevinmahoney.co.uk/articles/ai-review-loops/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-26T02:51:07.666Z"
+    },
+    "c99b76f31c7e6b18": {
+      "url": "https://pointersgonewild.com/2026-08-25-replacing-a-rust-enum-with-a-64-bit-word/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-26T02:51:07.666Z"
+    },
+    "3e27ddb19e040a47": {
+      "url": "https://infosec.exchange/@david_chisnall/117156204452541109",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-26T02:51:07.666Z"
     }
   }
 }
