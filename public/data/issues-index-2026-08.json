@@ -365,6 +365,13 @@
       "edition": "midday",
       "theme": "自律と自動の境界線を歩く",
       "path": "issues/2026-08-26-midday.json"
+    },
+    {
+      "issueNo": 95,
+      "date": "2026-08-27",
+      "edition": "morning",
+      "theme": "遠隔の駆動と手元の不在",
+      "path": "issues/2026-08-27-morning.json"
     }
   ]
 }
