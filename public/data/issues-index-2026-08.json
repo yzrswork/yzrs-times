@@ -386,6 +386,13 @@
       "edition": "midday",
       "theme": "回帰する手触りと制御の再定義",
       "path": "issues/2026-08-28-midday.json"
+    },
+    {
+      "issueNo": 98,
+      "date": "2026-08-28",
+      "edition": "morning",
+      "theme": "極限の最適化と人間性の再配置",
+      "path": "issues/2026-08-28-morning.json"
     }
   ]
 }
