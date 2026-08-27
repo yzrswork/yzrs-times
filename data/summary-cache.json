@@ -8019,6 +8019,114 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-27T02:50:41.804Z"
+    },
+    "dd7bac07285486b7": {
+      "url": "https://zenn.dev/aniki_maker/articles/33d1dc45604537",
+      "summaryJa": [
+        "!",
+        "本記事は、随時加筆修正を行う可能性がありますので、ご容赦ください。",
+        "1."
+      ],
+      "cachedAt": "2026-08-27T15:24:08.336Z"
+    },
+    "9a70ffe1e7b3d849": {
+      "url": "https://zenn.dev/s0nmy/articles/85761a4d31c8c2",
+      "summaryJa": [
+        "はじめに 題名の通り DMM Sprint Go に参加してきました！",
+        "DMMの新卒技術研修をアレンジした、Goを実践的に学べる5日間のインターンとなっており、オンラインと対面のハイブリットでの実施でした。",
+        "2027年の参加を考えている学生さんの参考や、社員さんと関わる中で垣間見えたDMMの雰囲気をお伝えします！"
+      ],
+      "cachedAt": "2026-08-27T15:24:08.336Z"
+    },
+    "2aefb7ad1f24f653": {
+      "url": "https://qiita.com/jqit_suwa/items/e11d49c9bb7eb7aaea37?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "AI に作らせたコードは、手元では動きます。",
+        "では、まっさらな環境に置いたらどうなるか。",
+        "OS だけの環境に移して、AI が「これが要る」と書いた依存だけを入れて動かす。"
+      ],
+      "cachedAt": "2026-08-27T15:24:08.336Z"
+    },
+    "f2aead8f74aa1b9c": {
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00157/082500111/",
+      "summaryJa": [
+        "天才的なプログラマーで台湾の初代デジタル担当相として知られるオードリー・タン氏に、AI（人工知能）への依存が進めば、人間は自分で考えなくなるのではないかという疑",
+        "インタビュー記事（下）では、自分の頭で「考えない人」が増えるリスクへの対処法や、AI時代の仕事と教育、デジタル技術を社会に生か.",
+        "."
+      ],
+      "cachedAt": "2026-08-27T15:24:08.336Z"
+    },
+    "cb7e4bbf99b47a30": {
+      "url": "https://github.com/SenteLabsAI/OpenExecutive",
+      "summaryJa": [
+        "CEO fired developers to make room for AI. Develope",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-27T15:24:08.336Z"
+    },
+    "f361f6b133520a0d": {
+      "url": "https://zenn.dev/gangy/articles/04597efe1b64c5",
+      "summaryJa": [
+        "梅を必ず入れるのがコツです。",
+        "「予算ゼロでもここまでは下げられる」を示すと、議論が「やるか/やらないか」から「どこまでやるか」に変わります。",
+        "この時点で提案は半分通っています。"
+      ],
+      "cachedAt": "2026-08-27T15:24:08.336Z"
+    },
+    "c182c5a6bd2eaef0": {
+      "url": "https://neilalexander.dev/2026/06/30/flooding-contributions.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-27T15:24:08.337Z"
+    },
+    "d306de5d85877cd2": {
+      "url": "https://zenn.dev/edash_tech_blog/articles/0ea5ab1ef9a751",
+      "summaryJa": [
+        "はじめに Zenn 読者のみなさん、こんにちは。",
+        "e-dash VPoE の伊藤です。",
+        "e-dash ではアプリケーションインフラとして多くのプロダクトで AWS を採用しており、IaC として Terraform でインフラリソースを全面的に管理"
+      ],
+      "cachedAt": "2026-08-27T15:24:08.337Z"
+    },
+    "160cdd9f4d1b46cf": {
+      "url": "https://lucascarlson.net/2026/08/24/introducing-open-source-durable-objects/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-27T15:24:08.337Z"
+    },
+    "547411f6f93f8971": {
+      "url": "https://github.com/JiangJQ2000/png2jxl",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-27T15:24:08.337Z"
+    },
+    "0285ac60e79053bd": {
+      "url": "https://sourcehut.org/blog/2026-08-27-tos-changes-and-llms/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-27T15:24:08.337Z"
+    },
+    "4cce9847002752b1": {
+      "url": "https://github.com/agiwhitelist/auteur",
+      "summaryJa": [
+        "The Claude Code skill that directs a website like a film.",
+        "Commit-sheet, generated assets, build, and an executable anti-slop linter that g",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-27T15:24:08.337Z"
     }
   }
 }
