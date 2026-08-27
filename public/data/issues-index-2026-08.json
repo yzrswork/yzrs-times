@@ -372,6 +372,13 @@
       "edition": "morning",
       "theme": "遠隔の駆動と手元の不在",
       "path": "issues/2026-08-27-morning.json"
+    },
+    {
+      "issueNo": 96,
+      "date": "2026-08-27",
+      "edition": "midday",
+      "theme": "低層の解剖と手作業の余白",
+      "path": "issues/2026-08-27-midday.json"
     }
   ]
 }

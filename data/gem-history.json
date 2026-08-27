@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-338ddf1b",
-      "url": "https://github.com/atomvm/AtomVM",
-      "date": "2026-07-28"
-    },
-    {
-      "id": "github-gems-4a992d3e",
-      "url": "https://github.com/pschatzmann/ESP32-A2DP",
-      "date": "2026-07-28"
-    },
-    {
       "id": "github-gems-ebd51f8b",
       "url": "https://github.com/pschatzmann/arduino-audio-tools",
       "date": "2026-07-29"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-e45a8478",
       "url": "https://github.com/tiagolr/ripplerx",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "github-gems-6c34a704",
+      "url": "https://github.com/calf-studio-gear/calf",
       "date": "2026-08-27"
     }
   ]

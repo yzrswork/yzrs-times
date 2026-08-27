@@ -7938,6 +7938,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-26T20:20:33.085Z"
+    },
+    "240d713e9878499f": {
+      "url": "https://alyssarosenzweig.ca/blog/asahi-gpu-part-n.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-27T02:50:41.804Z"
+    },
+    "24d90158256c9373": {
+      "url": "https://qiita.com/AkiraTakasaki/items/44c6f3b78a6a1dce0d57?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "こんにちは、ソーイ株式会社の髙﨑です。",
+        "私は業務で時々、Vimを使ってファイルを編集することがあります。",
+        "例えば、サーバー上のファイルを直接確認・修正するときなど、普段使っているエディタを使えない環境でVimを使うことがあります。"
+      ],
+      "cachedAt": "2026-08-27T02:50:41.804Z"
+    },
+    "9273994e99b64c55": {
+      "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+      "summaryJa": [
+        "AWS Acquires DuckLabs",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-27T02:50:41.804Z"
+    },
+    "72a70ed5be2d2474": {
+      "url": "https://qiita.com/jqit_suwa/items/92a59e7a464fac9731da?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "手元の Claude Code のログを数えたら、読めない文字列が 19.",
+        "6 MB 積まれていました。",
+        "thinking ブロック : 5,419 件（全件に signature つき） signature の合計 : 19."
+      ],
+      "cachedAt": "2026-08-27T02:50:41.804Z"
+    },
+    "b22f449bf0e96647": {
+      "url": "https://qiita.com/ssc-ksaitou/items/14068dd23e636387b9f6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 今は MySQL Shell dump utilities などのより高速な手段が推奨されつつありますが、MySQLの論理バックアップに mysqld",
+        "mysqldumpの出力例 -- MySQ.",
+        "."
+      ],
+      "cachedAt": "2026-08-27T02:50:41.804Z"
+    },
+    "e7fae31b7d2dd4ed": {
+      "url": "https://zenn.dev/genda_jp/articles/e7e831636a769d",
+      "summaryJa": [
+        "はじめに Secrets Managerでは、1つのシークレットの中でJSON形式を用いて複数のKey-Valueが登録できます。",
+        "どんな粒度で分けるべきか疑問に思い調べたところ、意外と情報が見つからなかったので書いてみました。",
+        "公式ドキュメントを探索してみる ベストプラクティスは？"
+      ],
+      "cachedAt": "2026-08-27T02:50:41.804Z"
+    },
+    "254678a2789d4dac": {
+      "url": "https://rohanrd.mataroa.blog/blog/freedom-to-handcraft-software/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-27T02:50:41.804Z"
+    },
+    "e01952e46c48bc74": {
+      "url": "https://gist.github.com/stagas/09ad937b493bf8cd3285917279de2488",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-27T02:50:41.804Z"
+    },
+    "9fee64f43158c5c1": {
+      "url": "https://github.com/calf-studio-gear/calf",
+      "summaryJa": [
+        "Developers repository of Calf Studio Gear.",
+        "Expect some issues when using it for production.",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-27T02:50:41.804Z"
     }
   }
 }
