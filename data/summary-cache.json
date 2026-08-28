@@ -8172,6 +8172,87 @@
         "https://shibukawa."
       ],
       "cachedAt": "2026-08-27T20:20:24.147Z"
+    },
+    "b0ff50d9b5aa1763": {
+      "url": "https://qiita.com/tatsuya582/items/cf74c9b6fc9c370e67e6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに Claude Code の Auto mode では、「このコマンドを実行していいか」の判定をユーザーの代わりに別のモデルがやっています。",
+        "では、そのモデルはどんな指示を受けて判定しているのでしょうか。",
+        "この記事では、公式ドキュメントと Anthropic のエンジ."
+      ],
+      "cachedAt": "2026-08-28T16:44:33.874Z"
+    },
+    "c6c0e4bf3ca77cda": {
+      "url": "https://zenn.dev/estie/articles/a6d1e78e8e41d5",
+      "summaryJa": [
+        "※この記事は、estie プログラミングコンテスト2026 懇親会の LT で紹介した内容をブログ記事として再構成したものです。",
+        "はじめに 昨今、AIのコーディング能力は飛躍的に向上し、業務におけるコーディングの大半をAIが担うようになってきました。",
+        "また、プログラミングコンテストにおいてもAIがトッププレイヤーを上回る成績を残すことも起こり始めています。"
+      ],
+      "cachedAt": "2026-08-28T16:44:33.874Z"
+    },
+    "5cbc0787a2e511b4": {
+      "url": "https://qiita.com/inoyu-qiita/items/e8315b7bf4acee70c164?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 「お前がみろ」 このプロンプトを書いたのは、同僚の @Shinn_Matsumoto さんです。",
+        "本人のClaude Codeセッションを見せてもらったとき、画面に出てきました。",
+        "自分は普段、AIにも「確認してください」「お願いします」と話します。"
+      ],
+      "cachedAt": "2026-08-28T16:44:33.874Z"
+    },
+    "a3d40848cd03fefd": {
+      "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
+      "summaryJa": [
+        "Just the rumour of a bug is enough to find an expl",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-28T16:44:33.874Z"
+    },
+    "49a125937c6fa9f0": {
+      "url": "https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/",
+      "summaryJa": [
+        "“It works better in the app”",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-28T16:44:33.874Z"
+    },
+    "75c483e042b74fd3": {
+      "url": "https://qiita.com/ntaka329/items/c9a5d4f1734c8b51c257?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに GMOコネクトの永田です。",
+        "5年以上動いている業務システムのAPIに、新機能を足すことになりました。",
+        "コミットは1,000件を超えていて、書いた人は10人近く。"
+      ],
+      "cachedAt": "2026-08-28T16:44:33.874Z"
+    },
+    "d67058106ec27d66": {
+      "url": "https://noahlev.org/blog/2026/08/27/making-rustdoc-faster/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-28T16:44:33.874Z"
+    },
+    "5a7df0cc7e1150a5": {
+      "url": "https://jointhefreeworld.org/blog/articles/gnu-linux/quest-for-eternal-dock/index.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-28T16:44:33.874Z"
+    },
+    "54a1ed3a06c0e3a6": {
+      "url": "https://github.com/mudita/MuditaOS",
+      "summaryJa": [
+        "Mobile operating system based on FreeRTOS™ optimized for E Ink displays - develo",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-28T16:44:33.874Z"
     }
   }
 }

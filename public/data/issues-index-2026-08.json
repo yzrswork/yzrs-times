@@ -393,6 +393,13 @@
       "edition": "morning",
       "theme": "極限の最適化と人間性の再配置",
       "path": "issues/2026-08-28-morning.json"
+    },
+    {
+      "issueNo": 99,
+      "date": "2026-08-29",
+      "edition": "midday",
+      "theme": "AIとの共闘が切り拓く設計の深層",
+      "path": "issues/2026-08-29-midday.json"
     }
   ]
 }
