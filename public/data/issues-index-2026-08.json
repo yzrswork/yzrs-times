@@ -400,6 +400,13 @@
       "edition": "midday",
       "theme": "AIとの共闘が切り拓く設計の深層",
       "path": "issues/2026-08-29-midday.json"
+    },
+    {
+      "issueNo": 100,
+      "date": "2026-08-29",
+      "edition": "morning",
+      "theme": "ピクセルの整流と、操作系の刷新",
+      "path": "issues/2026-08-29-morning.json"
     }
   ]
 }
