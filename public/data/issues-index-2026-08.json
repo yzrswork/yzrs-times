@@ -407,6 +407,13 @@
       "edition": "morning",
       "theme": "ピクセルの整流と、操作系の刷新",
       "path": "issues/2026-08-29-morning.json"
+    },
+    {
+      "issueNo": 101,
+      "date": "2026-08-30",
+      "edition": "morning",
+      "theme": "数字が競う機能の背後、根を下ろす文化と備え",
+      "path": "issues/2026-08-30-morning.json"
     }
   ]
 }

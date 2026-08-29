@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-1d595c41",
-      "url": "http://news.ycombinator.com/vote?for=3742902&dir=up&whence=%6e%65%77%65%73%74",
-      "date": "2026-07-30"
-    },
-    {
-      "id": "github-gems-c4db0d0b",
-      "url": "https://github.com/raspberrypi/rpi-imager",
-      "date": "2026-07-30"
-    },
-    {
       "id": "github-gems-45f6223f",
       "url": "https://github.com/ad-si/awesome-music-production",
       "date": "2026-07-31"
@@ -310,6 +300,11 @@
       "id": "github-gems-823f9f0d",
       "url": "https://github.com/asapelkin/awesome-eink",
       "date": "2026-08-29"
+    },
+    {
+      "id": "github-gems-eeb827af",
+      "url": "https://github.com/maziggy/bambuddy",
+      "date": "2026-08-30"
     }
   ]
 }
