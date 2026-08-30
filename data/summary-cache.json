@@ -8442,6 +8442,96 @@
         "Your Rules."
       ],
       "cachedAt": "2026-08-29T20:20:00.927Z"
+    },
+    "cd2d85dedc4ad6d7": {
+      "url": "https://zenn.dev/holy_fox/articles/572083c130ce46",
+      "summaryJa": [
+        "みなさん、GPUを燃やしていますか？",
+        "もちろん「研究や開発でGPUを燃やすほど使い倒している」という意味なら、多くの方はイエスでしょう。",
+        "でも本記事で聞きたいのは、もう少し物理的な意味です。"
+      ],
+      "cachedAt": "2026-08-30T02:49:56.389Z"
+    },
+    "9bf4f675e94f095a": {
+      "url": "https://blog.shibayu36.org/entry/2026/08/29/154324",
+      "summaryJa": [
+        "技術書典21で「Goで作って学ぶリアルタイム通信サーバー入門 〜自作ターミナルゲームでわかるオンラインゲームの裏側〜」という本を出します。",
+        "技術書典21のオンライン開催は2026/11/21(土)〜12/6(日)。",
+        "オフライン開催は11/23(月・祝)に池袋サンシャインシティで行われ、どちらでも頒布する予定です。"
+      ],
+      "cachedAt": "2026-08-30T02:49:56.389Z"
+    },
+    "d8d04b884d07789b": {
+      "url": "https://zenn.dev/safie_inc/articles/ee72b837e4a5f1",
+      "summaryJa": [
+        "みなさんこんにちは。",
+        "セーフィーで認証基盤まわりを担当しています、中（なか）です。",
+        "最近は Claude Code に設計や実装を相談することが多く、プロンプトを毎日大量に打っています。"
+      ],
+      "cachedAt": "2026-08-30T02:49:56.389Z"
+    },
+    "3b1de9f08a97176f": {
+      "url": "https://gigazine.net/news/20260829-chatto/",
+      "summaryJa": [
+        "Discordなどのチャットサービスでは手軽にサーバーを作成してグループ内で会話できますが、メッセージや個人情報を含むチャットデータはサービス提供者のインフラ上",
+        "そこで、セルフホスト可能で数十MB程度のRAMから軽快に動.",
+        "."
+      ],
+      "cachedAt": "2026-08-30T02:49:56.389Z"
+    },
+    "1668a9343b57629c": {
+      "url": "https://defrag98.com",
+      "summaryJa": [
+        "Defrag98: Windows 98 Disk Defragmenter Simulator O",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-30T02:49:56.389Z"
+    },
+    "05502ae5938a9d5e": {
+      "url": "https://danluu.com/bug-blind/",
+      "summaryJa": [
+        "Bug Blindness",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-30T02:49:56.389Z"
+    },
+    "17ece153bf793947": {
+      "url": "https://qiita.com/youtoy/items/13410e47f27cdc136705?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに この記事は、「Isaac Sim（※ 以前、Qiita の記事に書いたNVIDIA のロボティクスシミュレーションなどのアプリ）」や、「Isaac L",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-08-30T02:49:56.389Z"
+    },
+    "6e96dc8f72cfb5f6": {
+      "url": "https://qiita.com/jqit_suwa/items/4231026d13f7527c0f69?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "AI が書いた文章には、特徴的な語彙がある。",
+        "そういう分析が Hacker News で 663 ポイントを集めていました。",
+        "面白かったので、自分の Qiita 記事30本で同じことをやろうとしました。"
+      ],
+      "cachedAt": "2026-08-30T02:49:56.389Z"
+    },
+    "f00721c0e219c8ce": {
+      "url": "https://yogthos.net/posts/2026-08-29-glimmer-ui.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-30T02:49:56.389Z"
+    },
+    "988e010c0d48c1c3": {
+      "url": "https://www.quantamagazine.org/does-computer-science-need-computers-20260828/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-30T02:49:56.389Z"
     }
   }
 }

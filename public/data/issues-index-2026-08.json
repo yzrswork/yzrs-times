@@ -414,6 +414,13 @@
       "edition": "morning",
       "theme": "数字が競う機能の背後、根を下ろす文化と備え",
       "path": "issues/2026-08-30-morning.json"
+    },
+    {
+      "issueNo": 102,
+      "date": "2026-08-30",
+      "edition": "midday",
+      "theme": "自前の環境と、身体になじむ制御",
+      "path": "issues/2026-08-30-midday.json"
     }
   ]
 }
