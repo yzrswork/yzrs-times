@@ -421,6 +421,13 @@
       "edition": "midday",
       "theme": "自前の環境と、身体になじむ制御",
       "path": "issues/2026-08-30-midday.json"
+    },
+    {
+      "issueNo": 103,
+      "date": "2026-08-31",
+      "edition": "morning",
+      "theme": "群れ動くシステムと、手元の組み換え",
+      "path": "issues/2026-08-31-morning.json"
     }
   ]
 }
