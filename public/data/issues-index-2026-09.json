@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "month": "2026-09",
+  "issues": [
+    {
+      "issueNo": 105,
+      "date": "2026-09-01",
+      "edition": "morning",
+      "theme": "手製のシステムと、開かれる裏側",
+      "path": "issues/2026-09-01-morning.json"
+    }
+  ]
+}
