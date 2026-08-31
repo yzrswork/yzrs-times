@@ -428,6 +428,13 @@
       "edition": "morning",
       "theme": "群れ動くシステムと、手元の組み換え",
       "path": "issues/2026-08-31-morning.json"
+    },
+    {
+      "issueNo": 104,
+      "date": "2026-08-31",
+      "edition": "midday",
+      "theme": "自前組版と通信路の整合",
+      "path": "issues/2026-08-31-midday.json"
     }
   ]
 }

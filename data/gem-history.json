@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-f89c7825",
-      "url": "https://github.com/homebridge/docker-homebridge",
-      "date": "2026-08-01"
-    },
-    {
-      "id": "github-gems-9e8382e2",
-      "url": "https://github.com/simplefoc/Arduino-FOC",
-      "date": "2026-08-01"
-    },
-    {
       "id": "github-gems-1388008e",
       "url": "https://github.com/cncjs/cncjs",
       "date": "2026-08-02"
@@ -304,6 +294,11 @@
     {
       "id": "show-hn-256ea017",
       "url": "https://news.ycombinator.com/item?id=43186406",
+      "date": "2026-08-31"
+    },
+    {
+      "id": "github-gems-d10ab763",
+      "url": "https://github.com/abhinavxd/libredesk",
       "date": "2026-08-31"
     }
   ]

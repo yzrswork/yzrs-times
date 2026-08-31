@@ -8622,6 +8622,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-30T20:18:38.720Z"
+    },
+    "7e323d72acfc0aef": {
+      "url": "https://zenn.dev/inaniwaudon/articles/62f1def4bad627",
+      "summaryJa": [
+        "2025 年度下期未踏アドバンスト事業[1]にて開発してきた，TypeScript ライブラリとして動作する組版エンジン minitype を公開しました！",
+        "従来は独立したシステムや専用言語として提供されることの多かった組版処理をライブラリとして提供することにより，LLM や外部アプリケーションを含む，様々な文書生成",
+        "."
+      ],
+      "cachedAt": "2026-08-31T02:50:55.572Z"
+    },
+    "b4429f9a36fea8fd": {
+      "url": "https://zenn.dev/shinagawa_web/articles/transient-502-keepalive-reuse",
+      "summaryJa": [
+        "監視アラートが上がる。",
+        "確認しに行くと502 Bad Gatewayが数件出て、すでに回復している。",
+        "nginx をリバースプロキシに置いている構成で、同じエンドポイントをリトライすると通る。"
+      ],
+      "cachedAt": "2026-08-31T02:50:55.572Z"
+    },
+    "1132fae77e861f13": {
+      "url": "https://zenn.dev/7nohe/articles/npm-malware-incident-response",
+      "summaryJa": [
+        "はじめに 2026年8月29日の早朝、私が管理しているリリースワークフローの不備を突かれ、npmパッケージ@7nohe/openapi-react-query-",
+        "いわゆるサプライチェーン攻撃で、インストールした時点で攻撃者のコードが実行されます。",
+        "この期間にインストールしてしまった方には、お詫び申し上げます。"
+      ],
+      "cachedAt": "2026-08-31T02:50:55.572Z"
+    },
+    "7d7d969eaa8d2e74": {
+      "url": "https://0xcc.io/posts/omarchy-root-creds/",
+      "summaryJa": [
+        "Omarchy: Any User Process Can Escalate to Root",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-31T02:50:55.572Z"
+    },
+    "cb34c26c9411008b": {
+      "url": "https://zenn.dev/taxin/articles/otel-resiliency",
+      "summaryJa": [
+        "OpenTelemetry に限った話ではありませんが、テレメトリーデータの活用と同じくらいテレメトリーデータを欠損なく正常に送ることは重要です。",
+        "OpenTelemetry Collector を利用してテレメトリーデータを送信するといった一般的なユースケースを 1 つ取っても、データ欠損のリスクを正しく",
+        "テレメトリーデータの欠損と一口に言っても、様々なデータ送信の失敗原因が考えられるでしょう。"
+      ],
+      "cachedAt": "2026-08-31T02:50:55.572Z"
+    },
+    "8a1fd67fc55fe0b4": {
+      "url": "https://zenn.dev/rickysb527/articles/spf-dkim-dmarc-roles",
+      "summaryJa": [
+        "Introduction 「独自ドメインからメールを送りたい」と思ったとき、SPF・DKIM・DMARCという3つの単語に出会うことがあります。",
+        "どれも「なりすましメール対策」の文脈で出てきますが、名前が似ているうえに設定もDNSレコードとして書くため、最初は「結局どれが何をしているのか」が非常に分かりに",
+        "この記事では、この3つがそれぞれ何を保証していて、なぜ1つではなく3つ揃って初めて意味を持つのかを整理します。"
+      ],
+      "cachedAt": "2026-08-31T02:50:55.572Z"
+    },
+    "1fb0baed71804f98": {
+      "url": "https://qiita.com/R-You/items/e8cf2f1c783401563ef2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "「2026 Japan AWS Jr.",
+        "Champions 真夏のQiitaリレー」 の30日目の投稿です！",
+        "過去の投稿は以下の（リンク集）からご覧ください！"
+      ],
+      "cachedAt": "2026-08-31T02:50:55.572Z"
+    },
+    "f607f1a500b9a333": {
+      "url": "https://github.com/sorvi-platform/dekoodaaja",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-31T02:50:55.572Z"
+    },
+    "24411ea34b4a9499": {
+      "url": "https://arxiv.org/abs/2607.05302",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-31T02:50:55.572Z"
+    },
+    "47941675bf8f72d9": {
+      "url": "https://maurycyz.com/misc/etherfiles/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-31T02:50:55.572Z"
+    },
+    "8ee5afcb085f541c": {
+      "url": "https://github.com/abhinavxd/libredesk",
+      "summaryJa": [
+        "Open-source, self-hosted customer support desk in a single binary.",
+        "A lightweight alternative to Intercom, Zendesk, Chatwoot.",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-08-31T02:50:55.572Z"
     }
   }
 }
