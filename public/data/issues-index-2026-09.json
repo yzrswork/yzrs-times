@@ -8,6 +8,13 @@
       "edition": "morning",
       "theme": "手製のシステムと、開かれる裏側",
       "path": "issues/2026-09-01-morning.json"
+    },
+    {
+      "issueNo": 106,
+      "date": "2026-09-01",
+      "edition": "midday",
+      "theme": "実装のチューニングと、表現の射程",
+      "path": "issues/2026-09-01-midday.json"
     }
   ]
 }

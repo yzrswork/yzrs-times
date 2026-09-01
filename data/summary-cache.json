@@ -8802,6 +8802,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-08-31T20:18:03.673Z"
+    },
+    "6c511828794e62e2": {
+      "url": "https://zenn.dev/tokium_dev/articles/textalive-miku-2026",
+      "summaryJa": [
+        "はじめに：エンジニアになった経緯 はじめまして！",
+        "株式会社TOKIUMでエンジニアをしている、えしらと申します。",
+        "この春入社し、未経験からエンジニアになりました。"
+      ],
+      "cachedAt": "2026-09-01T02:48:31.425Z"
+    },
+    "05a6e39514741cff": {
+      "url": "https://joisino.hatenablog.com/entry/kasu",
+      "summaryJa": [
+        "LLM は魅力的に見える提案をしてくれますが、実際に提案に従ってみると全然大したことがない結果になり肩透かしを食うことがよくあります。",
+        "本稿ではスタンフォード大学のグループによる一連の研究 Can LLMs Generate Novel Research Ideas?",
+        "A Large-Scale Human Study with 100+ NLP Researchers（LLMは斬新な研究アイ."
+      ],
+      "cachedAt": "2026-09-01T02:48:31.425Z"
+    },
+    "8aebacaf4f828b95": {
+      "url": "https://www.darlinghq.org/",
+      "summaryJa": [
+        "Run macOS Software on Linux",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-01T02:48:31.425Z"
+    },
+    "90f53c4dcbc64be4": {
+      "url": "https://debiru.hatenablog.com/entry/20260831/jcom-plume-dns-blocking",
+      "summaryJa": [
+        "あるWebサイトにアクセスするとSSLエラーになった DNSの応答がおかしい J:COMの応答 J:COM問い合わせ J:COMの権威ある回答 まとめ J:CO",
+        "趣味でDNSを研究したりしている @debiru_R です.",
+        "."
+      ],
+      "cachedAt": "2026-09-01T02:48:31.425Z"
+    },
+    "4e7dc890b5fb5e00": {
+      "url": "https://zenn.dev/kimuson/articles/compare-ai-subscription-20260818",
+      "summaryJa": [
+        "はじめに Coding Agent 向けのサブスクリプションの選択肢も増えてきており、このエントリでは各社のサブスクリプションのコストパフォーマンスを整理し比較",
+        "Open Model は安いと言われますが、大抵は「同水準のモデルを 1/3 - 1/5 に抑える程度」であり、サブスクリプションによる圧縮効果(物によっては1",
+        "個人利用だと予算も限界があるから特にコストパフォーマンスが気になると思うので、じゃあ何使ったら良いの？"
+      ],
+      "cachedAt": "2026-09-01T02:48:31.425Z"
+    },
+    "292aa209cda80c6f": {
+      "url": "https://qiita.com/songchong/items/3abbc43f0d7c471e6688?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "「このAIに入れた内容、バレませんか」 社内で AI を使い始めるとき、いちばん多い質問だと思います。",
+        "聞かれる側は「たぶん法人版なら大丈夫です」と答えがちで、私もそうでした。",
+        "曖昧にしか答えられないのが気になったので、AI チャット・AI エージェント・AI-OCR・iPaa."
+      ],
+      "cachedAt": "2026-09-01T02:48:31.425Z"
+    },
+    "c368f34fafa9881b": {
+      "url": "https://zenn.dev/tick_taku/articles/ae1383e1b70a80",
+      "summaryJa": [
+        "Overview Auth Tab がリリースされたことはご存知でしょうか？",
+        "OIDC の実装において Custom Tabs を利用することがデファクトだったと思いますが、Custom Tabs が PiP に対応してきたりして方向性が",
+        "そこで認証に特化した Auth Tab が登場しました。"
+      ],
+      "cachedAt": "2026-09-01T02:48:31.425Z"
+    },
+    "57619ecbbdcd1efc": {
+      "url": "https://lwn.net/Articles/1088279/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-01T02:48:31.425Z"
+    },
+    "118e9056fc199848": {
+      "url": "https://arxiv.org/abs/2608.26345",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-01T02:48:31.425Z"
+    },
+    "2251f82fdd080341": {
+      "url": "https://github.com/janet-lang/janet/releases/tag/v1.42.0",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-01T02:48:31.426Z"
     }
   }
 }

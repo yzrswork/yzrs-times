@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-1388008e",
-      "url": "https://github.com/cncjs/cncjs",
-      "date": "2026-08-02"
-    },
-    {
-      "id": "github-gems-463502d7",
-      "url": "https://github.com/DBraun/DawDreamer",
-      "date": "2026-08-02"
-    },
-    {
       "id": "github-gems-72020fc8",
       "url": "https://github.com/abey79/vpype",
       "date": "2026-08-03"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-913585d4",
       "url": "https://github.com/1Password/typeshare",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "github-gems-d4a9ebeb",
+      "url": "https://github.com/aitjcize/esp32-photoframe",
       "date": "2026-09-01"
     }
   ]
