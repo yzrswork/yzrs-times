@@ -15,6 +15,13 @@
       "edition": "midday",
       "theme": "実装のチューニングと、表現の射程",
       "path": "issues/2026-09-01-midday.json"
+    },
+    {
+      "issueNo": 107,
+      "date": "2026-09-02",
+      "edition": "morning",
+      "theme": "機械の外部と手元の実装",
+      "path": "issues/2026-09-02-morning.json"
     }
   ]
 }

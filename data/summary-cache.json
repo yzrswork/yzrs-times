@@ -8892,6 +8892,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-01T02:48:31.426Z"
+    },
+    "14eaa0f5fac306bb": {
+      "url": "https://www.businessinsider.jp/article/2609-meat-proxy-tech-new-term-ai/",
+      "summaryJa": [
+        "ChatGPTが出力したメッセージを、そのまま送り続ける同僚はいないだろうか？",
+        "その人は「ミート・プロキシ」かもしれない。",
+        "Kilito Chan/Getty Images 「ミート・プロキシ」とは、ClaudeやChatGPTの出力を吟味せず、そのまま送る人のことを指す。"
+      ],
+      "cachedAt": "2026-09-01T20:21:47.727Z"
+    },
+    "dc86fe26ba6e7b7d": {
+      "url": "https://zenn.dev/coji/articles/artifactshare-preview-claude-codex-cursor",
+      "summaryJa": [
+        "これはなに？",
+        "今年の5月ごろから、Artifact Share というサービスを自分で使うためにソース公開で作り続けています。",
+        "AIエージェントが作ったHTMLやMarkdownをURLで共有するものです。"
+      ],
+      "cachedAt": "2026-09-01T20:21:47.727Z"
+    },
+    "2e7d0fb45461c661": {
+      "url": "https://mvakde.github.io/blog/44-on-arc-1/",
+      "summaryJa": [
+        "I trained a small transformer in 1.5hrs and it bea",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-01T20:21:47.727Z"
+    },
+    "6c7bc3488a3674e4": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20260901de47704",
+      "summaryJa": [
+        "前線を伴った低気圧の影響で、北日本では局地的に猛烈な雨が降っていて、青森県では線状降水帯が発生したほか、「記録的短時間大雨」の気象防災速報が相次いで発表されまし",
+        "青森県では「レベル4大雨危険警報」と…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-01T20:21:47.727Z"
+    },
+    "de335b7b40848442": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20260901de47708",
+      "summaryJa": [
+        "8月31日、三重県の伊勢神宮の近くにある商店街で起きた火事は、夜を徹して消火活動が続けられましたが、火が出てから1日半以上がたった2日午前4時時点でも完全には消",
+        "焼け跡に火がく…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-01T20:21:47.727Z"
+    },
+    "6b0069685e7c2aa1": {
+      "url": "https://news.yahoo.co.jp/pickup/6593915?source=rss",
+      "summaryJa": [
+        "防災庁を11月創設へ 課題は山積",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-01T20:21:47.727Z"
+    },
+    "8b5db14ab3ab8b40": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20260901de47691",
+      "summaryJa": [
+        "韓国政府は、過去最大となる日本円で95兆円規模の予算案を閣議決定しました。",
+        "半導体製造やAI開発のためのインフラ整備に重点的に投資するとしているほか、国防費では自国での開発を目指す原子力潜水艦の設計など…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-01T20:21:47.727Z"
+    },
+    "297da4629b3d2bdd": {
+      "url": "https://zenn.dev/knowledgesense/articles/ad123283bdea26",
+      "summaryJa": [
+        "本記事では、AIエージェントの性能を高めるための「SKILL.",
+        "state」という手法について、ざっくり理解します。",
+        "株式会社ナレッジセンスは、生成AIやRAGを使ったプロダクトを、エンタープライズ企業向けに開発しているスタートアップです。"
+      ],
+      "cachedAt": "2026-09-01T20:21:47.727Z"
+    },
+    "262da2ab8d8caf1f": {
+      "url": "http://notes.eatonphil.com/2026-05-18-serving-files-three-ways.html?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "summaryJa": [
+        "Serving files over HTTP three ways: synchronous, e",
+        "出典: indieblog.page（個人ブログ）",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-01T20:21:47.727Z"
     }
   }
 }
