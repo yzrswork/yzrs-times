@@ -29,6 +29,13 @@
       "edition": "midday",
       "theme": "境界の規約と自律の作業域",
       "path": "issues/2026-09-02-midday.json"
+    },
+    {
+      "issueNo": 109,
+      "date": "2026-09-03",
+      "edition": "morning",
+      "theme": "氾濫する情報の砂地、静かな自衛の足場",
+      "path": "issues/2026-09-03-morning.json"
     }
   ]
 }
