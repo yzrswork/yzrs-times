@@ -22,6 +22,13 @@
       "edition": "morning",
       "theme": "機械の外部と手元の実装",
       "path": "issues/2026-09-02-morning.json"
+    },
+    {
+      "issueNo": 108,
+      "date": "2026-09-02",
+      "edition": "midday",
+      "theme": "境界の規約と自律の作業域",
+      "path": "issues/2026-09-02-midday.json"
     }
   ]
 }

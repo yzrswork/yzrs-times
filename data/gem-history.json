@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-72020fc8",
-      "url": "https://github.com/abey79/vpype",
-      "date": "2026-08-03"
-    },
-    {
-      "id": "github-gems-5b453f22",
-      "url": "https://github.com/schellingb/TinySoundFont",
-      "date": "2026-08-03"
-    },
-    {
       "id": "github-gems-2749f28b",
       "url": "https://github.com/Szybet/InkWatchy",
       "date": "2026-08-04"
@@ -304,6 +294,11 @@
     {
       "id": "indieblog-262da2ab",
       "url": "http://notes.eatonphil.com/2026-05-18-serving-files-three-ways.html?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "indieblog-dd46aae2",
+      "url": "https://wayne.conniptions.org/2026/05/03/please-do-not-use-ai-images-on-your-tai-chi-blog.html?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
       "date": "2026-09-02"
     }
   ]

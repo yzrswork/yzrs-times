@@ -8973,6 +8973,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-01T20:21:47.727Z"
+    },
+    "380301e39deaf804": {
+      "url": "https://zenn.dev/reality_tech/articles/f6305331bccee0",
+      "summaryJa": [
+        "REALITYのバックエンドでは GKE 上で Go のマイクロサービス群が動いています。",
+        "2026 年 8 月、そのうちのあるサービスのPodが深夜に複数回 OOMKill されました。",
+        "メモリが足りなかったのだろうと思って調べ始めたのですが、出てきた答えは違いました。"
+      ],
+      "cachedAt": "2026-09-02T02:50:25.309Z"
+    },
+    "c3ce572055bc28d1": {
+      "url": "https://qiita.com/yuji_yasuhara/items/99c589264a006658a15a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "注意： この記事は人間が読むことを想定していません。",
+        "はじめに Claude Code や Codex のようなコーディングエージェントを複数並列で走らせて Godot のゲームを作る、という開発を続けてきました。",
+        "並列化して最初に壊れるのはコードではなく調整です。"
+      ],
+      "cachedAt": "2026-09-02T02:50:25.309Z"
+    },
+    "4a35358dbae270ab": {
+      "url": "https://zenn.dev/atamaplus/articles/6be03483c0110b",
+      "summaryJa": [
+        "こんにちは！",
+        "atama plusのtakeiです。",
+        "Claude Codeには、決めた時間やイベントをきっかけにClaudeを自動起動して仕事を任せられる「routine」という機能があります。"
+      ],
+      "cachedAt": "2026-09-02T02:50:25.309Z"
+    },
+    "9763615b8065a7d3": {
+      "url": "https://zenn.dev/dress_code/articles/6134e6bd5e46c6",
+      "summaryJa": [
+        "はじめに Dress Code 株式会社でプロダクトエンジニアをしている@cottpanです。",
+        "社内向けの小さな Web サービスを作るとき、毎回考慮しなければいけないのが認証です。",
+        "実現したいことは「社内の人だけが見られればいい」とシンプルですが、毎回認証の部分を実装するのは手間になる上、退職者のアカウントを消し忘れるな."
+      ],
+      "cachedAt": "2026-09-02T02:50:25.309Z"
+    },
+    "86d3bc7092b6e9c6": {
+      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "summaryJa": [
+        "The ChatGPT/Codex app bundles a full copy of Libre",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-02T02:50:25.309Z"
+    },
+    "0fc61bee80cb7a24": {
+      "url": "https://qiita.com/songchong/items/1a599320ecb21cc4dd05?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "「一度作ってしまえば、あとは自動で動き続けますよね」 連携の話をすると、だいたいこう言われます。",
+        "そして見積書の「保守費」の欄を見て、「何を保守するんですか」と聞かれます。",
+        "保守するものは、あります。"
+      ],
+      "cachedAt": "2026-09-02T02:50:25.309Z"
+    },
+    "d95ff18a965ca06f": {
+      "url": "https://qiita.com/shinchi-pmtech/items/9046380853c316b68bf7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに ピースミール・テクノロジー 進地 です。",
+        "GoとDDDの学習記録、連載の第5回です。",
+        "前回は多段承認を実装しながら集約の境界を引きました。"
+      ],
+      "cachedAt": "2026-09-02T02:50:25.309Z"
+    },
+    "d066463deef52f1f": {
+      "url": "https://www.humprog.org/~stephen/blog/2026/08/25/#flat-vs-segmented",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-02T02:50:25.309Z"
+    },
+    "411a1b432da32f8b": {
+      "url": "https://calpaterson.com/memoryfields.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-02T02:50:25.309Z"
+    },
+    "d4c6dadf73c61b4c": {
+      "url": "https://abundance.build/blog/2026-08-31-risc-v-interpreter-from-the-future/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-02T02:50:25.309Z"
+    },
+    "dd46aae26664833f": {
+      "url": "https://wayne.conniptions.org/2026/05/03/please-do-not-use-ai-images-on-your-tai-chi-blog.html?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "summaryJa": [
+        "Please Do Not Use AI Images On Your Tai Chi Blog |",
+        "出典: indieblog.page（個人ブログ）",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-02T02:50:25.309Z"
     }
   }
 }
