@@ -9153,6 +9153,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-02T20:18:18.722Z"
+    },
+    "5c99144f098e6165": {
+      "url": "https://ochagavia.nl/blog/lets-build-a-compressor-from-scratch/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-03T02:50:02.178Z"
+    },
+    "f75b190ad7952b8b": {
+      "url": "https://qiita.com/drken/items/52aafd8c073b37749539?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "お久しぶりです！",
+        "NTT データ数理システムで顧問をしている大槻（けんちょん）です。",
+        "好きなアルゴリズムは最小カットです。"
+      ],
+      "cachedAt": "2026-09-03T02:50:02.178Z"
+    },
+    "738009c81c51c8c4": {
+      "url": "https://note.com/jinbaflow/n/nc8372b84e572",
+      "summaryJa": [
+        "AIでスライドを作ると、それらしい見た目のものは一瞬で出てきます。",
+        "ところが実際に役員会議や顧客提案に持っていけるかというと、ほとんどの場合そのままでは使えません。",
+        "角丸のカードが3枚並び、タイトルは「〜のご紹介」、結論はどこにも書いていない——そんな「AIが作った感」のあるスライドになりがちです。"
+      ],
+      "cachedAt": "2026-09-03T02:50:02.178Z"
+    },
+    "87d7638b791bd03d": {
+      "url": "https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2026/pm_ai.html",
+      "summaryJa": [
+        "プロジェクトの背景 近年、多くの企業で生成AIの業務利用が広がる一方、情報漏えいや誤情報などへの懸念から、利用を制限・禁止する動きが見られます。",
+        "しかし、業務効率化への期待は大きく、組織の管理が及ばない「シャドーAI」の発生を招くなど、別の管理上の課題も生じています。",
+        "こうした状況は、組織がAIのリスクや."
+      ],
+      "cachedAt": "2026-09-03T02:50:02.178Z"
+    },
+    "b3e7eee395813d61": {
+      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+      "summaryJa": [
+        "Three sites made 215,128 “best software” pages for",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-03T02:50:02.178Z"
+    },
+    "e059557259cf0cf2": {
+      "url": "https://zenn.dev/ymotongpoo/books/chainguard-image-toolchain",
+      "summaryJa": [
+        "Chainguard社はDockerfileを使わず、melangeとapkoという2つのOSSツールを組み合わせてセキュアなコンテナイメージを作っています。",
+        "本書はこの2ツールとWolfi OSがどう連携しているかを、概念の説明とハンズオンを交互に積み重ねながら手元で確かめる本です。",
+        "ソースコードからAPKパッケージを作り、それをコンテナイメージに組み立て、実際にレジストリへ配布するところまで扱います。"
+      ],
+      "cachedAt": "2026-09-03T02:50:02.178Z"
+    },
+    "497b52eb520842fb": {
+      "url": "https://qiita.com/songchong/items/64a8710cffb39963c2b3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "＜空想の中小企業の話＞ 経理から：「CRM とクラウド会計の取引先、連携できないの？",
+        "」 → IT担当：「調べてみます。",
+        "」 社長から：「AI エージェントにデータ分析してもらえないかい？"
+      ],
+      "cachedAt": "2026-09-03T02:50:02.178Z"
+    },
+    "8521a78053b282f5": {
+      "url": "https://zenn.dev/bitkey_dev/articles/test-estimation-formula",
+      "summaryJa": [
+        "「だいたい○○ケースくらいですかね」の正体 テスト計画でスケジュールを立てるとき、テストケース数の見積もりはどうやっているだろうか。",
+        "正直なところ、多くの現場では「前回と同じくらいの規模感だから○○ケースくらい」「経験的にこの手の機能なら△△ケース」という見積もりが主流だと思う。",
+        "自分もそうだった。"
+      ],
+      "cachedAt": "2026-09-03T02:50:02.178Z"
+    },
+    "6e8b21dc1e393223": {
+      "url": "https://asciiquake.wtf/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-03T02:50:02.178Z"
+    },
+    "979d992208b0be74": {
+      "url": "https://go.dev/blog/goroutine-leak-profiles",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-03T02:50:02.178Z"
+    },
+    "3ad1fcf3afb7cf7f": {
+      "url": "https://sethmlarson.dev/ive-added-human-dot-json-to-my-website?utm_campaign=indieblog.page&utm_source=indieblog.page&utm_medium=random",
+      "summaryJa": [
+        "I’ve added human.json to my website — Seth Larson",
+        "出典: indieblog.page（個人ブログ）",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-03T02:50:02.178Z"
     }
   }
 }

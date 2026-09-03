@@ -36,6 +36,13 @@
       "edition": "morning",
       "theme": "氾濫する情報の砂地、静かな自衛の足場",
       "path": "issues/2026-09-03-morning.json"
+    },
+    {
+      "issueNo": 110,
+      "date": "2026-09-03",
+      "edition": "midday",
+      "theme": "信号の手触りと論理の幾何学",
+      "path": "issues/2026-09-03-midday.json"
     }
   ]
 }
