@@ -57,6 +57,13 @@
       "edition": "midday",
       "theme": "素朴な構造と音響の迂回路",
       "path": "issues/2026-09-04-midday.json"
+    },
+    {
+      "issueNo": 113,
+      "date": "2026-09-05",
+      "edition": "morning",
+      "theme": "基板の設計と遊びの骨組み",
+      "path": "issues/2026-09-05-morning.json"
     }
   ]
 }
