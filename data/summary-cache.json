@@ -9351,6 +9351,105 @@
         "「Hacked by CoupDeGrace」は、2026年8月中旬頃から日本の複数のWordPressサイトなどで相次いで確認されて."
       ],
       "cachedAt": "2026-09-03T20:20:18.715Z"
+    },
+    "8e145041fae47bf3": {
+      "url": "https://mathstodon.xyz/@JordiGH/117209252363385093",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-04T02:51:19.778Z"
+    },
+    "272910f8968319b9": {
+      "url": "https://qiita.com/KC-tsukada/items/743f0a2cece7e0decf7a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "Git は多機能に見えて、中身は単純な部品の組み合わせになっているので、その例を紹介します。",
+        "1.",
+        "ブランチとタグはコミットハッシュのエイリアス ブランチもタグもないgit 極端な話、ブランチもタグも使わずに、ハッシュだけで Git を運用することは可能です。"
+      ],
+      "cachedAt": "2026-09-04T02:51:19.778Z"
+    },
+    "a5da698d0bbfb625": {
+      "url": "https://dev.classmethod.jp/articles/webmcp-introduction/",
+      "summaryJa": [
+        "リテールアプリ共創部の末永です。",
+        "みなさん、WebMCPをご存じでしょうか？",
+        "WebMCPは、Webサイトの機能をAIエージェントが扱いやすくするためのWeb標準案です。"
+      ],
+      "cachedAt": "2026-09-04T02:51:19.778Z"
+    },
+    "886b9b4efe9e830f": {
+      "url": "https://pc.watch.impress.co.jp/docs/news/2138088.html",
+      "summaryJa": [
+        "オラに演算能力を分けてくれ！NVIDIA、家庭内のPCで分散推論する「PAIR」",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-04T02:51:19.778Z"
+    },
+    "45a86641ba677818": {
+      "url": "https://inference-docs.cerebras.ai/models/overview",
+      "summaryJa": [
+        "Qwen 3.8 27B available on Cerebras at 1500 tokens/",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-04T02:51:19.778Z"
+    },
+    "257433471c54c9f6": {
+      "url": "https://www.itmedia.co.jp/news/article/2609/04/2000001157/",
+      "summaryJa": [
+        "35年間未解決だった「RSA-260」の素因数分解に成功した――Xに130ケタの数と「divides RSA-260」（RSA-260を割り切る）の一言だけを添",
+        "論文や記者会見ではなく、Xの1つのポストで、第三者も検証可能な形で発表されたことに世界中から称賛が上がった。",
+        "Xオーナーのイー."
+      ],
+      "cachedAt": "2026-09-04T02:51:19.778Z"
+    },
+    "55606864c2e20206": {
+      "url": "https://zenn.dev/dress_code/articles/b9a34a1a55fd95",
+      "summaryJa": [
+        "はじめに Dress Code 株式会社のかわうそです。",
+        "先日、プロダクトのバックエンドで使っている Prisma を v6 から v7 に上げました。",
+        "v7 は Prisma 2 で導入された Rust 製の Query Engine が廃止されるというアーキテクチャ変更を含むメジャーバージョンです。"
+      ],
+      "cachedAt": "2026-09-04T02:51:19.778Z"
+    },
+    "bd9d9fc03cd1a93d": {
+      "url": "https://qiita.com/sh_fukatsu/items/524a76ad04930e774829?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "1.",
+        "はじめに 先日、JAWS-UGコンテナ支部×NW-JAWSのコラボイベント「コンテナネットワークを学ぼう！",
+        "！"
+      ],
+      "cachedAt": "2026-09-04T02:51:19.778Z"
+    },
+    "9fbc66bb2a316dbc": {
+      "url": "https://qiita.com/yomu_n/items/ccab4aa629a74b3231d1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "背景 もともとは Claude Code を使っていたので、CLAUDE.",
+        "md に直接指示を書いていました。",
+        "その後 Claude Code 以外のコーディングエージェントも併用したくなり、指示の実体は AGENTS."
+      ],
+      "cachedAt": "2026-09-04T02:51:19.778Z"
+    },
+    "efe0c7ea5ae5d8b8": {
+      "url": "https://jyn.dev/simple-is-not-the-same-as-small/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-04T02:51:19.778Z"
+    },
+    "a84c073e39e0f6f4": {
+      "url": "https://d.erenrich.net/apple.avif",
+      "summaryJa": [
+        "Try opening in different browser FF v Chrome.",
+        "Or phone v desktop.",
+        "Same image file but only sometimes renders."
+      ],
+      "cachedAt": "2026-09-04T02:51:19.778Z"
     }
   }
 }

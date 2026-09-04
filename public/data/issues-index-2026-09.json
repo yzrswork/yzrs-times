@@ -50,6 +50,13 @@
       "edition": "morning",
       "theme": "波形の更新と途切れる導線",
       "path": "issues/2026-09-04-morning.json"
+    },
+    {
+      "issueNo": 112,
+      "date": "2026-09-04",
+      "edition": "midday",
+      "theme": "素朴な構造と音響の迂回路",
+      "path": "issues/2026-09-04-midday.json"
     }
   ]
 }
