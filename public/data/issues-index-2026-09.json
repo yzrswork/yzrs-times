@@ -71,6 +71,13 @@
       "edition": "midday",
       "theme": "実測が明かす挙動と手元の制御",
       "path": "issues/2026-09-05-midday.json"
+    },
+    {
+      "issueNo": 115,
+      "date": "2026-09-06",
+      "edition": "morning",
+      "theme": "意図をはみ出すシステムと対話の解像度",
+      "path": "issues/2026-09-06-morning.json"
     }
   ]
 }
