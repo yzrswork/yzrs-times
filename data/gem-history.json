@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-05b12dd8",
-      "url": "https://github.com/YunoHost/yunohost",
-      "date": "2026-08-06"
-    },
-    {
-      "id": "show-hn-9c117b9c",
-      "url": "https://airma.sh/",
-      "date": "2026-08-06"
-    },
-    {
       "id": "github-gems-1afd0718",
       "url": "https://github.com/MacRimi/ProxMenux",
       "date": "2026-08-07"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-1388008e",
       "url": "https://github.com/cncjs/cncjs",
+      "date": "2026-09-05"
+    },
+    {
+      "id": "github-gems-0c605160",
+      "url": "https://github.com/OpenHD/OpenHD",
       "date": "2026-09-05"
     }
   ]

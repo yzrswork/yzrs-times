@@ -64,6 +64,13 @@
       "edition": "morning",
       "theme": "基板の設計と遊びの骨組み",
       "path": "issues/2026-09-05-morning.json"
+    },
+    {
+      "issueNo": 114,
+      "date": "2026-09-05",
+      "edition": "midday",
+      "theme": "実測が明かす挙動と手元の制御",
+      "path": "issues/2026-09-05-midday.json"
     }
   ]
 }

@@ -9522,6 +9522,105 @@
         "奴らはゲームの面白さを戦闘の面白さだと思っている。"
       ],
       "cachedAt": "2026-09-04T20:17:53.485Z"
+    },
+    "f11922ee87a83823": {
+      "url": "https://zenn.dev/geekplus/articles/b5f1757e2869ef",
+      "summaryJa": [
+        "初めまして。",
+        "ギークプラスのフロントエンドエンジニアの杉平と申します！",
+        "今回は、サプライチェーン計画のプロダクトで在庫計画の画面をリニューアルしたときのお話です。"
+      ],
+      "cachedAt": "2026-09-05T02:49:04.515Z"
+    },
+    "ba35203690cfa237": {
+      "url": "https://lemire.me/blog/2026/08/29/the-new-go-json-api-twice-as-fast-or-1-5x-slower/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-05T02:49:04.515Z"
+    },
+    "e94fc2f0f03f5691": {
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "summaryJa": [
+        "<a href=\"https:&#x2F;&#x2F;xenaproject.",
+        "wordpress.",
+        "com&#x2F;2026&#x2F;09&#x2F;04&#x2F;flt-anthropic-has-beaten-me-to-it&#x2F;\" rel="
+      ],
+      "cachedAt": "2026-09-05T02:49:04.515Z"
+    },
+    "6a5cb4a438703700": {
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "summaryJa": [
+        "Actively exploited sandbox RCE in all Chromium ver",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-05T02:49:04.515Z"
+    },
+    "5553f4409f200ed4": {
+      "url": "https://www.statichost.eu/",
+      "summaryJa": [
+        "Statichost.eu – European static site hosting",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-05T02:49:04.515Z"
+    },
+    "64d1d11b19311b15": {
+      "url": "https://qiita.com/Ruria1024/items/17726dfb4369ca235687?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "2026年9月3日、ELYZAが「業務AIアプリをAIで作成する仕組み」で特許を取得したと発表し、X上で「範囲が広すぎる」「新規性がない」という批判が集中しまし",
+        "同社は同日夜にリリースを修正して謝罪しましたが、批判は収まりませんでした。",
+        "この記事は、その特許（特許第775."
+      ],
+      "cachedAt": "2026-09-05T02:49:04.515Z"
+    },
+    "17eba02ead0d2943": {
+      "url": "https://qiita.com/suwa_nobu/items/3a135f5db9d53257a9e4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "9月2日に、Claude Fable 5.",
+        "1 が2ターン目のキャッシュに乗ったり乗らなかったりすると書きました。",
+        "18回測って13回外れ、原因は分かりませんでした。"
+      ],
+      "cachedAt": "2026-09-05T02:49:04.515Z"
+    },
+    "c3f36dfef829e47e": {
+      "url": "https://zenn.dev/wn_engineering/articles/4f914e97053eac",
+      "summaryJa": [
+        "この記事はウェルスナビ 2026年9月テックブログ企画 「【UI/UX特集】画面の向こうのユーザーのためにできること」の特集記事です。",
+        "はじめに こんにちは、iOSエンジニアの長です。",
+        "ウェルスナビアプリでは今年、お客様に対しプッシュ通知の許諾をお願いする直前に、通知のメリットを説明するダイアログを追加しました。"
+      ],
+      "cachedAt": "2026-09-05T02:49:04.515Z"
+    },
+    "7cdae27c64aed72b": {
+      "url": "https://arxiv.org/abs/2605.23490",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-05T02:49:04.515Z"
+    },
+    "9d558f94cfd35b11": {
+      "url": "https://blog.michielborkent.nl/babashka-ffi.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-05T02:49:04.516Z"
+    },
+    "890ddf092a12336f": {
+      "url": "https://github.com/OpenHD/OpenHD",
+      "summaryJa": [
+        "OpenHD",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-05T02:49:04.516Z"
     }
   }
 }
