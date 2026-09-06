@@ -78,6 +78,13 @@
       "edition": "morning",
       "theme": "意図をはみ出すシステムと対話の解像度",
       "path": "issues/2026-09-06-morning.json"
+    },
+    {
+      "issueNo": 116,
+      "date": "2026-09-06",
+      "edition": "midday",
+      "theme": "バイトの節約と骨組みの数理",
+      "path": "issues/2026-09-06-midday.json"
     }
   ]
 }

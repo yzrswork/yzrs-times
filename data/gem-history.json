@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-1afd0718",
-      "url": "https://github.com/MacRimi/ProxMenux",
-      "date": "2026-08-07"
-    },
-    {
-      "id": "github-gems-e85a54e6",
-      "url": "https://github.com/Devin-AXIS/iPolloWork",
-      "date": "2026-08-07"
-    },
-    {
       "id": "github-gems-411a292b",
       "url": "https://github.com/RavenSystem/esp-homekit-devices",
       "date": "2026-08-08"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-11d28e70",
       "url": "https://github.com/maximecb/noisecraft",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "github-gems-e861a2e4",
+      "url": "https://github.com/surikov/webaudiofont",
       "date": "2026-09-06"
     }
   ]

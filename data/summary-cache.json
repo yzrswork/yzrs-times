@@ -9702,6 +9702,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-05T20:19:34.642Z"
+    },
+    "c72406a5c33e9a2a": {
+      "url": "https://zenn.dev/saku0512/books/3735de8d0aa09f",
+      "summaryJa": [
+        "同じ処理をCとGoで実装し、生成されるアセンブリを比較する。",
+        "ABI、境界チェック、スタック、GC、Escape Analysis、インライン化などを実際の生成コードから追い、CとGoの言語設計・コンパイラ・ランタイムの違",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-06T02:51:46.305Z"
+    },
+    "e4135e939d481b51": {
+      "url": "https://pineight.com/retrotainment/fq-compression.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-06T02:51:46.305Z"
+    },
+    "6ab7ee85b3f68e64": {
+      "url": "https://qiita.com/Oborova/items/95b314104ec0538f9b04?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 2026年9月5日、個人開発してきた構造力学パズルゲーム『SigmaZero』の v1.",
+        "0.",
+        "0 を itch."
+      ],
+      "cachedAt": "2026-09-06T02:51:46.305Z"
+    },
+    "6a2258e1c0b90d7f": {
+      "url": "https://cloudinabottle.org/blog/launch-post",
+      "summaryJa": [
+        "Cloud in a Bottle: making self-hosting accessible ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-06T02:51:46.305Z"
+    },
+    "3e3af6a8e31f765a": {
+      "url": "https://note.com/npaka/n/n9635d06c377f",
+      "summaryJa": [
+        "「GPT-6 Astra」で飛躍的に向上した「Blender」 制作能力についてまとめました。",
+        "1.",
+        "はじめにOpenAIは2026年9月3日、新モデル「GPT-6 Astra」を発表しました。"
+      ],
+      "cachedAt": "2026-09-06T02:51:46.305Z"
+    },
+    "3b94e293cb5c07ee": {
+      "url": "https://zenn.dev/ntk221/articles/34cbb95272720f",
+      "summaryJa": [
+        "Go の OpenTelemetry コンパイル時計装(opentelemetry-go-compile-instrumentation の otelc)につい",
+        "Context を伝搬していなくても span の親子を繋げられる仕組みが入っていることがわかりました。",
+        "これは GLS(goroutine-local storage) と呼ばれる仕組みです。"
+      ],
+      "cachedAt": "2026-09-06T02:51:46.305Z"
+    },
+    "22921e1d8259d61f": {
+      "url": "https://qiita.com/subculapp/items/e9e5593854909bd4d73f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 会議や打ち合わせ、インタビューの内容を「あとで文字で見返したい」と思うことはないでしょうか。",
+        "個人開発で、そんなときに使える音声文字起こしアプリ「Privoxa（プリヴォクサ）」をリリースしました。",
+        "Privoxaの一番の特徴：音声を外に送らない 世の中には."
+      ],
+      "cachedAt": "2026-09-06T02:51:46.305Z"
+    },
+    "c814c14feb966955": {
+      "url": "https://www.sandordargo.com/blog/2026/09/02/cpp26-hive",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-06T02:51:46.305Z"
+    },
+    "9f5a98d337e5f890": {
+      "url": "https://jakearchibald.com/2026/css-custom-property-compute-time/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-06T02:51:46.306Z"
+    },
+    "586d7601870d6ec8": {
+      "url": "https://github.com/surikov/webaudiofont",
+      "summaryJa": [
+        "Use full GM set of musical instruments to play MIDI and single sounds or effects",
+        "Support for reverberation and equaliser.",
+        "No plugins, no Flash."
+      ],
+      "cachedAt": "2026-09-06T02:51:46.306Z"
     }
   }
 }
