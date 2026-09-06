@@ -85,6 +85,13 @@
       "edition": "midday",
       "theme": "バイトの節約と骨組みの数理",
       "path": "issues/2026-09-06-midday.json"
+    },
+    {
+      "issueNo": 117,
+      "date": "2026-09-07",
+      "edition": "morning",
+      "theme": "手元の道具立てと環境の抗弁",
+      "path": "issues/2026-09-07-morning.json"
     }
   ]
 }
