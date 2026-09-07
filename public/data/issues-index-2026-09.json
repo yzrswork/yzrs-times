@@ -92,6 +92,13 @@
       "edition": "morning",
       "theme": "手元の道具立てと環境の抗弁",
       "path": "issues/2026-09-07-morning.json"
+    },
+    {
+      "issueNo": 118,
+      "date": "2026-09-07",
+      "edition": "midday",
+      "theme": "極小に込める意図と、自製のアーキテクチャ",
+      "path": "issues/2026-09-07-midday.json"
     }
   ]
 }

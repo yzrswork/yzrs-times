@@ -9855,6 +9855,114 @@
         "MarkdownをHTMLに変換し、画面共有している様子 使い方 madoc html input."
       ],
       "cachedAt": "2026-09-06T20:19:14.896Z"
+    },
+    "2cfe7e0a9cc6d3f8": {
+      "url": "https://austinhenley.com/blog/python1024.html",
+      "summaryJa": [
+        "Making a Python interpreter in 1024 bytes",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-07T02:48:27.227Z"
+    },
+    "ea7d3196941a1ce4": {
+      "url": "https://github.com/BrettHallen/Radix_FW60",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-07T02:48:27.227Z"
+    },
+    "4534f84b2b813f66": {
+      "url": "https://zenn.dev/issei_y/articles/4178a603322b8e",
+      "summaryJa": [
+        "CUBE ZERO — ルービックキューブを一撃で解く専用LLMをゼロから育てた 1.",
+        "なぜ作った？",
+        "事前知識ゼロから育ち、ルービックキューブを一撃で解くLLMがあったら、かっこいいですよね。"
+      ],
+      "cachedAt": "2026-09-07T02:48:27.227Z"
+    },
+    "45b4c877ba6111ef": {
+      "url": "https://kanautech.jp/blog/ai-shutsuryoku-html-vs-markdown-kakumei",
+      "summaryJa": [
+        "Anthropic Claude Codeチーム Thariq Shihipar 投稿（2026/5/8、X累計1,240万閲覧） イントロ：AIが書く文書、誰",
+        "AIにはHTMLを書かせよ」という主旨の投稿を公開しました。",
+        "投稿は1週間で1,240万閲覧・16,4."
+      ],
+      "cachedAt": "2026-09-07T02:48:27.227Z"
+    },
+    "b7181ef32c0080e3": {
+      "url": "https://qiita.com/nogataka/items/d6a54f3694726b9141f3",
+      "summaryJa": [
+        "要点 Anthropic は 2026年7月24日のブログで、Claude Opus 5 / Fable 5 向けに Claude Code のシステムプロンプ",
+        "理由は「制約の多くは最悪のケース回避のために入れたもので、今のモデルは周囲の文脈から判断できる」からです。",
+        "私."
+      ],
+      "cachedAt": "2026-09-07T02:48:27.227Z"
+    },
+    "008feca12588b1e2": {
+      "url": "https://www.youtube.com/watch?v=SxdOUGdseq4",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-07T02:48:27.227Z"
+    },
+    "20bd8db74bfd31ea": {
+      "url": "https://theconsensus.dev/p/2026/09/06/data-races-and-the-limits-of-threadsanitizer-in-c-and-go.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-07T02:48:27.227Z"
+    },
+    "0fa844e650b3093a": {
+      "url": "https://zenn.dev/yyamamot/articles/gpt2-to-qwen2-03-rope",
+      "summaryJa": [
+        "GPT-2-likeからQwen2-likeへの実験：第3回 絶対位置EmbeddingをRoPEに変える GPT-2-likeからQwen2-likeへ、少し",
+        "今回は学習可能な絶対位置Embeddingを外し、RoPEへ変更します。",
+        "第2回では、GELUをSwiGLUへ変更しました。"
+      ],
+      "cachedAt": "2026-09-07T02:48:27.227Z"
+    },
+    "dd3e27e305240903": {
+      "url": "https://www.publickey1.jp/blog/26/vs_codethe_story_of_vs_codeyoutubeibmmsvs_code.html",
+      "summaryJa": [
+        "VS Code誕生から現在までの物語「The Story of VS Code」YouTubeで公開。",
+        "作者のエリック・ガンマ氏はなぜIBMからMSへ移籍してVS Codeを作ることになったか Visual Studio Code（以下、VS Code）はいまやI",
+        "VS Codeはオープンソースであり、そ."
+      ],
+      "cachedAt": "2026-09-07T02:48:27.227Z"
+    },
+    "69cfdd4fdadff6d6": {
+      "url": "https://qiita.com/tomokusaba/items/f2f48f6dfc2f4a563f78?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに UI ライブラリを使っていると、色を #0078D4 のようなカラーコードで直接指定するよりも、colorBrandForeground1 や col",
+        "デザイントーク.",
+        "."
+      ],
+      "cachedAt": "2026-09-07T02:48:27.227Z"
+    },
+    "4e6574db143e9b48": {
+      "url": "https://meanmicio.org/2026/09/06/netbsd-11-from-scratch/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-07T02:48:27.227Z"
+    },
+    "70ac3b323bf2050c": {
+      "url": "https://aleyan.com/projects/python-iceberg/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-07T02:48:27.227Z"
     }
   }
 }
