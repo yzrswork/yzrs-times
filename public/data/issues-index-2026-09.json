@@ -99,6 +99,13 @@
       "edition": "midday",
       "theme": "極小に込める意図と、自製のアーキテクチャ",
       "path": "issues/2026-09-07-midday.json"
+    },
+    {
+      "issueNo": 119,
+      "date": "2026-09-08",
+      "edition": "morning",
+      "theme": "既存素材の転用と、論理の骨組み",
+      "path": "issues/2026-09-08-morning.json"
     }
   ]
 }
