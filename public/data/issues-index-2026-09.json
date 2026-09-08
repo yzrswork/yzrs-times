@@ -113,6 +113,13 @@
       "edition": "midday",
       "theme": "単一環境の限界に挑む記述力",
       "path": "issues/2026-09-08-midday.json"
+    },
+    {
+      "issueNo": 121,
+      "date": "2026-09-09",
+      "edition": "morning",
+      "theme": "生成の境界と、手元の実在",
+      "path": "issues/2026-09-09-morning.json"
     }
   ]
 }
