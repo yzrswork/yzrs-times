@@ -10035,6 +10035,123 @@
         "."
       ],
       "cachedAt": "2026-09-07T20:20:16.433Z"
+    },
+    "09b311ac21ec4c03": {
+      "url": "https://levtech.jp/media/detail_923/",
+      "summaryJa": [
+        "大阪大学 大学院理学研究科 助教 村瀬 功一 2015年に東京大学大学院理学系研究科にて博士（理学）を取得。",
+        "国内外の研究機関で特任研究員などを歴任し、2026年より現職。",
+        "専門は極限状態の物質（クォーク・グルーオンプラズマ、中性子星など）の理論物理。"
+      ],
+      "cachedAt": "2026-09-08T02:48:20.303Z"
+    },
+    "6d8be6fb9468cc24": {
+      "url": "https://zenn.dev/koher/articles/code-first-3d-modeling",
+      "summaryJa": [
+        "GPT-6 Astraがリリースされ、XはAstraが作ったハイクオリティ3Dシーンの動画であふれています。",
+        "それらの多くは、MCP経由でAstraにBlenderなどの3Dモデリングソフトを使わせ実現されたものです。",
+        "アプリの中で直接コードによって3Dシーンを作らせればより手軽ですが、やはりBlenderなどを使った場合よりクオリティが落ちてしまいがちです。"
+      ],
+      "cachedAt": "2026-09-08T02:48:20.303Z"
+    },
+    "f6e2d6500d252840": {
+      "url": "https://zenn.dev/tellernovel_inc/articles/0193eb68cabb6e",
+      "summaryJa": [
+        "テラーノベルで Go を書いている typer です。",
+        "この記事は次のような方向けです。",
+        "Go でコードを書いていて、domain 層にロジックが集まらないと感じている方 DDD の戦術的パターンを入れてみたが、結局 domain の外側にロジックが"
+      ],
+      "cachedAt": "2026-09-08T02:48:20.303Z"
+    },
+    "fac5a01055fd1304": {
+      "url": "https://mcpherrin.ca/2026/09/07/rsa.html",
+      "summaryJa": [
+        "I've factored the RSA keys of a Certificate Author",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-08T02:48:20.303Z"
+    },
+    "ae43e362cfddaae7": {
+      "url": "https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html",
+      "summaryJa": [
+        "巨大オンラインゲーム「EVE Online」。",
+        "ゲームを支える240万行のPython 2.",
+        "7のコードをPython 3へ移行すると発表 宇宙を舞台にした世界最大級の大規模オンラインゲーム「EVE Online」が、ゲームを支える240万行のPytho"
+      ],
+      "cachedAt": "2026-09-08T02:48:20.303Z"
+    },
+    "61fad8de53ab058b": {
+      "url": "https://pc.watch.impress.co.jp/docs/column/nishikawa/2138806.html",
+      "summaryJa": [
+        "【西川和久の不定期コラム】 家庭にあるPCのLLMリソースを束ねるNVIDIA「PAIR」、早速試し",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-08T02:48:20.303Z"
+    },
+    "22e64b6af99faeb2": {
+      "url": "https://qiita.com/tobacha/items/75615303a52d11341f3d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "TL;DR（結論） AIエージェントのSkill（SKILL.",
+        "md などの指示定義）の質は、人間が持つ要求の質 × 要求を指示文へ翻訳する精度 × 指示をエージェントが実行する精度という3層の積で決まり、要求・翻訳・実行の",
+        "."
+      ],
+      "cachedAt": "2026-09-08T02:48:20.303Z"
+    },
+    "b624ff5b64728b4c": {
+      "url": "https://zenn.dev/my_vision/articles/2bbf47bb0db842",
+      "summaryJa": [
+        "はじめに 弊社では Web エンジニアがモバイルアプリを開発しており、Web の React + Tailwind CSS の知見をそのまま応用できるよう Re",
+        "NativeWind は書き味こそ Web の Tailwind そのものですが、「className を指定したのに効かない」「Web の感覚で書いたら見た目",
+        "そこでつまずいたポイントを、トピックごとに整理してまとめました。"
+      ],
+      "cachedAt": "2026-09-08T02:48:20.303Z"
+    },
+    "9df194a6047dffb7": {
+      "url": "https://qiita.com/im_yoneda/items/f27e52d2f852ba017a7e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 私は新卒でエンジニアになって1年が経ちました。",
+        "生成AIに実装を依頼すると、コードを書く時間そのものは大きく短縮できることを実感しています。",
+        "一方、私のようなジュニアエンジニアの場合、生成されたコードを理解するまでに時間がかかるため、 期待したほど開発全体は速く."
+      ],
+      "cachedAt": "2026-09-08T02:48:20.303Z"
+    },
+    "7eaf751e05e2f8c9": {
+      "url": "https://werwolv.net/posts/linux_bringup/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-08T02:48:20.303Z"
+    },
+    "e051de487b2d4edd": {
+      "url": "https://daviddalbusco.com/blog/tiny-utils-for-the-result-pattern",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-08T02:48:20.303Z"
+    },
+    "dc58b9f2dbda3a46": {
+      "url": "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-08T02:48:20.304Z"
+    },
+    "e2bd9fc6af28b072": {
+      "url": "https://github.com/preziotte/party-mode",
+      "summaryJa": [
+        "An experimental d3.",
+        "js music visualizer from 2014.",
+        "Continued as vizz."
+      ],
+      "cachedAt": "2026-09-08T02:48:20.304Z"
     }
   }
 }

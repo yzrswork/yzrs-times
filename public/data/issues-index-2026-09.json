@@ -106,6 +106,13 @@
       "edition": "morning",
       "theme": "既存素材の転用と、論理の骨組み",
       "path": "issues/2026-09-08-morning.json"
+    },
+    {
+      "issueNo": 120,
+      "date": "2026-09-08",
+      "edition": "midday",
+      "theme": "単一環境の限界に挑む記述力",
+      "path": "issues/2026-09-08-midday.json"
     }
   ]
 }

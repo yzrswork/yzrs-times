@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-fbb33e73",
-      "url": "https://github.com/earlephilhower/arduino-pico",
-      "date": "2026-08-09"
-    },
-    {
-      "id": "github-gems-94f327c8",
-      "url": "https://github.com/Zer0-bit/gaggiuino",
-      "date": "2026-08-09"
-    },
-    {
       "id": "github-gems-50496e26",
       "url": "https://github.com/Ameobea/web-synth",
       "date": "2026-08-10"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-72020fc8",
       "url": "https://github.com/abey79/vpype",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "github-gems-0ee3a044",
+      "url": "https://github.com/preziotte/party-mode",
       "date": "2026-09-08"
     }
   ]
