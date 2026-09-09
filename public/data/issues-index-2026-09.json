@@ -120,6 +120,13 @@
       "edition": "morning",
       "theme": "生成の境界と、手元の実在",
       "path": "issues/2026-09-09-morning.json"
+    },
+    {
+      "issueNo": 122,
+      "date": "2026-09-09",
+      "edition": "midday",
+      "theme": "制約を跨ぐ自作の制御線",
+      "path": "issues/2026-09-09-midday.json"
     }
   ]
 }

@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-50496e26",
-      "url": "https://github.com/Ameobea/web-synth",
-      "date": "2026-08-10"
-    },
-    {
-      "id": "github-gems-6ff84613",
-      "url": "https://github.com/SharpAI/DeepCamera",
-      "date": "2026-08-10"
-    },
-    {
       "id": "github-gems-1385a9cd",
       "url": "https://github.com/MengTo/kage",
       "date": "2026-08-11"
@@ -304,6 +294,11 @@
     {
       "id": "indieblog-1665bd83",
       "url": "https://readbeanicecream.surge.sh/2026/04/17/you-dont-need-a-tech-stack-you-just-need-a-text-editor/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "show-hn-80cb349a",
+      "url": "https://john.fun/elevators",
       "date": "2026-09-09"
     }
   ]

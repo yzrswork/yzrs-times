@@ -10233,6 +10233,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-08T20:21:10.863Z"
+    },
+    "6caecbaec8883e4a": {
+      "url": "https://bensimms.moe/reverse-engineering-scooter/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-09T02:49:15.857Z"
+    },
+    "0f8457002c966b92": {
+      "url": "https://zenn.dev/gemcook/articles/herdr-worktree-parallel",
+      "summaryJa": [
+        "こんにちは、村中（@wage790）です。",
+        "関西でバックエンド・クラウドインフラのエンジニアをしています。",
+        "普段の開発でClaude Codeを1つだけ動かしていると、その応答をただ待つ時間ができてしまいます。"
+      ],
+      "cachedAt": "2026-09-09T02:49:15.857Z"
+    },
+    "a9e40bcc77117409": {
+      "url": "https://github.com/argonautlabsai/deltafin",
+      "summaryJa": [
+        "Kimi K3 (2.8T) at 1 token/s on a MacBook Pro, stre",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-09T02:49:15.857Z"
+    },
+    "4406eb82a480fa71": {
+      "url": "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/",
+      "summaryJa": [
+        "How to build a printer",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-09T02:49:15.857Z"
+    },
+    "c5715939fa5800a1": {
+      "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2139162.html",
+      "summaryJa": [
+        "Windows 3.1時代の「プログラムマネージャ」、令和に復活！ レトロでエモい／Windows ",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-09T02:49:15.857Z"
+    },
+    "4713419bc3699bf1": {
+      "url": "https://zenn.dev/tellernovel_inc/articles/57b223dd4b8f5d",
+      "summaryJa": [
+        "こんにちは！",
+        "テラーノベルでiOS/Android/Webとフロントエンド周りを担当している @kazutoyo です！",
+        "Opus 4."
+      ],
+      "cachedAt": "2026-09-09T02:49:15.857Z"
+    },
+    "4f4cf44e762458da": {
+      "url": "https://qiita.com/songchong/items/8b48962aa6d5408abe86?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "「うちのシステムも MCP に対応すべきか」 「これからは API ではなく MCP なのか」 ——こうした声を聞くことが増えました。",
+        "しかし、流行しているからといって安易に飛びつくのは危険です。",
+        "そこで編集部では、両側の一次仕様書の突き合わせと、IT連携マップ で公開して."
+      ],
+      "cachedAt": "2026-09-09T02:49:15.857Z"
+    },
+    "82625c7f9dc5c0dc": {
+      "url": "https://yui.dev/blog/minesweeper-in-247-bytes",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-09T02:49:15.857Z"
+    },
+    "59229dfbc2655ba0": {
+      "url": "https://labs.quansight.org/blog/teaching-numpys-ufuncs-new-tricks",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-09T02:49:15.858Z"
     }
   }
 }
