@@ -134,6 +134,13 @@
       "edition": "morning",
       "theme": "生成の霧と、実務の骨組み",
       "path": "issues/2026-09-10-morning.json"
+    },
+    {
+      "issueNo": 124,
+      "date": "2026-09-10",
+      "edition": "midday",
+      "theme": "エージェントの手綱と低層の確信",
+      "path": "issues/2026-09-10-midday.json"
     }
   ]
 }

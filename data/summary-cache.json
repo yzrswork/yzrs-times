@@ -10386,6 +10386,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-09T20:20:22.953Z"
+    },
+    "dde8c5dd622c8b97": {
+      "url": "https://qiita.com/kanryu/items/95147e22ed5ac542ba58?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに ブラウザで高速なバイナリ処理や計算ロジックを動かしたいとき、WebAssembly（Wasm）の導入を検討したことのあるWebエンジニアは多いはずです",
+        "しかし、いざ手を出そうとすると、常に過剰なトレードオフに突き当たります。",
+        "C/C++（Emscripten."
+      ],
+      "cachedAt": "2026-09-10T02:49:31.331Z"
+    },
+    "c188b27f9e8224dd": {
+      "url": "https://qiita.com/songchong/items/252947681e7914cd9e2c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "「ChatGPTは社内で慣れたので、自律型AIエージェントも入れてくれない？",
+        "」 最近、Claude Code、Cursor、Devin など、AIが自律的にコマンドを実行し、ファイルを書き換える「エージェント型AI」を検討し始めている企",
+        "しかし同時."
+      ],
+      "cachedAt": "2026-09-10T02:49:31.331Z"
+    },
+    "452a70cbb08ab48b": {
+      "url": "https://anchorsandlinks.com/posts/primary-keys/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-10T02:49:31.331Z"
+    },
+    "b1a83965ae71b02e": {
+      "url": "https://note.com/masakazu_urabe/n/n7815f5b64fab",
+      "summaryJa": [
+        "クラウドサービスのCloudflareは急成長した要因には、同社のユニークな技術が多々あります。",
+        "Anycastや同一IPアクセスといった技術が一例ですが、これらの仕組みを作ったのがCTOであり、共同創業者のリー・ホロウエイです。",
+        "ところが、深刻な脳の病気（FTD)のために途中で離脱してしまいます。"
+      ],
+      "cachedAt": "2026-09-10T02:49:31.331Z"
+    },
+    "cc50efc6763b3c92": {
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "summaryJa": [
+        "Shopify acquires Tailwind",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-10T02:49:31.331Z"
+    },
+    "19ae3e6cafcc0497": {
+      "url": "https://opusfived.dev/",
+      "summaryJa": [
+        "Claude, change the “Add to Cart” button to blue",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-10T02:49:31.331Z"
+    },
+    "8976223fcf4475e9": {
+      "url": "https://zenn.dev/socialplus/articles/f5d9e28470eb99",
+      "summaryJa": [
+        "どうもこんにちは、たくびーです。",
+        "弊社ではClaudeのチームプランに契約しており、開発者全員がClaude Codeを使うことができます。",
+        "希望者はChatGPTのチームプランも使えてCodexを併用することも可能です。"
+      ],
+      "cachedAt": "2026-09-10T02:49:31.331Z"
+    },
+    "2bd916f8c59d47ee": {
+      "url": "https://qiita.com/suwa_nobu/items/cec37ce5a6141bb3eefc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "ayghri/i-have-adhd が Hacker News で269ポイントを集めていました。",
+        "GitHub 30,233スター（2026-09-09 時点、API取得）。",
+        "エージェントの回答から前置きを取り、行動を先頭に置かせるスキルです。"
+      ],
+      "cachedAt": "2026-09-10T02:49:31.331Z"
+    },
+    "3dfc9249bbef2148": {
+      "url": "https://fzakaria.com/2026/09/09/review-a-pull-request-by-booting-it",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-10T02:49:31.331Z"
+    },
+    "6e88a4820394727c": {
+      "url": "https://codon.org.uk/~mjg59/blog/p/systemio-conflicts-are-not-firmware-bugs/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-10T02:49:31.331Z"
     }
   }
 }

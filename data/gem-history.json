@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-1385a9cd",
-      "url": "https://github.com/MengTo/kage",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "github-gems-d4bbb213",
-      "url": "https://github.com/sepandhaghighi/samila",
-      "date": "2026-08-11"
-    },
-    {
       "id": "github-gems-32f4429d",
       "url": "https://github.com/tsl0922/EPD-nRF5",
       "date": "2026-08-12"
@@ -304,6 +294,11 @@
     {
       "id": "show-hn-d3100b5a",
       "url": "https://th0mas.nl/downloads/pdftris.pdf",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "github-gems-1afd0718",
+      "url": "https://github.com/MacRimi/ProxMenux",
       "date": "2026-09-10"
     }
   ]
