@@ -10476,6 +10476,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-10T02:49:31.331Z"
+    },
+    "ccf40ae115f1048c": {
+      "url": "https://shopify.engineering/back-to-native",
+      "summaryJa": [
+        "Shopify moves back to Native from React Native",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-10T20:20:10.584Z"
+    },
+    "d44e6b23c072d5cc": {
+      "url": "https://zenn.dev/loglass/articles/7c140c6689d8c2",
+      "summaryJa": [
+        "この記事は毎週必ず記事がでるテックブログ Loglass Tech Blog Sprint の160週目の記事です！",
+        "4年連続達成まであと52週となりました！",
+        "ログラスの龍島(@hryushm)です。"
+      ],
+      "cachedAt": "2026-09-10T20:20:10.584Z"
+    },
+    "2076cbdbd673e236": {
+      "url": "https://gizmodo.com/this-nasa-color-trick-was-meant-for-mars-now-its-unveiling-rock-art-on-earth-2000809844",
+      "summaryJa": [
+        "NASA Color Trick Was Meant for Mars. Now It's Unve",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-10T20:20:10.584Z"
+    },
+    "bcfbaff272742839": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20260911de49624",
+      "summaryJa": [
+        "イランの支援を受ける中東イエメンの反政府勢力は、ホルムズ海峡の代替ルートになっている紅海に面した地域で重要拠点を制圧するなど攻勢を強め、国際的な航路への影響が懸",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-10T20:20:10.584Z"
+    },
+    "f67e25e18e4fc408": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20260911de49618",
+      "summaryJa": [
+        "10日のニューヨーク原油市場では、国際的な取り引きの指標となるWTIの先物価格が一時、1バレル＝100ドル台に上昇しおよそ4か月ぶりの高値水準となりました。",
+        "中東情勢をめぐり、アメリカとイランとの間…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-10T20:20:10.584Z"
+    },
+    "3b7dc19a8635da4d": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20260910de49610",
+      "summaryJa": [
+        "EU＝ヨーロッパ連合の気象情報機関は、8月の世界の平均気温が観測史上最高を記録したことを明らかにしました。",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-10T20:20:10.584Z"
+    },
+    "95c9e0b146e036af": {
+      "url": "https://news.yahoo.co.jp/pickup/6594906?source=rss",
+      "summaryJa": [
+        "関東など 通勤時間帯に雷雨の恐れ",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-10T20:20:10.584Z"
+    },
+    "c3aba4d13cd3eb24": {
+      "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+      "summaryJa": [
+        "Rust is tier-1 language at Microsoft",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-10T20:20:10.584Z"
+    },
+    "3fa091621b417673": {
+      "url": "https://github.com/dwgx/WindsurfAPI",
+      "summaryJa": [
+        "Turn Windsurf / Devin Desktop's 100+ AI models (Claude, GPT, Gemini, DeepSeek, K",
+        "Zero-dependency self-hosted reverse proxy for Claude Code, Cline & Cursor.",
+        "把 Windsurf/Devin 云端 100+ 模型变成三套兼容 API。"
+      ],
+      "cachedAt": "2026-09-10T20:20:10.584Z"
     }
   }
 }
