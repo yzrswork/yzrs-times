@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-32f4429d",
-      "url": "https://github.com/tsl0922/EPD-nRF5",
-      "date": "2026-08-12"
-    },
-    {
-      "id": "github-gems-43a6fa9c",
-      "url": "https://github.com/generative-design/Code-Package-p5.js",
-      "date": "2026-08-12"
-    },
-    {
       "id": "show-hn-aaad82ae",
       "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
       "date": "2026-08-13"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-8dcdd8a7",
       "url": "https://github.com/dwgx/WindsurfAPI",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "github-gems-05b12dd8",
+      "url": "https://github.com/YunoHost/yunohost",
       "date": "2026-09-11"
     }
   ]

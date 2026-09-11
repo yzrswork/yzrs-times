@@ -148,6 +148,13 @@
       "edition": "morning",
       "theme": "基底への回帰と転用される視覚",
       "path": "issues/2026-09-11-morning.json"
+    },
+    {
+      "issueNo": 126,
+      "date": "2026-09-11",
+      "edition": "midday",
+      "theme": "一瞬で届くコードと、自律する小さな開発",
+      "path": "issues/2026-09-11-midday.json"
     }
   ]
 }

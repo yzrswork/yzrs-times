@@ -10557,6 +10557,87 @@
         "把 Windsurf/Devin 云端 100+ 模型变成三套兼容 API。"
       ],
       "cachedAt": "2026-09-10T20:20:10.584Z"
+    },
+    "0783ad7db941269f": {
+      "url": "https://qiita.com/kanryu/items/95147e22ed5ac542ba58",
+      "summaryJa": [
+        "TCPの初期ウィンドウサイズ（MTU 1500バイト基準）なら、最初の1〜2パケットでブラウザへ完全に届きます。",
+        "ネットワーク遅延は事実上ゼロ、V8などのエンジンによるJITコンパイルも一瞬で終わります。",
+        "動作デモはこんな感じです。"
+      ],
+      "cachedAt": "2026-09-11T02:48:30.480Z"
+    },
+    "02f68c9c821c7cbb": {
+      "url": "https://qiita.com/chaochire/items/aa972ad8152f7df900f4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "こんにちは ソーイ株式会社Webエンジニア2年目の村上です。",
+        "学生時代、講義で初めてArduino Unoというマイコンを使用した際、コードと電子部品を使ってこんなに形になる開発が自由で簡単にできるのかと衝撃を受けました。",
+        "当時を思い出して調べてみると、M5StickS3と."
+      ],
+      "cachedAt": "2026-09-11T02:48:30.480Z"
+    },
+    "1c9fc5047a9635c8": {
+      "url": "https://zenn.dev/mediba/articles/7d0d7d70678546",
+      "summaryJa": [
+        "はじめに 株式会社 mediba でフロントエンドエンジニアをしている中畑です。",
+        "弊社では Nuxt.",
+        "js から Next."
+      ],
+      "cachedAt": "2026-09-11T02:48:30.480Z"
+    },
+    "38839947c81c7dc7": {
+      "url": "https://forest.watch.impress.co.jp/docs/news/2139791.html",
+      "summaryJa": [
+        "商用も無料のPDF編集ソフト「PDF MARIN」が登場、黒く塗るだけではない本物の墨消しに対応／「",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-11T02:48:30.480Z"
+    },
+    "f54289327e600ba8": {
+      "url": "https://zenn.dev/kawasima/articles/souther-ddd-trilemma",
+      "summaryJa": [
+        "ドメインモデル貧血症はなぜ生まれるのか — Decision パターンで DDD トリレンマを解く は Domain model purity vs.",
+        "domain model completeness (DDD Trilemma)を非常に分かりやすく解説し、かつGoでこの循環を解消する方法として、domain",
+        "ただ、Decisionパターンはやはり実装上の課題をドメインモデルに持ち込んでしまうので、外部I/Oをdomainの外に置ける一方、決."
+      ],
+      "cachedAt": "2026-09-11T02:48:30.480Z"
+    },
+    "c58afa667d850217": {
+      "url": "https://qiita.com/chiitata/items/2c2ad3d8d7398b89aee8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "🐝 人間がやったのは、たった一言「作って」だけ。",
+        "あとは Buzz 上で暮らす3匹のAIエージェント（Fizz / Honey / Pollen）が、企画からコーディング、ドキュメント、本番デプロイ、そして検証",
+        "こ."
+      ],
+      "cachedAt": "2026-09-11T02:48:30.480Z"
+    },
+    "7040bcc06f184be9": {
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260909-00/?p=112683",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-11T02:48:30.480Z"
+    },
+    "b1a144313eeff589": {
+      "url": "https://vale.rocks/posts/html-boilerplate",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-11T02:48:30.480Z"
+    },
+    "302f50f7ea4270e4": {
+      "url": "https://ersc.io/blog/what-comes-after-git",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-11T02:48:30.480Z"
     }
   }
 }
