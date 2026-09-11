@@ -155,6 +155,13 @@
       "edition": "midday",
       "theme": "一瞬で届くコードと、自律する小さな開発",
       "path": "issues/2026-09-11-midday.json"
+    },
+    {
+      "issueNo": 127,
+      "date": "2026-09-12",
+      "edition": "morning",
+      "theme": "定型化する記述と、雑然さを測る尺度",
+      "path": "issues/2026-09-12-morning.json"
     }
   ]
 }

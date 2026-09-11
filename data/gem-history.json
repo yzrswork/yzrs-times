@@ -300,6 +300,11 @@
       "id": "github-gems-05b12dd8",
       "url": "https://github.com/YunoHost/yunohost",
       "date": "2026-09-11"
+    },
+    {
+      "id": "github-gems-fbb33e73",
+      "url": "https://github.com/earlephilhower/arduino-pico",
+      "date": "2026-09-12"
     }
   ]
 }
