@@ -169,6 +169,13 @@
       "edition": "midday",
       "theme": "実行系の深部と自前の高速化",
       "path": "issues/2026-09-12-midday.json"
+    },
+    {
+      "issueNo": 129,
+      "date": "2026-09-13",
+      "edition": "morning",
+      "theme": "計算の特権と、泥臭き最適化",
+      "path": "issues/2026-09-13-morning.json"
     }
   ]
 }
