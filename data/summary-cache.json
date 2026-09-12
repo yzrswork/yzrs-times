@@ -10701,6 +10701,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-11T20:18:23.998Z"
+    },
+    "698a199c60da2210": {
+      "url": "https://zenn.dev/bea4dev/articles/b7684e8d4c838e",
+      "summaryJa": [
+        "はじめに 今回、Rustを用いて世界最速のC#コンパイラを開発してみました。",
+        "C#公式のコンパイラであるRoslynよりも最大11倍程度高速にコンパイルすることが可能です。",
+        "ただし、."
+      ],
+      "cachedAt": "2026-09-12T02:50:44.219Z"
+    },
+    "0397528e5b9d3731": {
+      "url": "https://zenn.dev/ymotongpoo/books/go-ebpf-primer",
+      "summaryJa": [
+        "Go Conference 2026の登壇「OpenTelemetry eBPF Instrumentationの舞台裏」の解説資料です。",
+        "eBPFによるゼロコード計装は「言語を問わず動く」と語られますが、Goバイナリへの関数レベルの計装は他言語にない4つの難所を抱えています。",
+        "なぜ難しいのかを、CPUとメモリの仕組みという初歩から積み上げて、OBIの実装コードまで手元で確かめながら読める構成にしました。"
+      ],
+      "cachedAt": "2026-09-12T02:50:44.219Z"
+    },
+    "8a53f9bd8f4f326b": {
+      "url": "https://www.youtube.com/watch?v=lW8Z98pXuSE",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-12T02:50:44.219Z"
+    },
+    "b0c48a4bc7fbd434": {
+      "url": "https://www.rubyhack.ai/",
+      "summaryJa": [
+        "OpenAI agents carried out an undisclosed attack on",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-12T02:50:44.219Z"
+    },
+    "0de37cadf4fc1e7b": {
+      "url": "https://www.gadgetreview.com/starlinks-signal-leakage-is-threatening-radio-astronomys-most-critical-frequencies",
+      "summaryJa": [
+        "Starlink Signal Leakage Threatens Radio Astronomy'",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-12T02:50:44.219Z"
+    },
+    "cb9988875c9db8cf": {
+      "url": "https://qiita.com/Ohmiya-Mizuki/items/f3fd704d0aba19e0bc8c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "この記事はすきま経営からの転載です。",
+        "結論から書く。",
+        "個人開発でクリーンアーキテクチャを採用する価値は「ある」が、無条件ではない。"
+      ],
+      "cachedAt": "2026-09-12T02:50:44.219Z"
+    },
+    "877d4466d4099638": {
+      "url": "https://qiita.com/minamijoyo/items/92c094b554d090b54a17?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに terraformで管理しているリソースが増えてきて、tfstateが肥大化してくると、terraform planがどんどん遅くなり、待ってる間にイ",
+        "根本解決は、適度な粒度にtfstate分割ですが、もっとお手軽な小手先のテクニック.",
+        "."
+      ],
+      "cachedAt": "2026-09-12T02:50:44.219Z"
+    },
+    "dd5d7a91dd7c8360": {
+      "url": "https://macos-defaults.com/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-12T02:50:44.219Z"
+    },
+    "68a8ea5a52839618": {
+      "url": "https://evergarden.moe/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-12T02:50:44.219Z"
     }
   }
 }

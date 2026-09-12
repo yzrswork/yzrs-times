@@ -162,6 +162,13 @@
       "edition": "morning",
       "theme": "定型化する記述と、雑然さを測る尺度",
       "path": "issues/2026-09-12-morning.json"
+    },
+    {
+      "issueNo": 128,
+      "date": "2026-09-12",
+      "edition": "midday",
+      "theme": "実行系の深部と自前の高速化",
+      "path": "issues/2026-09-12-midday.json"
     }
   ]
 }
