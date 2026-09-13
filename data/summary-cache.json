@@ -10854,6 +10854,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-12T20:19:56.878Z"
+    },
+    "aafc36eb77661332": {
+      "url": "https://blog.goose.love/posts/making-a-clippy-lint-faster-by-3133x/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-13T02:49:56.483Z"
+    },
+    "caea54af2d5ec00f": {
+      "url": "https://zenn.dev/nkzn/articles/cross-platform-development-costs-2026",
+      "summaryJa": [
+        "2026年9月、Shopify Engineeringから「Native is now the future of mobile at Shopify」という記",
+        "Shopifyは2020年にモバイルアプリ開発をReact Nativeへ寄せる方針を打ち出し、React Nativeコミュニティにも大きな投資を続けてきた会",
+        "そのShopifyがSwiftとKotlinを使ったネイティブ開発へ戻."
+      ],
+      "cachedAt": "2026-09-13T02:49:56.483Z"
+    },
+    "f1cae18e741b77c4": {
+      "url": "https://hachyderm.io/@simontatham/117201594980991062",
+      "summaryJa": [
+        "Linux Zoom client proactively reading everything w",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-13T02:49:56.483Z"
+    },
+    "6cba846d885b2dda": {
+      "url": "https://zenn.dev/levtech/articles/cartesian-product-doctrine-orm",
+      "summaryJa": [
+        "これはなに こんにちは、レバテック開発部のもりたです。",
+        "今回はJOINありのクエリを書くときにメモリオーバーなどの問題を引き起こすデカルト積問題について、実際にメモリ使用量を計測してどれくらい問題になりうるのか確かめ",
+        "構成 構成 デカルト積問題とは 計測 結果 最初に問題の解説、続いて計測、結果という流れです。"
+      ],
+      "cachedAt": "2026-09-13T02:49:56.483Z"
+    },
+    "b1f838b2affa5c90": {
+      "url": "https://qiita.com/laineus/items/cedf99a60d2e4125f406?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "Vueが好き？",
+        "モダンフロントエンドが好き？",
+        "ゲームを作ってみたい？"
+      ],
+      "cachedAt": "2026-09-13T02:49:56.483Z"
+    },
+    "bacdd12f2a0c91cd": {
+      "url": "https://zenn.dev/dress_code/articles/5dd5de5020d9ef",
+      "summaryJa": [
+        "はじめに こんにちは、Dress Code 株式会社でプロダクトエンジニアをやっている津田です。",
+        "AI が実装の大半を担ってからずいぶんと経ち、単体テストによってある程度の動作の保証をしてくれるようになった一方で、いつの間にか単体テストの実行時間が伸びていま",
+        "CI環境で50件計測し、p90 で 16分14秒 にもなっていました。"
+      ],
+      "cachedAt": "2026-09-13T02:49:56.483Z"
+    },
+    "abd2269bc29981ac": {
+      "url": "http://oldvcr.blogspot.com/2026/09/a-dick-smith-vz200-without-dick-smith.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-13T02:49:56.483Z"
+    },
+    "206a9374107c8161": {
+      "url": "https://iamreiyn.github.io/lua-pattern-tester/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-13T02:49:56.483Z"
+    },
+    "8351677788604901": {
+      "url": "https://github.com/cyberman54/ESP32-Paxcounter",
+      "summaryJa": [
+        "Wifi & BLE driven passenger flow metering with cheap ESP32 boards",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-13T02:49:56.483Z"
     }
   }
 }

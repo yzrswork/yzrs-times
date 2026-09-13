@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-50b1136f",
-      "url": "https://dosaygo-studio.github.io/hn-front-page-2035/news",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "show-hn-5293a25e",
-      "url": "https://cannoneyed.com/isometric-nyc/",
-      "date": "2026-08-14"
-    },
-    {
       "id": "show-hn-9a48ce0c",
       "url": "https://www.byran.ee/posts/creation/",
       "date": "2026-08-15"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-94f327c8",
       "url": "https://github.com/Zer0-bit/gaggiuino",
+      "date": "2026-09-13"
+    },
+    {
+      "id": "github-gems-723f9d26",
+      "url": "https://github.com/cyberman54/ESP32-Paxcounter",
       "date": "2026-09-13"
     }
   ]

@@ -176,6 +176,13 @@
       "edition": "morning",
       "theme": "計算の特権と、泥臭き最適化",
       "path": "issues/2026-09-13-morning.json"
+    },
+    {
+      "issueNo": 130,
+      "date": "2026-09-13",
+      "edition": "midday",
+      "theme": "ランタイムの解剖と、道具の再編",
+      "path": "issues/2026-09-13-midday.json"
     }
   ]
 }
