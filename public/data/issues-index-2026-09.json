@@ -183,6 +183,13 @@
       "edition": "midday",
       "theme": "ランタイムの解剖と、道具の再編",
       "path": "issues/2026-09-13-midday.json"
+    },
+    {
+      "issueNo": 131,
+      "date": "2026-09-14",
+      "edition": "morning",
+      "theme": "加速する自動化と、埋もれた情報の再発掘",
+      "path": "issues/2026-09-14-morning.json"
     }
   ]
 }
