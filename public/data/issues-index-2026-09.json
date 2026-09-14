@@ -197,6 +197,13 @@
       "edition": "midday",
       "theme": "自製ツールの手触りと、仕様の棚卸し",
       "path": "issues/2026-09-14-midday.json"
+    },
+    {
+      "issueNo": 133,
+      "date": "2026-09-15",
+      "edition": "morning",
+      "theme": "手綱を握る知性と道具の輪郭",
+      "path": "issues/2026-09-15-morning.json"
     }
   ]
 }
