@@ -190,6 +190,13 @@
       "edition": "morning",
       "theme": "加速する自動化と、埋もれた情報の再発掘",
       "path": "issues/2026-09-14-morning.json"
+    },
+    {
+      "issueNo": 132,
+      "date": "2026-09-14",
+      "edition": "midday",
+      "theme": "自製ツールの手触りと、仕様の棚卸し",
+      "path": "issues/2026-09-14-midday.json"
     }
   ]
 }

@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-9a48ce0c",
-      "url": "https://www.byran.ee/posts/creation/",
-      "date": "2026-08-15"
-    },
-    {
-      "id": "github-gems-52414d83",
-      "url": "https://github.com/davidmonterocrespo24/velxio",
-      "date": "2026-08-15"
-    },
-    {
       "id": "github-gems-a10a4428",
       "url": "https://github.com/ace-trump-tech/MindPaw",
       "date": "2026-08-16"
@@ -304,6 +294,11 @@
     {
       "id": "show-hn-aaad82ae",
       "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "show-hn-9a48ce0c",
+      "url": "https://www.byran.ee/posts/creation/",
       "date": "2026-09-14"
     }
   ]

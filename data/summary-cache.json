@@ -11007,6 +11007,96 @@
         "今回は、実際にXPSを分解してUSB Type-C端子やSSDを交換するレポートをお届けする。"
       ],
       "cachedAt": "2026-09-13T20:21:58.026Z"
+    },
+    "b7150873a0069e10": {
+      "url": "https://kaminashi-developer.hatenablog.jp/entry/2026/09/14/frontend-beyond-vibe-coding",
+      "summaryJa": [
+        "カミナシでソフトウェアエンジニアをしている osuzu です。",
+        "「フロントエンドエンジニアとしてのキャリアは終わりなのではないか」という話を、最近よく見かけるようになりました。",
+        "AIが画面実装を担えるようになった今、フロントエンドを主戦場にし続ける意味があるのか、という問いです。"
+      ],
+      "cachedAt": "2026-09-14T02:50:15.684Z"
+    },
+    "c4883f99302e35e5": {
+      "url": "https://blog.p1ass.com/posts/textlint-rule-preset-ai-words-ja/",
+      "summaryJa": [
+        "こんにちは、ぷらす(@p1ass)です。",
+        "AI が書いた日本語に出てきやすい単語と言い回しを見つける textlint のプリセット、textlint-rule-preset-ai-words-ja を",
+        "この記事では、実際に検出できる単語の例や、作成した背景、使い方、形態素解析を使った検出の仕組み、辞書の仕組みを紹介します。"
+      ],
+      "cachedAt": "2026-09-14T02:50:15.684Z"
+    },
+    "aa0b9adb7f526c4e": {
+      "url": "https://qiita.com/tofu_frontend/items/5f594cf3d150f17f8bbd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        ":has() が全モダンブラウザで使えるようになって（Baseline widely available / 2023年12月〜）、そろそろ3年が経ちました。",
+        "それなのに、現場のコードにはまだこういうJavaScriptが残っています。",
+        "// 入力エラーになったら親要素にク."
+      ],
+      "cachedAt": "2026-09-14T02:50:15.684Z"
+    },
+    "87dbaa16744bd012": {
+      "url": "https://tech.findy.co.jp/entry/2026/09/14/070000",
+      "summaryJa": [
+        "こんにちは！",
+        "CTO室でエンジニアをやっている別府(@_nuk00_)です！",
+        "今回の記事では、AIがデザイン案を自動で作成する時代に、なぜ管理コストのかかるデザインシステムを作ったのか。"
+      ],
+      "cachedAt": "2026-09-14T02:50:15.684Z"
+    },
+    "3ea606d07abfdfe6": {
+      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+      "summaryJa": [
+        "Fable 5.1 Solves the Cyphral Distich, a 370-year-o",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-14T02:50:15.684Z"
+    },
+    "9a0fdda5bf663727": {
+      "url": "https://qiita.com/yakumo_09/items/f6fa632ce28ad701182e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに RAGを社内で使おうとすると、だいたい「資料はExcelで管理してます」と言われます。",
+        "でもこのExcelはそのままRAGに入れるとあまり精度が出ないというのはあるあるです。",
+        "（私だけ？"
+      ],
+      "cachedAt": "2026-09-14T02:50:15.684Z"
+    },
+    "78efa9f6a3d6d36b": {
+      "url": "https://zenn.dev/fdsa/articles/37db858e04678e",
+      "summaryJa": [
+        "企業法務を主とする Legal Agent 法律事務所でのエンジニアリングをご紹介します。",
+        "前提 弁護士は基本 Office で仕事をしています。",
+        "Word が主で、紛争で証拠を整理したりなどで Excel を使ったりもします。"
+      ],
+      "cachedAt": "2026-09-14T02:50:15.684Z"
+    },
+    "0386281387e0321f": {
+      "url": "https://giannirosato.com/blog/post/case-against-jxl",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-14T02:50:15.684Z"
+    },
+    "697be84fa2778250": {
+      "url": "https://aloysberger.com/posts/writing-a-guix-service-from-scratch-as-a-beginner.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-14T02:50:15.684Z"
+    },
+    "df2bc97da00eedfa": {
+      "url": "https://char.lt/blog/2026/09/sorcery-repo-viewer/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-14T02:50:15.684Z"
     }
   }
 }
