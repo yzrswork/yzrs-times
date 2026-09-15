@@ -11250,6 +11250,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-15T02:50:45.362Z"
+    },
+    "0157005b9d1f296a": {
+      "url": "https://withcapsule.app/",
+      "summaryJa": [
+        "Hey HN,<p>I always had the problem that building HTML pages is really simple now",
+        "Over the last few months, I&#x27;ve been building an app called Capsule (it’s al",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-15T20:18:43.554Z"
+    },
+    "014097e25cd3b583": {
+      "url": "https://www.itmedia.co.jp/news/article/2609/15/2000001472/",
+      "summaryJa": [
+        "配車アプリ「GO」と「Waymo」それぞれから配車できる自動運転タクシーを、段階的に100台規模で運行する計画。",
+        "正式な運行開始時期は、安全性が認められ、必要な許認可の取得が完了した後に決める。",
+        "GOは地域のタクシー事業者との連携の要となり、Waymoの自動運転技術を日本のタクシー産業に組み込むための全体設計を担う."
+      ],
+      "cachedAt": "2026-09-15T20:18:43.554Z"
+    },
+    "b9aa31edf3aeac4d": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20260915de50355",
+      "summaryJa": [
+        "15日昼過ぎ、青森県にある航空自衛隊三沢基地所属の大型無人偵察機「グローバルホーク」の通信が鳥取県沖の海上で途絶えました。",
+        "付近の海上では機体の残骸とみられるものがみつかっていて、航空自衛隊は墜落し…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-15T20:18:43.554Z"
+    },
+    "ee82cbf6b48d719a": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20260915de50259",
+      "summaryJa": [
+        "政府は、食料品の消費税減税の制度設計を盛り込んだ大綱を閣議決定しました。",
+        "来年4月から2年間、税率を1％に引き下げるとした上で、所得に応じたきめ細かな給付を行う新たな制度を導入するなどとしています。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-15T20:18:43.554Z"
+    },
+    "5428b4819e14d252": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20260915de50446",
+      "summaryJa": [
+        "絶滅危惧種に指定されているウミガメの一種「ヒメウミガメ」が産卵の時期を迎え、保護区となっているメキシコ南部の海岸では群れが一斉に砂浜に上がり産卵する様子が確認さ",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-15T20:18:43.554Z"
+    },
+    "d429a0f11856827e": {
+      "url": "https://news.yahoo.co.jp/pickup/6595422?source=rss",
+      "summaryJa": [
+        "福岡県議1人20万円夕食会 県負担",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-15T20:18:43.554Z"
+    },
+    "1c2863f48d147b60": {
+      "url": "https://speakerdeck.com/22mi/how-to-design-self-improvement-for-ai-agents",
+      "summaryJa": [
+        "AIエージェントに改善を繰り返させても、プロンプトの加筆や出力の整形に留まり、最初の設計を見直せずに停滞することがあります。",
+        "本資料では、業務AIワークフローの構築・改善で経験した課題と関連研究をもとに、自己改善を支えるハーネスの設計を解説します。",
+        "深層学習の訓練ループとの対応を手がかりに、Traini…"
+      ],
+      "cachedAt": "2026-09-15T20:18:43.554Z"
+    },
+    "ad03f0318d16c95e": {
+      "url": "https://gigazine.net/news/20260915-sunk-cost/",
+      "summaryJa": [
+        "PCの購入費用やAIの利用量などを基に、ローカルでAIを動かした場合に何年で元が取れるかを試算できるサイト「Sunk Cost」が公開されています。",
+        "費用だけでなく、そのPCに収まるAIモデルや生成速度、クラウドモデルとの能力比較もまとめて確認できます。",
+        "Sunk Cost https://sunkcost."
+      ],
+      "cachedAt": "2026-09-15T20:18:43.554Z"
+    },
+    "a72a8c8d784d0f35": {
+      "url": "https://github.com/arnegiacomo/fugleramme",
+      "summaryJa": [
+        "E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully loc",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-15T20:18:43.554Z"
     }
   }
 }

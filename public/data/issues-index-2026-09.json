@@ -211,6 +211,13 @@
       "edition": "midday",
       "theme": "仕様の深部と描画の執念",
       "path": "issues/2026-09-15-midday.json"
+    },
+    {
+      "issueNo": 135,
+      "date": "2026-09-16",
+      "edition": "morning",
+      "theme": "無人の運行と完結する箱",
+      "path": "issues/2026-09-16-morning.json"
     }
   ]
 }
