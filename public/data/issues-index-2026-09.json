@@ -204,6 +204,13 @@
       "edition": "morning",
       "theme": "手綱を握る知性と道具の輪郭",
       "path": "issues/2026-09-15-morning.json"
+    },
+    {
+      "issueNo": 134,
+      "date": "2026-09-15",
+      "edition": "midday",
+      "theme": "仕様の深部と描画の執念",
+      "path": "issues/2026-09-15-midday.json"
     }
   ]
 }

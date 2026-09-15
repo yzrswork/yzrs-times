@@ -11169,6 +11169,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-14T20:18:47.071Z"
+    },
+    "a4fad7b67d7c5272": {
+      "url": "https://levtech.jp/media/detail_926/",
+      "summaryJa": [
+        "ソフトウェアエンジニア 石井 宏治（いしい・こうじ） 1965年生まれ。",
+        "「Word」の日本語組版プログラムマネージャーや楽天Koboでの電子書籍リーダー開発を経て、Googleに参画。",
+        "Chromiumのレンダリングエンジンの開発を行う。"
+      ],
+      "cachedAt": "2026-09-15T02:50:45.362Z"
+    },
+    "9c359256f69a1f93": {
+      "url": "https://www.benjoffe.com/map",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-15T02:50:45.362Z"
+    },
+    "012da1502656961b": {
+      "url": "https://zenn.dev/uhyo/articles/react-fragment-refs-hack",
+      "summaryJa": [
+        "Fragment Refsは、React 19.",
+        "3で追加された新機能のひとつで、Fragmentコンポーネントがrefをサポートするようになるというものです。",
+        "ここで得られるrefはReactが用意したFragmentInstanceオブジェクトで、addEventListenerやfocusといったいくつかのメソッド"
+      ],
+      "cachedAt": "2026-09-15T02:50:45.362Z"
+    },
+    "b54bfac470e15413": {
+      "url": "https://andonlabs.com/blog/why-we-built-pion",
+      "summaryJa": [
+        "Pion, an agent designed to run any company autonom",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-15T02:50:45.362Z"
+    },
+    "da00f73ae99ee525": {
+      "url": "https://zenn.dev/aucccchi/articles/hoshiimono-bayes-gift-diagnosis",
+      "summaryJa": [
+        "プレゼントを選ぶとき、「30代女性におすすめ30選」のような記事を読んでも決まらない。",
+        "相手のことを知っているのは自分なのに、記事は相手を知らないからです。",
+        "それなら逆に、相手のことをこちらが答えて、候補を絞ってもらう形にすればいい。"
+      ],
+      "cachedAt": "2026-09-15T02:50:45.362Z"
+    },
+    "d3bf886b586f4f66": {
+      "url": "https://zenn.dev/k_motoki/articles/ef60bbbc0ad7ec",
+      "summaryJa": [
+        "前回、トークンをケチってレビューをローカルLLMにやらせた話 という記事を書いたところ、思いのほか読まれました。",
+        "そしてコメントで2人の方から設計の穴を指摘されました。",
+        "確認したところ、指摘は両方とも当たっていて、しかも自分が思っていたより悪い状態でした。"
+      ],
+      "cachedAt": "2026-09-15T02:50:45.362Z"
+    },
+    "07f5e7c70e5d9f25": {
+      "url": "https://qiita.com/take-yoda/items/e5d9ce6618523af1ffc5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "株式会社ブレインパッドプロダクト開発部でRtoaster GenAIの開発をしている依田です。",
+        "Claude CodeにDesign docやPRを書かせていて、「情報量は多いのに、何を決めたのかがなかなか頭に入ってこない」と感じたことはないでしょうか。",
+        "私は何度もあります。"
+      ],
+      "cachedAt": "2026-09-15T02:50:45.362Z"
+    },
+    "20031d23237d8e83": {
+      "url": "https://azhdarchid.com/gdscript-good-bad-ugly/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-15T02:50:45.362Z"
+    },
+    "ac1293c0d8ff5578": {
+      "url": "https://yuvalino.com/how-can-you-not-be-romantic-about-unix-domain-sockets",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-15T02:50:45.362Z"
     }
   }
 }
