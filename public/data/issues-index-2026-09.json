@@ -218,6 +218,13 @@
       "edition": "morning",
       "theme": "無人の運行と完結する箱",
       "path": "issues/2026-09-16-morning.json"
+    },
+    {
+      "issueNo": 136,
+      "date": "2026-09-16",
+      "edition": "midday",
+      "theme": "長距離を走る開発と手元の地図",
+      "path": "issues/2026-09-16-midday.json"
     }
   ]
 }

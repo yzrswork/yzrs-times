@@ -11331,6 +11331,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-15T20:18:43.554Z"
+    },
+    "9d27773cb352a1a4": {
+      "url": "https://levtech.jp/media/detail_930/",
+      "summaryJa": [
+        "株式会社テトラフェイス 代表取締役 水野 修（みずの・おさむ） 1977年生まれ。",
+        "2000年に大阪大学工学部を卒業後、ソフトウェア開発ベンチャーや、富士フイルムメディカル株式会社における医療用の3D画像診断ワークステーション等の開発に従事。",
+        "その傍ら、1999年に個人開発にて3DCGモデリングソフトウェア「Metasequoia」."
+      ],
+      "cachedAt": "2026-09-16T02:48:39.033Z"
+    },
+    "735ab7f0d180f8b7": {
+      "url": "https://codyho.dev/blog/gpu-driver/",
+      "summaryJa": [
+        "Building a Linux GPU Driver for the M4 Mac Mini in",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-16T02:48:39.033Z"
+    },
+    "b2a3e79f0fee5037": {
+      "url": "https://zenn.dev/nrs/articles/9ba91aea587bf5",
+      "summaryJa": [
+        "TLDL AIに常駐アプリの画面を作らせる際は以下の指示を出します。",
+        "この指示をそのまま伝えてみてください。",
+        "すべてのコンポーネントを Root の配下に置き、各コンポーネントは MVP パターンの Passive View として描画に関わるパラメータだけを操作し、動"
+      ],
+      "cachedAt": "2026-09-16T02:48:39.033Z"
+    },
+    "41d01f355a088341": {
+      "url": "https://www.docswell.com/s/3402128/KVJYJ3-2026-09-15-202358",
+      "summaryJa": [
+        "レビューは3層で回す AI ローカル・PR時・デイリー、サブスクの範囲で 自走環境整備・運用スペシャル #6 ／ 2026年9月15日（火） AI 篠田 敬廣 ",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-09-16T02:48:39.033Z"
+    },
+    "0605bcba6b5c7739": {
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "summaryJa": [
+        "Introducing System One Models and Jev",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-16T02:48:39.033Z"
+    },
+    "d66662c47dbc7912": {
+      "url": "https://i4u.gmo/QQZJU",
+      "summaryJa": [
+        "「ヤバい住所」を集め続けた地図エンジニアが見つけた共通点とは？",
+        "『ヤバい日本の住所』著者が明かす執筆の裏側 筆者は大学を出てからずっと、地図に携わるエンジニアとして過ごしてきました。",
+        "地図サービスを世に出す仕事のなかで、否応なく付き合わされてきたのが「住所」です。"
+      ],
+      "cachedAt": "2026-09-16T02:48:39.033Z"
+    },
+    "685eae438e319952": {
+      "url": "https://zenn.dev/tenkei/articles/9f8921926bb003",
+      "summaryJa": [
+        "概要 ここ最近、すっかり同じような流れで開発をしている。",
+        "ざっくり書くと、以下のようになる。",
+        "GithubのIssueを取る → AIに設計と実装を任せる → 別のAIにレビューしてもらう → 動作確認してもらう → Pull Requestを作成しても"
+      ],
+      "cachedAt": "2026-09-16T02:48:39.033Z"
+    },
+    "265d5ff23ec48255": {
+      "url": "https://qiita.com/nanase/items/9995ab776c16a634692c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "日本全国の国道・都道府県道を閲覧できるWeb地図「国道マップ」を制作しました。",
+        "Web上で閲覧できる地図は数多くありますが、この国道マップの特徴は 重用区間 の重視です。",
+        "国道と都道府県道に特化 重用区間（重複区間）の強調 任意の路線のみに絞り込み表示 起点・."
+      ],
+      "cachedAt": "2026-09-16T02:48:39.033Z"
+    },
+    "13d1ea2858435403": {
+      "url": "https://zenn.dev/339/articles/8efd1f1baec355",
+      "summaryJa": [
+        "数学における有名な賞であるフィールズ賞を受賞した人々が連名でAIの濫用についての懸念を表明している。",
+        "私は個人としてこの内容を支持するが、しかし数学者たちとその学生など、いわゆる数学コミュニティが主題の一つとなっているため、「自分たちの都合で問題提起をしているだ",
+        "そこで、数学者やコミュニティというよりは、数学自体の今後の発展や知的生産において、AIの濫用がどう影響を与え得るか？"
+      ],
+      "cachedAt": "2026-09-16T02:48:39.033Z"
+    },
+    "fa71584bf1aa1550": {
+      "url": "https://will-keleher.com/posts/small-programming-tricks-matter/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-16T02:48:39.033Z"
+    },
+    "f9b3ae40f45bd1a9": {
+      "url": "https://jsgroth.dev/blog/posts/trying-to-make-a-loop-auto-vectorize/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-16T02:48:39.033Z"
     }
   }
 }
