@@ -225,6 +225,13 @@
       "edition": "midday",
       "theme": "長距離を走る開発と手元の地図",
       "path": "issues/2026-09-16-midday.json"
+    },
+    {
+      "issueNo": 137,
+      "date": "2026-09-17",
+      "edition": "morning",
+      "theme": "制約が炙り出す実装の美学",
+      "path": "issues/2026-09-17-morning.json"
     }
   ]
 }
