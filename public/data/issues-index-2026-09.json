@@ -232,6 +232,13 @@
       "edition": "morning",
       "theme": "制約が炙り出す実装の美学",
       "path": "issues/2026-09-17-morning.json"
+    },
+    {
+      "issueNo": 138,
+      "date": "2026-09-17",
+      "edition": "midday",
+      "theme": "手元の細部が語る、実装の解像度",
+      "path": "issues/2026-09-17-midday.json"
     }
   ]
 }

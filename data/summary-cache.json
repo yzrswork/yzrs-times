@@ -11493,6 +11493,105 @@
         "."
       ],
       "cachedAt": "2026-09-16T20:19:01.384Z"
+    },
+    "f37093a162dcf42e": {
+      "url": "https://zenn.dev/rescuenow/articles/5aa26aebd7ae78",
+      "summaryJa": [
+        "はじめに 個人開発で自分専用の記録ツールを作っています。",
+        "購読しているフィードを読むRSSリーダー、気になったWebページのURLを放り込むと本文を取得して要約とタグ付けを行うクリップ、バレットジャーナル(箇条書きで日",
+        "用途はバラバラですが、どれも「あとで見返すために残しておく」ためのものです。"
+      ],
+      "cachedAt": "2026-09-17T02:48:36.650Z"
+    },
+    "ac9a7ec89448ad28": {
+      "url": "https://qiita.com/inoyu-qiita/items/1c95a3c8397070e67dcb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに artifact-design Skillは、Claude Codeの成果物を、ただ表示できるだけのHTMLから**「人に見せられるデザイン」へ整える",
+        "これからClaude CodeでHTML資料、ダッシュボード、UI案などを作りたい.",
+        "."
+      ],
+      "cachedAt": "2026-09-17T02:48:36.650Z"
+    },
+    "4b99a853d3afdbe8": {
+      "url": "https://rohanbansal.com/qorl",
+      "summaryJa": [
+        "Training a 4B model to produce 81% faster query pl",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-17T02:48:36.650Z"
+    },
+    "cab4f1a04be9562a": {
+      "url": "https://arxiv.org/abs/2609.16338",
+      "summaryJa": [
+        "Breaking the 1.58-bit Barrier for Ternary LLMs",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-17T02:48:36.650Z"
+    },
+    "97097c74fb8e1767": {
+      "url": "https://hsjoihs.hatenablog.com/entry/2026/09/17/101650",
+      "summaryJa": [
+        "TL;DR 「（本当にそうというわけではないが、）事実上」と訳すべき effectively が「効果的に」と訳されてしまう 「見たところどうやら〜のようである",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-09-17T02:48:36.650Z"
+    },
+    "f5cb5035e4c81789": {
+      "url": "https://qiita.com/With21/items/d1c1e0cb6b3733f75505?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 最近、「バイブコーディング」という言葉を耳にする機会が増えました。",
+        "バイブコーディングとは、細かい設計や実装方法を人間がすべて決めるのではなく、開発者が「意図・雰囲気・方向性」を自然言語で伝え、AI がそれを解釈して設計やコード",
+        "."
+      ],
+      "cachedAt": "2026-09-17T02:48:36.650Z"
+    },
+    "4c1ab4e480c9f6f7": {
+      "url": "https://qiita.com/suwa_nobu/items/5145961004e38e2fe316?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "Claude Code 2.",
+        "1.",
+        "273（2026-09-15）の changelog に、こう書かれています。"
+      ],
+      "cachedAt": "2026-09-17T02:48:36.650Z"
+    },
+    "f0be1aa4e87a1173": {
+      "url": "https://qiita.com/Yuzuki-ki/items/67f3c26a441a35676c0e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに この記事の結論を先に書くと、UUIDのバージョンは特に理由がなければv4、DBの主キーに使うなら順序性のあるv7を検討するのがおすすめです。",
+        "以下ではなぜこの結論に至ったのかをまとめていきます！",
+        "こんにちは！"
+      ],
+      "cachedAt": "2026-09-17T02:48:36.650Z"
+    },
+    "b0a8a55f88f881ee": {
+      "url": "https://alexwlchan.net/2026/cat-confusion/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-17T02:48:36.650Z"
+    },
+    "521877fe76a6eb7f": {
+      "url": "https://www.sandordargo.com/blog/2026/09/16/cpp26-trivial-infinite-loops",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-17T02:48:36.650Z"
+    },
+    "0ad4a3efe12fed0d": {
+      "url": "https://www.w3.org/Provider/Style/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-17T02:48:36.650Z"
     }
   }
 }

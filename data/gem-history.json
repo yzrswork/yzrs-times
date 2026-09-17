@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-551e05b2",
-      "url": "https://github.com/jameshball/osci-render",
-      "date": "2026-08-18"
-    },
-    {
-      "id": "github-gems-6edb6109",
-      "url": "https://github.com/shorepine/tulipcc",
-      "date": "2026-08-18"
-    },
-    {
       "id": "github-gems-7c19f251",
       "url": "https://github.com/FluidSynth/fluidsynth",
       "date": "2026-08-19"
@@ -304,6 +294,11 @@
     {
       "id": "show-hn-5293a25e",
       "url": "https://cannoneyed.com/isometric-nyc/",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "show-hn-1db08d87",
+      "url": "https://jameshard.ing/pilot",
       "date": "2026-09-17"
     }
   ]
