@@ -11592,6 +11592,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-17T02:48:36.650Z"
+    },
+    "43bb23b1d0c062f2": {
+      "url": "https://speakerdeck.com/minorun365/claude-code-o-tsukau-hodo-sodatsu-ai-hisho-ni-suru-nouhau",
+      "summaryJa": [
+        "［みのるん式］ビジネスパーソンのためのClaude Code仕事術 https://www.",
+        "amazon.",
+        "co."
+      ],
+      "cachedAt": "2026-09-17T20:20:29.123Z"
+    },
+    "72fd2da8444e7538": {
+      "url": "https://joho-todai.com/aws-middle-east-data-permanently-lost/",
+      "summaryJa": [
+        "AWSがイラン戦争で損傷した中東データセンターの復旧を断念し、バーレーンリージョン全域とUAE1ゾーンのリソース・データへのアクセスを回復できないと発表した。",
+        "大手クラウド事業者の物理インフラが戦争で破壊され、顧客データが永久に失われた初めての事例となった。",
+        "この記事のポイント 何が起きた: AWSがバーレーン."
+      ],
+      "cachedAt": "2026-09-17T20:20:29.123Z"
+    },
+    "687ddc8c9a8192aa": {
+      "url": "https://syu-m-5151.hatenablog.com/entry/2026/09/17/140349",
+      "summaryJa": [
+        "はじめに 2025年12月に「Claude Codeの Agent Skills は設定したほうがいい」という記事を書きました。",
+        "必要な手順を必要なときに読み込ませる仕組みとして、Skillsを紹介した記事です。",
+        "ただ、後半では設定が増えるほど管理が難しくなる話もしました。"
+      ],
+      "cachedAt": "2026-09-17T20:20:29.123Z"
+    },
+    "343056ce81ebc2cd": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20260917de50926",
+      "summaryJa": [
+        "ロシアでは、ウクライナ侵攻が始まって以降初めてとなる議会下院選挙の投票が18日から3日間の日程で行われます。",
+        "侵攻に反対する野党は比例代表から除外されており、プーチン政権としては政権与党の圧倒的な勝利…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-17T20:20:29.123Z"
+    },
+    "1c7d8dea105c51db": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20260918de50940",
+      "summaryJa": [
+        "関西電力は、電気料金のもとになる発電の原価の算定を誤っていたことで、おととし4月以降、家庭向けなどの一部の契約で、本来よりも過大に電気料金を請求していたと発表し",
+        "対象の契約は最大714万件、…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-17T20:20:29.123Z"
+    },
+    "54dcbf6b15292f9e": {
+      "url": "https://news.yahoo.co.jp/pickup/6595640?source=rss",
+      "summaryJa": [
+        "中国企業に営業秘密流出疑い 逮捕",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-17T20:20:29.123Z"
+    },
+    "6224669ba86bab68": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20260917de50845",
+      "summaryJa": [
+        "タイの首都バンコクにある高級住宅を拠点に、日本人を狙い警察官を装った特殊詐欺に関わった疑いがあるとして、地元の警察は日本人4人を含む14人を拘束しました。",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-17T20:20:29.123Z"
+    },
+    "fa9e06f50574432f": {
+      "url": "https://techblog.ap-com.co.jp/entry/2026/09/17/103525",
+      "summaryJa": [
+        "目次 目次 はじめに パスキーとは サインインの仕組み Entra IDでのパスキー対応について パスキーが突破されること：デバイスコードフロー攻撃 デバイスコ",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-09-17T20:20:29.123Z"
+    },
+    "6b1bfed0d7733c02": {
+      "url": "https://qiita.com/nasuvitz/items/44f20ed515b9734afb26",
+      "summaryJa": [
+        "はじめに Jevは、文章や業務データを読み取り、分類・採点・条件判定の結果を確率付きで返すAIモデルです。",
+        "モデルが返す結果は、ソフトウェアが処理を分岐する場面に利用することが想定されています。",
+        "プログラムは条件を明確に判定し、複雑な制御に応用することが可能です。"
+      ],
+      "cachedAt": "2026-09-17T20:20:29.123Z"
+    },
+    "3efbd9eb24461e51": {
+      "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+      "summaryJa": [
+        "How GLM built its own inference infrastructure",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-17T20:20:29.124Z"
+    },
+    "8b7bad00bc46a0c8": {
+      "url": "https://fredrocha.net/2026/06/09/nominations-for-the-best-tiny-website-of-2026-are-open/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "summaryJa": [
+        "Nominations for the best Tiny Website of 2026 are ",
+        "出典: indieblog.page（個人ブログ）",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-17T20:20:29.124Z"
     }
   }
 }

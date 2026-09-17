@@ -239,6 +239,13 @@
       "edition": "midday",
       "theme": "手元の細部が語る、実装の解像度",
       "path": "issues/2026-09-17-midday.json"
+    },
+    {
+      "issueNo": 139,
+      "date": "2026-09-18",
+      "edition": "morning",
+      "theme": "エージェントの手先と、インフラの脆さ",
+      "path": "issues/2026-09-18-morning.json"
     }
   ]
 }
