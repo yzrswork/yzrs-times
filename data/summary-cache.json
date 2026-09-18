@@ -11691,6 +11691,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-17T20:20:29.124Z"
+    },
+    "d63ff534fce78b14": {
+      "url": "https://qiita.com/harusann2/items/50d638e7a3c2d76e0531?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "Unity のアセット配信を約14倍高速化した「Asset Ball」の設計 現在、転職活動中です。",
+        "この記事を読んで興味を持っていただけた方は、X（@harusann2） に DM を送っていただけるとうれしいです。",
+        "前提：Unity 製ソーシャルゲームの起動時ダウ."
+      ],
+      "cachedAt": "2026-09-18T02:50:34.277Z"
+    },
+    "c0ca0dda0343c21e": {
+      "url": "https://nomolk.hatenablog.com/entry/2026/09/18/020558",
+      "summaryJa": [
+        "先日、Google Researchらがハエの中枢神経系を網羅したデータセットを公開して話題になりました。",
+        "するとすぐさま現れたのが、それを使ってハエ（のシミュレーション）にDOOMをプレイさせる人です。",
+        "I'm training a fly brain to play Doom using the full MaleCNS v1."
+      ],
+      "cachedAt": "2026-09-18T02:50:34.277Z"
+    },
+    "2529c4416d7268f8": {
+      "url": "https://bend-lang.com/",
+      "summaryJa": [
+        "Bend – A language that blocks AI mistakes via proo",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-18T02:50:34.277Z"
+    },
+    "3d396801f8516bd8": {
+      "url": "https://github.com/aardappel/goose/tree/master",
+      "summaryJa": [
+        "Goose:experimental lang 1.16x faster than C++ and ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-18T02:50:34.277Z"
+    },
+    "70e117d494aa90cf": {
+      "url": "https://github.com/asciimoo/hister",
+      "summaryJa": [
+        "Hister: A private search engine for the pages you ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-18T02:50:34.277Z"
+    },
+    "c5ccb3acea66c203": {
+      "url": "https://zenn.dev/jtechjapan_pub/articles/deepseek-v41-vs-flash-next-m4max",
+      "summaryJa": [
+        "株式会社ジェイテックジャパン CTOの高丘 @tomohisaです。",
+        "128GB の MacBook Pro（M4 Max）で、ローカル LLM が開発に使えるかを試し続けています。",
+        "ここまでに書いたのは次の 3 本です。"
+      ],
+      "cachedAt": "2026-09-18T02:50:34.277Z"
+    },
+    "7a7647bb84130c53": {
+      "url": "https://zenn.dev/alpha_omega/articles/3f3ea4d14a0234",
+      "summaryJa": [
+        "DGX Spark で sudo apt upgrade を実行したあと、GPU ドライバがロードされなくなり、デスクトップの CPU 負荷が急増した。",
+        "復旧を試みて apt full-upgrade を実行したところ、今度は起動中とは別のカーネル向け NVIDIA モジュールがインストールされるという寄り道も発",
+        "この記事では、実際に起きた状態、切り分け、復旧手順と、NVIDIA カーネルモジュールのパッケージ依存について整理する。"
+      ],
+      "cachedAt": "2026-09-18T02:50:34.277Z"
+    },
+    "ee5b328134701d0b": {
+      "url": "https://zenn.dev/sprix_it/articles/db685b8fd6bffe",
+      "summaryJa": [
+        "はじめに !",
+        "この記事で紹介する開発フローは、会社全体で採用しているものではなく、私個人が普段の開発で使っているものです。",
+        "私自身の開発スタイルや業務に合わせて育てているものとして読んでいただければと思います。"
+      ],
+      "cachedAt": "2026-09-18T02:50:34.277Z"
+    },
+    "cdf8a48d8d85bbde": {
+      "url": "https://iev.ee/blog/categorize-everything-all-at-once/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-18T02:50:34.277Z"
+    },
+    "f435854cfdeec955": {
+      "url": "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-18T02:50:34.277Z"
+    },
+    "121584b03d9a3e8a": {
+      "url": "https://verdagon.dev/blog/golden-spike-reviving-vale-valen",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-18T02:50:34.278Z"
     }
   }
 }
