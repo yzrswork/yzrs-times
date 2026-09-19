@@ -260,6 +260,13 @@
       "edition": "morning",
       "theme": "物理層の突破口と、極限の切り詰め",
       "path": "issues/2026-09-19-morning.json"
+    },
+    {
+      "issueNo": 142,
+      "date": "2026-09-19",
+      "edition": "midday",
+      "theme": "語りを脱した推論と、実動の同期",
+      "path": "issues/2026-09-19-midday.json"
     }
   ]
 }

@@ -11889,6 +11889,96 @@
         "＜結論から見たい方は下の「水加減は全体の重量で！"
       ],
       "cachedAt": "2026-09-18T20:18:42.722Z"
+    },
+    "d0058153750d08bb": {
+      "url": "https://qiita.com/keishin_nishiura/items/4e65bc9f74966920d625?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "1.",
+        "はじめに ソーイ株式会社の西浦です。",
+        "普段は受託のWebアプリケーション開発に携わっており、Figmaを日常的に使っています。"
+      ],
+      "cachedAt": "2026-09-19T02:50:39.436Z"
+    },
+    "1f5ad715aee0f783": {
+      "url": "https://openjev.com/",
+      "summaryJa": [
+        "OpenJev",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-19T02:50:39.436Z"
+    },
+    "b713bf2029c69622": {
+      "url": "https://try.cloudflare.com/",
+      "summaryJa": [
+        "Cloudflare Quick Tunnels",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-19T02:50:39.436Z"
+    },
+    "3d68ad8e1324eb33": {
+      "url": "https://code.claude.com/docs/en/changelog",
+      "summaryJa": [
+        "Claude Code now reads AGENTS.md if there is no Cla",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-19T02:50:39.436Z"
+    },
+    "a14d16e699170788": {
+      "url": "https://qiita.com/shinkai_/items/61994be44d61c76716d3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 最近のAIモデルの発表というと、だいたい「またLLM（大規模言語モデル）の新バージョンか」という受け止め方をされることが多いんじゃないでしょうか。",
+        "パラメータ数が増えました、ベンチマークが伸びました、推論速度が上がりました。",
+        "中身のアーキテクチャは基本的にトラン."
+      ],
+      "cachedAt": "2026-09-19T02:50:39.436Z"
+    },
+    "937f2a2e211d34aa": {
+      "url": "https://zenn.dev/jtcc/articles/7e74fef42580a1",
+      "summaryJa": [
+        "こんにちは。",
+        "日本トレカセンターのプロダクト部で EM をやっている中川です。",
+        "日本トレカセンターでは約 200 名の全社員が使う AI の入り口を 1 つにまとめました。"
+      ],
+      "cachedAt": "2026-09-19T02:50:39.436Z"
+    },
+    "dca9be4591fd4c05": {
+      "url": "https://zenn.dev/henteko/articles/1d159d10413312",
+      "summaryJa": [
+        "結論 Cloudflare Workers上でJevのAPIを直接使うのが最速 Cloudflare AI Gateway経由で使う場合AI Gateway経由",
+        "https://developers.",
+        "cloudflare."
+      ],
+      "cachedAt": "2026-09-19T02:50:39.436Z"
+    },
+    "71ba43e81abcf2b4": {
+      "url": "https://vale.sh",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-19T02:50:39.436Z"
+    },
+    "142c9eb6a8ec6eb4": {
+      "url": "https://lwn.net/Articles/1092993/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-19T02:50:39.436Z"
+    },
+    "a1e9662bd041ed6f": {
+      "url": "https://github.com/anderspitman/awesome-tunneling",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-19T02:50:39.436Z"
     }
   }
 }
