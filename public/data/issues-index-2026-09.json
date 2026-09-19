@@ -267,6 +267,13 @@
       "edition": "midday",
       "theme": "語りを脱した推論と、実動の同期",
       "path": "issues/2026-09-19-midday.json"
+    },
+    {
+      "issueNo": 143,
+      "date": "2026-09-20",
+      "edition": "morning",
+      "theme": "侵入する自動化と、手元の帰結",
+      "path": "issues/2026-09-20-morning.json"
     }
   ]
 }
