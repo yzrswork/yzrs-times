@@ -281,6 +281,13 @@
       "edition": "midday",
       "theme": "文を脱した推論と、足回りの鍛錬",
       "path": "issues/2026-09-20-midday.json"
+    },
+    {
+      "issueNo": 145,
+      "date": "2026-09-21",
+      "edition": "morning",
+      "theme": "道具の終焉と、素朴な工学の輪郭",
+      "path": "issues/2026-09-21-morning.json"
     }
   ]
 }

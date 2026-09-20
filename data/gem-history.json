@@ -300,6 +300,11 @@
       "id": "github-gems-338ddf1b",
       "url": "https://github.com/atomvm/AtomVM",
       "date": "2026-09-20"
+    },
+    {
+      "id": "github-gems-c22bfac4",
+      "url": "https://github.com/nRF24/RF24",
+      "date": "2026-09-21"
     }
   ]
 }
