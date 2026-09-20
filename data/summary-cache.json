@@ -12042,6 +12042,96 @@
         "com/product/100000001010215183/ 東プレのREALFORCEシリーズから、左右分割型のキーボード「REALFORCE RS1」が登"
       ],
       "cachedAt": "2026-09-19T20:20:52.210Z"
+    },
+    "936acf2a952f3966": {
+      "url": "https://zenn.dev/mizchi/articles/jev-lint-intro",
+      "summaryJa": [
+        "jev-lint とは 気づいたら関数名が実態とズレていたり、昔書いたテストケース名やコメントが嘘になっていた、という問題に遭遇したことはありませんか？",
+        "それに対して、jev-lint というツールを作りました。",
+        "詳細はリポジトリ内の skill を AI に読ませればわかると思いますが、 npx -y jev-lint で動きます。"
+      ],
+      "cachedAt": "2026-09-20T02:49:29.358Z"
+    },
+    "98d2c4a1530edb68": {
+      "url": "https://qiita.com/tj9999/items/f59ab88f9e0de733659f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "RubyのAOTコンパイラって何だ？",
+        "まつもと ゆきひろさんがRubyのAOT（Ahead Of Time : 事前）コンパイラ「Spinel」をリリースされましたね。",
+        "https://github."
+      ],
+      "cachedAt": "2026-09-20T02:49:29.358Z"
+    },
+    "ac272a04728f9589": {
+      "url": "https://syu-m-5151.hatenablog.com/entry/2026/09/19/112330",
+      "summaryJa": [
+        "はじめに Codexで設定を残す場所は、主に2つあります。",
+        "config.",
+        "tomlは実行環境を、AGENTS."
+      ],
+      "cachedAt": "2026-09-20T02:49:29.358Z"
+    },
+    "957dad81750da0dc": {
+      "url": "https://laya.convaiinnovations.com/",
+      "summaryJa": [
+        "I built non-autoregressive decision models with RL",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-20T02:49:29.358Z"
+    },
+    "c0e1d1d1c0e5c9fc": {
+      "url": "https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html",
+      "summaryJa": [
+        "How Hacker News ranking works: scoring, controvers",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-20T02:49:29.358Z"
+    },
+    "14bbeeaf5072d1e1": {
+      "url": "https://qiita.com/kamo-shika/items/99b9a1e6213857126c66?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 最近ｽﾀｯｸﾁｬﾝと Fitbit Air を買いました。",
+        "Databricks も合わせて、自分の健康データをいろいろ収集・集計して遊んでいます。",
+        "いま実装しているのは、以下の機能です。"
+      ],
+      "cachedAt": "2026-09-20T02:49:29.358Z"
+    },
+    "7ab45dc6978b9508": {
+      "url": "https://zenn.dev/seisei89628/articles/b505300dc8eaac",
+      "summaryJa": [
+        "※筆者は初学者なので、間違ったことを書いていれば教えてくれると助かります。",
+        "はじめに 前回までで、DirectX12による3D描画、TextureとMaterial、FBX、Animation、PhysX、Particle、Morph ",
+        "ここまでの制作では、描画、物理、音声、入力などの機能をC++側へ順番に追加してきました。"
+      ],
+      "cachedAt": "2026-09-20T02:49:29.358Z"
+    },
+    "2b7d631d7f675415": {
+      "url": "https://duckdb.org/2026/09/18/opfs-wasm",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-20T02:49:29.358Z"
+    },
+    "c48c76e5db6488e5": {
+      "url": "https://lwn.net/SubscriberLink/1094303/50affb2e7bd3e698/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-20T02:49:29.358Z"
+    },
+    "c8f3cb786d60b957": {
+      "url": "https://n-skvortsov-1997.github.io/reviews/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-20T02:49:29.358Z"
     }
   }
 }

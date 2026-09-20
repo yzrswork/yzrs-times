@@ -274,6 +274,13 @@
       "edition": "morning",
       "theme": "侵入する自動化と、手元の帰結",
       "path": "issues/2026-09-20-morning.json"
+    },
+    {
+      "issueNo": 144,
+      "date": "2026-09-20",
+      "edition": "midday",
+      "theme": "文を脱した推論と、足回りの鍛錬",
+      "path": "issues/2026-09-20-midday.json"
     }
   ]
 }
