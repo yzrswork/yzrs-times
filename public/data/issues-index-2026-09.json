@@ -288,6 +288,13 @@
       "edition": "morning",
       "theme": "道具の終焉と、素朴な工学の輪郭",
       "path": "issues/2026-09-21-morning.json"
+    },
+    {
+      "issueNo": 146,
+      "date": "2026-09-21",
+      "edition": "midday",
+      "theme": "役割を削ぎ落とす判断と、個の稼働領域",
+      "path": "issues/2026-09-21-midday.json"
     }
   ]
 }
