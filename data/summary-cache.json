@@ -12339,6 +12339,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-21T20:20:03.906Z"
+    },
+    "59615966083ba832": {
+      "url": "https://qiita.com/heftykoo/items/9ff0d2d1a3ea30c2393e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "type FitMode = \"crop\" | \"contain\"が一発で出ても、自分ならその補完を成功とは数えない。",
+        "型だけ直って、previewのobject-fitがcoverのままなら画面は変わらない。",
+        "presetとtestが古いままなら、次の人がその不整合を拾うこ."
+      ],
+      "cachedAt": "2026-09-22T02:50:51.466Z"
+    },
+    "4f5606180b2b8b48": {
+      "url": "https://pepsipu.com/blog/2026-09-dwarf/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-22T02:50:51.466Z"
+    },
+    "ba0d87b1536589d3": {
+      "url": "https://qiita.com/teae/items/585202237468ed5c7bb8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 2026年9月10日から13日にかけて行われた第16回キャチロボバトルコンテストに、「のうこう☆キャチロボズ」のメンバーとして出場してきました。",
+        "この記事では弊チームの回路の紹介をできればなと思います。",
+        "ロボット解説 ロボットの各部の名称と役割についてざっくり."
+      ],
+      "cachedAt": "2026-09-22T02:50:51.466Z"
+    },
+    "6d7e5e6c04cd40ae": {
+      "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
+      "summaryJa": [
+        "I don't want to read what you didn't write",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-22T02:50:51.466Z"
+    },
+    "61ee50dab6efdeaa": {
+      "url": "https://mtx2s.hatenablog.com/entry/2026/09/21/182658",
+      "summaryJa": [
+        "「テックリード」がどのような役割を指すのか、人によってバラつきがある。",
+        "ある人は開発チームの「リーダー」「マネージャー」といった役職者をそう呼び、また別の人は「アーキテクト」と同義で使う。",
+        "テックリードが何を担い、何を期待されているのかの認識が、本人も含めた組織内で噛み合っていないのだ。"
+      ],
+      "cachedAt": "2026-09-22T02:50:51.466Z"
+    },
+    "f25102ee7f6ae77b": {
+      "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+      "summaryJa": [
+        "What Sun got wrong",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-22T02:50:51.466Z"
+    },
+    "9b4444d7c4fd9c2e": {
+      "url": "https://qiita.com/shu15511551/items/4f037551f841d786c17d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 九月十九日の未明に、「秀エクセルマネージャー」を開発中のまま公開した、という記事を書きました。",
+        "外から Python で Excel を掴み、Claude Code や Gemini に道具を握らせて、表の仕事を片付けさせる。",
+        "その仕組みを追いかけて、お題."
+      ],
+      "cachedAt": "2026-09-22T02:50:51.466Z"
+    },
+    "725a1d71589a762e": {
+      "url": "https://zenn.dev/otakakot/articles/14d162ea65f67d",
+      "summaryJa": [
+        "はじめに どんなに時代が変わろうと無料は正義なのです。",
+        "どうも、無課金デプロイ驚き屋です。",
+        "https://zenn."
+      ],
+      "cachedAt": "2026-09-22T02:50:51.466Z"
+    },
+    "2a9013c78134cffb": {
+      "url": "https://redvice.org/2026/deterministic-hypervisor/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-22T02:50:51.466Z"
+    },
+    "e81801dbc01f4857": {
+      "url": "https://david.alvarezrosa.com/posts/self-hosting-behind-cgnat/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-22T02:50:51.466Z"
     }
   }
 }

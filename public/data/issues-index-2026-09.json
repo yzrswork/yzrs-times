@@ -302,6 +302,13 @@
       "edition": "morning",
       "theme": "確実さを欠く経路と、現実に穿たれる爪痕",
       "path": "issues/2026-09-22-morning.json"
+    },
+    {
+      "issueNo": 148,
+      "date": "2026-09-22",
+      "edition": "midday",
+      "theme": "実行経路の規律と手元の実動",
+      "path": "issues/2026-09-22-midday.json"
     }
   ]
 }
