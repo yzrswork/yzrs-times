@@ -316,6 +316,13 @@
       "edition": "morning",
       "theme": "思考の境界と、手元の帰属",
       "path": "issues/2026-09-23-morning.json"
+    },
+    {
+      "issueNo": 150,
+      "date": "2026-09-23",
+      "edition": "midday",
+      "theme": "玩具の解剖と、自前のインターフェース",
+      "path": "issues/2026-09-23-midday.json"
     }
   ]
 }

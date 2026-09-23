@@ -12510,6 +12510,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-22T20:22:49.780Z"
+    },
+    "6f2b6c7839ed7186": {
+      "url": "https://zenn.dev/koichi73/articles/pokemon-go-plus-teardown-esp32",
+      "summaryJa": [
+        "はじめに 以前こんなものを作りました。",
+        "https://x.",
+        "com/Koichi73_/status/2100180485985226755 ポケモンスリープの計測に使う「Pokémon GO Plus +」を分解して、"
+      ],
+      "cachedAt": "2026-09-23T02:50:08.179Z"
+    },
+    "3f952029653a2bfa": {
+      "url": "https://zenn.dev/tanakh/articles/c-code-in-rust",
+      "summaryJa": [
+        "C言語のコードをRustの中に書けるようにするライブラリ cinrs を作りました。",
+        "https://github.",
+        "com/tanakh/cinrs https://crates."
+      ],
+      "cachedAt": "2026-09-23T02:50:08.179Z"
+    },
+    "267168497ec5ef9e": {
+      "url": "https://foxscript.org/",
+      "summaryJa": [
+        "Visual FoxPro stopped at version 9 in 2007.",
+        "A surprising amount of it is still running, in 32 bits, because rewriting a 20-y",
+        "A customer wanted to keep milking their app for the foreseeable future, so here "
+      ],
+      "cachedAt": "2026-09-23T02:50:08.180Z"
+    },
+    "e2e4c2b368761955": {
+      "url": "https://qiita.com/kemuniku/items/71f509c9487199c4718a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに Pythonの処理系の一つである 「PyPy」では、条件を満たす配列に対して内部の構造を変えることで最適化が行われています。",
+        "下記のコードは import __pypy__ を前提とします。",
+        "また、64bit環境下のpypy3 ( 確認したバージョンはPyPy ."
+      ],
+      "cachedAt": "2026-09-23T02:50:08.180Z"
+    },
+    "7900b238d5c05a03": {
+      "url": "https://zenn.dev/subaru_hello/articles/biome-rust-first-contribution",
+      "summaryJa": [
+        "BiomeにnoReactObjectTypeAsDefaultPropというlintルールを追加しました。",
+        "Issue #7656 Pull Request #10634 eslint-plugin-reactのno-object-type-as-default-pr",
+        "この記事では、追加したルールの仕組みと、実装やレビューを通して学んだRustについてまとめます。"
+      ],
+      "cachedAt": "2026-09-23T02:50:08.180Z"
+    },
+    "63bc301917f1cb46": {
+      "url": "https://qiita.com/har1101/items/2822a4e3837f0be0729f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "こんにちは、ふくちです。",
+        "下記ハンズオンをしていて気づいたことがあるので備忘録的にまとめておきます。",
+        "Lambda MicroVMのイメージ構築時ライフサイクルフック タイトルにはわかりやすくヘルスチェックポートと記載しましたが、正式に言えば「ライフサイクルフッ"
+      ],
+      "cachedAt": "2026-09-23T02:50:08.180Z"
+    },
+    "0a72354e71910f5f": {
+      "url": "https://utcc.utoronto.ca/~cks/space/blog/tech/EditorsAreACommitment",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-23T02:50:08.180Z"
+    },
+    "5b4e9f78a133bd65": {
+      "url": "https://levmiseri.com/nospace",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-23T02:50:08.180Z"
     }
   }
 }
