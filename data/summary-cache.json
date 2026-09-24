@@ -12654,6 +12654,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-23T20:19:30.562Z"
+    },
+    "c14b95547a46e07f": {
+      "url": "https://cartesian-theatrics.github.io/clj-manifold3d/journal/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-24T02:49:18.903Z"
+    },
+    "fc1841d3dd9e0583": {
+      "url": "https://zenn.dev/aakei/articles/dotnet-copy-split-write-barrier",
+      "summaryJa": [
+        "はじめに C#で参照型の値を代入するとき、単に参照を書き換えるだけではなく、GCのための処理が入ることがあるのを知っていますか？",
+        "私は現在、.",
+        "NET上で動く低アロケーションなJavaScriptエンジンOkojoを開発しています。"
+      ],
+      "cachedAt": "2026-09-24T02:49:18.903Z"
+    },
+    "6a96baabbc49e6fb": {
+      "url": "https://blog.cloudflare.com/vary-support/",
+      "summaryJa": [
+        "We just shipped support for the ugliest part of HT",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-24T02:49:18.903Z"
+    },
+    "15eb7cecd9ced5d6": {
+      "url": "https://www.publickey1.jp/blog/26/claude_codeagentsmdclaudemd.html",
+      "summaryJa": [
+        "Claude Codeが「AGENTS.",
+        "md」に対応。",
+        "CLAUDE."
+      ],
+      "cachedAt": "2026-09-24T02:49:18.903Z"
+    },
+    "3336633e70bcfc63": {
+      "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+      "summaryJa": [
+        "Linux support is coming to Snapdragon X2 Series",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-24T02:49:18.903Z"
+    },
+    "9ae316fd1b1d0bdb": {
+      "url": "https://av.watch.impress.co.jp/docs/series/rt/2142663.html",
+      "summaryJa": [
+        "Metaが軽量「VRグラス」来春発売。IMAX見られてPCもつながる製品を体験【西田宗千佳のRand",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-24T02:49:18.903Z"
+    },
+    "202075dc7c4922e5": {
+      "url": "https://zenn.dev/nwsejp/articles/unifi-japan-static-ip-operations",
+      "summaryJa": [
+        "前編「UniFiの固定IP事情[前編] 使う方法と選び方まとめ」では、公開されている回避策を 5 系統に整理して選び方まで書いた。",
+        "本稿はその続きで、選んだあとに何が起きるかを扱う。",
+        "系統1（OCN の IPoE 固定IPで hostname を注入する）を機器内の cron で自動化し、無人で回して測った記録だ。"
+      ],
+      "cachedAt": "2026-09-24T02:49:18.903Z"
+    },
+    "335c88a017c7216a": {
+      "url": "https://zenn.dev/ippe1/articles/why-db-uses-bplus-tree",
+      "summaryJa": [
+        "はじめに B+ツリーの構造はなんとなくわかったけど、何でRDBのインデックスの格納に使われているのかがいまいち理解できませんでした。",
+        "そこで今回はB+ツリーの特徴とRDBに使われる理由について調べました。",
+        "結論から言うと、B+ツリーは探索のアルゴリズム的にいいのではなく、ディスクからのI/Oをなるべく減らすことができるということです。"
+      ],
+      "cachedAt": "2026-09-24T02:49:18.903Z"
+    },
+    "dc1e5e00ca656ebd": {
+      "url": "https://kristoff.it/blog/the-zig-journey/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-24T02:49:18.903Z"
+    },
+    "25a4b6df8e752944": {
+      "url": "https://andanti.no/blog/SignedMesh.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-24T02:49:18.903Z"
     }
   }
 }
