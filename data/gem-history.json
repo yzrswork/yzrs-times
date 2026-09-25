@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-98e14f7c",
-      "url": "https://github.com/nextcloud/nextcloudpi",
-      "date": "2026-08-26"
-    },
-    {
-      "id": "github-gems-a9532c92",
-      "url": "https://github.com/opencardev/crankshaft",
-      "date": "2026-08-26"
-    },
-    {
       "id": "github-gems-e45a8478",
       "url": "https://github.com/tiagolr/ripplerx",
       "date": "2026-08-27"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-2749f28b",
       "url": "https://github.com/Szybet/InkWatchy",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "github-gems-f6ae6f69",
+      "url": "https://github.com/usetrmnl/trmnl-firmware",
       "date": "2026-09-25"
     }
   ]

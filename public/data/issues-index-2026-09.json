@@ -344,6 +344,13 @@
       "edition": "morning",
       "theme": "暗号の解読と実装の不確実性",
       "path": "issues/2026-09-25-morning.json"
+    },
+    {
+      "issueNo": 154,
+      "date": "2026-09-25",
+      "edition": "midday",
+      "theme": "介入の手綱と道具の足場",
+      "path": "issues/2026-09-25-midday.json"
     }
   ]
 }

@@ -12816,6 +12816,96 @@
         "We’re building Whiteboard, an open-source desktop app where humans and agents ca"
       ],
       "cachedAt": "2026-09-24T20:20:14.799Z"
+    },
+    "6c74bbcab5945845": {
+      "url": "https://zenn.dev/sprix_it/articles/f3ef77c1d46554",
+      "summaryJa": [
+        "背景・目的 Claude Codeなどで開発していると、こちらから依存の追加を指示していなくても、新しいライブラリを入れて実装を進めようとすることがあります。",
+        "サプライチェーン攻撃の話も最近はよく見かけるので、何を入れるのか確認せずに任せるのは少し怖いなと思っていました。",
+        "以前の記事で書いた通り、私は実装をかなり自動で回しています。"
+      ],
+      "cachedAt": "2026-09-25T02:50:11.605Z"
+    },
+    "13bd2282e159e207": {
+      "url": "https://blog.shibayu36.org/entry/2026/09/24/173000",
+      "summaryJa": [
+        "最近AIにブログ記事やドキュメントを書かせることが増えた。",
+        "しかしAIに書かせると、余計な前提や補足が多くて一番言いたいことが埋もれてしまう。",
+        "かといって「もっと短くして」と指示すると、今度は具体例など本当に大事な部分まで削られ、スカスカで伝わらない文書になる。"
+      ],
+      "cachedAt": "2026-09-25T02:50:11.605Z"
+    },
+    "351b98916d559090": {
+      "url": "https://forest.watch.impress.co.jp/docs/news/2142666.html",
+      "summaryJa": [
+        "「Python」のWindowsフルインストーラーが引退へ、「3.16」以降は提供されず／これからは",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-25T02:50:11.605Z"
+    },
+    "74bfdf1e70f01c20": {
+      "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+      "summaryJa": [
+        "F-Droid 2.0",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-25T02:50:11.605Z"
+    },
+    "f6d64bf47a86ef92": {
+      "url": "https://qiita.com/mnishiguchi/items/68ae0a6f2910dee5470b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 先日、組込みシステム技術に関するサマーワークショップ SWEST28 に参加しました。",
+        "そこで、UIAPを開発されている埋田祐希さんによる UIAPduinoを使った組込み開発の講習 に参加し、UIAPduino Pro Micro CH32V00",
+        "."
+      ],
+      "cachedAt": "2026-09-25T02:50:11.605Z"
+    },
+    "4b9dc01df361a02f": {
+      "url": "https://qiita.com/poku_log/items/1bf31a869a2e8d081c8a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "1.",
+        "はじめに 想定読者 Jevという名前を見かけたけれど、何をするものなのかよく分からない方 「それ普通の分類モデルでは？",
+        "」と思った方 LLMのStructured Outputsとの違いが気になった方 AIモデルには詳しくないけれどアプリケーションへの組み込み方."
+      ],
+      "cachedAt": "2026-09-25T02:50:11.605Z"
+    },
+    "4077440fbab5c8f8": {
+      "url": "https://zenn.dev/takeyuwebinc/articles/4fd800c21ce84a",
+      "summaryJa": [
+        "はじめに こんにちは、竹内です。",
+        "先日、RubyLLM 2.",
+        "0 がリリースされました。"
+      ],
+      "cachedAt": "2026-09-25T02:50:11.605Z"
+    },
+    "e69a2844d3d1c8d3": {
+      "url": "https://go.dev/blog/simd-experiment",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-25T02:50:11.605Z"
+    },
+    "63821dc9a92b68f1": {
+      "url": "https://www.pagetable.com/300",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-25T02:50:11.605Z"
+    },
+    "ce6eec4d68e5e666": {
+      "url": "https://blog.coredump.cx/p/memory-the-forgotten-history",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-25T02:50:11.605Z"
     }
   }
 }
