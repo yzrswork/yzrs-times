@@ -351,6 +351,13 @@
       "edition": "midday",
       "theme": "介入の手綱と道具の足場",
       "path": "issues/2026-09-25-midday.json"
+    },
+    {
+      "issueNo": 155,
+      "date": "2026-09-26",
+      "edition": "morning",
+      "theme": "議事の綻びと手元の現実",
+      "path": "issues/2026-09-26-morning.json"
     }
   ]
 }
