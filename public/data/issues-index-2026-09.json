@@ -365,6 +365,13 @@
       "edition": "midday",
       "theme": "帯域の制約と、つくる喜びの防衛",
       "path": "issues/2026-09-26-midday.json"
+    },
+    {
+      "issueNo": 157,
+      "date": "2026-09-27",
+      "edition": "morning",
+      "theme": "巨大な網の目を抜け出る自律",
+      "path": "issues/2026-09-27-morning.json"
     }
   ]
 }
