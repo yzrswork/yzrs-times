@@ -12969,6 +12969,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-25T20:19:20.000Z"
+    },
+    "e266205743ce16bd": {
+      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-26T02:49:45.181Z"
+    },
+    "cbd1d92e66512550": {
+      "url": "https://qiita.com/Yodokoro/items/1eaaa4260efe413fee50?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに めっちゃ流行った某塗り絵かくれんぼゲームをVRでも遊びたいと思い、VRChatで再現してみることにした。",
+        "完成品はこちら。",
+        "テクスチャを自由にペイントし、それを他のプレイヤーに同期するというのはVRChatのUdon帯域制限下ではなかなか野心的なプロ."
+      ],
+      "cachedAt": "2026-09-26T02:49:45.181Z"
+    },
+    "d6087bf77036f60d": {
+      "url": "https://zenn.dev/devuloper/articles/vercel_import_candidates_email",
+      "summaryJa": [
+        "きっかけ GitHub にリポジトリを作って push すると、Vercel から「A new project in ○○ is available to im",
+        "」というメールが届くことがあります。",
+        "この記事は、このメールがどんな条件で送られてくるのかを、検証用の Organization に 61 個のリポジトリを作って調べた記録です。"
+      ],
+      "cachedAt": "2026-09-26T02:49:45.182Z"
+    },
+    "891af8913761d4b5": {
+      "url": "https://blog.p1ass.com/posts/agent-foundations/",
+      "summaryJa": [
+        "こんにちは、ぷらす(@p1ass)です。",
+        "最近、Agent を「使う側」ではなく「作る側」に興味を持ち始めています。",
+        "色々と新しい学びが多いなぁと感じているので、せっかくなので自分が学んだ Agent の開発について、何回かに分けて記事を書いていこうと思います。"
+      ],
+      "cachedAt": "2026-09-26T02:49:45.182Z"
+    },
+    "325d3ee537dadcef": {
+      "url": "https://ollaya.dev/",
+      "summaryJa": [
+        "Ollaya – Ollama for open-source, Jev-style decisio",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-26T02:49:45.182Z"
+    },
+    "9973f8e7ebb5939a": {
+      "url": "https://swarmtraces.org/",
+      "summaryJa": [
+        "Revealing the details of how OpenAI agents hacked ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-26T02:49:45.182Z"
+    },
+    "6a9f07f0016c457d": {
+      "url": "https://qiita.com/TOMOSIA-LinhND/items/a9f97284ddbef214ac9e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "記事概要 個人開発やプロトタイプ（PoC/MVP）、学習用途向けに、無料枠（Free Tier）を提供するAI APIプロバイダー（Gemini、OpenRou",
+        "レート制限（429エラー）による作業の中.",
+        "."
+      ],
+      "cachedAt": "2026-09-26T02:49:45.182Z"
+    },
+    "a14687822067b04d": {
+      "url": "https://github.com/Ataraxy-Labs/weave",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-26T02:49:45.182Z"
+    },
+    "3c9e2f07427bc008": {
+      "url": "https://www.datagubbe.se/amscr/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-26T02:49:45.182Z"
     }
   }
 }
