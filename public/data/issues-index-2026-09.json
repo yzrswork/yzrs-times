@@ -372,6 +372,13 @@
       "edition": "morning",
       "theme": "巨大な網の目を抜け出る自律",
       "path": "issues/2026-09-27-morning.json"
+    },
+    {
+      "issueNo": 158,
+      "date": "2026-09-27",
+      "edition": "midday",
+      "theme": "配置の意志と、手触りのある実装",
+      "path": "issues/2026-09-27-midday.json"
     }
   ]
 }

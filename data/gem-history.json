@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-20b87101",
-      "url": "https://github.com/agiwhitelist/auteur",
-      "date": "2026-08-28"
-    },
-    {
-      "id": "github-gems-09bae87e",
-      "url": "https://github.com/zeeyado/koassistant.koplugin",
-      "date": "2026-08-28"
-    },
-    {
       "id": "github-gems-4d3e2fb8",
       "url": "https://github.com/mudita/MuditaOS",
       "date": "2026-08-29"
@@ -304,6 +294,11 @@
     {
       "id": "indieblog-9976c491",
       "url": "https://docpop.org/2026/07/bangladesh-chiptune-cover/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "show-hn-247159c1",
+      "url": "http://www.dogbunnypuzzle.com/",
       "date": "2026-09-27"
     }
   ]

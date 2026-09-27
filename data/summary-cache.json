@@ -13113,6 +13113,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-26T20:19:21.799Z"
+    },
+    "43a70cae51ba4e1a": {
+      "url": "https://www.davepagurek.com/blog/p5-compute-shaders/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-27T02:50:42.320Z"
+    },
+    "334a6646400953dd": {
+      "url": "https://github.com/reladraw/reladraw",
+      "summaryJa": [
+        "I love making diagrams to help understand, plan, etc.",
+        "However, the options are (A) auto-placement languages like Mermaid or Graphviz (",
+        "io which are powerful but are very time consuming (and inefficient for agents to"
+      ],
+      "cachedAt": "2026-09-27T02:50:42.320Z"
+    },
+    "628f26f3a0ceda38": {
+      "url": "https://zenn.dev/mazrean/articles/bd9b563ace18db",
+      "summaryJa": [
+        "自分は Go Proposal Weekly Digest というサイトを個人で運用しています。",
+        "Go 言語の Proposal と呼ばれる言語機能追加の提案を毎週 Claude Code がまとめるサイトで、公開してからそろそろ 8か月程度が立つものになり",
+        "ありがたいことにユーザーが一定数付いて毎週 200PV 程度が安定してあるのですが、懐事情関係."
+      ],
+      "cachedAt": "2026-09-27T02:50:42.321Z"
+    },
+    "c9867470377b335d": {
+      "url": "https://zenn.dev/dotdtech_blog/articles/65d51bc72d7ee9",
+      "summaryJa": [
+        "はじめに AI にコードを書かせているのに、開発が速くならない。",
+        "この感覚を持っている人は多いと思います。",
+        "書かせるのは一瞬なのに、確認と手戻りで1日が終わる。"
+      ],
+      "cachedAt": "2026-09-27T02:50:42.321Z"
+    },
+    "26e4a0b99705e91b": {
+      "url": "https://qiita.com/satoshi_061/items/0ea5b53974504fc5f1c4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに Claude Code の hooks で「作業が完了したら macOS の通知＋音声で知らせる」設定をしていました。",
+        "ところが、サブエージェントをよく使うようになってから、作業の途中で何度も「作業が完了したよ」と鳴るようになりました。",
+        "どれが本当の完了なのか分か."
+      ],
+      "cachedAt": "2026-09-27T02:50:42.321Z"
+    },
+    "02b3ff0bbc956209": {
+      "url": "https://qiita.com/TechStudioLab/items/1d08c21fd53cecaff4c4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに FlutterでiOSアプリを作っていると、Apple固有の新しいAPIを使いたい場面があります。",
+        "Foundation Modelsもその一つです。",
+        "Apple Intelligenceを支えるオンデバイスモデルへ、SwiftのFoundationModelsフ."
+      ],
+      "cachedAt": "2026-09-27T02:50:42.321Z"
+    },
+    "381c22846ca0587c": {
+      "url": "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-27T02:50:42.321Z"
+    },
+    "7b430d1581e46377": {
+      "url": "https://modernmotherfuckingwebsite.dreamstation.systems/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-27T02:50:42.321Z"
     }
   }
 }
