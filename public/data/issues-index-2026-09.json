@@ -379,6 +379,13 @@
       "edition": "midday",
       "theme": "配置の意志と、手触りのある実装",
       "path": "issues/2026-09-27-midday.json"
+    },
+    {
+      "issueNo": 159,
+      "date": "2026-09-28",
+      "edition": "morning",
+      "theme": "暗黙の破壊と手当ての作法",
+      "path": "issues/2026-09-28-morning.json"
     }
   ]
 }
