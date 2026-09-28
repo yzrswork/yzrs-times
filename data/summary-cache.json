@@ -13284,6 +13284,78 @@
         "SNS等で当時発表もしてたので、 ご存知の方もいらっしゃるかと思いますが、 僕は2021年にギターを2本盗まれました。"
       ],
       "cachedAt": "2026-09-27T20:19:42.724Z"
+    },
+    "9f2d3e7375009da9": {
+      "url": "https://terminalbytes.com/reverse-engineering-ipod-classic-mikey-chip/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-28T02:49:00.773Z"
+    },
+    "37845540e678967d": {
+      "url": "https://zenn.dev/poipoionigiri/articles/3826f7675d39fd",
+      "summaryJa": [
+        "登壇してお話ししました C# Kaigi 2026で「すこし踏み込む CancellationToken —— .",
+        "NETの実装とか他言語比較とか」というタイトルでお話ししてきました． CancellationToken の内部実装とか，Python，Go，Rustとの比較と",
+        "NETの協調的キャンセルの仕組みを紹介しました． 資料はこちら． https://speakerdeck."
+      ],
+      "cachedAt": "2026-09-28T02:49:00.774Z"
+    },
+    "1004dea70d653ee9": {
+      "url": "https://trekhleb.dev/blog/2021/self-parking-car-evolution/",
+      "summaryJa": [
+        "Self-parking car using genetic algorithm (2021)",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-28T02:49:00.774Z"
+    },
+    "a3f87b429b1324d9": {
+      "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
+      "summaryJa": [
+        "Don't couple your Go code to GitHub",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-28T02:49:00.774Z"
+    },
+    "bfb983755a3e8f12": {
+      "url": "https://qiita.com/har1101/items/71a1b09a844d6b8c793d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "こんにちは、ふくちです。",
+        "前回のブログを読んだうえで見ていただくと良いと思います。",
+        "Honoってあるじゃないですか。"
+      ],
+      "cachedAt": "2026-09-28T02:49:00.774Z"
+    },
+    "ebca7b01ae128698": {
+      "url": "https://qiita.com/saitojo1106/items/c93503df339f7b503aef?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "自己紹介と導入 joです。",
+        "東北工業大学の情報通信工学科で学びながら、インターンや個人開発でWeb・AI周辺のものを作っています。",
+        "普段から新しい技術を試し、実際に使ってみて面倒なところを小さなツールにするのが好きです。"
+      ],
+      "cachedAt": "2026-09-28T02:49:00.774Z"
+    },
+    "9e7305607d139e0b": {
+      "url": "https://qiita.com/yakumo_09/items/6f1d5f820449a352cb75?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに ここ最近、3Dモデルやアバターを AWS と組み合わせて使うことが増えてきました。",
+        "そのときに気づいた注意点や、先に決めておいたほうがいいことをまとめておきます。",
+        "3Dモデルを扱う記事は、だいたいローカルにファイルを置いてUnityやUnreal Engineで動."
+      ],
+      "cachedAt": "2026-09-28T02:49:00.774Z"
+    },
+    "cb672a40efd1b732": {
+      "url": "https://rustunit.com/blog/2026/09-04-bevy-ios-crates-objc2/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-28T02:49:00.774Z"
     }
   }
 }

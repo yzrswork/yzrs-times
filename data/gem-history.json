@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-4d3e2fb8",
-      "url": "https://github.com/mudita/MuditaOS",
-      "date": "2026-08-29"
-    },
-    {
-      "id": "github-gems-823f9f0d",
-      "url": "https://github.com/asapelkin/awesome-eink",
-      "date": "2026-08-29"
-    },
-    {
       "id": "github-gems-eeb827af",
       "url": "https://github.com/maziggy/bambuddy",
       "date": "2026-08-30"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-aef1d765",
       "url": "https://github.com/jgromes/RadioLib",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "github-gems-a2ac0310",
+      "url": "https://github.com/ailyProject/aily-builder",
       "date": "2026-09-28"
     }
   ]

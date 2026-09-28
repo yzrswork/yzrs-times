@@ -386,6 +386,13 @@
       "edition": "morning",
       "theme": "暗黙の破壊と手当ての作法",
       "path": "issues/2026-09-28-morning.json"
+    },
+    {
+      "issueNo": 160,
+      "date": "2026-09-28",
+      "edition": "midday",
+      "theme": "音響の細工と、手元で動かす骨格",
+      "path": "issues/2026-09-28-midday.json"
     }
   ]
 }
