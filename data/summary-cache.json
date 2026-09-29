@@ -13419,6 +13419,96 @@
         "びっくりした人や、さみしいなと思った人もいるかもしれません。"
       ],
       "cachedAt": "2026-09-28T20:19:41.178Z"
+    },
+    "ea54fe462fc3f61b": {
+      "url": "https://zenn.dev/oukayuka/articles/15years-git-then-jujutsu",
+      "summaryJa": [
+        "2026 年、初めて自分の意思で VCS を選択した ふりかえると私にとって VCS（バージョン管理システム）は、会社に指定されたものを使ってきただけでした。",
+        "それまでの会社では社内にサーバを立てて Subversion を使うことが多かった中、2011 年から働き出した会社では GitHub が導入されており、そのた",
+        "."
+      ],
+      "cachedAt": "2026-09-29T02:48:25.646Z"
+    },
+    "31cd1d726638d0b9": {
+      "url": "https://qiita.com/jqit-yukiono/items/a8d8177d02cc4f7f2553?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "個人開発のMinecraft監視アプリに負荷試験をしてみた ― 読み取り専用のAPIが、実は毎回DBへ書き込んでいた 前回の記事の最後で、「負荷や長時間稼働に対",
+        "個人開発しているMinecraftサーバー監視アプリ「MineW.",
+        "."
+      ],
+      "cachedAt": "2026-09-29T02:48:25.646Z"
+    },
+    "6f1e841197ad61ce": {
+      "url": "https://zenn.dev/knowledgework/articles/6996274de49607",
+      "summaryJa": [
+        "ナレッジワークでQAエンジニアをしている かとあず です。",
+        "探索的テストをすると、何かしらを見つけることが多くあります。",
+        "細かい部分だったり、「そこを気にするんだ？"
+      ],
+      "cachedAt": "2026-09-29T02:48:25.646Z"
+    },
+    "dcae03d826e6a913": {
+      "url": "https://github.com/firelex/jeff",
+      "summaryJa": [
+        "Jeff – Jev-compatible 0.8B decision models, traine",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-29T02:48:25.646Z"
+    },
+    "73a11a827f502ec0": {
+      "url": "https://tech-blog.monotaro.com/entry/2026/09/29/090000",
+      "summaryJa": [
+        "こんにちは。",
+        "MonotaROでWeb広告運用を効率化・自動化するためのシステム開発を担当している、広告システムチームの早川です。",
+        "会社で目標設定を行っている方、あるいは問題提起や仮説の検討に取り組んでいる方の中には、考えていることをうまく言語化できずに苦戦している方も少なからずいらっしゃる"
+      ],
+      "cachedAt": "2026-09-29T02:48:25.646Z"
+    },
+    "71f56a6b55ade873": {
+      "url": "https://zenn.dev/sun_asterisk/articles/e9b50f09839def",
+      "summaryJa": [
+        "はじめに Playwright 1.",
+        "56 で追加された Playwright Test Agents は、E2E テストの計画・生成・修復を AI エージェントに任せる仕組みです。",
+        "私たちは稼働中のプロジェクトで、このエージェントを GitHub Actions から無人で動かす仕組みを設計・実装し、検証しました。"
+      ],
+      "cachedAt": "2026-09-29T02:48:25.646Z"
+    },
+    "6dcc6b6a929be6b0": {
+      "url": "https://qiita.com/jqit-yukiono/items/050ba069630b6d2b17da?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "「別々のアプリが似た症状で落ちる」を手がかりに、NFS越しのSonarQube・Nexus・Jenkinsが繰り返しクラッシュする原因を追った話 自宅のProx",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-09-29T02:48:25.646Z"
+    },
+    "7c7bde3b46ff6678": {
+      "url": "https://www.youtube.com/watch?v=zwi5b5xSsKA",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-29T02:48:25.646Z"
+    },
+    "22d7787a10fc9c39": {
+      "url": "https://dl.acm.org/doi/10.1145/182987.584629",
+      "summaryJa": [
+        "pdf: https://dl.",
+        "acm.",
+        "org/doi/pdf/10."
+      ],
+      "cachedAt": "2026-09-29T02:48:25.646Z"
+    },
+    "1c0848c278580b22": {
+      "url": "https://web.archive.org/web/20100501010616/http://www.apple.com/hotnews/thoughts-on-flash/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-29T02:48:25.646Z"
     }
   }
 }

@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-eeb827af",
-      "url": "https://github.com/maziggy/bambuddy",
-      "date": "2026-08-30"
-    },
-    {
-      "id": "show-hn-1f47465a",
-      "url": "https://ytch.xyz",
-      "date": "2026-08-30"
-    },
-    {
       "id": "show-hn-256ea017",
       "url": "https://news.ycombinator.com/item?id=43186406",
       "date": "2026-08-31"
@@ -304,6 +294,11 @@
     {
       "id": "show-hn-1be73848",
       "url": "https://giza.mused.org/en/guided/266/inside-the-great-pyramid",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "show-hn-1f47465a",
+      "url": "https://ytch.xyz",
       "date": "2026-09-29"
     }
   ]
