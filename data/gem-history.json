@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-256ea017",
-      "url": "https://news.ycombinator.com/item?id=43186406",
-      "date": "2026-08-31"
-    },
-    {
-      "id": "github-gems-d10ab763",
-      "url": "https://github.com/abhinavxd/libredesk",
-      "date": "2026-08-31"
-    },
-    {
       "id": "github-gems-913585d4",
       "url": "https://github.com/1Password/typeshare",
       "date": "2026-09-01"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-d70d7341",
       "url": "https://github.com/daisyaudio/DaisySP",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "show-hn-256ea017",
+      "url": "https://news.ycombinator.com/item?id=43186406",
       "date": "2026-09-30"
     }
   ]

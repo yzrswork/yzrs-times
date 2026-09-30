@@ -13617,6 +13617,69 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-29T20:19:51.313Z"
+    },
+    "aeb962664b95929c": {
+      "url": "https://tech-lab.sios.jp/archives/54936",
+      "summaryJa": [
+        "武井でございます。",
+        "手元のボタンを見るだけで、どの Claude Code が作業中で、どれが確認待ちで、どれが終わったのかが一目で分かる。",
+        "ボタンを押せば、そのターミナルに一発で飛べる。"
+      ],
+      "cachedAt": "2026-09-30T02:49:53.349Z"
+    },
+    "060fcdee96ef9af5": {
+      "url": "https://zenn.dev/tokium_dev/articles/ai-agent-usage-limit-long-sessions",
+      "summaryJa": [
+        "こんにちは、TOKIUMの花房です。",
+        "Claude CodeやCodexをサブスクリプションで使っていて、以下のように感じることはないでしょうか。",
+        "週の半ばで週間上限が尽きる。"
+      ],
+      "cachedAt": "2026-09-30T02:49:53.349Z"
+    },
+    "cb8cd39c4246ee9d": {
+      "url": "https://zenn.dev/softbank/articles/6f98cf7c4ebfd3",
+      "summaryJa": [
+        "はじめに 日々の開発において、AI にコードを書いてもらうことは日常になってきました。",
+        "要件を伝えれば既存のコードベースを調査し、その作法に合わせて機能を足してくれます。",
+        "生成されたコードがいつも正しいわけではありませんが、それでも「コードを書く」という作業そのものは、以前ほど開発のボトルネックではなくなりつつあると感じています。"
+      ],
+      "cachedAt": "2026-09-30T02:49:53.349Z"
+    },
+    "97053b95b5a9e42b": {
+      "url": "https://qiita.com/sc-nakamura/items/8fdef470b4bfcb95eb53?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 「AIにアーキ図を書かせたい」 →「アーキ図を画像としても、プロンプト用にテキストとしても扱いたい」 →「そういえば .",
+        "drawio.",
+        "png ってなんで画像としてもdraw."
+      ],
+      "cachedAt": "2026-09-30T02:49:53.349Z"
+    },
+    "95a993d6f6d60068": {
+      "url": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-30T02:49:53.349Z"
+    },
+    "6b557d4aab3bbc4f": {
+      "url": "https://mechanicalrabbit.github.io/FunSQL.jl/stable/two-kinds-of-sql-query-builders/#Two-Kinds-of-SQL-Query-Builders",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-30T02:49:53.349Z"
+    },
+    "bf9390a9b319ccfc": {
+      "url": "https://hannahpotter.github.io/projects/change_tours.html",
+      "summaryJa": [
+        "Project available at https://github.",
+        "com/hannahpotter/changetours-vscode-pull-request-github Comments",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-09-30T02:49:53.349Z"
     }
   }
 }
