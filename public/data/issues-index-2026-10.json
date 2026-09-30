@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "month": "2026-10",
+  "issues": [
+    {
+      "issueNo": 165,
+      "date": "2026-10-01",
+      "edition": "morning",
+      "theme": "実装の身体と、自動化の余白",
+      "path": "issues/2026-10-01-morning.json"
+    }
+  ]
+}
