@@ -15,6 +15,13 @@
       "edition": "midday",
       "theme": "手製の仕掛けと、足回りの削り出し",
       "path": "issues/2026-10-01-midday.json"
+    },
+    {
+      "issueNo": 167,
+      "date": "2026-10-02",
+      "edition": "morning",
+      "theme": "漏れ出す記憶と、再定義される境界",
+      "path": "issues/2026-10-02-morning.json"
     }
   ]
 }
