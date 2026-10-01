@@ -8,6 +8,13 @@
       "edition": "morning",
       "theme": "実装の身体と、自動化の余白",
       "path": "issues/2026-10-01-morning.json"
+    },
+    {
+      "issueNo": 166,
+      "date": "2026-10-01",
+      "edition": "midday",
+      "theme": "手製の仕掛けと、足回りの削り出し",
+      "path": "issues/2026-10-01-midday.json"
     }
   ]
 }

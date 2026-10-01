@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-913585d4",
-      "url": "https://github.com/1Password/typeshare",
-      "date": "2026-09-01"
-    },
-    {
-      "id": "github-gems-d4a9ebeb",
-      "url": "https://github.com/aitjcize/esp32-photoframe",
-      "date": "2026-09-01"
-    },
-    {
       "id": "indieblog-262da2ab",
       "url": "http://notes.eatonphil.com/2026-05-18-serving-files-three-ways.html?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
       "date": "2026-09-02"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-24c8dccc",
       "url": "https://github.com/Botspot/pi-apps",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "github-gems-f5c12733",
+      "url": "https://github.com/vshymanskyy/TinyGSM",
       "date": "2026-10-01"
     }
   ]

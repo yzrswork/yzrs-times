@@ -13743,6 +13743,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-09-30T20:21:08.482Z"
+    },
+    "2a33cf085b1be50e": {
+      "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001907/",
+      "summaryJa": [
+        "Google Japanは10月1日、ベルトコンベヤー型キーボード「Gboard くるくるバージョン」を発表した。",
+        "毎年恒例の“謎キーボード”の新作で、ベルトコンベヤーの上にキーを並べ、回転して手元に流れてくるキーをタイプする仕組みだ。",
+        "発売予定はなく、自作できる設計図をオープンソースとして公開する。"
+      ],
+      "cachedAt": "2026-10-01T02:49:55.146Z"
+    },
+    "72eb9032c64f5dea": {
+      "url": "https://zenn.dev/knowledgework/articles/2691721311c2e4",
+      "summaryJa": [
+        "はじめに 翻訳LLMを軽くしようとして、まず気づいたのは「モデルファイルを小さくしても、VRAMは思ったほど減らない」ということでした。",
+        "この記事は、オンラインゲームのチャットを翻訳するために、翻訳特化LLMをゲーミングPC向けに最適化してデプロイした記録です。",
+        "モデルファイル、プロセスのメモリ、そしてランタイムの3段階で削っていった結果、最終的には2〜3GBのVRAMで商用LLMに近いレベルの翻訳ができるようになりまし"
+      ],
+      "cachedAt": "2026-10-01T02:49:55.146Z"
+    },
+    "aab81a4148936eef": {
+      "url": "https://asmbots.io",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-01T02:49:55.146Z"
+    },
+    "0a6e25d0cfff073a": {
+      "url": "https://zenn.dev/algoartis/articles/0b1c731881b25c",
+      "summaryJa": [
+        "興味深いことに、かつてAIの典型とされていた「〜しましょう」「することが可能です」「また、」といった表現は、2026年時点ではむしろ減少していました。",
+        "初期の定型句が書き手やモデル側で警戒されるようになった結果、より巧妙で無自覚な表現、すなわち「作業を比喩で言う動詞」や「直訳調の言い回し」へと病理が潜行.",
+        "."
+      ],
+      "cachedAt": "2026-10-01T02:49:55.146Z"
+    },
+    "37da411597b64192": {
+      "url": "https://edgcpp.org/#transition",
+      "summaryJa": [
+        "<a href=\"https:&#x2F;&#x2F;github.",
+        "com&#x2F;edgcpp&#x2F;compiler\" rel=\"nofollow\">https:&#x2F;&#x2F;github.",
+        "com&#x2F;edgcpp&#x2F;compiler</a>"
+      ],
+      "cachedAt": "2026-10-01T02:49:55.146Z"
+    },
+    "4dff9647304231ac": {
+      "url": "https://pc.watch.impress.co.jp/docs/column/hothot/2144666.html",
+      "summaryJa": [
+        "【Hothotレビュー】 ルーターが固まっても勝手に復活！神デバイス「ezJack」を試してみた",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-01T02:49:55.146Z"
+    },
+    "10e76e3f9972dc56": {
+      "url": "https://qiita.com/shinkai_/items/92822c13f81d1a000285?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに Markdownの表を見やすくするVS Code拡張機能を作成しました。",
+        "実行イメージ 最近、設計書をMarkdownで作成することが多くなりました。",
+        "MarkdownはテキストベースなのでGitで管理しやすく、差分も見やすいです。"
+      ],
+      "cachedAt": "2026-10-01T02:49:55.146Z"
+    },
+    "d63df50aedac5273": {
+      "url": "https://zenn.dev/aws_japan/articles/hexagonal-architecture-lambda-1",
+      "summaryJa": [
+        "ヘキサゴナルアーキテクチャ（Ports and Adapters）は、解説を読むと六角形の図と「アプリケーションを中心に置き、ポートとアダプターで外の世界とつな",
+        "概念の説明を読むだけでは埋まらない部分なので、実際に動くコードを読み、手を入れて、手触りとして確かめてみます。",
+        "題材には、Lambda + DynamoDB でヘキサゴナルアーキテクチャを実."
+      ],
+      "cachedAt": "2026-10-01T02:49:55.146Z"
+    },
+    "d9247e9175b334e4": {
+      "url": "https://zenn.dev/cybozu_frontend/articles/web_standards_trends_202609",
+      "summaryJa": [
+        "こんにちは！",
+        "サイボウズ株式会社 デザインテクノロジストの saku (@sakupi01) です。",
+        "はじめに サイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。"
+      ],
+      "cachedAt": "2026-10-01T02:49:55.146Z"
+    },
+    "4373ca6d0727cc20": {
+      "url": "https://renderling.xyz/articles/wgsl-rs-beta-release.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-01T02:49:55.146Z"
+    },
+    "160da3a18b2d114b": {
+      "url": "https://lobste.rs/s/sqyhgt/major_rsync_upgrade_debian_because_33",
+      "summaryJa": [
+        "apt-listchanges --which=both -f text --since=3.",
+        "4.",
+        "1+ds1-5+deb13u4 rsync (3."
+      ],
+      "cachedAt": "2026-10-01T02:49:55.146Z"
     }
   }
 }
