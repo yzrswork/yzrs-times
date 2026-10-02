@@ -29,6 +29,13 @@
       "edition": "midday",
       "theme": "手元で測る限界と、基礎の解剖",
       "path": "issues/2026-10-02-midday.json"
+    },
+    {
+      "issueNo": 169,
+      "date": "2026-10-03",
+      "edition": "morning",
+      "theme": "視覚の薄膜と、卓上の機構",
+      "path": "issues/2026-10-03-morning.json"
     }
   ]
 }
