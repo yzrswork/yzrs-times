@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "indieblog-262da2ab",
-      "url": "http://notes.eatonphil.com/2026-05-18-serving-files-three-ways.html?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "indieblog-dd46aae2",
-      "url": "https://wayne.conniptions.org/2026/05/03/please-do-not-use-ai-images-on-your-tai-chi-blog.html?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
-      "date": "2026-09-02"
-    },
-    {
       "id": "show-hn-3914195c",
       "url": "https://www.beeper.com/",
       "date": "2026-09-03"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-c56cc1a2",
       "url": "https://github.com/evancohen/smart-mirror",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "github-gems-98e14f7c",
+      "url": "https://github.com/nextcloud/nextcloudpi",
       "date": "2026-10-02"
     }
   ]

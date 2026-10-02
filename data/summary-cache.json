@@ -13923,6 +13923,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-01T20:20:20.447Z"
+    },
+    "7cb84b4ef52ea360": {
+      "url": "https://note.com/npaka/n/n4a1185074686",
+      "summaryJa": [
+        "12GB VRAMで125Bモデルを動かす「Strata」の概要をまとめました。",
+        "1.",
+        "はじめにローカルLLMでは、GPUのVRAM容量が大きな制約になります。"
+      ],
+      "cachedAt": "2026-10-02T02:49:03.437Z"
+    },
+    "2151115872077246": {
+      "url": "https://zenn.dev/tksfjt1024/articles/25c0ab111c277c",
+      "summaryJa": [
+        "Claude Code を Pro や Max のプランで使うと、使った分だけ「使用量制限」の枠を消費します。",
+        "この制限には、5 時間ごとにリセットされる「5時間のセッション制限」と、週ごとにリセットされる「週間使用制限」の 2 つがあります[1]。",
+        "この 5 時間枠と週間枠が何でどれだけ減るのかを、条件を揃えた実験で測り、使用量の計算式を求めました。"
+      ],
+      "cachedAt": "2026-10-02T02:49:03.437Z"
+    },
+    "51d594dd1cc712ac": {
+      "url": "https://www.youtube.com/watch?v=7Tr0ty9-yeQ",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-02T02:49:03.437Z"
+    },
+    "ba7d73ca40f2b4c2": {
+      "url": "https://blog.gitbutler.com/git-3-sha-256",
+      "summaryJa": [
+        "Git 3.0's upcoming SHA-256 default will be a costl",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-02T02:49:03.437Z"
+    },
+    "2a1f9114517a184e": {
+      "url": "https://iwashi.co/2026/10/01/how-to-study-in-ai-era",
+      "summaryJa": [
+        "はじめに つい最近、今の勉強法を簡単に記したXのポストをした。",
+        "本記事では、もう少し掘り下げてまとめて書いてみようと思う。",
+        "2026年のスナップショットであり、来年以降に読み返したら面白いかもしれないので。"
+      ],
+      "cachedAt": "2026-10-02T02:49:03.437Z"
+    },
+    "d315aa5bb99e76d8": {
+      "url": "https://lwn.net/Articles/1097401/",
+      "summaryJa": [
+        "Several vulnerabilities have been discovered in th",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-02T02:49:03.437Z"
+    },
+    "534882c86ffbf540": {
+      "url": "https://zenn.dev/gonta_ganbareyo/articles/6256bf2008b2ef",
+      "summaryJa": [
+        "こんにちは。",
+        "gontaです。",
+        "GCP上でサービスを作っていて、インフラはTerraformで管理しています。"
+      ],
+      "cachedAt": "2026-10-02T02:49:03.437Z"
+    },
+    "dde5f080fea63c2d": {
+      "url": "https://qiita.com/y_abe_bc/items/9f139ce8194e49879ce5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "この記事では Odin言語の主にメモリレイアウト機能を使って、Array of StructsとStruct of Arraysのベンチマークを撮ってみたいと思",
+        "1.",
+        "Odin とは Odin は C に近い低レイヤ寄りの言語です。"
+      ],
+      "cachedAt": "2026-10-02T02:49:03.437Z"
+    },
+    "dbfb7c5de9d38507": {
+      "url": "https://qiita.com/suwa_nobu/items/cc0fb4a9e10100991bba?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "Claude Code 2.",
+        "1.",
+        "286（2026-09-30）の changelog に、こう書かれています。"
+      ],
+      "cachedAt": "2026-10-02T02:49:03.437Z"
+    },
+    "3ec81ad96b550a87": {
+      "url": "https://github.com/dtonon/outis",
+      "summaryJa": [
+        "Outis fights spam generating and sends a fake \"user unknown\" bounce for an email",
+        "This isn't a new idea: I created a similar program back in 1998–1999, but I deci",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-02T02:49:03.437Z"
+    },
+    "1a9292dfd2a6a003": {
+      "url": "https://grim.cargocut.org/a/rev-list.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-02T02:49:03.437Z"
     }
   }
 }
