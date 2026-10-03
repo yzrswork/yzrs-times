@@ -43,6 +43,13 @@
       "edition": "midday",
       "theme": "素子の駆動と、低層の細工",
       "path": "issues/2026-10-03-midday.json"
+    },
+    {
+      "issueNo": 171,
+      "date": "2026-10-04",
+      "edition": "morning",
+      "theme": "生成コードの線引きと手触りの回復",
+      "path": "issues/2026-10-04-morning.json"
     }
   ]
 }
