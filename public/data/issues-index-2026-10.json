@@ -36,6 +36,13 @@
       "edition": "morning",
       "theme": "視覚の薄膜と、卓上の機構",
       "path": "issues/2026-10-03-morning.json"
+    },
+    {
+      "issueNo": 170,
+      "date": "2026-10-03",
+      "edition": "midday",
+      "theme": "素子の駆動と、低層の細工",
+      "path": "issues/2026-10-03-midday.json"
     }
   ]
 }

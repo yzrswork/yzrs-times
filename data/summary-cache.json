@@ -14112,6 +14112,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-02T20:21:53.789Z"
+    },
+    "1c0f381a59b41ebc": {
+      "url": "https://sgt.hootr.club/blog/driving-gdeh0154d67-with-rust/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-03T02:49:20.443Z"
+    },
+    "939d6b3e2ae2435d": {
+      "url": "https://zenn.dev/peloeil/articles/glibc-strlen-2023",
+      "summaryJa": [
+        "はじめに strlen は、文字列の先頭から終端文字 \\0 の直前までの byte 数を返す関数です。",
+        "自分で実装するなら、1byte ずつ読んで \\0 が見つかるまで数えるのが自然だと思います。",
+        "glibc では、この探索を高速化するために、複数 byte をまとめて読み、ビット演算を使って終端文字を探しています。"
+      ],
+      "cachedAt": "2026-10-03T02:49:20.443Z"
+    },
+    "e4dd0c3185544edb": {
+      "url": "https://linuc.org/textbooks/network/",
+      "summaryJa": [
+        "ネットワークの仕組みを実習を通して基礎から学べる教材 「Linuxネットワーク標準教科書」は、Linux技術者教育に利用していただくことを目的として、LPI-J",
+        "ネットワークの仕組みを実習を通して基礎から学べる教材です。",
+        "実際にLinuxを操作して理解できます。"
+      ],
+      "cachedAt": "2026-10-03T02:49:20.443Z"
+    },
+    "7a695383e6487182": {
+      "url": "https://qiita.com/inoyu-qiita/items/0ffe6e74ecaf3aaa8b14",
+      "summaryJa": [
+        "はじめに Xで@oga_aiichiroさんが公開された、新しい日本語推敲スキル「yomiyasu」が話題になっていました。",
+        "AIが書いた文章の「なんかAIっぽい」を、単語の置き換えではなく文の構造から直すスキルらしいです。",
+        "ちょうど自分もQiitaを書くとき、AIに文章の校正を頼んだあとで「整っているけど自分が書いた感じがしないな."
+      ],
+      "cachedAt": "2026-10-03T02:49:20.443Z"
+    },
+    "38fdff505e36cbfc": {
+      "url": "https://gadgets.muse.ai",
+      "summaryJa": [
+        "Muse Gadgets",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-03T02:49:20.443Z"
+    },
+    "1f94fa4262310812": {
+      "url": "https://qiita.com/square1001/items/4714dd9e2ddb97c32057?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "こんにちは、米田寛峻 (square1001) です！",
+        "Qiita では、前回記事 直感でわかる、ヒューリスティック問題の羅針盤 ～貪欲法から山登り法まで～ 以来 4 年ぶりの投稿になります。",
+        "私も大学院の修士 2 年生になって、最先端の研究に取り組むようになりました。"
+      ],
+      "cachedAt": "2026-10-03T02:49:20.443Z"
+    },
+    "c6446494ad4eaab1": {
+      "url": "https://zenn.dev/fusic/articles/db6e62832a4a1f",
+      "summaryJa": [
+        "はじめに Fusicのレオナです。",
+        "Strands Agentsは、AWSが開発し、オープンソースとして公開しているAIエージェント開発用SDKです。",
+        "LLMに与える指示と利用可能なツールを定義することで、状況に応じてツールを選び、その実行結果を踏まえながら処理を進めるエージェントを構築できます。"
+      ],
+      "cachedAt": "2026-10-03T02:49:20.443Z"
+    },
+    "b41078a0b3e0ec97": {
+      "url": "https://zenn.dev/chot/articles/362b7a2420ef1a",
+      "summaryJa": [
+        "はじめに Next.",
+        "js v16 には use cache: private というディレクティブがあり、cookies() などリクエスト固有の値を読んだ関数の結果をキャッシュで",
+        "その結果がサーバーに残らないということはドキュメントに書かれています。"
+      ],
+      "cachedAt": "2026-10-03T02:49:20.443Z"
+    },
+    "78bf3aff5dedfe2e": {
+      "url": "https://ziglang.org/download/0.17.0/release-notes.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-03T02:49:20.443Z"
+    },
+    "e3adc0c162e390e5": {
+      "url": "https://alexalejandre.com/interviews/peter-bex/",
+      "summaryJa": [
+        "Our dear @sjamaan (website) is a CHICKEN scheme maintainer and professional Cloj",
+        "We got to know each other on IRC over a few months and discussed: CHICKEN Scheme",
+        "0."
+      ],
+      "cachedAt": "2026-10-03T02:49:20.443Z"
     }
   }
 }

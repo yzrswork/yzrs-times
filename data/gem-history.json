@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-3914195c",
-      "url": "https://www.beeper.com/",
-      "date": "2026-09-03"
-    },
-    {
-      "id": "indieblog-3ad1fcf3",
-      "url": "https://sethmlarson.dev/ive-added-human-dot-json-to-my-website?utm_campaign=indieblog.page&utm_source=indieblog.page&utm_medium=random",
-      "date": "2026-09-03"
-    },
-    {
       "id": "github-gems-ebd51f8b",
       "url": "https://github.com/pschatzmann/arduino-audio-tools",
       "date": "2026-09-04"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-2f754b14",
       "url": "https://github.com/abey79/vsketch",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "github-gems-3248396f",
+      "url": "https://github.com/zynaddsubfx/zynaddsubfx",
       "date": "2026-10-03"
     }
   ]
