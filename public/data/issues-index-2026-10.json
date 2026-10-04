@@ -50,6 +50,13 @@
       "edition": "morning",
       "theme": "生成コードの線引きと手触りの回復",
       "path": "issues/2026-10-04-morning.json"
+    },
+    {
+      "issueNo": 172,
+      "date": "2026-10-04",
+      "edition": "midday",
+      "theme": "実装の深層と自動化の境界線",
+      "path": "issues/2026-10-04-midday.json"
     }
   ]
 }

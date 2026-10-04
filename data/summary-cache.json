@@ -14265,6 +14265,87 @@
         "com&#x2F;nuta&#x2F;ftl</a>"
       ],
       "cachedAt": "2026-10-03T20:20:16.194Z"
+    },
+    "b5e91a05edf6ee57": {
+      "url": "https://zenn.dev/sc30gsw/books/080faba713547b",
+      "summaryJa": [
+        "AIエージェントに開発を任せるための環境づくりを、Cursorのpstackから学ぶ実践ガイドです。",
+        "月2,500件のPRを支えた考え方を手がかりに、成果物を検証する仕組みから、pstackに含まれるPlaybook・Principle・Skillといった全項目",
+        "さらに、自分のアプリに検証スキルを作る方法から、調査・設計・計画をエージェントと進める方法まで、全39章で扱います。"
+      ],
+      "cachedAt": "2026-10-04T02:52:46.817Z"
+    },
+    "24f958d7d5df3449": {
+      "url": "https://gigazine.net/news/20261004-photon-matrix/",
+      "summaryJa": [
+        "スキャナーで蚊を検知して手で蚊を叩くよりも速くビームを発射する装置「Photon Matrix」の予約受付が始まりました。",
+        "国产PhotonMatrix便携式激光灭蚊设备爆单，海外众筹超250万美元-电子工程专辑 https://www.",
+        "eet-china."
+      ],
+      "cachedAt": "2026-10-04T02:52:46.817Z"
+    },
+    "3c91eaa54ae801f1": {
+      "url": "https://www.itmedia.co.jp/news/article/2610/04/2000001986/",
+      "summaryJa": [
+        "米OpenAIで主要モデルのリリースごとに公開する安全性報告書の執筆を統括していたデビッド・ロビンソン氏は10月3日（現地時間）、米The Atlanticに「",
+        "同氏は、AI企業.",
+        "."
+      ],
+      "cachedAt": "2026-10-04T02:52:46.817Z"
+    },
+    "d3e5e8c1a81ab330": {
+      "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+      "summaryJa": [
+        "Federal judge calls Flock 'indiscriminate mass sur",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-04T02:52:46.817Z"
+    },
+    "9835fc4b21afbe32": {
+      "url": "https://dl.acm.org/doi/epdf/10.1145/74818.74831",
+      "summaryJa": [
+        "Dynamically-typed object-oriented languages please programmers, but their lack o",
+        "Our new implementation techniques extract static type information from declarati",
+        "Our system compiles several copies of a given procedure, each customized"
+      ],
+      "cachedAt": "2026-10-04T02:52:46.818Z"
+    },
+    "096502b60e7e7c47": {
+      "url": "https://zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop",
+      "summaryJa": [
+        "はじめに AIエージェントにオブザーバビリティの仕事をさせたとき、その最終応答の品質が上がったのか下がったのかを、どうやって知るのでしょうか。",
+        "エージェントの最終応答を読んで判断する方法は、早い段階で行き詰まります。",
+        "正しい応答と、正しく見えるだけの応答が同じ見た目をしているからです。"
+      ],
+      "cachedAt": "2026-10-04T02:52:46.818Z"
+    },
+    "dbd63c988cc76c08": {
+      "url": "https://qiita.com/DwarfM42/items/b4a78fdbf38129ee2fcd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "Rust 1.",
+        "99.",
+        "0 が2026年10月1日にリリースされました。"
+      ],
+      "cachedAt": "2026-10-04T02:52:46.818Z"
+    },
+    "8cd4c99d6cf4aee9": {
+      "url": "https://www.jvt.me/posts/2024/04/12/use-renovate/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-04T02:52:46.818Z"
+    },
+    "a473e06b4f69feb3": {
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-04T02:52:46.818Z"
     }
   }
 }

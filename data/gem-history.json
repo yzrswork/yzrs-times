@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-ebd51f8b",
-      "url": "https://github.com/pschatzmann/arduino-audio-tools",
-      "date": "2026-09-04"
-    },
-    {
-      "id": "github-gems-4a992d3e",
-      "url": "https://github.com/pschatzmann/ESP32-A2DP",
-      "date": "2026-09-04"
-    },
-    {
       "id": "github-gems-1388008e",
       "url": "https://github.com/cncjs/cncjs",
       "date": "2026-09-05"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-d4bbb213",
       "url": "https://github.com/sepandhaghighi/samila",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "github-gems-20b87101",
+      "url": "https://github.com/agiwhitelist/auteur",
       "date": "2026-10-04"
     }
   ]
