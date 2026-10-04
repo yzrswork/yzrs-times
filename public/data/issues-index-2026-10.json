@@ -57,6 +57,13 @@
       "edition": "midday",
       "theme": "実装の深層と自動化の境界線",
       "path": "issues/2026-10-04-midday.json"
+    },
+    {
+      "issueNo": 173,
+      "date": "2026-10-05",
+      "edition": "morning",
+      "theme": "民生機への凝縮と、素通しの接続",
+      "path": "issues/2026-10-05-morning.json"
     }
   ]
 }
