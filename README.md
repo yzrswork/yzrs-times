@@ -1,3 +1,17 @@
+<!-- YZRS:REPOSITORY-STATE:START -->
+## Repository State
+
+| | |
+| --- | --- |
+| What this repository is | Recurring YZRS Times publishing automation: news collection, ranking, AI editorial selection and issue generation, with JSON delivery to yzrswork-site. |
+| Status | active |
+| Authority | Times collection, ranking and editorial pipeline source; prompts, edition/source configuration, scheduler and publishing workflows; canonical issue JSON and derived delivery artifacts, including dispatch to yzrswork/yzrswork-site. Production site source, Times UI and Site-side receipt/writes belong to yzrswork/yzrswork-site. |
+| Live | https://yzrswork.com/times/ |
+| Verification / Evidence | [Verify Public Site](https://github.com/yzrswork/yzrs-times/actions/runs/32631355230) passed at `fb7e1789c18c5468c1372457a11255db8ee627ed` (GitHub Actions, Ubuntu, Node.js 24): static site checks and fixture-based delivery tests. Current editions, production publishing, live upstream/LLM responses, deployed cross-repo delivery and physical-device behavior are outside this evidence. |
+
+State source: [.github/yzrs-repository.yml](.github/yzrs-repository.yml).
+<!-- YZRS:REPOSITORY-STATE:END -->
+
 # YZRS Times
 
 **AI編集長が毎日編集する、自分専用のデジタル新聞。**
