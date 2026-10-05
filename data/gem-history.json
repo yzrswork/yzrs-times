@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-1388008e",
-      "url": "https://github.com/cncjs/cncjs",
-      "date": "2026-09-05"
-    },
-    {
-      "id": "github-gems-0c605160",
-      "url": "https://github.com/OpenHD/OpenHD",
-      "date": "2026-09-05"
-    },
-    {
       "id": "github-gems-11d28e70",
       "url": "https://github.com/maximecb/noisecraft",
       "date": "2026-09-06"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-d4a9ebeb",
       "url": "https://github.com/aitjcize/esp32-photoframe",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "github-gems-3606d99b",
+      "url": "https://github.com/projectdiscovery/dnsx",
       "date": "2026-10-05"
     }
   ]

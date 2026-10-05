@@ -14400,6 +14400,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-04T20:19:01.257Z"
+    },
+    "0096eca75fb1b04d": {
+      "url": "https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html",
+      "summaryJa": [
+        "これには思わず二度見、いや三度見しました！",
+        "Photoshop, Illustrator, Premiere Pro, Lightroom, Acrobat Pro, After Effects, InD",
+        "しかも、すべてのアプ."
+      ],
+      "cachedAt": "2026-10-05T02:49:54.450Z"
+    },
+    "349d6864069f7d3a": {
+      "url": "https://zenn.dev/takuya_fukatsu/articles/069f5b78d7597f",
+      "summaryJa": [
+        "!",
+        "この記事のコードは Jupyter Notebook として GitHub で公開しています。",
+        "Google Colab でそのまま実行できます。"
+      ],
+      "cachedAt": "2026-10-05T02:49:54.450Z"
+    },
+    "06740b4542dc8cb3": {
+      "url": "https://aikido-community.jp/articles/quiet-business-app-database-access",
+      "summaryJa": [
+        "9月下旬に相次いだ日本郵便・ヤマト・佐川・セイコーマート・タイムズカー・ニッポンレンタカーの不正アクセスを並べ、被害範囲の境界と発覚のきっかけから共通する攻撃パ",
+        "攻撃者は先に正常な利用パターンを読み、アプリの正規の経路でデータを読んでいたのではないか。",
+        "."
+      ],
+      "cachedAt": "2026-10-05T02:49:54.450Z"
+    },
+    "a5df54f6e765f245": {
+      "url": "https://zenn.dev/metasyntax/articles/vueuse-v-element-size-border-box",
+      "summaryJa": [
+        "本文は自筆しています。",
+        "TL;DR VueUseのコントリビュータ記録です。",
+        "修正の PR は vueuse/vueuse#5524 です。"
+      ],
+      "cachedAt": "2026-10-05T02:49:54.450Z"
+    },
+    "e1935134f094061e": {
+      "url": "https://qiita.com/sakai1250/items/8d90b7320bcd1c8aba9e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "何かと最近見かける Looped Transformer。",
+        "仕組み自体はかなり単純です。",
+        "しかし、論文を追ってみると「同じTransformerを何回も使う」だけでは終わりません。"
+      ],
+      "cachedAt": "2026-10-05T02:49:54.450Z"
+    },
+    "e838451548a01982": {
+      "url": "https://vincent.bernat.ch/en/blog/2026-go-netip-addrto6",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-05T02:49:54.450Z"
+    },
+    "85810b363a88407b": {
+      "url": "https://www.philipzucker.com/refinement_egraph/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-05T02:49:54.450Z"
+    },
+    "e0d44078d103406d": {
+      "url": "https://github.com/projectdiscovery/dnsx",
+      "summaryJa": [
+        "dnsx is a fast and multi-purpose DNS toolkit allow to run multiple DNS queries o",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-05T02:49:54.451Z"
     }
   }
 }
