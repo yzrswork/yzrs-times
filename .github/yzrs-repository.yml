@@ -1,0 +1,20 @@
+schema_version: "0.1"
+title: yzrs-times
+kind: automation
+status: active
+authority: >-
+  Times collection, ranking and editorial pipeline source; prompts, edition/source
+  configuration, scheduler and publishing workflows; canonical issue JSON and
+  derived delivery artifacts, including dispatch to yzrswork/yzrswork-site.
+  Production site source, Times UI and Site-side receipt/writes belong to
+  yzrswork/yzrswork-site.
+verification: >-
+  Verify Public Site passed for revision fb7e1789c18c5468c1372457a11255db8ee627ed
+  on GitHub Actions (ubuntu-latest, Node.js 24): npm run check, npm test and git
+  diff --check passed. Public evidence:
+  https://github.com/yzrswork/yzrs-times/actions/runs/32631355230 Scope: static
+  public-site/inline-script checks and fixture-based Times delivery packaging,
+  provenance and dispatch tests. This run does not verify current generated
+  editions, production publishing, live upstream/LLM responses, deployed
+  cross-repo delivery or physical-device behavior.
+live_url: https://yzrswork.com/times/
