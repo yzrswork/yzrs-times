@@ -85,6 +85,13 @@
       "edition": "midday",
       "theme": "手元の直結と、身体を介した試行",
       "path": "issues/2026-10-06-midday.json"
+    },
+    {
+      "issueNo": 177,
+      "date": "2026-10-07",
+      "edition": "morning",
+      "theme": "侵害の連鎖と自律の境界",
+      "path": "issues/2026-10-07-morning.json"
     }
   ]
 }
