@@ -71,6 +71,13 @@
       "edition": "midday",
       "theme": "制約の再解釈と実装の工学",
       "path": "issues/2026-10-05-midday.json"
+    },
+    {
+      "issueNo": 175,
+      "date": "2026-10-06",
+      "edition": "morning",
+      "theme": "自律の摩擦と、プロトコルの刷新",
+      "path": "issues/2026-10-06-morning.json"
     }
   ]
 }

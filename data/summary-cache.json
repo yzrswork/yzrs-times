@@ -14472,6 +14472,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-05T02:49:54.451Z"
+    },
+    "e4b6d1613c0ef33a": {
+      "url": "https://gigazine.net/news/20261006-homa-protocol-replace-tcp/",
+      "summaryJa": [
+        "ウェブやクラウドを支える通信プロトコル「TCP」はAI向けデータセンターの通信には適していないとして、スタンフォード大学のジョン・オースターハウト名誉教授がトラ",
+        "Homaは短いメッセージを優先的に処理することで通信遅延を抑える仕組みを備えており、既存のTCP.",
+        "."
+      ],
+      "cachedAt": "2026-10-06T01:18:39.151Z"
+    },
+    "3b9ce9425427c3e3": {
+      "url": "https://blog.hitsujin.jp/entry/2026/10/05/codex-cloud-git-author",
+      "summaryJa": [
+        "最近Codex Cloudが新しくなり、OpenAI側のクラウド環境でGitHub連携をして手軽に開発ができるようになりました。",
+        "ちょうど土日に実家に帰らないといけない用事があり自宅のPCの電源を入れていなかったのですが、もうすぐ期限が切れてしまうリセット権がもったいなかったので、この機会",
+        "."
+      ],
+      "cachedAt": "2026-10-06T01:18:39.151Z"
+    },
+    "809cc06d80fad07e": {
+      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+      "summaryJa": [
+        "ChatGPT is adding real cartoonists' signatures to ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-06T01:18:39.151Z"
+    },
+    "807b33f7047e3dd0": {
+      "url": "https://news.yahoo.co.jp/pickup/6597704?source=rss",
+      "summaryJa": [
+        "庵野監督のヤマト新作 制作決定",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-06T01:18:39.151Z"
+    },
+    "ff64a7ba6b9ec384": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261005de54668",
+      "summaryJa": [
+        "6日はノーベル物理学賞の発表日です。",
+        "スウェーデンのストックホルムにあるノーベル賞の選考委員会が、日本時間の6日午後6時45分以降にことしの受賞者を発表します。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-06T01:18:39.151Z"
+    },
+    "693dda9bc1697a44": {
+      "url": "https://ascii.jp/elem/000/004/440/4440100/",
+      "summaryJa": [
+        "焼肉きんぐを運営する物語コーポレーションは10月5日、公式アプリの会員管理システムが第三者から不正アクセスを受け、会員情報1078万8963件が流出したと発表し",
+        "アプリのユーザー登録数は1080万8784件で、ほぼすべてのユーザーが対象となる。",
+        "流出した情報には、会員番号、氏名（アプリ登録名）、メールアドレス、電."
+      ],
+      "cachedAt": "2026-10-06T01:18:39.151Z"
+    },
+    "14b8fb068c8060ef": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261006de54956",
+      "summaryJa": [
+        "皇居の周りを走る「皇居ラン」をめぐり、歩行者との接触やルールに反した逆走などを訴える声が相次いでいることから東京・千代田区は、利用の実態や現場の状況を把握するた",
+        "調査…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-06T01:18:39.151Z"
+    },
+    "8d9a07496cf18122": {
+      "url": "https://zenn.dev/mizchi/articles/ai-coding-loop-formal",
+      "summaryJa": [
+        "棚卸し的な記事です。",
+        "人間の役割を定義する モデルの性能を評価する 無茶振りしてどこまで出来るか観察 何ができて、何ができなかったことがドメイン知識になる ループを構築する 自動化し",
+        "."
+      ],
+      "cachedAt": "2026-10-06T01:18:39.151Z"
+    },
+    "dbf6a51fde3f190f": {
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "summaryJa": [
+        "Opus 5.5 agents discover two room-temperature magn",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-06T01:18:39.151Z"
+    },
+    "e6f0c1bcb92632a5": {
+      "url": "https://flattensf.com/",
+      "summaryJa": [
+        "Find the flattest route between any two points in ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-06T01:18:39.151Z"
+    },
+    "1d803e47e2957e16": {
+      "url": "https://github.com/HarnessRouter/harnessrouter",
+      "summaryJa": [
+        "HarnessRouter Community Edition: the self-hosted, Apache-2.",
+        "0 edition of the unified interface for agent harnesses.",
+        "Run Codex, Claude Code, Hermes, PI, DSH, and more through one API, with sessions"
+      ],
+      "cachedAt": "2026-10-06T01:18:39.151Z"
     }
   }
 }
