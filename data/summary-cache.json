@@ -14571,6 +14571,69 @@
         "Run Codex, Claude Code, Hermes, PI, DSH, and more through one API, with sessions"
       ],
       "cachedAt": "2026-10-06T01:18:39.151Z"
+    },
+    "755d24cc73255bbb": {
+      "url": "https://zenn.dev/oggata/articles/0893726c1ebf3d",
+      "summaryJa": [
+        "ロボットモデルなしでアームを動かす — Claude × MCP で SO-101 を直接操作する 今回は、ロボット用の学習を一切していない汎用 LLM（Cla",
+        "使うのは、LeRobot の Python API と、Claude Desktop から外部ツールを呼び出すための MCP（Model Context Pro",
+        "データ収集も学習も GPU も要らない。"
+      ],
+      "cachedAt": "2026-10-06T02:51:21.008Z"
+    },
+    "7bf113a0ee9471a4": {
+      "url": "https://qiita.com/kazuki_ogawa/items/f1a15a199d9f91fe6080?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 社内 SaaS に「アプリ内アンケート機能」を追加しました。",
+        "質問を作るのはビジネス側の責任者、箱を作るのは開発側という分担です。",
+        "要件のすり合わせ開始から、実装完了（PR 3本マージ）までは 2 日でした。"
+      ],
+      "cachedAt": "2026-10-06T02:51:21.008Z"
+    },
+    "b255ab209f5a075d": {
+      "url": "https://zenn.dev/emuni/articles/ooui-agent-skill",
+      "summaryJa": [
+        "こんにちは、株式会社エムニの黒川です。",
+        "普段は業務用Webアプリケーションの開発に携わっており、主に実装を担当しています。",
+        "昨今、UIの実装においてもClaude CodeなどのAIエージェントを活用する場面が増えています。"
+      ],
+      "cachedAt": "2026-10-06T02:51:21.008Z"
+    },
+    "515833732dd56e3e": {
+      "url": "https://qiita.com/songchong/items/873b4f14d26296176cfd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "Claude Code や Codex などの AI エージェントに、API キーを使う作業を頼みたいことがあります。",
+        "そのとき、利用者は鍵をどう渡せばよいのでしょうか。",
+        "対話文に貼る、."
+      ],
+      "cachedAt": "2026-10-06T02:51:21.008Z"
+    },
+    "d5d19e7950a2ecef": {
+      "url": "https://herecomesthemoon.net/2026/10/async-rust-where-does-the-scheduler-live/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-06T02:51:21.008Z"
+    },
+    "091c3a9f7a309c8e": {
+      "url": "https://tangled.org/poacher.dev/spoonful",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-06T02:51:21.008Z"
+    },
+    "25e0ea0e155cb80b": {
+      "url": "https://burningwitness.github.io/blog/posts/against-effect-systems/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-06T02:51:21.008Z"
     }
   }
 }

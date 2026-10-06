@@ -78,6 +78,13 @@
       "edition": "morning",
       "theme": "自律の摩擦と、プロトコルの刷新",
       "path": "issues/2026-10-06-morning.json"
+    },
+    {
+      "issueNo": 176,
+      "date": "2026-10-06",
+      "edition": "midday",
+      "theme": "手元の直結と、身体を介した試行",
+      "path": "issues/2026-10-06-midday.json"
     }
   ]
 }
