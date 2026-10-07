@@ -300,6 +300,11 @@
       "id": "github-gems-9d0e0476",
       "url": "https://github.com/martin-ger/esp32_nat_router",
       "date": "2026-10-07"
+    },
+    {
+      "id": "github-gems-024259fc",
+      "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+      "date": "2026-10-08"
     }
   ]
 }

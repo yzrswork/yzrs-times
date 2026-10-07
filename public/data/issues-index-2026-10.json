@@ -99,6 +99,13 @@
       "edition": "midday",
       "theme": "エージェントの記憶と、制御される境界",
       "path": "issues/2026-10-07-midday.json"
+    },
+    {
+      "issueNo": 179,
+      "date": "2026-10-08",
+      "edition": "morning",
+      "theme": "内省する推論と、露出する間隙",
+      "path": "issues/2026-10-08-morning.json"
     }
   ]
 }

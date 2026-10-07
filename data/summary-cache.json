@@ -14805,6 +14805,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-07T02:53:01.493Z"
+    },
+    "b1e0b4286e42752a": {
+      "url": "https://joisino.hatenablog.com/entry/filler",
+      "summaryJa": [
+        "LLM の「思考」といえば思考の連鎖 (Chain of Thought; CoT) が有名ですが、思考の連鎖はいわば「喋りながら考えている」ことに相当します。",
+        "これに対して、最近の LLM は「黙って」考えられるようになってきています。",
+        "鍵となるのはフィラートークン (filler tokens) です。"
+      ],
+      "cachedAt": "2026-10-07T20:20:21.085Z"
+    },
+    "37a6c2df935a8393": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261006de55098",
+      "summaryJa": [
+        "ことしのノーベル化学賞の受賞者に、自然界に存在するアミノ酸などの構造の起源の謎を明らかにし、人工的に再現できる方法を見いだした東京理科大学名誉教授のそ※合憲三さ",
+        "日本からのノーベル賞…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-07T20:20:21.086Z"
+    },
+    "c3502528f5619208": {
+      "url": "https://www.itmedia.co.jp/news/article/2610/07/2000002107/",
+      "summaryJa": [
+        "ソフトバンク子会社のIDCフロンティアは10月7日、法人向けクラウドサービス「IDCFクラウド」で起きている障害について、第三者によるランサムウェア攻撃が原因だ",
+        "これを受け、同日朝から利用企業によるサービス停止や一部機能の不具合の公表が相次いでいる。",
+        "."
+      ],
+      "cachedAt": "2026-10-07T20:20:21.086Z"
+    },
+    "293459cde7447ea4": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261007de56148",
+      "summaryJa": [
+        "デンマーク政府は、国のデータベースに登録された人口を上回るおよそ880万人分の名前や、個人の識別番号などが不正アクセスを受けたと明らかにし、警察が捜査しています",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-07T20:20:21.086Z"
+    },
+    "589b9ca31e0e8b3f": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261007de56154",
+      "summaryJa": [
+        "ドイツの情報機関の元トップらが違法に国家機密を入手するなどスパイ行為に関わっていた疑いがあるとして6日、検察に逮捕され、冷戦終結以降のドイツで情報機関をめぐる最",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-07T20:20:21.086Z"
+    },
+    "1327661ba2d74c3b": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261003de54047",
+      "summaryJa": [
+        "8日午前4時13分ごろ、千葉県で震度4の揺れを観測する地震がありました。",
+        "この地震による津波の心配はありません。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-07T20:20:21.086Z"
+    },
+    "96d307df56097d10": {
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "summaryJa": [
+        "Shipping JPEG XL in Chrome",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-07T20:20:21.086Z"
+    },
+    "b91128c0eca2a3ca": {
+      "url": "https://www.itmedia.co.jp/news/article/2610/07/2000002055/",
+      "summaryJa": [
+        "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。",
+        "執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。",
+        "イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。"
+      ],
+      "cachedAt": "2026-10-07T20:20:21.086Z"
+    },
+    "fcf849be9daea19e": {
+      "url": "https://security.macnica.co.jp/blog/2026/10/web-incidents2026.html",
+      "summaryJa": [
+        "1.",
+        "記事概要 国内の法人・企業が運営するWEBシステムからの情報漏洩が相次いでいます。",
+        "後述の通り過去のサイバー攻撃と異なる点が多いため、セキュリティ専門家間でも事件に関する解釈が一部揺らいでいます。"
+      ],
+      "cachedAt": "2026-10-07T20:20:21.086Z"
+    },
+    "43badd105dbceefe": {
+      "url": "https://ascii.rest/",
+      "summaryJa": [
+        "Animated ASCII Art for Web Pages",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-07T20:20:21.086Z"
+    },
+    "ba2332934f78900b": {
+      "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+      "summaryJa": [
+        "Pi-hole-class DNS ad-blocker on a $2 ESP32-C3 (no PSRAM): 537k domains as 40-bit",
+        "UDP DNS sinkhole + web dashboard.",
+        "https://youtube."
+      ],
+      "cachedAt": "2026-10-07T20:20:21.086Z"
     }
   }
 }
