@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-f9f3b3d1",
-      "url": "https://github.com/raphaelameaume/fragment",
-      "date": "2026-09-07"
-    },
-    {
-      "id": "github-gems-463502d7",
-      "url": "https://github.com/DBraun/DawDreamer",
-      "date": "2026-09-07"
-    },
-    {
       "id": "github-gems-72020fc8",
       "url": "https://github.com/abey79/vpype",
       "date": "2026-09-08"
@@ -304,6 +294,11 @@
     {
       "id": "show-hn-3914195c",
       "url": "https://www.beeper.com/",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "github-gems-9d0e0476",
+      "url": "https://github.com/martin-ger/esp32_nat_router",
       "date": "2026-10-07"
     }
   ]

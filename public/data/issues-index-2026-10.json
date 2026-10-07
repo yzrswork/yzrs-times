@@ -92,6 +92,13 @@
       "edition": "morning",
       "theme": "侵害の連鎖と自律の境界",
       "path": "issues/2026-10-07-morning.json"
+    },
+    {
+      "issueNo": 178,
+      "date": "2026-10-07",
+      "edition": "midday",
+      "theme": "エージェントの記憶と、制御される境界",
+      "path": "issues/2026-10-07-midday.json"
     }
   ]
 }

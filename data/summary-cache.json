@@ -14715,6 +14715,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-06T20:19:44.354Z"
+    },
+    "1ee86257307e837c": {
+      "url": "https://zenn.dev/enterprise_ai/articles/b8856a49d7f6af",
+      "summaryJa": [
+        "この記事のまとめ Claude CodeとIBM Bobで同じリポジトリを動かし、コーディングエージェントの「記憶の置き場所」について3つの検証をしました。",
+        "検証 確かめたこと 結果 1.",
+        "Skills descriptionの書き方で、Skillの呼ばれやすさは変わるか 変わらなかった。"
+      ],
+      "cachedAt": "2026-10-07T02:53:01.493Z"
+    },
+    "97db3f30e33b4f15": {
+      "url": "https://zenn.dev/shikamaru/articles/ef90e326ab8163",
+      "summaryJa": [
+        "はじめに フリーランスで Web 系の SE をしている しかまる です。",
+        "いま参画しているプロジェクトで Web システムの AI 駆動開発をしていて、その過程で Claude Code のブラウザ操作を使った単体テストの自動化という",
+        "この記事では、その実験の内容と結果を紹介します。"
+      ],
+      "cachedAt": "2026-10-07T02:53:01.493Z"
+    },
+    "393266ea5adfae70": {
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "summaryJa": [
+        "AnyPS5: Port PS5 binaries to PC without emulation ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-07T02:53:01.493Z"
+    },
+    "cd7c73d06fa65767": {
+      "url": "https://www.publickey1.jp/blog/26/fdeai7fde.html",
+      "summaryJa": [
+        "FDE（フォワードデプロイドエンジニアリング）によって開発されたAIエージェントの7割は使われず、FDEの名前で単なるコンサルティングが販売されるようになる危険",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-10-07T02:53:01.493Z"
+    },
+    "b30508ed3fe1cd94": {
+      "url": "https://zenn.dev/hoshinagi1219/articles/6c2446701595cc",
+      "summaryJa": [
+        "星杜なぎさです。",
+        "今回は、Kerasモデルの量子化についてまとめてみました。",
+        "環境 google colaboratory Python : 3."
+      ],
+      "cachedAt": "2026-10-07T02:53:01.493Z"
+    },
+    "19f26acd714af077": {
+      "url": "https://zenn.dev/yesodco/articles/yesod-github-actions-cache-cleanup",
+      "summaryJa": [
+        "こんにちは、株式会社イエソドでバックエンドエンジニアをしているik-fib（@ik11235）です。",
+        "はじめに 前回の記事では、毎回タイムアウトしていた脆弱性スキャンのCIを約2分まで縮めた経緯を書きました。",
+        "その際、保存したキャッシュが容量不足で削除されてしまう問題があったため、保存容量の上限を引き上げて、不要なキャッシュを自動削除するようにしました。"
+      ],
+      "cachedAt": "2026-10-07T02:53:01.493Z"
+    },
+    "9589820478966195": {
+      "url": "https://tracel.ai/blog/release-0.22.0/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-07T02:53:01.493Z"
+    },
+    "cbd7ea75fd5495be": {
+      "url": "https://mitchellh.com/writing/program-status-osc7501",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-07T02:53:01.493Z"
+    },
+    "c58cd205396461f3": {
+      "url": "https://brut.sh",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-07T02:53:01.493Z"
+    },
+    "6860ce5a0556d84e": {
+      "url": "https://github.com/martin-ger/esp32_nat_router",
+      "summaryJa": [
+        "An AI-enabled NAT Router/Firewall for the ESP32",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-07T02:53:01.493Z"
     }
   }
 }
