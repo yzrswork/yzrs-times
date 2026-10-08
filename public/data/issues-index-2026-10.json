@@ -113,6 +113,13 @@
       "edition": "midday",
       "theme": "実働する箱と、論理の調律",
       "path": "issues/2026-10-08-midday.json"
+    },
+    {
+      "issueNo": 181,
+      "date": "2026-10-09",
+      "edition": "morning",
+      "theme": "表現の境界線と、手元の軽量化",
+      "path": "issues/2026-10-09-morning.json"
     }
   ]
 }
