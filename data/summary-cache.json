@@ -14904,6 +14904,87 @@
         "https://youtube."
       ],
       "cachedAt": "2026-10-07T20:20:21.086Z"
+    },
+    "c80e784061a85af4": {
+      "url": "https://zenn.dev/hyeonjae/articles/46d734a43c2c93",
+      "summaryJa": [
+        "GPU ノードをホームラボで運用していたところ、トス証券の技術ブログ記事「トス証券が GPU-aware を超えて GPU-native クラスターを構築した方",
+        "そこで、ホームラボの環境に合わせて規模を縮小し、GPU の状態を監視することにしました。",
+        "現在、ノード 1 台に GPU が 2 枚載っていますが、GPU の状態を個別に監視してはいませんでした。"
+      ],
+      "cachedAt": "2026-10-08T02:48:34.991Z"
+    },
+    "05baf281b34b0ee9": {
+      "url": "https://zenn.dev/yamato_snow/articles/claude-code-codex-sol-delegation",
+      "summaryJa": [
+        "Claude Code に「軽い作業は Codex に回してね」と CLAUDE.",
+        "md で頼んだのに、1件も回らない。",
+        "そんな状態になっていませんか？"
+      ],
+      "cachedAt": "2026-10-08T02:48:34.991Z"
+    },
+    "e420d3ee0a8b42fe": {
+      "url": "https://wiro.world/posts/calling-c-func-without-naming-it/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-08T02:48:34.991Z"
+    },
+    "d66b18709c4ba948": {
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "summaryJa": [
+        "GPT‑6 and Intelligent UI for everyone",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-08T02:48:34.991Z"
+    },
+    "39d2fed3d43463e5": {
+      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "summaryJa": [
+        "Margaret Hamilton has died",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-08T02:48:34.991Z"
+    },
+    "9f440c16c7220513": {
+      "url": "https://zenn.dev/edash_tech_blog/articles/c52409a3d6fa12",
+      "summaryJa": [
+        "はじめに こんにちは、e-dashでエンジニアをしている Kezuka です。",
+        "レビューで口伝されていたバックエンドの作法を棚卸しして、AIレビュー用のスキルにしました。",
+        "半年運用した結果を実測しています。"
+      ],
+      "cachedAt": "2026-10-08T02:48:34.991Z"
+    },
+    "73e87cbbd3cf483c": {
+      "url": "https://zenn.dev/tyasuakwa/articles/613c9d1f9834ce",
+      "summaryJa": [
+        "はじめに テキストデータを分析することでわかるのは単語の頻度だけではない。",
+        "ここでは1本の記事をとりあげテキストデータの分析した例を紹介する。",
+        "分析対象は、ペンギンのデータセットを題材にした次のブログ記事である。"
+      ],
+      "cachedAt": "2026-10-08T02:48:34.991Z"
+    },
+    "cced2021da731e1e": {
+      "url": "https://hexrat.cc/pages/blog/2026_10_07",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-08T02:48:34.991Z"
+    },
+    "5830d846b4c954e9": {
+      "url": "https://00f.net/2026/10/06/zeroization-1/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-08T02:48:34.991Z"
     }
   }
 }

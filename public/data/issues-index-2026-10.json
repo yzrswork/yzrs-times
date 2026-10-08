@@ -106,6 +106,13 @@
       "edition": "morning",
       "theme": "内省する推論と、露出する間隙",
       "path": "issues/2026-10-08-morning.json"
+    },
+    {
+      "issueNo": 180,
+      "date": "2026-10-08",
+      "edition": "midday",
+      "theme": "実働する箱と、論理の調律",
+      "path": "issues/2026-10-08-midday.json"
     }
   ]
 }
