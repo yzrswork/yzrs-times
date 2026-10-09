@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "indieblog-1665bd83",
-      "url": "https://readbeanicecream.surge.sh/2026/04/17/you-dont-need-a-tech-stack-you-just-need-a-text-editor/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
-      "date": "2026-09-09"
-    },
-    {
-      "id": "show-hn-80cb349a",
-      "url": "https://john.fun/elevators",
-      "date": "2026-09-09"
-    },
-    {
       "id": "show-hn-d3100b5a",
       "url": "https://th0mas.nl/downloads/pdftris.pdf",
       "date": "2026-09-10"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-0c605160",
       "url": "https://github.com/OpenHD/OpenHD",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "github-gems-8820f1db",
+      "url": "https://github.com/okalachev/flix",
       "date": "2026-10-09"
     }
   ]

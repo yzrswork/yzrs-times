@@ -1,141 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "8efba39a67000f2d": {
-      "url": "https://qiita.com/Koukyosyumei/items/3bd4696237ea64c38971",
-      "summaryJa": [
-        "こんにちは！",
-        "コロンビア大学の博士課程でAI・セキュリティの研究をしている Koukyosyumei です。",
-        "さて、読者のほとんどの方が Claude Code や Codex を使って開発をしていると思いますが、皆さんは「AIエージェントがシェルコマンドやネットワーク"
-      ],
-      "cachedAt": "2026-07-10T20:49:06.984Z"
-    },
-    "dfccedba30c8e541": {
-      "url": "https://zenn.dev/atrae/articles/08f2b2c3f2217d",
-      "summaryJa": [
-        "はじめに AI を入れても速くならない AI で開発すると、短時間でものすごい量のコードが生成されます。",
-        "それをいちから確認するのは極めて大変です。",
-        "以前は、手を動かして計画・実装している間に脳内を整理できていました。"
-      ],
-      "cachedAt": "2026-07-10T20:49:06.984Z"
-    },
-    "f159c7f76c4c94ee": {
-      "url": "https://qiita.com/otokoumeKM/items/b554419018c40775649e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "AIの性能向上に伴い、かつて推奨されていた「プロンプトのテクニック」の価値は落ちてきているらしい。",
-        "最近の推論系モデル、特に自律的な推論を行うReasoningモデルを前提にすると 、不要になった手法と、現在重要とされる要件定義のあり方について、初学者の自分が",
-        "."
-      ],
-      "cachedAt": "2026-07-10T20:49:06.984Z"
-    },
-    "790cab11eed0561a": {
-      "url": "https://www2.eecs.berkeley.edu/Pubs/TechRpts/1997/Archive/CSD-97-946.pdf",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-10T20:49:06.985Z"
-    },
-    "71643a81a3383888": {
-      "url": "https://qiita.com/umekikazuya/items/ec67802c538afdf924aa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "Miseのdotfiles機能、ご存知でしょうか？",
-        "実は昨日、試験用から正式版にリリースされたものですっ！",
-        "！"
-      ],
-      "cachedAt": "2026-07-10T20:49:06.985Z"
-    },
-    "fdc67109ac9cf05d": {
-      "url": "https://zenn.dev/xtm_blog/articles/9b7fa5f94eae28",
-      "summaryJa": [
-        "はじめに クロステック・マネジメント Foundation Dept.",
-        "所属の Radish です。",
-        "先日、社内輪読会で『テスト駆動開発』(Kent Beck 著、和田卓人 訳) を読んでいたとき、17 章で 欠陥挿入（defect insertion） という"
-      ],
-      "cachedAt": "2026-07-10T20:49:06.985Z"
-    },
-    "39dc6b106e221649": {
-      "url": "https://avi.press/posts/2026-07-10-after-7-years-in-production-scarf-has-reluctantly-moved-away-from-haskell.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-10T20:49:06.985Z"
-    },
-    "1fbf4355a3ddf278": {
-      "url": "https://github.com/malisper/pgrust",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-10T20:49:06.985Z"
-    },
-    "55c1074b9c629938": {
-      "url": "https://jameshard.ing/pilot",
-      "summaryJa": [
-        "Hey HN!",
-        "<p>Pilots everywhere are required to keep a logbook of all their flying hours, a",
-        "Since I track everything digitally (some people still just use paper logbooks!"
-      ],
-      "cachedAt": "2026-07-10T20:49:06.985Z"
-    },
-    "39404e835ddcd75d": {
-      "url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
-      "summaryJa": [
-        "QuadRF can spot drones and see WiFi through my wal",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-10T21:00:27.541Z"
-    },
-    "5015d46c2c7e09a7": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015174261000",
-      "summaryJa": [
-        "大型で強い台風9号は、沖縄県の先島諸島や本島地方を暴風域に巻き込みながら進んでいて、この時間、先島諸島に近づいています。",
-        "先島諸島では風がさらに強まり、11日夜にかけて長時間、暴風となるほか、夕方にかけ…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-10T21:00:27.541Z"
-    },
-    "12a6f65412aa59b0": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015174251000",
-      "summaryJa": [
-        "ウクライナがロシア領内の石油関連施設への攻撃を強める中、ロシア大統領府の報道官は10日、軍の部隊を前進させ、ウクライナ領内の緩衝地帯を拡大させる考えを示しました",
-        "出典: NHKニュース 国際",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-10T21:00:27.541Z"
-    },
-    "73c2505273241a27": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015174191000",
-      "summaryJa": [
-        "IEA＝国際エネルギー機関は、ホルムズ海峡を通じた輸送の回復により、6月の世界の石油供給量は前の月から一日当たり400万バレル余り増加したとする分析をまとめまし",
-        "一方、アメリカとイランの間で再び攻撃…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-10T21:00:27.541Z"
-    },
-    "369a67e35a642fa7": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015174171000",
-      "summaryJa": [
-        "皇族数の確保に向けた皇室典範改正案は、10日、衆議院を通過し、今の国会で成立する見通しとなりました。",
-        "国会の会期末が来週に迫る中、政府・与党が参議院での審議を急ぎ、会期内で確実に成立させたいとしているの…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-10T21:00:27.541Z"
-    },
-    "95a2b41bd4e9913e": {
-      "url": "https://bitsnpieces.dev/posts/a-synth-for-my-daughter/",
-      "summaryJa": [
-        "Show HN: I built a synth for my daughter",
-        "出典: Show HN",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-10T21:00:27.541Z"
-    },
     "8407a498a1c8d86e": {
       "url": "https://zenn.dev/kamo78/articles/kaji-guarded-loop-engineering",
       "summaryJa": [
@@ -14886,6 +14751,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-08T20:19:59.387Z"
+    },
+    "62258a88ed83047b": {
+      "url": "https://qiita.com/chaochire/items/a9fbc052170d9748c9e8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "こんにちは ソーイ株式会社Webエンジニア2年目の村上です。",
+        "M5StickS3で開発を行うのは楽しいのですが、プログラムを更新するたびにM5StickS3をPCへ接続して書き込む必要があります。",
+        "出先で機器の状況がログ保存などで確認できても、それに伴う変更が必要な場合に実."
+      ],
+      "cachedAt": "2026-10-09T02:51:01.741Z"
+    },
+    "19dad65fe509ea68": {
+      "url": "https://lwn.net/Articles/1095811/",
+      "summaryJa": [
+        "Reducing undefined behavior in the C language",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-09T02:51:01.741Z"
+    },
+    "ecbb6f004813af2f": {
+      "url": "https://www.cs.cit.tum.de/fileadmin/w00cfj/dis/papers/btrees-are-back.pdf",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-09T02:51:01.741Z"
+    },
+    "fa9c2a99765f2df0": {
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/09/2000002152/",
+      "summaryJa": [
+        "米Google Cloudは10月9日（現地時間）、新サービス「Gemini Agent」を発表した。",
+        "クラウドで動作するマルチエージェントツールとされる。",
+        "米Googleのシュバム・サブー氏のXでの投稿によれば、Gemini Agentは単一のモデルにロックインされないことが特徴で、各タスクを最適なモデルで実行する"
+      ],
+      "cachedAt": "2026-10-09T02:51:01.741Z"
+    },
+    "4ce0b7a56a166769": {
+      "url": "https://zenn.dev/chot/articles/be424332489e7a",
+      "summaryJa": [
+        "ボタンの文字などを上下中央に配置するとき、CSSで中央揃えを指定しても、少しズレて見えることがあります。",
+        "この記事では、文字がズレて見える理由と、上下中央に揃えるための考え方を、CSSとフォントの仕組みから解説します。",
+        "中央揃えなのにズレて見える理由 次のボタンは、横書きで1行のラベルをFlexboxで上下中央に配置した例です。"
+      ],
+      "cachedAt": "2026-10-09T02:51:01.741Z"
+    },
+    "b624dfff4b4cd0c2": {
+      "url": "https://qiita.com/sc-noguchi/items/b791f8cd3885816e2b4c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに こんにちは。",
+        "今年の4月から株式会社Shizen ConnectでShizenboxというIoTデバイスの開発に携わっているエンジニアです。",
+        "まだまだITやネットワークの知識は勉強中なのですが、日々の業務や身の回りの体験を通じて学んだことを発信していきたいと思います."
+      ],
+      "cachedAt": "2026-10-09T02:51:01.741Z"
+    },
+    "4e318e9769f42b7b": {
+      "url": "https://zenn.dev/wheatear11/articles/c293bb49ad3ae7",
+      "summaryJa": [
+        "概要 この記事では、目的関数が指数1の半陽的微分代数方程式の解を通して初期値やパラメータに依存するとき、その勾配をAdjoint法により数値的に計算する方法を導",
+        "対象とするのは、目的関数が x_1 \\in \\mathbb{R}^{N_x}と y_1, \\dot y_1 \\in \\mathbb{R}^{N_y}の関数として",
+        "."
+      ],
+      "cachedAt": "2026-10-09T02:51:01.741Z"
+    },
+    "9fe583ab4080e49c": {
+      "url": "https://www.hetzner.com/blog/the-hetzner-cloud-network-stack-history-and-technical-overview/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-09T02:51:01.741Z"
+    },
+    "d9ae5a9e80693cef": {
+      "url": "https://arxiv.org/abs/2610.08144",
+      "summaryJa": [
+        "Autoformalisation is increasingly used to verify mathematical texts, including t",
+        "In this process, an AI system translates the text from a natural language (NL) i",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-09T02:51:01.741Z"
+    },
+    "f535d634b6af6c87": {
+      "url": "https://github.com/okalachev/flix",
+      "summaryJa": [
+        "Making an ESP32-based quadcopter from scratch",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-09T02:51:01.741Z"
     }
   }
 }

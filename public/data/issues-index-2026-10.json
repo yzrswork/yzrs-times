@@ -120,6 +120,13 @@
       "edition": "morning",
       "theme": "表現の境界線と、手元の軽量化",
       "path": "issues/2026-10-09-morning.json"
+    },
+    {
+      "issueNo": 182,
+      "date": "2026-10-09",
+      "edition": "midday",
+      "theme": "末端の自作と、基底の再設計",
+      "path": "issues/2026-10-09-midday.json"
     }
   ]
 }
