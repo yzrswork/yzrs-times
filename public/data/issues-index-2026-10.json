@@ -127,6 +127,13 @@
       "edition": "midday",
       "theme": "末端の自作と、基底の再設計",
       "path": "issues/2026-10-09-midday.json"
+    },
+    {
+      "issueNo": 183,
+      "date": "2026-10-10",
+      "edition": "morning",
+      "theme": "合流する実行環境と、連鎖する綻び",
+      "path": "issues/2026-10-10-morning.json"
     }
   ]
 }
