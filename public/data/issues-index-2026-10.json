@@ -141,6 +141,13 @@
       "edition": "midday",
       "theme": "文字組の執念と、下層の実測",
       "path": "issues/2026-10-10-midday.json"
+    },
+    {
+      "issueNo": 185,
+      "date": "2026-10-11",
+      "edition": "morning",
+      "theme": "杜撰な施錠と、虚構の自走",
+      "path": "issues/2026-10-11-morning.json"
     }
   ]
 }

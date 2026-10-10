@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 185,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-11",
+  "dateDisplay": "Sunday, October 11, 2026",
+  "pressTimeJst": "2026-10-11 05:00",
+  "generatedAt": "2026-10-10T20:17:26.489Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "杜撰な施錠と、虚構の自走",
+    "note": "安易なパスワードで破綻する現実のセキュリティと、虚偽情報を吐き出して警察を混乱させるAI。現代の脆弱さは技術の高度化と初歩的ミスの間で不気味に揺れています。"
+  },
+  "editorial": {
+    "comment": "デンマークの漏洩事案（hn-front-371ef2a9）で『123456』が使われていたという報告には、思わず乾いた笑いが出ます。最高峰の暗号技術で守られたシステムも、一番外側の緩みひとつで全てが無に帰す現実を忘れないようにしたいものです。—— YZRS Times 編集長",
+    "passedOver": "話題の『たけし城』海外人気のニュース（hn-front-473f897b）は文化の伝播として面白かったが、朝の創作意識を高める技術的・時事的な深みが薄いため見送った。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ",
+    "icon": "sunny",
+    "tempMax": 26,
+    "tempMin": 16,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 64,
+      "label": "Greed"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 82984,
+        "priceJpy": 13135176,
+        "change24hPct": 0.76,
+        "sparkline7d": [
+          84829.51,
+          86489.73,
+          85500.26,
+          84121.39,
+          82679.25,
+          82982.23,
+          82959.52
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2509.23,
+        "priceJpy": 397174,
+        "change24hPct": 1.28,
+        "sparkline7d": [
+          2685.02,
+          2725.91,
+          2698.96,
+          2615.96,
+          2549.8,
+          2489.63,
+          2509.93
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.196936,
+        "priceJpy": 31.17,
+        "change24hPct": 2.4,
+        "sparkline7d": [
+          0.215265,
+          0.223937,
+          0.21415,
+          0.206349,
+          0.199134,
+          0.192499,
+          0.197079
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 281.32,
+        "priceJpy": 44528,
+        "change24hPct": 2.69,
+        "sparkline7d": [
+          315.41,
+          318.72,
+          314.21,
+          307.4,
+          295.11,
+          274.24,
+          280.43
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hn-front-371ef2a9",
+    "hatebu-it-8575bf52",
+    "hn-front-ef52fdb6"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-8ccf5d2d",
+        "nhk-top-d7ad3aad",
+        "nhk-top-1d745add"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-24c777c1",
+        "hn-front-ebca71ec",
+        "hatebu-it-bc4a180e",
+        "hn-front-482b3bfe"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hn-front-371ef2a9",
+      "title": "`123456' password used in Danish CPR data breach",
+      "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-10T09:51:49.000Z",
+      "summaryJa": [
+        "`123456' password used in Danish CPR data breach",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "password",
+        "Danish",
+        "CPR",
+        "data",
+        "breach"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 351,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 33.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-8575bf52",
+      "title": "アンソロピックのAI、米警察に虚偽の情報提供　不正にビザ申請も - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN101I30Q6A011C2000000/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-10T10:08:49.000Z",
+      "summaryJa": [
+        "【シリコンバレー=山田遼太郎】米アンソロピックは9日、同社の人工知能（AI）が警察に虚偽の情報を送信していたと発表した。",
+        "実在の未解決殺人事件についてAIが内容をでっち上げた。",
+        "こうしたAIの「暴走」は混乱を引き起こしかねず、当局から非難されている。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "アンソロピックのAI",
+        "米警察に虚偽の情報提供",
+        "不正にビザ申請も",
+        "日本経済新聞"
+      ],
+      "heat": {
+        "temperature": 76,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 30,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-ef52fdb6",
+      "title": "Vibe coded browser ports of Halo, The Simpsons: Hit And Run, GTA work well",
+      "url": "https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-10T18:11:58.000Z",
+      "summaryJa": [
+        "Vibe coded browser ports of Halo, The Simpsons: Hi",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Vibe",
+        "coded",
+        "browser",
+        "ports",
+        "Halo"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 55,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 26.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-8ccf5d2d",
+      "title": "将棋の西山朋佳女流四冠 女性初のプロ棋士権利獲得",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261010de57697",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-10T10:41:00.000Z",
+      "summaryJa": [
+        "将棋の女流タイトル戦の最高峰、「白玲戦」は10日、金沢市で第5局が行われ、西山朋佳女流四冠（31）が勝って通算5期目となるタイトルの防衛を果たしました。",
+        "これにより西山女流四冠は、去年導入された新しい制…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "将棋の西山朋佳女流四冠",
+        "女性初のプロ棋士権利獲得"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-d7ad3aad",
+      "title": "ICC締約国議長団 アメリカに制裁の撤回を求める声明を発表",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261011de57809",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-10T18:51:57.000Z",
+      "summaryJa": [
+        "アメリカのトランプ政権がICC＝国際刑事裁判所を制裁対象に指定したと発表したことを受けて、ICCの締約国会議の議長団が制裁の撤回を求める声明を出しました。",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ICC締約国議長団",
+        "アメリカに制裁の撤回を求める声明を発表"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-1d745add",
+      "title": "インド“ゴキブリ人民党”創設者　抗議活動前に拘束",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261010de57783",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-10T14:20:28.000Z",
+      "summaryJa": [
+        "インドでは選挙の有権者名簿の更新をめぐる不正疑惑が報じられたことをきっかけに、選挙管理委員会トップの辞任を求める抗議活動に発展し、デモを呼びかけた団体、「ゴキブ",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "インド",
+        "ゴキブリ人民党",
+        "創設者",
+        "抗議活動前に拘束"
+      ],
+      "heat": {
+        "temperature": 58,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-24c777c1",
+      "title": "国内で相次ぐ不正アクセスに対する注意喚起についてまとめてみた - piyolog",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/11/004353",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-10T15:48:52.000Z",
+      "summaryJa": [
+        "2026年10月7日から9日にかけて、個人情報保護委員会、JPCERT/CC、国家サイバー統括室、IPAなどの各機関が、国内組織で相次ぐ不正アクセスによる個人情",
+        "ここでは関連する情報をまとめます。",
+        "BIツールや従業員向けシステムも被害に JPCERT/CCは10月8日に公開した注意喚起で、「2."
+      ],
+      "category": "programming",
+      "keywords": [
+        "piyolog"
+      ],
+      "heat": {
+        "temperature": 90,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 62,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 13.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-ebca71ec",
+      "title": "Bitwarden Dual License Model",
+      "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-10T14:32:50.000Z",
+      "summaryJa": [
+        "Bitwarden Dual License Model",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Bitwarden",
+        "Dual",
+        "License",
+        "Model"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 284,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 49.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-bc4a180e",
+      "title": "bpmn.io で始める AI-Ready な業務フロー管理 | フューチャー技術ブログ",
+      "url": "https://future-architect.github.io/articles/20261009a/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-10T01:47:07.000Z",
+      "summaryJa": [
+        "はじめにみなさんは業務フローを書いたことはあるでしょうか。",
+        "業務フローは、ある業務を誰がどの順番で進めるかを図にしたものです。",
+        "申請者が申請を登録し、承認者が承認し、購買担当が発注する、といった手順を担当者ごとのレーンに分け、矢印でつなぎます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "bpmn.io",
+        "AI",
+        "Ready",
+        "フューチャー技術ブログ"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 191,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 10.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-482b3bfe",
+      "title": "Triple-A Minesweeper",
+      "url": "https://minesweeper.mikelacher.com/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-09T15:51:05.000Z",
+      "summaryJa": [
+        "Triple-A Minesweeper",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Triple",
+        "Minesweeper"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 1305,
+          "hatebuCount": 0,
+          "ageHours": 28,
+          "crossSources": 1,
+          "velocity": 45.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "天気予報 台風情報",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-10T19:50:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "天気予報",
+        "台風情報"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-b899f681",
+      "title": "alexgreensh/anidoodle — Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
+      "url": "https://github.com/alexgreensh/anidoodle",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-10T19:08:58Z",
+      "summaryJa": [
+        "Art and animation, written as code.",
+        "Illustrations, loops, interactive web art, launch-videos and scored films in doz",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "Art",
+        "animation",
+        "written",
+        "code",
+        "Illustrations"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "コードで描画やアニメーション、音の同期までを定義し完璧な再現性を持つ実験的ライブラリです。Webブラウザ上でグラフィックや映像作品をプログラマブルに構築したい作り手に強く刺さります。"
+  },
+  "unavailableSources": []
+}
