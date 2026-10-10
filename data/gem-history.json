@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-d3100b5a",
-      "url": "https://th0mas.nl/downloads/pdftris.pdf",
-      "date": "2026-09-10"
-    },
-    {
-      "id": "github-gems-1afd0718",
-      "url": "https://github.com/MacRimi/ProxMenux",
-      "date": "2026-09-10"
-    },
-    {
       "id": "github-gems-8dcdd8a7",
       "url": "https://github.com/dwgx/WindsurfAPI",
       "date": "2026-09-11"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-f89c7825",
       "url": "https://github.com/homebridge/docker-homebridge",
+      "date": "2026-10-10"
+    },
+    {
+      "id": "show-hn-80cb349a",
+      "url": "https://john.fun/elevators",
       "date": "2026-10-10"
     }
   ]

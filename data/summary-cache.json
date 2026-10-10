@@ -1,78 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "8407a498a1c8d86e": {
-      "url": "https://zenn.dev/kamo78/articles/kaji-guarded-loop-engineering",
-      "summaryJa": [
-        "「動きました！",
-        "」（動いてない） 「全テストパスしました！",
-        "」（通るように書いたテストが、通っただけ） 「完了しました ✅」（何も完了していない） AI coding agent を業務で使っている人なら、どれか一つは見"
-      ],
-      "cachedAt": "2026-07-11T20:40:25.740Z"
-    },
-    "3d0a56b663da54e1": {
-      "url": "https://note.com/art_reflection/n/n7ffd5ce3320c",
-      "summaryJa": [
-        "ここ最近、いかに「AIでAI臭くない文章を書かせられるか？",
-        "」を試行錯誤しています。",
-        "書かれた文章は自分としてもそれなりに思考を凝らせたものとなっていますが、実のところそろそろアイディアが枯渇し、頭打ちになってきまし。"
-      ],
-      "cachedAt": "2026-07-11T20:40:25.740Z"
-    },
-    "a6faffaac9e696fa": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015173931000",
-      "summaryJa": [
-        "新型コロナの後遺症とされるけん怠感などの症状は、体内に潜伏していた別のウイルスが新型コロナの感染によって活性化することで起きるとする研究成果を、東京慈恵会医科大",
-        "新しい治…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-11T20:40:25.740Z"
-    },
-    "b2f2c1eea2a4d959": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015174731000",
-      "summaryJa": [
-        "アメリカの有力紙ニューヨーク・タイムズは、トランプ大統領が使用する新たな大統領専用機に、ミサイル攻撃に対応する機能が備わっていないなどと報じた自社の記者に対し、",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-11T20:40:25.740Z"
-    },
-    "470a6689693e8e10": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015174401000",
-      "summaryJa": [
-        "世界最大の熱帯雨林、南米のアマゾンでは気候変動による気温の上昇などの影響で先住民族が薬や食料として利用してきた植物のおよそ3割が失われる可能性があるとの分析結果",
-        "出典: NHKニュース 国際",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-11T20:40:25.740Z"
-    },
-    "00573cdd32302f63": {
-      "url": "https://antjs.org",
-      "summaryJa": [
-        "Hello HN!",
-        "<p>I&#x27;m the author of Ant, a JavaScript ecosystem built around a runtime wit",
-        "Ant also includes a package manager, the ants."
-      ],
-      "cachedAt": "2026-07-11T20:40:25.740Z"
-    },
-    "87c4ef91d697f71b": {
-      "url": "https://www.itmedia.co.jp/mobile/articles/2607/11/news002.html",
-      "summaryJa": [
-        "4月、ある小型端末がSNSを中心に再び注目を集めた。",
-        "ワンプッシュで日用品を注文できた「Amazon Dash Button（アマゾン・ダッシュ・ボタン）」だ。",
-        "既に端末の販売およびサービスは終了しているが、買い忘れを防ぐ画期的な仕組みは多くの家庭で重宝された実績があり、現在もさまざまな視点で当時の存在意義が語られた。"
-      ],
-      "cachedAt": "2026-07-11T20:40:25.740Z"
-    },
-    "12b1854178ae0aaa": {
-      "url": "https://github.com/ailyProject/aily-blockly",
-      "summaryJa": [
-        "AI IDE for hardware development, support Arduino, MicroPython, ESP32, STM32, RP2",
-        ".",
-        "."
-      ],
-      "cachedAt": "2026-07-11T20:40:25.740Z"
-    },
     "074dae8e8cc38922": {
       "url": "https://zenn.dev/xin9le/articles/6fb2045805996c",
       "summaryJa": [
@@ -14940,6 +14868,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-09T20:19:41.442Z"
+    },
+    "085993c39ec4039a": {
+      "url": "https://www.non-standardworld.co.jp/stone-engine-js/",
+      "summaryJa": [
+        "できることすべてこのページ上で実際に組まれています。",
+        "文字にマウスを乗せると赤くなるのは、1文字ずつがSVGの要素になっているからです。",
+        "縦書きと縦中横2 桁以下の数字は正体で並べ、3 桁以上の数字と英字は 90 度回転します。"
+      ],
+      "cachedAt": "2026-10-10T02:50:59.265Z"
+    },
+    "455a246826f3c551": {
+      "url": "https://zenn.dev/berobero/articles/steam-update-ssd-writes",
+      "summaryJa": [
+        "!",
+        "3 行まとめ Steam の実際の更新 1 件（『Rust』の専用サーバー版、開発版ブランチ間の差分、steamcmd で測定）で、ダウンロードは約 0.",
+        "5 GiB だったのに、SSD には約 6 GiB が書かれた。"
+      ],
+      "cachedAt": "2026-10-10T02:50:59.265Z"
+    },
+    "280ed51d53318ec9": {
+      "url": "https://gigazine.net/news/20261010-data-backups-arent-simple/",
+      "summaryJa": [
+        "故障や操作ミスなどによって大切なデータが失われることがあるため、日頃からバックアップを取っておくことは重要です。",
+        "しかし、データのバックアップは単にファイルを別の場所にコピーするだけでは十分とは限りません。",
+        "ソフトウェアエンジニアのアレクサンダル・フィリポフスキー氏が、バックアップの仕組みを整えるに."
+      ],
+      "cachedAt": "2026-10-10T02:50:59.265Z"
+    },
+    "bd7f0877a9a13e25": {
+      "url": "https://rea.tools/",
+      "summaryJa": [
+        "REA Reverse – Engineer Anything",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-10T02:50:59.265Z"
+    },
+    "18b43b9195fcd0fc": {
+      "url": "https://qiita.com/ennagara128/items/6abdd7057d7b50dba194?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "async 関数の最後で return await fetchData() と書くと、「await は要らない、return fetchData() で同じ」と",
+        "ESLint にも、return await を警告する no-return-await .",
+        "."
+      ],
+      "cachedAt": "2026-10-10T02:50:59.265Z"
+    },
+    "d2d25189a452706e": {
+      "url": "https://zenn.dev/terass_dev/articles/6e6562d54d5505",
+      "summaryJa": [
+        "Notion のチケットや Slack 上から Claude Code に仕事を依頼できる仕組みを、Claude Code Routines を使って実装し、チ",
+        "Claude Code Routines は、あらかじめ保存しておいたプロンプトで Claude Code のセッションをクラウド上に起動する機能です。",
+        "API の呼び出しや、スケジュールでの定期実行、GitHub のイベントなどから起動できます。"
+      ],
+      "cachedAt": "2026-10-10T02:50:59.265Z"
+    },
+    "d8bcf9ea385821dc": {
+      "url": "https://00f.net/2026/10/09/llvm-compiles-branch-free-code-into-branches-on-risc-v/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-10T02:50:59.265Z"
+    },
+    "a12b3630fb71b650": {
+      "url": "https://purplesyringa.moe/blog/vectorized-clz-and-ctz/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-10T02:50:59.265Z"
+    },
+    "893778a9bdb37671": {
+      "url": "https://github.com/Facebook/lifeguard",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-10T02:50:59.265Z"
     }
   }
 }

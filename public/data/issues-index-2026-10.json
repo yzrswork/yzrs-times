@@ -134,6 +134,13 @@
       "edition": "morning",
       "theme": "合流する実行環境と、連鎖する綻び",
       "path": "issues/2026-10-10-morning.json"
+    },
+    {
+      "issueNo": 184,
+      "date": "2026-10-10",
+      "edition": "midday",
+      "theme": "文字組の執念と、下層の実測",
+      "path": "issues/2026-10-10-midday.json"
     }
   ]
 }
