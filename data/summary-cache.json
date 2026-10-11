@@ -1,78 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "398431a5f118d841": {
-      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-      "summaryJa": [
-        "This started based off of a hunch.",
-        "We usually use OpenCode, but were &#x27;forced&#x27; to use Claude Code for a wh",
-        "In that time, we saw the usage meter rise much, much more quickly than when usin"
-      ],
-      "cachedAt": "2026-07-12T20:39:48.348Z"
-    },
-    "a1590a9d5cf8394c": {
-      "url": "https://nikkan-spa.jp/2172263",
-      "summaryJa": [
-        "今年に入り、新たなデバイスが台頭しつつある。",
-        "それはスマートグラスだ。",
-        "5月下旬、レイバンと米メタが共同開発した「Ray-Ban Meta（第2世代）」が国内で正式発売された。"
-      ],
-      "cachedAt": "2026-07-12T20:39:48.348Z"
-    },
-    "816487364d7fdb46": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015175291000",
-      "summaryJa": [
-        "タイの首都バンコクにある飲食店で13日未明、大規模な火災があり、AP通信によりますと、少なくとも27人が死亡したということです。",
-        "火はすでに消し止められたということで、当局が火災の詳しい原因を調べていま…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-12T20:39:48.348Z"
-    },
-    "976c81f45d8b9281": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015175131000",
-      "summaryJa": [
-        "国会の会期末が4日後に迫る中、与党は皇室典範改正案や、「副首都」構想の関連法案など残る法案の成立に全力を挙げる方針です。",
-        "これに対し野党は、課題のある法案も多く丁寧な審議が必要だとしていて、会期末を見据…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-12T20:39:48.348Z"
-    },
-    "b5370f3cd61cb067": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015171821000",
-      "summaryJa": [
-        "スマートフォンを購入する際に勧められるオプションサービス。",
-        "「不要なオプションを契約し、長年にわたって支払いが続いていた」などのトラブルの相談が消費生活センターに相次いでいます。",
-        "中には本人が気づかないま…"
-      ],
-      "cachedAt": "2026-07-12T20:39:48.348Z"
-    },
-    "7ee541a08a9407c1": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015175071000",
-      "summaryJa": [
-        "自転車などのヘルメットの着用率を上げようと、警視庁は「かぶりたくなるデザイン」をテーマにしたヘルメットを大学生などとともに開発し、12日、都内で開かれた交通安全",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-12T20:39:48.348Z"
-    },
-    "a293ec4e4d07dd59": {
-      "url": "https://zenn.dev/knowledge_graph/articles/ai-agent-five-graph-types",
-      "summaryJa": [
-        "本シリーズ 第1部（全3部）: AI エージェント文脈のグラフを Node / Edge の意味で 5 種類に分類します。",
-        "特殊化は 第2部、レイヤー連携と本番構成は第3部（執筆予定）で扱います。",
-        "前提: ナレッジグラフの基礎（エンティティ・関係・GraphRAG との区別）は「ナレッジグラフ入門」「RAG を超える知識統合」で扱っています."
-      ],
-      "cachedAt": "2026-07-12T20:39:48.348Z"
-    },
-    "73ba7e7ecaeb1fe0": {
-      "url": "https://github.com/tobychui/arozos",
-      "summaryJa": [
-        "Web Desktop Operating System for low power platforms, Now written in Go!",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-12T20:39:48.348Z"
-    },
     "632e454018339a4a": {
       "url": "https://qiita.com/fuyunoki/items/5818688d20225aa8088a?utm_campaign=popular_items&utm_medium=twitter&utm_source=dlvr.it",
       "summaryJa": [
@@ -14949,6 +14877,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-10T20:18:10.366Z"
+    },
+    "a206e217784d0823": {
+      "url": "https://zenn.dev/mattn/articles/6e9996319ac099",
+      "summaryJa": [
+        "はじめに 2026 年 9 月 30 日、SQLite のソースツリーに ext/vec1/ というディレクトリが追加されました。",
+        "コミットしたのは FTS5 などでおなじみの Dan Kennedy 氏。",
+        "コミットメッセージはたった 1 行です。"
+      ],
+      "cachedAt": "2026-10-11T02:48:47.704Z"
+    },
+    "3a435be0d8a9a21e": {
+      "url": "https://qiita.com/mattbusel/items/21fadc696bf5e40a3000?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "自作ゲーム「O'BLOCK」(スニーカー転売で10億ドルを目指すローグライト)を日本語・中国語・韓国語に対応させました。",
+        "問題は、ゲームが自作の Rust エンジン(Proof Engine)で動いていて、フォントアトラスに ASCII と記号しか入っていなかったこと。",
+        "そして."
+      ],
+      "cachedAt": "2026-10-11T02:48:47.704Z"
+    },
+    "59499c68644ca048": {
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "summaryJa": [
+        "500B Tokens Later: Letting AI Agents Decompile a F",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-11T02:48:47.704Z"
+    },
+    "39e14f68a85db1e2": {
+      "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
+      "summaryJa": [
+        "Why DuckDB 2.0 is faster",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-11T02:48:47.704Z"
+    },
+    "63a4e11e2b73a809": {
+      "url": "https://nishtahir.com/build-your-own-decision-model/",
+      "summaryJa": [
+        "Build your own decision model",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-11T02:48:47.704Z"
+    },
+    "4a6bbdd7865cedc1": {
+      "url": "https://zenn.dev/komatsuh/articles/komatsuh_mozc_updates_from_2025_10",
+      "summaryJa": [
+        "初稿: 2026-10-10 小松弘幸 (@komatsuh:bsky, @komatsuh:twitter) 2025 年 10 月以降の Mozc に対する",
+        "ドキュメントやコミットログ、 Issues に書かれているものをまとめました。",
+        "Mozc の問題の報告や機能の要望等は、GitHub の Issues や Discussions へお願いしま す。"
+      ],
+      "cachedAt": "2026-10-11T02:48:47.704Z"
+    },
+    "1e5381be22e908a5": {
+      "url": "https://qiita.com/hez2010/items/7334840a4e96851f5a0b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに Satori GCは、高スループット、短い停止時間と低リソース消費を特徴とするGCですが、手元やプロジェクトでも手軽に使いたかったため、今回導入用のS",
+        "導入方法 プロジェクトファイル（.",
+        "csproj など）に以下の 要素を1."
+      ],
+      "cachedAt": "2026-10-11T02:48:47.704Z"
+    },
+    "e9ba0249d33c9133": {
+      "url": "http://www.righto.com/2026/10/ML10-switched-capacitor-filter.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-11T02:48:47.704Z"
+    },
+    "f300046fca6ff1b0": {
+      "url": "https://blog.scientific-python.org/numpy/searchsorted/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-11T02:48:47.704Z"
+    },
+    "cd872c282baf5f96": {
+      "url": "https://arxiv.org/html/2610.05978v1",
+      "summaryJa": [
+        "The paper challenges the assumption that language models need explicit tokenizer",
+        "The prevailing thought in the field has been tha",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-11T02:48:47.704Z"
     }
   }
 }

@@ -1,0 +1,510 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 186,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-10-11",
+  "dateDisplay": "Sunday, October 11, 2026",
+  "pressTimeJst": "2026-10-11 12:00",
+  "generatedAt": "2026-10-11T02:47:22.138Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-flash-latest",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "手元の計算器と、愚直な解剖",
+    "note": "枯れた基礎への機能統合から、泥臭いリバースエンジニアリングや半導体の内部観察まで、自分の手元で仕組みを紐解く試みが揃いました。"
+  },
+  "editorial": {
+    "comment": "Rustで組まれた自作エンジンを3万行超のコードに手を触れず多言語化した話（qiita-popular-3a435be0）は、制約を逆手に取った職人技のような手触りがあります。道具を根本から作り替える前に、手元の仕組みを観察して最小限の楔を打ち込む姿勢は見習いたいものです。—— YZRS Times 編集長",
+    "passedOver": "相次ぐサイバー攻撃や情報漏洩の注意喚起は、昼の創作版の空気にそぐわないため夕刊へ見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "快晴",
+    "icon": "sunny",
+    "tempMax": 26,
+    "tempMin": 16,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 61,
+      "label": "Greed"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 83052,
+        "priceJpy": 13145930,
+        "change24hPct": 0.61,
+        "sparkline7d": [
+          84790.93,
+          85750.78,
+          85969.67,
+          83185.11,
+          80864.69,
+          82445.87,
+          82882.61
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2510.99,
+        "priceJpy": 397452,
+        "change24hPct": 0.78,
+        "sparkline7d": [
+          2694.3,
+          2705.88,
+          2709.79,
+          2569.6,
+          2413.52,
+          2481.23,
+          2502.11
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.196349,
+        "priceJpy": 31.08,
+        "change24hPct": 0.07,
+        "sparkline7d": [
+          0.215476,
+          0.222679,
+          0.215526,
+          0.20198,
+          0.188482,
+          0.192747,
+          0.195659
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 278.51,
+        "priceJpy": 44084,
+        "change24hPct": -0.21,
+        "sparkline7d": [
+          318.14,
+          319.27,
+          315.83,
+          301.66,
+          280.35,
+          275.01,
+          277.72
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-a206e217",
+    "qiita-popular-3a435be0",
+    "hn-front-2229a339"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hn-front-8f1f5394",
+        "hn-front-15ddefb3"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "zenn-trend-4a6bbdd7",
+        "qiita-popular-1e5381be",
+        "zenn-trend-d2d25189"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-e9ba0249",
+        "lobsters-f300046f",
+        "lobsters-cd872c28"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-a206e217",
+      "title": "SQLite 本体にベクトル検索拡張 vec1 がやってきた",
+      "url": "https://zenn.dev/mattn/articles/6e9996319ac099",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-10T17:16:51.000Z",
+      "summaryJa": [
+        "はじめに 2026 年 9 月 30 日、SQLite のソースツリーに ext/vec1/ というディレクトリが追加されました。",
+        "コミットしたのは FTS5 などでおなじみの Dan Kennedy 氏。",
+        "コミットメッセージはたった 1 行です。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "SQLite",
+        "本体にベクトル検索拡張",
+        "vec1"
+      ],
+      "heat": {
+        "temperature": 89,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 125,
+          "ageHours": 10,
+          "crossSources": 2,
+          "velocity": 13.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-3a435be0",
+      "title": "Rust製の自作ゲームエンジンを日中韓対応した話：3万9千行を書き換えずに翻訳する",
+      "url": "https://qiita.com/mattbusel/items/21fadc696bf5e40a3000?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-10T04:15:19.000Z",
+      "summaryJa": [
+        "自作ゲーム「O'BLOCK」(スニーカー転売で10億ドルを目指すローグライト)を日本語・中国語・韓国語に対応させました。",
+        "問題は、ゲームが自作の Rust エンジン(Proof Engine)で動いていて、フォントアトラスに ASCII と記号しか入っていなかったこと。",
+        "そして."
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 23,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-2229a339",
+      "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-11T02:02:38.000Z",
+      "summaryJa": [
+        "500B Tokens Later: Letting AI Agents Decompile a F",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "500B",
+        "Tokens",
+        "Later",
+        "Letting",
+        "AI"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 14,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 18.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-8f1f5394",
+      "title": "Why DuckDB 2.0 is faster",
+      "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-10T18:08:49.000Z",
+      "summaryJa": [
+        "Why DuckDB 2.0 is faster",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "DuckDB",
+        "faster"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 155,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 17.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-15ddefb3",
+      "title": "Build your own decision model",
+      "url": "https://nishtahir.com/build-your-own-decision-model/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-10T22:50:10.000Z",
+      "summaryJa": [
+        "Build your own decision model",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "decision",
+        "model"
+      ],
+      "heat": {
+        "temperature": 87,
+        "signals": {
+          "hnPoints": 133,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 33.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-4a6bbdd7",
+      "title": "2025 年 10 月から 2026 年 10 月までの Mozc に対する主な変更",
+      "url": "https://zenn.dev/komatsuh/articles/komatsuh_mozc_updates_from_2025_10",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-10T14:30:00.000Z",
+      "summaryJa": [
+        "初稿: 2026-10-10 小松弘幸 (@komatsuh:bsky, @komatsuh:twitter) 2025 年 10 月以降の Mozc に対する",
+        "ドキュメントやコミットログ、 Issues に書かれているものをまとめました。",
+        "Mozc の問題の報告や機能の要望等は、GitHub の Issues や Discussions へお願いしま す。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "月から",
+        "月までの",
+        "Mozc"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-1e5381be",
+      "title": "Satori GCをMSBuild SDKとして公開しました！",
+      "url": "https://qiita.com/hez2010/items/7334840a4e96851f5a0b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-10T04:20:27.000Z",
+      "summaryJa": [
+        "はじめに Satori GCは、高スループット、短い停止時間と低リソース消費を特徴とするGCですが、手元やプロジェクトでも手軽に使いたかったため、今回導入用のS",
+        "導入方法 プロジェクトファイル（.",
+        "csproj など）に以下の 要素を1."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Satori",
+        "GCをMSBuild",
+        "SDKとして公開しました"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 22,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-d2d25189",
+      "title": "Notion や Slack から AI に仕事を依頼できる仕組みを Claude Code Routines で作った",
+      "url": "https://zenn.dev/terass_dev/articles/6e6562d54d5505",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-09T02:47:29.000Z",
+      "summaryJa": [
+        "Notion のチケットや Slack 上から Claude Code に仕事を依頼できる仕組みを、Claude Code Routines を使って実装し、チ",
+        "Claude Code Routines は、あらかじめ保存しておいたプロンプトで Claude Code のセッションをクラウド上に起動する機能です。",
+        "API の呼び出しや、スケジュールでの定期実行、GitHub のイベントなどから起動できます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Notion",
+        "Slack",
+        "AI",
+        "Claude",
+        "Code"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 48,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-e9ba0249",
+      "title": "Inside a 1980s filter chip that uses switched capacitors",
+      "url": "http://www.righto.com/2026/10/ML10-switched-capacitor-filter.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-10T21:28:51.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Inside",
+        "1980s",
+        "filter",
+        "chip",
+        "uses"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-f300046f",
+      "title": "Making np.searchsorted up to 25× Faster in NumPy 2.5",
+      "url": "https://blog.scientific-python.org/numpy/searchsorted/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-10T23:25:51.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "np.searchsorted",
+        "Faster",
+        "NumPy"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-cd872c28",
+      "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
+      "url": "https://arxiv.org/html/2610.05978v1",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-10T22:25:14.000Z",
+      "summaryJa": [
+        "The paper challenges the assumption that language models need explicit tokenizer",
+        "The prevailing thought in the field has been tha",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Byte",
+        "Language",
+        "Models",
+        "Scaling",
+        "Emergent"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-463502d7",
+      "title": "DBraun/DawDreamer — Digital Audio Workstation with Python; VST instruments/effects, parameter automation, FAUST, JAX, Warp Markers, and JUCE processors",
+      "url": "https://github.com/DBraun/DawDreamer",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-02T18:26:12Z",
+      "summaryJa": [
+        "Digital Audio Workstation with Python; VST instruments/effects, parameter automa",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "DBraun/DawDreamer",
+        "Digital",
+        "Audio",
+        "Workstation",
+        "Python"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 200,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "PythonからJUCEやFAUST、VSTを自在に操れるヘッドレスDAW環境です。コードと音楽の境界を溶かして独自の音響合成を追求したいあなたの午後に、強い刺激となるはずです。"
+  },
+  "unavailableSources": []
+}

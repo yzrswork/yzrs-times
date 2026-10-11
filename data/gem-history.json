@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-8dcdd8a7",
-      "url": "https://github.com/dwgx/WindsurfAPI",
-      "date": "2026-09-11"
-    },
-    {
-      "id": "github-gems-05b12dd8",
-      "url": "https://github.com/YunoHost/yunohost",
-      "date": "2026-09-11"
-    },
-    {
       "id": "github-gems-fbb33e73",
       "url": "https://github.com/earlephilhower/arduino-pico",
       "date": "2026-09-12"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-b899f681",
       "url": "https://github.com/alexgreensh/anidoodle",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "github-gems-463502d7",
+      "url": "https://github.com/DBraun/DawDreamer",
       "date": "2026-10-11"
     }
   ]

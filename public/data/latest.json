@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "issueNo": 185,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 186,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-10-11",
   "dateDisplay": "Sunday, October 11, 2026",
-  "pressTimeJst": "2026-10-11 05:00",
-  "generatedAt": "2026-10-10T20:17:26.489Z",
+  "pressTimeJst": "2026-10-11 12:00",
+  "generatedAt": "2026-10-11T02:47:22.138Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-flash-latest",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "杜撰な施錠と、虚構の自走",
-    "note": "安易なパスワードで破綻する現実のセキュリティと、虚偽情報を吐き出して警察を混乱させるAI。現代の脆弱さは技術の高度化と初歩的ミスの間で不気味に揺れています。"
+    "title": "手元の計算器と、愚直な解剖",
+    "note": "枯れた基礎への機能統合から、泥臭いリバースエンジニアリングや半導体の内部観察まで、自分の手元で仕組みを紐解く試みが揃いました。"
   },
   "editorial": {
-    "comment": "デンマークの漏洩事案（hn-front-371ef2a9）で『123456』が使われていたという報告には、思わず乾いた笑いが出ます。最高峰の暗号技術で守られたシステムも、一番外側の緩みひとつで全てが無に帰す現実を忘れないようにしたいものです。—— YZRS Times 編集長",
-    "passedOver": "話題の『たけし城』海外人気のニュース（hn-front-473f897b）は文化の伝播として面白かったが、朝の創作意識を高める技術的・時事的な深みが薄いため見送った。",
+    "comment": "Rustで組まれた自作エンジンを3万行超のコードに手を触れず多言語化した話（qiita-popular-3a435be0）は、制約を逆手に取った職人技のような手触りがあります。道具を根本から作り替える前に、手元の仕組みを観察して最小限の楔を打ち込む姿勢は見習いたいものです。—— YZRS Times 編集長",
+    "passedOver": "相次ぐサイバー攻撃や情報漏洩の注意喚起は、昼の創作版の空気にそぐわないため夕刊へ見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "晴れ",
+    "summary": "快晴",
     "icon": "sunny",
     "tempMax": 26,
     "tempMin": 16,
@@ -32,228 +32,162 @@
   },
   "market": {
     "fearGreed": {
-      "value": 64,
+      "value": 61,
       "label": "Greed"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 82984,
-        "priceJpy": 13135176,
-        "change24hPct": 0.76,
+        "priceUsd": 83052,
+        "priceJpy": 13145930,
+        "change24hPct": 0.61,
         "sparkline7d": [
-          84829.51,
-          86489.73,
-          85500.26,
-          84121.39,
-          82679.25,
-          82982.23,
-          82959.52
+          84790.93,
+          85750.78,
+          85969.67,
+          83185.11,
+          80864.69,
+          82445.87,
+          82882.61
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2509.23,
-        "priceJpy": 397174,
-        "change24hPct": 1.28,
+        "priceUsd": 2510.99,
+        "priceJpy": 397452,
+        "change24hPct": 0.78,
         "sparkline7d": [
-          2685.02,
-          2725.91,
-          2698.96,
-          2615.96,
-          2549.8,
-          2489.63,
-          2509.93
+          2694.3,
+          2705.88,
+          2709.79,
+          2569.6,
+          2413.52,
+          2481.23,
+          2502.11
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.196936,
-        "priceJpy": 31.17,
-        "change24hPct": 2.4,
+        "priceUsd": 0.196349,
+        "priceJpy": 31.08,
+        "change24hPct": 0.07,
         "sparkline7d": [
-          0.215265,
-          0.223937,
-          0.21415,
-          0.206349,
-          0.199134,
-          0.192499,
-          0.197079
+          0.215476,
+          0.222679,
+          0.215526,
+          0.20198,
+          0.188482,
+          0.192747,
+          0.195659
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 281.32,
-        "priceJpy": 44528,
-        "change24hPct": 2.69,
+        "priceUsd": 278.51,
+        "priceJpy": 44084,
+        "change24hPct": -0.21,
         "sparkline7d": [
-          315.41,
-          318.72,
-          314.21,
-          307.4,
-          295.11,
-          274.24,
-          280.43
+          318.14,
+          319.27,
+          315.83,
+          301.66,
+          280.35,
+          275.01,
+          277.72
         ]
       }
     ]
   },
   "top": [
-    "hn-front-371ef2a9",
-    "hatebu-it-8575bf52",
-    "hn-front-ef52fdb6"
+    "hatebu-it-a206e217",
+    "qiita-popular-3a435be0",
+    "hn-front-2229a339"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "nhk-top-8ccf5d2d",
-        "nhk-top-d7ad3aad",
-        "nhk-top-1d745add"
+        "hn-front-8f1f5394",
+        "hn-front-15ddefb3"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hatebu-it-24c777c1",
-        "hn-front-ebca71ec",
-        "hatebu-it-bc4a180e",
-        "hn-front-482b3bfe"
+        "zenn-trend-4a6bbdd7",
+        "qiita-popular-1e5381be",
+        "zenn-trend-d2d25189"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-ccbd37e7"
+        "lobsters-e9ba0249",
+        "lobsters-f300046f",
+        "lobsters-cd872c28"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hn-front-371ef2a9",
-      "title": "`123456' password used in Danish CPR data breach",
-      "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-10T09:51:49.000Z",
-      "summaryJa": [
-        "`123456' password used in Danish CPR data breach",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "password",
-        "Danish",
-        "CPR",
-        "data",
-        "breach"
-      ],
-      "heat": {
-        "temperature": 84,
-        "signals": {
-          "hnPoints": 351,
-          "hatebuCount": 0,
-          "ageHours": 10,
-          "crossSources": 1,
-          "velocity": 33.7
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-8575bf52",
-      "title": "アンソロピックのAI、米警察に虚偽の情報提供　不正にビザ申請も - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOGN101I30Q6A011C2000000/",
+      "id": "hatebu-it-a206e217",
+      "title": "SQLite 本体にベクトル検索拡張 vec1 がやってきた",
+      "url": "https://zenn.dev/mattn/articles/6e9996319ac099",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-10T10:08:49.000Z",
+      "publishedAt": "2026-10-10T17:16:51.000Z",
       "summaryJa": [
-        "【シリコンバレー=山田遼太郎】米アンソロピックは9日、同社の人工知能（AI）が警察に虚偽の情報を送信していたと発表した。",
-        "実在の未解決殺人事件についてAIが内容をでっち上げた。",
-        "こうしたAIの「暴走」は混乱を引き起こしかねず、当局から非難されている。"
+        "はじめに 2026 年 9 月 30 日、SQLite のソースツリーに ext/vec1/ というディレクトリが追加されました。",
+        "コミットしたのは FTS5 などでおなじみの Dan Kennedy 氏。",
+        "コミットメッセージはたった 1 行です。"
       ],
       "category": "programming",
       "keywords": [
-        "アンソロピックのAI",
-        "米警察に虚偽の情報提供",
-        "不正にビザ申請も",
-        "日本経済新聞"
+        "SQLite",
+        "本体にベクトル検索拡張",
+        "vec1"
       ],
       "heat": {
-        "temperature": 76,
+        "temperature": 89,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 30,
+          "hatebuCount": 125,
           "ageHours": 10,
-          "crossSources": 1,
-          "velocity": 3
+          "crossSources": 2,
+          "velocity": 13.1
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-ef52fdb6",
-      "title": "Vibe coded browser ports of Halo, The Simpsons: Hit And Run, GTA work well",
-      "url": "https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-10T18:11:58.000Z",
+      "id": "qiita-popular-3a435be0",
+      "title": "Rust製の自作ゲームエンジンを日中韓対応した話：3万9千行を書き換えずに翻訳する",
+      "url": "https://qiita.com/mattbusel/items/21fadc696bf5e40a3000?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-10T04:15:19.000Z",
       "summaryJa": [
-        "Vibe coded browser ports of Halo, The Simpsons: Hi",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
+        "自作ゲーム「O'BLOCK」(スニーカー転売で10億ドルを目指すローグライト)を日本語・中国語・韓国語に対応させました。",
+        "問題は、ゲームが自作の Rust エンジン(Proof Engine)で動いていて、フォントアトラスに ASCII と記号しか入っていなかったこと。",
+        "そして."
       ],
-      "category": "tech",
+      "category": "programming",
       "keywords": [
-        "Vibe",
-        "coded",
-        "browser",
-        "ports",
-        "Halo"
+        "programming"
       ],
       "heat": {
-        "temperature": 81,
-        "signals": {
-          "hnPoints": 55,
-          "hatebuCount": 0,
-          "ageHours": 2,
-          "crossSources": 1,
-          "velocity": 26.3
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-8ccf5d2d",
-      "title": "将棋の西山朋佳女流四冠 女性初のプロ棋士権利獲得",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261010de57697",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-10T10:41:00.000Z",
-      "summaryJa": [
-        "将棋の女流タイトル戦の最高峰、「白玲戦」は10日、金沢市で第5局が行われ、西山朋佳女流四冠（31）が勝って通算5期目となるタイトルの防衛を果たしました。",
-        "これにより西山女流四冠は、去年導入された新しい制…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "将棋の西山朋佳女流四冠",
-        "女性初のプロ棋士権利獲得"
-      ],
-      "heat": {
-        "temperature": 52,
+        "temperature": 48,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 10,
+          "ageHours": 23,
           "crossSources": 1,
           "velocity": 0
         }
@@ -261,207 +195,275 @@
       "image": null
     },
     {
-      "id": "nhk-top-d7ad3aad",
-      "title": "ICC締約国議長団 アメリカに制裁の撤回を求める声明を発表",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261011de57809",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-10T18:51:57.000Z",
+      "id": "hn-front-2229a339",
+      "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-11T02:02:38.000Z",
       "summaryJa": [
-        "アメリカのトランプ政権がICC＝国際刑事裁判所を制裁対象に指定したと発表したことを受けて、ICCの締約国会議の議長団が制裁の撤回を求める声明を出しました。",
-        "出典: NHKニュース 主要",
+        "500B Tokens Later: Letting AI Agents Decompile a F",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "ICC締約国議長団",
-        "アメリカに制裁の撤回を求める声明を発表"
+        "500B",
+        "Tokens",
+        "Later",
+        "Letting",
+        "AI"
       ],
       "heat": {
-        "temperature": 60,
+        "temperature": 85,
         "signals": {
-          "hnPoints": 0,
+          "hnPoints": 14,
           "hatebuCount": 0,
           "ageHours": 1,
-          "crossSources": 2,
-          "velocity": 0
+          "crossSources": 1,
+          "velocity": 18.8
         }
       },
       "image": null
     },
     {
-      "id": "nhk-top-1d745add",
-      "title": "インド“ゴキブリ人民党”創設者　抗議活動前に拘束",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261010de57783",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-10T14:20:28.000Z",
+      "id": "hn-front-8f1f5394",
+      "title": "Why DuckDB 2.0 is faster",
+      "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-10T18:08:49.000Z",
       "summaryJa": [
-        "インドでは選挙の有権者名簿の更新をめぐる不正疑惑が報じられたことをきっかけに、選挙管理委員会トップの辞任を求める抗議活動に発展し、デモを呼びかけた団体、「ゴキブ",
-        "出典: NHKニュース 主要",
+        "Why DuckDB 2.0 is faster",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "インド",
-        "ゴキブリ人民党",
-        "創設者",
-        "抗議活動前に拘束"
+        "DuckDB",
+        "faster"
       ],
       "heat": {
-        "temperature": 58,
+        "temperature": 79,
         "signals": {
-          "hnPoints": 0,
+          "hnPoints": 155,
           "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 2,
-          "velocity": 0
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 17.9
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-24c777c1",
-      "title": "国内で相次ぐ不正アクセスに対する注意喚起についてまとめてみた - piyolog",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/11/004353",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-10T15:48:52.000Z",
+      "id": "hn-front-15ddefb3",
+      "title": "Build your own decision model",
+      "url": "https://nishtahir.com/build-your-own-decision-model/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-10T22:50:10.000Z",
       "summaryJa": [
-        "2026年10月7日から9日にかけて、個人情報保護委員会、JPCERT/CC、国家サイバー統括室、IPAなどの各機関が、国内組織で相次ぐ不正アクセスによる個人情",
-        "ここでは関連する情報をまとめます。",
-        "BIツールや従業員向けシステムも被害に JPCERT/CCは10月8日に公開した注意喚起で、「2."
+        "Build your own decision model",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
       ],
-      "category": "programming",
+      "category": "tech",
       "keywords": [
-        "piyolog"
+        "decision",
+        "model"
       ],
       "heat": {
-        "temperature": 90,
+        "temperature": 87,
         "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 62,
+          "hnPoints": 133,
+          "hatebuCount": 0,
           "ageHours": 4,
           "crossSources": 1,
-          "velocity": 13.9
+          "velocity": 33.6
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-ebca71ec",
-      "title": "Bitwarden Dual License Model",
-      "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-10T14:32:50.000Z",
+      "id": "zenn-trend-4a6bbdd7",
+      "title": "2025 年 10 月から 2026 年 10 月までの Mozc に対する主な変更",
+      "url": "https://zenn.dev/komatsuh/articles/komatsuh_mozc_updates_from_2025_10",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-10T14:30:00.000Z",
       "summaryJa": [
-        "Bitwarden Dual License Model",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Bitwarden",
-        "Dual",
-        "License",
-        "Model"
-      ],
-      "heat": {
-        "temperature": 88,
-        "signals": {
-          "hnPoints": 284,
-          "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 1,
-          "velocity": 49.4
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-bc4a180e",
-      "title": "bpmn.io で始める AI-Ready な業務フロー管理 | フューチャー技術ブログ",
-      "url": "https://future-architect.github.io/articles/20261009a/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-10T01:47:07.000Z",
-      "summaryJa": [
-        "はじめにみなさんは業務フローを書いたことはあるでしょうか。",
-        "業務フローは、ある業務を誰がどの順番で進めるかを図にしたものです。",
-        "申請者が申請を登録し、承認者が承認し、購買担当が発注する、といった手順を担当者ごとのレーンに分け、矢印でつなぎます。"
+        "初稿: 2026-10-10 小松弘幸 (@komatsuh:bsky, @komatsuh:twitter) 2025 年 10 月以降の Mozc に対する",
+        "ドキュメントやコミットログ、 Issues に書かれているものをまとめました。",
+        "Mozc の問題の報告や機能の要望等は、GitHub の Issues や Discussions へお願いしま す。"
       ],
       "category": "programming",
       "keywords": [
-        "bpmn.io",
-        "AI",
-        "Ready",
-        "フューチャー技術ブログ"
+        "月から",
+        "月までの",
+        "Mozc"
       ],
       "heat": {
-        "temperature": 81,
+        "temperature": 51,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 191,
-          "ageHours": 19,
+          "hatebuCount": 0,
+          "ageHours": 12,
           "crossSources": 1,
-          "velocity": 10.3
+          "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-482b3bfe",
-      "title": "Triple-A Minesweeper",
-      "url": "https://minesweeper.mikelacher.com/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-09T15:51:05.000Z",
+      "id": "qiita-popular-1e5381be",
+      "title": "Satori GCをMSBuild SDKとして公開しました！",
+      "url": "https://qiita.com/hez2010/items/7334840a4e96851f5a0b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-10T04:20:27.000Z",
       "summaryJa": [
-        "Triple-A Minesweeper",
-        "出典: Hacker News",
+        "はじめに Satori GCは、高スループット、短い停止時間と低リソース消費を特徴とするGCですが、手元やプロジェクトでも手軽に使いたかったため、今回導入用のS",
+        "導入方法 プロジェクトファイル（.",
+        "csproj など）に以下の 要素を1."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Satori",
+        "GCをMSBuild",
+        "SDKとして公開しました"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 22,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-d2d25189",
+      "title": "Notion や Slack から AI に仕事を依頼できる仕組みを Claude Code Routines で作った",
+      "url": "https://zenn.dev/terass_dev/articles/6e6562d54d5505",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-09T02:47:29.000Z",
+      "summaryJa": [
+        "Notion のチケットや Slack 上から Claude Code に仕事を依頼できる仕組みを、Claude Code Routines を使って実装し、チ",
+        "Claude Code Routines は、あらかじめ保存しておいたプロンプトで Claude Code のセッションをクラウド上に起動する機能です。",
+        "API の呼び出しや、スケジュールでの定期実行、GitHub のイベントなどから起動できます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Notion",
+        "Slack",
+        "AI",
+        "Claude",
+        "Code"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 48,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-e9ba0249",
+      "title": "Inside a 1980s filter chip that uses switched capacitors",
+      "url": "http://www.righto.com/2026/10/ML10-switched-capacitor-filter.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-10T21:28:51.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Triple",
-        "Minesweeper"
+        "Inside",
+        "1980s",
+        "filter",
+        "chip",
+        "uses"
       ],
       "heat": {
-        "temperature": 80,
+        "temperature": 53,
         "signals": {
-          "hnPoints": 1305,
+          "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 28,
+          "ageHours": 5,
           "crossSources": 1,
-          "velocity": 45.9
+          "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "gtrends-jp-ccbd37e7",
-      "title": "天気予報 台風情報",
-      "url": "https://trends.google.com/trending/rss?geo=JP",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-10-10T19:50:00.000Z",
+      "id": "lobsters-f300046f",
+      "title": "Making np.searchsorted up to 25× Faster in NumPy 2.5",
+      "url": "https://blog.scientific-python.org/numpy/searchsorted/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-10T23:25:51.000Z",
       "summaryJa": [
-        "早期天候情報",
-        "出典: Google トレンド",
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "trends",
+      "category": "tech",
       "keywords": [
-        "天気予報",
-        "台風情報"
+        "np.searchsorted",
+        "Faster",
+        "NumPy"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 54,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-cd872c28",
+      "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
+      "url": "https://arxiv.org/html/2610.05978v1",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-10T22:25:14.000Z",
+      "summaryJa": [
+        "The paper challenges the assumption that language models need explicit tokenizer",
+        "The prevailing thought in the field has been tha",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Byte",
+        "Language",
+        "Models",
+        "Scaling",
+        "Emergent"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
           "crossSources": 1,
           "velocity": 0
         }
@@ -471,38 +473,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-b899f681",
-      "title": "alexgreensh/anidoodle — Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
-      "url": "https://github.com/alexgreensh/anidoodle",
+      "id": "github-gems-463502d7",
+      "title": "DBraun/DawDreamer — Digital Audio Workstation with Python; VST instruments/effects, parameter automation, FAUST, JAX, Warp Markers, and JUCE processors",
+      "url": "https://github.com/DBraun/DawDreamer",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-10-10T19:08:58Z",
+      "publishedAt": "2026-10-02T18:26:12Z",
       "summaryJa": [
-        "Art and animation, written as code.",
-        "Illustrations, loops, interactive web art, launch-videos and scored films in doz",
+        "Digital Audio Workstation with Python; VST instruments/effects, parameter automa",
+        "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "Art",
-        "animation",
-        "written",
-        "code",
-        "Illustrations"
+        "DBraun/DawDreamer",
+        "Digital",
+        "Audio",
+        "Workstation",
+        "Python"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 40,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 200,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "コードで描画やアニメーション、音の同期までを定義し完璧な再現性を持つ実験的ライブラリです。Webブラウザ上でグラフィックや映像作品をプログラマブルに構築したい作り手に強く刺さります。"
+    "reason": "PythonからJUCEやFAUST、VSTを自在に操れるヘッドレスDAW環境です。コードと音楽の境界を溶かして独自の音響合成を追求したいあなたの午後に、強い刺激となるはずです。"
   },
   "unavailableSources": []
 }

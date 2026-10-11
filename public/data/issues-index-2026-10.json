@@ -148,6 +148,13 @@
       "edition": "morning",
       "theme": "杜撰な施錠と、虚構の自走",
       "path": "issues/2026-10-11-morning.json"
+    },
+    {
+      "issueNo": 186,
+      "date": "2026-10-11",
+      "edition": "midday",
+      "theme": "手元の計算器と、愚直な解剖",
+      "path": "issues/2026-10-11-midday.json"
     }
   ]
 }
