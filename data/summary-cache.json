@@ -14967,6 +14967,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-11T02:48:47.704Z"
+    },
+    "1f3e9052c416a13e": {
+      "url": "https://zenn.dev/shimitaro/articles/eb45d8d63c7bd1",
+      "summaryJa": [
+        "AI にコードを書かせる時代に、エンジニアは何の技能を残しておけばいいのか。",
+        "航空業界の制度を一次資料でたどると、答えは「自分で書く力」よりも「自動化から引き継ぐ力」のほうに寄っていきました。",
+        "パイロットは普段から手で操縦しているわけではありません。"
+      ],
+      "cachedAt": "2026-10-11T20:17:49.261Z"
+    },
+    "b80bb64ce724c704": {
+      "url": "https://gigazine.net/news/20261011-hayamimi/",
+      "summaryJa": [
+        "「Hayamimi(早耳)」はGPUやクラウドAPIに依存せずCPUのみで動作する軽量なリアルタイム多言語音声認識システムです。",
+        "メモリ2GB未満の環境でもライブ字幕表示・話者ラベル付け・翻訳字幕生成まで対応し、発話中から字幕が出始め話し終えて約100msで確定する高速性が特徴です。",
+        "oboroge0/hayamimi: 早耳 - Real-time multi."
+      ],
+      "cachedAt": "2026-10-11T20:17:49.261Z"
+    },
+    "5bcca924e1ff951f": {
+      "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/",
+      "summaryJa": [
+        "I'm sorry, but you still have to think",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-11T20:17:49.261Z"
+    },
+    "4f8fc3a2a5150b45": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261011de58038",
+      "summaryJa": [
+        "AIの進歩に伴い、AIが悪用されたり、人や社会に有害な情報が持ち出されたりすることを防ぐため、AIの安全性を評価するシステムを国の研究機関が開発しました。",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-11T20:17:49.261Z"
+    },
+    "1961c794790600e6": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261011de58041",
+      "summaryJa": [
+        "パレスチナのガザ地区ではイスラエル軍の無人機による攻撃で1人が死亡したほかイスラエル軍の発砲で妊婦を含む8人がけがをしたと伝えられ、イスラエルとイスラム組織ハマ",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-11T20:17:49.261Z"
+    },
+    "c4a9d353098c1697": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261011de58042",
+      "summaryJa": [
+        "サウジアラビアと対立するイエメンの反政府勢力フーシ派は11日、サウジアラビアの首都リヤドの国際空港などに攻撃を行ったとする声明を発表しました。",
+        "国際空港への攻撃では12人が死亡、300人以上がけがを…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-11T20:17:49.261Z"
+    },
+    "7540d1dd54e664df": {
+      "url": "https://news.yahoo.co.jp/pickup/6598441?source=rss",
+      "summaryJa": [
+        "電車で心臓発作 8分の救命リレー",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-11T20:17:49.261Z"
+    },
+    "84e8e61067a59277": {
+      "url": "https://togetter.com/li/2756939",
+      "summaryJa": [
+        "堀井雄二 @YujiHorii その昔、PCで『ポートピア連続殺人事件』を作った時は、自分で物語を考え、絵も描いて、プログラムもして、ひとりでゲームを作りました",
+        "そして今、ＡＩを使えば、絵を描けなくても、プログラムしなくても、ＡＩに指図するだけで、ひとりで、そこそこのゲームを作れてしまいます。",
+        "ホントびっくりで."
+      ],
+      "cachedAt": "2026-10-11T20:17:49.261Z"
+    },
+    "d49fdf3cc73e1b28": {
+      "url": "https://nanolathe.gg",
+      "summaryJa": [
+        "Total Annihilation, rebuilt for modern computers",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-11T20:17:49.261Z"
+    },
+    "2a779a9898efce2a": {
+      "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
+      "summaryJa": [
+        "I paid people to try and follow my README",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-11T20:17:49.261Z"
+    },
+    "90d45f604d62273b": {
+      "url": "https://speakerdeck.com/yutobara/gekkan-100-mannin-no-sabisu-sasshin-de-gijutsu-sentei-o-hono-ni-furikita-hanashi-e49c651f-8130-48bb-b6ef-eac3cc9f358a",
+      "summaryJa": [
+        "Hono Conference 2026 の登壇資料です。",
+        "月間100万人のサービスを6人とAIで作り直しました。",
+        "AIを迷わせない開発の土台作りと、Honoが効いた理由について、紹介しています。"
+      ],
+      "cachedAt": "2026-10-11T20:17:49.261Z"
     }
   }
 }

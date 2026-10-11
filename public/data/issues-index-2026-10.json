@@ -155,6 +155,13 @@
       "edition": "midday",
       "theme": "手元の計算器と、愚直な解剖",
       "path": "issues/2026-10-11-midday.json"
+    },
+    {
+      "issueNo": 187,
+      "date": "2026-10-12",
+      "edition": "morning",
+      "theme": "全自動の滑空と、手放さぬ操縦",
+      "path": "issues/2026-10-12-morning.json"
     }
   ]
 }
