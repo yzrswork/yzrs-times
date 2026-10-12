@@ -169,6 +169,13 @@
       "edition": "midday",
       "theme": "再構築される手元の基盤",
       "path": "issues/2026-10-12-midday.json"
+    },
+    {
+      "issueNo": 189,
+      "date": "2026-10-13",
+      "edition": "morning",
+      "theme": "過剰な自動化と、素朴な骨格",
+      "path": "issues/2026-10-13-morning.json"
     }
   ]
 }

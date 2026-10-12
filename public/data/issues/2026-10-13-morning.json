@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 189,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-13",
+  "dateDisplay": "Tuesday, October 13, 2026",
+  "pressTimeJst": "2026-10-13 05:00",
+  "generatedAt": "2026-10-12T20:18:03.288Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-flash-latest",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "過剰な自動化と、素朴な骨格",
+    "note": "便利さを急ぐあまり不可視の常駐プロセスや膨大なコードが増える中、C言語で組むWebアプリのような愚直な手触りが際立ちます。"
+  },
+  "editorial": {
+    "comment": "Codex CLIが勝手に自己更新デーモンを仕込む挙動には、便利さと引き換えに手元の環境を明け渡す危うさを痛感します。—— YZRS Times 編集長",
+    "passedOver": "国会の予算委員会論戦や個別の事件報道。朝の短い読書時間には、より普遍的な知見と技術の手触りを優先しました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ時々曇り",
+    "icon": "partly-cloudy",
+    "tempMax": 24,
+    "tempMin": 17,
+    "precipChancePct": 6
+  },
+  "market": {
+    "fearGreed": {
+      "value": 69,
+      "label": "Greed"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 82985,
+        "priceJpy": 13164958,
+        "change24hPct": -0.85,
+        "sparkline7d": [
+          85718.61,
+          85540.09,
+          82721.62,
+          82582.46,
+          82790.18,
+          83054.73,
+          82364.6
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2523.3,
+        "priceJpy": 400304,
+        "change24hPct": -0.53,
+        "sparkline7d": [
+          2708.48,
+          2697.17,
+          2563.7,
+          2502.23,
+          2493.99,
+          2505.39,
+          2511.39
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.197358,
+        "priceJpy": 31.31,
+        "change24hPct": -2.94,
+        "sparkline7d": [
+          0.214226,
+          0.212127,
+          0.198987,
+          0.195347,
+          0.19606,
+          0.199901,
+          0.195676
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 274.46,
+        "priceJpy": 43542,
+        "change24hPct": -3.8,
+        "sparkline7d": [
+          315.42,
+          311.82,
+          298.65,
+          280.27,
+          278.85,
+          279.21,
+          272.78
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hn-front-001eae0d",
+    "hn-front-a80c0e41",
+    "hn-front-75f85249"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-world-0c52f018",
+        "yahoo-topics-0d1f0d90",
+        "nhk-top-57ce7273",
+        "nhk-top-5216f75b"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-04585231"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hn-front-001eae0d",
+      "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+      "url": "https://github.com/openai/codex/issues/48195",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-12T18:29:04.000Z",
+      "summaryJa": [
+        "Codex CLI installs a persistent, self-updating bac",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Codex",
+        "CLI",
+        "installs",
+        "persistent",
+        "self"
+      ],
+      "heat": {
+        "temperature": 91,
+        "signals": {
+          "hnPoints": 237,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 130.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-a80c0e41",
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-12T17:14:01.000Z",
+      "summaryJa": [
+        "AI coding agents generate more code, but not more ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "AI",
+        "coding",
+        "agents",
+        "generate",
+        "code"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 183,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 59.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-75f85249",
+      "title": "A Modern Web App in C",
+      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-12T16:13:10.000Z",
+      "summaryJa": [
+        "A Modern Web App in C",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Modern",
+        "Web",
+        "App"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 232,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 56.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-0c52f018",
+      "title": "ノーベル経済学賞にアメリカの2人の研究者",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261009de57272",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-10-12T12:19:00.000Z",
+      "summaryJa": [
+        "ことしのノーベル経済学賞に、アメリカの2人の研究者が選ばれました。",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ノーベル経済学賞にアメリカの2人の研究者"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "yahoo-topics-0d1f0d90",
+      "title": "マイクロソフト 新型AI半導体発表",
+      "url": "https://news.yahoo.co.jp/pickup/6598562?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-10-12T14:08:55.000Z",
+      "summaryJa": [
+        "マイクロソフト 新型AI半導体発表",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "マイクロソフト",
+        "新型AI半導体発表"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-57ce7273",
+      "title": "九州新幹線 架線確認のため始発から全線で運転見合わせ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261013de58310",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-12T18:33:00.000Z",
+      "summaryJa": [
+        "JR九州によりますと、九州新幹線は、13日の始発から博多駅と鹿児島中央駅の間の全線で運転を見合わせます。",
+        "12日、検査中の車両のパンタグラフに異常が見つかり、架線の点検作業も行うためで、運転再開の見通し…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "九州新幹線",
+        "架線確認のため始発から全線で運転見合わせ"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-5216f75b",
+      "title": "きょうから予算委 消費税 経済政策 簗農相発言で論戦",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261012de58277",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-12T20:01:02.000Z",
+      "summaryJa": [
+        "国会では、13日から衆議院予算委員会で高市総理大臣とすべての閣僚が出席して基本的質疑が始まります。",
+        "食料品の消費税減税や経済・財政政策、それに簗農林水産大臣の道路予算に関する発言などをめぐって論戦が…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "消費税",
+        "経済政策",
+        "簗農相発言で論戦"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-04585231",
+      "title": "なんでもリバースエンジニアリング。ソースコード非公開のアプリをAIに解析させ、類似機能を作らせるオープンソースツール「REA」（生成AIクローズアップ） | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/10/12/5574.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-12T04:10:08.000Z",
+      "summaryJa": [
+        "1週間の気になる生成AI技術・研究をいくつかピックアップして解説する連載「生成AIウィークリー」から、特に興味深いAI技術や研究にスポットライトを当てる生成AI",
+        "今回は、既存のAIエージェントと連携して、アプリやソフトウェアの仕組みを解き明かす（リバースエンジニアリング）解析ツール「REA」（Re.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "類似機能を作らせるオープンソースツール",
+        "REA",
+        "生成AIクローズアップ",
+        "テクノエッジ",
+        "TechnoEdge"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 319,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 19.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "野崎 守",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-12T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "野崎"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "indieblog-43ed4316",
+      "title": "Moving from Hugo to Astro | Arun Mani",
+      "url": "https://arunmani.in/articles/moving-from-hugo-to-astro/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "source": "indieblog.page（個人ブログ）",
+      "sourceId": "indieblog",
+      "publishedAt": "2026-10-12T20:18:03.288Z",
+      "summaryJa": [
+        "Moving from Hugo to Astro | Arun Mani",
+        "出典: indieblog.page（個人ブログ）",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "blog",
+      "keywords": [
+        "Moving",
+        "Hugo",
+        "Astro",
+        "Arun",
+        "Mani"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "HugoからAstroへと静的ブログを移行した際の素朴な試行錯誤が綴られています。自身の制作環境を見直したくなる手触りがあります。"
+  },
+  "unavailableSources": []
+}

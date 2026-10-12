@@ -1,78 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "8b2655052efe6e00": {
-      "url": "https://zenn.dev/coji/articles/natural-japanese-ai-smell-lint",
-      "summaryJa": [
-        "これはなに？",
-        "AIが書いた日本語を自然な日本語に直すAgent Skill、natural-japanese を作りました。",
-        "Claude CodeやCodexで動きます。"
-      ],
-      "cachedAt": "2026-07-14T07:20:51.617Z"
-    },
-    "0adfedc404ec1c48": {
-      "url": "https://lobste.rs/s/ko1ji1/lobste_rs_is_now_running_on_sqlite",
-      "summaryJa": [
-        "This past Saturday, @pushcx and I deployed the SQLite pull request to production",
-        "We were waiting till this morning to see how it would react to the Monday traffi",
-        "Needless to say, SQLite seems to have passed with flying colors: cpu usage is do"
-      ],
-      "cachedAt": "2026-07-14T07:20:51.618Z"
-    },
-    "d0a3ee837f922c3f": {
-      "url": "https://zenn.dev/tenkei/articles/5ba5c993dfb8d6",
-      "summaryJa": [
-        "Crit とは Crit は、ローカルで動くレビュー用の UI ツールです。",
-        "https://github.",
-        "com/tomasz-tomczyk/crit ざっくり言うと、AI が作ったコード差分や画面に対して、GitHub PR のようにコメントを付けられるツール "
-      ],
-      "cachedAt": "2026-07-14T07:20:51.618Z"
-    },
-    "6e13ed6b6d222712": {
-      "url": "https://developers.freee.co.jp/entry/mysql-order-by-limit-slow-query",
-      "summaryJa": [
-        "こんにちは。",
-        "freee請求書エンジニアのshunです。",
-        "24卒未経験でfreeeに入社し、freee請求書プロダクトの開発を行っています。"
-      ],
-      "cachedAt": "2026-07-14T07:20:51.618Z"
-    },
-    "72f0d178c923dfa1": {
-      "url": "https://qiita.com/minorun365/items/699e89544da8b0de300d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "以下の内容をそのままコピペして、Claude CodeやCodexに「ユーザースコープのスキルに追加しといて」と頼めばOK。",
-        "--- name: writing-guide description: AI臭さを消す汎用執筆ガイド。",
-        "ブログ・スライドなど、あらゆる書き物."
-      ],
-      "cachedAt": "2026-07-14T07:20:51.618Z"
-    },
-    "27f768f786ec625e": {
-      "url": "https://www.youtube.com/watch?v=xz5aPCRxsv4",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-14T07:20:51.618Z"
-    },
-    "34526ba6bad26173": {
-      "url": "https://css-dos.ahmedamer.co.uk/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-14T07:20:51.618Z"
-    },
-    "1737e8a215e54269": {
-      "url": "https://github.com/shorepine/tulipcc",
-      "summaryJa": [
-        "The Tulip Creative Computer and AMYboard - portable Python synthesizers",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-14T07:20:51.618Z"
-    },
     "ee0e31b02325f26e": {
       "url": "https://japan.cnet.com/article/35250558/",
       "summaryJa": [
@@ -15066,6 +14994,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-12T02:50:13.333Z"
+    },
+    "99e810c974b3b034": {
+      "url": "https://github.com/openai/codex/issues/48195",
+      "summaryJa": [
+        "Codex CLI installs a persistent, self-updating bac",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-12T20:20:51.603Z"
+    },
+    "13a86554d2a39789": {
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "summaryJa": [
+        "AI coding agents generate more code, but not more ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-12T20:20:51.603Z"
+    },
+    "a471bcd8b380da08": {
+      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+      "summaryJa": [
+        "A Modern Web App in C",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-12T20:20:51.603Z"
+    },
+    "0c52f0184628b3b0": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261009de57272",
+      "summaryJa": [
+        "ことしのノーベル経済学賞に、アメリカの2人の研究者が選ばれました。",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-12T20:20:51.603Z"
+    },
+    "0d1f0d9047ee80a8": {
+      "url": "https://news.yahoo.co.jp/pickup/6598562?source=rss",
+      "summaryJa": [
+        "マイクロソフト 新型AI半導体発表",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-12T20:20:51.603Z"
+    },
+    "57ce72737a1bfc41": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261013de58310",
+      "summaryJa": [
+        "JR九州によりますと、九州新幹線は、13日の始発から博多駅と鹿児島中央駅の間の全線で運転を見合わせます。",
+        "12日、検査中の車両のパンタグラフに異常が見つかり、架線の点検作業も行うためで、運転再開の見通し…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-12T20:20:51.603Z"
+    },
+    "5216f75b660c26af": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261012de58277",
+      "summaryJa": [
+        "国会では、13日から衆議院予算委員会で高市総理大臣とすべての閣僚が出席して基本的質疑が始まります。",
+        "食料品の消費税減税や経済・財政政策、それに簗農林水産大臣の道路予算に関する発言などをめぐって論戦が…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-12T20:20:51.603Z"
+    },
+    "04585231c95fff1c": {
+      "url": "https://www.techno-edge.net/article/2026/10/12/5574.html",
+      "summaryJa": [
+        "1週間の気になる生成AI技術・研究をいくつかピックアップして解説する連載「生成AIウィークリー」から、特に興味深いAI技術や研究にスポットライトを当てる生成AI",
+        "今回は、既存のAIエージェントと連携して、アプリやソフトウェアの仕組みを解き明かす（リバースエンジニアリング）解析ツール「REA」（Re.",
+        "."
+      ],
+      "cachedAt": "2026-10-12T20:20:51.603Z"
+    },
+    "43ed4316d282442f": {
+      "url": "https://arunmani.in/articles/moving-from-hugo-to-astro/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "summaryJa": [
+        "Moving from Hugo to Astro | Arun Mani",
+        "出典: indieblog.page（個人ブログ）",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-12T20:20:51.603Z"
     }
   }
 }
