@@ -162,6 +162,13 @@
       "edition": "morning",
       "theme": "全自動の滑空と、手放さぬ操縦",
       "path": "issues/2026-10-12-morning.json"
+    },
+    {
+      "issueNo": 188,
+      "date": "2026-10-12",
+      "edition": "midday",
+      "theme": "再構築される手元の基盤",
+      "path": "issues/2026-10-12-midday.json"
     }
   ]
 }

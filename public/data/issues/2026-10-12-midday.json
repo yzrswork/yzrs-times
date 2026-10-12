@@ -1,0 +1,484 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 188,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-10-12",
+  "dateDisplay": "Monday, October 12, 2026",
+  "pressTimeJst": "2026-10-12 12:00",
+  "generatedAt": "2026-10-12T02:47:26.010Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "再構築される手元の基盤",
+    "note": "既存の道具を解体し、自らの手で機能を絞り込み再構成する午後の姿勢。"
+  },
+  "editorial": {
+    "comment": "RustでFirestoreエミュレータを自作した「hidane」の記事は、既製品の重さに抗い、開発体験を自分の力で奪還する姿勢が素晴らしく、午後の作業の活力になります。—— YZRS Times 編集長",
+    "passedOver": "セキュリティ関連の時事報道は、今回は技術的な実装論に焦点を絞るため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ",
+    "icon": "sunny",
+    "tempMax": 25,
+    "tempMin": 17,
+    "precipChancePct": 2
+  },
+  "market": {
+    "fearGreed": {
+      "value": 69,
+      "label": "Greed"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 83838,
+        "priceJpy": 13263415,
+        "change24hPct": 0.97,
+        "sparkline7d": [
+          86599.77,
+          85493.46,
+          83771.48,
+          82108.7,
+          82687.78,
+          82970.46,
+          83869.43
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2551.02,
+        "priceJpy": 403577,
+        "change24hPct": 1.63,
+        "sparkline7d": [
+          2724.26,
+          2698.94,
+          2595.95,
+          2519.76,
+          2489.93,
+          2506.49,
+          2543.58
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.201967,
+        "priceJpy": 31.95,
+        "change24hPct": 2.86,
+        "sparkline7d": [
+          0.224172,
+          0.214949,
+          0.203664,
+          0.197804,
+          0.193043,
+          0.197045,
+          0.202937
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 286.78,
+        "priceJpy": 45370,
+        "change24hPct": 3.05,
+        "sparkline7d": [
+          318.91,
+          315.85,
+          306.11,
+          295.34,
+          274.95,
+          281.03,
+          286.21
+        ]
+      }
+    ]
+  },
+  "top": [
+    "qiita-popular-848ad98b",
+    "hatebu-it-84e8e610",
+    "zenn-trend-a206e217"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hatebu-it-5ed63381",
+        "lobsters-ece011d9",
+        "lobsters-6cc26e9d"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "zenn-trend-caad7b46",
+        "qiita-popular-9ae5e5ca"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-dd5e6bcf",
+        "lobsters-d7afe669"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "qiita-popular-848ad98b",
+      "title": "Firestore エミュレーターが重すぎたので、Java なしで動く互換エミュレーターを Rust で作った",
+      "url": "https://qiita.com/nomunomu0504/items/f764426407431c183016?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-11T06:35:19.000Z",
+      "summaryJa": [
+        "Firestore のローカル開発や CI で使う公式エミュレーターが重くてつらかったので、Rust で互換エミュレーター hidane（火種） を作りました。",
+        "2026 年 10 月に最初のリリース v0.",
+        "1."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Firestore",
+        "エミュレーターが重すぎたので",
+        "Java",
+        "Rust"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-84e8e610",
+      "title": "「AIに指示するだけでひとりでそこそこのゲームが作れてしまいます」ゲームクリエイター・堀井雄二氏がAIを使い30分ほどでゲームを作成し、様々な反応が寄せられる",
+      "url": "https://togetter.com/li/2756939",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-11T12:39:51.000Z",
+      "summaryJa": [
+        "堀井雄二 @YujiHorii その昔、PCで『ポートピア連続殺人事件』を作った時は、自分で物語を考え、絵も描いて、プログラムもして、ひとりでゲームを作りました",
+        "そして今、ＡＩを使えば、絵を描けなくても、プログラムしなくても、ＡＩに指図するだけで、ひとりで、そこそこのゲームを作れてしまいます。",
+        "ホントびっくりで."
+      ],
+      "category": "programming",
+      "keywords": [
+        "ゲームクリエイター",
+        "様々な反応が寄せられる"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 225,
+          "ageHours": 14,
+          "crossSources": 1,
+          "velocity": 15.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-a206e217",
+      "title": "SQLite 本体にベクトル検索拡張 vec1 がやってきた",
+      "url": "https://zenn.dev/mattn/articles/6e9996319ac099",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-10T17:16:42.000Z",
+      "summaryJa": [
+        "はじめに 2026 年 9 月 30 日、SQLite のソースツリーに ext/vec1/ というディレクトリが追加されました。",
+        "コミットしたのは FTS5 などでおなじみの Dan Kennedy 氏。",
+        "コミットメッセージはたった 1 行です。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "SQLite",
+        "本体にベクトル検索拡張",
+        "vec1"
+      ],
+      "heat": {
+        "temperature": 45,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 34,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-5ed63381",
+      "title": "MicrosoftのナデラCEO、「SIモデルは“内部リスク”として扱うべき」とXに投稿　統制はモデルの外に置くよう提言",
+      "url": "https://www.itmedia.co.jp/news/article/2610/12/2000002195/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-12T01:35:17.000Z",
+      "summaryJa": [
+        "米Microsoftのサティア・ナデラCEOは10月10日（現地時間）、Xに「Models as Insider Risks in the Super Inte",
+        "フロンティアモデルを組織内部の“インサイダーリスク”と同様に扱い、モデルの外側に統制の仕組みを置くべきだと訴えている。",
+        "なお."
+      ],
+      "category": "programming",
+      "keywords": [
+        "MicrosoftのナデラCEO",
+        "SIモデルは",
+        "内部リスク",
+        "統制はモデルの外に置くよう提言"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 8,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 6.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-ece011d9",
+      "title": "When LLM Decompilers Recompile More and Preserve Less",
+      "url": "https://arxiv.org/abs/2609.05370",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-12T02:44:55.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "LLM",
+        "Decompilers",
+        "Recompile",
+        "Preserve"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-6cc26e9d",
+      "title": "The next-gen borrow checker, a drop-in replacement for Rust borrow checking",
+      "url": "https://gist.github.com/FlameyosSnowy/a49a35ba006238be55d8c3e410c31061",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-11T19:21:16.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "next",
+        "gen",
+        "borrow",
+        "checker",
+        "drop"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-caad7b46",
+      "title": "Besu ローカル環境構築ハンズオン",
+      "url": "https://zenn.dev/komlock_lab/articles/besu-local-network-handson",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-11T14:28:19.000Z",
+      "summaryJa": [
+        "こんにちは。",
+        "ブロックチェーン×AI Agentで自律経済圏を創るKomlock lab（Pacific Meta Group）でCTOをしている山口夏生 @0x_natto",
+        "前編の「Besu（旧Hyperledger Besu）解説」では、バリデータの3分の2以上の署名で取引が確定し（4台なら3台）、3分の1を超えるバリデータが止ま"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Besu",
+        "ローカル環境構築ハンズオン"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-9ae5e5ca",
+      "title": "【初投稿】Claude Code の routine で GitHub Trending を毎朝日本語で要約する仕組みを作った",
+      "url": "https://qiita.com/yumekui/items/2cdf9d523d20d9a8d98f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-11T04:03:01.000Z",
+      "summaryJa": [
+        "Claude Code の routine で GitHub Trending を毎朝日本語で要約する仕組みを作った GitHub Trending に上がった",
+        "要約は Claude Code の.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "初投稿",
+        "Claude",
+        "Code",
+        "routine",
+        "GitHub"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 23,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-dd5e6bcf",
+      "title": "Highlights from \"I spent 6 years developing a game in Rust and it just shipped, AMA\" (2024)",
+      "url": "https://gamesbymason.com/blog/2024/6-years-in-rust-ama/#what-made-you-decide-to-use-rust",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-11T23:28:36.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Highlights",
+        "spent",
+        "years",
+        "developing",
+        "game"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-d7afe669",
+      "title": "Tello's GameSir T1d controller as a Linux Xbox controller",
+      "url": "https://blog.jacq.cc/guides/gamesir-t1d-linux-gamepad/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-11T22:01:59.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Tello",
+        "GameSir",
+        "T1d",
+        "controller",
+        "Linux"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-43a6fa9c",
+      "title": "generative-design/Code-Package-p5.js — Code package of the book: Generative Design – Creative Coding for the Web with JavaScript in p5.js",
+      "url": "https://github.com/generative-design/Code-Package-p5.js",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-09-29T06:08:20Z",
+      "summaryJa": [
+        "Code package of the book: Generative Design – Creative Coding for the Web with J",
+        "js",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "generative",
+        "design/Code",
+        "Package",
+        "p5.js",
+        "Code"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 309,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "クリエイティブコーディングの原点とも言えるp5.jsのコードベースは、技術のトレンドを超えて創作の基礎体力を養います。論理をどう視覚化するか、そのヒントがこのリポジトリには詰まっています。"
+  },
+  "unavailableSources": []
+}

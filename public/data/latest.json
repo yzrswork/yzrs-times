@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "issueNo": 187,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 188,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-10-12",
   "dateDisplay": "Monday, October 12, 2026",
-  "pressTimeJst": "2026-10-12 05:00",
-  "generatedAt": "2026-10-11T20:17:24.900Z",
+  "pressTimeJst": "2026-10-12 12:00",
+  "generatedAt": "2026-10-12T02:47:26.010Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.1-flash-lite",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "全自動の滑空と、手放さぬ操縦",
-    "note": "高度化するツールに処理を委ねつつも、異常時に手元で手綱を握り直す感覚を整える朝刊。"
+    "title": "再構築される手元の基盤",
+    "note": "既存の道具を解体し、自らの手で機能を絞り込み再構成する午後の姿勢。"
   },
   "editorial": {
-    "comment": "「自動操縦が外れたときに機体を立て直せる状態」（hatebu-it-1f3e9052）という航空業界の知見は、生成AIと向き合う現代の作り手にも強く響きます。道具に処理を委ねつつも、異常時に手元で手綱を握り直すための能力は維持しておきたいものです。—— YZRS Times 編集長",
-    "passedOver": "Hono関連の登壇資料やYandexの障害記事は熱度が高かったものの、今朝の思考の骨格を整える編成に絞るため一部見送りました。",
+    "comment": "RustでFirestoreエミュレータを自作した「hidane」の記事は、既製品の重さに抗い、開発体験を自分の力で奪還する姿勢が素晴らしく、午後の作業の活力になります。—— YZRS Times 編集長",
+    "passedOver": "セキュリティ関連の時事報道は、今回は技術的な実装論に焦点を絞るため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "快晴",
+    "summary": "晴れ",
     "icon": "sunny",
     "tempMax": 25,
     "tempMin": 17,
@@ -32,308 +32,134 @@
   },
   "market": {
     "fearGreed": {
-      "value": 61,
+      "value": 69,
       "label": "Greed"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 83638,
-        "priceJpy": 13238781,
-        "change24hPct": 0.8,
+        "priceUsd": 83838,
+        "priceJpy": 13263415,
+        "change24hPct": 0.97,
         "sparkline7d": [
-          85412.78,
-          85770.87,
-          84138.91,
-          82948.17,
-          82506.22,
-          82914.78,
-          83599.47
+          86599.77,
+          85493.46,
+          83771.48,
+          82108.7,
+          82687.78,
+          82970.46,
+          83869.43
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2535.86,
-        "priceJpy": 401391,
-        "change24hPct": 1.15,
+        "priceUsd": 2551.02,
+        "priceJpy": 403577,
+        "change24hPct": 1.63,
         "sparkline7d": [
-          2701.26,
-          2710.42,
-          2611.19,
-          2567.47,
-          2490.95,
-          2506.88,
-          2532.67
+          2724.26,
+          2698.94,
+          2595.95,
+          2519.76,
+          2489.93,
+          2506.49,
+          2543.58
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.203049,
-        "priceJpy": 32.14,
-        "change24hPct": 3.15,
+        "priceUsd": 0.201967,
+        "priceJpy": 31.95,
+        "change24hPct": 2.86,
         "sparkline7d": [
-          0.219474,
-          0.215559,
-          0.206787,
-          0.198771,
-          0.192704,
-          0.198162,
-          0.202628
+          0.224172,
+          0.214949,
+          0.203664,
+          0.197804,
+          0.193043,
+          0.197045,
+          0.202937
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 285.11,
-        "priceJpy": 45129,
-        "change24hPct": 1.39,
+        "priceUsd": 286.78,
+        "priceJpy": 45370,
+        "change24hPct": 3.05,
         "sparkline7d": [
-          316.51,
-          316.78,
-          307.01,
-          295.92,
-          275.47,
-          280.92,
-          283.87
+          318.91,
+          315.85,
+          306.11,
+          295.34,
+          274.95,
+          281.03,
+          286.21
         ]
       }
     ]
   },
   "top": [
-    "hatebu-it-1f3e9052",
-    "hatebu-it-b80bb64c",
-    "hn-front-1b65f154"
+    "qiita-popular-848ad98b",
+    "hatebu-it-84e8e610",
+    "zenn-trend-a206e217"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "nhk-top-4f8fc3a2",
-        "nhk-top-1961c794",
-        "nhk-top-c4a9d353",
-        "yahoo-topics-7540d1dd"
+        "hatebu-it-5ed63381",
+        "lobsters-ece011d9",
+        "lobsters-6cc26e9d"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hatebu-it-84e8e610",
-        "hn-front-58287a9d",
-        "hn-front-f120c943",
-        "hatebu-it-90d45f60"
+        "zenn-trend-caad7b46",
+        "qiita-popular-9ae5e5ca"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-ccbd37e7"
+        "lobsters-dd5e6bcf",
+        "lobsters-d7afe669"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hatebu-it-1f3e9052",
-      "title": "オートパイロットは外せる人間を前提にしている — AI時代のエンジニア技能維持を航空業界に学ぶ",
-      "url": "https://zenn.dev/shimitaro/articles/eb45d8d63c7bd1",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-11T01:59:35.000Z",
+      "id": "qiita-popular-848ad98b",
+      "title": "Firestore エミュレーターが重すぎたので、Java なしで動く互換エミュレーターを Rust で作った",
+      "url": "https://qiita.com/nomunomu0504/items/f764426407431c183016?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-11T06:35:19.000Z",
       "summaryJa": [
-        "AI にコードを書かせる時代に、エンジニアは何の技能を残しておけばいいのか。",
-        "航空業界の制度を一次資料でたどると、答えは「自分で書く力」よりも「自動化から引き継ぐ力」のほうに寄っていきました。",
-        "パイロットは普段から手で操縦しているわけではありません。"
+        "Firestore のローカル開発や CI で使う公式エミュレーターが重くてつらかったので、Rust で互換エミュレーター hidane（火種） を作りました。",
+        "2026 年 10 月に最初のリリース v0.",
+        "1."
       ],
       "category": "programming",
       "keywords": [
-        "programming"
+        "Firestore",
+        "エミュレーターが重すぎたので",
+        "Java",
+        "Rust"
       ],
       "heat": {
-        "temperature": 83,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 141,
-          "ageHours": 18,
-          "crossSources": 2,
-          "velocity": 7.7
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-b80bb64c",
-      "title": "CPUのみで動作するリアルタイム多言語音声認識「早耳」、GPUもクラウドAPIも使わずメモリ2GB未満でライブ字幕表示からブラウザ表示・話者ラベル付け・翻訳字幕まで可能",
-      "url": "https://gigazine.net/news/20261011-hayamimi/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-11T04:33:54.000Z",
-      "summaryJa": [
-        "「Hayamimi(早耳)」はGPUやクラウドAPIに依存せずCPUのみで動作する軽量なリアルタイム多言語音声認識システムです。",
-        "メモリ2GB未満の環境でもライブ字幕表示・話者ラベル付け・翻訳字幕生成まで対応し、発話中から字幕が出始め話し終えて約100msで確定する高速性が特徴です。",
-        "oboroge0/hayamimi: 早耳 - Real-time multi."
-      ],
-      "category": "programming",
-      "keywords": [
-        "早耳",
-        "話者ラベル付け",
-        "翻訳字幕まで可能"
-      ],
-      "heat": {
-        "temperature": 82,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 153,
-          "ageHours": 16,
-          "crossSources": 1,
-          "velocity": 9.7
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-1b65f154",
-      "title": "I'm sorry, but you still have to think",
-      "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-11T14:29:07.000Z",
-      "summaryJa": [
-        "I'm sorry, but you still have to think",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "sorry",
-        "think"
-      ],
-      "heat": {
-        "temperature": 82,
-        "signals": {
-          "hnPoints": 222,
-          "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 2,
-          "velocity": 38.2
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-4f8fc3a2",
-      "title": "生成AIの安全性評価するシステム開発",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261011de58038",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-11T19:47:32.000Z",
-      "summaryJa": [
-        "AIの進歩に伴い、AIが悪用されたり、人や社会に有害な情報が持ち出されたりすることを防ぐため、AIの安全性を評価するシステムを国の研究機関が開発しました。",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "生成AIの安全性評価するシステム開発"
-      ],
-      "heat": {
-        "temperature": 55,
+        "temperature": 49,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-1961c794",
-      "title": "“ガザ停戦”から１年経過 イスラエル軍の攻撃で死者相次ぐ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261011de58041",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-11T19:50:03.000Z",
-      "summaryJa": [
-        "パレスチナのガザ地区ではイスラエル軍の無人機による攻撃で1人が死亡したほかイスラエル軍の発砲で妊婦を含む8人がけがをしたと伝えられ、イスラエルとイスラム組織ハマ",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "ガザ停戦",
-        "イスラエル軍の攻撃で死者相次ぐ"
-      ],
-      "heat": {
-        "temperature": 60,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 2,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-c4a9d353",
-      "title": "フーシ派 リヤドの国際空港攻撃と主張 緊張高まり懸念",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261011de58042",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-11T19:37:43.000Z",
-      "summaryJa": [
-        "サウジアラビアと対立するイエメンの反政府勢力フーシ派は11日、サウジアラビアの首都リヤドの国際空港などに攻撃を行ったとする声明を発表しました。",
-        "国際空港への攻撃では12人が死亡、300人以上がけがを…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "フーシ派",
-        "リヤドの国際空港攻撃と主張",
-        "緊張高まり懸念"
-      ],
-      "heat": {
-        "temperature": 60,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 2,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "yahoo-topics-7540d1dd",
-      "title": "電車で心臓発作 8分の救命リレー",
-      "url": "https://news.yahoo.co.jp/pickup/6598441?source=rss",
-      "source": "Yahoo!ニュース トピックス",
-      "sourceId": "yahoo-topics",
-      "publishedAt": "2026-10-11T14:24:37.000Z",
-      "summaryJa": [
-        "電車で心臓発作 8分の救命リレー",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "電車で心臓発作",
-        "8分の救命リレー"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 6,
+          "ageHours": 20,
           "crossSources": 1,
           "velocity": 0
         }
@@ -358,125 +184,96 @@
         "様々な反応が寄せられる"
       ],
       "heat": {
-        "temperature": 87,
+        "temperature": 84,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 97,
-          "ageHours": 8,
+          "hatebuCount": 225,
+          "ageHours": 14,
           "crossSources": 1,
-          "velocity": 12.7
+          "velocity": 15.9
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-58287a9d",
-      "title": "Total Annihilation, rebuilt for modern computers",
-      "url": "https://nanolathe.gg",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-11T18:04:47.000Z",
+      "id": "zenn-trend-a206e217",
+      "title": "SQLite 本体にベクトル検索拡張 vec1 がやってきた",
+      "url": "https://zenn.dev/mattn/articles/6e9996319ac099",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-10T17:16:42.000Z",
       "summaryJa": [
-        "Total Annihilation, rebuilt for modern computers",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Total",
-        "Annihilation",
-        "rebuilt",
-        "modern",
-        "computers"
-      ],
-      "heat": {
-        "temperature": 89,
-        "signals": {
-          "hnPoints": 137,
-          "hatebuCount": 0,
-          "ageHours": 2,
-          "crossSources": 1,
-          "velocity": 62
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-f120c943",
-      "title": "I paid people to try and follow my README",
-      "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-11T11:47:29.000Z",
-      "summaryJa": [
-        "I paid people to try and follow my README",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "paid",
-        "people",
-        "try",
-        "follow",
-        "README"
-      ],
-      "heat": {
-        "temperature": 79,
-        "signals": {
-          "hnPoints": 327,
-          "hatebuCount": 0,
-          "ageHours": 8,
-          "crossSources": 1,
-          "velocity": 38.5
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-90d45f60",
-      "title": "月間100万人のサービス刷新で、 技術選定をHonoに振り切った話",
-      "url": "https://speakerdeck.com/yutobara/gekkan-100-mannin-no-sabisu-sasshin-de-gijutsu-sentei-o-hono-ni-furikita-hanashi-e49c651f-8130-48bb-b6ef-eac3cc9f358a",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-11T08:34:08.000Z",
-      "summaryJa": [
-        "Hono Conference 2026 の登壇資料です。",
-        "月間100万人のサービスを6人とAIで作り直しました。",
-        "AIを迷わせない開発の土台作りと、Honoが効いた理由について、紹介しています。"
+        "はじめに 2026 年 9 月 30 日、SQLite のソースツリーに ext/vec1/ というディレクトリが追加されました。",
+        "コミットしたのは FTS5 などでおなじみの Dan Kennedy 氏。",
+        "コミットメッセージはたった 1 行です。"
       ],
       "category": "programming",
       "keywords": [
-        "月間100万人のサービス刷新で",
-        "技術選定をHonoに振り切った話"
+        "SQLite",
+        "本体にベクトル検索拡張",
+        "vec1"
       ],
       "heat": {
-        "temperature": 77,
+        "temperature": 45,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 65,
-          "ageHours": 12,
+          "hatebuCount": 0,
+          "ageHours": 34,
           "crossSources": 1,
-          "velocity": 5.5
+          "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "gtrends-jp-ccbd37e7",
-      "title": "配当",
-      "url": "https://trends.google.com/trending/rss?geo=JP",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-10-11T20:00:00.000Z",
+      "id": "hatebu-it-5ed63381",
+      "title": "MicrosoftのナデラCEO、「SIモデルは“内部リスク”として扱うべき」とXに投稿　統制はモデルの外に置くよう提言",
+      "url": "https://www.itmedia.co.jp/news/article/2610/12/2000002195/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-12T01:35:17.000Z",
       "summaryJa": [
-        "早期天候情報",
-        "出典: Google トレンド",
+        "米Microsoftのサティア・ナデラCEOは10月10日（現地時間）、Xに「Models as Insider Risks in the Super Inte",
+        "フロンティアモデルを組織内部の“インサイダーリスク”と同様に扱い、モデルの外側に統制の仕組みを置くべきだと訴えている。",
+        "なお."
+      ],
+      "category": "programming",
+      "keywords": [
+        "MicrosoftのナデラCEO",
+        "SIモデルは",
+        "内部リスク",
+        "統制はモデルの外に置くよう提言"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 8,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 6.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-ece011d9",
+      "title": "When LLM Decompilers Recompile More and Preserve Less",
+      "url": "https://arxiv.org/abs/2609.05370",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-12T02:44:55.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "trends",
+      "category": "tech",
       "keywords": [
-        "配当"
+        "LLM",
+        "Decompilers",
+        "Recompile",
+        "Preserve"
       ],
       "heat": {
         "temperature": 55,
@@ -489,42 +286,199 @@
         }
       },
       "image": null
-    }
-  ],
-  "hiddenGem": {
-    "article": {
-      "id": "github-gems-72020fc8",
-      "title": "abey79/vpype — The Swiss-Army-knife command-line tool for plotter vector graphics.",
-      "url": "https://github.com/abey79/vpype",
-      "source": "GitHub 小さなOSS",
-      "sourceId": "github-gems",
-      "publishedAt": "2026-10-07T05:46:24Z",
+    },
+    {
+      "id": "lobsters-6cc26e9d",
+      "title": "The next-gen borrow checker, a drop-in replacement for Rust borrow checking",
+      "url": "https://gist.github.com/FlameyosSnowy/a49a35ba006238be55d8c3e410c31061",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-11T19:21:16.000Z",
       "summaryJa": [
-        "The Swiss-Army-knife command-line tool for plotter vector graphics.",
-        "出典: GitHub 小さなOSS",
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "oss",
+      "category": "tech",
       "keywords": [
-        "abey79/vpype",
-        "Swiss",
-        "Army",
-        "knife",
-        "command"
+        "next",
+        "gen",
+        "borrow",
+        "checker",
+        "drop"
       ],
       "heat": {
-        "temperature": 40,
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 111,
+          "ageHours": 7,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "ペンプロッターなどの物理出力装置を制御・最適化するためのベクトルグラフィック工具です。デジタルな幾何学データを実体の線画へと変換するアートの試行錯誤を強力に後押ししてくれます。"
+    {
+      "id": "zenn-trend-caad7b46",
+      "title": "Besu ローカル環境構築ハンズオン",
+      "url": "https://zenn.dev/komlock_lab/articles/besu-local-network-handson",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-11T14:28:19.000Z",
+      "summaryJa": [
+        "こんにちは。",
+        "ブロックチェーン×AI Agentで自律経済圏を創るKomlock lab（Pacific Meta Group）でCTOをしている山口夏生 @0x_natto",
+        "前編の「Besu（旧Hyperledger Besu）解説」では、バリデータの3分の2以上の署名で取引が確定し（4台なら3台）、3分の1を超えるバリデータが止ま"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Besu",
+        "ローカル環境構築ハンズオン"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-9ae5e5ca",
+      "title": "【初投稿】Claude Code の routine で GitHub Trending を毎朝日本語で要約する仕組みを作った",
+      "url": "https://qiita.com/yumekui/items/2cdf9d523d20d9a8d98f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-11T04:03:01.000Z",
+      "summaryJa": [
+        "Claude Code の routine で GitHub Trending を毎朝日本語で要約する仕組みを作った GitHub Trending に上がった",
+        "要約は Claude Code の.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "初投稿",
+        "Claude",
+        "Code",
+        "routine",
+        "GitHub"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 23,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-dd5e6bcf",
+      "title": "Highlights from \"I spent 6 years developing a game in Rust and it just shipped, AMA\" (2024)",
+      "url": "https://gamesbymason.com/blog/2024/6-years-in-rust-ama/#what-made-you-decide-to-use-rust",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-11T23:28:36.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Highlights",
+        "spent",
+        "years",
+        "developing",
+        "game"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-d7afe669",
+      "title": "Tello's GameSir T1d controller as a Linux Xbox controller",
+      "url": "https://blog.jacq.cc/guides/gamesir-t1d-linux-gamepad/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-11T22:01:59.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Tello",
+        "GameSir",
+        "T1d",
+        "controller",
+        "Linux"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-43a6fa9c",
+      "title": "generative-design/Code-Package-p5.js — Code package of the book: Generative Design – Creative Coding for the Web with JavaScript in p5.js",
+      "url": "https://github.com/generative-design/Code-Package-p5.js",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-09-29T06:08:20Z",
+      "summaryJa": [
+        "Code package of the book: Generative Design – Creative Coding for the Web with J",
+        "js",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "generative",
+        "design/Code",
+        "Package",
+        "p5.js",
+        "Code"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 309,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "クリエイティブコーディングの原点とも言えるp5.jsのコードベースは、技術のトレンドを超えて創作の基礎体力を養います。論理をどう視覚化するか、そのヒントがこのリポジトリには詰まっています。"
   },
   "unavailableSources": []
 }
