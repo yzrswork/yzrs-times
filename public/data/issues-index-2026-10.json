@@ -176,6 +176,13 @@
       "edition": "morning",
       "theme": "過剰な自動化と、素朴な骨格",
       "path": "issues/2026-10-13-morning.json"
+    },
+    {
+      "issueNo": 190,
+      "date": "2026-10-13",
+      "edition": "midday",
+      "theme": "精度の原点と、引き算の設計",
+      "path": "issues/2026-10-13-midday.json"
     }
   ]
 }

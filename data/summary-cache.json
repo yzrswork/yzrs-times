@@ -1,69 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "ee0e31b02325f26e": {
-      "url": "https://japan.cnet.com/article/35250558/",
-      "summaryJa": [
-        "GMOインターネットグループの熊谷正寿代表は7月14日、在宅勤務の完全廃止に踏み切った理由を自身のXアカウントで説明した。",
-        "在宅勤務では時間当たりのPCタイピング数がデータ上確実に減っているとし、「トータルで在宅勤務はマイナス」と判断したという。",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-14T21:18:59.567Z"
-    },
-    "44a5172373879ebb": {
-      "url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
-      "summaryJa": [
-        "Are we offloading too much of our thinking to AI?",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-14T21:18:59.567Z"
-    },
-    "519968ed8f710a71": {
-      "url": "https://japan.cnet.com/article/35250523/",
-      "summaryJa": [
-        "AIがAIを進化させる時代が到来へ 孫氏は、地球上の生命がバクテリアから現在の姿まで進化した背景には、「自己増殖」と「自己進化」という2つの仕組みがあったと説明",
-        "「もしバクテリアに自己増殖がなかったら、この地球上に生命体は増えていない。",
-        "もし自己進化という機能が備わっていなかったら、バクテリアのまま."
-      ],
-      "cachedAt": "2026-07-14T21:18:59.567Z"
-    },
-    "6f94f0ef95b09d52": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015177001000",
-      "summaryJa": [
-        "中東地域を管轄するアメリカ中央軍は14日、ホルムズ海峡をめぐり、イランの港などを出入りする船舶を対象にした海上封鎖を日本時間の15日午前5時から再開したと発表し",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-14T21:18:59.567Z"
-    },
-    "cf2640ef4e3d81be": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015177041000",
-      "summaryJa": [
-        "アメリカの先月の消費者物価指数は、去年の同じ月と比べて3.",
-        "5％の上昇となりました。",
-        "伸び率は、依然として高い水準が続いていますが、前の月と比べると0."
-      ],
-      "cachedAt": "2026-07-14T21:18:59.567Z"
-    },
-    "b875da9a3fbdcc3f": {
-      "url": "https://japan.zdnet.com/article/35250374/",
-      "summaryJa": [
-        "インド・ムンバイで開催された「Open Source Summit India 2026」において、「Linux」の生みの親であるLinus Torvalds氏",
-        "Linux 7.",
-        "1：地味で着実な進歩 対談は、Hohndel氏が「Linux 7."
-      ],
-      "cachedAt": "2026-07-14T21:18:59.567Z"
-    },
-    "9f5e8d15998d0d23": {
-      "url": "https://github.com/FluidSynth/fluidsynth",
-      "summaryJa": [
-        "Software synthesizer based on the SoundFont 2 specifications",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-14T21:18:59.567Z"
-    },
     "656bee235eb67a4b": {
       "url": "https://zenn.dev/neet/articles/11bafab8645995",
       "summaryJa": [
@@ -15075,6 +15012,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-12T20:20:51.603Z"
+    },
+    "cc570f167066bdff": {
+      "url": "https://gigazine.net/news/20261013-how-machines-learned-precision/",
+      "summaryJa": [
+        "現代の工作機械は非常に精密でほとんど誤差がない部品を作ることができますが、初めから現代のような精度があったわけではありません。",
+        "18世紀中頃～19世紀の産業革命の時代に、どのようにして精度の高い「ねじ」を生み出したのかについて、エンジニアで起業家のゲイリー・リンスコット氏が解説しています",
+        "How Machines."
+      ],
+      "cachedAt": "2026-10-13T02:49:33.737Z"
+    },
+    "ada10215ebe6924e": {
+      "url": "https://qiita.com/songchong/items/0d759f44eb26f332b897?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "AI エージェント（Claude Code・Codex・Gemini のように、パソコンの上でコマンドを実行しながら作業を進める AI）に外のサービスをつなぐ作",
+        "使う側が知りたいのは、その鍵.",
+        "."
+      ],
+      "cachedAt": "2026-10-13T02:49:33.737Z"
+    },
+    "6bc12f2b5da91214": {
+      "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+      "summaryJa": [
+        "I turned my unused Kindle into a photo frame with ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-13T02:49:33.737Z"
+    },
+    "2c9ef4c48758e776": {
+      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
+      "summaryJa": [
+        "The session catalog is live.",
+        "Explore what's waiting for you",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-13T02:49:33.737Z"
+    },
+    "f399c95ff348a298": {
+      "url": "https://zenn.dev/akari1106/articles/3a050fde72159d",
+      "summaryJa": [
+        "!",
+        "この記事は、友人に「AI界隈やローカルLLMって、どんな感じなの？",
+        "」と聞かれて話した内容を、記事用に書き直したものです。"
+      ],
+      "cachedAt": "2026-10-13T02:49:33.738Z"
+    },
+    "937dd8ea66ec1891": {
+      "url": "https://zenn.dev/hyeonjae/articles/secretless-a2a-github-actions-ja",
+      "summaryJa": [
+        "A2Aエージェントを活用するにあたって、セキュリティの観点からどのように補強していったかを整理します。",
+        "1.",
+        "背景 まず現在の状況を分かりやすく整理します。"
+      ],
+      "cachedAt": "2026-10-13T02:49:33.738Z"
+    },
+    "fb321145bc40c40a": {
+      "url": "https://zenn.dev/ik11235/articles/whisper-jev-speaker-label",
+      "summaryJa": [
+        "はじまり 皆さん、会議の議事録などはどうしているでしょうか？",
+        "最近はAI関連のツールが豊富で、たとえばNotionならAIミーティングノート、Google MeetならGeminiによる文字起こしがあります。",
+        "さらにNotionのAIミーティングノートは話者を特定してラベルを付けてくれるので、誰の発言かを文脈や録画から追わなくても確認できます。"
+      ],
+      "cachedAt": "2026-10-13T02:49:33.738Z"
+    },
+    "5f5a9a98eb700462": {
+      "url": "https://hackaday.com/2026/10/07/esp32-as-your-raspberry-pis-linux-wireless-co-processor/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-13T02:49:33.738Z"
+    },
+    "7cea2c6059565639": {
+      "url": "https://larstofus.com/2026/10/11/speeding-up-the-unreal-editor-by-not-using-unnecessarily-secure-hash-methods/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-13T02:49:33.738Z"
+    },
+    "8e857554ab32774a": {
+      "url": "https://sebsite.pw/w/20261012-notstdc.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-13T02:49:33.738Z"
     }
   }
 }

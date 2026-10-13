@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-94f327c8",
-      "url": "https://github.com/Zer0-bit/gaggiuino",
-      "date": "2026-09-13"
-    },
-    {
-      "id": "github-gems-723f9d26",
-      "url": "https://github.com/cyberman54/ESP32-Paxcounter",
-      "date": "2026-09-13"
-    },
-    {
       "id": "show-hn-aaad82ae",
       "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
       "date": "2026-09-14"
@@ -304,6 +294,11 @@
     {
       "id": "indieblog-43ed4316",
       "url": "https://arunmani.in/articles/moving-from-hugo-to-astro/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "github-gems-ba6b50c6",
+      "url": "https://github.com/frain-dev/convoy",
       "date": "2026-10-13"
     }
   ]
