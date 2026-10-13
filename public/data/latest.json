@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "issueNo": 190,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-10-13",
-  "dateDisplay": "Tuesday, October 13, 2026",
-  "pressTimeJst": "2026-10-13 12:00",
-  "generatedAt": "2026-10-13T02:48:08.995Z",
+  "issueNo": 191,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-14",
+  "dateDisplay": "Wednesday, October 14, 2026",
+  "pressTimeJst": "2026-10-14 05:00",
+  "generatedAt": "2026-10-13T20:18:06.746Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-flash-latest",
+    "model": "gemini-3.1-flash-lite",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "精度の原点と、引き算の設計",
-    "note": "産業革命のねじ加工からC言語によるWebアプリ構築まで、過剰さを削ぎ落として本質的な道具立てに向き合う技術の記録。"
+    "title": "侵食するネットワークと物理の軋み",
+    "note": "サイバー攻撃が冷蔵庫の温度を変え、小型AIがIoT機器上で増殖する。画面の中のコードが物理世界をいかに揺らしているか。"
   },
   "editorial": {
-    "comment": "C言語でモダンなWebアプリを素朴に組み上げる試み（A Modern Web App in C）には、重厚なフレームワークに頼り切った現代の開発を立ち止まって見直させる清々しさがあります。—— YZRS Times 編集長",
-    "passedOver": "フランスのスーパーにおける冷却設備へのサイバー攻撃事件は時事ニュースの比重が大きいため昼刊の技術紙面からは見送りました。",
+    "comment": "フランスの冷蔵設備へのサイバー攻撃は、デジタルの脆弱性が物理的な廃棄を生むという、最も避けるべき最悪の連鎖を体現しています。—— YZRS Times 編集長",
+    "passedOver": "Getty Imagesの破産申請。ビジネスの崩壊よりも、今はネットワーク経由の攻撃がもたらす物理的な混乱に焦点を当てた。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "晴れ時々曇り",
-    "icon": "partly-cloudy",
-    "tempMax": 23,
-    "tempMin": 17,
-    "precipChancePct": 6
+    "summary": "弱い雨",
+    "icon": "rain",
+    "tempMax": 25,
+    "tempMin": 18,
+    "precipChancePct": 56
   },
   "market": {
     "fearGreed": {
@@ -39,187 +39,242 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 82745,
-        "priceJpy": 13095010,
-        "change24hPct": -1.25,
+        "priceUsd": 83193,
+        "priceJpy": 13172011,
+        "change24hPct": 0.25,
         "sparkline7d": [
-          85632.58,
-          84310.97,
-          83070.14,
-          82567.91,
-          82940.3,
-          83580.97,
-          81368.84
+          85610.79,
+          83282.05,
+          82361.78,
+          82734.29,
+          82921.38,
+          82522.76,
+          83088.16
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2481.01,
-        "priceJpy": 392636,
-        "change24hPct": -2.65,
+        "priceUsd": 2507.33,
+        "priceJpy": 396987,
+        "change24hPct": -0.63,
         "sparkline7d": [
-          2707.3,
-          2620.46,
-          2567.09,
-          2482.48,
-          2503.15,
-          2535.06,
-          2419.97
+          2691.69,
+          2573.23,
+          2491.7,
+          2493.3,
+          2498.42,
+          2522.05,
+          2507.48
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.191498,
-        "priceJpy": 30.31,
-        "change24hPct": -5.18,
+        "priceUsd": 0.192104,
+        "priceJpy": 30.42,
+        "change24hPct": -2.68,
         "sparkline7d": [
-          0.214881,
-          0.206753,
-          0.201101,
-          0.192346,
-          0.197996,
-          0.20377,
-          0.187112
+          0.212506,
+          0.200298,
+          0.194374,
+          0.196809,
+          0.196165,
+          0.196623,
+          0.192255
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 267.88,
-        "priceJpy": 42395,
-        "change24hPct": -6.58,
+        "priceUsd": 273.22,
+        "priceJpy": 43259,
+        "change24hPct": -0.44,
         "sparkline7d": [
-          314.98,
-          307.42,
-          298.16,
-          273.38,
-          279.68,
-          286.26,
-          258.58
+          314.55,
+          300.1,
+          278.81,
+          278.14,
+          276.95,
+          275.9,
+          272.99
         ]
       }
     ]
   },
   "top": [
-    "hn-front-75f85249",
-    "hatebu-it-cc570f16",
-    "qiita-popular-ada10215"
+    "hatebu-it-aec1a7d8",
+    "hatebu-it-c196433d",
+    "hatebu-it-13cea613"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hn-front-15a7d909",
-        "hatebu-it-2c9ef4c4"
+        "nhk-top-66377db0",
+        "nhk-top-5b723f87"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-trend-f399c95f",
-        "zenn-trend-937dd8ea",
-        "zenn-trend-fb321145"
+        "hn-front-7977376c"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-5f5a9a98",
-        "lobsters-7cea2c60",
-        "lobsters-8e857554"
+        "gtrends-jp-ccbd37e7"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hn-front-75f85249",
-      "title": "A Modern Web App in C",
-      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-12T16:13:10.000Z",
-      "summaryJa": [
-        "A Modern Web App in C",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Modern",
-        "Web",
-        "App"
-      ],
-      "heat": {
-        "temperature": 84,
-        "signals": {
-          "hnPoints": 415,
-          "hatebuCount": 0,
-          "ageHours": 11,
-          "crossSources": 2,
-          "velocity": 39.2
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-cc570f16",
-      "title": "産業革命の時代にどうやって精度の高い「ねじ」を作り出したのか？",
-      "url": "https://gigazine.net/news/20261013-how-machines-learned-precision/",
+      "id": "hatebu-it-aec1a7d8",
+      "title": "フランスのスーパー数百店舗で冷蔵設備にサイバー攻撃　温度が最高50度に上昇し食品大量廃棄に",
+      "url": "https://www.itmedia.co.jp/news/article/2610/13/2000002201/",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-12T22:03:51.000Z",
+      "publishedAt": "2026-10-13T01:57:29.000Z",
       "summaryJa": [
-        "現代の工作機械は非常に精密でほとんど誤差がない部品を作ることができますが、初めから現代のような精度があったわけではありません。",
-        "18世紀中頃～19世紀の産業革命の時代に、どのようにして精度の高い「ねじ」を生み出したのかについて、エンジニアで起業家のゲイリー・リンスコット氏が解説しています",
-        "How Machines."
+        "フランスのスーパーマーケットで10月11日夜から12日（現地時間）にかけて、冷蔵・冷凍設備を標的とする大規模なサイバー攻撃が発生した。",
+        "報道によると、冷蔵設備の温度が最高50度に上昇し、生鮮食品や冷凍食品が大量に廃棄される被害が出ている。",
+        "被害は数百店舗に及び、フランス当局が捜査を開始した。"
       ],
       "category": "programming",
       "keywords": [
-        "産業革命の時代にどうやって精度の高い"
+        "温度が最高50度に上昇し食品大量廃棄に"
       ],
       "heat": {
         "temperature": 82,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 44,
-          "ageHours": 5,
+          "hatebuCount": 473,
+          "ageHours": 18,
           "crossSources": 1,
-          "velocity": 9.3
+          "velocity": 25.8
         }
       },
       "image": null
     },
     {
-      "id": "qiita-popular-ada10215",
-      "title": "AI エージェントに鍵を任せて大丈夫か — API キー操作5種類、Claude Code・Codex・Gemini に51 回頼み、危険・要注意・安全なやり方を分けた",
-      "url": "https://qiita.com/songchong/items/0d759f44eb26f332b897?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-10-12T19:10:12.000Z",
+      "id": "hatebu-it-c196433d",
+      "title": "Anthropic、自己複製AIの「兆し」を指摘　55ドルのTVボックス15台で26Bモデルが稼働",
+      "url": "https://www.itmedia.co.jp/news/article/2610/13/2000002204/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-13T02:55:22.000Z",
       "summaryJa": [
-        "AI エージェント（Claude Code・Codex・Gemini のように、パソコンの上でコマンドを実行しながら作業を進める AI）に外のサービスをつなぐ作",
-        "使う側が知りたいのは、その鍵.",
+        "米Anthropicは10月12日（現地時間）、小型のAIモデルがデータセンターを使わずに安価なIoT機器上で自己複製できるようになる可能性があるとする研究結果",
+        "同社のフロンティアレッドチームによるもので、30Bパラメータ以下の小型モデルが、スマートオーブンやノーブランドのAndroid TVボックスのような市販IoT.",
         "."
       ],
       "category": "programming",
       "keywords": [
-        "AI",
-        "エージェントに鍵を任せて大丈夫か",
-        "API",
-        "キー操作5種類",
-        "Claude"
+        "Anthropic",
+        "自己複製AIの",
+        "兆し"
       ],
       "heat": {
-        "temperature": 53,
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 277,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 15.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-13cea613",
+      "title": "【注意喚起】 相次ぐ情報漏えい、その原因の一つは「アプリ解析からのサーバ攻撃」｜2026年｜NICT-情報通信研究機構",
+      "url": "https://www.nict.go.jp/press/2026/10/13-1.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-13T05:15:17.000Z",
+      "summaryJa": [
+        "トップ>広報>プレスリリース>2026年>【注意喚起】 相次ぐ情報漏えい、その原因の一つは「アプリ解析からのサーバ攻撃」",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "注意喚起",
+        "相次ぐ情報漏えい",
+        "アプリ解析からのサーバ攻撃",
+        "｜2026年｜NICT",
+        "情報通信研究機構"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 481,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 32
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-66377db0",
+      "title": "ロシアが北海道新聞記者をスパイ容疑で拘束 治安機関が発表",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261013de58917",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-13T19:27:00.000Z",
+      "summaryJa": [
+        "ロシアの治安機関は北海道新聞のユジノサハリンスク支局の日本人の男性記者をスパイ容疑で拘束したと発表しました。",
+        "首都モスクワにある日本大使館は「事実関係の確認を急いでいる」としています。",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ロシアが北海道新聞記者をスパイ容疑で拘束",
+        "治安機関が発表"
+      ],
+      "heat": {
+        "temperature": 60,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 8,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-5b723f87",
+      "title": "個人情報の流出「不安感じる」77％ NHK世論調査",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261013de58351",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-13T20:01:49.000Z",
+      "summaryJa": [
+        "不正アクセスによる情報漏えいが相次いでいることを受けて、NHKの世論調査で、自分の個人情報が流出する不安を感じるか尋ねたところ、「感じる」と答えた人が77％に上",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "個人情報の流出",
+        "不安感じる",
+        "NHK世論調査"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -227,240 +282,59 @@
       "image": null
     },
     {
-      "id": "hn-front-15a7d909",
-      "title": "I turned my unused Kindle into a photo frame with GPT-6 Astra",
-      "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+      "id": "hn-front-7977376c",
+      "title": "11 year old unsoundness bugs found in Rust borrow checker",
+      "url": "https://github.com/rust-lang/rust/issues/164250",
       "source": "Hacker News",
       "sourceId": "hn-front",
-      "publishedAt": "2026-10-12T23:07:25.000Z",
+      "publishedAt": "2026-10-13T10:27:00.000Z",
       "summaryJa": [
-        "I turned my unused Kindle into a photo frame with ",
+        "11 year old unsoundness bugs found in Rust borrow ",
         "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "turned",
-        "unused",
-        "Kindle",
-        "photo",
-        "frame"
+        "year",
+        "old",
+        "unsoundness",
+        "bugs",
+        "found"
       ],
       "heat": {
         "temperature": 81,
         "signals": {
-          "hnPoints": 128,
-          "hatebuCount": 0,
-          "ageHours": 4,
-          "crossSources": 1,
-          "velocity": 34.8
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-2c9ef4c4",
-      "title": "Announcing AWS Lambda Web Functions | Amazon Web Services",
-      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-12T23:29:58.000Z",
-      "summaryJa": [
-        "The session catalog is live.",
-        "Explore what's waiting for you",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Announcing",
-        "AWS",
-        "Lambda",
-        "Web",
-        "Functions"
-      ],
-      "heat": {
-        "temperature": 84,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 33,
-          "ageHours": 3,
-          "crossSources": 1,
-          "velocity": 10
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-f399c95f",
-      "title": "【2026年版】Fateで理解するローカルLLMの選び方",
-      "url": "https://zenn.dev/akari1106/articles/3a050fde72159d",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-12T13:17:13.000Z",
-      "summaryJa": [
-        "!",
-        "この記事は、友人に「AI界隈やローカルLLMって、どんな感じなの？",
-        "」と聞かれて話した内容を、記事用に書き直したものです。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "2026年版",
-        "Fateで理解するローカルLLMの選び方"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 14,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-937dd8ea",
-      "title": "PRコメントからKubernetesに訊く ~GitHub ActionsからA2Aエージェントをシークレットレスで繋ぐ~",
-      "url": "https://zenn.dev/hyeonjae/articles/secretless-a2a-github-actions-ja",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-12T14:31:57.000Z",
-      "summaryJa": [
-        "A2Aエージェントを活用するにあたって、セキュリティの観点からどのように補強していったかを整理します。",
-        "1.",
-        "背景 まず現在の状況を分かりやすく整理します。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "~GitHub"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 12,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-fb321145",
-      "title": "whisperの文字起こしにJevで話者ラベルを付けようとしたら、Jevは要らなかった",
-      "url": "https://zenn.dev/ik11235/articles/whisper-jev-speaker-label",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-12T10:30:01.000Z",
-      "summaryJa": [
-        "はじまり 皆さん、会議の議事録などはどうしているでしょうか？",
-        "最近はAI関連のツールが豊富で、たとえばNotionならAIミーティングノート、Google MeetならGeminiによる文字起こしがあります。",
-        "さらにNotionのAIミーティングノートは話者を特定してラベルを付けてくれるので、誰の発言かを文脈や録画から追わなくても確認できます。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Jevは要らなかった"
-      ],
-      "heat": {
-        "temperature": 50,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 16,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-5f5a9a98",
-      "title": "ESP32 As Your Raspberry Pi’s Linux Wireless Co-processor",
-      "url": "https://hackaday.com/2026/10/07/esp32-as-your-raspberry-pis-linux-wireless-co-processor/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-12T18:00:48.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "ESP32",
-        "Raspberry",
-        "Pi’s",
-        "Linux",
-        "Wireless"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 9,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-7cea2c60",
-      "title": "Speeding up the Unreal editor by… not using unnecessarily secure hash methods",
-      "url": "https://larstofus.com/2026/10/11/speeding-up-the-unreal-editor-by-not-using-unnecessarily-secure-hash-methods/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-12T18:37:55.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Speeding",
-        "Unreal",
-        "editor",
-        "unnecessarily",
-        "secure"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 8,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-8e857554",
-      "title": "your c is not standard c",
-      "url": "https://sebsite.pw/w/20261012-notstdc.html",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-12T17:17:18.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "standard"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
+          "hnPoints": 607,
           "hatebuCount": 0,
           "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 61.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "ucl",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-13T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "ucl"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -470,38 +344,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-ba6b50c6",
-      "title": "frain-dev/convoy — The Cloud Native Webhooks Gateway",
-      "url": "https://github.com/frain-dev/convoy",
+      "id": "github-gems-255160b1",
+      "title": "rafska/awesome-local-llm — A curated list of awesome platforms, tools, practices and resources that helps run LLMs locally",
+      "url": "https://github.com/rafska/awesome-local-llm",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-10-12T23:52:19Z",
+      "publishedAt": "2026-10-13T16:26:29Z",
       "summaryJa": [
-        "The Cloud Native Webhooks Gateway",
+        "A curated list of awesome platforms, tools, practices and resources that helps r",
         "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "frain",
-        "dev/convoy",
-        "Cloud",
-        "Native",
-        "Webhooks"
+        "rafska/awesome",
+        "local",
+        "llm",
+        "curated",
+        "list"
       ],
       "heat": {
         "temperature": 54,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 3,
+          "ageHours": 4,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "Webフック配信を堅牢にさばく仕組みを自前で抱え込まず、基盤として切り出す設計思想が美しくまとまっています。週末に手元のWebサービス基盤へ組み込んで試すのにうってつけの道具です。"
+    "reason": "手元の計算資源でAIを動かすという試みは、外部のクラウドに依存しない作り手にとっての自律の第一歩です。日々の実験の手助けとなる知識が集積されています。"
   },
   "unavailableSources": []
 }

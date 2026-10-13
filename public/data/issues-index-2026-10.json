@@ -183,6 +183,13 @@
       "edition": "midday",
       "theme": "精度の原点と、引き算の設計",
       "path": "issues/2026-10-13-midday.json"
+    },
+    {
+      "issueNo": 191,
+      "date": "2026-10-14",
+      "edition": "morning",
+      "theme": "侵食するネットワークと物理の軋み",
+      "path": "issues/2026-10-14-morning.json"
     }
   ]
 }

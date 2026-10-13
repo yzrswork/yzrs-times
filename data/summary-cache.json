@@ -1,96 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "656bee235eb67a4b": {
-      "url": "https://zenn.dev/neet/articles/11bafab8645995",
-      "summaryJa": [
-        "!",
-        "AI 利用の開示：この記事を書くにあたっての調査やブレインストーミング、校正には AI を用いましたが、本文の執筆やコードの実装、および出典の確認はすべて人間が",
-        "AI は好きだが AI 企業は嫌いだ こんにちは。"
-      ],
-      "cachedAt": "2026-07-15T05:18:11.420Z"
-    },
-    "0d15af861f868e97": {
-      "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
-      "summaryJa": [
-        "Jurassic Park computers in excruciating detail",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-15T05:18:11.420Z"
-    },
-    "827d361d1bbc1d17": {
-      "url": "https://lrc.cs.dartmouth.edu/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-15T05:18:11.420Z"
-    },
-    "a0bc0f630680e91c": {
-      "url": "https://prismml.com/news/bonsai-27b",
-      "summaryJa": [
-        "Bonsai 27B: A 27B-Class model that runs on a phone",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-15T05:18:11.421Z"
-    },
-    "7ed22b7a3a3a9b0d": {
-      "url": "https://yatta47.hateblo.jp/entry/2026/03/20/221447",
-      "summaryJa": [
-        "今回はコラムのような感じ。",
-        "ちょっとしたきっかけで思い浮かんだので書いてみる。",
-        "きっかけ: 6年前のスライドが今も正しかった Songmu氏（松木雅幸、Nature CTO）が2020年のInfra Study Meetupで発表した「In"
-      ],
-      "cachedAt": "2026-07-15T05:18:11.421Z"
-    },
-    "4462e9e4a435cdad": {
-      "url": "https://zenn.dev/genda_jp/articles/46745564b7a9dd",
-      "summaryJa": [
-        "はじめに 株式会社GENDA 開発部エンジニアの奥山です。",
-        "先日、「Claude Code サブエージェントのネスト機能で .",
-        "claude/agents/ の定義が効いた話」を書きました。"
-      ],
-      "cachedAt": "2026-07-15T05:18:11.421Z"
-    },
-    "118d38dbe287824e": {
-      "url": "https://qiita.com/akachiryo/items/5a1deaa541d70e11d85f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "お疲れ様です！",
-        "前回までで「index」「レースコンディション（ユニーク制約）」あたりを扱ってきましたが、今回は 暗号化とハッシュ の話です。",
-        "Railsを使っていると当たり前に出てくる master."
-      ],
-      "cachedAt": "2026-07-15T05:18:11.421Z"
-    },
-    "f40f74ff7f26b8a4": {
-      "url": "https://nelsonslog.wordpress.com/2026/07/14/a-modern-http-request/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-15T05:18:11.421Z"
-    },
-    "15ab653984df00d7": {
-      "url": "https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-15T05:18:11.421Z"
-    },
-    "fddb522133ad3c74": {
-      "url": "https://github.com/probonopd/MiniDexed",
-      "summaryJa": [
-        "Dexed FM synthesizer similar to 8x DX7 (TX816/TX802) running on a bare metal Ras",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-15T05:18:11.421Z"
-    },
     "2fe98d05b4bbb687": {
       "url": "https://note.com/uchita_success/n/n030ad63765d3",
       "summaryJa": [
@@ -15102,6 +15012,69 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-13T02:49:33.738Z"
+    },
+    "aec1a7d8bce33c4d": {
+      "url": "https://www.itmedia.co.jp/news/article/2610/13/2000002201/",
+      "summaryJa": [
+        "フランスのスーパーマーケットで10月11日夜から12日（現地時間）にかけて、冷蔵・冷凍設備を標的とする大規模なサイバー攻撃が発生した。",
+        "報道によると、冷蔵設備の温度が最高50度に上昇し、生鮮食品や冷凍食品が大量に廃棄される被害が出ている。",
+        "被害は数百店舗に及び、フランス当局が捜査を開始した。"
+      ],
+      "cachedAt": "2026-10-13T20:20:44.368Z"
+    },
+    "c196433d767ede31": {
+      "url": "https://www.itmedia.co.jp/news/article/2610/13/2000002204/",
+      "summaryJa": [
+        "米Anthropicは10月12日（現地時間）、小型のAIモデルがデータセンターを使わずに安価なIoT機器上で自己複製できるようになる可能性があるとする研究結果",
+        "同社のフロンティアレッドチームによるもので、30Bパラメータ以下の小型モデルが、スマートオーブンやノーブランドのAndroid TVボックスのような市販IoT.",
+        "."
+      ],
+      "cachedAt": "2026-10-13T20:20:44.368Z"
+    },
+    "13cea6136f6da05c": {
+      "url": "https://www.nict.go.jp/press/2026/10/13-1.html",
+      "summaryJa": [
+        "トップ>広報>プレスリリース>2026年>【注意喚起】 相次ぐ情報漏えい、その原因の一つは「アプリ解析からのサーバ攻撃」",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-13T20:20:44.368Z"
+    },
+    "66377db06555927b": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261013de58917",
+      "summaryJa": [
+        "ロシアの治安機関は北海道新聞のユジノサハリンスク支局の日本人の男性記者をスパイ容疑で拘束したと発表しました。",
+        "首都モスクワにある日本大使館は「事実関係の確認を急いでいる」としています。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-13T20:20:44.368Z"
+    },
+    "5b723f874bde39d3": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261013de58351",
+      "summaryJa": [
+        "不正アクセスによる情報漏えいが相次いでいることを受けて、NHKの世論調査で、自分の個人情報が流出する不安を感じるか尋ねたところ、「感じる」と答えた人が77％に上",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-13T20:20:44.368Z"
+    },
+    "e011cc3858c1d4e2": {
+      "url": "https://github.com/rust-lang/rust/issues/164250",
+      "summaryJa": [
+        "11 year old unsoundness bugs found in Rust borrow ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-13T20:20:44.368Z"
+    },
+    "4e172fa17ec05b85": {
+      "url": "https://github.com/rafska/awesome-local-llm",
+      "summaryJa": [
+        "A curated list of awesome platforms, tools, practices and resources that helps r",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-13T20:20:44.368Z"
     }
   }
 }

@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 191,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-14",
+  "dateDisplay": "Wednesday, October 14, 2026",
+  "pressTimeJst": "2026-10-14 05:00",
+  "generatedAt": "2026-10-13T20:18:06.746Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "侵食するネットワークと物理の軋み",
+    "note": "サイバー攻撃が冷蔵庫の温度を変え、小型AIがIoT機器上で増殖する。画面の中のコードが物理世界をいかに揺らしているか。"
+  },
+  "editorial": {
+    "comment": "フランスの冷蔵設備へのサイバー攻撃は、デジタルの脆弱性が物理的な廃棄を生むという、最も避けるべき最悪の連鎖を体現しています。—— YZRS Times 編集長",
+    "passedOver": "Getty Imagesの破産申請。ビジネスの崩壊よりも、今はネットワーク経由の攻撃がもたらす物理的な混乱に焦点を当てた。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "弱い雨",
+    "icon": "rain",
+    "tempMax": 25,
+    "tempMin": 18,
+    "precipChancePct": 56
+  },
+  "market": {
+    "fearGreed": {
+      "value": 57,
+      "label": "Greed"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 83193,
+        "priceJpy": 13172011,
+        "change24hPct": 0.25,
+        "sparkline7d": [
+          85610.79,
+          83282.05,
+          82361.78,
+          82734.29,
+          82921.38,
+          82522.76,
+          83088.16
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2507.33,
+        "priceJpy": 396987,
+        "change24hPct": -0.63,
+        "sparkline7d": [
+          2691.69,
+          2573.23,
+          2491.7,
+          2493.3,
+          2498.42,
+          2522.05,
+          2507.48
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.192104,
+        "priceJpy": 30.42,
+        "change24hPct": -2.68,
+        "sparkline7d": [
+          0.212506,
+          0.200298,
+          0.194374,
+          0.196809,
+          0.196165,
+          0.196623,
+          0.192255
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 273.22,
+        "priceJpy": 43259,
+        "change24hPct": -0.44,
+        "sparkline7d": [
+          314.55,
+          300.1,
+          278.81,
+          278.14,
+          276.95,
+          275.9,
+          272.99
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-aec1a7d8",
+    "hatebu-it-c196433d",
+    "hatebu-it-13cea613"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-66377db0",
+        "nhk-top-5b723f87"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hn-front-7977376c"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-aec1a7d8",
+      "title": "フランスのスーパー数百店舗で冷蔵設備にサイバー攻撃　温度が最高50度に上昇し食品大量廃棄に",
+      "url": "https://www.itmedia.co.jp/news/article/2610/13/2000002201/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-13T01:57:29.000Z",
+      "summaryJa": [
+        "フランスのスーパーマーケットで10月11日夜から12日（現地時間）にかけて、冷蔵・冷凍設備を標的とする大規模なサイバー攻撃が発生した。",
+        "報道によると、冷蔵設備の温度が最高50度に上昇し、生鮮食品や冷凍食品が大量に廃棄される被害が出ている。",
+        "被害は数百店舗に及び、フランス当局が捜査を開始した。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "温度が最高50度に上昇し食品大量廃棄に"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 473,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 25.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-c196433d",
+      "title": "Anthropic、自己複製AIの「兆し」を指摘　55ドルのTVボックス15台で26Bモデルが稼働",
+      "url": "https://www.itmedia.co.jp/news/article/2610/13/2000002204/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-13T02:55:22.000Z",
+      "summaryJa": [
+        "米Anthropicは10月12日（現地時間）、小型のAIモデルがデータセンターを使わずに安価なIoT機器上で自己複製できるようになる可能性があるとする研究結果",
+        "同社のフロンティアレッドチームによるもので、30Bパラメータ以下の小型モデルが、スマートオーブンやノーブランドのAndroid TVボックスのような市販IoT.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Anthropic",
+        "自己複製AIの",
+        "兆し"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 277,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 15.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-13cea613",
+      "title": "【注意喚起】 相次ぐ情報漏えい、その原因の一つは「アプリ解析からのサーバ攻撃」｜2026年｜NICT-情報通信研究機構",
+      "url": "https://www.nict.go.jp/press/2026/10/13-1.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-13T05:15:17.000Z",
+      "summaryJa": [
+        "トップ>広報>プレスリリース>2026年>【注意喚起】 相次ぐ情報漏えい、その原因の一つは「アプリ解析からのサーバ攻撃」",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "注意喚起",
+        "相次ぐ情報漏えい",
+        "アプリ解析からのサーバ攻撃",
+        "｜2026年｜NICT",
+        "情報通信研究機構"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 481,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 32
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-66377db0",
+      "title": "ロシアが北海道新聞記者をスパイ容疑で拘束 治安機関が発表",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261013de58917",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-13T19:27:00.000Z",
+      "summaryJa": [
+        "ロシアの治安機関は北海道新聞のユジノサハリンスク支局の日本人の男性記者をスパイ容疑で拘束したと発表しました。",
+        "首都モスクワにある日本大使館は「事実関係の確認を急いでいる」としています。",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ロシアが北海道新聞記者をスパイ容疑で拘束",
+        "治安機関が発表"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-5b723f87",
+      "title": "個人情報の流出「不安感じる」77％ NHK世論調査",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261013de58351",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-13T20:01:49.000Z",
+      "summaryJa": [
+        "不正アクセスによる情報漏えいが相次いでいることを受けて、NHKの世論調査で、自分の個人情報が流出する不安を感じるか尋ねたところ、「感じる」と答えた人が77％に上",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "個人情報の流出",
+        "不安感じる",
+        "NHK世論調査"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-7977376c",
+      "title": "11 year old unsoundness bugs found in Rust borrow checker",
+      "url": "https://github.com/rust-lang/rust/issues/164250",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-13T10:27:00.000Z",
+      "summaryJa": [
+        "11 year old unsoundness bugs found in Rust borrow ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "year",
+        "old",
+        "unsoundness",
+        "bugs",
+        "found"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 607,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 61.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "ucl",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-13T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "ucl"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-255160b1",
+      "title": "rafska/awesome-local-llm — A curated list of awesome platforms, tools, practices and resources that helps run LLMs locally",
+      "url": "https://github.com/rafska/awesome-local-llm",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-13T16:26:29Z",
+      "summaryJa": [
+        "A curated list of awesome platforms, tools, practices and resources that helps r",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "rafska/awesome",
+        "local",
+        "llm",
+        "curated",
+        "list"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "手元の計算資源でAIを動かすという試みは、外部のクラウドに依存しない作り手にとっての自律の第一歩です。日々の実験の手助けとなる知識が集積されています。"
+  },
+  "unavailableSources": []
+}
