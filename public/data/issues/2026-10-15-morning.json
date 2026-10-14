@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 193,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-15",
+  "dateDisplay": "Thursday, October 15, 2026",
+  "pressTimeJst": "2026-10-15 05:00",
+  "generatedAt": "2026-10-14T20:17:41.143Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-flash-latest",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "膨張する実行系と、素朴な防壁",
+    "note": "AIが生成するコードや自動化された運用基盤が急速に肥大化する一方、セキュリティやバリデーションといった基礎的な防壁の脆弱さが露呈しています。"
+  },
+  "editorial": {
+    "comment": "AnthropicがGitを捨てて独自VCS「Scion」へ移行したというニュースは、AI生成コードの激増が既存の開発インフラの限界をいかに早く引き寄せているかを物語っています。自前で道具を鍛え直す決断力を見習いたいものです。—— YZRS Times 編集長",
+    "passedOver": "米国ICEの1億ドル規模の国内監視計画は関心を集めたものの、国内技術者の朝のインプットとして波及度が小さいため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ時々曇り",
+    "icon": "partly-cloudy",
+    "tempMax": 22,
+    "tempMin": 17,
+    "precipChancePct": 6
+  },
+  "market": {
+    "fearGreed": {
+      "value": 62,
+      "label": "Greed"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 81854,
+        "priceJpy": 12963048,
+        "change24hPct": -1.59,
+        "sparkline7d": [
+          83397.31,
+          81685.89,
+          82529.13,
+          82950.45,
+          83438.73,
+          83462.43,
+          81652.95
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2429.73,
+        "priceJpy": 384790,
+        "change24hPct": -3.06,
+        "sparkline7d": [
+          2569.8,
+          2472.73,
+          2489.58,
+          2498.99,
+          2553.91,
+          2515.66,
+          2429.66
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.184052,
+        "priceJpy": 29.15,
+        "change24hPct": -4.12,
+        "sparkline7d": [
+          0.198754,
+          0.191956,
+          0.195722,
+          0.195219,
+          0.201117,
+          0.192233,
+          0.183986
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 269.97,
+        "priceJpy": 42754,
+        "change24hPct": -1.13,
+        "sparkline7d": [
+          300.26,
+          270.96,
+          278.54,
+          277.38,
+          282.96,
+          272.16,
+          269.48
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-4b09f249",
+    "hn-front-5e420c5a",
+    "nhk-top-9ba17de5"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-b823d204",
+        "nhk-top-237a1132",
+        "nhk-world-2ece7504"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-5442e66a",
+        "hatebu-it-9410f0a7"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-4b09f249",
+      "title": "AnthropicがGit代替のバージョン管理システム「Scion」を開発し社内移行済み、AIでコードが爆増してGitの限界に達したので耐えられるシステムを開発",
+      "url": "https://gigazine.net/news/20261014-anthropic-scion-version-control-system/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-14T04:36:13.000Z",
+      "summaryJa": [
+        "Claudeの開発元として知られるAI企業のAnthropicが、Gitの代わりとなるバージョン管理システム「Scion」を開発したことを発表しました。",
+        "ScionはAnthropicの社内システムとして運用されており、すでにGitからの移行を達成しているそうです。",
+        "Redesigning source control at Anthropic \\ Anthropic https://www."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Scion"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 151,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 9.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-5e420c5a",
+      "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-14T17:45:23.000Z",
+      "summaryJa": [
+        "AI agents aren't 'going rogue.' Frontier labs are ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "AI",
+        "agents",
+        "aren",
+        "going",
+        "rogue"
+      ],
+      "heat": {
+        "temperature": 90,
+        "signals": {
+          "hnPoints": 669,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 263.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-9ba17de5",
+      "title": "国内初 遠隔で手術ロボット操作し支援 弘前大など",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261014de59458",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-14T13:34:28.000Z",
+      "summaryJa": [
+        "手術用のロボットを離れた場所にいる医師が操作し、遠隔で手術を支援する臨床研究を実施したと弘前大学などが発表しました。",
+        "ロボットを使って遠隔で手術に参加したのは国内初だということです。",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "国内初",
+        "遠隔で手術ロボット操作し支援",
+        "弘前大など"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-b823d204",
+      "title": "北海道新聞記者の拘束受けて状況などの確認急ぐ 日本政府",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261015de59523",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-14T19:52:09.000Z",
+      "summaryJa": [
+        "ロシアの治安機関が北海道新聞の記者を拘束したと発表したことを受けて、日本政府は、速やかな情報提供などをロシア側に申し入れました。",
+        "拘束に至った状況などの確認を急ぎ、必要な対応を検討していくことにしていま…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "日本政府"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-237a1132",
+      "title": "簗農相辞表提出 首相きょう後任決定方針 野党は任命責任追及へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261015de59520",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-14T19:40:28.000Z",
+      "summaryJa": [
+        "地元の道路予算に関する発言など相次いで問題が指摘された簗農林水産大臣が辞表を提出したことを受けて、高市総理大臣は、15日中に後任を決める方針です。",
+        "政府・与党は速やかに態勢の立て直しを図りたい考えなのに…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "簗農相辞表提出",
+        "首相きょう後任決定方針",
+        "野党は任命責任追及へ"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-2ece7504",
+      "title": "AIがもたらすのは希望か脅威か アンソロピック創業者に問う",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261014de59452",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-10-14T13:17:53.000Z",
+      "summaryJa": [
+        "いまや暮らしに身近な存在になったAIですが、相次ぐ「サイバー攻撃」に使われた可能性が指摘されるなど不安も広がっています。",
+        "AIが社会にもたらすのは「希望」か「脅威」か。",
+        "ニュースウオッチ9の広内キ…"
+      ],
+      "category": "news",
+      "keywords": [
+        "AIがもたらすのは希望か脅威か",
+        "アンソロピック創業者に問う"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-5442e66a",
+      "title": "Claude Codeがほとんどの場合、動画編集してくれる。8時間の素材を30分で1時間に編集。字幕もつけられる｜shi3z",
+      "url": "https://note.com/shi3zblog/n/ncb38d2978074",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-14T06:49:13.000Z",
+      "summaryJa": [
+        "Claude Codeがほとんどの場合、動画編集してくれる。",
+        "8時間の素材を30分で1時間に編集。",
+        "字幕もつけられる 実はClaude Codeは長時間動画を見ることができる。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Codeがほとんどの場合",
+        "動画編集してくれる",
+        "8時間の素材を30分で1時間に編集",
+        "字幕もつけられる｜shi3z"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 153,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 11.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-9410f0a7",
+      "title": "SBI証券のFXで“誤ロスカット”　再委託先IIJが作業ミス、システムでも検知できず　779口座が対象",
+      "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002249/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-14T03:40:55.000Z",
+      "summaryJa": [
+        "担保の株反映されず「保証金不足」と誤判定→ロスカット FXは、預けた保証金の数倍の金額で外貨を売買できる取引。",
+        "損失によって保証金が一定の水準まで減ると、証券会社はそれ以上損失が広がらないよう、まだ決済していない取引（ポジション）を自動で決済（ロスカット）する。",
+        "「株券担保サービス」は、証券口座で保有す."
+      ],
+      "category": "programming",
+      "keywords": [
+        "SBI証券のFXで",
+        "誤ロスカット",
+        "再委託先IIJが作業ミス",
+        "システムでも検知できず",
+        "779口座が対象"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 172,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 10.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "メジャーリーグベースボール",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-14T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "メジャーリーグベースボール"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-779568a9",
+      "title": "cesanta/mongoose-os — Mongoose OS - an IoT Firmware Development Framework. Supported microcontrollers: ESP32, ESP8266, CC3220, CC3200, STM32F4, STM32L4, STM32F7. Amazon AWS IoT, Microsoft Azure, Google IoT Core integrated. Code in C or JavaScript.",
+      "url": "https://github.com/cesanta/mongoose-os",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-14T13:38:15Z",
+      "summaryJa": [
+        "Mongoose OS - an IoT Firmware Development Framework.",
+        "Supported microcontrollers: ESP32, ESP8266, CC3220, CC3200, STM32F4, STM32L4, ST",
+        "Amazon AWS IoT, Microsoft Azure, Google IoT Core integrated."
+      ],
+      "category": "oss",
+      "keywords": [
+        "cesanta/mongoose",
+        "os",
+        "Mongoose",
+        "IoT",
+        "Firmware"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "ESP32やSTM32で動作し、C言語だけでなくJavaScriptでもIoT機器を素早く試作できる軽量基盤です。手元の電子工作プロジェクトでクラウド連携をサクッと検証したい場面に重宝します。"
+  },
+  "unavailableSources": []
+}
