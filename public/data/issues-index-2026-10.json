@@ -190,6 +190,13 @@
       "edition": "morning",
       "theme": "侵食するネットワークと物理の軋み",
       "path": "issues/2026-10-14-morning.json"
+    },
+    {
+      "issueNo": 192,
+      "date": "2026-10-14",
+      "edition": "midday",
+      "theme": "自律する粘菌と、壊れた壁の向こう側",
+      "path": "issues/2026-10-14-midday.json"
     }
   ]
 }

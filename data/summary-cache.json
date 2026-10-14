@@ -1,69 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "2fe98d05b4bbb687": {
-      "url": "https://note.com/uchita_success/n/n030ad63765d3",
-      "summaryJa": [
-        "一番意外だったのは、7つのうち“1つの型”だけで45%を占めていたこと。",
-        "一流ほど、派手な技より“基本の型”を使い倒すんです。",
-        "全部言語化して、AIで再現するプロンプトも作ったので置いておきます。"
-      ],
-      "cachedAt": "2026-07-15T21:18:29.254Z"
-    },
-    "5ae5e6cbae43a595": {
-      "url": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/",
-      "summaryJa": [
-        "Running Gemma 4 26B at 5 tokens/sec on a 13-year-o",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-15T21:18:29.254Z"
-    },
-    "64b32c3f6720eeef": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015178061000",
-      "summaryJa": [
-        "中東地域を管轄するアメリカ中央軍はアメリカ東部時間の15日午後3時、日本時間の16日午前4時からイランに対する追加攻撃を開始したと発表しました。",
-        "イランへの攻撃は5日連続で行われ、15日に入ってからは2…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-15T21:18:29.255Z"
-    },
-    "244046abb66aa71f": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015176901000",
-      "summaryJa": [
-        "第175回芥川賞と直木賞の選考会が15日、都内で開かれ、芥川賞に小砂川チトさんの「ゾンビ回収婦」が、直木賞に朝倉かすみさんの「けんぐゎい」がそれぞれ選ばれました",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-15T21:18:29.255Z"
-    },
-    "c7808fa7dbc7650e": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015177751000",
-      "summaryJa": [
-        "冷凍食品大手の「ニチレイ」でシステム障害が発生し、外食チェーンなどの間で商品の欠品などの影響が出ている問題で、会社はサイバー攻撃を受けたと公表しました。",
-        "ニチレイは13日、不正アクセスによるシステ…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-15T21:18:29.255Z"
-    },
-    "8c3acf43834d43ba": {
-      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
-      "summaryJa": [
-        "Inkling: Our Open-Weights Model",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-15T21:18:29.255Z"
-    },
-    "f6b9f0630137ba81": {
-      "url": "https://github.com/dmellok/tesserae",
-      "summaryJa": [
-        "E-ink dashboard companion.",
-        "Compose dashboards in a browser, render server-side, and push to e-ink panels ov",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-15T21:18:29.255Z"
-    },
     "38df8dd73584557d": {
       "url": "https://levtech.jp/media/detail_891/",
       "summaryJa": [
@@ -15075,6 +15012,114 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-13T20:20:44.368Z"
+    },
+    "e2f565283d4cb623": {
+      "url": "https://www.nikkei.com/article/DGXZQOGN140170U6A011C2000000/",
+      "summaryJa": [
+        "【シリコンバレー=山田遼太郎】米アンソロピックは12日、人工知能（AI）がインターネット接続するテレビなどのスマート家電を乗っ取り、自ら増殖する能力を持つ可能性",
+        "無数の機器に「粘菌」のようにAIが広がれば、セキュリティーリスクを生むと指摘した。",
+        "同社でAIの安全対策などに取り組む研究者らがブ."
+      ],
+      "cachedAt": "2026-10-14T02:50:33.379Z"
+    },
+    "520cf8d6823bfb64": {
+      "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002236/",
+      "summaryJa": [
+        "社内の監視カメラの映像には、装置の発見前に同容疑者が複数回にわたって役員会議室の付近に現れる様子が映っていた。",
+        "同容疑者には、この会議室への立ち入りや会議への参加の権限はなかった。",
+        "訴状によると、この会議室では独自の研究や製品計画、事業開発の機会に加え、技術的な進捗や戦略上の判断、政府との関わり、商."
+      ],
+      "cachedAt": "2026-10-14T02:50:33.379Z"
+    },
+    "cc8b0376e3d9bb6f": {
+      "url": "https://zenn.dev/keigoly/articles/8738d8d241b5a1",
+      "summaryJa": [
+        "はじめに 2026 年 10 月 13 日、話題の逆解析ツール「REA」を、AI エージェントである Claude Code に接続して試験導入を行いました。",
+        "逆解析の道具をそのままエージェントに渡す運用には安全上の懸念があるため、専用の隔離環境を整えた上で実務課題を用いた評価を実施しています。",
+        "静的な JavaScript や Web の解析において、標準の道具と REA で回答の正確さは同等でした REA を導入した条件では試行錯誤が増え、所要時間は"
+      ],
+      "cachedAt": "2026-10-14T02:50:33.379Z"
+    },
+    "60d0a235888ac64a": {
+      "url": "https://www.apple.com/apple-homeview/",
+      "summaryJa": [
+        "Apple HomeView",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-14T02:50:33.379Z"
+    },
+    "c9808d52e261ba2a": {
+      "url": "https://pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2147381.html",
+      "summaryJa": [
+        "【やじうまミニレビュー】 宇宙ヤバイ！ベランダでアンドロメダ星雲が撮れるスマート望遠鏡DWARF m",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-14T02:50:33.379Z"
+    },
+    "21dbd72452c5bd6e": {
+      "url": "https://zenn.dev/lube8163/articles/594bea1c0f8397",
+      "summaryJa": [
+        "2026年10月14日 · lube8163-lab · 探索的なローカル実験 画像生成モデルの中間表現を送れば、画像を小さなデータに圧縮しつつ意味を伝えられる",
+        "これを出発点として、中間特徴を量子化して送る方式と、画像を文章にして受信側で描き直す方式を検証した。",
+        "今回の写真11枚では、数百バイトの文章でも「何の画像か」という近さは保てた。"
+      ],
+      "cachedAt": "2026-10-14T02:50:33.379Z"
+    },
+    "f3fe67560bdde247": {
+      "url": "https://zenn.dev/kzq/articles/swiftdata-rollback-ios27",
+      "summaryJa": [
+        "個人開発しているゲームアプリのテストを、iOS 27 のシミュレータで回してみた。",
+        "いつもは iOS 26.",
+        "5 で回していて、そこでは通っているテストだ。"
+      ],
+      "cachedAt": "2026-10-14T02:50:33.379Z"
+    },
+    "b5dfcac369daab6c": {
+      "url": "https://qiita.com/kentawata/items/c78381bfe83e93e75893?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "AIをあまり使ってない友人と話した 最近AIで音楽とかゲームとか作ってるんだよね、と友人に話した。",
+        "そしたら「でもそれってオリジナルなの？",
+        "」「学習元があるんだから、コピーとか模倣を作ってるだけなんじゃないの」と言われた。"
+      ],
+      "cachedAt": "2026-10-14T02:50:33.379Z"
+    },
+    "6f87a3b1d066fbc7": {
+      "url": "https://blog.erincandescent.net/2026/10/mu-annoys-me/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-14T02:50:33.379Z"
+    },
+    "8d50d8f5c40468d3": {
+      "url": "https://www.youtube.com/watch?v=E6dWIwPLx3s",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-14T02:50:33.379Z"
+    },
+    "e62243609ef5e206": {
+      "url": "https://www.youtube.com/watch?v=uI1Yx1CJAB0",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-14T02:50:33.379Z"
+    },
+    "1a049bfccf652c21": {
+      "url": "https://www.byran.ee/posts/creation/",
+      "summaryJa": [
+        "Hello!",
+        "I&#x27;m Byran.",
+        "I spent the past ~6 months engineering a laptop from scratch."
+      ],
+      "cachedAt": "2026-10-14T02:50:33.379Z"
     }
   }
 }

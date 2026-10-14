@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-aaad82ae",
-      "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
-      "date": "2026-09-14"
-    },
-    {
-      "id": "show-hn-9a48ce0c",
-      "url": "https://www.byran.ee/posts/creation/",
-      "date": "2026-09-14"
-    },
-    {
       "id": "github-gems-5b453f22",
       "url": "https://github.com/schellingb/TinySoundFont",
       "date": "2026-09-15"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-255160b1",
       "url": "https://github.com/rafska/awesome-local-llm",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "show-hn-9a48ce0c",
+      "url": "https://www.byran.ee/posts/creation/",
       "date": "2026-10-14"
     }
   ]

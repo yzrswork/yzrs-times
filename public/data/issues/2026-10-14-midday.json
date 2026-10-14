@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 192,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-10-14",
+  "dateDisplay": "Wednesday, October 14, 2026",
+  "pressTimeJst": "2026-10-14 12:00",
+  "generatedAt": "2026-10-14T02:47:38.160Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "自律する粘菌と、壊れた壁の向こう側",
+    "note": "AIの自己増殖可能性という警鐘と、内部侵入による管理の綻び。物理と論理の境界が薄れる中、手元の実装にどう規律を持つべきか。"
+  },
+  "editorial": {
+    "comment": "アンソロピックの「デジタル粘菌」の指摘は、AIをツールとして制御する前提そのものを揺るがす警告です。手元で動かすロジックをどれだけ隔離できるか、今日の記事はその闘いの記録です。—— YZRS Times 編集長",
+    "passedOver": "Getty Imagesの破産申請。ビジネスモデルの崩壊は痛ましいが、今日の作り手の鼓動には直接響かないため見送った。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "弱い雨",
+    "icon": "rain",
+    "tempMax": 24,
+    "tempMin": 18,
+    "precipChancePct": 56
+  },
+  "market": {
+    "fearGreed": {
+      "value": 62,
+      "label": "Greed"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 83349,
+        "priceJpy": 13198522,
+        "change24hPct": 0.73,
+        "sparkline7d": [
+          84519.76,
+          82637.68,
+          82604.92,
+          82761.94,
+          83848.35,
+          83010.72,
+          83358.39
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2505.47,
+        "priceJpy": 396748,
+        "change24hPct": 0.97,
+        "sparkline7d": [
+          2663.41,
+          2560.47,
+          2500.95,
+          2497.22,
+          2549.33,
+          2516.96,
+          2505.68
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.190007,
+        "priceJpy": 30.09,
+        "change24hPct": -0.73,
+        "sparkline7d": [
+          0.208243,
+          0.198285,
+          0.194086,
+          0.197432,
+          0.205425,
+          0.197253,
+          0.190823
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 277.71,
+        "priceJpy": 43976,
+        "change24hPct": 3.68,
+        "sparkline7d": [
+          306.08,
+          294.93,
+          277.75,
+          279.46,
+          283.47,
+          274.03,
+          276.54
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-e2f56528",
+    "hatebu-it-520cf8d6",
+    "zenn-trend-cc8b0376"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hn-front-4d85d7ab",
+        "hatebu-it-c9808d52"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "zenn-trend-21dbd724",
+        "zenn-trend-f3fe6756",
+        "qiita-popular-b5dfcac3"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-6f87a3b1",
+        "lobsters-8d50d8f5",
+        "lobsters-e6224360"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-e2f56528",
+      "title": "AI、家電乗っ取り増殖の恐れ　アンソロピック「デジタル粘菌」と警告 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN140170U6A011C2000000/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-13T23:42:29.000Z",
+      "summaryJa": [
+        "【シリコンバレー=山田遼太郎】米アンソロピックは12日、人工知能（AI）がインターネット接続するテレビなどのスマート家電を乗っ取り、自ら増殖する能力を持つ可能性",
+        "無数の機器に「粘菌」のようにAIが広がれば、セキュリティーリスクを生むと指摘した。",
+        "同社でAIの安全対策などに取り組む研究者らがブ."
+      ],
+      "category": "programming",
+      "keywords": [
+        "AI",
+        "家電乗っ取り増殖の恐れ",
+        "アンソロピック",
+        "デジタル粘菌",
+        "日本経済新聞"
+      ],
+      "heat": {
+        "temperature": 89,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 68,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 22
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-520cf8d6",
+      "title": "OpenAI従業員、役員会議室に録音装置を仕掛けた疑いでFBIが逮捕",
+      "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002236/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-13T22:35:12.000Z",
+      "summaryJa": [
+        "社内の監視カメラの映像には、装置の発見前に同容疑者が複数回にわたって役員会議室の付近に現れる様子が映っていた。",
+        "同容疑者には、この会議室への立ち入りや会議への参加の権限はなかった。",
+        "訴状によると、この会議室では独自の研究や製品計画、事業開発の機会に加え、技術的な進捗や戦略上の判断、政府との関わり、商."
+      ],
+      "category": "programming",
+      "keywords": [
+        "OpenAI従業員"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 48,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 11.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-cc8b0376",
+      "title": "話題の逆解析 MCP「REA」を Claude Code に隔離してつないだ——静的解析の A/B 試験と安全設計",
+      "url": "https://zenn.dev/keigoly/articles/8738d8d241b5a1",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-13T17:54:44.000Z",
+      "summaryJa": [
+        "はじめに 2026 年 10 月 13 日、話題の逆解析ツール「REA」を、AI エージェントである Claude Code に接続して試験導入を行いました。",
+        "逆解析の道具をそのままエージェントに渡す運用には安全上の懸念があるため、専用の隔離環境を整えた上で実務課題を用いた評価を実施しています。",
+        "静的な JavaScript や Web の解析において、標準の道具と REA で回答の正確さは同等でした REA を導入した条件では試行錯誤が増え、所要時間は"
+      ],
+      "category": "programming",
+      "keywords": [
+        "話題の逆解析",
+        "MCP",
+        "REA",
+        "Claude",
+        "Code"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-4d85d7ab",
+      "title": "Apple HomeView",
+      "url": "https://www.apple.com/apple-homeview/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-13T13:02:12.000Z",
+      "summaryJa": [
+        "Apple HomeView",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Apple",
+        "HomeView"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 679,
+          "hatebuCount": 0,
+          "ageHours": 14,
+          "crossSources": 1,
+          "velocity": 49.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-c9808d52",
+      "title": "【やじうまミニレビュー】 宇宙ヤバイ！ベランダでアンドロメダ星雲が撮れるスマート望遠鏡DWARF mini",
+      "url": "https://pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2147381.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-13T23:36:02.000Z",
+      "summaryJa": [
+        "【やじうまミニレビュー】 宇宙ヤバイ！ベランダでアンドロメダ星雲が撮れるスマート望遠鏡DWARF m",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "mini"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 34,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 10.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-21dbd724",
+      "title": "画像は「言葉だけ」でどこまで送れるか――中間特徴とプロンプト再生成を比較した小規模検証",
+      "url": "https://zenn.dev/lube8163/articles/594bea1c0f8397",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-13T17:58:32.000Z",
+      "summaryJa": [
+        "2026年10月14日 · lube8163-lab · 探索的なローカル実験 画像生成モデルの中間表現を送れば、画像を小さなデータに圧縮しつつ意味を伝えられる",
+        "これを出発点として、中間特徴を量子化して送る方式と、画像を文章にして受信側で描き直す方式を検証した。",
+        "今回の写真11枚では、数百バイトの文章でも「何の画像か」という近さは保てた。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "画像は",
+        "言葉だけ"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-f3fe6756",
+      "title": "SwiftDataのrollback()、iOS 27で黙って挙動が変わっていた",
+      "url": "https://zenn.dev/kzq/articles/swiftdata-rollback-ios27",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-13T14:09:49.000Z",
+      "summaryJa": [
+        "個人開発しているゲームアプリのテストを、iOS 27 のシミュレータで回してみた。",
+        "いつもは iOS 26.",
+        "5 で回していて、そこでは通っているテストだ。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "SwiftDataのrollback",
+        "iOS",
+        "27で黙って挙動が変わっていた"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-b5dfcac3",
+      "title": "AIで作ったらオリジナルじゃないらしい。んなわけあるか。",
+      "url": "https://qiita.com/kentawata/items/c78381bfe83e93e75893?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-13T05:25:53.000Z",
+      "summaryJa": [
+        "AIをあまり使ってない友人と話した 最近AIで音楽とかゲームとか作ってるんだよね、と友人に話した。",
+        "そしたら「でもそれってオリジナルなの？",
+        "」「学習元があるんだから、コピーとか模倣を作ってるだけなんじゃないの」と言われた。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AIで作ったらオリジナルじゃないらしい"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 21,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-6f87a3b1",
+      "title": "Please stop hashing the public key first (or: ML-DSA's µ annoys me)",
+      "url": "https://blog.erincandescent.net/2026/10/mu-annoys-me/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-13T22:01:20.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Please",
+        "stop",
+        "hashing",
+        "public",
+        "key"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-8d50d8f5",
+      "title": "Accelerating the Zig Tokenizer (with AVX-512)",
+      "url": "https://www.youtube.com/watch?v=E6dWIwPLx3s",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-13T20:36:59.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Accelerating",
+        "Zig",
+        "Tokenizer",
+        "AVX"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-e6224360",
+      "title": "Data-oriented Design for Mortals",
+      "url": "https://www.youtube.com/watch?v=uI1Yx1CJAB0",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-13T18:54:29.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Data",
+        "oriented",
+        "Design",
+        "Mortals"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "show-hn-9a48ce0c",
+      "title": "Show HN: I made an open-source laptop from scratch",
+      "url": "https://www.byran.ee/posts/creation/",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2025-01-22T20:41:52.000Z",
+      "summaryJa": [
+        "Hello!",
+        "I&#x27;m Byran.",
+        "I spent the past ~6 months engineering a laptop from scratch."
+      ],
+      "category": "tech",
+      "keywords": [
+        "source",
+        "laptop",
+        "scratch"
+      ],
+      "heat": {
+        "temperature": 69,
+        "signals": {
+          "hnPoints": 3237,
+          "hatebuCount": 0,
+          "ageHours": 15102,
+          "crossSources": 1,
+          "velocity": 0.2
+        }
+      },
+      "image": null
+    },
+    "reason": "6ヶ月かけてゼロからラップトップを自作する情熱は、既製品の殻を破る究極の形です。ハードウェアとOSSへの理解を深めたいあなたにこそ見てほしい。"
+  },
+  "unavailableSources": []
+}
