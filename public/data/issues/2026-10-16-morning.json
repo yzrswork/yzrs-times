@@ -1,0 +1,466 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 195,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-16",
+  "dateDisplay": "Friday, October 16, 2026",
+  "pressTimeJst": "2026-10-16 05:00",
+  "generatedAt": "2026-10-15T20:17:42.611Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "改変される時間と、連鎖する穿孔",
+    "note": "うるう秒の廃止からAIを用いたセキュリティ侵害まで、長年の取り決めや防御の境界が変化する局面をとらえます。"
+  },
+  "editorial": {
+    "comment": "JPCERT/CCの報告（hatebu-it-4eb8e543）にもある通り、攻撃側がAIでスキャンを自動化する段階に入りました。うるう秒の廃止と同様、長年の前提を定期的に見直し足元を固める作業が作り手に求められています。—— YZRS Times 編集長",
+    "passedOver": "ソースネクストやバーガーキングなど大規模情報流出の個別報は多くありましたが、個別の事故対応よりJPCERT/CCによる構造的な攻撃手法調査に絞って掲載しました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "曇り",
+    "icon": "cloudy",
+    "tempMax": 26,
+    "tempMin": 16,
+    "precipChancePct": 31
+  },
+  "market": {
+    "fearGreed": {
+      "value": 53,
+      "label": "Neutral"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 82246,
+        "priceJpy": 13001351,
+        "change24hPct": 0.48,
+        "sparkline7d": [
+          81763.06,
+          82564.29,
+          82763.41,
+          83923.41,
+          83252.03,
+          81868.8,
+          82336.72
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2453.56,
+        "priceJpy": 387859,
+        "change24hPct": 1.01,
+        "sparkline7d": [
+          2465.67,
+          2485.7,
+          2497.73,
+          2562.01,
+          2496.09,
+          2430,
+          2449.05
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.184695,
+        "priceJpy": 29.2,
+        "change24hPct": 0.38,
+        "sparkline7d": [
+          0.191424,
+          0.194586,
+          0.194538,
+          0.202465,
+          0.191135,
+          0.183764,
+          0.184639
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 278.91,
+        "priceJpy": 44089,
+        "change24hPct": 3.25,
+        "sparkline7d": [
+          282.31,
+          276.37,
+          275.41,
+          286.24,
+          270.09,
+          269.05,
+          278.25
+        ]
+      }
+    ]
+  },
+  "top": [
+    "yahoo-topics-e8b50a88",
+    "nhk-world-2d8f590a",
+    "hatebu-it-4eb8e543"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-da58b1b6",
+        "nhk-top-838c486c"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hn-front-642058ea",
+        "hn-front-eb3417b6",
+        "hatebu-it-4eca0de7"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7",
+        "hatebu-it-7b333979"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "yahoo-topics-e8b50a88",
+      "title": "うるう秒廃止 うるう時の導入決定",
+      "url": "https://news.yahoo.co.jp/pickup/6598933?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-10-15T14:27:01.000Z",
+      "summaryJa": [
+        "うるう秒廃止 うるう時の導入決定",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "news"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-2d8f590a",
+      "title": "台湾TSMC過去最高益「需要減速の兆候なし」",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261015de60118",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-10-15T15:54:12.000Z",
+      "summaryJa": [
+        "台湾の半導体大手TSMCの、9月までの3か月間の決算はAI向けの半導体の需要拡大で最終的な利益が過去最高を更新しました。",
+        "AI・半導体業界の先行きへの不透明感も広がる中、会社は引き続き、需要の拡大が…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "台湾TSMC過去最高益",
+        "需要減速の兆候なし"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-4eb8e543",
+      "title": "連続不正アクセス事案の攻撃手法に関する調査 - JPCERT/CC Eyes",
+      "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-15T08:02:36.000Z",
+      "summaryJa": [
+        "JPCERT/CCは、2026年10月8日に、国内の複数の組織で相次いで公表された不正アクセスによる個人情報などの漏えい被害に関する注意喚起を公開しました。",
+        "JPCERT/CCでは、複数の組織と連携し、攻撃に使用された可能性のあるインフラの調査を進めています。",
+        "その過程で、攻撃者がAIを利用して、既知の脆弱性のスキャンやAPI経."
+      ],
+      "category": "programming",
+      "keywords": [
+        "JPCERT/CC",
+        "Eyes"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 100,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 8.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-da58b1b6",
+      "title": "福島 猪苗代湖 3人死傷のボート事故 きょう最高裁判決",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261015de60117",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-15T20:08:39.000Z",
+      "summaryJa": [
+        "6年前、福島県の猪苗代湖で親子など3人にボートで衝突して死傷させたとして業務上過失致死傷の罪に問われ、2審で無罪判決を受けた元会社役員の裁判で、最高裁判所が16",
+        "最高裁で判断…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "福島",
+        "猪苗代湖",
+        "3人死傷のボート事故"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-838c486c",
+      "title": "「くまの子ウーフ」児童文学作家の神沢利子さん死去",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261015de60137",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-15T16:35:16.000Z",
+      "summaryJa": [
+        "「くまの子ウーフ」「ふらいぱんじいさん」などの作品で知られる児童文学作家の神沢利子さんが今月11日、老衰のため亡くなりました。",
+        "102歳でした。",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "児童文学作家の神沢利子さん死去"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-642058ea",
+      "title": "More on Anthropic's Scion ripping off Mononoke",
+      "url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-15T17:05:19.000Z",
+      "summaryJa": [
+        "<i>Redesigning source control at Anthropic</i> - <a href=\"https:&#x2F;&#x2F;news",
+        "ycombinator.",
+        "com&#x2F;item?"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Anthropic",
+        "Scion",
+        "ripping",
+        "Mononoke"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 182,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 56.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-eb3417b6",
+      "title": "Wayland desktop for Linux with skeuomorphic design",
+      "url": "https://github.com/fyzugx/DEsk",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-15T13:23:44.000Z",
+      "summaryJa": [
+        "Wayland desktop for Linux with skeuomorphic design",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Wayland",
+        "desktop",
+        "Linux",
+        "skeuomorphic",
+        "design"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 400,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 58
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-4eca0de7",
+      "title": "有名企業や一流開発者のノウハウをそのまま持ち込める、Claude Codeスキル11選｜苦しんでプログラミングを学んだ柴犬（くるしば）",
+      "url": "https://note.com/shiba_program/n/nd2d72747f8c5",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-15T04:24:08.000Z",
+      "summaryJa": [
+        "こんにちは。",
+        "くるしばです。",
+        "エラー監視サービスのSentry社が自社の開発チームで使っているコードレビューの基準を、明日から自分のプロジェクトにそのまま適用できるとしたら、ちょっと試してみ"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 232,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 14.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "ブライトン",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-15T19:50:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "ブライトン"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-7b333979",
+      "title": "ワールドガチャ｜架空の町をガチャで作ってマンガの背景に",
+      "url": "https://tools.oyasumi-gamedev.com/worldgacha/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-15T04:01:12.000Z",
+      "summaryJa": [
+        "光方位330°高さ45°落ち影月と時刻月10時刻15:00空気物陰100%かすみ100%空トーン影100%固有色100%模様大きさ40%🎲不透明度100%塗り",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 226,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 13.9
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-bb01f35a",
+      "title": "HermannBjorgvin/Clawdmeter — ESP32 display that shows you your Claude Code usage",
+      "url": "https://github.com/HermannBjorgvin/Clawdmeter",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-15T17:02:01Z",
+      "summaryJa": [
+        "ESP32 display that shows you your Claude Code usage",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "ESP32",
+        "display",
+        "shows",
+        "Claude",
+        "Code"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "Claude Codeのトークン利用量を卓上の小型ディスプレイに表示するマイコン工作です。画面の端に隠れがちなコストを物理的な存在としてデスクに置く視点が魅力的です。"
+  },
+  "unavailableSources": []
+}

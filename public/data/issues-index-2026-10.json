@@ -211,6 +211,13 @@
       "edition": "midday",
       "theme": "画面を仕立てる筆先と、手製の下地",
       "path": "issues/2026-10-15-midday.json"
+    },
+    {
+      "issueNo": 195,
+      "date": "2026-10-16",
+      "edition": "morning",
+      "theme": "改変される時間と、連鎖する穿孔",
+      "path": "issues/2026-10-16-morning.json"
     }
   ]
 }

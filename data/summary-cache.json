@@ -1,87 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "5e9dd21da0d23e0b": {
-      "url": "https://qiita.com/sakai_satoshi/items/5f88f214c5ca1912e587?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "Google Workspace × GitHub EMU、公式非対応の壁を内製SCIMブリッジで越えた話 「Google Workspace 一本の会社が G",
-        "でも公式にサポートされてない…」 ——そんな詰みかけた状況を、SCIM ブリ.",
-        "."
-      ],
-      "cachedAt": "2026-07-17T05:31:12.447Z"
-    },
-    "1b4f461bdb3d3594": {
-      "url": "https://zenn.dev/c6h1ocao6/articles/7e41873f3a9668",
-      "summaryJa": [
-        "概要 機械学習は、モデルの学習・推論ともにPythonが事実上の標準である。",
-        "しかし、単一バイナリ配布・省メモリ・低レイテンシといった運用上の理由から、これを別言語で完結させたい場面が想定される。",
-        "本稿では、手書き数字（8×8画素）分類用の多層パーセプトロン（MLP）について、データ読み込み・学習・推論のすべてをGo単独で実装・評価した事例研究を報告する。"
-      ],
-      "cachedAt": "2026-07-17T05:31:12.447Z"
-    },
-    "14acc7b6b8ee2429": {
-      "url": "https://www.mixfont.com/experiments/decoy-font",
-      "summaryJa": [
-        "Decoy Font",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-17T05:31:12.447Z"
-    },
-    "694c3b775d6c3718": {
-      "url": "https://sizu.me/laiso/posts/mcerekex7091",
-      "summaryJa": [
-        "前に「AIの作文はなぜつまらないのか」という記事を書いた。",
-        "AIの文章は分量のわりに情報量が少ないし、面白さを自動で評価する仕組みもないから、みたいな話だった。",
-        "今回は逆に書き手としての話をしたい。"
-      ],
-      "cachedAt": "2026-07-17T05:31:12.448Z"
-    },
-    "9e3f0256fc9b98f0": {
-      "url": "https://zenn.dev/k_yoshiya/articles/claude-code-plan-mode-loop",
-      "summaryJa": [
-        "はじめに Claude Code の Plan モードを、人間の労力を少なくして使いこなすためのループエンジニアリングをしてみました。",
-        "この記事を読むと、hook を使って Plan モードに「質問による要件詰め」「実装のサブエージェント委譲」「計画の HTML 確認」を自動で組み込む方法がわか",
-        "ねらい Plan モードの運用に、次の 3 つを組み込みます。"
-      ],
-      "cachedAt": "2026-07-17T05:31:12.448Z"
-    },
-    "500e37b5b913e434": {
-      "url": "https://qiita.com/ntaka329/items/47b45beeb283bb989de5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに GMOコネクトの永田です。",
-        "少し前、Java のメジャーアップ（11→21）を Claude Code でやったら、かなり楽でした。",
-        "「これなら、ずっと後回しにしていた Vue 2→3 もいけるのでは」——そう思って手を付けたら、意外と苦労した、という話です😇。"
-      ],
-      "cachedAt": "2026-07-17T05:31:12.448Z"
-    },
-    "50777748cef15727": {
-      "url": "https://veronicaexplains.net/open-oscar-server/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-17T05:31:12.448Z"
-    },
-    "a7644ea90b1aee30": {
-      "url": "https://goliath32.com/blog/z80.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-17T05:31:12.448Z"
-    },
-    "cb593fa6c14a36f2": {
-      "url": "https://github.com/SolderedElectronics/Inkplate-Arduino-library",
-      "summaryJa": [
-        "Inkplate family Arduino library.",
-        "The easiest way to add e-paper to your project.",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-17T05:31:12.448Z"
-    },
     "a66b6c912f5dea2e": {
       "url": "https://fabscene.com/new/make/esp32-c3-dns-adblock-hash-in-flash/",
       "summaryJa": [
@@ -15129,6 +15048,96 @@
         "0."
       ],
       "cachedAt": "2026-10-15T02:49:18.252Z"
+    },
+    "e8b50a887ecedd95": {
+      "url": "https://news.yahoo.co.jp/pickup/6598933?source=rss",
+      "summaryJa": [
+        "うるう秒廃止 うるう時の導入決定",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-15T20:18:15.341Z"
+    },
+    "2d8f590a3e727f12": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261015de60118",
+      "summaryJa": [
+        "台湾の半導体大手TSMCの、9月までの3か月間の決算はAI向けの半導体の需要拡大で最終的な利益が過去最高を更新しました。",
+        "AI・半導体業界の先行きへの不透明感も広がる中、会社は引き続き、需要の拡大が…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-15T20:18:15.341Z"
+    },
+    "4eb8e543da3c2f5d": {
+      "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+      "summaryJa": [
+        "JPCERT/CCは、2026年10月8日に、国内の複数の組織で相次いで公表された不正アクセスによる個人情報などの漏えい被害に関する注意喚起を公開しました。",
+        "JPCERT/CCでは、複数の組織と連携し、攻撃に使用された可能性のあるインフラの調査を進めています。",
+        "その過程で、攻撃者がAIを利用して、既知の脆弱性のスキャンやAPI経."
+      ],
+      "cachedAt": "2026-10-15T20:18:15.341Z"
+    },
+    "da58b1b6b0aafc21": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261015de60117",
+      "summaryJa": [
+        "6年前、福島県の猪苗代湖で親子など3人にボートで衝突して死傷させたとして業務上過失致死傷の罪に問われ、2審で無罪判決を受けた元会社役員の裁判で、最高裁判所が16",
+        "最高裁で判断…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-15T20:18:15.341Z"
+    },
+    "838c486ce66b7669": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261015de60137",
+      "summaryJa": [
+        "「くまの子ウーフ」「ふらいぱんじいさん」などの作品で知られる児童文学作家の神沢利子さんが今月11日、老衰のため亡くなりました。",
+        "102歳でした。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-15T20:18:15.341Z"
+    },
+    "83ea1974519b5994": {
+      "url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+      "summaryJa": [
+        "<i>Redesigning source control at Anthropic</i> - <a href=\"https:&#x2F;&#x2F;news",
+        "ycombinator.",
+        "com&#x2F;item?"
+      ],
+      "cachedAt": "2026-10-15T20:18:15.341Z"
+    },
+    "edead0865162a199": {
+      "url": "https://github.com/fyzugx/DEsk",
+      "summaryJa": [
+        "Wayland desktop for Linux with skeuomorphic design",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-15T20:18:15.341Z"
+    },
+    "4eca0de7aa1ff7e7": {
+      "url": "https://note.com/shiba_program/n/nd2d72747f8c5",
+      "summaryJa": [
+        "こんにちは。",
+        "くるしばです。",
+        "エラー監視サービスのSentry社が自社の開発チームで使っているコードレビューの基準を、明日から自分のプロジェクトにそのまま適用できるとしたら、ちょっと試してみ"
+      ],
+      "cachedAt": "2026-10-15T20:18:15.341Z"
+    },
+    "7b33397907d4ce1c": {
+      "url": "https://tools.oyasumi-gamedev.com/worldgacha/",
+      "summaryJa": [
+        "光方位330°高さ45°落ち影月と時刻月10時刻15:00空気物陰100%かすみ100%空トーン影100%固有色100%模様大きさ40%🎲不透明度100%塗り",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-15T20:18:15.341Z"
+    },
+    "d6c5f57bc563c5c3": {
+      "url": "https://github.com/HermannBjorgvin/Clawdmeter",
+      "summaryJa": [
+        "ESP32 display that shows you your Claude Code usage",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-15T20:18:15.341Z"
     }
   }
 }
