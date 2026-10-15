@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 194,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-10-15",
+  "dateDisplay": "Thursday, October 15, 2026",
+  "pressTimeJst": "2026-10-15 12:00",
+  "generatedAt": "2026-10-15T02:47:30.227Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-flash-latest",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "画面を仕立てる筆先と、手製の下地",
+    "note": "Canvasや端末UIを自力で描く試みから、クエリ言語や自作エンジンの実装まで、午後の創作意欲を刺激する骨太な工夫を集めました。"
+  },
+  "editorial": {
+    "comment": "HTML-in-Canvasの発表資料を眺めていると、DOMの制約を超えて描画表現を拡張したい作り手の執念が伝わってきます。規格の枠を少しはみ出して独自の表現領域を切り開く試みは、午後の手を動かす良い呼び水になるはずです。—— YZRS Times 編集長",
+    "passedOver": "みずほの大規模AI転換や衛星通信の速度制限など、手元のものづくりに直結しない時事報道は見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ時々曇り",
+    "icon": "partly-cloudy",
+    "tempMax": 22,
+    "tempMin": 17,
+    "precipChancePct": 6
+  },
+  "market": {
+    "fearGreed": {
+      "value": 53,
+      "label": "Neutral"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 81163,
+        "priceJpy": 12800816,
+        "change24hPct": -2.62,
+        "sparkline7d": [
+          83065.53,
+          82311.89,
+          82786.46,
+          83003.93,
+          82452.02,
+          83358.53,
+          81575.28
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2369.71,
+        "priceJpy": 373743,
+        "change24hPct": -5.42,
+        "sparkline7d": [
+          2577.06,
+          2489.75,
+          2494.9,
+          2500.47,
+          2512.73,
+          2509.18,
+          2416.62
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.179723,
+        "priceJpy": 28.35,
+        "change24hPct": -5.5,
+        "sparkline7d": [
+          0.199981,
+          0.19488,
+          0.196988,
+          0.198145,
+          0.19506,
+          0.191789,
+          0.182643
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 262.24,
+        "priceJpy": 41360,
+        "change24hPct": -5.65,
+        "sparkline7d": [
+          299.59,
+          280.32,
+          280.17,
+          278.11,
+          274.2,
+          273.62,
+          268.43
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-83eb5d97",
+    "lobsters-732478e2",
+    "zenn-trend-e6145ff5"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hn-front-6f30d0d0",
+        "hatebu-it-5442e66a",
+        "hatebu-it-4162ca12"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "zenn-trend-c95f7935",
+        "zenn-trend-53858c5f",
+        "zenn-trend-23f522cb"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-8ed28216",
+        "lobsters-e3617e7a"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-83eb5d97",
+      "title": "HTML-in-Canvasで作る未来のWeb UI表現",
+      "url": "https://speakerdeck.com/clockmaker/html-in-canvas",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-14T12:02:04.000Z",
+      "summaryJa": [
+        "フロントエンドカンファレンス関西2026の発表資料。",
+        "https://2026.",
+        "frontend-conf."
+      ],
+      "category": "programming",
+      "keywords": [
+        "HTML",
+        "Canvasで作る未来のWeb",
+        "UI表現"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 160,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 10.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-732478e2",
+      "title": "ito - build terminal ui in lua",
+      "url": "https://uji.sh/ito",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-14T22:27:10.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "ito",
+        "terminal",
+        "ui",
+        "lua"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-e6145ff5",
+      "title": "【Node.js性能検証 #2】：Workerは増やすほど速くなるのか？ QPS・P99・キュー待ちから考える",
+      "url": "https://zenn.dev/jsonfoo/articles/aeb53698ef0a1a",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-14T11:11:48.000Z",
+      "summaryJa": [
+        "シリーズ：Node.",
+        "jsの性能限界――負荷試験からアーキテクチャ設計へ 第2回：PiscinaのWorker Poolにおける並列処理、キュー待ち、性能のボトルネック 技術スタック",
+        "js / Next."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Node.js性能検証",
+        "：Workerは増やすほど速くなるのか",
+        "QPS",
+        "P99",
+        "キュー待ちから考える"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-6f30d0d0",
+      "title": "Anthropic's Scion is heavily inspired by Mononoke",
+      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-14T20:30:54.000Z",
+      "summaryJa": [
+        "Anthropic's Scion is heavily inspired by Mononoke",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Anthropic",
+        "Scion",
+        "heavily",
+        "inspired",
+        "Mononoke"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 270,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 2,
+          "velocity": 43
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-5442e66a",
+      "title": "Claude Codeがほとんどの場合、動画編集してくれる。8時間の素材を30分で1時間に編集。字幕もつけられる｜shi3z",
+      "url": "https://note.com/shi3zblog/n/ncb38d2978074",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-14T06:49:13.000Z",
+      "summaryJa": [
+        "Claude Codeがほとんどの場合、動画編集してくれる。",
+        "8時間の素材を30分で1時間に編集。",
+        "字幕もつけられる 実はClaude Codeは長時間動画を見ることができる。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Codeがほとんどの場合",
+        "動画編集してくれる",
+        "8時間の素材を30分で1時間に編集",
+        "字幕もつけられる｜shi3z"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 284,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 14.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-4162ca12",
+      "title": "小型・電動の「除雪ドローン」が雪国の課題に対応。実機をエバーブルーテクノロジーズが展示【CEATEC 2026】",
+      "url": "https://internet.watch.impress.co.jp/docs/event/2148145.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-14T22:00:11.000Z",
+      "summaryJa": [
+        "小型・電動の「除雪ドローン」が雪国の課題に対応。実機をエバーブルーテクノロジーズが展示【CEATEC",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "小型",
+        "電動の",
+        "除雪ドローン",
+        "実機をエバーブルーテクノロジーズが展示",
+        "CEATEC"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 58,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 12.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-c95f7935",
+      "title": "就活用DirectX12アクションゲーム作成 第三十三回",
+      "url": "https://zenn.dev/seisei89628/articles/cd976e4c7d78c7",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-14T06:06:40.000Z",
+      "summaryJa": [
+        "※筆者は初学者なので、間違ったことを書いていれば教えてくれると助かります。",
+        "はじめに 前回は、C++側の基盤とC#側のゲーム層を分け、ゲーム側から描画、物理、音声を扱えるようにしました。",
+        "今回はプレイヤーの操作と戦闘を作りました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "第三十三回"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 21,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-53858c5f",
+      "title": "【備忘録】CSSのstickyで作る、せり上がりながら背景が見える演出",
+      "url": "https://zenn.dev/crayfisher_zari/articles/75619d5860f885",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-14T05:59:58.000Z",
+      "summaryJa": [
+        "時々作っては作り方を忘れるので備忘録も兼ねて記事にします。",
+        "正式名称を知らないのですが、スクロールしていくと前景のコンテンツがカーテンみたいにせり上がって背景が見えてくる演出のやつです。",
+        "▼こういうやつ position: stickyを使うメリット position: fixedで背景に固定するのもいいですが、全体のレイアウトに影響があり関係な"
+      ],
+      "category": "programming",
+      "keywords": [
+        "備忘録",
+        "CSSのstickyで作る"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 21,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-23f522cb",
+      "title": "Gemini 4 Argonの日本語性能を検証してみた",
+      "url": "https://zenn.dev/algoartis/articles/19bb1705ea4b16",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-14T08:22:28.000Z",
+      "summaryJa": [
+        "本日 2026年10月14日、Gemini 4 Argon が公開されました。",
+        "この記事では、Gemini 3.",
+        "8 Flash と並べて日本語を書かせ、その能力を検証しています。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Gemini",
+        "Argonの日本語性能を検証してみた"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-8ed28216",
+      "title": "Fixing C Strings With String Views",
+      "url": "https://eliasebner.com/blog/guides/fixing-strings-in-c/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-14T21:04:44.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Fixing",
+        "Strings",
+        "String",
+        "Views"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-e3617e7a",
+      "title": "The DelightQL Query Language",
+      "url": "https://delightql.org",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-14T18:41:38.000Z",
+      "summaryJa": [
+        "Hey all, I would like to present a programming language I have been developing f",
+        "This is an alpha release so there will be rough edges, but I have used it at hom",
+        "It's always a g"
+      ],
+      "category": "tech",
+      "keywords": [
+        "DelightQL",
+        "Query",
+        "Language"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "show-hn-aaad82ae",
+      "title": "Show HN: Homebrew 6.0.0",
+      "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2026-06-11T13:24:29.000Z",
+      "summaryJa": [
+        "Today, I’m proud to announce Homebrew 6.",
+        "0.",
+        "0."
+      ],
+      "category": "tech",
+      "keywords": [
+        "Homebrew"
+      ],
+      "heat": {
+        "temperature": 77,
+        "signals": {
+          "hnPoints": 1481,
+          "hatebuCount": 0,
+          "ageHours": 3013,
+          "crossSources": 1,
+          "velocity": 0.5
+        }
+      },
+      "image": null
+    },
+    "reason": "日々お世話になっているパッケージ管理ツールの内部API刷新とサンドボックス化の全貌が語られています。普段は見過ごしがちな足元の道具がどう進化しているか、休憩中に覗いてみてください。"
+  },
+  "unavailableSources": []
+}

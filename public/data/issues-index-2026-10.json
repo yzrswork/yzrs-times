@@ -204,6 +204,13 @@
       "edition": "morning",
       "theme": "膨張する実行系と、素朴な防壁",
       "path": "issues/2026-10-15-morning.json"
+    },
+    {
+      "issueNo": 194,
+      "date": "2026-10-15",
+      "edition": "midday",
+      "theme": "画面を仕立てる筆先と、手製の下地",
+      "path": "issues/2026-10-15-midday.json"
     }
   ]
 }
