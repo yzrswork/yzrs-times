@@ -218,6 +218,13 @@
       "edition": "morning",
       "theme": "改変される時間と、連鎖する穿孔",
       "path": "issues/2026-10-16-morning.json"
+    },
+    {
+      "issueNo": 196,
+      "date": "2026-10-16",
+      "edition": "midday",
+      "theme": "エージェントの手綱と、実装の自律",
+      "path": "issues/2026-10-16-midday.json"
     }
   ]
 }

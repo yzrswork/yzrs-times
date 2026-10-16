@@ -1,427 +1,435 @@
 {
   "schemaVersion": 1,
-  "issueNo": 195,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 196,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-10-16",
   "dateDisplay": "Friday, October 16, 2026",
-  "pressTimeJst": "2026-10-16 05:00",
-  "generatedAt": "2026-10-15T20:17:42.611Z",
+  "pressTimeJst": "2026-10-16 12:00",
+  "generatedAt": "2026-10-16T02:47:39.574Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.1-flash-lite",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "改変される時間と、連鎖する穿孔",
-    "note": "うるう秒の廃止からAIを用いたセキュリティ侵害まで、長年の取り決めや防御の境界が変化する局面をとらえます。"
+    "title": "エージェントの手綱と、実装の自律",
+    "note": "AIの気まぐれを制御するスクリプトと、自律的な生成コードとの距離感を探る。"
   },
   "editorial": {
-    "comment": "JPCERT/CCの報告（hatebu-it-4eb8e543）にもある通り、攻撃側がAIでスキャンを自動化する段階に入りました。うるう秒の廃止と同様、長年の前提を定期的に見直し足元を固める作業が作り手に求められています。—— YZRS Times 編集長",
-    "passedOver": "ソースネクストやバーガーキングなど大規模情報流出の個別報は多くありましたが、個別の事故対応よりJPCERT/CCによる構造的な攻撃手法調査に絞って掲載しました。",
+    "comment": "AgentforceのスクリプトでLLMを拘束する（zenn-trend-857416c1）という試みは、AIの出力に依存する現代の開発現場にとって、一種の再武装のようでもあり、興味深く読みました。",
+    "passedOver": "セキュリティ関連のインシデント報告は重要ですが、紙面のバランスを考慮し今回は言及を見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "曇り",
-    "icon": "cloudy",
+    "summary": "晴れ時々曇り",
+    "icon": "partly-cloudy",
     "tempMax": 26,
     "tempMin": 16,
-    "precipChancePct": 31
+    "precipChancePct": 41
   },
   "market": {
     "fearGreed": {
-      "value": 53,
-      "label": "Neutral"
+      "value": 63,
+      "label": "Greed"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 82246,
-        "priceJpy": 13001351,
-        "change24hPct": 0.48,
+        "priceUsd": 82088,
+        "priceJpy": 12970179,
+        "change24hPct": 1.16,
         "sparkline7d": [
-          81763.06,
-          82564.29,
-          82763.41,
-          83923.41,
-          83252.03,
-          81868.8,
-          82336.72
+          81919.76,
+          82769.46,
+          82961.89,
+          82909.21,
+          83325.05,
+          81706.34,
+          82250.65
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2453.56,
-        "priceJpy": 387859,
-        "change24hPct": 1.01,
+        "priceUsd": 2441.46,
+        "priceJpy": 385757,
+        "change24hPct": 3.09,
         "sparkline7d": [
-          2465.67,
-          2485.7,
-          2497.73,
-          2562.01,
-          2496.09,
-          2430,
-          2449.05
+          2480.73,
+          2496.06,
+          2500.27,
+          2540.38,
+          2511.52,
+          2414.36,
+          2438.44
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.184695,
-        "priceJpy": 29.2,
-        "change24hPct": 0.38,
+        "priceUsd": 0.182299,
+        "priceJpy": 28.8,
+        "change24hPct": 1.44,
         "sparkline7d": [
-          0.191424,
-          0.194586,
-          0.194538,
-          0.202465,
-          0.191135,
-          0.183764,
-          0.184639
+          0.193337,
+          0.19698,
+          0.197917,
+          0.198884,
+          0.191326,
+          0.183109,
+          0.183227
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 278.91,
-        "priceJpy": 44089,
-        "change24hPct": 3.25,
+        "priceUsd": 279.4,
+        "priceJpy": 44146,
+        "change24hPct": 6.5,
         "sparkline7d": [
-          282.31,
-          276.37,
-          275.41,
-          286.24,
-          270.09,
-          269.05,
-          278.25
+          278.72,
+          279.38,
+          278.05,
+          278.36,
+          272.28,
+          268.68,
+          278.81
         ]
       }
     ]
   },
   "top": [
-    "yahoo-topics-e8b50a88",
-    "nhk-world-2d8f590a",
-    "hatebu-it-4eb8e543"
+    "hatebu-it-47850a45",
+    "zenn-trend-857416c1",
+    "qiita-popular-8d05f9c1"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "nhk-top-da58b1b6",
-        "nhk-top-838c486c"
+        "hatebu-it-d1b1ac6b",
+        "hn-front-41f23f53",
+        "hatebu-it-c9d3879f"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hn-front-642058ea",
-        "hn-front-eb3417b6",
-        "hatebu-it-4eca0de7"
+        "zenn-trend-94e56163",
+        "zenn-trend-142d568a"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-ccbd37e7",
-        "hatebu-it-7b333979"
+        "lobsters-a6c29c3c",
+        "lobsters-f84f7d82"
       ]
     }
   ],
   "articles": [
     {
-      "id": "yahoo-topics-e8b50a88",
-      "title": "うるう秒廃止 うるう時の導入決定",
-      "url": "https://news.yahoo.co.jp/pickup/6598933?source=rss",
-      "source": "Yahoo!ニュース トピックス",
-      "sourceId": "yahoo-topics",
-      "publishedAt": "2026-10-15T14:27:01.000Z",
+      "id": "hatebu-it-47850a45",
+      "title": "リーナス・トーバルズがClaude CodeなどのAIをバリバリ活用してLinuxカーネルの改善に取り組み中",
+      "url": "https://gigazine.net/news/20261016-linus-torvalds-claude-code/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-15T21:32:18.000Z",
       "summaryJa": [
-        "うるう秒廃止 うるう時の導入決定",
-        "出典: Yahoo!ニュース トピックス",
+        "Linuxカーネルの生みの親であるリーナス・トーバルズ氏がAIコーディングアシスタントのClaude Codeを活用し、Linuxカーネルの大幅な改善に取り組ん",
+        "Linus Torvalds Working On A Hefty Linux Kernel Improvement With Claude Code - Ph",
+        "phoronix."
+      ],
+      "category": "programming",
+      "keywords": [
+        "リーナス",
+        "トーバルズがClaude"
+      ],
+      "heat": {
+        "temperature": 89,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 127,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 24.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-857416c1",
+      "title": "【Salesforce】Agent Script入門｜Agentforceの従業員エージェントを作ってみた",
+      "url": "https://zenn.dev/actbe_tech/articles/57561ffebaf9ed",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-15T09:00:14.000Z",
+      "summaryJa": [
+        "はじめに Agentforceの指示文に「必ず取引先を確認してから回答してください」と書いたのに、確認が飛ばされて、そのまま回答されてしまった。",
+        "Agentforceでエージェントを作っていると、こんな場面に出会うことがあります。",
+        "LLMは賢いですが、少し気まぐれなところがあります。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Salesforce",
+        "Agent"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-8d05f9c1",
+      "title": "AI時代、何をもってソフトウェアの品質を担保するのか",
+      "url": "https://qiita.com/acsuzuki/items/a1f4533a4d7c724c097f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-15T07:23:05.000Z",
+      "summaryJa": [
+        "最近は、Claude CodeやCodexなどを使ってAIにコードを書かせることが当たり前になってきました。",
+        "そんな中で皆さんは、何をもって「システムの品質が担保されている」と考えるでしょうか。",
+        "以前はどうやって品質を説明していたか ちょっと昔のシステム開発では、以下のよ."
+      ],
+      "category": "programming",
+      "keywords": [
+        "AI時代"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-d1b1ac6b",
+      "title": "Claude Code 入門",
+      "url": "https://speakerdeck.com/nogu66/claude-code-nyuumon",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-15T13:28:26.000Z",
+      "summaryJa": [
+        "Connecting the Dots Between Site Speed, User Experience & Your Business [WebExpo",
+        "出典: はてなブックマーク テクノロジー",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "programming",
       "keywords": [
-        "news"
+        "Claude",
+        "Code",
+        "入門"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 181,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 13.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-41f23f53",
+      "title": "Neural networks are clean",
+      "url": "https://already-clean.goodfire.com/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-15T16:04:01.000Z",
+      "summaryJa": [
+        "<a href=\"https:&#x2F;&#x2F;twitter.",
+        "com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">http",
+        "com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Neural",
+        "networks",
+        "clean"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 525,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 48.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-c9d3879f",
+      "title": "2026年10月「Windows Update」でWi-Fi/VPNに接続できない問題、脱「NTLMv1」が影響／あらかじめ計画されていた変更、パッチの不具合ではない",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2148594.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-15T23:16:45.000Z",
+      "summaryJa": [
+        "2026年10月「Windows Update」でWi-Fi/VPNに接続できない問題、脱「NTLM",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "2026年10月",
+        "Windows",
+        "Update",
+        "Fi/VPNに接続できない問題",
+        "NTLMv1"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 30,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 8.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-94e56163",
+      "title": "AIを使えばドキュメント整備はいらない？いやいや、今こそ人間が動くときだ",
+      "url": "https://zenn.dev/atamaplus/articles/2c9538a721c613",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-15T06:00:23.000Z",
+      "summaryJa": [
+        "こんにちは、atama plusでエンジニアをしているyuki_nomuraです。",
+        "最近はAIに社内の情報を探してもらう場面も増えてきたのではないでしょうか。",
+        "それなら、ドキュメントの整理や見直しもAIに任せて、みんな幸せになりそうです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "今こそ人間が動くときだ"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 21,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-142d568a",
+      "title": "国産モデル sarashina3-mini は日本語の推敲で何を変えるのか？",
+      "url": "https://zenn.dev/algoartis/articles/03ca12150ccbee",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-15T08:30:03.000Z",
+      "summaryJa": [
+        "こんにちは。",
+        "ALGO ARTISの大賀 愛一郎です。",
+        "yomiyasuの開発者でもあります。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "国産モデル",
+        "sarashina3",
+        "mini"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-a6c29c3c",
+      "title": "Gleam case exhaustiveness, as a fan",
+      "url": "https://oyster.pckt.blog/gleam-case-exhaustiveness-as-a-fan-fd4whyp",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-15T19:33:19.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Gleam",
+        "case",
+        "exhaustiveness",
+        "fan"
       ],
       "heat": {
         "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-world-2d8f590a",
-      "title": "台湾TSMC過去最高益「需要減速の兆候なし」",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261015de60118",
-      "source": "NHKニュース 国際",
-      "sourceId": "nhk-world",
-      "publishedAt": "2026-10-15T15:54:12.000Z",
-      "summaryJa": [
-        "台湾の半導体大手TSMCの、9月までの3か月間の決算はAI向けの半導体の需要拡大で最終的な利益が過去最高を更新しました。",
-        "AI・半導体業界の先行きへの不透明感も広がる中、会社は引き続き、需要の拡大が…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "台湾TSMC過去最高益",
-        "需要減速の兆候なし"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 4,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-4eb8e543",
-      "title": "連続不正アクセス事案の攻撃手法に関する調査 - JPCERT/CC Eyes",
-      "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-15T08:02:36.000Z",
-      "summaryJa": [
-        "JPCERT/CCは、2026年10月8日に、国内の複数の組織で相次いで公表された不正アクセスによる個人情報などの漏えい被害に関する注意喚起を公開しました。",
-        "JPCERT/CCでは、複数の組織と連携し、攻撃に使用された可能性のあるインフラの調査を進めています。",
-        "その過程で、攻撃者がAIを利用して、既知の脆弱性のスキャンやAPI経."
-      ],
-      "category": "programming",
-      "keywords": [
-        "JPCERT/CC",
-        "Eyes"
-      ],
-      "heat": {
-        "temperature": 79,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 100,
-          "ageHours": 12,
-          "crossSources": 1,
-          "velocity": 8.2
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-da58b1b6",
-      "title": "福島 猪苗代湖 3人死傷のボート事故 きょう最高裁判決",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261015de60117",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-15T20:08:39.000Z",
-      "summaryJa": [
-        "6年前、福島県の猪苗代湖で親子など3人にボートで衝突して死傷させたとして業務上過失致死傷の罪に問われ、2審で無罪判決を受けた元会社役員の裁判で、最高裁判所が16",
-        "最高裁で判断…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "福島",
-        "猪苗代湖",
-        "3人死傷のボート事故"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-838c486c",
-      "title": "「くまの子ウーフ」児童文学作家の神沢利子さん死去",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261015de60137",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-15T16:35:16.000Z",
-      "summaryJa": [
-        "「くまの子ウーフ」「ふらいぱんじいさん」などの作品で知られる児童文学作家の神沢利子さんが今月11日、老衰のため亡くなりました。",
-        "102歳でした。",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "児童文学作家の神沢利子さん死去"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 4,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-642058ea",
-      "title": "More on Anthropic's Scion ripping off Mononoke",
-      "url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-15T17:05:19.000Z",
-      "summaryJa": [
-        "<i>Redesigning source control at Anthropic</i> - <a href=\"https:&#x2F;&#x2F;news",
-        "ycombinator.",
-        "com&#x2F;item?"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Anthropic",
-        "Scion",
-        "ripping",
-        "Mononoke"
-      ],
-      "heat": {
-        "temperature": 82,
-        "signals": {
-          "hnPoints": 182,
-          "hatebuCount": 0,
-          "ageHours": 3,
-          "crossSources": 1,
-          "velocity": 56.8
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-eb3417b6",
-      "title": "Wayland desktop for Linux with skeuomorphic design",
-      "url": "https://github.com/fyzugx/DEsk",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-15T13:23:44.000Z",
-      "summaryJa": [
-        "Wayland desktop for Linux with skeuomorphic design",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Wayland",
-        "desktop",
-        "Linux",
-        "skeuomorphic",
-        "design"
-      ],
-      "heat": {
-        "temperature": 82,
-        "signals": {
-          "hnPoints": 400,
-          "hatebuCount": 0,
           "ageHours": 7,
           "crossSources": 1,
-          "velocity": 58
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-4eca0de7",
-      "title": "有名企業や一流開発者のノウハウをそのまま持ち込める、Claude Codeスキル11選｜苦しんでプログラミングを学んだ柴犬（くるしば）",
-      "url": "https://note.com/shiba_program/n/nd2d72747f8c5",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-15T04:24:08.000Z",
-      "summaryJa": [
-        "こんにちは。",
-        "くるしばです。",
-        "エラー監視サービスのSentry社が自社の開発チームで使っているコードレビューの基準を、明日から自分のプロジェクトにそのまま適用できるとしたら、ちょっと試してみ"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Claude"
-      ],
-      "heat": {
-        "temperature": 82,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 232,
-          "ageHours": 16,
-          "crossSources": 1,
-          "velocity": 14.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "gtrends-jp-ccbd37e7",
-      "title": "ブライトン",
-      "url": "https://trends.google.com/trending/rss?geo=JP",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-10-15T19:50:00.000Z",
-      "summaryJa": [
-        "早期天候情報",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "trends",
-      "keywords": [
-        "ブライトン"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-7b333979",
-      "title": "ワールドガチャ｜架空の町をガチャで作ってマンガの背景に",
-      "url": "https://tools.oyasumi-gamedev.com/worldgacha/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-15T04:01:12.000Z",
+      "id": "lobsters-f84f7d82",
+      "title": "JPEG XL vs AVIF for web use-cases",
+      "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-15T14:42:45.000Z",
       "summaryJa": [
-        "光方位330°高さ45°落ち影月と時刻月10時刻15:00空気物陰100%かすみ100%空トーン影100%固有色100%模様大きさ40%🎲不透明度100%塗り",
-        "出典: はてなブックマーク テクノロジー",
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "programming",
+      "category": "tech",
       "keywords": [
-        "programming"
+        "JPEG",
+        "XL",
+        "AVIF",
+        "web",
+        "cases"
       ],
       "heat": {
-        "temperature": 80,
+        "temperature": 51,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 226,
-          "ageHours": 16,
+          "hatebuCount": 0,
+          "ageHours": 12,
           "crossSources": 1,
-          "velocity": 13.9
+          "velocity": 0
         }
       },
       "image": null
@@ -429,38 +437,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-bb01f35a",
-      "title": "HermannBjorgvin/Clawdmeter — ESP32 display that shows you your Claude Code usage",
-      "url": "https://github.com/HermannBjorgvin/Clawdmeter",
-      "source": "GitHub 小さなOSS",
-      "sourceId": "github-gems",
-      "publishedAt": "2026-10-15T17:02:01Z",
+      "id": "show-hn-87051218",
+      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+      "url": "https://github.com/arnegiacomo/fugleramme",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2026-09-15T12:31:10.000Z",
       "summaryJa": [
-        "ESP32 display that shows you your Claude Code usage",
+        "E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully loc",
         "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
-      "category": "oss",
+      "category": "tech",
       "keywords": [
-        "ESP32",
-        "display",
-        "shows",
-        "Claude",
-        "Code"
+        "ink",
+        "frame",
+        "hears",
+        "birds",
+        "draws"
       ],
       "heat": {
-        "temperature": 54,
+        "temperature": 82,
         "signals": {
-          "hnPoints": 0,
+          "hnPoints": 2391,
           "hatebuCount": 0,
-          "ageHours": 3,
+          "ageHours": 734,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 3.3
         }
       },
       "image": null
     },
-    "reason": "Claude Codeのトークン利用量を卓上の小型ディスプレイに表示するマイコン工作です。画面の端に隠れがちなコストを物理的な存在としてデスクに置く視点が魅力的です。"
+    "reason": "鳥の声を拾って1800年代の図譜として出力する電子ペーパーフレームは、技術と詩情の幸福な合流点です。午後の創作において、計算と感性を結びつけるヒントになるはずです。"
   },
   "unavailableSources": []
 }

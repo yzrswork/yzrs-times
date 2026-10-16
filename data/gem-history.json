@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-73a3f149",
-      "url": "https://github.com/arnegiacomo/fugleramme",
-      "date": "2026-09-16"
-    },
-    {
-      "id": "show-hn-50b1136f",
-      "url": "https://dosaygo-studio.github.io/hn-front-page-2035/news",
-      "date": "2026-09-16"
-    },
-    {
       "id": "show-hn-5293a25e",
       "url": "https://cannoneyed.com/isometric-nyc/",
       "date": "2026-09-17"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-bb01f35a",
       "url": "https://github.com/HermannBjorgvin/Clawdmeter",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "show-hn-87051218",
+      "url": "https://github.com/arnegiacomo/fugleramme",
       "date": "2026-10-16"
     }
   ]
