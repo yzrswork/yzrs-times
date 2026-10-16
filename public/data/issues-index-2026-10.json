@@ -225,6 +225,13 @@
       "edition": "midday",
       "theme": "エージェントの手綱と、実装の自律",
       "path": "issues/2026-10-16-midday.json"
+    },
+    {
+      "issueNo": 197,
+      "date": "2026-10-17",
+      "edition": "morning",
+      "theme": "無防備な構造と、手元の検証",
+      "path": "issues/2026-10-17-morning.json"
     }
   ]
 }

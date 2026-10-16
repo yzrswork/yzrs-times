@@ -1,33 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "8d6ebe6a353fe9d5": {
-      "url": "https://zenn.dev/pksha/articles/python-memory-leak-jemalloc",
-      "summaryJa": [
-        "要約 FastAPI サーバで、メモリ使用率が単調増加し、OOM が発生する現象に遭遇した。",
-        "同じアプリケーションコードと負荷試験内容のまま jemalloc に差し替えると OOM が発生しなくなったため、主要因は glibc malloc（ptmal",
-        "Linux 上の Ruby on Rails や Node."
-      ],
-      "cachedAt": "2026-07-18T05:17:20.645Z"
-    },
-    "14e255bf923aa1cf": {
-      "url": "https://zenn.dev/1amageek/articles/swift-web-fullstack",
-      "summaryJa": [
-        "こんにちは、Stamp Incの村本です。",
-        "※ English version: Building and Running Web Apps with Just Swift 以前、次世代のサーバー見えなく",
-        "という記事で、Distributed Actorによってサーバーの実装が隠蔽されていく未来について書きました。"
-      ],
-      "cachedAt": "2026-07-18T05:17:20.645Z"
-    },
-    "c748544f30090784": {
-      "url": "https://github.com/moltis-org/moltis",
-      "summaryJa": [
-        "A secure persistent personal agent server in Rust.",
-        "One binary, sandboxed execution, multi-provider LLMs, voice, memory, Telegram, W",
-        "Secure by design, runs on your hardware."
-      ],
-      "cachedAt": "2026-07-18T05:17:20.645Z"
-    },
     "5660ef9e434bfc52": {
       "url": "https://www.techno-edge.net/article/2026/07/18/5311.html",
       "summaryJa": [
@@ -15129,6 +15102,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-16T02:48:46.773Z"
+    },
+    "7661019fe020ff68": {
+      "url": "https://github.com/cobanov/PS5LM",
+      "summaryJa": [
+        "Llama.cpp on a jailbroken PS5: run any GGUF model ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-16T20:18:22.543Z"
+    },
+    "c26b0b6ccbf09d83": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261016de60368",
+      "summaryJa": [
+        "気象庁は16日昼過ぎ、緊急地震速報を誤って発表したことについて午後10時40分から3度目の記者会見を開き、過去に講じた対策が機能していなかったことを明らかにしま",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-16T20:18:22.543Z"
+    },
+    "cdbc823bff406669": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261016de60556",
+      "summaryJa": [
+        "年賀状ソフトなどを手がける「ソースネクスト」で、メールアドレスやパスワードなど大量の個人情報が不正アクセスによって流出した問題で、このうちパスワードは暗号がかか",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-16T20:18:22.543Z"
+    },
+    "a079f14f422fe5c1": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261017de60794",
+      "summaryJa": [
+        "日銀の植田総裁は訪問先のタイで記者会見し、基調的な物価上昇率が2％に近づいているとしたうえで「2％以上、上がることは容認できない」と強調し、物価が大幅に上昇する",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-16T20:18:22.543Z"
+    },
+    "a1008741f824b545": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261016de60239",
+      "summaryJa": [
+        "2026年、不正アクセスで漏えいした可能性がある個人情報が、のべ1億6500万人分余りにのぼっていることがセキュリティー会社のまとめで分かりました。",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-16T20:18:22.543Z"
+    },
+    "68a07948193c9b71": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261016de60399",
+      "summaryJa": [
+        "急速に開発が進むAIが、社会、そして人類に与える影響をめぐり議論が紛糾しています。",
+        "注目されているのが日本語で「再帰的自己改善」と訳される「RSI」と呼ばれるAI開発の手法です。",
+        "AIがみずからコードな…"
+      ],
+      "cachedAt": "2026-10-16T20:18:22.543Z"
+    },
+    "918cdd953ecffda0": {
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "summaryJa": [
+        "<a href=\"https:&#x2F;&#x2F;words.",
+        "filippo.",
+        "io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words."
+      ],
+      "cachedAt": "2026-10-16T20:18:22.543Z"
+    },
+    "c7dfeeeb6dfb1916": {
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "summaryJa": [
+        "How the Claude Code team does code review",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-16T20:18:22.543Z"
+    },
+    "360ff22fa44f2070": {
+      "url": "https://www.sakura.ad.jp/corporate/information/announcements/2026/10/16/1968226051/",
+      "summaryJa": [
+        "お客さま各位 平素よりさくらインターネットをご利用いただき、誠にありがとうございます。",
+        "Linuxカーネルのネットワーク処理に関する脆弱性（CVE-2026-99999）が公開されました。",
+        "本脆弱性については、仮想化環境においてホストシステムへの影響につながる可能性があると報告されています。"
+      ],
+      "cachedAt": "2026-10-16T20:18:22.543Z"
+    },
+    "3eb719f1caf89645": {
+      "url": "https://www.watch.impress.co.jp/docs/news/2148683.html",
+      "summaryJa": [
+        "Windows 11、8GBメモリのPCも軽快に 基本メモリ使用量を削減",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-16T20:18:22.543Z"
     }
   }
 }
