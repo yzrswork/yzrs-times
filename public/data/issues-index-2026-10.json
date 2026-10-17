@@ -232,6 +232,13 @@
       "edition": "morning",
       "theme": "無防備な構造と、手元の検証",
       "path": "issues/2026-10-17-morning.json"
+    },
+    {
+      "issueNo": 198,
+      "date": "2026-10-17",
+      "edition": "midday",
+      "theme": "構文の検証と、足回りの調律",
+      "path": "issues/2026-10-17-midday.json"
     }
   ]
 }

@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 198,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-10-17",
+  "dateDisplay": "Saturday, October 17, 2026",
+  "pressTimeJst": "2026-10-17 12:00",
+  "generatedAt": "2026-10-17T02:48:09.045Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "構文の検証と、足回りの調律",
+    "note": "コードの書き味を測る実験からネットワークや暗号基盤の検証まで、午後の手を動かしたくなる技術記事を揃えました。"
+  },
+  "editorial": {
+    "comment": "未知の構文を自作してLLMの書きやすさを比較した実験（zenn-trend-c5015771）の着眼点に痺れました。仕様の裏にある挙動を手元で1000回叩いて確かめる愚直さこそ、午後の創作を支える最高の刺激です。—— YZRS Times 編集長",
+    "passedOver": "大規模な顧客情報流出インシデントに関するニュースが相次ぎましたが、昼刊では時事速報を避け、実装と検証の技術記事に特化しました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ時々曇り",
+    "icon": "partly-cloudy",
+    "tempMax": 24,
+    "tempMin": 16,
+    "precipChancePct": 4
+  },
+  "market": {
+    "fearGreed": {
+      "value": 55,
+      "label": "Greed"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 81386,
+        "priceJpy": 12861025,
+        "change24hPct": -0.81,
+        "sparkline7d": [
+          82627.63,
+          82976.73,
+          83471.1,
+          83195.89,
+          81947.83,
+          82012.7,
+          81477.06
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2418.46,
+        "priceJpy": 382178,
+        "change24hPct": -0.89,
+        "sparkline7d": [
+          2493.76,
+          2502.17,
+          2557.46,
+          2501.13,
+          2447.29,
+          2451.36,
+          2420.2
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.18009,
+        "priceJpy": 28.46,
+        "change24hPct": -1.13,
+        "sparkline7d": [
+          0.195843,
+          0.195164,
+          0.201016,
+          0.190369,
+          0.184543,
+          0.183956,
+          0.180405
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 279.65,
+        "priceJpy": 44191,
+        "change24hPct": 0.13,
+        "sparkline7d": [
+          278.66,
+          277.39,
+          283.54,
+          270.21,
+          271.77,
+          277.95,
+          277.26
+        ]
+      }
+    ]
+  },
+  "top": [
+    "zenn-trend-c5015771",
+    "zenn-trend-df28a7a1",
+    "hn-front-33057452"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hn-front-e264a324"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "qiita-popular-e4dfea78",
+        "zenn-trend-b6b0c8fd"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-3fdb8d8d",
+        "lobsters-02fde0eb"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "zenn-trend-c5015771",
+      "title": "LLMにとって書きやすい構文とは何か：`end` と `end func foo` を1,000回以上比べてみた",
+      "url": "https://zenn.dev/nextbeat/articles/2026-10-syntax-locality-llm",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-16T03:00:24.000Z",
+      "summaryJa": [
+        "はじめに こんにちは！",
+        "株式会社ネクストビートでテクノロジー・エバンジェリストなる肩書きでお仕事をしている水島です。",
+        "今回は「LLMにとって書きやすい構文とはどういうものか」を、小さな実験で確かめてみた話です。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "`end",
+        "func",
+        "foo`",
+        "000回以上比べてみた"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 24,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-df28a7a1",
+      "title": "MetaRoCE を読んで containerlab で動かしてみた",
+      "url": "https://zenn.dev/nanakanok/articles/b345cea4338851",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-16T15:21:30.000Z",
+      "summaryJa": [
+        "!",
+        "MetaRoCE の仕様 v1.",
+        "0 は 2026 年 10 月に公開されたばかりです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "MetaRoCE",
+        "containerlab"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-33057452",
+      "title": "How the Claude Code team does code review",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-16T19:04:47.000Z",
+      "summaryJa": [
+        "How the Claude Code team does code review",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Claude",
+        "Code",
+        "team",
+        "review"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 251,
+          "hatebuCount": 54,
+          "ageHours": 8,
+          "crossSources": 2,
+          "velocity": 32.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-e264a324",
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-16T18:55:59.000Z",
+      "summaryJa": [
+        "<a href=\"https:&#x2F;&#x2F;words.",
+        "filippo.",
+        "io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words."
+      ],
+      "category": "tech",
+      "keywords": [
+        "Claude",
+        "reveals",
+        "ECDSA",
+        "curve",
+        "origins"
+      ],
+      "heat": {
+        "temperature": 87,
+        "signals": {
+          "hnPoints": 709,
+          "hatebuCount": 0,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 90.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-e4dfea78",
+      "title": "エンジニアに情報漏えいは防げないのか？ ハッシュ化のコスト設計で「盗まれたあと」は変えられる",
+      "url": "https://qiita.com/shinkai_/items/aef2dec31922dbad3c0d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-16T04:03:24.000Z",
+      "summaryJa": [
+        "はじめに 情報漏えいのニュースで、「エンジニアは何をしていたんだ」という声を目にしました。",
+        "正直に言うと、侵入そのものを100%防ぐのは難しいと思います。",
+        "脆弱性を突かれることもあれば、委託先やソフトウェアの不具合が原因になることもあります。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "エンジニアに情報漏えいは防げないのか",
+        "ハッシュ化のコスト設計で",
+        "盗まれたあと"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 23,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-b6b0c8fd",
+      "title": "FreeBSD/Ubuntu サーバのセキュリティ強化",
+      "url": "https://zenn.dev/taroh/articles/ea4ce5256d0691",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-16T20:08:26.000Z",
+      "summaryJa": [
+        "なんか、近頃 (2026年 9月下旬) いろいろな組織からいろんなものが漏れている、ということで、ちょい身の回りのサーバ類のセキュリティ強化してみました。",
+        "たぶんきょうび、あまり参考になるひとはいないと思うんだけど (誤自宅サーバとかオンプレミス実機でサーバとか、UNIX shellでお仕事ってスタイルすら)、自分",
+        "「こんな良いものがあるよ」「ここはヤバい」とかあったら教えてください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "FreeBSD/Ubuntu",
+        "サーバのセキュリティ強化"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-3fdb8d8d",
+      "title": "Interactive refactoring in gopls",
+      "url": "https://go.dev/blog/interactive-refactoring",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-17T01:12:09.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Interactive",
+        "refactoring",
+        "gopls"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-02fde0eb",
+      "title": "The NIST Elliptic Curves Seeds Bounty Has Been Claimed",
+      "url": "https://words.filippo.io/seeds-solved/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-16T20:18:36.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "NIST",
+        "Elliptic",
+        "Curves",
+        "Seeds",
+        "Bounty"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-94f327c8",
+      "title": "Zer0-bit/gaggiuino — A Gaggia Classic control project using microcontrollers.",
+      "url": "https://github.com/Zer0-bit/gaggiuino",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-08T15:49:43Z",
+      "summaryJa": [
+        "A Gaggia Classic control project using microcontrollers.",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "Zer0",
+        "bit/gaggiuino",
+        "Gaggia",
+        "Classic",
+        "control"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 203,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "手元のエスプレッソマシンをマイコン制御で改造する、電子工作の情熱が詰まったプロジェクトです。日常の道具に基板とコードを組み込み、理想の抽出を追求する作図の楽しさを感じられます。"
+  },
+  "unavailableSources": []
+}

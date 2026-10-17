@@ -1,114 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "5660ef9e434bfc52": {
-      "url": "https://www.techno-edge.net/article/2026/07/18/5311.html",
-      "summaryJa": [
-        "Claude Fable 5を使い、シンセサイザーソロを無限に演奏してくれるプログラムを作りました。",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-18T21:07:32.094Z"
-    },
-    "b3345d82400e800d": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015180561000",
-      "summaryJa": [
-        "栃木県と群馬県では18日未明にかけて記録的な大雨となり、土砂災害や浸水被害が相次ぎました。",
-        "栃木県足利市では住宅に土砂が流れ込んで建物が倒壊し、この家に住む60代の夫婦と連絡が取れていませんが市は18日…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-18T21:07:32.094Z"
-    },
-    "62c726fcaa7d7021": {
-      "url": "https://azukiazusa.dev/blog/recent-ai-coding-development-process-centered-on-design/",
-      "summaryJa": [
-        "AI コーディングエージェントの自律性が向上し、複数のエージェントを並行して動かすことが日常になったことで、開発の中で最も時間を使う工程が実装から設計へ移りつつ",
-        "この記事では、設計セッション、Git worktree を使った並列実行、自律的な検証、AI によるコードレビューなど、最近の私が実践している開発.",
-        "."
-      ],
-      "cachedAt": "2026-07-18T21:07:32.094Z"
-    },
-    "a992589f5eebb603": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015180351000",
-      "summaryJa": [
-        "新たな世界遺産の登録を審議するユネスコ＝国連教育科学文化機関の世界遺産委員会が、19日から韓国南部のプサン（釜山）で始まります。",
-        "日本政府が推薦している奈良県内の飛鳥時代の遺跡群、「飛鳥・藤原の宮都」の…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-18T21:07:32.094Z"
-    },
-    "3f7afa2273dfc74c": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015179971000",
-      "summaryJa": [
-        "アメリカとイランが戦闘終結に向けた覚書に署名して1か月となりますが、この1週間は連日、攻撃の応酬が続いています。",
-        "湾岸諸国でもインフラ施設が被害を受け、覚書が形がい化しつつあるなか、さらなる事態の悪化が…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-18T21:07:32.094Z"
-    },
-    "75a9413b109600e3": {
-      "url": "https://news.yahoo.co.jp/pickup/6588448?source=rss",
-      "summaryJa": [
-        "iPhone値上げ 中古の需要急増か",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-18T21:07:32.094Z"
-    },
-    "579eb1601193282c": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015180531000",
-      "summaryJa": [
-        "前線と低気圧の影響で、北海道や青森県では18日夜から局地的に大雨となり、「レベル4危険警報」が発表されている地域があります。",
-        "このあとも激しい雨が降るおそれがあり、土砂災害などに厳重な警戒が必要です。",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-18T21:07:32.094Z"
-    },
-    "f94a24159d4109fb": {
-      "url": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
-      "summaryJa": [
-        "LG monitors silently install software through Wind",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-18T21:07:32.094Z"
-    },
-    "bbfc8858e8be3bc3": {
-      "url": "https://togetter.com/li/2721800",
-      "summaryJa": [
-        "横坂 拓也_Webディレクター｜群馬の制作会社emo planning LLC @taku_coco9 デザイン参考はPinterest使いますが 最近はAIで",
-        "」 となる だから相当に細かく指示してあげないと デザイナー.",
-        "."
-      ],
-      "cachedAt": "2026-07-18T21:07:32.094Z"
-    },
-    "6452fee6de74cc5f": {
-      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
-      "summaryJa": [
-        "GPT-5.6 used a prompt to close a 30-year gap in co",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-18T21:07:32.094Z"
-    },
-    "1f878da6a4358be4": {
-      "url": "https://endform.dev/blog/playwright-github-actions",
-      "summaryJa": [
-        "Treat the table as a starting point rather than a prescription.",
-        "Begin at 50%, look at the actual wall-clock time on your suite, and raise the va",
-        "There is no single correct number, because it depends on your core count,."
-      ],
-      "cachedAt": "2026-07-18T21:07:32.094Z"
-    },
-    "e5eb1fc0754c5609": {
-      "url": "https://github.com/jgromes/RadioLib",
-      "summaryJa": [
-        "Universal wireless communication library for embedded devices",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-18T21:07:32.094Z"
-    },
     "04a2c71552116fe1": {
       "url": "https://zenn.dev/shim_03248/articles/5094579401a468",
       "summaryJa": [
@@ -15192,6 +15084,60 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-16T20:18:22.543Z"
+    },
+    "c501577127c01d71": {
+      "url": "https://zenn.dev/nextbeat/articles/2026-10-syntax-locality-llm",
+      "summaryJa": [
+        "はじめに こんにちは！",
+        "株式会社ネクストビートでテクノロジー・エバンジェリストなる肩書きでお仕事をしている水島です。",
+        "今回は「LLMにとって書きやすい構文とはどういうものか」を、小さな実験で確かめてみた話です。"
+      ],
+      "cachedAt": "2026-10-17T02:48:40.107Z"
+    },
+    "df28a7a1d6eb9786": {
+      "url": "https://zenn.dev/nanakanok/articles/b345cea4338851",
+      "summaryJa": [
+        "!",
+        "MetaRoCE の仕様 v1.",
+        "0 は 2026 年 10 月に公開されたばかりです。"
+      ],
+      "cachedAt": "2026-10-17T02:48:40.107Z"
+    },
+    "e4dfea785a60860c": {
+      "url": "https://qiita.com/shinkai_/items/aef2dec31922dbad3c0d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 情報漏えいのニュースで、「エンジニアは何をしていたんだ」という声を目にしました。",
+        "正直に言うと、侵入そのものを100%防ぐのは難しいと思います。",
+        "脆弱性を突かれることもあれば、委託先やソフトウェアの不具合が原因になることもあります。"
+      ],
+      "cachedAt": "2026-10-17T02:48:40.107Z"
+    },
+    "b6b0c8fd491f48e5": {
+      "url": "https://zenn.dev/taroh/articles/ea4ce5256d0691",
+      "summaryJa": [
+        "なんか、近頃 (2026年 9月下旬) いろいろな組織からいろんなものが漏れている、ということで、ちょい身の回りのサーバ類のセキュリティ強化してみました。",
+        "たぶんきょうび、あまり参考になるひとはいないと思うんだけど (誤自宅サーバとかオンプレミス実機でサーバとか、UNIX shellでお仕事ってスタイルすら)、自分",
+        "「こんな良いものがあるよ」「ここはヤバい」とかあったら教えてください。"
+      ],
+      "cachedAt": "2026-10-17T02:48:40.107Z"
+    },
+    "3fdb8d8d9ee7a383": {
+      "url": "https://go.dev/blog/interactive-refactoring",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-17T02:48:40.107Z"
+    },
+    "02fde0eb97da5e2f": {
+      "url": "https://words.filippo.io/seeds-solved/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-17T02:48:40.107Z"
     }
   }
 }

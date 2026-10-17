@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-5293a25e",
-      "url": "https://cannoneyed.com/isometric-nyc/",
-      "date": "2026-09-17"
-    },
-    {
-      "id": "show-hn-1db08d87",
-      "url": "https://jameshard.ing/pilot",
-      "date": "2026-09-17"
-    },
-    {
       "id": "indieblog-8b7bad00",
       "url": "https://fredrocha.net/2026/06/09/nominations-for-the-best-tiny-website-of-2026-are-open/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
       "date": "2026-09-18"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-fbb33e73",
       "url": "https://github.com/earlephilhower/arduino-pico",
+      "date": "2026-10-17"
+    },
+    {
+      "id": "github-gems-94f327c8",
+      "url": "https://github.com/Zer0-bit/gaggiuino",
       "date": "2026-10-17"
     }
   ]
