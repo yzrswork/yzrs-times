@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 198,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-10-17",
-  "dateDisplay": "Saturday, October 17, 2026",
-  "pressTimeJst": "2026-10-17 12:00",
-  "generatedAt": "2026-10-17T02:48:09.045Z",
+  "issueNo": 199,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-18",
+  "dateDisplay": "Sunday, October 18, 2026",
+  "pressTimeJst": "2026-10-18 05:00",
+  "generatedAt": "2026-10-17T20:18:07.095Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,21 +14,21 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "構文の検証と、足回りの調律",
-    "note": "コードの書き味を測る実験からネットワークや暗号基盤の検証まで、午後の手を動かしたくなる技術記事を揃えました。"
+    "title": "露出する平文と、自律するレビュー",
+    "note": "システムの裏に隠れていた運用上の不全と、AI中心の開発プロセスが生む新たな人間と検証の形を記録する紙面。"
   },
   "editorial": {
-    "comment": "未知の構文を自作してLLMの書きやすさを比較した実験（zenn-trend-c5015771）の着眼点に痺れました。仕様の裏にある挙動を手元で1000回叩いて確かめる愚直さこそ、午後の創作を支える最高の刺激です。—— YZRS Times 編集長",
-    "passedOver": "大規模な顧客情報流出インシデントに関するニュースが相次ぎましたが、昼刊では時事速報を避け、実装と検証の技術記事に特化しました。",
+    "comment": "Claude Codeチームのコードレビュー手法（hatebu-it-c7dfeeeb）に目が行きます。生成AIがコードの大半を書く時代において、人間が何を検証しどこを自動に任せるかという問いは、手元の創作プロセスにも通じる重要な示唆を含んでいます。—— YZRS Times 編集長",
+    "passedOver": "太陽光発電量が世界全体で原子力発電を上回ったという大規模なエネルギー構造の変化や国際政治の動きは見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "晴れ時々曇り",
-    "icon": "partly-cloudy",
-    "tempMax": 24,
-    "tempMin": 16,
-    "precipChancePct": 4
+    "summary": "晴れ",
+    "icon": "sunny",
+    "tempMax": 23,
+    "tempMin": 13,
+    "precipChancePct": 0
   },
   "market": {
     "fearGreed": {
@@ -39,247 +39,250 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 81386,
-        "priceJpy": 12861025,
-        "change24hPct": -0.81,
+        "priceUsd": 81534,
+        "priceJpy": 12883630,
+        "change24hPct": 0.02,
         "sparkline7d": [
-          82627.63,
-          82976.73,
-          83471.1,
-          83195.89,
-          81947.83,
-          82012.7,
-          81477.06
+          83010.81,
+          83690.87,
+          83238.83,
+          83506.24,
+          80964.63,
+          81894.94,
+          81430.77
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2418.46,
-        "priceJpy": 382178,
-        "change24hPct": -0.89,
+        "priceUsd": 2417.13,
+        "priceJpy": 381943,
+        "change24hPct": 0.36,
         "sparkline7d": [
-          2493.76,
-          2502.17,
-          2557.46,
-          2501.13,
-          2447.29,
-          2451.36,
-          2420.2
+          2511.59,
+          2534.63,
+          2505.62,
+          2509.28,
+          2365.83,
+          2457.41,
+          2413.87
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.18009,
-        "priceJpy": 28.46,
-        "change24hPct": -1.13,
+        "priceUsd": 0.179043,
+        "priceJpy": 28.29,
+        "change24hPct": -0.39,
         "sparkline7d": [
-          0.195843,
-          0.195164,
-          0.201016,
-          0.190369,
-          0.184543,
-          0.183956,
-          0.180405
+          0.196971,
+          0.202891,
+          0.192471,
+          0.189913,
+          0.179619,
+          0.182831,
+          0.178416
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 279.65,
-        "priceJpy": 44191,
-        "change24hPct": 0.13,
+        "priceUsd": 276.16,
+        "priceJpy": 43638,
+        "change24hPct": 0.72,
         "sparkline7d": [
-          278.66,
-          277.39,
-          283.54,
-          270.21,
-          271.77,
-          277.95,
-          277.26
+          281.04,
+          286.14,
+          271.48,
+          279.74,
+          263.75,
+          279.06,
+          275.53
         ]
       }
     ]
   },
   "top": [
-    "zenn-trend-c5015771",
-    "zenn-trend-df28a7a1",
-    "hn-front-33057452"
+    "hatebu-it-f578d51f",
+    "hatebu-it-c7dfeeeb",
+    "hatebu-it-244d29ed"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hn-front-e264a324"
+        "nhk-top-90a91f85",
+        "nhk-top-f7867ff3",
+        "nhk-top-1f42275a",
+        "yahoo-topics-5808f6f8"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "qiita-popular-e4dfea78",
-        "zenn-trend-b6b0c8fd"
+        "hn-front-92f75df4",
+        "hatebu-it-aafa3363",
+        "hn-front-81cd347d",
+        "hatebu-it-c205d427"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-3fdb8d8d",
-        "lobsters-02fde0eb"
+        "gtrends-jp-ccbd37e7"
       ]
     }
   ],
   "articles": [
     {
-      "id": "zenn-trend-c5015771",
-      "title": "LLMにとって書きやすい構文とは何か：`end` と `end func foo` を1,000回以上比べてみた",
-      "url": "https://zenn.dev/nextbeat/articles/2026-10-syntax-locality-llm",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-16T03:00:24.000Z",
+      "id": "hatebu-it-f578d51f",
+      "title": "ソースネクスト　暗号化されていないパスワードが流出した理由とは（山口健太） - エキスパート - Yahoo!ニュース",
+      "url": "https://news.yahoo.co.jp/expert/articles/b3e710c60d79d276a00321906fa87ac9243f5530",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-17T08:05:29.000Z",
       "summaryJa": [
-        "はじめに こんにちは！",
-        "株式会社ネクストビートでテクノロジー・エバンジェリストなる肩書きでお仕事をしている水島です。",
-        "今回は「LLMにとって書きやすい構文とはどういうものか」を、小さな実験で確かめてみた話です。"
+        "ソースネクストへの不正アクセスで会員情報が流出した問題では、「暗号化がない状態のパスワード」が含まれていたことをNHKなどが報じており、注目を集めています。",
+        "どのような方式でパスワードを管理していたのか、運営会社に聞いてみました。",
+        "システム連携用に暗号化して保存していたソースネクストの発表によれば、直."
       ],
       "category": "programming",
       "keywords": [
-        "`end",
-        "func",
-        "foo`",
-        "000回以上比べてみた"
+        "ソースネクスト",
+        "山口健太",
+        "エキスパート",
+        "Yahoo!ニュース"
       ],
       "heat": {
-        "temperature": 48,
+        "temperature": 86,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 24,
+          "hatebuCount": 179,
+          "ageHours": 12,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 14.7
         }
       },
       "image": null
     },
     {
-      "id": "zenn-trend-df28a7a1",
-      "title": "MetaRoCE を読んで containerlab で動かしてみた",
-      "url": "https://zenn.dev/nanakanok/articles/b345cea4338851",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-16T15:21:30.000Z",
-      "summaryJa": [
-        "!",
-        "MetaRoCE の仕様 v1.",
-        "0 は 2026 年 10 月に公開されたばかりです。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "MetaRoCE",
-        "containerlab"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 11,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-33057452",
-      "title": "How the Claude Code team does code review",
+      "id": "hatebu-it-c7dfeeeb",
+      "title": "How the Claude Code team does code review / claude.dev Blog",
       "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-16T19:04:47.000Z",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-16T12:24:30.000Z",
       "summaryJa": [
         "How the Claude Code team does code review",
         "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "programming",
       "keywords": [
         "Claude",
         "Code",
         "team",
-        "review"
+        "review",
+        "claude.dev"
       ],
       "heat": {
-        "temperature": 86,
+        "temperature": 77,
         "signals": {
-          "hnPoints": 251,
-          "hatebuCount": 54,
-          "ageHours": 8,
-          "crossSources": 2,
-          "velocity": 32.5
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-e264a324",
-      "title": "Claude reveals ECDSA curve origins",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-16T18:55:59.000Z",
-      "summaryJa": [
-        "<a href=\"https:&#x2F;&#x2F;words.",
-        "filippo.",
-        "io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words."
-      ],
-      "category": "tech",
-      "keywords": [
-        "Claude",
-        "reveals",
-        "ECDSA",
-        "curve",
-        "origins"
-      ],
-      "heat": {
-        "temperature": 87,
-        "signals": {
-          "hnPoints": 709,
-          "hatebuCount": 0,
-          "ageHours": 8,
+          "hnPoints": 0,
+          "hatebuCount": 207,
+          "ageHours": 32,
           "crossSources": 1,
-          "velocity": 90.1
+          "velocity": 6.5
         }
       },
       "image": null
     },
     {
-      "id": "qiita-popular-e4dfea78",
-      "title": "エンジニアに情報漏えいは防げないのか？ ハッシュ化のコスト設計で「盗まれたあと」は変えられる",
-      "url": "https://qiita.com/shinkai_/items/aef2dec31922dbad3c0d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-10-16T04:03:24.000Z",
+      "id": "hatebu-it-244d29ed",
+      "title": "亡くなった声優の声、AIでの再現は原則禁止　日俳連が新指針",
+      "url": "https://japan.cnet.com/article/35253656/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-17T00:21:27.000Z",
       "summaryJa": [
-        "はじめに 情報漏えいのニュースで、「エンジニアは何をしていたんだ」という声を目にしました。",
-        "正直に言うと、侵入そのものを100%防ぐのは難しいと思います。",
-        "脆弱性を突かれることもあれば、委託先やソフトウェアの不具合が原因になることもあります。"
+        "日俳連には約2600人の俳優・声優が加盟する。",
+        "今回の「音声に関する生成AI利用ガイドライン」は、制作会社やAI開発企業などに順守を呼びかける自主基準だ。",
+        "日俳連によると、日本には個人の声そのものを包括的に保護する法律がなく、AIによる無断学習や音声生成への対応が課題になっている。"
       ],
       "category": "programming",
       "keywords": [
-        "エンジニアに情報漏えいは防げないのか",
-        "ハッシュ化のコスト設計で",
-        "盗まれたあと"
+        "亡くなった声優の声",
+        "AIでの再現は原則禁止",
+        "日俳連が新指針"
       ],
       "heat": {
-        "temperature": 48,
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 147,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 7.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-90a91f85",
+      "title": "ゼレンスキー大統領 アメリカのロシア制裁免除に反発",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261017de61037",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-17T20:04:57.000Z",
+      "summaryJa": [
+        "アメリカのトランプ大統領は、ロシアへの制裁を強化するための新たな法律について、制裁の大半の適用を免除する大統領令に署名しました。",
+        "ウクライナのゼレンスキー大統領は「ロシア側を喜ばせるだけだ」と強く反発す…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ゼレンスキー大統領",
+        "アメリカのロシア制裁免除に反発"
+      ],
+      "heat": {
+        "temperature": 60,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 23,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-f7867ff3",
+      "title": "東京 調布の道路陥没から6年 補修8割終わるも完了のめど立たず",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261017de61038",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-17T20:06:51.000Z",
+      "summaryJa": [
+        "東京 調布市の住宅街で、「東京外かく環状道路」のトンネル工事を原因とする道路の陥没が見つかってから、18日で6年です。",
+        "地盤の補修はおよそ8割の範囲で終わりましたが、当初の予定より遅れていて、完了のめど…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "東京",
+        "調布の道路陥没から6年",
+        "補修8割終わるも完了のめど立たず"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -287,21 +290,22 @@
       "image": null
     },
     {
-      "id": "zenn-trend-b6b0c8fd",
-      "title": "FreeBSD/Ubuntu サーバのセキュリティ強化",
-      "url": "https://zenn.dev/taroh/articles/ea4ce5256d0691",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-16T20:08:26.000Z",
+      "id": "nhk-top-1f42275a",
+      "title": "墜落した空自「グローバルホーク」機体の一部海底から引き揚げ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261017de61020",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-17T13:00:00.000Z",
       "summaryJa": [
-        "なんか、近頃 (2026年 9月下旬) いろいろな組織からいろんなものが漏れている、ということで、ちょい身の回りのサーバ類のセキュリティ強化してみました。",
-        "たぶんきょうび、あまり参考になるひとはいないと思うんだけど (誤自宅サーバとかオンプレミス実機でサーバとか、UNIX shellでお仕事ってスタイルすら)、自分",
-        "「こんな良いものがあるよ」「ここはヤバい」とかあったら教えてください。"
+        "先月、鳥取県沖を飛行していた航空自衛隊の大型無人偵察機「グローバルホーク」が墜落した事故で、自衛隊は17日、現場周辺の海底から機体の胴体の一部を引き揚げました。",
+        "機体を分析し、事故の詳しい原因を調べる方…",
+        "詳細は元記事を参照してください。"
       ],
-      "category": "programming",
+      "category": "news",
       "keywords": [
-        "FreeBSD/Ubuntu",
-        "サーバのセキュリティ強化"
+        "墜落した空自",
+        "グローバルホーク",
+        "機体の一部海底から引き揚げ"
       ],
       "heat": {
         "temperature": 53,
@@ -316,54 +320,21 @@
       "image": null
     },
     {
-      "id": "lobsters-3fdb8d8d",
-      "title": "Interactive refactoring in gopls",
-      "url": "https://go.dev/blog/interactive-refactoring",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-17T01:12:09.000Z",
+      "id": "yahoo-topics-5808f6f8",
+      "title": "ITシステムの弱点 世界で発見急増",
+      "url": "https://news.yahoo.co.jp/pickup/6599176?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-10-17T13:50:29.000Z",
       "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "ITシステムの弱点 世界で発見急増",
+        "出典: Yahoo!ニュース トピックス",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "Interactive",
-        "refactoring",
-        "gopls"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 2,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-02fde0eb",
-      "title": "The NIST Elliptic Curves Seeds Bounty Has Been Claimed",
-      "url": "https://words.filippo.io/seeds-solved/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-16T20:18:36.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "NIST",
-        "Elliptic",
-        "Curves",
-        "Seeds",
-        "Bounty"
+        "ITシステムの弱点",
+        "世界で発見急増"
       ],
       "heat": {
         "temperature": 53,
@@ -376,42 +347,202 @@
         }
       },
       "image": null
+    },
+    {
+      "id": "hn-front-92f75df4",
+      "title": "OpenCode Hacked: User credentials leaked",
+      "url": "https://twitter.com/opencode/status/2111516673953935833",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-17T18:01:41.000Z",
+      "summaryJa": [
+        "OpenCode Hacked: User credentials leaked",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "OpenCode",
+        "Hacked",
+        "User",
+        "credentials",
+        "leaked"
+      ],
+      "heat": {
+        "temperature": 91,
+        "signals": {
+          "hnPoints": 291,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 128
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-aafa3363",
+      "title": "すべてのAIコーディングエージェントのコストを閲覧・検索・追跡しローカルで動作する「AgentsView」、Claude Code・Codex・Cursor・Copilot・Geminiなど60種類以上のエージェントを自動検出し全文検索も可能",
+      "url": "https://gigazine.net/news/20261017-agentsview/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-17T09:27:07.000Z",
+      "summaryJa": [
+        "Claude CodeやCodexなどを並行して利用すると、どのAIコーディングエージェントやモデルへどれだけトークンを使ったのか全体像を把握しにくくなります。",
+        "そこで使えるのが複数のエージェントのローカル履歴を自動収集し、モデル別・日別・セッション別の利用量やAPI料金換算のコストをまとめて確認できる「AgentsVi",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "検索",
+        "追跡しローカルで動作する",
+        "AgentsView",
+        "Claude",
+        "Code"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 53,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 4.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-81cd347d",
+      "title": "Pele – Mermaid diagrams as themeable SVG",
+      "url": "https://pele.run/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-17T15:55:09.000Z",
+      "summaryJa": [
+        "Pele – Mermaid diagrams as themeable SVG",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Pele",
+        "Mermaid",
+        "diagrams",
+        "themeable",
+        "SVG"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 70,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 16
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-c205d427",
+      "title": "BASE子会社の漏えい、約2335万人分に　209万人分はクレカ番号「先頭6桁と下4桁」「有効期限」も",
+      "url": "https://www.itmedia.co.jp/news/article/2610/17/2000002349/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-17T00:57:57.000Z",
+      "summaryJa": [
+        "ショップサーブは、企業が独自ドメインのネットショップを作るためのECサイト構築・運営支援サービス。",
+        "25年7月にBASEがEストアーの全株式を取得して子会社化した。",
+        "今回の漏えいは8月に公表。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "BASE子会社の漏えい",
+        "約2335万人分に",
+        "209万人分はクレカ番号",
+        "先頭6桁と下4桁",
+        "有効期限"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 182,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 9.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "real betis vs fc barcelona standings",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-17T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "real",
+        "betis",
+        "fc",
+        "barcelona",
+        "standings"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
     }
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-94f327c8",
-      "title": "Zer0-bit/gaggiuino — A Gaggia Classic control project using microcontrollers.",
-      "url": "https://github.com/Zer0-bit/gaggiuino",
+      "id": "github-gems-45f6223f",
+      "title": "ad-si/awesome-music-production — A curated list of software, services, and resources to create and distribute music",
+      "url": "https://github.com/ad-si/awesome-music-production",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-10-08T15:49:43Z",
+      "publishedAt": "2026-10-17T14:43:21Z",
       "summaryJa": [
-        "A Gaggia Classic control project using microcontrollers.",
+        "A curated list of software, services, and resources to create and distribute mus",
         "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "Zer0",
-        "bit/gaggiuino",
-        "Gaggia",
-        "Classic",
-        "control"
+        "ad",
+        "si/awesome",
+        "music",
+        "production",
+        "curated"
       ],
       "heat": {
-        "temperature": 40,
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 203,
+          "ageHours": 6,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "手元のエスプレッソマシンをマイコン制御で改造する、電子工作の情熱が詰まったプロジェクトです。日常の道具に基板とコードを組み込み、理想の抽出を追求する作図の楽しさを感じられます。"
+    "reason": "音楽制作や配信に必要なツールやリソースを網羅したキュレーションリストです。プログラミングと音響技術が交差するあなたの創作現場において、新しい表現の足がかりとなる道具が見つかります。"
   },
   "unavailableSources": []
 }

@@ -1,96 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "04a2c71552116fe1": {
-      "url": "https://zenn.dev/shim_03248/articles/5094579401a468",
-      "summaryJa": [
-        "はじめに 個人で運営しているPHP8技術者認定初級試験の模擬試験サイト（Laravel製）に、OpenTelemetry + Grafanaスタックで可観測性基",
-        "アプリコードほぼ変更なし（ゼロコード自動計装） 本番はDockerを使わず、全部バイナリ + systemd 可視化は日本語UIのGrafanaに一元化（Jae",
-        "単一VPSで運用する個人開発サイトを想定した内容ですが、小規模チームのLaravelアプリでもそのまま使えるはずです。"
-      ],
-      "cachedAt": "2026-07-19T05:39:57.463Z"
-    },
-    "71d61e0fd00cea3c": {
-      "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
-      "summaryJa": [
-        "Transcribe.cpp",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-19T05:39:57.463Z"
-    },
-    "ebdb659dd463eb38": {
-      "url": "https://gigazine.net/news/20260719-emacs-in-pop-culture/",
-      "summaryJa": [
-        "Emacsはオリジナルが1976年にリリースされ、50年経った記事作成時点でも脈々と更新が続いている古参かつ現役のテキストエディタです。",
-        "歴史の長さゆえに根強い愛好者が多く、同じく長い歴史を持つviとの「エディタ戦争」に代表されるミームにも事欠きません。",
-        "そんなEmacsは映画などのワンシーンを演出するツールとしても."
-      ],
-      "cachedAt": "2026-07-19T05:39:57.463Z"
-    },
-    "fb116affe8cb993e": {
-      "url": "https://zenn.dev/edash_tech_blog/articles/528ab6bd044c35",
-      "summaryJa": [
-        "はじめに Zenn 読者のみなさん、こんにちは。",
-        "e-dash VPoE の伊藤です。",
-        "最近、AI コーディングエージェントや LLM ベースの自動化を業務に組み込む機会がぐっと増えました。"
-      ],
-      "cachedAt": "2026-07-19T05:39:57.463Z"
-    },
-    "c038f9b106b25702": {
-      "url": "https://qiita.com/Asahi_tech_dev/items/5a3c6420cb0b2fa0e823?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに この数年、AIの登場によって開発現場は大きく様変わりした。",
-        "バイブコーディングをはじめ、未経験者が開発に参入するハードルは一気に下がり、参入者は急増している。",
-        "もはやプロダクトの「インフレ状態」と言ってもいいかもしれない。"
-      ],
-      "cachedAt": "2026-07-19T05:39:57.463Z"
-    },
-    "a5cf6c27d44408e0": {
-      "url": "https://qiita.com/Shiro_Shihi/items/dc923fc9ae3ffbc1ec03?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "業務システムで申請や登録をしようとすると、かなりの確率でこのような画面に遭遇します。",
-        "□ 入力内容に誤りがないことを確認しました □ 上記の注意事項を確認しました □ 本操作を取り消せないことを理解しました ［申請する］ チェックを入れなければ、",
-        "."
-      ],
-      "cachedAt": "2026-07-19T05:39:57.463Z"
-    },
-    "063708cf8c9ee4ff": {
-      "url": "https://negroniventurestudios.com/2026/07/18/the-computer-at-the-bottom-of-a-canal/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-19T05:39:57.463Z"
-    },
-    "2c21f72f3fc5dae9": {
-      "url": "https://www.elbeno.com/blog/?p=1836",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-19T05:39:57.463Z"
-    },
-    "ca481fe524994927": {
-      "url": "https://pradyun.net/blog/metrics_matter.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-19T05:39:57.463Z"
-    },
-    "a12498aaccb61114": {
-      "url": "http://www.dogbunnypuzzle.com/",
-      "summaryJa": [
-        "Show HN: I may have created a new type of puzzle",
-        "出典: Show HN",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-19T05:39:57.463Z"
-    },
     "7a5ada317dd6ddd7": {
       "url": "https://news.ycombinator.com/item?id=48968606",
       "summaryJa": [
@@ -15138,6 +15048,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-17T02:48:40.107Z"
+    },
+    "f578d51f0aefc060": {
+      "url": "https://news.yahoo.co.jp/expert/articles/b3e710c60d79d276a00321906fa87ac9243f5530",
+      "summaryJa": [
+        "ソースネクストへの不正アクセスで会員情報が流出した問題では、「暗号化がない状態のパスワード」が含まれていたことをNHKなどが報じており、注目を集めています。",
+        "どのような方式でパスワードを管理していたのか、運営会社に聞いてみました。",
+        "システム連携用に暗号化して保存していたソースネクストの発表によれば、直."
+      ],
+      "cachedAt": "2026-10-17T20:18:25.538Z"
+    },
+    "244d29edffa3e78a": {
+      "url": "https://japan.cnet.com/article/35253656/",
+      "summaryJa": [
+        "日俳連には約2600人の俳優・声優が加盟する。",
+        "今回の「音声に関する生成AI利用ガイドライン」は、制作会社やAI開発企業などに順守を呼びかける自主基準だ。",
+        "日俳連によると、日本には個人の声そのものを包括的に保護する法律がなく、AIによる無断学習や音声生成への対応が課題になっている。"
+      ],
+      "cachedAt": "2026-10-17T20:18:25.539Z"
+    },
+    "90a91f85a6a4b3b4": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261017de61037",
+      "summaryJa": [
+        "アメリカのトランプ大統領は、ロシアへの制裁を強化するための新たな法律について、制裁の大半の適用を免除する大統領令に署名しました。",
+        "ウクライナのゼレンスキー大統領は「ロシア側を喜ばせるだけだ」と強く反発す…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-17T20:18:25.539Z"
+    },
+    "f7867ff3d3d5ede2": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261017de61038",
+      "summaryJa": [
+        "東京 調布市の住宅街で、「東京外かく環状道路」のトンネル工事を原因とする道路の陥没が見つかってから、18日で6年です。",
+        "地盤の補修はおよそ8割の範囲で終わりましたが、当初の予定より遅れていて、完了のめど…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-17T20:18:25.539Z"
+    },
+    "1f42275a76e3ca48": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261017de61020",
+      "summaryJa": [
+        "先月、鳥取県沖を飛行していた航空自衛隊の大型無人偵察機「グローバルホーク」が墜落した事故で、自衛隊は17日、現場周辺の海底から機体の胴体の一部を引き揚げました。",
+        "機体を分析し、事故の詳しい原因を調べる方…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-17T20:18:25.539Z"
+    },
+    "5808f6f86f3ba096": {
+      "url": "https://news.yahoo.co.jp/pickup/6599176?source=rss",
+      "summaryJa": [
+        "ITシステムの弱点 世界で発見急増",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-17T20:18:25.539Z"
+    },
+    "6ea16c172c83caf0": {
+      "url": "https://twitter.com/opencode/status/2111516673953935833",
+      "summaryJa": [
+        "OpenCode Hacked: User credentials leaked",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-17T20:18:25.539Z"
+    },
+    "aafa33631f445626": {
+      "url": "https://gigazine.net/news/20261017-agentsview/",
+      "summaryJa": [
+        "Claude CodeやCodexなどを並行して利用すると、どのAIコーディングエージェントやモデルへどれだけトークンを使ったのか全体像を把握しにくくなります。",
+        "そこで使えるのが複数のエージェントのローカル履歴を自動収集し、モデル別・日別・セッション別の利用量やAPI料金換算のコストをまとめて確認できる「AgentsVi",
+        "."
+      ],
+      "cachedAt": "2026-10-17T20:18:25.539Z"
+    },
+    "b7016d2db526680c": {
+      "url": "https://pele.run/",
+      "summaryJa": [
+        "Pele – Mermaid diagrams as themeable SVG",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-17T20:18:25.539Z"
+    },
+    "c205d42756d9f499": {
+      "url": "https://www.itmedia.co.jp/news/article/2610/17/2000002349/",
+      "summaryJa": [
+        "ショップサーブは、企業が独自ドメインのネットショップを作るためのECサイト構築・運営支援サービス。",
+        "25年7月にBASEがEストアーの全株式を取得して子会社化した。",
+        "今回の漏えいは8月に公表。"
+      ],
+      "cachedAt": "2026-10-17T20:18:25.539Z"
     }
   }
 }

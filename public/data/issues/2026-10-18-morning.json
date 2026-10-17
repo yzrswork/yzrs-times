@@ -1,0 +1,548 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 199,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-18",
+  "dateDisplay": "Sunday, October 18, 2026",
+  "pressTimeJst": "2026-10-18 05:00",
+  "generatedAt": "2026-10-17T20:18:07.095Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "露出する平文と、自律するレビュー",
+    "note": "システムの裏に隠れていた運用上の不全と、AI中心の開発プロセスが生む新たな人間と検証の形を記録する紙面。"
+  },
+  "editorial": {
+    "comment": "Claude Codeチームのコードレビュー手法（hatebu-it-c7dfeeeb）に目が行きます。生成AIがコードの大半を書く時代において、人間が何を検証しどこを自動に任せるかという問いは、手元の創作プロセスにも通じる重要な示唆を含んでいます。—— YZRS Times 編集長",
+    "passedOver": "太陽光発電量が世界全体で原子力発電を上回ったという大規模なエネルギー構造の変化や国際政治の動きは見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ",
+    "icon": "sunny",
+    "tempMax": 23,
+    "tempMin": 13,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 55,
+      "label": "Greed"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 81534,
+        "priceJpy": 12883630,
+        "change24hPct": 0.02,
+        "sparkline7d": [
+          83010.81,
+          83690.87,
+          83238.83,
+          83506.24,
+          80964.63,
+          81894.94,
+          81430.77
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2417.13,
+        "priceJpy": 381943,
+        "change24hPct": 0.36,
+        "sparkline7d": [
+          2511.59,
+          2534.63,
+          2505.62,
+          2509.28,
+          2365.83,
+          2457.41,
+          2413.87
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.179043,
+        "priceJpy": 28.29,
+        "change24hPct": -0.39,
+        "sparkline7d": [
+          0.196971,
+          0.202891,
+          0.192471,
+          0.189913,
+          0.179619,
+          0.182831,
+          0.178416
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 276.16,
+        "priceJpy": 43638,
+        "change24hPct": 0.72,
+        "sparkline7d": [
+          281.04,
+          286.14,
+          271.48,
+          279.74,
+          263.75,
+          279.06,
+          275.53
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-f578d51f",
+    "hatebu-it-c7dfeeeb",
+    "hatebu-it-244d29ed"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-90a91f85",
+        "nhk-top-f7867ff3",
+        "nhk-top-1f42275a",
+        "yahoo-topics-5808f6f8"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hn-front-92f75df4",
+        "hatebu-it-aafa3363",
+        "hn-front-81cd347d",
+        "hatebu-it-c205d427"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-f578d51f",
+      "title": "ソースネクスト　暗号化されていないパスワードが流出した理由とは（山口健太） - エキスパート - Yahoo!ニュース",
+      "url": "https://news.yahoo.co.jp/expert/articles/b3e710c60d79d276a00321906fa87ac9243f5530",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-17T08:05:29.000Z",
+      "summaryJa": [
+        "ソースネクストへの不正アクセスで会員情報が流出した問題では、「暗号化がない状態のパスワード」が含まれていたことをNHKなどが報じており、注目を集めています。",
+        "どのような方式でパスワードを管理していたのか、運営会社に聞いてみました。",
+        "システム連携用に暗号化して保存していたソースネクストの発表によれば、直."
+      ],
+      "category": "programming",
+      "keywords": [
+        "ソースネクスト",
+        "山口健太",
+        "エキスパート",
+        "Yahoo!ニュース"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 179,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 14.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-c7dfeeeb",
+      "title": "How the Claude Code team does code review / claude.dev Blog",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-16T12:24:30.000Z",
+      "summaryJa": [
+        "How the Claude Code team does code review",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Code",
+        "team",
+        "review",
+        "claude.dev"
+      ],
+      "heat": {
+        "temperature": 77,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 207,
+          "ageHours": 32,
+          "crossSources": 1,
+          "velocity": 6.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-244d29ed",
+      "title": "亡くなった声優の声、AIでの再現は原則禁止　日俳連が新指針",
+      "url": "https://japan.cnet.com/article/35253656/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-17T00:21:27.000Z",
+      "summaryJa": [
+        "日俳連には約2600人の俳優・声優が加盟する。",
+        "今回の「音声に関する生成AI利用ガイドライン」は、制作会社やAI開発企業などに順守を呼びかける自主基準だ。",
+        "日俳連によると、日本には個人の声そのものを包括的に保護する法律がなく、AIによる無断学習や音声生成への対応が課題になっている。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "亡くなった声優の声",
+        "AIでの再現は原則禁止",
+        "日俳連が新指針"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 147,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 7.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-90a91f85",
+      "title": "ゼレンスキー大統領 アメリカのロシア制裁免除に反発",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261017de61037",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-17T20:04:57.000Z",
+      "summaryJa": [
+        "アメリカのトランプ大統領は、ロシアへの制裁を強化するための新たな法律について、制裁の大半の適用を免除する大統領令に署名しました。",
+        "ウクライナのゼレンスキー大統領は「ロシア側を喜ばせるだけだ」と強く反発す…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ゼレンスキー大統領",
+        "アメリカのロシア制裁免除に反発"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-f7867ff3",
+      "title": "東京 調布の道路陥没から6年 補修8割終わるも完了のめど立たず",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261017de61038",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-17T20:06:51.000Z",
+      "summaryJa": [
+        "東京 調布市の住宅街で、「東京外かく環状道路」のトンネル工事を原因とする道路の陥没が見つかってから、18日で6年です。",
+        "地盤の補修はおよそ8割の範囲で終わりましたが、当初の予定より遅れていて、完了のめど…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "東京",
+        "調布の道路陥没から6年",
+        "補修8割終わるも完了のめど立たず"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-1f42275a",
+      "title": "墜落した空自「グローバルホーク」機体の一部海底から引き揚げ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261017de61020",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-17T13:00:00.000Z",
+      "summaryJa": [
+        "先月、鳥取県沖を飛行していた航空自衛隊の大型無人偵察機「グローバルホーク」が墜落した事故で、自衛隊は17日、現場周辺の海底から機体の胴体の一部を引き揚げました。",
+        "機体を分析し、事故の詳しい原因を調べる方…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "墜落した空自",
+        "グローバルホーク",
+        "機体の一部海底から引き揚げ"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "yahoo-topics-5808f6f8",
+      "title": "ITシステムの弱点 世界で発見急増",
+      "url": "https://news.yahoo.co.jp/pickup/6599176?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-10-17T13:50:29.000Z",
+      "summaryJa": [
+        "ITシステムの弱点 世界で発見急増",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ITシステムの弱点",
+        "世界で発見急増"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-92f75df4",
+      "title": "OpenCode Hacked: User credentials leaked",
+      "url": "https://twitter.com/opencode/status/2111516673953935833",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-17T18:01:41.000Z",
+      "summaryJa": [
+        "OpenCode Hacked: User credentials leaked",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "OpenCode",
+        "Hacked",
+        "User",
+        "credentials",
+        "leaked"
+      ],
+      "heat": {
+        "temperature": 91,
+        "signals": {
+          "hnPoints": 291,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 128
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-aafa3363",
+      "title": "すべてのAIコーディングエージェントのコストを閲覧・検索・追跡しローカルで動作する「AgentsView」、Claude Code・Codex・Cursor・Copilot・Geminiなど60種類以上のエージェントを自動検出し全文検索も可能",
+      "url": "https://gigazine.net/news/20261017-agentsview/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-17T09:27:07.000Z",
+      "summaryJa": [
+        "Claude CodeやCodexなどを並行して利用すると、どのAIコーディングエージェントやモデルへどれだけトークンを使ったのか全体像を把握しにくくなります。",
+        "そこで使えるのが複数のエージェントのローカル履歴を自動収集し、モデル別・日別・セッション別の利用量やAPI料金換算のコストをまとめて確認できる「AgentsVi",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "検索",
+        "追跡しローカルで動作する",
+        "AgentsView",
+        "Claude",
+        "Code"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 53,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 4.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-81cd347d",
+      "title": "Pele – Mermaid diagrams as themeable SVG",
+      "url": "https://pele.run/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-17T15:55:09.000Z",
+      "summaryJa": [
+        "Pele – Mermaid diagrams as themeable SVG",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Pele",
+        "Mermaid",
+        "diagrams",
+        "themeable",
+        "SVG"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 70,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 16
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-c205d427",
+      "title": "BASE子会社の漏えい、約2335万人分に　209万人分はクレカ番号「先頭6桁と下4桁」「有効期限」も",
+      "url": "https://www.itmedia.co.jp/news/article/2610/17/2000002349/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-17T00:57:57.000Z",
+      "summaryJa": [
+        "ショップサーブは、企業が独自ドメインのネットショップを作るためのECサイト構築・運営支援サービス。",
+        "25年7月にBASEがEストアーの全株式を取得して子会社化した。",
+        "今回の漏えいは8月に公表。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "BASE子会社の漏えい",
+        "約2335万人分に",
+        "209万人分はクレカ番号",
+        "先頭6桁と下4桁",
+        "有効期限"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 182,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 9.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "real betis vs fc barcelona standings",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-17T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "real",
+        "betis",
+        "fc",
+        "barcelona",
+        "standings"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-45f6223f",
+      "title": "ad-si/awesome-music-production — A curated list of software, services, and resources to create and distribute music",
+      "url": "https://github.com/ad-si/awesome-music-production",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-17T14:43:21Z",
+      "summaryJa": [
+        "A curated list of software, services, and resources to create and distribute mus",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "ad",
+        "si/awesome",
+        "music",
+        "production",
+        "curated"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "音楽制作や配信に必要なツールやリソースを網羅したキュレーションリストです。プログラミングと音響技術が交差するあなたの創作現場において、新しい表現の足がかりとなる道具が見つかります。"
+  },
+  "unavailableSources": []
+}

@@ -239,6 +239,13 @@
       "edition": "midday",
       "theme": "構文の検証と、足回りの調律",
       "path": "issues/2026-10-17-midday.json"
+    },
+    {
+      "issueNo": 199,
+      "date": "2026-10-18",
+      "edition": "morning",
+      "theme": "露出する平文と、自律するレビュー",
+      "path": "issues/2026-10-18-morning.json"
     }
   ]
 }
