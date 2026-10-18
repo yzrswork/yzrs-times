@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 200,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-10-18",
+  "dateDisplay": "Sunday, October 18, 2026",
+  "pressTimeJst": "2026-10-18 12:00",
+  "generatedAt": "2026-10-18T02:48:06.145Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-flash-latest",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "記法の受容性と、泥臭い接続",
+    "note": "モデルに馴染む構文の探求から、APIのないUIを無理やり叩かせる自動化まで、実用と探求が交差する昼の紙面。"
+  },
+  "editorial": {
+    "comment": "Pele（hn-front-81cd347d）のシンプルさに惹かれます。ドキュメントに図を挟むたびに重たいヘッドレスブラウザを立ち上げる煩わしさから解放されるのは、手元で小さくツールを編み上げるプログラマーにとって確かな福音です。—— YZRS Times 編集長",
+    "passedOver": "ソースネクストのパスワード平文保存問題。重大なインシデントだが昼休みに手を動かす糧にはならないため見送った。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ",
+    "icon": "sunny",
+    "tempMax": 23,
+    "tempMin": 13,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 53,
+      "label": "Neutral"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 81668,
+        "priceJpy": 12904830,
+        "change24hPct": 0.34,
+        "sparkline7d": [
+          82960.63,
+          83936.65,
+          83548.05,
+          82331.93,
+          82033.16,
+          81639.73,
+          81467.87
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2410.53,
+        "priceJpy": 380900,
+        "change24hPct": -0.36,
+        "sparkline7d": [
+          2508.37,
+          2562.69,
+          2512.27,
+          2453.17,
+          2432.21,
+          2413.04,
+          2403.65
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.177509,
+        "priceJpy": 28.05,
+        "change24hPct": -1.48,
+        "sparkline7d": [
+          0.19627,
+          0.202786,
+          0.191677,
+          0.184111,
+          0.184476,
+          0.180258,
+          0.176983
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 275.42,
+        "priceJpy": 43521,
+        "change24hPct": -1.56,
+        "sparkline7d": [
+          278.39,
+          287.9,
+          271.42,
+          271.65,
+          276.41,
+          274.64,
+          275.45
+        ]
+      }
+    ]
+  },
+  "top": [
+    "zenn-trend-c5015771",
+    "hn-front-81cd347d",
+    "zenn-trend-a0559319"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hatebu-it-8e530f66",
+        "hatebu-it-141ff78f",
+        "hatebu-it-0674f410"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "zenn-trend-68f8a9ed",
+        "zenn-trend-ea7c66be"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": []
+    }
+  ],
+  "articles": [
+    {
+      "id": "zenn-trend-c5015771",
+      "title": "LLMにとって書きやすい構文とは何か：`end` と `end func foo` を1,000回以上比べてみた",
+      "url": "https://zenn.dev/nextbeat/articles/2026-10-syntax-locality-llm",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-16T03:00:24.000Z",
+      "summaryJa": [
+        "はじめに こんにちは！",
+        "株式会社ネクストビートでテクノロジー・エバンジェリストなる肩書きでお仕事をしている水島です。",
+        "今回は「LLMにとって書きやすい構文とはどういうものか」を、小さな実験で確かめてみた話です。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "`end",
+        "func",
+        "foo`",
+        "000回以上比べてみた"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 48,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-81cd347d",
+      "title": "Pele – Mermaid diagrams as themeable SVG",
+      "url": "https://pele.run/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-17T15:55:09.000Z",
+      "summaryJa": [
+        "Pele – Mermaid diagrams as themeable SVG",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Pele",
+        "Mermaid",
+        "diagrams",
+        "themeable",
+        "SVG"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 266,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 24.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-a0559319",
+      "title": "コネクタも API も無いサービスを、Claude Code に操作させる",
+      "url": "https://zenn.dev/edash_tech_blog/articles/6250fc61ccf009",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-16T09:19:08.000Z",
+      "summaryJa": [
+        "こんにちは、e-dash の中島です。",
+        "SRE として認証基盤やインフラを見ています。",
+        "Claude Code から外部サービスを操作するときは、MCP のコネクタを使います。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "コネクタも",
+        "API",
+        "Claude",
+        "Code"
+      ],
+      "heat": {
+        "temperature": 42,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 41,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-8e530f66",
+      "title": "Void を触ってみた。もう全部これでよくね？ | ashunar0",
+      "url": "https://ashunar0.dev/posts/try-void/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-17T21:28:03.000Z",
+      "summaryJa": [
+        "はじめに ついに、ついに Void が出ました！",
+        "！",
+        "（大歓喜） 発表されてからずっと待っていたので、出たと知ってすぐに触ってみました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Void",
+        "ashunar0"
+      ],
+      "heat": {
+        "temperature": 75,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 26,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 4.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-141ff78f",
+      "title": "コード系でOpus 5超え「DeepSeek-V4.1-Flash-1017」無償公開",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2149045.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-17T14:39:34.000Z",
+      "summaryJa": [
+        "コード系でOpus 5超え「DeepSeek-V4.1-Flash-1017」無償公開",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "コード系でOpus",
+        "5超え",
+        "DeepSeek",
+        "V4.1",
+        "Flash"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 85,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-0674f410",
+      "title": "Windows11アップデート: 右クリックメニューを高速化する方法 #Windows - いおりのパソコン技術メモ",
+      "url": "https://iori016.hatenablog.com/entry/2025/11/02/110654",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-17T17:15:04.000Z",
+      "summaryJa": [
+        "画像の右クリックメニューを高速化 Windows10のサポート期限が切れた為、Windows11にアップデートした人たちが増えていると思いますが、Windows",
+        "これをWindows10ライクにする設定は割とよく知られていますが、それでも右クリックメニューの表示が遅いと.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Windows11アップデート",
+        "右クリックメニューを高速化する方法",
+        "#Windows"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 122,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 12.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-68f8a9ed",
+      "title": "ポートフォリオをVoidで作り直したので、Voidの来歴と中身を整理する",
+      "url": "https://zenn.dev/nkzn/articles/my-first-void",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-16T14:10:37.000Z",
+      "summaryJa": [
+        "筆者のポートフォリオサイトnkzn.",
+        "netは、これまで何度か作り直してきました。",
+        "最初はNext."
+      ],
+      "category": "programming",
+      "keywords": [
+        "ポートフォリオをVoidで作り直したので",
+        "Voidの来歴と中身を整理する"
+      ],
+      "heat": {
+        "temperature": 44,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 37,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-ea7c66be",
+      "title": "有名 OSS が PR を閉じはじめた。何が起きていて、どう向き合うか",
+      "url": "https://zenn.dev/hand_dot/articles/ecb391d4322330",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-15T23:00:05.000Z",
+      "summaryJa": [
+        "2026年に入ってから、有名な OSS が次々と PR を閉じはじめているなぁと感じています。",
+        "OSS のエコシステムには個人的に興味があるので、少し調べてみました。",
+        "メモがてら残しておきます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "有名",
+        "PR",
+        "何が起きていて"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 52,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-a9532c92",
+      "title": "opencardev/crankshaft — Crankshaft: A turnkey GNU/Linux solution that transforms a Raspberry Pi to an Android Auto head unit.",
+      "url": "https://github.com/opencardev/crankshaft",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-04T21:06:42Z",
+      "summaryJa": [
+        "Crankshaft: A turnkey GNU/Linux solution that transforms a Raspberry Pi to an An",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "Crankshaft",
+        "turnkey",
+        "GNU/Linux",
+        "solution",
+        "transforms"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 318,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "使い古したRaspberry Piをクルマのインフォテインメントに転生させる実直なターンキーOSです。眠っている小型ボードに明確な役目を与え、週末の電子工作欲を心地よく刺激してくれます。"
+  },
+  "unavailableSources": [
+    "Lobsters"
+  ]
+}

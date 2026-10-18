@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "indieblog-8b7bad00",
-      "url": "https://fredrocha.net/2026/06/09/nominations-for-the-best-tiny-website-of-2026-are-open/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
-      "date": "2026-09-18"
-    },
-    {
-      "id": "github-gems-0957d799",
-      "url": "https://github.com/moltis-org/moltis",
-      "date": "2026-09-18"
-    },
-    {
       "id": "github-gems-52414d83",
       "url": "https://github.com/davidmonterocrespo24/velxio",
       "date": "2026-09-19"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-45f6223f",
       "url": "https://github.com/ad-si/awesome-music-production",
+      "date": "2026-10-18"
+    },
+    {
+      "id": "github-gems-a9532c92",
+      "url": "https://github.com/opencardev/crankshaft",
       "date": "2026-10-18"
     }
   ]
