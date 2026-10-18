@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 201,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-19",
+  "dateDisplay": "Monday, October 19, 2026",
+  "pressTimeJst": "2026-10-19 05:00",
+  "generatedAt": "2026-10-18T20:17:34.985Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "実体の模索と、概念の明示",
+    "note": "物理的なツールの極小化と意味構造の厳密な定義、手元の試行に着目した編成。"
+  },
+  "editorial": {
+    "comment": "RepRapMicron（hn-front-5affddb7）の極小な佇まいに心が躍ります。機能を損なわずに設置面積を限界まで削り落とす実験精神は、卓上でモノを組み上げるあらゆる作り手の創作意欲を静かに刺激してくれます。—— YZRS Times 編集長",
+    "passedOver": "ドメイン差し押さえや電子書籍の停止事故などインフラ不全のニュースが多く、朝の創作意欲を優先し見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "弱い雨",
+    "icon": "rain",
+    "tempMax": 26,
+    "tempMin": 18,
+    "precipChancePct": 10
+  },
+  "market": {
+    "fearGreed": {
+      "value": 53,
+      "label": "Neutral"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 80784,
+        "priceJpy": 12765044,
+        "change24hPct": -1.06,
+        "sparkline7d": [
+          83594.47,
+          81794.85,
+          83640.13,
+          81446.11,
+          82152.21,
+          81484.22,
+          81123.63
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2336.25,
+        "priceJpy": 369163,
+        "change24hPct": -3.42,
+        "sparkline7d": [
+          2534.2,
+          2445.89,
+          2511.89,
+          2377.04,
+          2463.07,
+          2424.84,
+          2365.83
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.171895,
+        "priceJpy": 27.16,
+        "change24hPct": -4.01,
+        "sparkline7d": [
+          0.2031,
+          0.19034,
+          0.189862,
+          0.180492,
+          0.183869,
+          0.178041,
+          0.174101
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 265.56,
+        "priceJpy": 41962,
+        "change24hPct": -3.87,
+        "sparkline7d": [
+          284.99,
+          265.47,
+          279.2,
+          262.88,
+          282.7,
+          274.88,
+          269.56
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hn-front-5affddb7",
+    "hatebu-it-6f94ae17",
+    "nhk-top-52047825"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-1bde414c"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-860f384c",
+        "hn-front-9d468a1c"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hn-front-5affddb7",
+      "title": "RepRapMicron",
+      "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-18T13:48:48.000Z",
+      "summaryJa": [
+        "RepRapMicron",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "RepRapMicron"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 281,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 43.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-6f94ae17",
+      "title": "オントロジーとは？意味・ナレッジグラフとの違い・LLMでの効果",
+      "url": "https://fd-x.co.jp/insights/41-what-is-ontology",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-18T02:55:30.000Z",
+      "summaryJa": [
+        "最新世代の​モデルでも、​意味の​層を​通した​ほうが​精度は​明確に​高い。",
+        "​加えて、​文脈付きメタデータを​与えた​場合は​スキーマのみの​プロンプトに​対しSQL生成精度が​3倍、​522問規模の​別ベンチマークでも​38%の​相対",
+        "モデルの進化は意味の層を不要にしていない。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "オントロジーとは？意味",
+        "ナレッジグラフとの違い",
+        "LLMでの効果"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 111,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 6.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-52047825",
+      "title": "声や肖像 不正競争防止法の対象として明記検討へ 経済産業省",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261018de61309",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-18T14:44:18.000Z",
+      "summaryJa": [
+        "生成AIによって著名人の声が無断で利用されるケースが相次ぐ中、経済産業省は、不正競争防止法で保護する対象として「声」や「肖像」を明記できないか検討を始めました。",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "声や肖像",
+        "不正競争防止法の対象として明記検討へ",
+        "経済産業省"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-1bde414c",
+      "title": "日本サッカー協会 公式アプリに不正アクセス“影響調査中”",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261019de61320",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-18T16:27:20.000Z",
+      "summaryJa": [
+        "日本サッカー協会は協会の公式アプリに第三者からの不正なアクセスがあったため、アプリの機能を一部停止し、サービスの一部が使用できない状況になっていると発表しました",
+        "個人情報などへの影響については調査…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "日本サッカー協会",
+        "公式アプリに不正アクセス",
+        "影響調査中"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-860f384c",
+      "title": "知らない分野を学ぶ技術 powered by AI - ぷりんの雑記帳",
+      "url": "https://smooth-pudding.hatenablog.com/entry/2026/10/17/145830",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-17T17:43:11.000Z",
+      "summaryJa": [
+        "Open AI が証明したと主張している、Navier-Stokes 方程式の爆発解の構成の書籍を発売しました。",
+        "smooth-pudding.",
+        "hatenablog."
+      ],
+      "category": "programming",
+      "keywords": [
+        "知らない分野を学ぶ技術",
+        "powered",
+        "AI"
+      ],
+      "heat": {
+        "temperature": 75,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 160,
+          "ageHours": 27,
+          "crossSources": 1,
+          "velocity": 6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-9d468a1c",
+      "title": "Someone behind the software",
+      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-18T16:32:00.000Z",
+      "summaryJa": [
+        "Someone behind the software",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Someone",
+        "behind",
+        "software"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 165,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 43.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "madrid vs sevilla",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-18T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "madrid",
+        "sevilla"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-11d28e70",
+      "title": "maximecb/noisecraft — Browser-based visual programming language and platform for sound synthesis.",
+      "url": "https://github.com/maximecb/noisecraft",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-09-23T12:55:46Z",
+      "summaryJa": [
+        "Browser-based visual programming language and platform for sound synthesis.",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "maximecb/noisecraft",
+        "Browser",
+        "based",
+        "visual",
+        "language"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 607,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "ブラウザ上で音響合成のロジックを視覚的に組み上げられるビジュアル言語です。コードを書く手を休め、ノードを繋ぎ直してサウンドを構築する感覚は午後の実験に最適です。"
+  },
+  "unavailableSources": []
+}
