@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 203,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-20",
+  "dateDisplay": "Tuesday, October 20, 2026",
+  "pressTimeJst": "2026-10-20 05:00",
+  "generatedAt": "2026-10-19T20:17:38.208Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "移植される環境と、道具の刃研ぎ",
+    "note": "異なるプラットフォームへシステムを渡す移植の試みと、日々の作業基盤やツールを整え直す手元の工夫が呼応する朝の紙面。"
+  },
+  "editorial": {
+    "comment": "Wine ported to OpenBSD（hn-front-8c280833）のように、厳しい制約を持つOS上に異系の互換層を構築する泥臭い移植作業に強く惹かれます。与えられた環境の境界を力技で押し広げる姿勢は、手元のツールやコードを拡張していく創作の大きな励みになります。—— YZRS Times 編集長",
+    "passedOver": "AIを悪用した攻撃の自動化やパスワード漏洩といった話題が多数集まりましたが、朝の紙面として技術的な創造性を優先するため掲載を見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "霧雨",
+    "icon": "rain",
+    "tempMax": 26,
+    "tempMin": 18,
+    "precipChancePct": 53
+  },
+  "market": {
+    "fearGreed": {
+      "value": 59,
+      "label": "Greed"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 81941,
+        "priceJpy": 12991293,
+        "change24hPct": 1.51,
+        "sparkline7d": [
+          82776.78,
+          83115.1,
+          80805.84,
+          82222.22,
+          81551.08,
+          81019.79,
+          81896.04
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2398.78,
+        "priceJpy": 380313,
+        "change24hPct": 2.61,
+        "sparkline7d": [
+          2519.07,
+          2496.59,
+          2357.24,
+          2452.99,
+          2436.75,
+          2374.71,
+          2398.9
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.176347,
+        "priceJpy": 27.96,
+        "change24hPct": 2.57,
+        "sparkline7d": [
+          0.196682,
+          0.190234,
+          0.179004,
+          0.183529,
+          0.179735,
+          0.17488,
+          0.176354
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 277.2,
+        "priceJpy": 43948,
+        "change24hPct": 4.38,
+        "sparkline7d": [
+          273.89,
+          274.01,
+          261.64,
+          279.49,
+          275.51,
+          270.69,
+          277.15
+        ]
+      }
+    ]
+  },
+  "top": [
+    "nhk-top-5a48f581",
+    "hn-front-8c280833",
+    "hatebu-it-7aae5fbb"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-68f86921",
+        "yahoo-topics-46f30e13",
+        "nhk-top-01e7ef55"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hn-front-7af3e632",
+        "hatebu-it-16d0ea0b"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "nhk-top-5a48f581",
+      "title": "火星衛星探査機「MMX」 種子島宇宙センターから打ち上げ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261019de61814",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-19T19:54:00.000Z",
+      "summaryJa": [
+        "日本の火星衛星探査機「MMX」は、20日午前5時前、鹿児島県の種子島宇宙センターからH3ロケットで打ち上げられました。",
+        "探査機は打ち上げのおよそ1時間11分後にロケットから切り離され、火星へ向かう軌道に…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "火星衛星探査機",
+        "MMX",
+        "種子島宇宙センターから打ち上げ"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-8c280833",
+      "title": "Wine ported to OpenBSD",
+      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-19T13:35:34.000Z",
+      "summaryJa": [
+        "Wine ported to OpenBSD",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Wine",
+        "ported",
+        "OpenBSD"
+      ],
+      "heat": {
+        "temperature": 91,
+        "signals": {
+          "hnPoints": 414,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 2,
+          "velocity": 61.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-7aae5fbb",
+      "title": "仕事を進めるだけでは、仕事しか進まない。木こりのジレンマを Claude Code で解いた5ヶ月の記録 - RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20261019/weekly-reflection",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-19T06:12:20.000Z",
+      "summaryJa": [
+        "朝、森を歩いていた旅人が、木を切っている木こりを見かけました。",
+        "夕方、同じ道を戻ると、木こりはまだ同じ木を切っています。",
+        "見ると、ノコギリの刃はぼろぼろに欠けていました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "仕事を進めるだけでは",
+        "仕事しか進まない",
+        "Claude",
+        "Code",
+        "RAKUS"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 172,
+          "ageHours": 14,
+          "crossSources": 1,
+          "velocity": 12.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-68f86921",
+      "title": "不正アクセス 「中国系AIの使用確認」 情報セキュリティー会社",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261020de61888",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-19T20:01:02.000Z",
+      "summaryJa": [
+        "国内で相次いでいる不正アクセスの一部について、IT企業「GMOインターネットグループ」の情報セキュリティー専門の子会社は「調査したところ、中国系のAIが使われて",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "不正アクセス",
+        "中国系AIの使用確認",
+        "情報セキュリティー会社"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "yahoo-topics-46f30e13",
+      "title": "ALS原因タンパク質 除去に新経路",
+      "url": "https://news.yahoo.co.jp/pickup/6599408?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-10-19T14:38:48.000Z",
+      "summaryJa": [
+        "ALS原因タンパク質 除去に新経路",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ALS原因タンパク質",
+        "除去に新経路"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-01e7ef55",
+      "title": "米国務長官は和平目指す姿勢強調もウクライナは不満表明",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261020de61898",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-19T19:52:57.000Z",
+      "summaryJa": [
+        "アメリカのルビオ国務長官は、ロシアによるウクライナ侵攻をめぐり、和平の実現を目指す姿勢を強調しました。",
+        "一方、ウクライナのゼレンスキー大統領は、ロシアのミサイル発射に関する警戒情報が共有されなかったとし…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "news"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-7af3e632",
+      "title": "Android apps running native on macOS",
+      "url": "https://github.com/kksimp/Mac.apk",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-19T16:45:30.000Z",
+      "summaryJa": [
+        "Android apps running native on macOS",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Android",
+        "apps",
+        "native",
+        "macOS"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 147,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 41.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-16d0ea0b",
+      "title": "ひとり会社が、AIと二人でISMSを取った話｜村山毅 Tim",
+      "url": "https://note.com/timtarou/n/n5443f159e7bc",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-19T14:05:36.000Z",
+      "summaryJa": [
+        "2026年7月9日付で、ISMS（ISO/IEC 27001:2022）の認証を取得しました。",
+        "登録番号は 50301853 ISMS22 です。",
+        "コンサルには頼んでいません。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AIと二人でISMSを取った話｜村山毅",
+        "Tim"
+      ],
+      "heat": {
+        "temperature": 77,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 36,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 5.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "アナウンサー",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-19T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "アナウンサー"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "show-hn-de6f8fe5",
+      "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+      "url": "https://news.ycombinator.com/item?id=48968606",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2026-07-19T14:41:16.000Z",
+      "summaryJa": [
+        "I might be the only SRE on Earth with his own bowling center.",
+        "It&#x27;s a more in-depth gig than you&#x27;d think.",
+        "<p>My family and I bought an abandoned 8-lane bowling center in the rural mid-we"
+      ],
+      "category": "tech",
+      "keywords": [
+        "replaced",
+        "$120k",
+        "bowling",
+        "center",
+        "system"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 2935,
+          "hatebuCount": 0,
+          "ageHours": 2214,
+          "crossSources": 1,
+          "velocity": 1.3
+        }
+      },
+      "image": null
+    },
+    "reason": "12万ドルのボウリング場制御システムをわずか数個のESP32と自作回路で置き換えた圧巻のハック事例です。市販のマイコンで巨大な装置を動かす手触り感が、モノづくりの原点的な喜びを思い出させてくれます。"
+  },
+  "unavailableSources": []
+}

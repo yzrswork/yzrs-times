@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 202,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-10-19",
-  "dateDisplay": "Monday, October 19, 2026",
-  "pressTimeJst": "2026-10-19 12:00",
-  "generatedAt": "2026-10-19T02:47:40.236Z",
+  "issueNo": 203,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-20",
+  "dateDisplay": "Tuesday, October 20, 2026",
+  "pressTimeJst": "2026-10-20 05:00",
+  "generatedAt": "2026-10-19T20:17:38.208Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,12 +14,12 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "低層の研磨と、検証の粒度",
-    "note": "午後の手を動かす時間に向けて、エミュレータの最適化やアクセス制御の泥臭い検証、理論に基づくシステム解析など、手元で試して深掘りできる技術記事を揃えました。"
+    "title": "移植される環境と、道具の刃研ぎ",
+    "note": "異なるプラットフォームへシステムを渡す移植の試みと、日々の作業基盤やツールを整え直す手元の工夫が呼応する朝の紙面。"
   },
   "editorial": {
-    "comment": "Superoptimizing an FPU emulator（lobsters-d0b22ddb）の、低層コードを極限まで削り出す姿勢に深く惹かれます。自動化された現代にあっても、最後は泥臭い手計算と実験が性能の壁を破るという事実は、午後の作図やプログラミングに向かう背中を力強く押してくれます。—— YZRS Times 編集長",
-    "passedOver": "コミックシーモアの不正アクセス障害（hatebu-it-0cedd2e6）など時事的なセキュリティ障害のニュースは、午後の技術インプット専門版の趣旨に鑑み見送りました。",
+    "comment": "Wine ported to OpenBSD（hn-front-8c280833）のように、厳しい制約を持つOS上に異系の互換層を構築する泥臭い移植作業に強く惹かれます。与えられた環境の境界を力技で押し広げる姿勢は、手元のツールやコードを拡張していく創作の大きな励みになります。—— YZRS Times 編集長",
+    "passedOver": "AIを悪用した攻撃の自動化やパスワード漏洩といった話題が多数集まりましたが、朝の紙面として技術的な創造性を優先するため掲載を見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
@@ -28,7 +28,7 @@
     "icon": "rain",
     "tempMax": 26,
     "tempMin": 18,
-    "precipChancePct": 21
+    "precipChancePct": 53
   },
   "market": {
     "fearGreed": {
@@ -39,419 +39,118 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 82481,
-        "priceJpy": 13030918,
-        "change24hPct": 0.97,
+        "priceUsd": 81941,
+        "priceJpy": 12991293,
+        "change24hPct": 1.51,
         "sparkline7d": [
-          83569.53,
-          83606.87,
-          83185.9,
-          80116.63,
-          81379.48,
-          81569.77,
-          82246.31
+          82776.78,
+          83115.1,
+          80805.84,
+          82222.22,
+          81551.08,
+          81019.79,
+          81896.04
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2423.69,
-        "priceJpy": 382913,
-        "change24hPct": 0.51,
+        "priceUsd": 2398.78,
+        "priceJpy": 380313,
+        "change24hPct": 2.61,
         "sparkline7d": [
-          2539.27,
-          2529.32,
-          2495.5,
-          2337.78,
-          2430.58,
-          2419.38,
-          2411.98
+          2519.07,
+          2496.59,
+          2357.24,
+          2452.99,
+          2436.75,
+          2374.71,
+          2398.9
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.178898,
-        "priceJpy": 28.26,
-        "change24hPct": 0.74,
+        "priceUsd": 0.176347,
+        "priceJpy": 27.96,
+        "change24hPct": 2.57,
         "sparkline7d": [
-          0.201172,
-          0.194875,
-          0.188574,
-          0.177855,
-          0.180539,
-          0.178894,
-          0.178239
+          0.196682,
+          0.190234,
+          0.179004,
+          0.183529,
+          0.179735,
+          0.17488,
+          0.176354
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
         "priceUsd": 277.2,
-        "priceJpy": 43795,
-        "change24hPct": 0.6,
+        "priceJpy": 43948,
+        "change24hPct": 4.38,
         "sparkline7d": [
-          285.72,
-          273.65,
-          277.69,
-          262.5,
-          275.95,
-          278.05,
-          275.37
+          273.89,
+          274.01,
+          261.64,
+          279.49,
+          275.51,
+          270.69,
+          277.15
         ]
       }
     ]
   },
   "top": [
-    "lobsters-d0b22ddb",
-    "qiita-popular-75dc0b03",
-    "hatebu-it-2d50a33e"
+    "nhk-top-5a48f581",
+    "hn-front-8c280833",
+    "hatebu-it-7aae5fbb"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hn-front-a424cadc",
-        "hatebu-it-b713704d",
-        "hn-front-9d468a1c",
-        "hn-front-2777b763"
+        "nhk-top-68f86921",
+        "yahoo-topics-46f30e13",
+        "nhk-top-01e7ef55"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-trend-f6aaa740",
-        "zenn-trend-05d1fc29",
-        "qiita-popular-5158b9d2"
+        "hn-front-7af3e632",
+        "hatebu-it-16d0ea0b"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-4ff6d597",
-        "lobsters-1f9f9cf6"
+        "gtrends-jp-ccbd37e7"
       ]
     }
   ],
   "articles": [
     {
-      "id": "lobsters-d0b22ddb",
-      "title": "Superoptimizing an FPU emulator",
-      "url": "https://purplesyringa.moe/blog/superoptimizing-an-fpu-emulator/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-18T23:51:14.000Z",
+      "id": "nhk-top-5a48f581",
+      "title": "火星衛星探査機「MMX」 種子島宇宙センターから打ち上げ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261019de61814",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-19T19:54:00.000Z",
       "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "日本の火星衛星探査機「MMX」は、20日午前5時前、鹿児島県の種子島宇宙センターからH3ロケットで打ち上げられました。",
+        "探査機は打ち上げのおよそ1時間11分後にロケットから切り離され、火星へ向かう軌道に…",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "Superoptimizing",
-        "FPU",
-        "emulator"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 3,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-75dc0b03",
-      "title": "Claude Codeの.envを読ませない設定がどこまで効くのか試してみた",
-      "url": "https://qiita.com/yakumo_09/items/5a86ca330b449db0e6bc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-10-18T12:49:25.000Z",
-      "summaryJa": [
-        "はじめに Claude Codeには、permissions.",
-        "deny で .",
-        "env を読ませない設定があります。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Claude"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 14,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-2d50a33e",
-      "title": "コーディングベンチでGPT-6 Astraを超えつつ超安価な中国製AIモデル「DeepSeek-V4.1-Flash-1017」が登場",
-      "url": "https://gigazine.net/news/20261019-deepseek-v4-1-flash-1017/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-19T01:50:56.000Z",
-      "summaryJa": [
-        "中国企業のDeepSeekがAIモデル「DeepSeek-V4.",
-        "1-Flash-1017」を2026年10月17日に公開しました。",
-        "DeepSeek-V4."
-      ],
-      "category": "programming",
-      "keywords": [
-        "コーディングベンチでGPT",
-        "DeepSeek",
-        "V4.1",
-        "Flash"
-      ],
-      "heat": {
-        "temperature": 83,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 6,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 6.3
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-a424cadc",
-      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-      "url": "https://arxiv.org/abs/2610.18861",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-18T20:48:14.000Z",
-      "summaryJa": [
-        "<a href=\"https:&#x2F;&#x2F;x.",
-        "com&#x2F;Jiaru_Zou&#x2F;status&#x2F;2110400256647340476\" rel=\"nofollow\">https:&#",
-        "com&#x2F;Jiaru_Zou&#x2F;status&#x2F;2110400256647340476</a><p><a href=\"https:&#x"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Hybrid",
-        "Reasoning",
-        "Agents",
-        "LLM",
-        "think"
-      ],
-      "heat": {
-        "temperature": 88,
-        "signals": {
-          "hnPoints": 237,
-          "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 1,
-          "velocity": 39.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-b713704d",
-      "title": "リーダーシップなき越境は組織を壊す｜TakayukiSaruta",
-      "url": "https://note.com/srt_taka/n/nff6c2d40c11b",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-18T12:26:25.000Z",
-      "summaryJa": [
-        "はじめにこのnoteでは、コミュニケーションの量は多いのに前に進まない組織の正体を、具体化は放っておいても進み、抽象化には意志が必要であるという非対称として説明",
-        "そのうえで、越境がこの非対称を加速させること、Slackがその具体化のコストをゼロにしたこと、そして組織の規模で抽象化を担うリーダーシップ.",
-        "."
-      ],
-      "category": "programming",
-      "keywords": [
-        "programming"
-      ],
-      "heat": {
-        "temperature": 84,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 326,
-          "ageHours": 14,
-          "crossSources": 1,
-          "velocity": 22.7
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-9d468a1c",
-      "title": "Someone behind the software",
-      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-18T16:32:00.000Z",
-      "summaryJa": [
-        "Someone behind the software",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Someone",
-        "behind",
-        "software"
-      ],
-      "heat": {
-        "temperature": 84,
-        "signals": {
-          "hnPoints": 328,
-          "hatebuCount": 0,
-          "ageHours": 10,
-          "crossSources": 1,
-          "velocity": 32
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-2777b763",
-      "title": "Free Pascal compiler now supports dynamic packages",
-      "url": "https://www.getlazarus.org/dynamic/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-18T18:48:04.000Z",
-      "summaryJa": [
-        "Free Pascal compiler now supports dynamic packages",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Pascal",
-        "compiler",
-        "supports",
-        "dynamic",
-        "packages"
-      ],
-      "heat": {
-        "temperature": 84,
-        "signals": {
-          "hnPoints": 116,
-          "hatebuCount": 0,
-          "ageHours": 8,
-          "crossSources": 2,
-          "velocity": 14.5
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-f6aaa740",
-      "title": "リトルの法則で考える障害時のキャパシティプランニング",
-      "url": "https://zenn.dev/rea9r/articles/littles-law-capacity-planning",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-18T09:54:19.000Z",
-      "summaryJa": [
-        "はじめに サーバーサイドの開発や運用をしていると、こんな場面に出会うことがあります。",
-        "呼び出し元のメトリクスで、このサービスへのリクエストのタイムアウトが、ほとんどのエンドポイントで増えている サーバーの負荷状況を確認しても、CPU もメモリも余",
-        "そこで、サーバーが呼び出している外部の API のレイテンシを見てみると、1つだけ応答が遅くな."
-      ],
-      "category": "programming",
-      "keywords": [
-        "programming"
-      ],
-      "heat": {
-        "temperature": 50,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 17,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-05d1fc29",
-      "title": "インライン編集UIを拡張性が高い形で実装した",
-      "url": "https://zenn.dev/numa_san/articles/50b847c58f0854",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-18T15:13:54.000Z",
-      "summaryJa": [
-        "始めに 編集を気軽に行えるように、対象のフィールドのみ編集ボタンを押すことでその場で編集状態になって編集ができる、いわゆるインライン編集と呼ばれるものがあります",
-        "具体的には以下のようなGifアニメのようなもので、編集アイコンを押してテキストフィールドが出て、入力後保存を押すことで編集結果が表示されます。",
-        "簡単な編集においては便利なUIである一方で、実装面では以下のような細かいケアを考えると結構面倒です。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "programming"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 12,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-5158b9d2",
-      "title": "Lambdaが3種類になったみたいなので、全部試してみた",
-      "url": "https://qiita.com/maeda-kazutoshi/items/4674e080c2ce3d53c809?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-10-18T06:31:25.000Z",
-      "summaryJa": [
-        "10 月に Lambda Web Functions が出て、6 月の MicroVMs と合わせて、気づいたら Lambda が 3 種類になっていました。",
-        "これは 3 つとも触ってみたい。",
-        "せっかくなら 3 つ全部に出番があるお題がいいなと思って探してみたら、なぜか手元に."
-      ],
-      "category": "programming",
-      "keywords": [
-        "Lambdaが3種類になったみたいなので",
-        "全部試してみた"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 20,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-4ff6d597",
-      "title": "BBC Master Pi 1MHz Domesday",
-      "url": "https://youtu.be/UAWSOCOTjIU",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-19T01:20:14.000Z",
-      "summaryJa": [
-        "Dominic Plunkett has updated the BBC Micro PiMHz software to emulate most of the",
-        "Just add a trackball/mouse and a PiTubeDirect and you'll be able to run the Dome",
-        "This video covers how the PiMHz implementation works (basically!"
-      ],
-      "category": "tech",
-      "keywords": [
-        "BBC",
-        "Master",
-        "Pi",
-        "1MHz",
-        "Domesday"
+        "火星衛星探査機",
+        "MMX",
+        "種子島宇宙センターから打ち上げ"
       ],
       "heat": {
         "temperature": 55,
@@ -466,28 +165,236 @@
       "image": null
     },
     {
-      "id": "lobsters-1f9f9cf6",
-      "title": "QML for C & Zig",
-      "url": "https://gist.github.com/rcalixte/d2de5c816fc1de3970cc501b5ae9706e",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-18T19:10:04.000Z",
+      "id": "hn-front-8c280833",
+      "title": "Wine ported to OpenBSD",
+      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-19T13:35:34.000Z",
       "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "Wine ported to OpenBSD",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "QML",
-        "Zig"
+        "Wine",
+        "ported",
+        "OpenBSD"
+      ],
+      "heat": {
+        "temperature": 91,
+        "signals": {
+          "hnPoints": 414,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 2,
+          "velocity": 61.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-7aae5fbb",
+      "title": "仕事を進めるだけでは、仕事しか進まない。木こりのジレンマを Claude Code で解いた5ヶ月の記録 - RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20261019/weekly-reflection",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-19T06:12:20.000Z",
+      "summaryJa": [
+        "朝、森を歩いていた旅人が、木を切っている木こりを見かけました。",
+        "夕方、同じ道を戻ると、木こりはまだ同じ木を切っています。",
+        "見ると、ノコギリの刃はぼろぼろに欠けていました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "仕事を進めるだけでは",
+        "仕事しか進まない",
+        "Claude",
+        "Code",
+        "RAKUS"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 172,
+          "ageHours": 14,
+          "crossSources": 1,
+          "velocity": 12.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-68f86921",
+      "title": "不正アクセス 「中国系AIの使用確認」 情報セキュリティー会社",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261020de61888",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-19T20:01:02.000Z",
+      "summaryJa": [
+        "国内で相次いでいる不正アクセスの一部について、IT企業「GMOインターネットグループ」の情報セキュリティー専門の子会社は「調査したところ、中国系のAIが使われて",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "不正アクセス",
+        "中国系AIの使用確認",
+        "情報セキュリティー会社"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "yahoo-topics-46f30e13",
+      "title": "ALS原因タンパク質 除去に新経路",
+      "url": "https://news.yahoo.co.jp/pickup/6599408?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-10-19T14:38:48.000Z",
+      "summaryJa": [
+        "ALS原因タンパク質 除去に新経路",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ALS原因タンパク質",
+        "除去に新経路"
       ],
       "heat": {
         "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 8,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-01e7ef55",
+      "title": "米国務長官は和平目指す姿勢強調もウクライナは不満表明",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261020de61898",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-19T19:52:57.000Z",
+      "summaryJa": [
+        "アメリカのルビオ国務長官は、ロシアによるウクライナ侵攻をめぐり、和平の実現を目指す姿勢を強調しました。",
+        "一方、ウクライナのゼレンスキー大統領は、ロシアのミサイル発射に関する警戒情報が共有されなかったとし…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "news"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-7af3e632",
+      "title": "Android apps running native on macOS",
+      "url": "https://github.com/kksimp/Mac.apk",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-19T16:45:30.000Z",
+      "summaryJa": [
+        "Android apps running native on macOS",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Android",
+        "apps",
+        "native",
+        "macOS"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 147,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 41.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-16d0ea0b",
+      "title": "ひとり会社が、AIと二人でISMSを取った話｜村山毅 Tim",
+      "url": "https://note.com/timtarou/n/n5443f159e7bc",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-19T14:05:36.000Z",
+      "summaryJa": [
+        "2026年7月9日付で、ISMS（ISO/IEC 27001:2022）の認証を取得しました。",
+        "登録番号は 50301853 ISMS22 です。",
+        "コンサルには頼んでいません。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AIと二人でISMSを取った話｜村山毅",
+        "Tim"
+      ],
+      "heat": {
+        "temperature": 77,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 36,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 5.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "アナウンサー",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-19T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "アナウンサー"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -497,38 +404,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-e861a2e4",
-      "title": "surikov/webaudiofont — Use full GM set of musical instruments to play MIDI and single sounds or effects. Support for reverberation and equaliser. No plugins, no Flash. Pure HTML5 implementation compatible with desktop and mobile browser. See live examples.",
-      "url": "https://github.com/surikov/webaudiofont",
-      "source": "GitHub 小さなOSS",
-      "sourceId": "github-gems",
-      "publishedAt": "2026-09-04T13:16:57Z",
+      "id": "show-hn-de6f8fe5",
+      "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+      "url": "https://news.ycombinator.com/item?id=48968606",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2026-07-19T14:41:16.000Z",
       "summaryJa": [
-        "Use full GM set of musical instruments to play MIDI and single sounds or effects",
-        "Support for reverberation and equaliser.",
-        "No plugins, no Flash."
+        "I might be the only SRE on Earth with his own bowling center.",
+        "It&#x27;s a more in-depth gig than you&#x27;d think.",
+        "<p>My family and I bought an abandoned 8-lane bowling center in the rural mid-we"
       ],
-      "category": "oss",
+      "category": "tech",
       "keywords": [
-        "surikov/webaudiofont",
-        "full",
-        "GM",
-        "set",
-        "musical"
+        "replaced",
+        "$120k",
+        "bowling",
+        "center",
+        "system"
       ],
       "heat": {
-        "temperature": 40,
+        "temperature": 78,
         "signals": {
-          "hnPoints": 0,
+          "hnPoints": 2935,
           "hatebuCount": 0,
-          "ageHours": 1070,
+          "ageHours": 2214,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 1.3
         }
       },
       "image": null
     },
-    "reason": "ブラウザ上で完全なGeneral MIDI音源を再現するWeb Audioライブラリです。プラグインなしでMIDI演奏やリバーブ処理が完結するため、Web上で音を扱う作品づくりに直結する素晴らしい道具です。"
+    "reason": "12万ドルのボウリング場制御システムをわずか数個のESP32と自作回路で置き換えた圧巻のハック事例です。市販のマイコンで巨大な装置を動かす手触り感が、モノづくりの原点的な喜びを思い出させてくれます。"
   },
   "unavailableSources": []
 }

@@ -1,105 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "b789d4c1436f66f0": {
-      "url": "https://zenn.dev/joeee/articles/048addcc0c2ce6",
-      "summaryJa": [
-        "自作サーバー 自宅で開発する際に使う検証機や、開発の際に使うもの、またはVercelなどのようにホスティングで使えるサーバーです。",
-        "画像だけアップロードできるようにしておくのも良さそうです。",
-        "開発サーバーの構成 今回以下のスペックでサーバーを組みました。"
-      ],
-      "cachedAt": "2026-07-21T05:37:46.344Z"
-    },
-    "0829dcd515cb491d": {
-      "url": "https://bellkiosk.website/blog/reasons-to-website.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-21T05:37:46.344Z"
-    },
-    "f601999746f1db98": {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/21/news012.html",
-      "summaryJa": [
-        "「AIコーディングブーム」が去ったUSで、エンジニアに求められる「本体の強さ」：Go AbekawaのGo Global！",
-        "牛尾剛さん AI vs.",
-        "人間編（前編）（1/2 ページ） 米国MS開発の最前線では「コーディングエージェントブーム」は既に終息し、AIは日常の文房具に。"
-      ],
-      "cachedAt": "2026-07-21T05:37:46.345Z"
-    },
-    "7607084db1851125": {
-      "url": "https://zenn.dev/ncdc/articles/6c8eabde83cf0a",
-      "summaryJa": [
-        "会議の場で「あいまい検索でお願いします」「部分一致でお願いします」という言葉だけが飛び交うことがよくありますが、この4つのどれを指しているかで、実装コストが変わ",
-        "完全一致・前方一致であればRDBのB-treeインデックスがそのまま使えますが、後方一致・部分一致はLIKE '%〇〇%'の形になり、インデックス.",
-        "."
-      ],
-      "cachedAt": "2026-07-21T05:37:46.345Z"
-    },
-    "89dbcb754705783c": {
-      "url": "https://github.com/janestreet/incremental",
-      "summaryJa": [
-        "Jane Street: Incremental",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-21T05:37:46.345Z"
-    },
-    "57af8df26e556837": {
-      "url": "https://qiita.com/jqit-yukiono/items/d33908602fd060f5e1d1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "個人開発でApp Storeリリースフローを学ぶ ― UIKit + FastAPI + K8sで作るMinecraftサーバー監視アプリ「MineWatch」",
-        ".",
-        "."
-      ],
-      "cachedAt": "2026-07-21T05:37:46.345Z"
-    },
-    "ff856b81387b0b21": {
-      "url": "https://zenn.dev/uhyo/articles/async-react-action-queue",
-      "summaryJa": [
-        "useActionStateは、React 19で導入された新しいフックです。",
-        "その挙動を見ると、非同期版useReducerと言えるような挙動をします。",
-        "ただ、筆者は最近、このフックの真髄はユーザーの操作を妨げないUXを作ることにあるのではないかと考えています。"
-      ],
-      "cachedAt": "2026-07-21T05:37:46.345Z"
-    },
-    "be68aee418660c3b": {
-      "url": "https://zenn.dev/juth/articles/9dc12f2621e2c1",
-      "summaryJa": [
-        "Linuxサーバーを触っていて、「あれ、PostgreSQLの設定ファイルってどこだっけ？",
-        "」「アプリのデータってどこに保存されてるの？",
-        "」と迷ったことはありませんか？"
-      ],
-      "cachedAt": "2026-07-21T05:37:46.345Z"
-    },
-    "23c60ada2adfaaa4": {
-      "url": "https://evertpot.com/ssh-tunnel-if-unresolvable/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-21T05:37:46.345Z"
-    },
-    "4c8467715f232746": {
-      "url": "https://www.kevinalbrecht.com/code/joy-mirror/j01tut.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-21T05:37:46.345Z"
-    },
-    "6eaefa5355f8684c": {
-      "url": "https://news.ycombinator.com/item?id=43186406",
-      "summaryJa": [
-        "I was at FB&#x2F;Meta from late 2013 to early 2023, mostly working in the compil",
-        "I got hit in the spring 2023 layoff wave.",
-        "I immediately started making games in my newfound free time (a lifelong interest"
-      ],
-      "cachedAt": "2026-07-21T05:37:46.345Z"
-    },
     "e34a1c7cb7f4eedc": {
       "url": "https://freeink.org/",
       "summaryJa": [
@@ -15138,6 +15039,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-19T02:48:28.976Z"
+    },
+    "5a48f58100bdf347": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261019de61814",
+      "summaryJa": [
+        "日本の火星衛星探査機「MMX」は、20日午前5時前、鹿児島県の種子島宇宙センターからH3ロケットで打ち上げられました。",
+        "探査機は打ち上げのおよそ1時間11分後にロケットから切り離され、火星へ向かう軌道に…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-19T20:19:03.445Z"
+    },
+    "67faafe4c9b4a947": {
+      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+      "summaryJa": [
+        "Wine ported to OpenBSD",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-19T20:19:03.445Z"
+    },
+    "7aae5fbbb914a8c7": {
+      "url": "https://tech-blog.rakus.co.jp/entry/20261019/weekly-reflection",
+      "summaryJa": [
+        "朝、森を歩いていた旅人が、木を切っている木こりを見かけました。",
+        "夕方、同じ道を戻ると、木こりはまだ同じ木を切っています。",
+        "見ると、ノコギリの刃はぼろぼろに欠けていました。"
+      ],
+      "cachedAt": "2026-10-19T20:19:03.445Z"
+    },
+    "68f869218a52a179": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261020de61888",
+      "summaryJa": [
+        "国内で相次いでいる不正アクセスの一部について、IT企業「GMOインターネットグループ」の情報セキュリティー専門の子会社は「調査したところ、中国系のAIが使われて",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-19T20:19:03.445Z"
+    },
+    "46f30e13bfc59d10": {
+      "url": "https://news.yahoo.co.jp/pickup/6599408?source=rss",
+      "summaryJa": [
+        "ALS原因タンパク質 除去に新経路",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-19T20:19:03.445Z"
+    },
+    "01e7ef55e78a6be3": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261020de61898",
+      "summaryJa": [
+        "アメリカのルビオ国務長官は、ロシアによるウクライナ侵攻をめぐり、和平の実現を目指す姿勢を強調しました。",
+        "一方、ウクライナのゼレンスキー大統領は、ロシアのミサイル発射に関する警戒情報が共有されなかったとし…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-19T20:19:03.445Z"
+    },
+    "379accb38d21583f": {
+      "url": "https://github.com/kksimp/Mac.apk",
+      "summaryJa": [
+        "Android apps running native on macOS",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-19T20:19:03.445Z"
+    },
+    "16d0ea0bf740df06": {
+      "url": "https://note.com/timtarou/n/n5443f159e7bc",
+      "summaryJa": [
+        "2026年7月9日付で、ISMS（ISO/IEC 27001:2022）の認証を取得しました。",
+        "登録番号は 50301853 ISMS22 です。",
+        "コンサルには頼んでいません。"
+      ],
+      "cachedAt": "2026-10-19T20:19:03.445Z"
+    },
+    "7a5ada317dd6ddd7": {
+      "url": "https://news.ycombinator.com/item?id=48968606",
+      "summaryJa": [
+        "I might be the only SRE on Earth with his own bowling center.",
+        "It&#x27;s a more in-depth gig than you&#x27;d think.",
+        "<p>My family and I bought an abandoned 8-lane bowling center in the rural mid-we"
+      ],
+      "cachedAt": "2026-10-19T20:19:03.446Z"
     }
   }
 }
