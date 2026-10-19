@@ -1,69 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "37ff218da6924120": {
-      "url": "https://ascii.jp/elem/000/004/420/4420739/",
-      "summaryJa": [
-        "Anthropicの「Claude Fable 5」や、OpenAIの「GPT-5.",
-        "6 Sol」を使用したCodexから、3D制作ツール「Blender」を操作する手法が注目を集めています。",
-        "無料で使えることからBlenderは多くの人が利用していますが、初心者が使いこなすためのハードルはかなり高いという実情があります。"
-      ],
-      "cachedAt": "2026-07-20T21:32:28.162Z"
-    },
-    "3b37fc49daf4ccb9": {
-      "url": "https://jelly-ui.com/",
-      "summaryJa": [
-        "Jelly UI: Soft-body physics for native HTML form c",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-20T21:32:28.162Z"
-    },
-    "e39e7cb175006eeb": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015181461000",
-      "summaryJa": [
-        "中東でアメリカ軍の兵士が死亡したことについて、アメリカのトランプ大統領は「イランがアメリカ軍の兵士を殺害するたびに、彼らはその何倍もの代償を支払うことになる」と",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-20T21:32:28.162Z"
-    },
-    "502d9e50e843f798": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015181431000",
-      "summaryJa": [
-        "フィリピン軍は中国と領有権を争う南シナ海で20日、海軍の兵士1人が中国海警局の乗組員に木製の棒で殴られけがをしたと発表しました。",
-        "これに対して中国側は「事実をわい曲している」と反論しています。",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-20T21:32:28.162Z"
-    },
-    "5a380b7675969b5f": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015181351000",
-      "summaryJa": [
-        "EU＝ヨーロッパ連合は、中国のネット通販大手「アリババグループ」傘下でヨーロッパなどで事業を展開する企業に対し、違法な商品が流通することへの対策を怠ったとして日",
-        "出典: NHKニュース 国際",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-20T21:32:28.162Z"
-    },
-    "16109807acd85750": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015181341000",
-      "summaryJa": [
-        "飲酒運転や高速度での走行に危険運転致死傷罪を適用する数値基準を盛り込んだ改正自動車運転処罰法が21日、施行されました。",
-        "飲酒運転は呼気1リットルにつき0.",
-        "5ミリグラム以上で適用されます。"
-      ],
-      "cachedAt": "2026-07-20T21:32:28.162Z"
-    },
-    "4d4547e8f56df5f4": {
-      "url": "https://zenn.dev/asoventure/articles/2026-07-19-gsc-api-seo-automation",
-      "summaryJa": [
-        "はじめに Futuristic Imagination LLC 代表の佐藤です。",
-        "AI技術を実事業に注ぎ込み、圧倒的な開発・検証スピードと**徹底した自動化・省力化（仕組み化）**を武器に日々プロダクト開発に励んでいます。",
-        "自社ではAIオウンドメディアを11サイト運営しており、Next."
-      ],
-      "cachedAt": "2026-07-20T21:32:28.162Z"
-    },
     "b789d4c1436f66f0": {
       "url": "https://zenn.dev/joeee/articles/048addcc0c2ce6",
       "summaryJa": [
@@ -15102,6 +15039,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-18T20:17:54.834Z"
+    },
+    "d0b22ddbc55f599b": {
+      "url": "https://purplesyringa.moe/blog/superoptimizing-an-fpu-emulator/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-19T02:48:28.976Z"
+    },
+    "75dc0b037bd7b9a4": {
+      "url": "https://qiita.com/yakumo_09/items/5a86ca330b449db0e6bc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに Claude Codeには、permissions.",
+        "deny で .",
+        "env を読ませない設定があります。"
+      ],
+      "cachedAt": "2026-10-19T02:48:28.976Z"
+    },
+    "2d50a33e5f696eea": {
+      "url": "https://gigazine.net/news/20261019-deepseek-v4-1-flash-1017/",
+      "summaryJa": [
+        "中国企業のDeepSeekがAIモデル「DeepSeek-V4.",
+        "1-Flash-1017」を2026年10月17日に公開しました。",
+        "DeepSeek-V4."
+      ],
+      "cachedAt": "2026-10-19T02:48:28.976Z"
+    },
+    "ae6e49210029e41a": {
+      "url": "https://arxiv.org/abs/2610.18861",
+      "summaryJa": [
+        "<a href=\"https:&#x2F;&#x2F;x.",
+        "com&#x2F;Jiaru_Zou&#x2F;status&#x2F;2110400256647340476\" rel=\"nofollow\">https:&#",
+        "com&#x2F;Jiaru_Zou&#x2F;status&#x2F;2110400256647340476</a><p><a href=\"https:&#x"
+      ],
+      "cachedAt": "2026-10-19T02:48:28.976Z"
+    },
+    "b713704dae81ce9a": {
+      "url": "https://note.com/srt_taka/n/nff6c2d40c11b",
+      "summaryJa": [
+        "はじめにこのnoteでは、コミュニケーションの量は多いのに前に進まない組織の正体を、具体化は放っておいても進み、抽象化には意志が必要であるという非対称として説明",
+        "そのうえで、越境がこの非対称を加速させること、Slackがその具体化のコストをゼロにしたこと、そして組織の規模で抽象化を担うリーダーシップ.",
+        "."
+      ],
+      "cachedAt": "2026-10-19T02:48:28.976Z"
+    },
+    "432268236ae7fe16": {
+      "url": "https://www.getlazarus.org/dynamic/",
+      "summaryJa": [
+        "Free Pascal compiler now supports dynamic packages",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-19T02:48:28.976Z"
+    },
+    "f6aaa740cce49754": {
+      "url": "https://zenn.dev/rea9r/articles/littles-law-capacity-planning",
+      "summaryJa": [
+        "はじめに サーバーサイドの開発や運用をしていると、こんな場面に出会うことがあります。",
+        "呼び出し元のメトリクスで、このサービスへのリクエストのタイムアウトが、ほとんどのエンドポイントで増えている サーバーの負荷状況を確認しても、CPU もメモリも余",
+        "そこで、サーバーが呼び出している外部の API のレイテンシを見てみると、1つだけ応答が遅くな."
+      ],
+      "cachedAt": "2026-10-19T02:48:28.976Z"
+    },
+    "05d1fc29940d8600": {
+      "url": "https://zenn.dev/numa_san/articles/50b847c58f0854",
+      "summaryJa": [
+        "始めに 編集を気軽に行えるように、対象のフィールドのみ編集ボタンを押すことでその場で編集状態になって編集ができる、いわゆるインライン編集と呼ばれるものがあります",
+        "具体的には以下のようなGifアニメのようなもので、編集アイコンを押してテキストフィールドが出て、入力後保存を押すことで編集結果が表示されます。",
+        "簡単な編集においては便利なUIである一方で、実装面では以下のような細かいケアを考えると結構面倒です。"
+      ],
+      "cachedAt": "2026-10-19T02:48:28.976Z"
+    },
+    "5158b9d23c7f4f54": {
+      "url": "https://qiita.com/maeda-kazutoshi/items/4674e080c2ce3d53c809?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "10 月に Lambda Web Functions が出て、6 月の MicroVMs と合わせて、気づいたら Lambda が 3 種類になっていました。",
+        "これは 3 つとも触ってみたい。",
+        "せっかくなら 3 つ全部に出番があるお題がいいなと思って探してみたら、なぜか手元に."
+      ],
+      "cachedAt": "2026-10-19T02:48:28.976Z"
+    },
+    "4ff6d597ed62235c": {
+      "url": "https://youtu.be/UAWSOCOTjIU",
+      "summaryJa": [
+        "Dominic Plunkett has updated the BBC Micro PiMHz software to emulate most of the",
+        "Just add a trackball/mouse and a PiTubeDirect and you'll be able to run the Dome",
+        "This video covers how the PiMHz implementation works (basically!"
+      ],
+      "cachedAt": "2026-10-19T02:48:28.976Z"
+    },
+    "1f9f9cf65a6ab02a": {
+      "url": "https://gist.github.com/rcalixte/d2de5c816fc1de3970cc501b5ae9706e",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-19T02:48:28.976Z"
     }
   }
 }
