@@ -1,87 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "e34a1c7cb7f4eedc": {
-      "url": "https://freeink.org/",
-      "summaryJa": [
-        "FreeInk: Open ecosystem for e-readers",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-21T20:20:06.611Z"
-    },
-    "f2474414ea70804c": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015182261000",
-      "summaryJa": [
-        "システム障害が発生し、出荷などの業務に影響が出た冷凍食品大手「ニチレイ」へのサイバー攻撃について、ハッカー集団が21日夜、犯行声明を出したことがセキュリティー会",
-        "このハッカー集…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-21T20:20:06.611Z"
-    },
-    "87cd749dc466ae7e": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015181481000",
-      "summaryJa": [
-        "21日は、岐阜県と愛知県で、最高気温が40度以上となり、気象庁が運用を始めてから初めての「酷暑日」となりました。",
-        "22日も関東甲信や東海で「酷暑日」が予想されていて、熱中症に厳重に警戒してください。",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-21T20:20:06.611Z"
-    },
-    "c21084bdf77c6e96": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015182211000",
-      "summaryJa": [
-        "21日のニューヨーク外国為替市場ではイラン情勢の緊迫化を背景に円を売って有事に強いとされるドルを買う動きが進み、円相場は一時、1ドル＝163円台に値下がりしまし",
-        "これは、およそ39年半ぶりの円安ドル…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-21T20:20:06.611Z"
-    },
-    "1a0c3f980d9d9257": {
-      "url": "https://news.yahoo.co.jp/pickup/6588825?source=rss",
-      "summaryJa": [
-        "梨5000個盗まれ「栽培辞めます」",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-21T20:20:06.611Z"
-    },
-    "ce0fbec3a5789a70": {
-      "url": "https://zenn.dev/mizchi/scraps/4e5d72496e2bfc",
-      "summaryJa": [
-        "自分が気に入ってる Claude Code Web を使った開発の(一部)自動化の手法を紹介します。",
-        "周りにあまり使ってる人がいないのですが、作者のボリスを参考に自分も開発の一部を自動化するのにある程度成功しています。",
-        "Claude Code Web Claude Code は Web 上のダッシュボードからコンテナ環境で開発することができます (一."
-      ],
-      "cachedAt": "2026-07-21T20:20:06.611Z"
-    },
-    "0febbeb11c9bbed3": {
-      "url": "https://joisino.hatenablog.com/entry/hack",
-      "summaryJa": [
-        "LLM の内部状態やパラメータ、いわばLLM の「脳内」を局所的に書き換えることで、LLM の動作に介入する手法が発展を遂げています。",
-        "まずは最も基本的な操舵ベクトルについてみていきましょう。",
-        "操舵ベクトル LLM の内部状態を特定の方向に動かすことで動作を操作できます。"
-      ],
-      "cachedAt": "2026-07-21T20:20:06.611Z"
-    },
-    "a33b744cfdfed563": {
-      "url": "https://note.com/ymdpharm3/n/n8515d151e56d",
-      "summaryJa": [
-        "AIに会社の地図を持たせたら、3年目社員のように働き始めた 〜精度とトークン効率を上げるオントロジーの実践〜 AI に仕事を頼むと、まず会社のことを説明する仕事",
-        "この困りごとは世界共通のようで、Y Combinator は「Company Brain」というカテゴリを立て、世界のすべての会社が必要とするようになる、と言.",
-        "."
-      ],
-      "cachedAt": "2026-07-21T20:20:06.611Z"
-    },
-    "5d51075a2d16caab": {
-      "url": "https://github.com/Botspot/pi-apps",
-      "summaryJa": [
-        "Raspberry Pi App Store for Open Source Projects",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-21T20:20:06.611Z"
-    },
     "c9348c60168d2d32": {
       "url": "https://zenn.dev/tkada/articles/1ba97707dee14a",
       "summaryJa": [
@@ -15120,6 +15039,87 @@
         "<p>My family and I bought an abandoned 8-lane bowling center in the rural mid-we"
       ],
       "cachedAt": "2026-10-19T20:19:03.446Z"
+    },
+    "1c320a1e5c9987dc": {
+      "url": "https://qiita.com/tsuyoshi-otake/items/91ef586f1a1a689b0842?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "M5Stamp P4（ESP32-P4）向けに、MMUのないRISC-V上で動くLinuxディストリビューションを作っています。",
+        "v0.",
+        "3."
+      ],
+      "cachedAt": "2026-10-20T02:48:11.428Z"
+    },
+    "aab714d3a3a93062": {
+      "url": "https://zenn.dev/ojisan_ai_lab/articles/claude-code-idle-compaction-20261019",
+      "summaryJa": [
+        "Claude Code のターミナルで27万トークンの会話を claude --resume で開いて1行だけ送り、あとは何も打たずに置いておきました。",
+        "55.",
+        "6分後、その会話は13,522トークンまで圧縮されていました。"
+      ],
+      "cachedAt": "2026-10-20T02:48:11.428Z"
+    },
+    "2361fbb3d3e277c6": {
+      "url": "https://note.com/yukiedu/n/n4d25f5e1d590",
+      "summaryJa": [
+        "Claude Codeに、全部任せて開発してる現場。",
+        "めっちゃ多いんですけど。",
+        "1〜2ヶ月後、ガチで地獄になるの、知ってます?"
+      ],
+      "cachedAt": "2026-10-20T02:48:11.428Z"
+    },
+    "a244d1d35e0050e2": {
+      "url": "https://zenn.dev/matasuke_t/articles/bf784b79b29e86",
+      "summaryJa": [
+        "業務用のツールを、専用サーバーではなく普段使っている Windows PC で24時間動かしています。",
+        "Node.",
+        "js のバックエンドと、Vite の開発サーバーと、Puppeteer で動かすブラウザが10個ほど。"
+      ],
+      "cachedAt": "2026-10-20T02:48:11.428Z"
+    },
+    "06fa3bb36f69bc50": {
+      "url": "https://qiita.com/corestate55/items/3c14cf36091495d8880b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 何をいまさら…という話ですが、クラウドの世界では Infrastructure as Code や Kubernetes による運用の自動化が当たり前",
+        "NW運用領域でも、Ansible などで設定変更や情報収集をしているところは多いでしょう。",
+        "では、."
+      ],
+      "cachedAt": "2026-10-20T02:48:11.428Z"
+    },
+    "d99621c94d32ed0d": {
+      "url": "https://futhark-lang.org/blog/2026-10-14-defining-division.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-20T02:48:11.428Z"
+    },
+    "3a3aed5a17c9e7cb": {
+      "url": "https://www.calabro.io/ohbf",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-20T02:48:11.428Z"
+    },
+    "bb9e270d6541f34a": {
+      "url": "https://www.openbsd.org/80.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-20T02:48:11.428Z"
+    },
+    "d38bdc9909246a5a": {
+      "url": "https://github.com/jdxyw/generativeart",
+      "summaryJa": [
+        "Generative Art in Go",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-20T02:48:11.428Z"
     }
   }
 }

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 203,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 204,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-10-20",
   "dateDisplay": "Tuesday, October 20, 2026",
-  "pressTimeJst": "2026-10-20 05:00",
-  "generatedAt": "2026-10-19T20:17:38.208Z",
+  "pressTimeJst": "2026-10-20 12:00",
+  "generatedAt": "2026-10-20T02:47:35.207Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,300 +14,155 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "移植される環境と、道具の刃研ぎ",
-    "note": "異なるプラットフォームへシステムを渡す移植の試みと、日々の作業基盤やツールを整え直す手元の工夫が呼応する朝の紙面。"
+    "title": "極小基盤の駆動と、境界の拡張",
+    "note": "マイコン上でのOS起動から言語処理系の微小修正まで、足回りを自ら鍛えて可能性を押し広げる試行を取り上げます。"
   },
   "editorial": {
-    "comment": "Wine ported to OpenBSD（hn-front-8c280833）のように、厳しい制約を持つOS上に異系の互換層を構築する泥臭い移植作業に強く惹かれます。与えられた環境の境界を力技で押し広げる姿勢は、手元のツールやコードを拡張していく創作の大きな励みになります。—— YZRS Times 編集長",
-    "passedOver": "AIを悪用した攻撃の自動化やパスワード漏洩といった話題が多数集まりましたが、朝の紙面として技術的な創造性を優先するため掲載を見送りました。",
+    "comment": "M5Stamp P4上でLinux 7.2を起動させWi-Fiまで通した記録（qiita-popular-1c320a1e）に強く惹きつけられます。MMU非搭載の極小マイコンに対して250回ものコミットを積み重ね、実用的な環境へ磨き上げる粘り強さは、手元の創作に何よりも必要な姿勢です。—— YZRS Times 編集長",
+    "passedOver": "Metaに対するブラジルでの抗議活動や企業へのサイバー攻撃など、政情・事件系のニュースは昼刊の技術的関心から見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
     "summary": "霧雨",
     "icon": "rain",
-    "tempMax": 26,
-    "tempMin": 18,
-    "precipChancePct": 53
+    "tempMax": 25,
+    "tempMin": 17,
+    "precipChancePct": 75
   },
   "market": {
     "fearGreed": {
-      "value": 59,
+      "value": 55,
       "label": "Greed"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 81941,
-        "priceJpy": 12991293,
-        "change24hPct": 1.51,
+        "priceUsd": 81607,
+        "priceJpy": 12931530,
+        "change24hPct": -1.11,
         "sparkline7d": [
-          82776.78,
-          83115.1,
-          80805.84,
-          82222.22,
-          81551.08,
-          81019.79,
-          81896.04
+          82359.87,
+          83394.1,
+          81184.82,
+          81960.62,
+          81169.26,
+          80895.39,
+          81651.17
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2398.78,
-        "priceJpy": 380313,
-        "change24hPct": 2.61,
+        "priceUsd": 2393.87,
+        "priceJpy": 379336,
+        "change24hPct": -1.25,
         "sparkline7d": [
-          2519.07,
-          2496.59,
-          2357.24,
-          2452.99,
-          2436.75,
-          2374.71,
-          2398.9
+          2461.44,
+          2500.94,
+          2372.79,
+          2456.45,
+          2401.01,
+          2348.76,
+          2399.06
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.176347,
-        "priceJpy": 27.96,
-        "change24hPct": 2.57,
+        "priceUsd": 0.176976,
+        "priceJpy": 28.04,
+        "change24hPct": -1.13,
         "sparkline7d": [
-          0.196682,
-          0.190234,
-          0.179004,
-          0.183529,
-          0.179735,
-          0.17488,
-          0.176354
+          0.190986,
+          0.189581,
+          0.180747,
+          0.182821,
+          0.176158,
+          0.17261,
+          0.176858
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 277.2,
-        "priceJpy": 43948,
-        "change24hPct": 4.38,
+        "priceUsd": 278.67,
+        "priceJpy": 44159,
+        "change24hPct": 0.59,
         "sparkline7d": [
-          273.89,
-          274.01,
-          261.64,
-          279.49,
-          275.51,
-          270.69,
-          277.15
+          265.9,
+          277.7,
+          264.52,
+          280.64,
+          271.74,
+          265.37,
+          278.99
         ]
       }
     ]
   },
   "top": [
-    "nhk-top-5a48f581",
-    "hn-front-8c280833",
-    "hatebu-it-7aae5fbb"
+    "qiita-popular-1c320a1e",
+    "hn-front-7af3e632",
+    "zenn-trend-aab714d3"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "nhk-top-68f86921",
-        "yahoo-topics-46f30e13",
-        "nhk-top-01e7ef55"
+        "hn-front-8c280833",
+        "hatebu-it-16d0ea0b",
+        "hatebu-it-2361fbb3"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hn-front-7af3e632",
-        "hatebu-it-16d0ea0b"
+        "zenn-trend-a244d1d3",
+        "qiita-popular-06fa3bb3"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-ccbd37e7"
+        "lobsters-d99621c9",
+        "lobsters-3a3aed5a",
+        "lobsters-bb9e270d"
       ]
     }
   ],
   "articles": [
     {
-      "id": "nhk-top-5a48f581",
-      "title": "火星衛星探査機「MMX」 種子島宇宙センターから打ち上げ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261019de61814",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-19T19:54:00.000Z",
+      "id": "qiita-popular-1c320a1e",
+      "title": "M5Stamp P4（ESP32-P4）でMMUなしのLinux 7.2を動かし、Wi-FiとSSHまで通した話【AIと250コミット】",
+      "url": "https://qiita.com/tsuyoshi-otake/items/91ef586f1a1a689b0842?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-19T11:09:50.000Z",
       "summaryJa": [
-        "日本の火星衛星探査機「MMX」は、20日午前5時前、鹿児島県の種子島宇宙センターからH3ロケットで打ち上げられました。",
-        "探査機は打ち上げのおよそ1時間11分後にロケットから切り離され、火星へ向かう軌道に…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "火星衛星探査機",
-        "MMX",
-        "種子島宇宙センターから打ち上げ"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-8c280833",
-      "title": "Wine ported to OpenBSD",
-      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-19T13:35:34.000Z",
-      "summaryJa": [
-        "Wine ported to OpenBSD",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Wine",
-        "ported",
-        "OpenBSD"
-      ],
-      "heat": {
-        "temperature": 91,
-        "signals": {
-          "hnPoints": 414,
-          "hatebuCount": 0,
-          "ageHours": 7,
-          "crossSources": 2,
-          "velocity": 61.8
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-7aae5fbb",
-      "title": "仕事を進めるだけでは、仕事しか進まない。木こりのジレンマを Claude Code で解いた5ヶ月の記録 - RAKUS Developers Blog | ラクス エンジニアブログ",
-      "url": "https://tech-blog.rakus.co.jp/entry/20261019/weekly-reflection",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-19T06:12:20.000Z",
-      "summaryJa": [
-        "朝、森を歩いていた旅人が、木を切っている木こりを見かけました。",
-        "夕方、同じ道を戻ると、木こりはまだ同じ木を切っています。",
-        "見ると、ノコギリの刃はぼろぼろに欠けていました。"
+        "M5Stamp P4（ESP32-P4）向けに、MMUのないRISC-V上で動くLinuxディストリビューションを作っています。",
+        "v0.",
+        "3."
       ],
       "category": "programming",
       "keywords": [
-        "仕事を進めるだけでは",
-        "仕事しか進まない",
-        "Claude",
-        "Code",
-        "RAKUS"
+        "M5Stamp",
+        "P4",
+        "ESP32",
+        "7.2を動かし",
+        "Wi"
       ],
       "heat": {
-        "temperature": 83,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 172,
-          "ageHours": 14,
-          "crossSources": 1,
-          "velocity": 12.2
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-68f86921",
-      "title": "不正アクセス 「中国系AIの使用確認」 情報セキュリティー会社",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261020de61888",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-19T20:01:02.000Z",
-      "summaryJa": [
-        "国内で相次いでいる不正アクセスの一部について、IT企業「GMOインターネットグループ」の情報セキュリティー専門の子会社は「調査したところ、中国系のAIが使われて",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "不正アクセス",
-        "中国系AIの使用確認",
-        "情報セキュリティー会社"
-      ],
-      "heat": {
-        "temperature": 55,
+        "temperature": 50,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 16,
           "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "yahoo-topics-46f30e13",
-      "title": "ALS原因タンパク質 除去に新経路",
-      "url": "https://news.yahoo.co.jp/pickup/6599408?source=rss",
-      "source": "Yahoo!ニュース トピックス",
-      "sourceId": "yahoo-topics",
-      "publishedAt": "2026-10-19T14:38:48.000Z",
-      "summaryJa": [
-        "ALS原因タンパク質 除去に新経路",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "ALS原因タンパク質",
-        "除去に新経路"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-01e7ef55",
-      "title": "米国務長官は和平目指す姿勢強調もウクライナは不満表明",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261020de61898",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-19T19:52:57.000Z",
-      "summaryJa": [
-        "アメリカのルビオ国務長官は、ロシアによるウクライナ侵攻をめぐり、和平の実現を目指す姿勢を強調しました。",
-        "一方、ウクライナのゼレンスキー大統領は、ロシアのミサイル発射に関する警戒情報が共有されなかったとし…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "news"
-      ],
-      "heat": {
-        "temperature": 60,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 2,
           "velocity": 0
         }
       },
@@ -333,13 +188,75 @@
         "macOS"
       ],
       "heat": {
-        "temperature": 81,
+        "temperature": 80,
         "signals": {
-          "hnPoints": 147,
+          "hnPoints": 270,
           "hatebuCount": 0,
-          "ageHours": 4,
+          "ageHours": 10,
           "crossSources": 1,
-          "velocity": 41.6
+          "velocity": 26.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-aab714d3",
+      "title": "Claude Codeの会話を55分放っておいたら、272,422トークンが13,522に圧縮されていました ― アイドル圧縮の観測",
+      "url": "https://zenn.dev/ojisan_ai_lab/articles/claude-code-idle-compaction-20261019",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-19T09:29:39.000Z",
+      "summaryJa": [
+        "Claude Code のターミナルで27万トークンの会話を claude --resume で開いて1行だけ送り、あとは何も打たずに置いておきました。",
+        "55.",
+        "6分後、その会話は13,522トークンまで圧縮されていました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Codeの会話を55分放っておいたら",
+        "422トークンが13",
+        "522に圧縮されていました",
+        "アイドル圧縮の観測"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-8c280833",
+      "title": "Wine ported to OpenBSD",
+      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-19T13:35:34.000Z",
+      "summaryJa": [
+        "Wine ported to OpenBSD",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Wine",
+        "ported",
+        "OpenBSD"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 511,
+          "hatebuCount": 0,
+          "ageHours": 13,
+          "crossSources": 2,
+          "velocity": 38.7
         }
       },
       "image": null
@@ -362,32 +279,179 @@
         "Tim"
       ],
       "heat": {
-        "temperature": 77,
+        "temperature": 86,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 36,
-          "ageHours": 6,
+          "hatebuCount": 208,
+          "ageHours": 13,
           "crossSources": 1,
-          "velocity": 5.8
+          "velocity": 16.4
         }
       },
       "image": null
     },
     {
-      "id": "gtrends-jp-ccbd37e7",
-      "title": "アナウンサー",
-      "url": "https://trends.google.com/trending/rss?geo=JP",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-10-19T20:00:00.000Z",
+      "id": "hatebu-it-2361fbb3",
+      "title": "Claude Codeに全部任せて開発してたエンジニアの末路、1〜2ヶ月後ガチで地獄ですよ｜ゆうき｜月収100万円超エンジニアを多数輩出",
+      "url": "https://note.com/yukiedu/n/n4d25f5e1d590",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-19T08:46:35.000Z",
       "summaryJa": [
-        "早期天候情報",
-        "出典: Google トレンド",
+        "Claude Codeに、全部任せて開発してる現場。",
+        "めっちゃ多いんですけど。",
+        "1〜2ヶ月後、ガチで地獄になるの、知ってます?"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 239,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 13.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-a244d1d3",
+      "title": "普段使いのWindows PCでNodeのサーバーを常駐させて踏んだ罠",
+      "url": "https://zenn.dev/matasuke_t/articles/bf784b79b29e86",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-19T11:13:05.000Z",
+      "summaryJa": [
+        "業務用のツールを、専用サーバーではなく普段使っている Windows PC で24時間動かしています。",
+        "Node.",
+        "js のバックエンドと、Vite の開発サーバーと、Puppeteer で動かすブラウザが10個ほど。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "普段使いのWindows"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-06fa3bb3",
+      "title": "NWの自動化はなぜ進まないのか(1) - 「割に合わない」が積み上がる構造",
+      "url": "https://qiita.com/corestate55/items/3c14cf36091495d8880b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-19T09:07:36.000Z",
+      "summaryJa": [
+        "はじめに 何をいまさら…という話ですが、クラウドの世界では Infrastructure as Code や Kubernetes による運用の自動化が当たり前",
+        "NW運用領域でも、Ansible などで設定変更や情報収集をしているところは多いでしょう。",
+        "では、."
+      ],
+      "category": "programming",
+      "keywords": [
+        "NWの自動化はなぜ進まないのか",
+        "割に合わない"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-d99621c9",
+      "title": "Making all divisions slower to fix a bug in 0.000000000000000000542% of cases",
+      "url": "https://futhark-lang.org/blog/2026-10-14-defining-division.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-19T16:42:07.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "trends",
+      "category": "tech",
       "keywords": [
-        "アナウンサー"
+        "divisions",
+        "slower",
+        "fix",
+        "bug",
+        "cases"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-3a3aed5a",
+      "title": "One Hash Bloom Filters",
+      "url": "https://www.calabro.io/ohbf",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-19T15:47:03.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Hash",
+        "Bloom",
+        "Filters"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-bb9e270d",
+      "title": "OpenBSD 8.0",
+      "url": "https://www.openbsd.org/80.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-20T01:46:00.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "OpenBSD"
       ],
       "heat": {
         "temperature": 55,
@@ -404,38 +468,37 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "show-hn-de6f8fe5",
-      "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
-      "url": "https://news.ycombinator.com/item?id=48968606",
-      "source": "Show HN",
-      "sourceId": "show-hn",
-      "publishedAt": "2026-07-19T14:41:16.000Z",
+      "id": "github-gems-d968106d",
+      "title": "jdxyw/generativeart — Generative Art in Go",
+      "url": "https://github.com/jdxyw/generativeart",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-20T01:08:06Z",
       "summaryJa": [
-        "I might be the only SRE on Earth with his own bowling center.",
-        "It&#x27;s a more in-depth gig than you&#x27;d think.",
-        "<p>My family and I bought an abandoned 8-lane bowling center in the rural mid-we"
+        "Generative Art in Go",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "oss",
       "keywords": [
-        "replaced",
-        "$120k",
-        "bowling",
-        "center",
-        "system"
+        "jdxyw/generativeart",
+        "Generative",
+        "Art",
+        "Go"
       ],
       "heat": {
-        "temperature": 78,
+        "temperature": 54,
         "signals": {
-          "hnPoints": 2935,
+          "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 2214,
+          "ageHours": 2,
           "crossSources": 1,
-          "velocity": 1.3
+          "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "12万ドルのボウリング場制御システムをわずか数個のESP32と自作回路で置き換えた圧巻のハック事例です。市販のマイコンで巨大な装置を動かす手触り感が、モノづくりの原点的な喜びを思い出させてくれます。"
+    "reason": "Go言語で図形描画やアルゴリズム美術を生成するための軽量なツールキットです。コードで直接美を組み立てるプログラミングとアートの交差点として、午後の創作意欲を刺激します。"
   },
   "unavailableSources": []
 }

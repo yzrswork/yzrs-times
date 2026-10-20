@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-a10a4428",
-      "url": "https://github.com/ace-trump-tech/MindPaw",
-      "date": "2026-09-20"
-    },
-    {
-      "id": "github-gems-338ddf1b",
-      "url": "https://github.com/atomvm/AtomVM",
-      "date": "2026-09-20"
-    },
-    {
       "id": "github-gems-c22bfac4",
       "url": "https://github.com/nRF24/RF24",
       "date": "2026-09-21"
@@ -304,6 +294,11 @@
     {
       "id": "show-hn-de6f8fe5",
       "url": "https://news.ycombinator.com/item?id=48968606",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "github-gems-d968106d",
+      "url": "https://github.com/jdxyw/generativeart",
       "date": "2026-10-20"
     }
   ]

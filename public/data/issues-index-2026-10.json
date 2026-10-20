@@ -274,6 +274,13 @@
       "edition": "morning",
       "theme": "移植される環境と、道具の刃研ぎ",
       "path": "issues/2026-10-20-morning.json"
+    },
+    {
+      "issueNo": 204,
+      "date": "2026-10-20",
+      "edition": "midday",
+      "theme": "極小基盤の駆動と、境界の拡張",
+      "path": "issues/2026-10-20-midday.json"
     }
   ]
 }
