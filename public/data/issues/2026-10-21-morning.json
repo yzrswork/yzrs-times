@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 205,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-21",
+  "dateDisplay": "Wednesday, October 21, 2026",
+  "pressTimeJst": "2026-10-21 05:00",
+  "generatedAt": "2026-10-20T20:17:34.963Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "委任の加速と、道具の再定義",
+    "note": "AIへの作業や判断の委任が急速に進む一方で、自作ツールや独自の基礎基盤を整え直す動きが際立っています。"
+  },
+  "editorial": {
+    "comment": "Anthropic社内でエージェントによるコードマージが1日3万件を超えたという話（hatebu-it-36a13744）に目を見張ります。人間が一行ずつ確認する前提が崩れる中で、手元でものを作る私たちがどこに手触りと品質の責任を保持すべきか、深く考えさせられます。—— YZRS Times 編集長",
+    "passedOver": "政局の動静や地域の火災・事故ニュースが多く報じられましたが、手元の創作や技術基盤への直接的な示唆を与える記事を優先するため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "霧雨",
+    "icon": "rain",
+    "tempMax": 29,
+    "tempMin": 19,
+    "precipChancePct": 2
+  },
+  "market": {
+    "fearGreed": {
+      "value": 55,
+      "label": "Greed"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 82549,
+        "priceJpy": 13059808,
+        "change24hPct": 0.73,
+        "sparkline7d": [
+          83219.18,
+          81603.65,
+          82026.23,
+          81625.73,
+          82008.98,
+          82201.79,
+          82469.07
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2436.55,
+        "priceJpy": 385480,
+        "change24hPct": 1.56,
+        "sparkline7d": [
+          2506.35,
+          2419.69,
+          2437.31,
+          2431.53,
+          2416.81,
+          2408.08,
+          2436.26
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.179991,
+        "priceJpy": 28.48,
+        "change24hPct": 1.98,
+        "sparkline7d": [
+          0.192223,
+          0.182481,
+          0.182264,
+          0.179457,
+          0.177538,
+          0.176515,
+          0.179083
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 281.32,
+        "priceJpy": 44508,
+        "change24hPct": 1.4,
+        "sparkline7d": [
+          272.95,
+          268.32,
+          276.48,
+          277.98,
+          275.46,
+          278.96,
+          278.08
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-36a13744",
+    "hatebu-it-7b4f6d3c",
+    "nhk-top-5a48f581"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-074184d4",
+        "nhk-top-11a8b2dd",
+        "nhk-top-33e37609"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-5c8d6ec0",
+        "hn-front-5fd2d98c"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-36a13744",
+      "title": "ソフトウェアの産業革命 - ちなみに",
+      "url": "https://blog.nishimu.land/entry/2026/10/20/123916",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-20T04:10:49.000Z",
+      "summaryJa": [
+        "2026年9月、Anthropicの社内リポジトリには1日あたり3万件を超える変更がマージされていたそうです。",
+        "5月の時点ではおよそ2,500件だったので、4か月で10倍以上。",
+        "書いているのはほとんどがコーディングエージェントです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "ソフトウェアの産業革命"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 470,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 29.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-7b4f6d3c",
+      "title": "Photoshopをオープンソースで再構築した「PhotoCraft」が日本語フォントの縦書きに対応、各ツールの使い勝手も向上",
+      "url": "https://coliss.com/articles/build-websites/operation/work/crafting-apps-20261020.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-20T01:17:25.000Z",
+      "summaryJa": [
+        "2週間ほど前に紹介した、PhotoshopやIllustratorなど、Adobeアプリ7種類をオープンソースで再構築した「Crafting Apps」がものす",
+        "リリースされた当初は日本語フォントが使えず、これはまだまだだなと思った人も多いと思いますが、最新版のver.",
+        "0."
+      ],
+      "category": "programming",
+      "keywords": [
+        "PhotoCraft",
+        "各ツールの使い勝手も向上"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 176,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 9.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-5a48f581",
+      "title": "探査機「MMX」 火星へ向かう軌道に 衛星「フォボス」探査へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261019de61814",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-20T11:04:00.000Z",
+      "summaryJa": [
+        "日本の火星衛星探査機「MMX」は、20日午前5時前、鹿児島県の種子島宇宙センターからH3ロケットで打ち上げられました。",
+        "探査機は打ち上げのおよそ1時間11分後にロケットから切り離され、火星へ向かう軌道に…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "探査機",
+        "MMX",
+        "火星へ向かう軌道に",
+        "衛星",
+        "フォボス"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-074184d4",
+      "title": "岩井コスモ証券 不正アクセスで顧客が意図しない売買注文",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261021de62520",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-20T15:26:19.000Z",
+      "summaryJa": [
+        "「岩井コスモ証券」は売買管理システムへの不正アクセスによって7つの口座で顧客が意図しない売買注文が発注されたことを確認したと発表しました。",
+        "会社では、取引前の状態に戻す措置を完了し、顧客の負担は生じ…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "岩井コスモ証券",
+        "不正アクセスで顧客が意図しない売買注文"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-11a8b2dd",
+      "title": "国の省エネ住宅事業で2万3000件超の情報漏えいのおそれ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261020de62509",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-20T14:39:19.000Z",
+      "summaryJa": [
+        "国土交通省などは、国の省エネ住宅に関する補助金を受け付けていた大手広告会社が不正アクセスを受けて、申請などを行った事業者、2万3000人あまりの個人情報が漏えい",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "news"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-33e37609",
+      "title": "台風30号 先島諸島に23日から接近見込み 西日本に影響可能性も",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261020de61985",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-20T13:17:00.000Z",
+      "summaryJa": [
+        "大型で猛烈な台風30号の影響で、沖縄県では21日から海上は大しけとなり、特に先島諸島では台風が接近する今月23日から24日にかけて暴風や警報級の大雨になるおそれ",
+        "その後の予報には大きな幅があ…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "台風30号",
+        "先島諸島に23日から接近見込み",
+        "西日本に影響可能性も"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-5c8d6ec0",
+      "title": "人間のAIに対する判断移譲 - 西尾泰和の外部脳",
+      "url": "https://scrapbox.io/nishio/%E4%BA%BA%E9%96%93%E3%81%AEAI%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%88%A4%E6%96%AD%E7%A7%BB%E8%AD%B2",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-20T08:21:44.000Z",
+      "summaryJa": [
+        "2026-10-20 人間とAIの関係の議論で「最終判断は人間がやる」などといった議論があり、これは数年前の段階ではまあ妥当なものだったが、2024~2026年",
+        "この期間に「作業をAIに任せる」に加えて、「実行を許可する判断」「人間に質問するかどうかの判断」も.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "人間のAIに対する判断移譲",
+        "西尾泰和の外部脳"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 152,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 12.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-5fd2d98c",
+      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+      "url": "https://github.com/google-pytorch/torch_tpu",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-20T16:40:24.000Z",
+      "summaryJa": [
+        "Google open-sources TorchTPU, a native PyTorch bac",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Google",
+        "sources",
+        "TorchTPU",
+        "native",
+        "PyTorch"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 167,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 46.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "ucl",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-20T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "ucl"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-09bae87e",
+      "title": "zeeyado/koassistant.koplugin — A powerful AI assistant integrated into KOReader.",
+      "url": "https://github.com/zeeyado/koassistant.koplugin",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-20T19:03:06Z",
+      "summaryJa": [
+        "A powerful AI assistant integrated into KOReader.",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "powerful",
+        "AI",
+        "assistant",
+        "integrated",
+        "KOReader"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "電子書籍端末の読書体験を妨げず、必要最小限の支援を組み込む直感的なプラグイン構成が魅力的です。既存の道具を自分の手で拡張し、静かな創作環境を整える刺激になるはずです。"
+  },
+  "unavailableSources": []
+}

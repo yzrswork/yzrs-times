@@ -281,6 +281,13 @@
       "edition": "midday",
       "theme": "極小基盤の駆動と、境界の拡張",
       "path": "issues/2026-10-20-midday.json"
+    },
+    {
+      "issueNo": 205,
+      "date": "2026-10-21",
+      "edition": "morning",
+      "theme": "委任の加速と、道具の再定義",
+      "path": "issues/2026-10-21-morning.json"
     }
   ]
 }
