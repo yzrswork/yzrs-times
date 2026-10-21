@@ -1,78 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "f06e6fb7a7b10191": {
-      "url": "https://bento.page/slides/",
-      "summaryJa": [
-        "Over the past few months, our team has been building more and more slidedecks us",
-        "<p>To avoid this loop, I ended up creat",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-22T20:18:31.615Z"
-    },
-    "48434950a4c8edcc": {
-      "url": "https://zenn.dev/mattn/articles/cace8c5a00b9cc",
-      "summaryJa": [
-        "はじめに 最近「どの言語で書くか」を巡る話題が続いています。",
-        "今年 5 月、Zig で書かれていた JavaScript ランタイム Bun が Rust に移植されました。",
-        "50 万行超の Zig コードを大量の Claude エージェントに書かせるという力技で、理由の一つにメモリ安全性由来のバグが挙げられていました。"
-      ],
-      "cachedAt": "2026-07-22T20:18:31.615Z"
-    },
-    "444f3142b2a97fef": {
-      "url": "https://k-tai.watch.impress.co.jp/docs/news/2127036.html",
-      "summaryJa": [
-        "ガーミンが画面なし＆ブランド初のバンド型トラッカー「CIRQA Smart Band」発表、約3.3",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-22T20:18:31.615Z"
-    },
-    "cda837067182b3c0": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015182151000",
-      "summaryJa": [
-        "22日は三重県と静岡県、それに岐阜県で最高気温が40度以上と、「酷暑日」となりました。",
-        "23日は東海に加え、京都市や甲府市でも「酷暑日」が予想されています。",
-        "熱中症で運ばれる人は全国で急増していて、厳重な…"
-      ],
-      "cachedAt": "2026-07-22T20:18:31.615Z"
-    },
-    "090ed44dc0d06799": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015183071000",
-      "summaryJa": [
-        "韓国のサムスン電子は、厚さ4ミリ余りと薄型で折りたたみ式のスマートフォンの最新モデルを発表しました。",
-        "折りたたみ式の機種は、IT大手アップルが今後初めて発売する見通しだと報じられていて、メーカーの間でこ…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-22T20:18:31.615Z"
-    },
-    "809451f4f5fb5d5c": {
-      "url": "https://news.yahoo.co.jp/pickup/6588959?source=rss",
-      "summaryJa": [
-        "米国務長官 日中関係の悪化に憂慮",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-22T20:18:31.615Z"
-    },
-    "a27f57d1d025567c": {
-      "url": "https://anond.hatelabo.jp/20260722172402",
-      "summaryJa": [
-        "ClaudeとObsidianを使って「第二の脳」を作る、という話を読んだ。",
-        "（これ↓） https://x.",
-        "com/chizevsm5/status/2079513704870142428 ふーん。"
-      ],
-      "cachedAt": "2026-07-22T20:18:31.615Z"
-    },
-    "04f0f7790fa7cb7f": {
-      "url": "https://amandastjerna.se/blog/tangara/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
-      "summaryJa": [
-        "Amanda Stjerna: A review of the Tangara Open Hardw",
-        "出典: indieblog.page（個人ブログ）",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-22T20:18:31.615Z"
-    },
     "79ed5e6c033a3881": {
       "url": "https://github.com/koka-lang/libhandler",
       "summaryJa": [
@@ -15111,6 +15039,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-20T20:18:52.592Z"
+    },
+    "3596d3549a39d8db": {
+      "url": "https://tech.layerx.co.jp/entry/engineer-as-director",
+      "summaryJa": [
+        "AI が書いたコードを、最近めっきり読まなくなった。",
+        "1 日に 13 本くらい PR（Pull Request）が出る昨今の私の開発プロセスでは、全部コードを読んでいたら人間の工程で詰まってしまう。",
+        "だから、チームのレビューとその後の QA プロセスは残したまま、私はコードを読むのをやめた。"
+      ],
+      "cachedAt": "2026-10-21T02:50:31.221Z"
+    },
+    "68d23a8626e05aba": {
+      "url": "https://blog.flatt.tech/entry/php2shell",
+      "summaryJa": [
+        "PHP開発チームは2026年10月20日（日本時間で深夜）、重大な脆弱性2件の修正パッチを、2026年10月21日 23時（日本時間）にリリース予定と告知しまし",
+        "両件のCVSS v4.",
+        "0スコアは9."
+      ],
+      "cachedAt": "2026-10-21T02:50:31.221Z"
+    },
+    "961ad8a5d3bdb4b5": {
+      "url": "https://zenn.dev/hilopon/articles/line-local-ai-photo-voice-capture",
+      "summaryJa": [
+        "会議のホワイトボードを写真に撮る。",
+        "帰り道に「来週までに見積り」と声で残す。",
+        "ここまでは誰でもやっています。"
+      ],
+      "cachedAt": "2026-10-21T02:50:31.221Z"
+    },
+    "bfc19fe9f03056c4": {
+      "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002442/",
+      "summaryJa": [
+        "お名前.",
+        "com デスクトップクラウドは、FXの自動売買ソフト（「MetaTrader 4」「MetaTrader 5」など）を、自宅のPCを使わずにクラウド上のサーバで",
+        "月額2640円から利用でき、契約実績は累計20万以上という。"
+      ],
+      "cachedAt": "2026-10-21T02:50:31.221Z"
+    },
+    "7085219fa88906d4": {
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "summaryJa": [
+        "EMudhra Intermediate CA Compromise",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-21T02:50:31.221Z"
+    },
+    "6ff6003d2faabc9e": {
+      "url": "https://zenn.dev/shiro_kuma_san/articles/a83ae3d82d26dc",
+      "summaryJa": [
+        "前回の記事「npm との違いを手がかりに Go の依存管理を理解したい」の最後に、登壇までに調べきれなかった疑問を 4 つ挙げました。",
+        "この記事では、その 4 つを実際に調べた結果をまとめます。",
+        "npm と比べて分かった Go の依存管理の「一番の違い」── go get の中身を 6 ステップで追う この記事で扱うこと 前回の記事では、go get の"
+      ],
+      "cachedAt": "2026-10-21T02:50:31.221Z"
+    },
+    "0e8e5048784d6dad": {
+      "url": "https://zenn.dev/flinters_blog/articles/3b377ce568d676",
+      "summaryJa": [
+        "はじめに こんにちは。",
+        "FLINTERSの河内です。",
+        "社内で毎週開いている AI 活用の勉強会で、今回（2026-10-19）は REA（Reverse Engineer Anything）を取り上げました。"
+      ],
+      "cachedAt": "2026-10-21T02:50:31.221Z"
+    },
+    "6b84ddfad8e6db8c": {
+      "url": "https://zenn.dev/dinii/articles/5b8edc7856c25b",
+      "summaryJa": [
+        "はじめに !",
+        "修正や追加等はコメントまたはGitHubで編集リクエストをお待ちしております。",
+        "ダイニーで一番若いエンジニアのriya amemiya(21歳)です。"
+      ],
+      "cachedAt": "2026-10-21T02:50:31.221Z"
+    },
+    "e6f90c192a4bb56a": {
+      "url": "https://lukaswerner.com/post/2026-10-20@bottom-up-vga",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-21T02:50:31.221Z"
+    },
+    "0ed45479482ff207": {
+      "url": "https://www.youtube.com/watch?v=W2fGKjFoaOg",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-21T02:50:31.221Z"
     }
   }
 }

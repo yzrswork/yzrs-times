@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "issueNo": 205,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 206,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-10-21",
   "dateDisplay": "Wednesday, October 21, 2026",
-  "pressTimeJst": "2026-10-21 05:00",
-  "generatedAt": "2026-10-20T20:17:34.963Z",
+  "pressTimeJst": "2026-10-21 12:00",
+  "generatedAt": "2026-10-21T02:47:42.326Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.1-flash-lite",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "委任の加速と、道具の再定義",
-    "note": "AIへの作業や判断の委任が急速に進む一方で、自作ツールや独自の基礎基盤を整え直す動きが際立っています。"
+    "title": "手元の計算資源と、乖離する信頼",
+    "note": "AI駆動の自動化が進む一方で、PHPの脆弱性や依存管理の不透明さなど、基盤の脆弱性と向き合う必要性が高まっています。"
   },
   "editorial": {
-    "comment": "Anthropic社内でエージェントによるコードマージが1日3万件を超えたという話（hatebu-it-36a13744）に目を見張ります。人間が一行ずつ確認する前提が崩れる中で、手元でものを作る私たちがどこに手触りと品質の責任を保持すべきか、深く考えさせられます。—— YZRS Times 編集長",
-    "passedOver": "政局の動静や地域の火災・事故ニュースが多く報じられましたが、手元の創作や技術基盤への直接的な示唆を与える記事を優先するため見送りました。",
+    "comment": "AIが生成するコードを読み飛ばす（hatebu-it-3596d354）という筆者の判断に、技術者の矜持と現実的な適応の狭間を見ます。全てを検閲する時間は失われましたが、結果として何が手元に残るのか、その責任の所在を我々は改めて問い直すべきです。—— YZRS Times 編集長",
+    "passedOver": "PHP脆弱性関連記事が複数重複していたため、技術的影響範囲を網羅した本流の記事に絞りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
@@ -27,189 +27,408 @@
     "summary": "霧雨",
     "icon": "rain",
     "tempMax": 29,
-    "tempMin": 19,
-    "precipChancePct": 2
+    "tempMin": 18,
+    "precipChancePct": 8
   },
   "market": {
     "fearGreed": {
-      "value": 55,
+      "value": 63,
       "label": "Greed"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 82549,
-        "priceJpy": 13059808,
-        "change24hPct": 0.73,
+        "priceUsd": 82730,
+        "priceJpy": 13089368,
+        "change24hPct": 1.25,
         "sparkline7d": [
-          83219.18,
-          81603.65,
-          82026.23,
-          81625.73,
-          82008.98,
-          82201.79,
-          82469.07
+          83256.93,
+          80521.52,
+          81941.64,
+          81407.42,
+          81002.14,
+          81950.14,
+          82967.84
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2436.55,
-        "priceJpy": 385480,
-        "change24hPct": 1.56,
+        "priceUsd": 2446.97,
+        "priceJpy": 387153,
+        "change24hPct": 2.06,
         "sparkline7d": [
-          2506.35,
-          2419.69,
-          2437.31,
-          2431.53,
-          2416.81,
-          2408.08,
-          2436.26
+          2504.19,
+          2347.71,
+          2447.88,
+          2421.45,
+          2364.18,
+          2399.07,
+          2451.29
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.179991,
-        "priceJpy": 28.48,
-        "change24hPct": 1.98,
+        "priceUsd": 0.182374,
+        "priceJpy": 28.85,
+        "change24hPct": 2.9,
         "sparkline7d": [
-          0.192223,
-          0.182481,
-          0.182264,
-          0.179457,
-          0.177538,
-          0.176515,
-          0.179083
+          0.189888,
+          0.177356,
+          0.183999,
+          0.177464,
+          0.174156,
+          0.176453,
+          0.181975
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 281.32,
-        "priceJpy": 44508,
-        "change24hPct": 1.4,
+        "priceUsd": 286.05,
+        "priceJpy": 45258,
+        "change24hPct": 2.44,
         "sparkline7d": [
-          272.95,
-          268.32,
-          276.48,
-          277.98,
-          275.46,
-          278.96,
-          278.08
+          276.64,
+          258.79,
+          282.52,
+          272.86,
+          268.31,
+          277.51,
+          284.9
         ]
       }
     ]
   },
   "top": [
-    "hatebu-it-36a13744",
-    "hatebu-it-7b4f6d3c",
-    "nhk-top-5a48f581"
+    "hatebu-it-3596d354",
+    "hatebu-it-68d23a86",
+    "zenn-trend-961ad8a5"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "nhk-top-074184d4",
-        "nhk-top-11a8b2dd",
-        "nhk-top-33e37609"
+        "hatebu-it-bfc19fe9",
+        "hn-front-6b9771f9"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hatebu-it-5c8d6ec0",
-        "hn-front-5fd2d98c"
+        "zenn-trend-6ff6003d",
+        "zenn-trend-0e8e5048",
+        "zenn-trend-6b84ddfa"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-ccbd37e7"
+        "lobsters-e6f90c19",
+        "lobsters-0ed45479"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hatebu-it-36a13744",
-      "title": "ソフトウェアの産業革命 - ちなみに",
-      "url": "https://blog.nishimu.land/entry/2026/10/20/123916",
+      "id": "hatebu-it-3596d354",
+      "title": "AI が書き、レビューし、QA する開発で、私は「監督」の役割を考え始めた - LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/engineer-as-director",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-20T04:10:49.000Z",
+      "publishedAt": "2026-10-21T02:13:26.000Z",
       "summaryJa": [
-        "2026年9月、Anthropicの社内リポジトリには1日あたり3万件を超える変更がマージされていたそうです。",
-        "5月の時点ではおよそ2,500件だったので、4か月で10倍以上。",
-        "書いているのはほとんどがコーディングエージェントです。"
+        "AI が書いたコードを、最近めっきり読まなくなった。",
+        "1 日に 13 本くらい PR（Pull Request）が出る昨今の私の開発プロセスでは、全部コードを読んでいたら人間の工程で詰まってしまう。",
+        "だから、チームのレビューとその後の QA プロセスは残したまま、私はコードを読むのをやめた。"
       ],
       "category": "programming",
       "keywords": [
-        "ソフトウェアの産業革命"
+        "AI",
+        "レビューし",
+        "QA",
+        "私は",
+        "監督"
       ],
       "heat": {
         "temperature": 85,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 470,
-          "ageHours": 16,
+          "hatebuCount": 9,
+          "ageHours": 1,
           "crossSources": 1,
-          "velocity": 29.2
+          "velocity": 15.8
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-7b4f6d3c",
-      "title": "Photoshopをオープンソースで再構築した「PhotoCraft」が日本語フォントの縦書きに対応、各ツールの使い勝手も向上",
-      "url": "https://coliss.com/articles/build-websites/operation/work/crafting-apps-20261020.html",
+      "id": "hatebu-it-68d23a86",
+      "title": "PHPの重大な脆弱性「php2shell」（CVE-2026-109618、CVE-2026-109619）の概要と対応指針 - GMO Flatt Security Blog",
+      "url": "https://blog.flatt.tech/entry/php2shell",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-20T01:17:25.000Z",
+      "publishedAt": "2026-10-21T02:15:43.000Z",
       "summaryJa": [
-        "2週間ほど前に紹介した、PhotoshopやIllustratorなど、Adobeアプリ7種類をオープンソースで再構築した「Crafting Apps」がものす",
-        "リリースされた当初は日本語フォントが使えず、これはまだまだだなと思った人も多いと思いますが、最新版のver.",
-        "0."
+        "PHP開発チームは2026年10月20日（日本時間で深夜）、重大な脆弱性2件の修正パッチを、2026年10月21日 23時（日本時間）にリリース予定と告知しまし",
+        "両件のCVSS v4.",
+        "0スコアは9."
       ],
       "category": "programming",
       "keywords": [
-        "PhotoCraft",
-        "各ツールの使い勝手も向上"
+        "PHPの重大な脆弱性",
+        "php2shell",
+        "CVE",
+        "GMO",
+        "Flatt"
       ],
       "heat": {
-        "temperature": 79,
+        "temperature": 91,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 176,
-          "ageHours": 19,
+          "hatebuCount": 26,
+          "ageHours": 1,
           "crossSources": 1,
-          "velocity": 9.3
+          "velocity": 48.8
         }
       },
       "image": null
     },
     {
-      "id": "nhk-top-5a48f581",
-      "title": "探査機「MMX」 火星へ向かう軌道に 衛星「フォボス」探査へ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261019de61814",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-20T11:04:00.000Z",
+      "id": "zenn-trend-961ad8a5",
+      "title": "LINEに送った写真と音声メモを、自宅のPCが文字にしてくれるようにした",
+      "url": "https://zenn.dev/hilopon/articles/line-local-ai-photo-voice-capture",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-20T14:37:43.000Z",
       "summaryJa": [
-        "日本の火星衛星探査機「MMX」は、20日午前5時前、鹿児島県の種子島宇宙センターからH3ロケットで打ち上げられました。",
-        "探査機は打ち上げのおよそ1時間11分後にロケットから切り離され、火星へ向かう軌道に…",
+        "会議のホワイトボードを写真に撮る。",
+        "帰り道に「来週までに見積り」と声で残す。",
+        "ここまでは誰でもやっています。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "自宅のPCが文字にしてくれるようにした"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-bfc19fe9",
+      "title": "「お名前.com デスクトップクラウド」不正プログラム設置で全プラン停止　FX用VPS、2万6739サーバに影響か",
+      "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002442/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-20T23:41:28.000Z",
+      "summaryJa": [
+        "お名前.",
+        "com デスクトップクラウドは、FXの自動売買ソフト（「MetaTrader 4」「MetaTrader 5」など）を、自宅のPCを使わずにクラウド上のサーバで",
+        "月額2640円から利用でき、契約実績は累計20万以上という。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "デスクトップクラウド",
+        "不正プログラム設置で全プラン停止",
+        "FX用VPS",
+        "2万6739サーバに影響か"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 41,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 13.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-6b9771f9",
+      "title": "EMudhra Intermediate CA Compromise",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-20T13:58:33.000Z",
+      "summaryJa": [
+        "EMudhra Intermediate CA Compromise",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "探査機",
-        "MMX",
-        "火星へ向かう軌道に",
-        "衛星",
-        "フォボス"
+        "EMudhra",
+        "Intermediate",
+        "CA",
+        "Compromise"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 673,
+          "hatebuCount": 0,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 52.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-6ff6003d",
+      "title": "Go の依存管理は、最後は Google を信じるしかないのか？",
+      "url": "https://zenn.dev/shiro_kuma_san/articles/a83ae3d82d26dc",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-20T05:30:07.000Z",
+      "summaryJa": [
+        "前回の記事「npm との違いを手がかりに Go の依存管理を理解したい」の最後に、登壇までに調べきれなかった疑問を 4 つ挙げました。",
+        "この記事では、その 4 つを実際に調べた結果をまとめます。",
+        "npm と比べて分かった Go の依存管理の「一番の違い」── go get の中身を 6 ステップで追う この記事で扱うこと 前回の記事では、go get の"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Go",
+        "最後は",
+        "Google"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 21,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-0e8e5048",
+      "title": "AI にリバースエンジニアリングさせる REA を触って、持ち帰ったのは「証拠付きで進める」考え方でした",
+      "url": "https://zenn.dev/flinters_blog/articles/3b377ce568d676",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-20T03:00:05.000Z",
+      "summaryJa": [
+        "はじめに こんにちは。",
+        "FLINTERSの河内です。",
+        "社内で毎週開いている AI 活用の勉強会で、今回（2026-10-19）は REA（Reverse Engineer Anything）を取り上げました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AI",
+        "REA",
+        "持ち帰ったのは",
+        "証拠付きで進める",
+        "考え方でした"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 24,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-6b84ddfa",
+      "title": "Chromium(V8)のArray.prototype.fillを最大約7倍高速化した",
+      "url": "https://zenn.dev/dinii/articles/5b8edc7856c25b",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-20T01:00:05.000Z",
+      "summaryJa": [
+        "はじめに !",
+        "修正や追加等はコメントまたはGitHubで編集リクエストをお待ちしております。",
+        "ダイニーで一番若いエンジニアのriya amemiya(21歳)です。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Chromium",
+        "V8"
+      ],
+      "heat": {
+        "temperature": 47,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 26,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-e6f90c19",
+      "title": "Making a VGA Driver in SystemVerilog",
+      "url": "https://lukaswerner.com/post/2026-10-20@bottom-up-vga",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-20T15:58:18.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "VGA",
+        "Driver",
+        "SystemVerilog"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-0ed45479",
+      "title": "Genera for the Initiated: Inside Symbolics Lisp Machines",
+      "url": "https://www.youtube.com/watch?v=W2fGKjFoaOg",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-20T18:16:48.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Genera",
+        "Initiated",
+        "Inside",
+        "Symbolics",
+        "Lisp"
       ],
       "heat": {
         "temperature": 52,
@@ -222,218 +441,42 @@
         }
       },
       "image": null
-    },
-    {
-      "id": "nhk-top-074184d4",
-      "title": "岩井コスモ証券 不正アクセスで顧客が意図しない売買注文",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261021de62520",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-20T15:26:19.000Z",
-      "summaryJa": [
-        "「岩井コスモ証券」は売買管理システムへの不正アクセスによって7つの口座で顧客が意図しない売買注文が発注されたことを確認したと発表しました。",
-        "会社では、取引前の状態に戻す措置を完了し、顧客の負担は生じ…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "岩井コスモ証券",
-        "不正アクセスで顧客が意図しない売買注文"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 5,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-11a8b2dd",
-      "title": "国の省エネ住宅事業で2万3000件超の情報漏えいのおそれ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261020de62509",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-20T14:39:19.000Z",
-      "summaryJa": [
-        "国土交通省などは、国の省エネ住宅に関する補助金を受け付けていた大手広告会社が不正アクセスを受けて、申請などを行った事業者、2万3000人あまりの個人情報が漏えい",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "news"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-33e37609",
-      "title": "台風30号 先島諸島に23日から接近見込み 西日本に影響可能性も",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261020de61985",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-20T13:17:00.000Z",
-      "summaryJa": [
-        "大型で猛烈な台風30号の影響で、沖縄県では21日から海上は大しけとなり、特に先島諸島では台風が接近する今月23日から24日にかけて暴風や警報級の大雨になるおそれ",
-        "その後の予報には大きな幅があ…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "台風30号",
-        "先島諸島に23日から接近見込み",
-        "西日本に影響可能性も"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 7,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-5c8d6ec0",
-      "title": "人間のAIに対する判断移譲 - 西尾泰和の外部脳",
-      "url": "https://scrapbox.io/nishio/%E4%BA%BA%E9%96%93%E3%81%AEAI%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%88%A4%E6%96%AD%E7%A7%BB%E8%AD%B2",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-20T08:21:44.000Z",
-      "summaryJa": [
-        "2026-10-20 人間とAIの関係の議論で「最終判断は人間がやる」などといった議論があり、これは数年前の段階ではまあ妥当なものだったが、2024~2026年",
-        "この期間に「作業をAIに任せる」に加えて、「実行を許可する判断」「人間に質問するかどうかの判断」も.",
-        "."
-      ],
-      "category": "programming",
-      "keywords": [
-        "人間のAIに対する判断移譲",
-        "西尾泰和の外部脳"
-      ],
-      "heat": {
-        "temperature": 82,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 152,
-          "ageHours": 12,
-          "crossSources": 1,
-          "velocity": 12.7
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-5fd2d98c",
-      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-      "url": "https://github.com/google-pytorch/torch_tpu",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-20T16:40:24.000Z",
-      "summaryJa": [
-        "Google open-sources TorchTPU, a native PyTorch bac",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Google",
-        "sources",
-        "TorchTPU",
-        "native",
-        "PyTorch"
-      ],
-      "heat": {
-        "temperature": 79,
-        "signals": {
-          "hnPoints": 167,
-          "hatebuCount": 0,
-          "ageHours": 4,
-          "crossSources": 1,
-          "velocity": 46.1
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "gtrends-jp-ccbd37e7",
-      "title": "ucl",
-      "url": "https://trends.google.com/trending/rss?geo=JP",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-10-20T20:00:00.000Z",
-      "summaryJa": [
-        "早期天候情報",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "trends",
-      "keywords": [
-        "ucl"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
     }
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-09bae87e",
-      "title": "zeeyado/koassistant.koplugin — A powerful AI assistant integrated into KOReader.",
-      "url": "https://github.com/zeeyado/koassistant.koplugin",
+      "id": "github-gems-de94282f",
+      "title": "aceinnolab/Inkycal — Create awesome e-paper dashboards within minutes! Modularity? Check! Python3? Check? Works on Raspberry Pi Zero W? Check! Support for own modules? Check! ",
+      "url": "https://github.com/aceinnolab/Inkycal",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-10-20T19:03:06Z",
+      "publishedAt": "2026-09-12T11:34:49Z",
       "summaryJa": [
-        "A powerful AI assistant integrated into KOReader.",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
+        "Create awesome e-paper dashboards within minutes!",
+        "Modularity?",
+        "Check!"
       ],
       "category": "oss",
       "keywords": [
-        "powerful",
-        "AI",
-        "assistant",
-        "integrated",
-        "KOReader"
+        "aceinnolab/Inkycal",
+        "Create",
+        "awesome",
+        "paper",
+        "dashboards"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 40,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 927,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "電子書籍端末の読書体験を妨げず、必要最小限の支援を組み込む直感的なプラグイン構成が魅力的です。既存の道具を自分の手で拡張し、静かな創作環境を整える刺激になるはずです。"
+    "reason": "電子ペーパーで手元の情報を可視化する試みは、画面から離れたい作り手に最適な相棒です。Raspberry Piで完結する小さなダッシュボードは、あなたの作業環境を静かに整えてくれるはずです。"
   },
   "unavailableSources": []
 }

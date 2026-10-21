@@ -1,0 +1,482 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 206,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-10-21",
+  "dateDisplay": "Wednesday, October 21, 2026",
+  "pressTimeJst": "2026-10-21 12:00",
+  "generatedAt": "2026-10-21T02:47:42.326Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "手元の計算資源と、乖離する信頼",
+    "note": "AI駆動の自動化が進む一方で、PHPの脆弱性や依存管理の不透明さなど、基盤の脆弱性と向き合う必要性が高まっています。"
+  },
+  "editorial": {
+    "comment": "AIが生成するコードを読み飛ばす（hatebu-it-3596d354）という筆者の判断に、技術者の矜持と現実的な適応の狭間を見ます。全てを検閲する時間は失われましたが、結果として何が手元に残るのか、その責任の所在を我々は改めて問い直すべきです。—— YZRS Times 編集長",
+    "passedOver": "PHP脆弱性関連記事が複数重複していたため、技術的影響範囲を網羅した本流の記事に絞りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "霧雨",
+    "icon": "rain",
+    "tempMax": 29,
+    "tempMin": 18,
+    "precipChancePct": 8
+  },
+  "market": {
+    "fearGreed": {
+      "value": 63,
+      "label": "Greed"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 82730,
+        "priceJpy": 13089368,
+        "change24hPct": 1.25,
+        "sparkline7d": [
+          83256.93,
+          80521.52,
+          81941.64,
+          81407.42,
+          81002.14,
+          81950.14,
+          82967.84
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2446.97,
+        "priceJpy": 387153,
+        "change24hPct": 2.06,
+        "sparkline7d": [
+          2504.19,
+          2347.71,
+          2447.88,
+          2421.45,
+          2364.18,
+          2399.07,
+          2451.29
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.182374,
+        "priceJpy": 28.85,
+        "change24hPct": 2.9,
+        "sparkline7d": [
+          0.189888,
+          0.177356,
+          0.183999,
+          0.177464,
+          0.174156,
+          0.176453,
+          0.181975
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 286.05,
+        "priceJpy": 45258,
+        "change24hPct": 2.44,
+        "sparkline7d": [
+          276.64,
+          258.79,
+          282.52,
+          272.86,
+          268.31,
+          277.51,
+          284.9
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-3596d354",
+    "hatebu-it-68d23a86",
+    "zenn-trend-961ad8a5"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hatebu-it-bfc19fe9",
+        "hn-front-6b9771f9"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "zenn-trend-6ff6003d",
+        "zenn-trend-0e8e5048",
+        "zenn-trend-6b84ddfa"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-e6f90c19",
+        "lobsters-0ed45479"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-3596d354",
+      "title": "AI が書き、レビューし、QA する開発で、私は「監督」の役割を考え始めた - LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/engineer-as-director",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-21T02:13:26.000Z",
+      "summaryJa": [
+        "AI が書いたコードを、最近めっきり読まなくなった。",
+        "1 日に 13 本くらい PR（Pull Request）が出る昨今の私の開発プロセスでは、全部コードを読んでいたら人間の工程で詰まってしまう。",
+        "だから、チームのレビューとその後の QA プロセスは残したまま、私はコードを読むのをやめた。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AI",
+        "レビューし",
+        "QA",
+        "私は",
+        "監督"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 9,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 15.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-68d23a86",
+      "title": "PHPの重大な脆弱性「php2shell」（CVE-2026-109618、CVE-2026-109619）の概要と対応指針 - GMO Flatt Security Blog",
+      "url": "https://blog.flatt.tech/entry/php2shell",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-21T02:15:43.000Z",
+      "summaryJa": [
+        "PHP開発チームは2026年10月20日（日本時間で深夜）、重大な脆弱性2件の修正パッチを、2026年10月21日 23時（日本時間）にリリース予定と告知しまし",
+        "両件のCVSS v4.",
+        "0スコアは9."
+      ],
+      "category": "programming",
+      "keywords": [
+        "PHPの重大な脆弱性",
+        "php2shell",
+        "CVE",
+        "GMO",
+        "Flatt"
+      ],
+      "heat": {
+        "temperature": 91,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 26,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 48.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-961ad8a5",
+      "title": "LINEに送った写真と音声メモを、自宅のPCが文字にしてくれるようにした",
+      "url": "https://zenn.dev/hilopon/articles/line-local-ai-photo-voice-capture",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-20T14:37:43.000Z",
+      "summaryJa": [
+        "会議のホワイトボードを写真に撮る。",
+        "帰り道に「来週までに見積り」と声で残す。",
+        "ここまでは誰でもやっています。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "自宅のPCが文字にしてくれるようにした"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-bfc19fe9",
+      "title": "「お名前.com デスクトップクラウド」不正プログラム設置で全プラン停止　FX用VPS、2万6739サーバに影響か",
+      "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002442/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-20T23:41:28.000Z",
+      "summaryJa": [
+        "お名前.",
+        "com デスクトップクラウドは、FXの自動売買ソフト（「MetaTrader 4」「MetaTrader 5」など）を、自宅のPCを使わずにクラウド上のサーバで",
+        "月額2640円から利用でき、契約実績は累計20万以上という。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "デスクトップクラウド",
+        "不正プログラム設置で全プラン停止",
+        "FX用VPS",
+        "2万6739サーバに影響か"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 41,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 13.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-6b9771f9",
+      "title": "EMudhra Intermediate CA Compromise",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-20T13:58:33.000Z",
+      "summaryJa": [
+        "EMudhra Intermediate CA Compromise",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "EMudhra",
+        "Intermediate",
+        "CA",
+        "Compromise"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 673,
+          "hatebuCount": 0,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 52.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-6ff6003d",
+      "title": "Go の依存管理は、最後は Google を信じるしかないのか？",
+      "url": "https://zenn.dev/shiro_kuma_san/articles/a83ae3d82d26dc",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-20T05:30:07.000Z",
+      "summaryJa": [
+        "前回の記事「npm との違いを手がかりに Go の依存管理を理解したい」の最後に、登壇までに調べきれなかった疑問を 4 つ挙げました。",
+        "この記事では、その 4 つを実際に調べた結果をまとめます。",
+        "npm と比べて分かった Go の依存管理の「一番の違い」── go get の中身を 6 ステップで追う この記事で扱うこと 前回の記事では、go get の"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Go",
+        "最後は",
+        "Google"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 21,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-0e8e5048",
+      "title": "AI にリバースエンジニアリングさせる REA を触って、持ち帰ったのは「証拠付きで進める」考え方でした",
+      "url": "https://zenn.dev/flinters_blog/articles/3b377ce568d676",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-20T03:00:05.000Z",
+      "summaryJa": [
+        "はじめに こんにちは。",
+        "FLINTERSの河内です。",
+        "社内で毎週開いている AI 活用の勉強会で、今回（2026-10-19）は REA（Reverse Engineer Anything）を取り上げました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AI",
+        "REA",
+        "持ち帰ったのは",
+        "証拠付きで進める",
+        "考え方でした"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 24,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-6b84ddfa",
+      "title": "Chromium(V8)のArray.prototype.fillを最大約7倍高速化した",
+      "url": "https://zenn.dev/dinii/articles/5b8edc7856c25b",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-20T01:00:05.000Z",
+      "summaryJa": [
+        "はじめに !",
+        "修正や追加等はコメントまたはGitHubで編集リクエストをお待ちしております。",
+        "ダイニーで一番若いエンジニアのriya amemiya(21歳)です。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Chromium",
+        "V8"
+      ],
+      "heat": {
+        "temperature": 47,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 26,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-e6f90c19",
+      "title": "Making a VGA Driver in SystemVerilog",
+      "url": "https://lukaswerner.com/post/2026-10-20@bottom-up-vga",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-20T15:58:18.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "VGA",
+        "Driver",
+        "SystemVerilog"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-0ed45479",
+      "title": "Genera for the Initiated: Inside Symbolics Lisp Machines",
+      "url": "https://www.youtube.com/watch?v=W2fGKjFoaOg",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-20T18:16:48.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Genera",
+        "Initiated",
+        "Inside",
+        "Symbolics",
+        "Lisp"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-de94282f",
+      "title": "aceinnolab/Inkycal — Create awesome e-paper dashboards within minutes! Modularity? Check! Python3? Check? Works on Raspberry Pi Zero W? Check! Support for own modules? Check! ",
+      "url": "https://github.com/aceinnolab/Inkycal",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-09-12T11:34:49Z",
+      "summaryJa": [
+        "Create awesome e-paper dashboards within minutes!",
+        "Modularity?",
+        "Check!"
+      ],
+      "category": "oss",
+      "keywords": [
+        "aceinnolab/Inkycal",
+        "Create",
+        "awesome",
+        "paper",
+        "dashboards"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 927,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "電子ペーパーで手元の情報を可視化する試みは、画面から離れたい作り手に最適な相棒です。Raspberry Piで完結する小さなダッシュボードは、あなたの作業環境を静かに整えてくれるはずです。"
+  },
+  "unavailableSources": []
+}

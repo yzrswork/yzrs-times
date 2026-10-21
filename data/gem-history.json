@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-c22bfac4",
-      "url": "https://github.com/nRF24/RF24",
-      "date": "2026-09-21"
-    },
-    {
-      "id": "github-gems-a3671c35",
-      "url": "https://github.com/tobychui/arozos",
-      "date": "2026-09-21"
-    },
-    {
       "id": "github-gems-6edb6109",
       "url": "https://github.com/shorepine/tulipcc",
       "date": "2026-09-22"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-09bae87e",
       "url": "https://github.com/zeeyado/koassistant.koplugin",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "github-gems-de94282f",
+      "url": "https://github.com/aceinnolab/Inkycal",
       "date": "2026-10-21"
     }
   ]

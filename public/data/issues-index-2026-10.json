@@ -288,6 +288,13 @@
       "edition": "morning",
       "theme": "委任の加速と、道具の再定義",
       "path": "issues/2026-10-21-morning.json"
+    },
+    {
+      "issueNo": 206,
+      "date": "2026-10-21",
+      "edition": "midday",
+      "theme": "手元の計算資源と、乖離する信頼",
+      "path": "issues/2026-10-21-midday.json"
     }
   ]
 }
