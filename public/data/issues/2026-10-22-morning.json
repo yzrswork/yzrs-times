@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 207,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-22",
+  "dateDisplay": "Thursday, October 22, 2026",
+  "pressTimeJst": "2026-10-22 05:00",
+  "generatedAt": "2026-10-21T20:17:33.215Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-flash-lite-latest",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "深層の露頭と揺らぐ境界",
+    "note": "基盤言語の深刻な脆弱性と、国家・組織レベルのデータ管理の交錯。"
+  },
+  "editorial": {
+    "comment": "PHPの重大な脆弱性（hatebu-it-68d23a86）を巡り、パッチ公開直後の検証や緊急対応の応酬が起きています。私たちが依存するエコシステムの底がどれほど薄い膜の上にあるか、改めて冷徹に見据えるべき朝です。",
+    "passedOver": "ネパールの登山者行方不明や国内外の政治・スポーツの話題は多数ありましたが、今朝の紙面を技術的な基盤の揺らぎに集中させるため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ時々曇り",
+    "icon": "partly-cloudy",
+    "tempMax": 23,
+    "tempMin": 15,
+    "precipChancePct": 4
+  },
+  "market": {
+    "fearGreed": {
+      "value": 63,
+      "label": "Greed"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 84476,
+        "priceJpy": 13362145,
+        "change24hPct": 2.33,
+        "sparkline7d": [
+          81744.83,
+          82155.54,
+          81476.39,
+          81597.29,
+          82361.84,
+          83215.8,
+          84350.34
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2491.51,
+        "priceJpy": 394099,
+        "change24hPct": 2.25,
+        "sparkline7d": [
+          2428.86,
+          2439.96,
+          2424.98,
+          2406.09,
+          2424.36,
+          2469.93,
+          2494.95
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.185511,
+        "priceJpy": 29.34,
+        "change24hPct": 3.14,
+        "sparkline7d": [
+          0.18388,
+          0.182866,
+          0.179828,
+          0.177265,
+          0.176789,
+          0.181945,
+          0.184963
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 287.63,
+        "priceJpy": 45496,
+        "change24hPct": 2.22,
+        "sparkline7d": [
+          269.51,
+          277.95,
+          281.5,
+          274.78,
+          277.6,
+          282.85,
+          286.27
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-68d23a86",
+    "nhk-top-0a9c6fdd",
+    "nhk-world-24ded2d3"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-world-d158daf7",
+        "nhk-top-f8fa0320"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-ab270559",
+        "hn-front-28fa46aa",
+        "hn-front-a134d7e3"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-68d23a86",
+      "title": "PHPの重大な脆弱性「php2shell」（CVE-2026-109618、CVE-2026-109619）の概要と対応指針 - GMO Flatt Security Blog",
+      "url": "https://blog.flatt.tech/entry/php2shell",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-21T02:15:43.000Z",
+      "summaryJa": [
+        "PHP開発チームは2026年10月20日（日本時間で深夜）、重大な脆弱性2件の修正パッチを、2026年10月21日 23時（日本時間）にリリース予定と告知しまし",
+        "両件のCVSS v4.",
+        "0スコアは9."
+      ],
+      "category": "programming",
+      "keywords": [
+        "PHPの重大な脆弱性",
+        "php2shell",
+        "CVE",
+        "GMO",
+        "Flatt"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 803,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 44.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-0a9c6fdd",
+      "title": "秋田 子吉川で一時 氾濫特別警報 危険な場所に近づかないで",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261021de63227",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-21T19:32:10.000Z",
+      "summaryJa": [
+        "低気圧と前線の影響で、記録的な大雨となった秋田県では子吉川で氾濫が確認され、「レベル5氾濫特別警報」が発表されていましたが、午前2時すぎ、「レベル2氾濫注意報」",
+        "氾濫が発生した地域…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "秋田",
+        "子吉川で一時",
+        "氾濫特別警報",
+        "危険な場所に近づかないで"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-24ded2d3",
+      "title": "中国AI発展に向けデータ事業担う国有企業を設立",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261021de63217",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-10-21T15:55:50.000Z",
+      "summaryJa": [
+        "AIをめぐるアメリカと中国の開発競争が激しくなるなか、中国政府は、開発に欠かせないデータ関連の事業を担う国有企業を新たに設立したと発表しました。",
+        "国主導でデータを管理してAI分野の競争力を高めたいねらい…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "news"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-d158daf7",
+      "title": "フランス10年もの国債利回り5％に 24年ぶりの高水準",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261021de63221",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-10-21T15:04:29.000Z",
+      "summaryJa": [
+        "債券市場ではフランスの財政悪化への懸念から10年ものの国債の利回りが一時5％に達し、およそ24年ぶりの高い水準となりました。",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "フランス10年もの国債利回り5％に",
+        "24年ぶりの高水準"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-f8fa0320",
+      "title": "体操 世界選手権 女子団体 日本は銅メダルで五輪出場権獲得",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261022de63274",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-21T20:01:13.000Z",
+      "summaryJa": [
+        "オランダで開かれている体操の世界選手権は21日、女子団体の決勝が行われ、日本は60年ぶりに銅メダルを獲得し、3位以内に与えられる再来年のロサンゼルスオリンピック",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "体操",
+        "世界選手権",
+        "女子団体",
+        "日本は銅メダルで五輪出場権獲得"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-ab270559",
+      "title": "【PHP脆弱性php2shell】パッチは21:59に公開済み。「23:15から乗っ取り」「15分でAIが攻撃コード？」は本当か、自分のVPSのログで検証（CVE-2026-109618／109619）：秋山大志のそれとりあえず作ってみようか。：オルタナティブ・ブログ",
+      "url": "https://blogs.itmedia.co.jp/agile/2026/10/php2shell_cve_2026_109618_panic.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-21T14:07:21.000Z",
+      "summaryJa": [
+        "【PHP脆弱性php2shell】パッチは21:59に公開済み。",
+        "「23:15から乗っ取り」「15分でAIが攻撃コード？",
+        "」は本当か、自分のVPSのログで検証（CVE-2026-109618／109619） PHPの重大な脆弱性で、タイムラインが大騒ぎです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "PHP脆弱性php2shell",
+        "パッチは21",
+        "59に公開済み",
+        "15から乗っ取り",
+        "15分でAIが攻撃コード"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 90,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 14.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-28fa46aa",
+      "title": "Mistral Large 4",
+      "url": "https://docs.mistral.ai/models/mistral-large-4-0",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-21T19:20:55.000Z",
+      "summaryJa": [
+        "Mistral Large 4",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Mistral",
+        "Large"
+      ],
+      "heat": {
+        "temperature": 91,
+        "signals": {
+          "hnPoints": 156,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 165.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-a134d7e3",
+      "title": "Google's Rust Style Guide",
+      "url": "https://google.github.io/styleguide/rustguide.html",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-21T19:11:57.000Z",
+      "summaryJa": [
+        "Google's Rust Style Guide",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Google",
+        "Rust",
+        "Style",
+        "Guide"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 46,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 42.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "como 1907 vs manchester united f.c. standings",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-21T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "como",
+        "manchester",
+        "united",
+        "f.c",
+        "standings"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "show-hn-50b1136f",
+      "title": "Show HN: Gemini Pro 3 imagines the HN front page 10 years from now",
+      "url": "https://dosaygo-studio.github.io/hn-front-page-2035/news",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2025-12-09T15:00:38.000Z",
+      "summaryJa": [
+        "Show HN: Gemini Pro 3 imagines the HN front page 1",
+        "出典: Show HN",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Gemini",
+        "Pro",
+        "imagines",
+        "front",
+        "page"
+      ],
+      "heat": {
+        "temperature": 74,
+        "signals": {
+          "hnPoints": 3346,
+          "hatebuCount": 0,
+          "ageHours": 7589,
+          "crossSources": 1,
+          "velocity": 0.4
+        }
+      },
+      "image": null
+    },
+    "reason": "10年後のHacker NewsのフロントページをAIが想像するという、実験的でどこか切ない試みです。私たちが日々向き合う画面の向こう側の景色を少しだけずらして見せてくれます。"
+  },
+  "unavailableSources": []
+}

@@ -295,6 +295,13 @@
       "edition": "midday",
       "theme": "手元の計算資源と、乖離する信頼",
       "path": "issues/2026-10-21-midday.json"
+    },
+    {
+      "issueNo": 207,
+      "date": "2026-10-22",
+      "edition": "morning",
+      "theme": "深層の露頭と揺らぐ境界",
+      "path": "issues/2026-10-22-morning.json"
     }
   ]
 }
