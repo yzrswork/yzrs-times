@@ -1,195 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "31ded297382248be": {
-      "url": "https://haqr.eu/tinyrenderer/",
-      "summaryJa": [
-        "Software rendering in 500 lines of bare C++",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-23T20:20:17.959Z"
-    },
-    "529f64350b431b35": {
-      "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
-      "summaryJa": [
-        "Writing by hand is good for your brain",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-23T20:20:17.959Z"
-    },
-    "2fa1961ac2c1ef00": {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/23/news055.html",
-      "summaryJa": [
-        "Google Cloudは2026年6月12日（米国時間）、大規模言語モデル（LLM）を活用するAIエージェントが必要とするナレッジを表現するためのオープンフォ",
-        "1を公開した。",
-        "OKFは、YAMLフロントマター（YAML形式のメタデータ）を持つMarkdownファイルのディレクトリとしてナ."
-      ],
-      "cachedAt": "2026-07-23T20:20:17.959Z"
-    },
-    "b400a62fe574e1bf": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015184691000",
-      "summaryJa": [
-        "23日のニューヨーク外国為替市場では、中東情勢が一段と悪化することへの懸念から円を売ってドルを買う動きが進み、円相場は一時、1ドル＝163円90銭台後半まで値下",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-23T20:20:17.959Z"
-    },
-    "40f4111e0408d720": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015184541000",
-      "summaryJa": [
-        "9月にイタリアで開幕する世界3大映画祭の1つ、ベネチア国際映画祭で、最優秀賞の金獅子賞を競う部門に日本からは是枝裕和監督と塚本晋也監督の2作品が出品されることに",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-23T20:20:17.959Z"
-    },
-    "996adb976887d4ca": {
-      "url": "https://news.yahoo.co.jp/pickup/6589084?source=rss",
-      "summaryJa": [
-        "入国警備官に退職自衛官を活用へ",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-23T20:20:17.959Z"
-    },
-    "cb3b27aeeff1eba8": {
-      "url": "https://zenn.dev/mskbhd/articles/lab-198-gura105-operational-ontology-o",
-      "summaryJa": [
-        "はじめに Palantir Foundry の「オントロジー（Ontology）」—— 物理データを意味のあるビジネスオブジェクトに抽象化し、Read/Writ",
-        "あの概念を ミニマム実装した OSS が公開されていたので、動かして検証した。",
-        "本家リポジトリ: gura105/operational-ontology (MIT, 22★) この記事では、実際."
-      ],
-      "cachedAt": "2026-07-23T20:20:17.959Z"
-    },
-    "fe050caed1c10464": {
-      "url": "https://lukekanies.com/writing/building-on-atproto/",
-      "summaryJa": [
-        "Building on ATProto",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-23T20:20:17.959Z"
-    },
-    "825ac5d80454529c": {
-      "url": "https://togetter.com/li/2723874",
-      "summaryJa": [
-        "サイバー被害のニチレイ、バックアップで早期再開 システム復旧成功 - 日本経済新聞 ニチレイで発生したシステム障害で、ハッカー集団がインターネット上で犯行声明を",
-        "同社はバックアップデータからのシステム復旧に成功しており、週内にも通常稼働に戻る見込み… 3 users 日本経済新.",
-        "."
-      ],
-      "cachedAt": "2026-07-23T20:20:17.959Z"
-    },
-    "288155c4fa17e197": {
-      "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
-      "summaryJa": [
-        "The arguments against open source AI are bad",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-23T20:20:17.959Z"
-    },
-    "23d123a1ef67f9d1": {
-      "url": "https://github.com/aitjcize/esp32-photoframe",
-      "summaryJa": [
-        "Feature-rich firmware for ESP32-based e-paper displays with superior image quali",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-23T20:20:17.959Z"
-    },
-    "4bccb0dc11a17539": {
-      "url": "https://jdan.github.io/98.css/#status-bar",
-      "summaryJa": [
-        "98.css",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-24T02:49:53.568Z"
-    },
-    "1fbd786281f59280": {
-      "url": "https://qiita.com/miruky/items/4be4d7e683632ba8c396?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに こんばんは。",
-        "2026年3月、お笑い芸人の狩野英孝さんがXへ投稿したはずのポストに、なぜか1992年9月2日と表示されて話題になりました。",
-        "彼は笑いの神様に愛されるあまり、時空まで操れるようになったのでしょうか。"
-      ],
-      "cachedAt": "2026-07-24T02:49:53.568Z"
-    },
-    "0a63079e0ebdf5e5": {
-      "url": "https://yogthos.net/posts/2026-07-02-jolt.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-24T02:49:53.568Z"
-    },
-    "0d394cbc43bf5e3b": {
-      "url": "https://speakerdeck.com/itohiro73/beyond-just-vibe-coding-combining-classic-principles-with-ai-driven-development",
-      "summaryJa": [
-        "『動くだけ』のその先へ — AI駆動開発で品質と速度を両取りする温故知新な新手法 / Beyond Just Vibe Coding - Combining C",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-24T02:49:53.568Z"
-    },
-    "421b9ac2aec58ec3": {
-      "url": "https://zenn.dev/layerx/articles/f7124d4e761c1f",
-      "summaryJa": [
-        "はじめに こんにちは、バクラク事業部アカウント基盤開発部IDチームの @convto です。",
-        "各種利用サービスのIDに一貫性があり、 GitHub も X も大体 convto を確保できているのが密かな自慢です。",
-        "やはりIDチーム所属なので、自分のIDにも一貫性が必要とされています。"
-      ],
-      "cachedAt": "2026-07-24T02:49:53.568Z"
-    },
-    "63393eae79d0c178": {
-      "url": "https://zenn.dev/135yshr/books/go-service-design",
-      "summaryJa": [
-        "「クリーンアーキテクチャというアーキテクチャはない」——大事なのは図の形を真似ることではなく、依存の向きを設計し、変更に強いサービスを育てることです。",
-        "本書は、Go でサービスを設計・運用する中で得た判断基準を、原則の理解、層ごとの設計判断、ドメインの表現、CI での維持、そして読書ログサービスを題材にしたハン",
-        "読み終えたとき、自分のサービスを設計して作りはじめられる状態になることがゴールです。"
-      ],
-      "cachedAt": "2026-07-24T02:49:53.568Z"
-    },
-    "a3e24ad4d2ed33fb": {
-      "url": "https://qiita.com/akachiryo/items/0dea3706713f90e7ef7d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "お疲れ様です！",
-        "「Rubyってインタプリタ言語だから、1行ずつ翻訳しながら実行してるんでしょ？",
-        "」と思っていませんか？"
-      ],
-      "cachedAt": "2026-07-24T02:49:53.568Z"
-    },
-    "46ab755f581e04e4": {
-      "url": "https://www.youtube.com/watch?v=5F-2Y1LPRek",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-24T02:49:53.568Z"
-    },
-    "93dfe7d0b59b5713": {
-      "url": "https://blog.haschek.at/2026/you-should-selfhost-your-mail.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-24T02:49:53.568Z"
-    },
-    "eea633541f500a61": {
-      "url": "https://github.com/zeeyado/koassistant.koplugin",
-      "summaryJa": [
-        "A powerful AI assistant integrated into KOReader.",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-24T02:49:53.568Z"
-    },
     "4f13ae8b9cc61b57": {
       "url": "https://qiita.com/Rabbit_Program/items/7c3b004ff56ec4cc6b06",
       "summaryJa": [
@@ -15093,6 +14904,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-21T20:19:19.559Z"
+    },
+    "e08e851450542214": {
+      "url": "https://zenn.dev/yosiki/articles/claude-p-cron-token-diet",
+      "summaryJa": [
+        "LaunchAgent（macOSのcronのようなもの）から定期的に claude -p \"ok\" を呼ぶ小さなジョブを動かしています。",
+        "返事の文面には用がなく、呼び出しが成功するか（認証が切れていないか）だけを見る処理です。",
+        "ところが、その返事が毎回こう始まっていました。"
+      ],
+      "cachedAt": "2026-10-22T02:55:26.916Z"
+    },
+    "0c68995ff3b38215": {
+      "url": "https://blickeditor.com/blog/caching-an-immediate-mode-ui",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-22T02:55:26.916Z"
+    },
+    "ad17c6c211fe789a": {
+      "url": "https://zenn.dev/matasuke_t/articles/50bd0bee5b6a3a",
+      "summaryJa": [
+        "社内向けのツールで、外部サイトを Puppeteer で順に更新していく処理があります。",
+        "1回の実行が数分から数十分かかり、これまでは画面（React）が司令塔でした。",
+        "画面が対象の一覧を持ち、1件ずつサーバーの API を叩き、進み具合を集めて表示する形です。"
+      ],
+      "cachedAt": "2026-10-22T02:55:26.916Z"
+    },
+    "135446502c7a809d": {
+      "url": "https://eliastaylor.com/noexploit/",
+      "summaryJa": [
+        "There isn't an easy exploit for this PHP vulnerabi",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-22T02:55:26.916Z"
+    },
+    "3bee46e8a81b189d": {
+      "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+      "summaryJa": [
+        "mitmproxy adds --emudhra option",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-22T02:55:26.916Z"
+    },
+    "1ff13ac7f763b93c": {
+      "url": "https://zenn.dev/tinker42/articles/ca22660eedca0a",
+      "summaryJa": [
+        "先に結論 家の Pi のうち4台を1週間、5分ごとに測った。",
+        "CPU はどれも余裕があり、足りないのはメモリだった HAOS 用の Pi 3B は、メモリが平均75%・最大83%。",
+        "時間帯による差がなく、常にこの水準にいる 買い替えの理由は「速くしたい」ではなく「メモリを増やしたい」だった。"
+      ],
+      "cachedAt": "2026-10-22T02:55:26.916Z"
+    },
+    "6e260109ba0aa848": {
+      "url": "https://qiita.com/suwa_nobu/items/bc2e80a8c1d61b0b2cfe?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "Claude Code 2.",
+        "1.",
+        "299（2026-10-14）に、こういう変更が入りました。"
+      ],
+      "cachedAt": "2026-10-22T02:55:26.916Z"
+    },
+    "c47ed6ab9943f8ba": {
+      "url": "https://lwn.net/SubscriberLink/1094226/7bb13383b169d475/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-22T02:55:26.916Z"
+    },
+    "7e0c08bfb50e463d": {
+      "url": "https://eyg.run/guides/embedding-eyg-in-erlang-programs",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-22T02:55:26.916Z"
+    },
+    "c748544f30090784": {
+      "url": "https://github.com/moltis-org/moltis",
+      "summaryJa": [
+        "A secure persistent personal agent server in Rust.",
+        "One binary, sandboxed execution, multi-provider LLMs, voice, memory, Telegram, W",
+        "Secure by design, runs on your hardware."
+      ],
+      "cachedAt": "2026-10-22T02:55:26.916Z"
     }
   }
 }

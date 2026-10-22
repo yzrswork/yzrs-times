@@ -302,6 +302,13 @@
       "edition": "morning",
       "theme": "深層の露頭と揺らぐ境界",
       "path": "issues/2026-10-22-morning.json"
+    },
+    {
+      "issueNo": 208,
+      "date": "2026-10-22",
+      "edition": "midday",
+      "theme": "無駄の削ぎ落としと手元の再構造化",
+      "path": "issues/2026-10-22-midday.json"
     }
   ]
 }
