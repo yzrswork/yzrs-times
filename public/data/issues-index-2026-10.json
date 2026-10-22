@@ -309,6 +309,13 @@
       "edition": "midday",
       "theme": "無駄の削ぎ落としと手元の再構造化",
       "path": "issues/2026-10-22-midday.json"
+    },
+    {
+      "issueNo": 209,
+      "date": "2026-10-23",
+      "edition": "morning",
+      "theme": "検証という名の刃研ぎ",
+      "path": "issues/2026-10-23-morning.json"
     }
   ]
 }

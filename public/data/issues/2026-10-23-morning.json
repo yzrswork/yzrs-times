@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 209,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-23",
+  "dateDisplay": "Friday, October 23, 2026",
+  "pressTimeJst": "2026-10-23 05:00",
+  "generatedAt": "2026-10-22T20:18:08.399Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "検証という名の刃研ぎ",
+    "note": "脆弱性への対峙と、AIエージェントを活用した開発プロセスの再検証。足元の不確実性を泥臭く調律する試みが紙面に並びます。"
+  },
+  "editorial": {
+    "comment": "pixiv insideのPHP脆弱性対応記録は、緊急時のチームの動きを克明に記した技術者の鑑です。動転せず、まず影響範囲を特定し着実に修復する姿勢は、開発者が日常のコーディングで最も見習うべき態度でしょう。 —— YZRS Times 編集長",
+    "passedOver": "ドラフト会議関連のニュースが多数ありましたが、創作の文脈を優先し、技術検証とセキュリティに関する記事を厚くしました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "曇り",
+    "icon": "cloudy",
+    "tempMax": 19,
+    "tempMin": 13,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 68,
+      "label": "Greed"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 81293,
+        "priceJpy": 12754781,
+        "change24hPct": -3.77,
+        "sparkline7d": [
+          82308.83,
+          81523.66,
+          81880.89,
+          82665.54,
+          81476.55,
+          84543.46,
+          81292.23
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2381.4,
+        "priceJpy": 373641,
+        "change24hPct": -4.39,
+        "sparkline7d": [
+          2451.2,
+          2420.56,
+          2423.3,
+          2428.97,
+          2384.71,
+          2495.39,
+          2382.39
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.175662,
+        "priceJpy": 27.56,
+        "change24hPct": -5.34,
+        "sparkline7d": [
+          0.185084,
+          0.181282,
+          0.178496,
+          0.178764,
+          0.17567,
+          0.185597,
+          0.1759
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 273.39,
+        "priceJpy": 42895,
+        "change24hPct": -4.99,
+        "sparkline7d": [
+          279.32,
+          277.01,
+          277.01,
+          278.64,
+          273.41,
+          288.2,
+          273.87
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-f7d9f213",
+    "hatebu-it-00657fc3",
+    "hatebu-it-dacf82e2"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-48289ffd",
+        "nhk-top-b1601d2e",
+        "yahoo-topics-fefe9724",
+        "nhk-world-11e3e908"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-05d70452"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-f7d9f213",
+      "title": "PHP 8.5.12の緊急リリースにpixivはどう対応したか - pixiv inside",
+      "url": "https://inside.pixiv.blog/2026/10/22/193321",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-22T10:38:41.000Z",
+      "summaryJa": [
+        "こんにちは、Platform Division Infrastructure Unitのpicopicoです。",
+        "2026年10月21日、PHPに深刻な脆弱性（通称PHP2Shell）が見つかり、緊急のセキュリティリリースが予告されました。",
+        "今回の脆弱性への対応にあたられた皆さま、そして現在も対応を続けている皆さまに、心より敬意を表します。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "PHP",
+        "pixiv",
+        "inside"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 468,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 48.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-00657fc3",
+      "title": "厳選・セキュリティが心配ならClaude Codeにこの問いかけをコピペするべし20",
+      "url": "https://zenn.dev/yuiseki/articles/54b01670841898",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-22T11:28:38.000Z",
+      "summaryJa": [
+        "TL;DR この記事のURLをコーディングAIエージェントに伝えてください。",
+        "認証 このリポジトリのサインアップ、ログイン、メール確認、パスワードリセットの実装を調べてください。",
+        "UI の CAPTCHA や入力チェックを通さず API を直接呼べないか、メール確認前に使える機能がないか確認してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "厳選",
+        "セキュリティが心配ならClaude"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 97,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 11
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-dacf82e2",
+      "title": "仕組みを理解する動画を、Claude Codeに作らせると便利すぎる",
+      "url": "https://zenn.dev/explaza/articles/c749042ecbe232",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-21T19:34:57.000Z",
+      "summaryJa": [
+        "最近は動画で説明資料を作っている アプリの仕組みをお客さんに説明するとき、構成図とかHTML・Markdownで、説明するのが一般的かと思いますが 最近はjav",
+        "めちゃくち.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Codeに作らせると便利すぎる"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 582,
+          "ageHours": 25,
+          "crossSources": 2,
+          "velocity": 23.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-48289ffd",
+      "title": "道新記者に差し入れ 引き続き「領事面会」と即時解放働きかけ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261023de63959",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-22T19:04:00.000Z",
+      "summaryJa": [
+        "ロシアの治安機関に北海道新聞の記者が拘束されたことを受けて、モスクワにある日本大使館は拘置所に記者への関係者からの差し入れを持ち込むとともに、引き続き一刻も早い",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "道新記者に差し入れ",
+        "引き続き",
+        "領事面会"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-b1601d2e",
+      "title": "台風30号 先島諸島が暴風域 西～東日本 接近前から大雨も",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261022de63248",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-22T16:11:00.000Z",
+      "summaryJa": [
+        "大型で非常に強い台風30号は沖縄県の先島諸島を暴風域に巻き込みながら北西へ進んでいて、先島諸島では、24日にかけて、一部の住宅が倒壊するような猛烈な風が吹くおそ",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "台風30号",
+        "先島諸島が暴風域",
+        "西～東日本",
+        "接近前から大雨も"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "yahoo-topics-fefe9724",
+      "title": "初の核最終処分場の操業決定 北欧",
+      "url": "https://news.yahoo.co.jp/pickup/6599748?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-10-22T14:28:24.000Z",
+      "summaryJa": [
+        "初の核最終処分場の操業決定 北欧",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "初の核最終処分場の操業決定",
+        "北欧"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-11e3e908",
+      "title": "中国 チベット自治区でM7.0の地震 死者の情報も 国営メディア",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261023de63932",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-10-22T18:33:44.000Z",
+      "summaryJa": [
+        "中国地震局によりますと日本時間の22日午後11時33分ごろ、現地時間の午後10時33分ごろ中国内陸部のチベット自治区のナクチュ市でマグニチュード7.",
+        "0の地震がありました。",
+        "震源の深さは10キロと推定…"
+      ],
+      "category": "news",
+      "keywords": [
+        "中国",
+        "チベット自治区でM7.0の地震",
+        "死者の情報も",
+        "国営メディア"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-05d70452",
+      "title": "Claude Opus 5.5でいい感じのアクションゲームを作るための一工夫七つ - ABAの日誌",
+      "url": "https://aba.hatenablog.com/entry/2026/10/22/194027",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-22T10:43:13.000Z",
+      "summaryJa": [
+        "Opus 5.",
+        "5はゲームのアイデア作り、設計、実装、ビジュアル作成、作曲や効果音作成、などなど、ゲーム制作に必要な様々なタスクを高い水準でこなしてくれる。",
+        "単に、こんな感じのゲームを作って、この辺が気に入らないから直して、という指示を与えてもゲームは作れるが、それにちょっとした工夫を加えることで、さらに優."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Opus",
+        "ABAの日誌"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 106,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 11.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "熱帯低気圧",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-22T19:50:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "熱帯低気圧"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "show-hn-5293a25e",
+      "title": "Show HN: isometric.nyc – giant isometric pixel art map of NYC",
+      "url": "https://cannoneyed.com/isometric-nyc/",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2026-01-22T16:52:35.000Z",
+      "summaryJa": [
+        "Hey HN!",
+        "I wanted to share something I built over the last few weeks: isometric.",
+        "nyc is a massive isometric pixel art map of NYC, built with nano banana and codi"
+      ],
+      "category": "tech",
+      "keywords": [
+        "isometric.nyc",
+        "giant",
+        "isometric",
+        "pixel",
+        "art"
+      ],
+      "heat": {
+        "temperature": 69,
+        "signals": {
+          "hnPoints": 1325,
+          "hatebuCount": 0,
+          "ageHours": 6555,
+          "crossSources": 1,
+          "velocity": 0.2
+        }
+      },
+      "image": null
+    },
+    "reason": "コードを書かずに巨大なピクセルアート地図を生成するエンジニアリングの試みは、新しい道具の使い方の可能性を示しています。AIを盲信するのではなく、生成プロセス自体を構造的に管理する姿勢に作り手としての誇りを感じます。"
+  },
+  "unavailableSources": []
+}

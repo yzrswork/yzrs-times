@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "issueNo": 208,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-10-22",
-  "dateDisplay": "Thursday, October 22, 2026",
-  "pressTimeJst": "2026-10-22 12:00",
-  "generatedAt": "2026-10-22T02:55:05.628Z",
+  "issueNo": 209,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-23",
+  "dateDisplay": "Friday, October 23, 2026",
+  "pressTimeJst": "2026-10-23 05:00",
+  "generatedAt": "2026-10-22T20:18:08.399Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.1-flash-lite",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "無駄の削ぎ落としと手元の再構造化",
-    "note": "CLIツールやサーバー構成、UI描画における不要なオーバーヘッドを見直し、手元の開発環境やコードの軽量化を図る工夫を集めました。"
+    "title": "検証という名の刃研ぎ",
+    "note": "脆弱性への対峙と、AIエージェントを活用した開発プロセスの再検証。足元の不確実性を泥臭く調律する試みが紙面に並びます。"
   },
   "editorial": {
-    "comment": "定期ジョブで無邪気に呼んでいたCLIのトークン浪費を98%削った zenn-trend-e08e8514 の記事は、午後のスクリプト見直しに直結する良質な工夫です。ツールが裏で読み込んでいるコンテキストを正しく把握することが、軽快な手触りを取り戻す鍵になります。 —— YZRS Times 編集長",
-    "passedOver": "PHP脆弱性を巡るSNSの急進的な騒動や政局的ニュースは、昼休みの技術インプットを妨げるため見送り、技術的な検証記事のみを選定しました。",
+    "comment": "pixiv insideのPHP脆弱性対応記録は、緊急時のチームの動きを克明に記した技術者の鑑です。動転せず、まず影響範囲を特定し着実に修復する姿勢は、開発者が日常のコーディングで最も見習うべき態度でしょう。 —— YZRS Times 編集長",
+    "passedOver": "ドラフト会議関連のニュースが多数ありましたが、創作の文脈を優先し、技術検証とセキュリティに関する記事を厚くしました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
     "summary": "曇り",
     "icon": "cloudy",
-    "tempMax": 23,
-    "tempMin": 15,
-    "precipChancePct": 8
+    "tempMax": 19,
+    "tempMin": 13,
+    "precipChancePct": 0
   },
   "market": {
     "fearGreed": {
@@ -39,340 +39,244 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 82832,
-        "priceJpy": 13080986,
-        "change24hPct": 0.08,
+        "priceUsd": 81293,
+        "priceJpy": 12754781,
+        "change24hPct": -3.77,
         "sparkline7d": [
-          81563.75,
-          82086.11,
-          81525.6,
-          81455.35,
-          81920.67,
-          82763.63,
-          84143.25
+          82308.83,
+          81523.66,
+          81880.89,
+          82665.54,
+          81476.55,
+          84543.46,
+          81292.23
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2436.87,
-        "priceJpy": 384834,
-        "change24hPct": -0.49,
+        "priceUsd": 2381.4,
+        "priceJpy": 373641,
+        "change24hPct": -4.39,
         "sparkline7d": [
-          2411.53,
-          2444.95,
-          2434.4,
-          2394.33,
-          2400.35,
-          2446.62,
-          2472.26
+          2451.2,
+          2420.56,
+          2423.3,
+          2428.97,
+          2384.71,
+          2495.39,
+          2382.39
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.180287,
-        "priceJpy": 28.47,
-        "change24hPct": -1.17,
+        "priceUsd": 0.175662,
+        "priceJpy": 27.56,
+        "change24hPct": -5.34,
         "sparkline7d": [
-          0.181839,
-          0.182787,
-          0.178962,
-          0.175965,
-          0.176325,
-          0.181557,
-          0.183771
+          0.185084,
+          0.181282,
+          0.178496,
+          0.178764,
+          0.17567,
+          0.185597,
+          0.1759
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 279.58,
-        "priceJpy": 44152,
-        "change24hPct": -2.87,
+        "priceUsd": 273.39,
+        "priceJpy": 42895,
+        "change24hPct": -4.99,
         "sparkline7d": [
-          267.48,
-          279.57,
-          275.14,
-          271.98,
-          277.98,
-          283.02,
-          286.86
+          279.32,
+          277.01,
+          277.01,
+          278.64,
+          273.41,
+          288.2,
+          273.87
         ]
       }
     ]
   },
   "top": [
-    "zenn-trend-e08e8514",
-    "lobsters-0c68995f",
-    "zenn-trend-ad17c6c2"
+    "hatebu-it-f7d9f213",
+    "hatebu-it-00657fc3",
+    "hatebu-it-dacf82e2"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hn-front-55794774",
-        "hn-front-e82f50da"
+        "nhk-top-48289ffd",
+        "nhk-top-b1601d2e",
+        "yahoo-topics-fefe9724",
+        "nhk-world-11e3e908"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-trend-1ff13ac7",
-        "qiita-popular-6e260109"
+        "hatebu-it-05d70452"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-c47ed6ab",
-        "lobsters-7e0c08bf"
+        "gtrends-jp-ccbd37e7"
       ]
     }
   ],
   "articles": [
     {
-      "id": "zenn-trend-e08e8514",
-      "title": "cronのclaude -pが\"ok\"だけで4万トークン——--safe-modeと--tools \"\"で98%削減",
-      "url": "https://zenn.dev/yosiki/articles/claude-p-cron-token-diet",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-21T09:22:14.000Z",
+      "id": "hatebu-it-f7d9f213",
+      "title": "PHP 8.5.12の緊急リリースにpixivはどう対応したか - pixiv inside",
+      "url": "https://inside.pixiv.blog/2026/10/22/193321",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-22T10:38:41.000Z",
       "summaryJa": [
-        "LaunchAgent（macOSのcronのようなもの）から定期的に claude -p \"ok\" を呼ぶ小さなジョブを動かしています。",
-        "返事の文面には用がなく、呼び出しが成功するか（認証が切れていないか）だけを見る処理です。",
-        "ところが、その返事が毎回こう始まっていました。"
+        "こんにちは、Platform Division Infrastructure Unitのpicopicoです。",
+        "2026年10月21日、PHPに深刻な脆弱性（通称PHP2Shell）が見つかり、緊急のセキュリティリリースが予告されました。",
+        "今回の脆弱性への対応にあたられた皆さま、そして現在も対応を続けている皆さまに、心より敬意を表します。"
       ],
       "category": "programming",
       "keywords": [
-        "cronのclaude",
-        "pが",
-        "ok",
-        "safe",
-        "modeと"
+        "PHP",
+        "pixiv",
+        "inside"
       ],
       "heat": {
-        "temperature": 50,
+        "temperature": 88,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 18,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-0c68995f",
-      "title": "Don't throw it all away: Caching an immediate-mode UI",
-      "url": "https://blickeditor.com/blog/caching-an-immediate-mode-ui",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-21T17:16:47.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "throw",
-        "away",
-        "Caching",
-        "immediate",
-        "mode"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
+          "hatebuCount": 468,
           "ageHours": 10,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 48.5
         }
       },
       "image": null
     },
     {
-      "id": "zenn-trend-ad17c6c2",
-      "title": "ブラウザ起点の長い処理をサーバー側へ移して、画面を閉じても終わるようにした",
-      "url": "https://zenn.dev/matasuke_t/articles/50bd0bee5b6a3a",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-21T11:48:05.000Z",
+      "id": "hatebu-it-00657fc3",
+      "title": "厳選・セキュリティが心配ならClaude Codeにこの問いかけをコピペするべし20",
+      "url": "https://zenn.dev/yuiseki/articles/54b01670841898",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-22T11:28:38.000Z",
       "summaryJa": [
-        "社内向けのツールで、外部サイトを Puppeteer で順に更新していく処理があります。",
-        "1回の実行が数分から数十分かかり、これまでは画面（React）が司令塔でした。",
-        "画面が対象の一覧を持ち、1件ずつサーバーの API を叩き、進み具合を集めて表示する形です。"
+        "TL;DR この記事のURLをコーディングAIエージェントに伝えてください。",
+        "認証 このリポジトリのサインアップ、ログイン、メール確認、パスワードリセットの実装を調べてください。",
+        "UI の CAPTCHA や入力チェックを通さず API を直接呼べないか、メール確認前に使える機能がないか確認してください。"
       ],
       "category": "programming",
       "keywords": [
-        "画面を閉じても終わるようにした"
+        "厳選",
+        "セキュリティが心配ならClaude"
       ],
       "heat": {
-        "temperature": 50,
+        "temperature": 80,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 15,
+          "hatebuCount": 97,
+          "ageHours": 9,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 11
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-55794774",
-      "title": "There isn't an easy exploit for this PHP vulnerability",
-      "url": "https://eliastaylor.com/noexploit/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-21T23:13:27.000Z",
+      "id": "hatebu-it-dacf82e2",
+      "title": "仕組みを理解する動画を、Claude Codeに作らせると便利すぎる",
+      "url": "https://zenn.dev/explaza/articles/c749042ecbe232",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-21T19:34:57.000Z",
       "summaryJa": [
-        "There isn't an easy exploit for this PHP vulnerabi",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "easy",
-        "exploit",
-        "PHP",
-        "vulnerability"
-      ],
-      "heat": {
-        "temperature": 82,
-        "signals": {
-          "hnPoints": 209,
-          "hatebuCount": 0,
-          "ageHours": 4,
-          "crossSources": 1,
-          "velocity": 56.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-e82f50da",
-      "title": "mitmproxy adds --emudhra option",
-      "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-21T23:51:37.000Z",
-      "summaryJa": [
-        "mitmproxy adds --emudhra option",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "mitmproxy",
-        "adds",
-        "emudhra",
-        "option"
-      ],
-      "heat": {
-        "temperature": 89,
-        "signals": {
-          "hnPoints": 256,
-          "hatebuCount": 0,
-          "ageHours": 3,
-          "crossSources": 1,
-          "velocity": 83.7
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-1ff13ac7",
-      "title": "Pi 3B 2台で家のサーバを回してきた — そろそろ限界、Pi 4/5 を買う前に稼働率を測る",
-      "url": "https://zenn.dev/tinker42/articles/ca22660eedca0a",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-21T10:05:42.000Z",
-      "summaryJa": [
-        "先に結論 家の Pi のうち4台を1週間、5分ごとに測った。",
-        "CPU はどれも余裕があり、足りないのはメモリだった HAOS 用の Pi 3B は、メモリが平均75%・最大83%。",
-        "時間帯による差がなく、常にこの水準にいる 買い替えの理由は「速くしたい」ではなく「メモリを増やしたい」だった。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Pi",
-        "3B",
-        "2台で家のサーバを回してきた"
-      ],
-      "heat": {
-        "temperature": 50,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 17,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-6e260109",
-      "title": "Claude Code の長い会話は、閉じずに席を外したほうが安かった。1時間後に戻った費用は閉じた場合の1割",
-      "url": "https://qiita.com/suwa_nobu/items/bc2e80a8c1d61b0b2cfe?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-10-21T07:01:56.000Z",
-      "summaryJa": [
-        "Claude Code 2.",
-        "1.",
-        "299（2026-10-14）に、こういう変更が入りました。"
+        "最近は動画で説明資料を作っている アプリの仕組みをお客さんに説明するとき、構成図とかHTML・Markdownで、説明するのが一般的かと思いますが 最近はjav",
+        "めちゃくち.",
+        "."
       ],
       "category": "programming",
       "keywords": [
         "Claude",
-        "Code",
-        "閉じずに席を外したほうが安かった",
-        "1時間後に戻った費用は閉じた場合の1割"
+        "Codeに作らせると便利すぎる"
       ],
       "heat": {
-        "temperature": 49,
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 582,
+          "ageHours": 25,
+          "crossSources": 2,
+          "velocity": 23.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-48289ffd",
+      "title": "道新記者に差し入れ 引き続き「領事面会」と即時解放働きかけ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261023de63959",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-22T19:04:00.000Z",
+      "summaryJa": [
+        "ロシアの治安機関に北海道新聞の記者が拘束されたことを受けて、モスクワにある日本大使館は拘置所に記者への関係者からの差し入れを持ち込むとともに、引き続き一刻も早い",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "道新記者に差し入れ",
+        "引き続き",
+        "領事面会"
+      ],
+      "heat": {
+        "temperature": 60,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 20,
-          "crossSources": 1,
+          "ageHours": 1,
+          "crossSources": 2,
           "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "lobsters-c47ed6ab",
-      "title": "Understanding Nix flakes",
-      "url": "https://lwn.net/SubscriberLink/1094226/7bb13383b169d475/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-21T23:53:40.000Z",
+      "id": "nhk-top-b1601d2e",
+      "title": "台風30号 先島諸島が暴風域 西～東日本 接近前から大雨も",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261022de63248",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-22T16:11:00.000Z",
       "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "大型で非常に強い台風30号は沖縄県の先島諸島を暴風域に巻き込みながら北西へ進んでいて、先島諸島では、24日にかけて、一部の住宅が倒壊するような猛烈な風が吹くおそ",
+        "出典: NHKニュース 主要",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "Understanding",
-        "Nix",
-        "flakes"
+        "台風30号",
+        "先島諸島が暴風域",
+        "西～東日本",
+        "接近前から大雨も"
       ],
       "heat": {
         "temperature": 54,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 3,
+          "ageHours": 4,
           "crossSources": 1,
           "velocity": 0
         }
@@ -380,60 +284,55 @@
       "image": null
     },
     {
-      "id": "lobsters-7e0c08bf",
-      "title": "Embedding EYG in Erlang programs",
-      "url": "https://eyg.run/guides/embedding-eyg-in-erlang-programs",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-21T21:27:36.000Z",
+      "id": "yahoo-topics-fefe9724",
+      "title": "初の核最終処分場の操業決定 北欧",
+      "url": "https://news.yahoo.co.jp/pickup/6599748?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-10-22T14:28:24.000Z",
       "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "初の核最終処分場の操業決定 北欧",
+        "出典: Yahoo!ニュース トピックス",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "Embedding",
-        "EYG",
-        "Erlang",
-        "programs"
+        "初の核最終処分場の操業決定",
+        "北欧"
       ],
       "heat": {
         "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 5,
+          "ageHours": 6,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
-    }
-  ],
-  "hiddenGem": {
-    "article": {
-      "id": "github-gems-0957d799",
-      "title": "moltis-org/moltis — A secure persistent personal agent server in Rust. One binary, sandboxed execution, multi-provider LLMs, voice, memory, Telegram, WhatsApp, Discord, Teams, and MCP tools. Secure by design, runs on your hardware.",
-      "url": "https://github.com/moltis-org/moltis",
-      "source": "GitHub 小さなOSS",
-      "sourceId": "github-gems",
-      "publishedAt": "2026-10-22T01:21:27Z",
+    },
+    {
+      "id": "nhk-world-11e3e908",
+      "title": "中国 チベット自治区でM7.0の地震 死者の情報も 国営メディア",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261023de63932",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-10-22T18:33:44.000Z",
       "summaryJa": [
-        "A secure persistent personal agent server in Rust.",
-        "One binary, sandboxed execution, multi-provider LLMs, voice, memory, Telegram, W",
-        "Secure by design, runs on your hardware."
+        "中国地震局によりますと日本時間の22日午後11時33分ごろ、現地時間の午後10時33分ごろ中国内陸部のチベット自治区のナクチュ市でマグニチュード7.",
+        "0の地震がありました。",
+        "震源の深さは10キロと推定…"
       ],
-      "category": "oss",
+      "category": "news",
       "keywords": [
-        "moltis",
-        "org/moltis",
-        "secure",
-        "persistent",
-        "personal"
+        "中国",
+        "チベット自治区でM7.0の地震",
+        "死者の情報も",
+        "国営メディア"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 54,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
@@ -444,7 +343,99 @@
       },
       "image": null
     },
-    "reason": "自分のハードウェア上で安全に常駐するパーソナルエージェントをRustの単一バイナリで構築できる点が魅力的です。多様なプロバイダとメッセージングに対応しつつ、手元で安全に育てられる道具としての確かさがあります。"
+    {
+      "id": "hatebu-it-05d70452",
+      "title": "Claude Opus 5.5でいい感じのアクションゲームを作るための一工夫七つ - ABAの日誌",
+      "url": "https://aba.hatenablog.com/entry/2026/10/22/194027",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-22T10:43:13.000Z",
+      "summaryJa": [
+        "Opus 5.",
+        "5はゲームのアイデア作り、設計、実装、ビジュアル作成、作曲や効果音作成、などなど、ゲーム制作に必要な様々なタスクを高い水準でこなしてくれる。",
+        "単に、こんな感じのゲームを作って、この辺が気に入らないから直して、という指示を与えてもゲームは作れるが、それにちょっとした工夫を加えることで、さらに優."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Opus",
+        "ABAの日誌"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 106,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 11.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "熱帯低気圧",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-22T19:50:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "熱帯低気圧"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "show-hn-5293a25e",
+      "title": "Show HN: isometric.nyc – giant isometric pixel art map of NYC",
+      "url": "https://cannoneyed.com/isometric-nyc/",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2026-01-22T16:52:35.000Z",
+      "summaryJa": [
+        "Hey HN!",
+        "I wanted to share something I built over the last few weeks: isometric.",
+        "nyc is a massive isometric pixel art map of NYC, built with nano banana and codi"
+      ],
+      "category": "tech",
+      "keywords": [
+        "isometric.nyc",
+        "giant",
+        "isometric",
+        "pixel",
+        "art"
+      ],
+      "heat": {
+        "temperature": 69,
+        "signals": {
+          "hnPoints": 1325,
+          "hatebuCount": 0,
+          "ageHours": 6555,
+          "crossSources": 1,
+          "velocity": 0.2
+        }
+      },
+      "image": null
+    },
+    "reason": "コードを書かずに巨大なピクセルアート地図を生成するエンジニアリングの試みは、新しい道具の使い方の可能性を示しています。AIを盲信するのではなく、生成プロセス自体を構造的に管理する姿勢に作り手としての誇りを感じます。"
   },
   "unavailableSources": []
 }

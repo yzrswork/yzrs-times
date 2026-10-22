@@ -14994,6 +14994,87 @@
         "Secure by design, runs on your hardware."
       ],
       "cachedAt": "2026-10-22T02:55:26.916Z"
+    },
+    "f7d9f21309fd9b39": {
+      "url": "https://inside.pixiv.blog/2026/10/22/193321",
+      "summaryJa": [
+        "こんにちは、Platform Division Infrastructure Unitのpicopicoです。",
+        "2026年10月21日、PHPに深刻な脆弱性（通称PHP2Shell）が見つかり、緊急のセキュリティリリースが予告されました。",
+        "今回の脆弱性への対応にあたられた皆さま、そして現在も対応を続けている皆さまに、心より敬意を表します。"
+      ],
+      "cachedAt": "2026-10-22T20:20:39.692Z"
+    },
+    "00657fc33b7c9d64": {
+      "url": "https://zenn.dev/yuiseki/articles/54b01670841898",
+      "summaryJa": [
+        "TL;DR この記事のURLをコーディングAIエージェントに伝えてください。",
+        "認証 このリポジトリのサインアップ、ログイン、メール確認、パスワードリセットの実装を調べてください。",
+        "UI の CAPTCHA や入力チェックを通さず API を直接呼べないか、メール確認前に使える機能がないか確認してください。"
+      ],
+      "cachedAt": "2026-10-22T20:20:39.692Z"
+    },
+    "dacf82e28915936f": {
+      "url": "https://zenn.dev/explaza/articles/c749042ecbe232",
+      "summaryJa": [
+        "最近は動画で説明資料を作っている アプリの仕組みをお客さんに説明するとき、構成図とかHTML・Markdownで、説明するのが一般的かと思いますが 最近はjav",
+        "めちゃくち.",
+        "."
+      ],
+      "cachedAt": "2026-10-22T20:20:39.692Z"
+    },
+    "48289ffd60c0e068": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261023de63959",
+      "summaryJa": [
+        "ロシアの治安機関に北海道新聞の記者が拘束されたことを受けて、モスクワにある日本大使館は拘置所に記者への関係者からの差し入れを持ち込むとともに、引き続き一刻も早い",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-22T20:20:39.692Z"
+    },
+    "b1601d2ee3c97908": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261022de63248",
+      "summaryJa": [
+        "大型で非常に強い台風30号は沖縄県の先島諸島を暴風域に巻き込みながら北西へ進んでいて、先島諸島では、24日にかけて、一部の住宅が倒壊するような猛烈な風が吹くおそ",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-22T20:20:39.692Z"
+    },
+    "fefe972446d0b940": {
+      "url": "https://news.yahoo.co.jp/pickup/6599748?source=rss",
+      "summaryJa": [
+        "初の核最終処分場の操業決定 北欧",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-22T20:20:39.692Z"
+    },
+    "11e3e90813d6857b": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261023de63932",
+      "summaryJa": [
+        "中国地震局によりますと日本時間の22日午後11時33分ごろ、現地時間の午後10時33分ごろ中国内陸部のチベット自治区のナクチュ市でマグニチュード7.",
+        "0の地震がありました。",
+        "震源の深さは10キロと推定…"
+      ],
+      "cachedAt": "2026-10-22T20:20:39.692Z"
+    },
+    "05d7045208394406": {
+      "url": "https://aba.hatenablog.com/entry/2026/10/22/194027",
+      "summaryJa": [
+        "Opus 5.",
+        "5はゲームのアイデア作り、設計、実装、ビジュアル作成、作曲や効果音作成、などなど、ゲーム制作に必要な様々なタスクを高い水準でこなしてくれる。",
+        "単に、こんな感じのゲームを作って、この辺が気に入らないから直して、という指示を与えてもゲームは作れるが、それにちょっとした工夫を加えることで、さらに優."
+      ],
+      "cachedAt": "2026-10-22T20:20:39.692Z"
+    },
+    "a3fc7d534550dedf": {
+      "url": "https://cannoneyed.com/isometric-nyc/",
+      "summaryJa": [
+        "Hey HN!",
+        "I wanted to share something I built over the last few weeks: isometric.",
+        "nyc is a massive isometric pixel art map of NYC, built with nano banana and codi"
+      ],
+      "cachedAt": "2026-10-22T20:20:39.692Z"
     }
   }
 }
