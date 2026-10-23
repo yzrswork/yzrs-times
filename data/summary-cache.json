@@ -1,69 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "c12c04c456f9c49b": {
-      "url": "https://github.com/AngelOnFira/weblings",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-25T02:49:10.738Z"
-    },
-    "852eea3a0a01daf2": {
-      "url": "https://qiita.com/ma-shiratori/items/2d6eaea260e8d223b49b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "Flutter公式のバインディングが存在しないサードパーティ製Cライブラリを、AIエージェント(Claude Code)に「Native Assets(Hook",
-        ".",
-        "."
-      ],
-      "cachedAt": "2026-07-25T02:49:10.738Z"
-    },
-    "70728894e4a290e1": {
-      "url": "https://zenn.dev/kanaria007/articles/c392cbd1c1fc21",
-      "summaryJa": [
-        "ソフトウェア開発には、多くの設計原則があります。",
-        "わかりやすい変数名を付ける 関数を小さくする 単一責任にする 凝集度を高くする 結合度を低くする 情報を隠蔽する DBを正規化する ドメインの言葉を使う Bou",
-        "しかし、実際に設計していると、こういう疑問が出てきます。"
-      ],
-      "cachedAt": "2026-07-25T02:49:10.738Z"
-    },
-    "6d91274d389a4f17": {
-      "url": "https://zenn.dev/fukke/articles/20260723_nextjs-structure",
-      "summaryJa": [
-        "なぜ使い回せる技術構成が必要か 受託開発では、短い期間で成果を出しつつ品質の高いものを作ることが大切です。",
-        "そのためには、案件ごとに技術スタックの検討にかける時間をなるべく減らし、その分を要件定義や設計に充てられる状態が理想です。",
-        "品質の高いものを低コストで出せる技術構成には、それ自体に価値があります。"
-      ],
-      "cachedAt": "2026-07-25T02:49:10.738Z"
-    },
-    "99ec6698e80bdc96": {
-      "url": "https://theconsensus.dev/p/2026/07/19/observing-gos-garbage-collector-old-and-new.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-25T02:49:10.738Z"
-    },
-    "b2c9dd2e9ca5e6e2": {
-      "url": "https://github.com/alexpusch/rust-magic-patterns/blob/master/delightful-integration-tests/Readme.md",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-25T02:49:10.738Z"
-    },
-    "01781a524b53d76f": {
-      "url": "https://th0mas.nl/downloads/pdftris.pdf",
-      "summaryJa": [
-        "I realized that the PDF engines of modern desktop browsers (PDFium and PDF.",
-        "js) support JavaScript with enough I&#x2F;O primitives to make a basic game like",
-        "<p>It was a bit tricky to find a union of features that work in both engines, bu"
-      ],
-      "cachedAt": "2026-07-25T02:49:10.738Z"
-    },
     "b1d0c5966f8c61cc": {
       "url": "https://github.com/lucid-fabrics/proxmox-bluetooth",
       "summaryJa": [
@@ -15084,6 +15021,60 @@
         "Since I track everything digitally (some people still just use paper logbooks!"
       ],
       "cachedAt": "2026-10-23T02:48:58.517Z"
+    },
+    "ecf15ae39e41e40c": {
+      "url": "https://david.lequin.dev/blog/bi-software-is-dead/",
+      "summaryJa": [
+        "Can we replace a $150k Looker with a bucket of HTM",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-23T20:18:42.953Z"
+    },
+    "eac32504479d0492": {
+      "url": "https://tech.codmon.com/entry/2026/10/23/173909",
+      "summaryJa": [
+        "はじめに コドモンでプロダクト開発部長を務めております、松浦です。",
+        "2026年10月21日、PHPの脆弱性（通称「PHP2Shell」）への対策として、コドモンのサービスを日中に一時停止しました。",
+        "施設の先生方、保護者の皆さま、自治体や販売代理店の皆さまには、十分な事前のご案内ができないまま、長い時間にわたりご不便をお."
+      ],
+      "cachedAt": "2026-10-23T20:18:42.953Z"
+    },
+    "e8f8ea044f5c698f": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261024de64636",
+      "summaryJa": [
+        "中東情勢を受けた激変緩和措置をめぐり、政府はガソリン1リットルあたり170円程度に抑えている水準の見直しも含め、今後の支援のあり方について検討を始める方針です。",
+        "価格を抑制している補助金を縮小する場合は…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-23T20:18:42.953Z"
+    },
+    "9a15e65f31a677fe": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261023de63968",
+      "summaryJa": [
+        "大型で非常に強い台風30号は沖縄県の先島諸島に最も近づいていて、台風の速度が落ちるため、24日にかけて影響は長引く見込みです。",
+        "暴風や高波、高潮、大雨による土砂災害や低い土地の浸水に厳重な警戒を続けてく…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-23T20:18:42.953Z"
+    },
+    "6acf9f22ded45c3b": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261024de64625",
+      "summaryJa": [
+        "女性皇族が結婚後も皇室に残ることや、旧皇族の男系男子の養子縁組を盛り込んだ改正皇室典範が24日、施行されました。",
+        "宮内庁は今後、具体的な検討を進めていくことになります。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-23T20:18:42.953Z"
+    },
+    "67d9de400f929ce0": {
+      "url": "https://edjefferson.com/localwiki/",
+      "summaryJa": [
+        "Local Wikipedia: Wikipedia, but only for things a ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-23T20:18:42.953Z"
     }
   }
 }

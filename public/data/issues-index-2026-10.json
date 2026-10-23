@@ -323,6 +323,13 @@
       "edition": "midday",
       "theme": "前提の露出と足場の手入れ",
       "path": "issues/2026-10-23-midday.json"
+    },
+    {
+      "issueNo": 211,
+      "date": "2026-10-24",
+      "edition": "morning",
+      "theme": "複雑さの解体と手元の簡略化",
+      "path": "issues/2026-10-24-morning.json"
     }
   ]
 }
