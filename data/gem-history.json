@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "indieblog-02b0234a",
-      "url": "https://www.pramit.gg/post/painting-trash-pandas-with-my-git-log?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
-      "date": "2026-09-23"
-    },
-    {
-      "id": "github-gems-7c19f251",
-      "url": "https://github.com/FluidSynth/fluidsynth",
-      "date": "2026-09-23"
-    },
-    {
       "id": "github-gems-ac0e96d5",
       "url": "https://github.com/dmellok/tesserae",
       "date": "2026-09-24"
@@ -304,6 +294,11 @@
     {
       "id": "show-hn-5293a25e",
       "url": "https://cannoneyed.com/isometric-nyc/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "show-hn-1db08d87",
+      "url": "https://jameshard.ing/pilot",
       "date": "2026-10-23"
     }
   ]

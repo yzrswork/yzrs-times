@@ -316,6 +316,13 @@
       "edition": "morning",
       "theme": "検証という名の刃研ぎ",
       "path": "issues/2026-10-23-morning.json"
+    },
+    {
+      "issueNo": 210,
+      "date": "2026-10-23",
+      "edition": "midday",
+      "theme": "前提の露出と足場の手入れ",
+      "path": "issues/2026-10-23-midday.json"
     }
   ]
 }
