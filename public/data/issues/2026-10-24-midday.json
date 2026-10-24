@@ -1,0 +1,537 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 212,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-10-24",
+  "dateDisplay": "Saturday, October 24, 2026",
+  "pressTimeJst": "2026-10-24 12:00",
+  "generatedAt": "2026-10-24T02:47:40.742Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "極小の制約と増分的な構築",
+    "note": "限られたフットプリントや小さなインタープリタから始まる設計は、余分な複雑さを排し創作の純度を高めます。"
+  },
+  "editorial": {
+    "comment": "3KBの制約で作られたゲームエンジン『Playload』（qiita-popular-4343f975）の潔さに心を掴まれます。大きなフレームワークに頼らず、極小の領域で何ができるかを突き詰める試みは、午後のコードに向かう手元へ強い刺激を与えてくれます。 —— YZRS Times 編集長",
+    "passedOver": "企業における個人情報流出やプラットフォームのポリシー変更などの時事ニュース全般（昼刊のため技術インプットに特化し見送り）。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "雨",
+    "icon": "rain",
+    "tempMax": 16,
+    "tempMin": 15,
+    "precipChancePct": 100
+  },
+  "market": {
+    "fearGreed": {
+      "value": 51,
+      "label": "Neutral"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 80861,
+        "priceJpy": 12684220,
+        "change24hPct": -1.13,
+        "sparkline7d": [
+          81465.06,
+          81650.32,
+          82721.16,
+          82037.92,
+          84493.04,
+          81178.34,
+          80553.26
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2379.78,
+        "priceJpy": 373305,
+        "change24hPct": -1.23,
+        "sparkline7d": [
+          2418,
+          2408.7,
+          2436.14,
+          2407.78,
+          2508.12,
+          2379.73,
+          2372.11
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.173494,
+        "priceJpy": 27.22,
+        "change24hPct": -2.06,
+        "sparkline7d": [
+          0.179964,
+          0.176858,
+          0.178025,
+          0.177568,
+          0.185745,
+          0.174954,
+          0.172212
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 278.32,
+        "priceJpy": 43658,
+        "change24hPct": -1.83,
+        "sparkline7d": [
+          278.04,
+          275.97,
+          279.3,
+          275.08,
+          287.92,
+          272.96,
+          279.52
+        ]
+      }
+    ]
+  },
+  "top": [
+    "qiita-popular-4343f975",
+    "zenn-trend-afb19a99",
+    "lobsters-af2567f5"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hatebu-it-eac32504",
+        "hn-front-d192eea7"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "zenn-trend-070e70f2",
+        "zenn-trend-528e7ba6",
+        "zenn-trend-a316cc81",
+        "qiita-popular-031dc59b"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-4c1a54a7",
+        "lobsters-424ebb04",
+        "lobsters-0a4b5161"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "qiita-popular-4343f975",
+      "title": "3KBしか使えない！奇妙で素敵なゲームエンジン「Playload」のご紹介",
+      "url": "https://qiita.com/kitao/items/7fac93e8a7ad6015b0b0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-23T09:11:47.000Z",
+      "summaryJa": [
+        "Pyxel作者です。",
+        "ちょっとした出来心で、3KBしか使えない、小さなゲームエンジンを作ってみました。",
+        "名前は「Playload（プレイロード）」。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Playload"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-afb19a99",
+      "title": "「読みにくいDB」はAI開発のコストを1.9倍にする――Claude Codeで検証したDB設計の影響",
+      "url": "https://zenn.dev/actbe_tech/articles/8b4a9991d5365d",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-23T09:00:05.000Z",
+      "summaryJa": [
+        "はじめに Twitterで「mdやskillを整える以外にも、AIが読みやすいDB構成がある」という話を見かけました。",
+        "今後AIで開発していくと、開発スピードと同じくらいAIのコストが効いてくると思っています。",
+        "そこで、読みやすいDBと読みにくいDBで、トークンとコストがどれくらい変わるのかを実験してみました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "読みにくいDB",
+        "Codeで検証したDB設計の影響"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-af2567f5",
+      "title": "An Incremental Approach to JIT Construction",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3830440.3832304",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-24T02:10:41.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Incremental",
+        "Approach",
+        "JIT",
+        "Construction"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-eac32504",
+      "title": "PHP2Shellへの対応を振り返って - コドモン Product Team Blog",
+      "url": "https://tech.codmon.com/entry/2026/10/23/173909",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-23T09:00:03.000Z",
+      "summaryJa": [
+        "はじめに コドモンでプロダクト開発部長を務めております、松浦です。",
+        "2026年10月21日、PHPの脆弱性（通称「PHP2Shell」）への対策として、コドモンのサービスを日中に一時停止しました。",
+        "施設の先生方、保護者の皆さま、自治体や販売代理店の皆さまには、十分な事前のご案内ができないまま、長い時間にわたりご不便をお."
+      ],
+      "category": "programming",
+      "keywords": [
+        "PHP2Shellへの対応を振り返って",
+        "コドモン",
+        "Product",
+        "Team"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 230,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 12.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-d192eea7",
+      "title": "Evolving Threat: http2shell is an RCE in node, Python, and more",
+      "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-23T23:30:17.000Z",
+      "summaryJa": [
+        "Evolving Threat: http2shell is an RCE in node, Pyt",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Evolving",
+        "Threat",
+        "http2shell",
+        "RCE",
+        "node"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 97,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 29.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-070e70f2",
+      "title": "Excel読込をcalamineで19秒→5秒にしたら、別名パッケージ経由のimportだけ壊れた【Python】",
+      "url": "https://zenn.dev/cutlet_of_pork/articles/calamine-excel-read-alias-package-import",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-23T06:59:26.000Z",
+      "summaryJa": [
+        "import=FAIL ModuleNotFoundError No module named 'src.",
+        "core' sys_path_changed True AI に任せた実装の受け入れ検査で、この 2 行が出た。",
+        "実装した側の報告では、テストは 204 件全部通っていた。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Python"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-528e7ba6",
+      "title": "Better AuthをMCPの認可サーバーにして、AI Agent からOAuthでアプリを操作させる",
+      "url": "https://zenn.dev/sakagi/articles/8caa896e649005",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-23T07:45:06.000Z",
+      "summaryJa": [
+        "はじめに WebアプリにMCPサーバーを追加し、Claudeから利用者本人としてデータを読み書きできるようにしました。",
+        "アプリのログインは Microsoft Entra ID の SSO を使用し、AIに渡すトークンはBetter Authの@better-auth/mcpでア",
+        "プラグインを入れるだけで、認可サーバーに要るエンドポイントはひととおり揃います。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Better",
+        "AuthをMCPの認可サーバーにして",
+        "AI",
+        "Agent"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-a316cc81",
+      "title": "AlphaEngine : 最適化編①",
+      "url": "https://zenn.dev/reu/articles/f79a89bd44b541",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-23T06:27:00.000Z",
+      "summaryJa": [
+        "はじめに 今回は、Static/Skeletalメッシュの分離による頂点処理およびAcceleration Structure更新処理の改善をどうしたかを書いて",
+        "以前の実装と問題点 Static/Skeletalを区別せず、全頂点をCompute Shaderで処理してBLASを更新していました。",
+        "理由としては、AlphaEngineのレンダリングの設計思想としてあった 「全ての処理を一元化したい」 という部分を強く見すぎた結果でした。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AlphaEngine",
+        "最適化編①"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-031dc59b",
+      "title": "【速報】VS Code 1.142 に Canvas が来た！チャットの横でエージェントと同じ画面を触れる「Interactive Canvases」を整理してみた",
+      "url": "https://qiita.com/shahin0809/items/81e6a6737b2254bdc6ed?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-23T06:50:22.000Z",
+      "summaryJa": [
+        "はじめに 常に VS Code / GitHub Copilot の動向を追っている、Microsoft Student Ambassador 兼 GitHub",
+        "この記事が.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "速報",
+        "Code",
+        "Canvas",
+        "Interactive",
+        "Canvases"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-4c1a54a7",
+      "title": "Incremental Computation Graphs",
+      "url": "https://dziban.net/posts/incremental-computation-graph/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-23T21:35:45.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Incremental",
+        "Computation",
+        "Graphs"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-424ebb04",
+      "title": "Memory is slow, Disk is fast",
+      "url": "https://www.bitflux.ai/blog/memory-is-slow-part3/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-23T20:44:07.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Memory",
+        "slow",
+        "Disk",
+        "fast"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-0a4b5161",
+      "title": "How to Make Things, and Why",
+      "url": "https://www.youtube.com/watch?v=7yeH1DqK984",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-23T15:36:59.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "tech"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-5b2f6fa6",
+      "title": "akdeb/ElatoAI — Realtime Voice AI with 100+ Models on Arduino ESP32 with Secure Websockets and Edge Functions for AI Companions, and Devices",
+      "url": "https://github.com/akdeb/ElatoAI",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-23T20:41:26Z",
+      "summaryJa": [
+        "Realtime Voice AI with 100+ Models on Arduino ESP32 with Secure Websockets and E",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "akdeb/ElatoAI",
+        "Realtime",
+        "Voice",
+        "AI",
+        "Models"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "ESP32という小型マイコン上で100以上のモデルと連携するリアルタイム音声AIを構築する挑戦的なOSSです。手元のハードウェアで高度なエージェントを動かしたいあなたの実験欲を刺激します。"
+  },
+  "unavailableSources": []
+}

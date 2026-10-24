@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 211,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 212,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-10-24",
   "dateDisplay": "Saturday, October 24, 2026",
-  "pressTimeJst": "2026-10-24 05:00",
-  "generatedAt": "2026-10-23T20:18:15.088Z",
+  "pressTimeJst": "2026-10-24 12:00",
+  "generatedAt": "2026-10-24T02:47:40.742Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,164 +14,193 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "複雑さの解体と手元の簡略化",
-    "note": "過剰に肥大化したシステムや前提を排し、単純で制御可能な解法に立ち返る動きを集めました。"
+    "title": "極小の制約と増分的な構築",
+    "note": "限られたフットプリントや小さなインタープリタから始まる設計は、余分な複雑さを排し創作の純度を高めます。"
   },
   "editorial": {
-    "comment": "年間15万ドルのLookerを静的HTML群で置き換える試み（hn-front-6a92e80d）は、肥大化したツールへの痛快なアンチテーゼです。手元の道具を自分の手で制御可能なサイズに保つ姿勢は、日々の創作環境を軽やかに整える上でも非常に見習いたい考え方です。 —— YZRS Times 編集長",
-    "passedOver": "タイムズカーや佐川急便など大規模な個人情報流出の報道が相次ぎましたが、事象の列挙に留まるため本紙では見送りました。",
+    "comment": "3KBの制約で作られたゲームエンジン『Playload』（qiita-popular-4343f975）の潔さに心を掴まれます。大きなフレームワークに頼らず、極小の領域で何ができるかを突き詰める試みは、午後のコードに向かう手元へ強い刺激を与えてくれます。 —— YZRS Times 編集長",
+    "passedOver": "企業における個人情報流出やプラットフォームのポリシー変更などの時事ニュース全般（昼刊のため技術インプットに特化し見送り）。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
     "summary": "雨",
     "icon": "rain",
-    "tempMax": 17,
+    "tempMax": 16,
     "tempMin": 15,
-    "precipChancePct": 80
+    "precipChancePct": 100
   },
   "market": {
     "fearGreed": {
-      "value": 50,
+      "value": 51,
       "label": "Neutral"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 81269,
-        "priceJpy": 12746711,
-        "change24hPct": -0.02,
+        "priceUsd": 80861,
+        "priceJpy": 12684220,
+        "change24hPct": -1.13,
         "sparkline7d": [
-          81506.05,
-          81408.35,
-          82452.58,
-          81477.5,
-          83311.21,
-          81810.36,
-          81368.36
+          81465.06,
+          81650.32,
+          82721.16,
+          82037.92,
+          84493.04,
+          81178.34,
+          80553.26
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2393.42,
-        "priceJpy": 375400,
-        "change24hPct": 0.51,
+        "priceUsd": 2379.78,
+        "priceJpy": 373305,
+        "change24hPct": -1.23,
         "sparkline7d": [
-          2410.24,
-          2400.31,
-          2421.75,
-          2388.08,
-          2454.97,
-          2410.99,
-          2399.9
+          2418,
+          2408.7,
+          2436.14,
+          2407.78,
+          2508.12,
+          2379.73,
+          2372.11
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.174703,
-        "priceJpy": 27.4,
-        "change24hPct": -0.42,
+        "priceUsd": 0.173494,
+        "priceJpy": 27.22,
+        "change24hPct": -2.06,
         "sparkline7d": [
-          0.1795,
-          0.176977,
-          0.178897,
-          0.177157,
-          0.183937,
-          0.176964,
-          0.175797
+          0.179964,
+          0.176858,
+          0.178025,
+          0.177568,
+          0.185745,
+          0.174954,
+          0.172212
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 282.48,
-        "priceJpy": 44306,
-        "change24hPct": 3.34,
+        "priceUsd": 278.32,
+        "priceJpy": 43658,
+        "change24hPct": -1.83,
         "sparkline7d": [
-          273.95,
-          275.23,
-          277.11,
-          274.51,
-          287.42,
-          274.3,
-          284.8
+          278.04,
+          275.97,
+          279.3,
+          275.08,
+          287.92,
+          272.96,
+          279.52
         ]
       }
     ]
   },
   "top": [
-    "hn-front-6a92e80d",
-    "hn-front-1643241f",
-    "hatebu-it-eac32504"
+    "qiita-popular-4343f975",
+    "zenn-trend-afb19a99",
+    "lobsters-af2567f5"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "nhk-top-e8f8ea04",
-        "nhk-top-9a15e65f",
-        "nhk-top-6acf9f22"
+        "hatebu-it-eac32504",
+        "hn-front-d192eea7"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hn-front-1b65ef13"
+        "zenn-trend-070e70f2",
+        "zenn-trend-528e7ba6",
+        "zenn-trend-a316cc81",
+        "qiita-popular-031dc59b"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-ccbd37e7"
+        "lobsters-4c1a54a7",
+        "lobsters-424ebb04",
+        "lobsters-0a4b5161"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hn-front-6a92e80d",
-      "title": "Can we replace a $150k Looker with a bucket of HTML files?",
-      "url": "https://david.lequin.dev/blog/bi-software-is-dead/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-23T17:15:03.000Z",
+      "id": "qiita-popular-4343f975",
+      "title": "3KBしか使えない！奇妙で素敵なゲームエンジン「Playload」のご紹介",
+      "url": "https://qiita.com/kitao/items/7fac93e8a7ad6015b0b0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-23T09:11:47.000Z",
       "summaryJa": [
-        "Can we replace a $150k Looker with a bucket of HTM",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
+        "Pyxel作者です。",
+        "ちょっとした出来心で、3KBしか使えない、小さなゲームエンジンを作ってみました。",
+        "名前は「Playload（プレイロード）」。"
       ],
-      "category": "tech",
+      "category": "programming",
       "keywords": [
-        "replace",
-        "$150k",
-        "Looker",
-        "bucket",
-        "HTML"
+        "Playload"
       ],
       "heat": {
-        "temperature": 81,
+        "temperature": 50,
         "signals": {
-          "hnPoints": 65,
+          "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 3,
+          "ageHours": 18,
           "crossSources": 1,
-          "velocity": 21.3
+          "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-1643241f",
-      "title": "UUIDv7 doesn't have the properties you think it does",
-      "url": "https://alexsci.com/blog/uuidv7-is-weird/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-23T16:39:45.000Z",
+      "id": "zenn-trend-afb19a99",
+      "title": "「読みにくいDB」はAI開発のコストを1.9倍にする――Claude Codeで検証したDB設計の影響",
+      "url": "https://zenn.dev/actbe_tech/articles/8b4a9991d5365d",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-23T09:00:05.000Z",
+      "summaryJa": [
+        "はじめに Twitterで「mdやskillを整える以外にも、AIが読みやすいDB構成がある」という話を見かけました。",
+        "今後AIで開発していくと、開発スピードと同じくらいAIのコストが効いてくると思っています。",
+        "そこで、読みやすいDBと読みにくいDBで、トークンとコストがどれくらい変わるのかを実験してみました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "読みにくいDB",
+        "Codeで検証したDB設計の影響"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-af2567f5",
+      "title": "An Incremental Approach to JIT Construction",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3830440.3832304",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-24T02:10:41.000Z",
       "summaryJa": [
         "Comments",
         "出典: Lobsters",
@@ -179,18 +208,19 @@
       ],
       "category": "tech",
       "keywords": [
-        "UUIDv7",
-        "properties",
-        "think"
+        "Incremental",
+        "Approach",
+        "JIT",
+        "Construction"
       ],
       "heat": {
-        "temperature": 84,
+        "temperature": 55,
         "signals": {
-          "hnPoints": 71,
+          "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 4,
-          "crossSources": 2,
-          "velocity": 19.5
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
         }
       },
       "image": null
@@ -215,41 +245,71 @@
         "Team"
       ],
       "heat": {
-        "temperature": 82,
+        "temperature": 79,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 168,
-          "ageHours": 11,
+          "hatebuCount": 230,
+          "ageHours": 18,
           "crossSources": 1,
-          "velocity": 14.9
+          "velocity": 12.9
         }
       },
       "image": null
     },
     {
-      "id": "nhk-top-e8f8ea04",
-      "title": "政府 ガソリン補助見直しも検討 水準や時期など焦点",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261024de64636",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-23T16:46:03.000Z",
+      "id": "hn-front-d192eea7",
+      "title": "Evolving Threat: http2shell is an RCE in node, Python, and more",
+      "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-23T23:30:17.000Z",
       "summaryJa": [
-        "中東情勢を受けた激変緩和措置をめぐり、政府はガソリン1リットルあたり170円程度に抑えている水準の見直しも含め、今後の支援のあり方について検討を始める方針です。",
-        "価格を抑制している補助金を縮小する場合は…",
+        "Evolving Threat: http2shell is an RCE in node, Pyt",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "政府",
-        "ガソリン補助見直しも検討",
-        "水準や時期など焦点"
+        "Evolving",
+        "Threat",
+        "http2shell",
+        "RCE",
+        "node"
       ],
       "heat": {
-        "temperature": 54,
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 97,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 29.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-070e70f2",
+      "title": "Excel読込をcalamineで19秒→5秒にしたら、別名パッケージ経由のimportだけ壊れた【Python】",
+      "url": "https://zenn.dev/cutlet_of_pork/articles/calamine-excel-read-alias-package-import",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-23T06:59:26.000Z",
+      "summaryJa": [
+        "import=FAIL ModuleNotFoundError No module named 'src.",
+        "core' sys_path_changed True AI に任せた実装の受け入れ検査で、この 2 行が出た。",
+        "実装した側の報告では、テストは 204 件全部通っていた。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Python"
+      ],
+      "heat": {
+        "temperature": 49,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 4,
+          "ageHours": 20,
           "crossSources": 1,
           "velocity": 0
         }
@@ -257,22 +317,114 @@
       "image": null
     },
     {
-      "id": "nhk-top-9a15e65f",
-      "title": "台風30号 先島諸島に最接近 暴風や大雨に厳重警戒",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261023de63968",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-23T15:07:00.000Z",
+      "id": "zenn-trend-528e7ba6",
+      "title": "Better AuthをMCPの認可サーバーにして、AI Agent からOAuthでアプリを操作させる",
+      "url": "https://zenn.dev/sakagi/articles/8caa896e649005",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-23T07:45:06.000Z",
       "summaryJa": [
-        "大型で非常に強い台風30号は沖縄県の先島諸島に最も近づいていて、台風の速度が落ちるため、24日にかけて影響は長引く見込みです。",
-        "暴風や高波、高潮、大雨による土砂災害や低い土地の浸水に厳重な警戒を続けてく…",
+        "はじめに WebアプリにMCPサーバーを追加し、Claudeから利用者本人としてデータを読み書きできるようにしました。",
+        "アプリのログインは Microsoft Entra ID の SSO を使用し、AIに渡すトークンはBetter Authの@better-auth/mcpでア",
+        "プラグインを入れるだけで、認可サーバーに要るエンドポイントはひととおり揃います。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Better",
+        "AuthをMCPの認可サーバーにして",
+        "AI",
+        "Agent"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-a316cc81",
+      "title": "AlphaEngine : 最適化編①",
+      "url": "https://zenn.dev/reu/articles/f79a89bd44b541",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-23T06:27:00.000Z",
+      "summaryJa": [
+        "はじめに 今回は、Static/Skeletalメッシュの分離による頂点処理およびAcceleration Structure更新処理の改善をどうしたかを書いて",
+        "以前の実装と問題点 Static/Skeletalを区別せず、全頂点をCompute Shaderで処理してBLASを更新していました。",
+        "理由としては、AlphaEngineのレンダリングの設計思想としてあった 「全ての処理を一元化したい」 という部分を強く見すぎた結果でした。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AlphaEngine",
+        "最適化編①"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-031dc59b",
+      "title": "【速報】VS Code 1.142 に Canvas が来た！チャットの横でエージェントと同じ画面を触れる「Interactive Canvases」を整理してみた",
+      "url": "https://qiita.com/shahin0809/items/81e6a6737b2254bdc6ed?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-23T06:50:22.000Z",
+      "summaryJa": [
+        "はじめに 常に VS Code / GitHub Copilot の動向を追っている、Microsoft Student Ambassador 兼 GitHub",
+        "この記事が.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "速報",
+        "Code",
+        "Canvas",
+        "Interactive",
+        "Canvases"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-4c1a54a7",
+      "title": "Incremental Computation Graphs",
+      "url": "https://dziban.net/posts/incremental-computation-graph/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-23T21:35:45.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "台風30号",
-        "先島諸島に最接近",
-        "暴風や大雨に厳重警戒"
+        "Incremental",
+        "Computation",
+        "Graphs"
       ],
       "heat": {
         "temperature": 53,
@@ -287,27 +439,30 @@
       "image": null
     },
     {
-      "id": "nhk-top-6acf9f22",
-      "title": "改正皇室典範 きょう施行",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261024de64625",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-23T20:00:08.000Z",
+      "id": "lobsters-424ebb04",
+      "title": "Memory is slow, Disk is fast",
+      "url": "https://www.bitflux.ai/blog/memory-is-slow-part3/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-23T20:44:07.000Z",
       "summaryJa": [
-        "女性皇族が結婚後も皇室に残ることや、旧皇族の男系男子の養子縁組を盛り込んだ改正皇室典範が24日、施行されました。",
-        "宮内庁は今後、具体的な検討を進めていくことになります。",
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "改正皇室典範"
+        "Memory",
+        "slow",
+        "Disk",
+        "fast"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 6,
           "crossSources": 1,
           "velocity": 0
         }
@@ -315,59 +470,27 @@
       "image": null
     },
     {
-      "id": "hn-front-1b65ef13",
-      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-      "url": "https://edjefferson.com/localwiki/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-22T23:01:18.000Z",
+      "id": "lobsters-0a4b5161",
+      "title": "How to Make Things, and Why",
+      "url": "https://www.youtube.com/watch?v=7yeH1DqK984",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-23T15:36:59.000Z",
       "summaryJa": [
-        "Local Wikipedia: Wikipedia, but only for things a ",
-        "出典: Hacker News",
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Local",
-        "Wikipedia",
-        "half",
-        "hour",
-        "walk"
+        "tech"
       ],
       "heat": {
-        "temperature": 78,
-        "signals": {
-          "hnPoints": 1077,
-          "hatebuCount": 0,
-          "ageHours": 21,
-          "crossSources": 1,
-          "velocity": 50.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "gtrends-jp-ccbd37e7",
-      "title": "アイフォン",
-      "url": "https://trends.google.com/trending/rss?geo=JP",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-10-23T20:00:00.000Z",
-      "summaryJa": [
-        "早期天候情報",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "trends",
-      "keywords": [
-        "アイフォン"
-      ],
-      "heat": {
-        "temperature": 55,
+        "temperature": 52,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 11,
           "crossSources": 1,
           "velocity": 0
         }
@@ -377,38 +500,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-4a992d3e",
-      "title": "pschatzmann/ESP32-A2DP — A Simple ESP32 Bluetooth A2DP Library (to implement a Music Receiver or Sender) that supports Arduino, PlatformIO and Espressif IDF",
-      "url": "https://github.com/pschatzmann/ESP32-A2DP",
+      "id": "github-gems-5b2f6fa6",
+      "title": "akdeb/ElatoAI — Realtime Voice AI with 100+ Models on Arduino ESP32 with Secure Websockets and Edge Functions for AI Companions, and Devices",
+      "url": "https://github.com/akdeb/ElatoAI",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-10-03T10:47:01Z",
+      "publishedAt": "2026-10-23T20:41:26Z",
       "summaryJa": [
-        "A Simple ESP32 Bluetooth A2DP Library (to implement a Music Receiver or Sender) ",
+        "Realtime Voice AI with 100+ Models on Arduino ESP32 with Secure Websockets and E",
         "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "pschatzmann/ESP32",
-        "A2DP",
-        "Simple",
-        "ESP32",
-        "Bluetooth"
+        "akdeb/ElatoAI",
+        "Realtime",
+        "Voice",
+        "AI",
+        "Models"
       ],
       "heat": {
-        "temperature": 40,
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 490,
+          "ageHours": 6,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "ESP32でBluetoothオーディオの送受信を手軽に組める、シンプルで扱いやすいライブラリです。余っているボードで自作スピーカーや送信機を仕立てたい創作心にまっすぐ応えてくれます。"
+    "reason": "ESP32という小型マイコン上で100以上のモデルと連携するリアルタイム音声AIを構築する挑戦的なOSSです。手元のハードウェアで高度なエージェントを動かしたいあなたの実験欲を刺激します。"
   },
   "unavailableSources": []
 }

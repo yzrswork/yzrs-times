@@ -330,6 +330,13 @@
       "edition": "morning",
       "theme": "複雑さの解体と手元の簡略化",
       "path": "issues/2026-10-24-morning.json"
+    },
+    {
+      "issueNo": 212,
+      "date": "2026-10-24",
+      "edition": "midday",
+      "theme": "極小の制約と増分的な構築",
+      "path": "issues/2026-10-24-midday.json"
     }
   ]
 }
