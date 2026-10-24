@@ -1,96 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "b48df69ce32e191a": {
-      "url": "https://zenn.dev/munenick/articles/b507a9848b6fdd",
-      "summaryJa": [
-        "はじめに 本記事は以下のミラーです。",
-        "https://www.",
-        "munenick."
-      ],
-      "cachedAt": "2026-07-26T02:47:53.908Z"
-    },
-    "f1a912ac8c953d3e": {
-      "url": "https://vimuser.org/l2tp.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-26T02:47:53.908Z"
-    },
-    "524e125276c5be7a": {
-      "url": "https://qiita.com/ta-061/items/cd8b63e9b4d9f46f758b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "ターミナルでAIエージェント、エディタ、開発サーバー、ログ監視を並べたい。",
-        "けれど、tmuxは設定やキー操作を覚えるまでが少し大変――そんな人に試してほしいのがZellijです。",
-        "Zellijは、初期状態からタブ、ペイン、マウス操作、画面下のキーヒントが使えるターミナルワーク."
-      ],
-      "cachedAt": "2026-07-26T02:47:53.908Z"
-    },
-    "8e418fc06184a07b": {
-      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-      "summaryJa": [
-        "The new rules of context engineering for Claude 5 ",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-26T02:47:53.909Z"
-    },
-    "2ab711a0f92f16cd": {
-      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
-      "summaryJa": [
-        "Open-weight AI is having its Kubernetes moment",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-26T02:47:53.909Z"
-    },
-    "93fe4e99606497ed": {
-      "url": "https://qiita.com/archeleeds/items/042d8a9ffaf888d90752?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "「ホーム画面から装備画面へ遷移して、確認ダイアログを開いて、前の画面に戻る」 どんなゲームにも必ずある、ごくありふれた処理です。",
-        "それなのに、シーン遷移とダイアログ管理の実装はプロジェクトごとに毎回ゼロから書かれ、毎回少しずつ壊れやすいものが出来上がっていきます。",
-        "なぜでしょう."
-      ],
-      "cachedAt": "2026-07-26T02:47:53.909Z"
-    },
-    "668d8e37681efb40": {
-      "url": "https://qiita.com/watany/items/11358e8e8966d5e48a09?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに 2026年5月2日に『Agentic Coding 生成AI時代のシステム開発入門』という単著を出しました。",
-        "生成AI×システム開発の情報がネットの場当たり的なものばかりで困っている人、エージェントの使い方をどこから学べばいいか分からない人、そして自分は大丈夫でも.",
-        "."
-      ],
-      "cachedAt": "2026-07-26T02:47:53.909Z"
-    },
-    "df756f9e9357080d": {
-      "url": "https://zigbyexample.neocities.org/",
-      "summaryJa": [
-        "Inspired by the infamous Go by Example Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-26T02:47:53.909Z"
-    },
-    "dcf27ffe7cfdb3a5": {
-      "url": "https://fosstodon.org/@pimalaya/116983467890532240",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-26T02:47:53.909Z"
-    },
-    "9abdb9ec7c8e4116": {
-      "url": "https://internalregister.github.io/2019/03/14/Homebrew-Console.html",
-      "summaryJa": [
-        "Show HN: A retro video game console I've been work",
-        "出典: Show HN",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-26T02:47:53.909Z"
-    },
     "3695d67ba29ada23": {
       "url": "https://zenn.dev/u1/articles/claude5-rules-collapse-and-fix",
       "summaryJa": [
@@ -15102,6 +15012,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-24T02:48:13.898Z"
+    },
+    "439e2007a5a2164b": {
+      "url": "https://ics-ikeda.github.io/261024_vuefes_2026/",
+      "summaryJa": [
+        "Vue Fes Japan 2026 池田泰延の発表資料。",
+        "HTML・CSSの新機能を使ったUI実装と、Vue.",
+        "jsとの連携を紹介。"
+      ],
+      "cachedAt": "2026-10-24T20:18:08.473Z"
+    },
+    "6a75455a893890f4": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261024de64764",
+      "summaryJa": [
+        "GMOインターネットグループは投資家向けのクラウドサービスが不正アクセスを受けた問題で、政府に対し、被害の拡大を未然に防止するための「能動的サイバー防御」を緊急",
+        "会社はイ…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-24T20:18:08.473Z"
+    },
+    "9623eb606a7f2d43": {
+      "url": "https://www.reuters.com/technology/php-foundation-under-funded-with-one-full-time-staff-member-director-says-2026-10-23/",
+      "summaryJa": [
+        "PHP Foundation 'under-funded' with one full-time s",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-24T20:18:08.473Z"
+    },
+    "e0ccc146fedd31de": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261024de64932",
+      "summaryJa": [
+        "大型の台風30号は、東シナ海を北上していて、しだいに東寄りに進路を変え西日本に接近する見込みです。",
+        "本州付近に停滞する前線に、台風から暖かく湿った空気が流れ込む影響で、東日本と西日本の広い範囲で27日に…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-24T20:18:08.473Z"
+    },
+    "51a8a617864186ad": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261024de64966",
+      "summaryJa": [
+        "北朝鮮のキム・ジョンウン（金正恩）総書記は、24日、中国東北部の都市を訪問し、中国共産党の最高指導部のメンバーと会談しました。",
+        "北朝鮮が今後のアメリカとの交渉再開の可能性も踏まえ、中国と意思疎通を図るね…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-24T20:18:08.473Z"
+    },
+    "bc7acd790176417a": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261024de64937",
+      "summaryJa": [
+        "神奈川県秦野市で今月、捕獲されて山奥に放されたツキノワグマが再び、市内で確認されたことがわかりました。",
+        "市は24日から公園に通じるルートを閉鎖し、注意を呼びかけています。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-24T20:18:08.473Z"
+    },
+    "613ccc5e4e33535c": {
+      "url": "https://speakerdeck.com/bengo4com/20261024-vuefes-2026-deterministic-frontend",
+      "summaryJa": [
+        "Vue Fes Japan 2026 における、プロダクト開発本部 クラウドサインProduct Engineering部 SWE 辻 佳佑 (t0daaay)",
+        "【Vue Fes Japan 2026】 …",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-24T20:18:08.473Z"
+    },
+    "c46275baec723202": {
+      "url": "https://twitter.com/ID_AA_Carmack/status/2113704269274636568",
+      "summaryJa": [
+        "John Carmack on the Goose Language: multiple data ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-24T20:18:08.473Z"
     }
   }
 }
