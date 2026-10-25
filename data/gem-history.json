@@ -300,6 +300,11 @@
       "id": "github-gems-af27f1c6",
       "url": "https://github.com/earlephilhower/ESP8266Audio",
       "date": "2026-10-25"
+    },
+    {
+      "id": "github-gems-551e05b2",
+      "url": "https://github.com/jameshball/osci-render",
+      "date": "2026-10-26"
     }
   ]
 }

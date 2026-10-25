@@ -1,87 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "baaca6b0543abb66": {
-      "url": "https://grego.site/blog/thinkphone",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-27T02:49:54.714Z"
-    },
-    "16797b055e4ecccf": {
-      "url": "https://nikolays.github.io/PGSimCity/",
-      "summaryJa": [
-        "PGSimCity - How PostgreSQL Works",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-27T02:49:54.714Z"
-    },
-    "34b06422a6188d27": {
-      "url": "https://gigazine.net/news/20260727-airpod-powered-frisbee-tracker/",
-      "summaryJa": [
-        "Apple純正のワイヤレスイヤホンであるAirPodsをフリスビー(フライングディスク)に空けた穴に挿し込み、フリスビーのモーショントラッカーとして利用する猛者",
-        "Airpods can track frisbee throws : r/airpods https://www.",
-        "reddit."
-      ],
-      "cachedAt": "2026-07-27T02:49:54.714Z"
-    },
-    "bbfdd3740a252442": {
-      "url": "https://www.publickey1.jp/blog/26/mcp728mcpgithub_mcp.html",
-      "summaryJa": [
-        "MCP仕様が明日アップデート、7月28日版MCPからはステートレスな接続が正式仕様に。",
-        "GitHub MCPサーバが早くも対応発表 AIツールとサービスを接続するための事実上の業界標準となっている通信プロトコルMCP（Model Context P",
-        "MCPの仕様は継続的にアップデートされ続."
-      ],
-      "cachedAt": "2026-07-27T02:49:54.714Z"
-    },
-    "61462f25a6ed0b33": {
-      "url": "https://qiita.com/miku_JK_Jb/items/ea4be1446d29d5cc62bc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はい、miku_JK_Jbです 今回は2026年の上半期の間にどのくらい自作OSの開発が進んだのかについて紹介していきます 色々あってYouTubeの動画やブロ",
-        ".",
-        "."
-      ],
-      "cachedAt": "2026-07-27T02:49:54.714Z"
-    },
-    "bb750eaf876924f5": {
-      "url": "https://qiita.com/KKTeX/items/91efd16fd2e759dcc671?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "【鉄テキに匹敵】凝った tcolorbox の作り方【前編】（LaTeX確認シリーズ#６） tcolorbox で箱を作っていると、どこかで必ずこの壁にぶつかり",
-        "「キーを組み合わせるだけでは、作りたい形にならない」 タイトルを旗みたいに尖らせたい。",
-        "四隅を 45 度に."
-      ],
-      "cachedAt": "2026-07-27T02:49:54.714Z"
-    },
-    "8ffdf3ac07436995": {
-      "url": "https://letoverlambda.com/textmode.cl/guest/chap8.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-27T02:49:54.714Z"
-    },
-    "658978f3a43ee2aa": {
-      "url": "https://kim-em.github.io/blog/2026-7-24-why-lean-is-faster-than-rust/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-27T02:49:54.714Z"
-    },
-    "ce285718d4a79b38": {
-      "url": "http://jgthms.com/web-design-in-4-minutes/",
-      "summaryJa": [
-        "Show HN: Web Design in 4 minutes",
-        "出典: Show HN",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-27T02:49:54.714Z"
-    },
     "054d6afbaf34ee36": {
       "url": "https://zenn.dev/singularity/articles/stopped-reviewing-my-code",
       "summaryJa": [
@@ -15075,6 +14994,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-25T02:48:58.246Z"
+    },
+    "b83204b7e9c12d9e": {
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "summaryJa": [
+        "A 10-year-old CNN outperforms frontier LLMs for sk",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-25T20:18:11.386Z"
+    },
+    "d5d25c7dd3a3257f": {
+      "url": "https://yurinchi2525.com/20261025emdash/",
+      "summaryJa": [
+        "「Posts」と「Pages」の違いEmDashの管理画面を開くと、記事を書く場所が「Posts」と「Pages」の2つに分かれています。",
+        "WordPressでいう「投稿」と「固定ページ」にあたるものです。",
+        "Posts（投稿）：日々書いていくブログ記事。"
+      ],
+      "cachedAt": "2026-10-25T20:18:11.386Z"
+    },
+    "2abbc00c4aef3f52": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261025de65295",
+      "summaryJa": [
+        "ウクライナのゼレンスキー大統領はロシア軍との戦闘に必要なアメリカの衛星通信サービスの利用が一部制限されていた問題について「制限前と同じ状態に復旧した」として制限",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-25T20:18:11.386Z"
+    },
+    "b55050e07c03255a": {
+      "url": "https://news.yahoo.co.jp/pickup/6600119?source=rss",
+      "summaryJa": [
+        "不正アクセス GMO代表が謝罪",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-25T20:18:11.386Z"
+    },
+    "033192fe6601f400": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261025de65227",
+      "summaryJa": [
+        "電子漫画などを提供する「ピッコマ」の運営会社は、メールの配信で利用している企業が不正アクセスを受けたことから、顧客のメールアドレスおよそ100万件が流出したと発",
+        "会社の発表によりますと…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-25T20:18:11.386Z"
+    },
+    "9d778a1a8d48394c": {
+      "url": "https://talkweb.eu/openweb/4558/",
+      "summaryJa": [
+        "I refuse to accept a censored Internet. Join Me at",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-25T20:18:11.386Z"
+    },
+    "55e4564f024d7c02": {
+      "url": "https://uiuret.hatenablog.com/entry/2026/10/25/080436",
+      "summaryJa": [
+        "僕はプログラマーなのだが、最近は1行もプログラムを自分で書いていない。",
+        "プログラムを書いてないどころか、ほとんど読んでいない。",
+        "仕事では最低限すべてのコードに目を通してレビューをやってはいるが、もはやその必要もあまりなく儀式的にやっているだけになっている。"
+      ],
+      "cachedAt": "2026-10-25T20:18:11.386Z"
+    },
+    "77c2ca05ccdeef34": {
+      "url": "https://bigwhalehunting.com/workforce/",
+      "summaryJa": [
+        "I was playing around with visualising the S&amp;P 500 by market cap and decided ",
+        "<p>What surprised me was how empty some of the biggest companies looked.",
+        "<p>Nvidia is worth $5."
+      ],
+      "cachedAt": "2026-10-25T20:18:11.386Z"
+    },
+    "f0d255037a327000": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261025de65141",
+      "summaryJa": [
+        "陸上の競歩でマラソンと同じ42.",
+        "195キロで行われる新しい種目「マラソン競歩」の大会が山形県高畠町で行われ、川野将虎選手が2時間55分14秒の世界新記録をマークし優勝しました。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-25T20:18:11.386Z"
+    },
+    "c1de06fd537f81f3": {
+      "url": "https://github.com/jameshball/osci-render",
+      "summaryJa": [
+        "〰📺🔊 Synthesiser audio plugin for making music by drawing objects on an oscillo",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-25T20:18:11.386Z"
     }
   }
 }

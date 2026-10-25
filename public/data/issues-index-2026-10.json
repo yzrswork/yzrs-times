@@ -351,6 +351,13 @@
       "edition": "midday",
       "theme": "極限クロックと自作の駆動輪",
       "path": "issues/2026-10-25-midday.json"
+    },
+    {
+      "issueNo": 215,
+      "date": "2026-10-26",
+      "edition": "morning",
+      "theme": "崩れる前提と手元の自走",
+      "path": "issues/2026-10-26-morning.json"
     }
   ]
 }

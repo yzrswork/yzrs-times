@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "issueNo": 214,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-10-25",
-  "dateDisplay": "Sunday, October 25, 2026",
-  "pressTimeJst": "2026-10-25 12:00",
-  "generatedAt": "2026-10-25T02:47:43.001Z",
+  "issueNo": 215,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-26",
+  "dateDisplay": "Monday, October 26, 2026",
+  "pressTimeJst": "2026-10-26 05:00",
+  "generatedAt": "2026-10-25T20:17:45.003Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-flash-latest",
+    "model": "gemini-3.5-flash",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "極限クロックと自作の駆動輪",
-    "note": "16MHzの制約下で街を築く執念から自作パーサの駆動まで、限られた資源を手のひらで飼い慣らす。"
+    "title": "崩れる前提と手元の自走",
+    "note": "信頼の土台となるインフラの揺らぎに対し、自前のツールや適切な技術選定で足元を整える姿勢に焦点を当てた朝刊。"
   },
   "editorial": {
-    "comment": "わずか16MHzの低性能な環境で都市シミュレーションを動かす試み（lobsters-7182d2ca）には、ハードウェアの限界と正面から対峙する作り手特有の泥臭い美学が宿っています。潤沢な計算資源に甘えずアルゴリズムを極限まで削ぎ落とす発想は、あらゆるものづくりに痛快な活力を与えてくれます。 —— YZRS Times 編集長",
-    "passedOver": "米国メディア界のAI起因とされる人員削減動向は、時事ニュース要素が強く昼休みの実践的な技術探求という趣旨から外れるため見送りました。",
+    "comment": "Web全体の信頼基盤を揺るがす認証局のインシデント（hatebu-it-290ec794）は、私たちが当たり前のように享受している暗号化通信の足場が如何に脆弱な合意の上に成り立っているかを思い出させます。暗号やコードといった抽象概念の裏にある実体に目を配る姿勢が、今まさに作手に求められています。 —— YZRS Times 編集長",
+    "passedOver": "AI投資の熱狂を伝える各種ビジネスニュース。過熱する市場の数字よりも手元の技術的触感と構造を優先するため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "強い雨",
+    "summary": "雨",
     "icon": "rain",
-    "tempMax": 26,
-    "tempMin": 16,
-    "precipChancePct": 88
+    "tempMax": 20,
+    "tempMin": 15,
+    "precipChancePct": 100
   },
   "market": {
     "fearGreed": {
@@ -39,194 +39,103 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 80884,
-        "priceJpy": 12687893,
-        "change24hPct": 0,
+        "priceUsd": 80515,
+        "priceJpy": 12632313,
+        "change24hPct": 0.02,
         "sparkline7d": [
-          81593.65,
-          82673.81,
-          81411.91,
-          83768.38,
-          81170.81,
-          81337.6,
-          80803.45
+          80814.25,
+          81875.26,
+          82675.33,
+          82152.56,
+          81592.89,
+          80142.57,
+          80581.49
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2365.31,
-        "priceJpy": 371035,
-        "change24hPct": -0.65,
+        "priceUsd": 2348.95,
+        "priceJpy": 368539,
+        "change24hPct": 0.24,
         "sparkline7d": [
-          2406.34,
-          2428.8,
-          2381.22,
-          2471.82,
-          2376.77,
-          2399.8,
-          2358.52
+          2335.57,
+          2405.92,
+          2442.69,
+          2427.2,
+          2394.56,
+          2340.72,
+          2352.45
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.171719,
-        "priceJpy": 26.94,
-        "change24hPct": -1.07,
+        "priceUsd": 0.168901,
+        "priceJpy": 26.5,
+        "change24hPct": -1.16,
         "sparkline7d": [
-          0.177428,
-          0.178838,
-          0.175487,
-          0.183676,
-          0.175346,
-          0.175132,
-          0.172004
+          0.172034,
+          0.177663,
+          0.181451,
+          0.17897,
+          0.176361,
+          0.169432,
+          0.169438
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 277.01,
-        "priceJpy": 43453,
-        "change24hPct": -0.48,
+        "priceUsd": 279.51,
+        "priceJpy": 43854,
+        "change24hPct": 1.33,
         "sparkline7d": [
-          276.27,
-          279.43,
-          272.93,
-          285.54,
-          273.47,
-          284.82,
-          277.09
+          265.27,
+          280.43,
+          284.45,
+          276.29,
+          285.17,
+          272.84,
+          281.31
         ]
       }
     ]
   },
   "top": [
-    "lobsters-7182d2ca",
-    "zenn-trend-1e4b5694",
-    "qiita-popular-9fd58d89"
+    "hatebu-it-290ec794",
+    "hn-front-2a91047f",
+    "hatebu-it-d5d25c7d"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hatebu-it-290ec794",
-        "hn-front-53d61eac",
-        "hatebu-it-1f24bd09",
-        "hn-front-0578d9ca"
+        "nhk-world-2abbc00c",
+        "yahoo-topics-b55050e0",
+        "hatebu-it-033192fe"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-trend-0b718cbb",
-        "zenn-trend-1fc2ad7b"
+        "hn-front-adc48b5f",
+        "hatebu-it-55e4564f",
+        "hn-front-df3c0d2d"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-684f2a34",
-        "lobsters-18b72d4c"
+        "nhk-top-e0ccc146",
+        "nhk-top-f0d25503"
       ]
     }
   ],
   "articles": [
-    {
-      "id": "lobsters-7182d2ca",
-      "title": "How to run a city builder on 16 MHz",
-      "url": "https://larstofus.com/2025/11/16/how-to-run-a-city-builder-on-12-5-mhz/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-24T14:18:48.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "run",
-        "city",
-        "builder",
-        "MHz"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 12,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-1e4b5694",
-      "title": "prpr: Rust 向けのシンプルで高速な Parser generator",
-      "url": "https://zenn.dev/tanakh/articles/prpr-packrat-parser",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-24T06:57:58.000Z",
-      "summaryJa": [
-        "prpr (PackRat Parser in Rust) という Rust 向けの新しい Parser generator ライブラリを作りました。",
-        "https://crates.",
-        "io/crates/prpr https://github."
-      ],
-      "category": "programming",
-      "keywords": [
-        "prpr",
-        "Rust",
-        "向けのシンプルで高速な",
-        "Parser",
-        "generator"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 20,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-9fd58d89",
-      "title": "MetaのMuseが日本で開始したのでMuse Gadgetsで遊ぼう",
-      "url": "https://qiita.com/moritalous/items/840ed6c78ba0508142ef?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-10-24T10:54:53.000Z",
-      "summaryJa": [
-        "MetaのMuseが日本で使えるようになりました！",
-        "そしてMuseにはハードウェアと連携するMuse Gadgetsというものが用意されています！",
-        "楽しそう SDKも用意されています。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Gadgetsで遊ぼう"
-      ],
-      "heat": {
-        "temperature": 50,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 16,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
     {
       "id": "hatebu-it-290ec794",
       "title": "eMudhra のインシデントは Web にとって何を意味するのか | blog.jxck.io",
@@ -246,182 +155,103 @@
         "blog.jxck.io"
       ],
       "heat": {
-        "temperature": 87,
+        "temperature": 78,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 67,
-          "ageHours": 6,
+          "hatebuCount": 414,
+          "ageHours": 24,
           "crossSources": 1,
-          "velocity": 10.4
+          "velocity": 17.3
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-53d61eac",
-      "title": "The Goose Programming Language",
-      "url": "https://aardappel.github.io/goose/",
+      "id": "hn-front-2a91047f",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "url": "https://lynchlab.net/llm-skin-cancer",
       "source": "Hacker News",
       "sourceId": "hn-front",
-      "publishedAt": "2026-10-24T19:06:55.000Z",
+      "publishedAt": "2026-10-25T17:15:38.000Z",
       "summaryJa": [
-        "<a href=\"https:&#x2F;&#x2F;twitter.",
-        "com&#x2F;ID_AA_Carmack&#x2F;status&#x2F;2113704269274636568\" rel=\"nofollow\">http",
-        "com&#x2F;ID_AA_Carmack&#x2F;status&#x2F;2113704269274636568</a>"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Goose",
-        "Language"
-      ],
-      "heat": {
-        "temperature": 81,
-        "signals": {
-          "hnPoints": 262,
-          "hatebuCount": 0,
-          "ageHours": 8,
-          "crossSources": 1,
-          "velocity": 34.1
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-1f24bd09",
-      "title": "人間が時間を使うべきところはどこか",
-      "url": "https://tellme.tokyo/post/2026/10/24/where-humans-spend-time/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-24T11:36:59.000Z",
-      "summaryJa": [
-        "この 1 年で、自分でコードを書くことはほとんどなくなった。",
-        "そのぶん増えたのはレビューで、といっても同僚の PR だけではなく、エージェントが書いた plan ファイルを読むことも多い。",
-        "同僚の PR も、その後ろにはたいていエージェントがいるので、結局はどれも AI との会話になっている。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "人間が時間を使うべきところはどこか"
-      ],
-      "heat": {
-        "temperature": 82,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 98,
-          "ageHours": 15,
-          "crossSources": 1,
-          "velocity": 6.5
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-0578d9ca",
-      "title": "We should be more ambitious with the software we build",
-      "url": "https://danluu.com/ambitious/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-24T21:47:31.000Z",
-      "summaryJa": [
-        "We should be more ambitious with the software we b",
+        "A 10-year-old CNN outperforms frontier LLMs for sk",
         "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "ambitious",
-        "software"
+        "year",
+        "old",
+        "CNN",
+        "outperforms",
+        "frontier"
       ],
       "heat": {
-        "temperature": 90,
+        "temperature": 87,
         "signals": {
-          "hnPoints": 204,
+          "hnPoints": 249,
           "hatebuCount": 0,
-          "ageHours": 5,
-          "crossSources": 2,
-          "velocity": 40.8
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-0b718cbb",
-      "title": "ros_gzの終了時クラッシュとRange変換の不具合を修正した話",
-      "url": "https://zenn.dev/yuu7/articles/ros2-gazebo-teardown-range-fixes",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-24T18:15:57.000Z",
-      "summaryJa": [
-        "ROS 2とGazeboをつなぐros_gzに送った修正PRが、2026年10月13日に2件マージされました。",
-        "一つは画像ブリッジの終了時に発生するuse-after-free、もう一つは距離センサーが何も検出していないのにmax_range + 1を返す問題です。",
-        "前者は終了処理とコールバックの同期、後者はセンサーメッセージの値の意味を修正しています。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "programming"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 9,
+          "ageHours": 3,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 82
         }
       },
       "image": null
     },
     {
-      "id": "zenn-trend-1fc2ad7b",
-      "title": "AWSにデプロイせず、FastAPI製Lambdaのarm64実行をCIで検証する",
-      "url": "https://zenn.dev/shingokumon/articles/4da5acb9697d56",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-24T16:07:43.000Z",
+      "id": "hatebu-it-d5d25c7d",
+      "title": "さよならWordPress。ゲ制工房は新時代のCMS、EmDashに移行しました。",
+      "url": "https://yurinchi2525.com/20261025emdash/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-25T09:02:39.000Z",
       "summaryJa": [
-        "はじめに FastAPIで開発している案件判定API「SUMI Job Engine」に、AWSへデプロイせずにLambda向けパッケージを検証するCIを追加し",
-        "今回確認したかったのは、「SAMでビルドできるか」の一歩先です。",
-        "ビルドした成果物をarm64のLambda公式Pythonコンテナに読み込ませ、実際のハンドラーを呼び出せるかを確かめました。"
+        "「Posts」と「Pages」の違いEmDashの管理画面を開くと、記事を書く場所が「Posts」と「Pages」の2つに分かれています。",
+        "WordPressでいう「投稿」と「固定ページ」にあたるものです。",
+        "Posts（投稿）：日々書いていくブログ記事。"
       ],
       "category": "programming",
       "keywords": [
-        "AWSにデプロイせず"
+        "ゲ制工房は新時代のCMS",
+        "EmDashに移行しました"
       ],
       "heat": {
-        "temperature": 52,
+        "temperature": 84,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 0,
+          "hatebuCount": 191,
           "ageHours": 11,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 17
         }
       },
       "image": null
     },
     {
-      "id": "lobsters-684f2a34",
-      "title": "SIMD and Go",
-      "url": "https://internals-for-interns.com/posts/go-simd/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-24T23:11:40.000Z",
+      "id": "nhk-world-2abbc00c",
+      "title": "ゼレンスキー氏“通信は復旧” マスク氏“利用規約に違反”",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261025de65295",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-10-25T10:24:00.000Z",
       "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "ウクライナのゼレンスキー大統領はロシア軍との戦闘に必要なアメリカの衛星通信サービスの利用が一部制限されていた問題について「制限前と同じ状態に復旧した」として制限",
+        "出典: NHKニュース 国際",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "SIMD",
-        "Go"
+        "ゼレンスキー氏",
+        "通信は復旧",
+        "マスク氏",
+        "利用規約に違反"
       ],
       "heat": {
-        "temperature": 54,
+        "temperature": 52,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 4,
+          "ageHours": 10,
           "crossSources": 1,
           "velocity": 0
         }
@@ -429,31 +259,210 @@
       "image": null
     },
     {
-      "id": "lobsters-18b72d4c",
-      "title": "Balloting has completed for C++26. Unfortunately it was Disapproved",
-      "url": "https://www.linkedin.com/posts/robertseacord_balloting-has-completed-for-c26-unfortunately-activity-7519795140887035918-5PWL",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-24T18:00:36.000Z",
+      "id": "yahoo-topics-b55050e0",
+      "title": "不正アクセス GMO代表が謝罪",
+      "url": "https://news.yahoo.co.jp/pickup/6600119?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-10-25T14:05:35.000Z",
       "summaryJa": [
-        "tl;dr: it looks like C++ 26 got turned down by the national bodies (afaik unprec",
-        "出典: Lobsters",
+        "不正アクセス GMO代表が謝罪",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "不正アクセス",
+        "GMO代表が謝罪"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-033192fe",
+      "title": "電子漫画「ピッコマ」 顧客のメールアドレス約100万件流出 | NHKニュース",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261025de65227",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-25T09:19:35.000Z",
+      "summaryJa": [
+        "電子漫画などを提供する「ピッコマ」の運営会社は、メールの配信で利用している企業が不正アクセスを受けたことから、顧客のメールアドレスおよそ100万件が流出したと発",
+        "会社の発表によりますと…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "電子漫画",
+        "ピッコマ",
+        "顧客のメールアドレス約100万件流出",
+        "NHKニュース"
+      ],
+      "heat": {
+        "temperature": 73,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 70,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 6.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-adc48b5f",
+      "title": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
+      "url": "https://talkweb.eu/openweb/4558/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-25T17:30:55.000Z",
+      "summaryJa": [
+        "I refuse to accept a censored Internet. Join Me at",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Balloting",
-        "completed",
-        "C++26",
-        "Unfortunately",
-        "Disapproved"
+        "refuse",
+        "accept",
+        "censored",
+        "Internet",
+        "Join"
       ],
       "heat": {
-        "temperature": 52,
+        "temperature": 89,
+        "signals": {
+          "hnPoints": 240,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 86.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-55e4564f",
+      "title": "思いつきが現実になる世界でこわい - 運河",
+      "url": "https://uiuret.hatenablog.com/entry/2026/10/25/080436",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-25T02:09:50.000Z",
+      "summaryJa": [
+        "僕はプログラマーなのだが、最近は1行もプログラムを自分で書いていない。",
+        "プログラムを書いてないどころか、ほとんど読んでいない。",
+        "仕事では最低限すべてのコードに目を通してレビューをやってはいるが、もはやその必要もあまりなく儀式的にやっているだけになっている。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "思いつきが現実になる世界でこわい",
+        "運河"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 264,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 14.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-df3c0d2d",
+      "title": "Show HN: I put employees inside S&P 500 market-cap bubbles",
+      "url": "https://bigwhalehunting.com/workforce/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-25T15:05:39.000Z",
+      "summaryJa": [
+        "I was playing around with visualising the S&amp;P 500 by market cap and decided ",
+        "<p>What surprised me was how empty some of the biggest companies looked.",
+        "<p>Nvidia is worth $5."
+      ],
+      "category": "tech",
+      "keywords": [
+        "put",
+        "employees",
+        "inside",
+        "S&P",
+        "market"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 148,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 28.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-e0ccc146",
+      "title": "台風30号は温帯低気圧に 西～東日本で大雨のおそれ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261024de64932",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-25T13:47:39.000Z",
+      "summaryJa": [
+        "大型の台風30号は、東シナ海を北上していて、しだいに東寄りに進路を変え西日本に接近する見込みです。",
+        "本州付近に停滞する前線に、台風から暖かく湿った空気が流れ込む影響で、東日本と西日本の広い範囲で27日に…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "台風30号は温帯低気圧に",
+        "西～東日本で大雨のおそれ"
+      ],
+      "heat": {
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 9,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-f0d25503",
+      "title": "マラソン競歩 川野将虎が世界新記録で優勝",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261025de65141",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-25T14:00:04.000Z",
+      "summaryJa": [
+        "陸上の競歩でマラソンと同じ42.",
+        "195キロで行われる新しい種目「マラソン競歩」の大会が山形県高畠町で行われ、川野将虎選手が2時間55分14秒の世界新記録をマークし優勝しました。",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "マラソン競歩",
+        "川野将虎が世界新記録で優勝"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
           "crossSources": 1,
           "velocity": 0
         }
@@ -463,38 +472,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-af27f1c6",
-      "title": "earlephilhower/ESP8266Audio — Arduino library to play MOD, WAV, FLAC, MIDI, RTTTL, OGG/Opus, MP3, and AAC files on I2S DACs or with a software emulated delta-sigma DAC on the ESP8266 and ESP32 and Pico",
-      "url": "https://github.com/earlephilhower/ESP8266Audio",
+      "id": "github-gems-551e05b2",
+      "title": "jameshball/osci-render — 〰📺🔊 Synthesiser audio plugin for making music by drawing objects on an oscilloscope using audio.",
+      "url": "https://github.com/jameshball/osci-render",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-10-07T22:12:26Z",
+      "publishedAt": "2026-10-25T12:16:42Z",
       "summaryJa": [
-        "Arduino library to play MOD, WAV, FLAC, MIDI, RTTTL, OGG/Opus, MP3, and AAC file",
+        "〰📺🔊 Synthesiser audio plugin for making music by drawing objects on an oscillo",
         "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "Arduino",
-        "library",
-        "play",
-        "MOD",
-        "WAV"
+        "jameshball/osci",
+        "render",
+        "Synthesiser",
+        "audio",
+        "plugin"
       ],
       "heat": {
-        "temperature": 40,
+        "temperature": 52,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 413,
+          "ageHours": 8,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "安価なマイコンESP8266やESP32で多彩な音声コーデックを高音質に再生できる、工作と音楽の結節点です。週末に手元のブレッドボードへDACを挿し、自作シンセやプレーヤーを鳴らしたいあなたに最適です。"
+    "reason": "音波を使ってオシロスコープ上に図形を描き出すという、物理的描画と音響合成が美しく交差する実験的ツールです。視覚と聴覚の境界で遊ぶ感覚は、創作のアイデアを心地よく刺激してくれるでしょう。"
   },
   "unavailableSources": []
 }
