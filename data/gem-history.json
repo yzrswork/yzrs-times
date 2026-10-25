@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-2749f28b",
-      "url": "https://github.com/Szybet/InkWatchy",
-      "date": "2026-09-25"
-    },
-    {
-      "id": "github-gems-f6ae6f69",
-      "url": "https://github.com/usetrmnl/trmnl-firmware",
-      "date": "2026-09-25"
-    },
-    {
       "id": "github-gems-9388d08f",
       "url": "https://github.com/lissy93/portainer-templates",
       "date": "2026-09-26"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-c22bfac4",
       "url": "https://github.com/nRF24/RF24",
+      "date": "2026-10-25"
+    },
+    {
+      "id": "github-gems-af27f1c6",
+      "url": "https://github.com/earlephilhower/ESP8266Audio",
       "date": "2026-10-25"
     }
   ]

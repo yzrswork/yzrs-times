@@ -344,6 +344,13 @@
       "edition": "morning",
       "theme": "標準機能の拡張と基盤の持続性",
       "path": "issues/2026-10-25-morning.json"
+    },
+    {
+      "issueNo": 214,
+      "date": "2026-10-25",
+      "edition": "midday",
+      "theme": "極限クロックと自作の駆動輪",
+      "path": "issues/2026-10-25-midday.json"
     }
   ]
 }
