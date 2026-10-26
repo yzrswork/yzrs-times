@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 215,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 216,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-10-26",
   "dateDisplay": "Monday, October 26, 2026",
-  "pressTimeJst": "2026-10-26 05:00",
-  "generatedAt": "2026-10-25T20:17:45.003Z",
+  "pressTimeJst": "2026-10-26 12:00",
+  "generatedAt": "2026-10-26T02:47:44.485Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,12 +14,12 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "崩れる前提と手元の自走",
-    "note": "信頼の土台となるインフラの揺らぎに対し、自前のツールや適切な技術選定で足元を整える姿勢に焦点を当てた朝刊。"
+    "title": "目的特化の構造と手元の実質",
+    "note": "汎用な巨大モデルやクラウドに委ね切るのではなく、解くべき課題に対して最小の計算資源や明確な役割分担をあてる手仕事の知恵が集まりました。"
   },
   "editorial": {
-    "comment": "Web全体の信頼基盤を揺るがす認証局のインシデント（hatebu-it-290ec794）は、私たちが当たり前のように享受している暗号化通信の足場が如何に脆弱な合意の上に成り立っているかを思い出させます。暗号やコードといった抽象概念の裏にある実体に目を配る姿勢が、今まさに作手に求められています。 —— YZRS Times 編集長",
-    "passedOver": "AI投資の熱狂を伝える各種ビジネスニュース。過熱する市場の数字よりも手元の技術的触感と構造を優先するため見送りました。",
+    "comment": "スマホを向けるだけでブラウザ内完結する麻雀牌の認識（qiita-popular-ec583a02）のように、解くべき課題に対して最小限かつ適切な計算モデルをあてる設計には美しさがあります。巨大なモデルやクラウドにすべてを委ねるのではなく、手元で動かす手触りを取り戻すことが創作の動機を研ぎ澄まします。 —— YZRS Times 編集長",
+    "passedOver": "Googleのプライバシーポリシー改定や能動的サイバー防御などの時事ニュースは、昼休みの技術インプットと手仕事の集中を優先するため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
@@ -32,136 +32,163 @@
   },
   "market": {
     "fearGreed": {
-      "value": 54,
+      "value": 50,
       "label": "Neutral"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 80515,
-        "priceJpy": 12632313,
-        "change24hPct": 0.02,
+        "priceUsd": 79466,
+        "priceJpy": 12450401,
+        "change24hPct": -1.81,
         "sparkline7d": [
-          80814.25,
-          81875.26,
-          82675.33,
-          82152.56,
-          81592.89,
-          80142.57,
-          80581.49
+          82385.26,
+          81663.2,
+          83355.58,
+          81674.09,
+          81624.4,
+          80456.51,
+          80068.01
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2348.95,
-        "priceJpy": 368539,
-        "change24hPct": 0.24,
+        "priceUsd": 2297.5,
+        "priceJpy": 359962,
+        "change24hPct": -2.93,
         "sparkline7d": [
-          2335.57,
-          2405.92,
-          2442.69,
-          2427.2,
-          2394.56,
-          2340.72,
-          2352.45
+          2422.59,
+          2395.11,
+          2453.78,
+          2409.51,
+          2404.55,
+          2344.94,
+          2326.78
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.168901,
-        "priceJpy": 26.5,
-        "change24hPct": -1.16,
+        "priceUsd": 0.167006,
+        "priceJpy": 26.17,
+        "change24hPct": -2.83,
         "sparkline7d": [
-          0.172034,
-          0.177663,
-          0.181451,
-          0.17897,
-          0.176361,
-          0.169432,
-          0.169438
+          0.178482,
+          0.177146,
+          0.183797,
+          0.177929,
+          0.176419,
+          0.170788,
+          0.168156
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 279.51,
-        "priceJpy": 43854,
-        "change24hPct": 1.33,
+        "priceUsd": 276.27,
+        "priceJpy": 43284,
+        "change24hPct": -0.29,
         "sparkline7d": [
-          265.27,
-          280.43,
-          284.45,
-          276.29,
-          285.17,
-          272.84,
-          281.31
+          277.07,
+          277.38,
+          286.94,
+          276.28,
+          286.72,
+          276.15,
+          279.13
         ]
       }
     ]
   },
   "top": [
-    "hatebu-it-290ec794",
-    "hn-front-2a91047f",
-    "hatebu-it-d5d25c7d"
+    "qiita-popular-ec583a02",
+    "hatebu-it-3ecf662e",
+    "hn-front-2a91047f"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "nhk-world-2abbc00c",
-        "yahoo-topics-b55050e0",
-        "hatebu-it-033192fe"
+        "hatebu-it-5b9d822c",
+        "hn-front-ec552224"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hn-front-adc48b5f",
-        "hatebu-it-55e4564f",
-        "hn-front-df3c0d2d"
+        "zenn-trend-70324683",
+        "qiita-popular-0eff883b",
+        "qiita-popular-1d8e1302"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "nhk-top-e0ccc146",
-        "nhk-top-f0d25503"
+        "lobsters-fb543140",
+        "lobsters-c6f7fce2",
+        "lobsters-9c3056cb"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hatebu-it-290ec794",
-      "title": "eMudhra のインシデントは Web にとって何を意味するのか | blog.jxck.io",
-      "url": "https://blog.jxck.io/entries/2026-10-25/emudhra.html",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-24T20:22:49.000Z",
+      "id": "qiita-popular-ec583a02",
+      "title": "「スマホを向けるだけ」で麻雀の点数を出したくて、牌認識をブラウザの中だけで動かした",
+      "url": "https://qiita.com/hiroshiasayadev-prog/items/d792cc85dde2d7cfd75c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-25T09:16:56.000Z",
       "summaryJa": [
-        "Intro PHP2Shell は、時の総理大臣も対応を発信するなどの動きがあり、一般のニュースですら大きく報じられていた。",
-        "しかし、同時期に報じられた eMudhra のインシデントの方が、比較にならないくらいヤバいと、筆者は思っている。",
-        "Web の信頼を失墜させるほどにだ。"
+        "はじめに 麻雀の点数計算は面倒です。",
+        "符と翻を数え、親か子か、ツモかロンかで表を引く。",
+        "覚えていても間違えますし、間違えるとそのあとのカラオケ代が変わります。"
       ],
       "category": "programming",
       "keywords": [
-        "eMudhra",
-        "Web",
-        "blog.jxck.io"
+        "スマホを向けるだけ",
+        "牌認識をブラウザの中だけで動かした"
       ],
       "heat": {
-        "temperature": 78,
+        "temperature": 50,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 414,
-          "ageHours": 24,
+          "hatebuCount": 0,
+          "ageHours": 18,
           "crossSources": 1,
-          "velocity": 17.3
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-3ecf662e",
+      "title": "私が5種類のコーディングエージェントを使い分ける理由",
+      "url": "https://zenn.dev/rimon/articles/45c1fd2f015af8",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-25T23:07:41.000Z",
+      "summaryJa": [
+        "私は普段から5種類のコーディングエージェントを併用しています。",
+        "人間が5つの画面を行き来するのではなく、Claude Codeを窓口にして他のエージェントを呼び出しています。",
+        "この記事では、なぜ私がそのような使い方をしているのか、それぞれどう使い分けているのかを解説します。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 42,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 11.5
         }
       },
       "image": null
@@ -187,71 +214,102 @@
         "frontier"
       ],
       "heat": {
-        "temperature": 87,
+        "temperature": 84,
         "signals": {
-          "hnPoints": 249,
+          "hnPoints": 456,
           "hatebuCount": 0,
-          "ageHours": 3,
+          "ageHours": 10,
           "crossSources": 1,
-          "velocity": 82
+          "velocity": 47.8
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-d5d25c7d",
-      "title": "さよならWordPress。ゲ制工房は新時代のCMS、EmDashに移行しました。",
-      "url": "https://yurinchi2525.com/20261025emdash/",
+      "id": "hatebu-it-5b9d822c",
+      "title": "台湾では装置がトラブらないために「乖乖（グァイグァイ）」というおやつをお供えする習慣があるがTSMCでも普通にやっているらしい",
+      "url": "https://togetter.com/li/2762768",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-25T09:02:39.000Z",
+      "publishedAt": "2026-10-25T21:15:24.000Z",
       "summaryJa": [
-        "「Posts」と「Pages」の違いEmDashの管理画面を開くと、記事を書く場所が「Posts」と「Pages」の2つに分かれています。",
-        "WordPressでいう「投稿」と「固定ページ」にあたるものです。",
-        "Posts（投稿）：日々書いていくブログ記事。"
+        "Koji Harano 原野 幸治 @khng1980 台湾の研究室では、装置がトラブらないためのおまじないとしてこのお菓子を装置の上にお供えする習慣があるそう",
+        "カルチャーショック pic.",
+        "x."
       ],
       "category": "programming",
       "keywords": [
-        "ゲ制工房は新時代のCMS",
-        "EmDashに移行しました"
+        "台湾では装置がトラブらないために",
+        "乖乖",
+        "グァイグァイ"
       ],
       "heat": {
-        "temperature": 84,
+        "temperature": 88,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 191,
-          "ageHours": 11,
+          "hatebuCount": 128,
+          "ageHours": 6,
           "crossSources": 1,
-          "velocity": 17
+          "velocity": 23.1
         }
       },
       "image": null
     },
     {
-      "id": "nhk-world-2abbc00c",
-      "title": "ゼレンスキー氏“通信は復旧” マスク氏“利用規約に違反”",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261025de65295",
-      "source": "NHKニュース 国際",
-      "sourceId": "nhk-world",
-      "publishedAt": "2026-10-25T10:24:00.000Z",
+      "id": "hn-front-ec552224",
+      "title": "iPhone Duo Teardown",
+      "url": "https://www.ifixit.com/News/119895/iphone-duo-teardown",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-26T01:23:24.000Z",
       "summaryJa": [
-        "ウクライナのゼレンスキー大統領はロシア軍との戦闘に必要なアメリカの衛星通信サービスの利用が一部制限されていた問題について「制限前と同じ状態に復旧した」として制限",
-        "出典: NHKニュース 国際",
+        "iPhone Duo Teardown",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "ゼレンスキー氏",
-        "通信は復旧",
-        "マスク氏",
-        "利用規約に違反"
+        "iPhone",
+        "Duo",
+        "Teardown"
       ],
       "heat": {
-        "temperature": 52,
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 30,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 21.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-70324683",
+      "title": "中古ラックサーバを買って、Proxmox VEを入れるまで【ホームラボ構築記 #1】",
+      "url": "https://zenn.dev/mana1001/articles/homelab-01-install",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-25T09:47:50.000Z",
+      "summaryJa": [
+        "はじめに 大学2年の夏、中古のラックサーバを買いました。",
+        "この連載では、そのサーバに Proxmox VE を入れてホームラボを作り、運用してきた記録を、できるだけ時系列で書いていきます。",
+        "第1回は、サーバが届いてから Proxmox VE のインストールが終わるまでです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "中古ラックサーバを買って",
+        "Proxmox",
+        "VEを入れるまで",
+        "ホームラボ構築記"
+      ],
+      "heat": {
+        "temperature": 50,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 10,
+          "ageHours": 17,
           "crossSources": 1,
           "velocity": 0
         }
@@ -259,28 +317,59 @@
       "image": null
     },
     {
-      "id": "yahoo-topics-b55050e0",
-      "title": "不正アクセス GMO代表が謝罪",
-      "url": "https://news.yahoo.co.jp/pickup/6600119?source=rss",
-      "source": "Yahoo!ニュース トピックス",
-      "sourceId": "yahoo-topics",
-      "publishedAt": "2026-10-25T14:05:35.000Z",
+      "id": "qiita-popular-0eff883b",
+      "title": "エージェントとワークフローが混じってしまったので責務を分け直した",
+      "url": "https://qiita.com/Tachiuo/items/3c9a6bc9e1eb2b05a346?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-25T09:29:43.000Z",
       "summaryJa": [
-        "不正アクセス GMO代表が謝罪",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
+        "AIエージェントを使って、情報収集やポッドキャスト制作などを自動化しています。",
+        "最初は、仕事に必要な能力を作り、それらを順番につなげればよいと考えていました。",
+        "ところが、安定して動かすために条件や検査を足していくうちに、エージェントとワークフローが混じってしまいました。"
       ],
-      "category": "news",
+      "category": "programming",
       "keywords": [
-        "不正アクセス",
-        "GMO代表が謝罪"
+        "programming"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-1d8e1302",
+      "title": "AI に資料を毎回貼るな！ファイル・SKILL・AGENTS.md 活用でトークン課金最大 6 割減？ 6 つの方法を試してみた",
+      "url": "https://qiita.com/songchong/items/235bed0f8c72f268477e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-25T19:00:21.000Z",
+      "summaryJa": [
+        "我々が運営する IT連携マップの技術ガイド（プロンプトキャッシュとは など）では、「前のやり取りと先頭が同じ部分はキャッシュから読まれ、料金が大きく下がる」とい",
+        "プロンプトキャッシュは、AI エージェントと AI サービス側（Anthropic .",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "AI",
+        "SKILL",
+        "AGENTS.md",
+        "活用でトークン課金最大",
+        "割減"
       ],
       "heat": {
         "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 6,
+          "ageHours": 8,
           "crossSources": 1,
           "velocity": 0
         }
@@ -288,145 +377,52 @@
       "image": null
     },
     {
-      "id": "hatebu-it-033192fe",
-      "title": "電子漫画「ピッコマ」 顧客のメールアドレス約100万件流出 | NHKニュース",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261025de65227",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-25T09:19:35.000Z",
+      "id": "lobsters-fb543140",
+      "title": "Reverse-Engineering Instruction Encodings (2001)",
+      "url": "https://www.usenix.org/legacy/events/usenix01/full_papers/hsieh/hsieh_html/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-25T21:58:42.000Z",
       "summaryJa": [
-        "電子漫画などを提供する「ピッコマ」の運営会社は、メールの配信で利用している企業が不正アクセスを受けたことから、顧客のメールアドレスおよそ100万件が流出したと発",
-        "会社の発表によりますと…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "電子漫画",
-        "ピッコマ",
-        "顧客のメールアドレス約100万件流出",
-        "NHKニュース"
-      ],
-      "heat": {
-        "temperature": 73,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 70,
-          "ageHours": 11,
-          "crossSources": 1,
-          "velocity": 6.4
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-adc48b5f",
-      "title": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
-      "url": "https://talkweb.eu/openweb/4558/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-25T17:30:55.000Z",
-      "summaryJa": [
-        "I refuse to accept a censored Internet. Join Me at",
-        "出典: Hacker News",
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "refuse",
-        "accept",
-        "censored",
-        "Internet",
-        "Join"
+        "Reverse",
+        "Engineering",
+        "Instruction",
+        "Encodings"
       ],
       "heat": {
-        "temperature": 89,
-        "signals": {
-          "hnPoints": 240,
-          "hatebuCount": 0,
-          "ageHours": 3,
-          "crossSources": 1,
-          "velocity": 86.3
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-55e4564f",
-      "title": "思いつきが現実になる世界でこわい - 運河",
-      "url": "https://uiuret.hatenablog.com/entry/2026/10/25/080436",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-25T02:09:50.000Z",
-      "summaryJa": [
-        "僕はプログラマーなのだが、最近は1行もプログラムを自分で書いていない。",
-        "プログラムを書いてないどころか、ほとんど読んでいない。",
-        "仕事では最低限すべてのコードに目を通してレビューをやってはいるが、もはやその必要もあまりなく儀式的にやっているだけになっている。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "思いつきが現実になる世界でこわい",
-        "運河"
-      ],
-      "heat": {
-        "temperature": 79,
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 264,
-          "ageHours": 18,
-          "crossSources": 1,
-          "velocity": 14.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-df3c0d2d",
-      "title": "Show HN: I put employees inside S&P 500 market-cap bubbles",
-      "url": "https://bigwhalehunting.com/workforce/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-25T15:05:39.000Z",
-      "summaryJa": [
-        "I was playing around with visualising the S&amp;P 500 by market cap and decided ",
-        "<p>What surprised me was how empty some of the biggest companies looked.",
-        "<p>Nvidia is worth $5."
-      ],
-      "category": "tech",
-      "keywords": [
-        "put",
-        "employees",
-        "inside",
-        "S&P",
-        "market"
-      ],
-      "heat": {
-        "temperature": 79,
-        "signals": {
-          "hnPoints": 148,
           "hatebuCount": 0,
           "ageHours": 5,
           "crossSources": 1,
-          "velocity": 28.5
+          "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "nhk-top-e0ccc146",
-      "title": "台風30号は温帯低気圧に 西～東日本で大雨のおそれ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261024de64932",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-25T13:47:39.000Z",
+      "id": "lobsters-c6f7fce2",
+      "title": "The Goose Programming Language",
+      "url": "https://aardappel.github.io/goose/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-25T20:10:47.000Z",
       "summaryJa": [
-        "大型の台風30号は、東シナ海を北上していて、しだいに東寄りに進路を変え西日本に接近する見込みです。",
-        "本州付近に停滞する前線に、台風から暖かく湿った空気が流れ込む影響で、東日本と西日本の広い範囲で27日に…",
-        "詳細は元記事を参照してください。"
+        "<a href=\"https:&#x2F;&#x2F;twitter.",
+        "com&#x2F;ID_AA_Carmack&#x2F;status&#x2F;2113704269274636568\" rel=\"nofollow\">http",
+        "com&#x2F;ID_AA_Carmack&#x2F;status&#x2F;2113704269274636568</a>"
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "台風30号は温帯低気圧に",
-        "西～東日本で大雨のおそれ"
+        "Goose",
+        "Language"
       ],
       "heat": {
         "temperature": 53,
@@ -441,28 +437,30 @@
       "image": null
     },
     {
-      "id": "nhk-top-f0d25503",
-      "title": "マラソン競歩 川野将虎が世界新記録で優勝",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261025de65141",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-25T14:00:04.000Z",
+      "id": "lobsters-9c3056cb",
+      "title": "Building Java ME Apps with Modern Tooling",
+      "url": "https://voxelmanip.se/2026/10/24/building-java-me-apps-with-modern-tooling/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-25T21:33:19.000Z",
       "summaryJa": [
-        "陸上の競歩でマラソンと同じ42.",
-        "195キロで行われる新しい種目「マラソン競歩」の大会が山形県高畠町で行われ、川野将虎選手が2時間55分14秒の世界新記録をマークし優勝しました。",
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "マラソン競歩",
-        "川野将虎が世界新記録で優勝"
+        "Java",
+        "Apps",
+        "Modern",
+        "Tooling"
       ],
       "heat": {
         "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 6,
+          "ageHours": 5,
           "crossSources": 1,
           "velocity": 0
         }
@@ -472,38 +470,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-551e05b2",
-      "title": "jameshball/osci-render — 〰📺🔊 Synthesiser audio plugin for making music by drawing objects on an oscilloscope using audio.",
-      "url": "https://github.com/jameshball/osci-render",
+      "id": "github-gems-1388008e",
+      "title": "cncjs/cncjs — A web-based interface for CNC milling controller running Grbl, Marlin, Smoothieware, or TinyG.",
+      "url": "https://github.com/cncjs/cncjs",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-10-25T12:16:42Z",
+      "publishedAt": "2026-09-21T16:26:31Z",
       "summaryJa": [
-        "〰📺🔊 Synthesiser audio plugin for making music by drawing objects on an oscillo",
+        "A web-based interface for CNC milling controller running Grbl, Marlin, Smoothiew",
         "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "jameshball/osci",
-        "render",
-        "Synthesiser",
-        "audio",
-        "plugin"
+        "cncjs/cncjs",
+        "web",
+        "based",
+        "interface",
+        "CNC"
       ],
       "heat": {
-        "temperature": 52,
+        "temperature": 40,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 8,
+          "ageHours": 826,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "音波を使ってオシロスコープ上に図形を描き出すという、物理的描画と音響合成が美しく交差する実験的ツールです。視覚と聴覚の境界で遊ぶ感覚は、創作のアイデアを心地よく刺激してくれるでしょう。"
+    "reason": "卓上CNCや3Dプリンタの制御ボードにブラウザから接続し、自作の物理工作をグラフィカルに操作できるWebインターフェースです。モノづくりとプログラミングが交差する手元の実験場として、あなたの工房にぴったりの道具になるでしょう。"
   },
   "unavailableSources": []
 }

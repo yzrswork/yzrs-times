@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-9388d08f",
-      "url": "https://github.com/lissy93/portainer-templates",
-      "date": "2026-09-26"
-    },
-    {
-      "id": "show-hn-fe18a579",
-      "url": "https://non.io",
-      "date": "2026-09-26"
-    },
-    {
       "id": "indieblog-9976c491",
       "url": "https://docpop.org/2026/07/bangladesh-chiptune-cover/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
       "date": "2026-09-27"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-551e05b2",
       "url": "https://github.com/jameshball/osci-render",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "github-gems-1388008e",
+      "url": "https://github.com/cncjs/cncjs",
       "date": "2026-10-26"
     }
   ]

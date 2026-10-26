@@ -358,6 +358,13 @@
       "edition": "morning",
       "theme": "崩れる前提と手元の自走",
       "path": "issues/2026-10-26-morning.json"
+    },
+    {
+      "issueNo": 216,
+      "date": "2026-10-26",
+      "edition": "midday",
+      "theme": "目的特化の構造と手元の実質",
+      "path": "issues/2026-10-26-midday.json"
     }
   ]
 }
