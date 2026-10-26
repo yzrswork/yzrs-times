@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 217,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-27",
+  "dateDisplay": "Tuesday, October 27, 2026",
+  "pressTimeJst": "2026-10-27 05:00",
+  "generatedAt": "2026-10-26T20:17:43.599Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "侵害される門と、調律された手元の装置",
+    "note": "相次ぐ大規模な情報漏洩が示す境界の脆弱性と、一方で進む個人の手元での創作・計算環境の深化を対比する。"
+  },
+  "editorial": {
+    "comment": "楽天トラベルやJoshinでの大規模流出は、サービス基盤の堅牢性が個人の創作活動の前提をいかに脅かすかを突きつけています。一方でSebastian Raschkaの推論モデル構築講座（hn-front-dd7898da）のように、巨大な外殻に頼らず自身の計算器でロジックを組む手触りは、今の時代にこそ守られるべき技術です。 —— YZRS Times 編集長",
+    "passedOver": "福田康夫元首相の訃報（nhk-top-e7940f9c）は重要ですが、本紙のターゲットである技術者や作り手の日常から距離があると判断し見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "霧雨",
+    "icon": "rain",
+    "tempMax": 21,
+    "tempMin": 16,
+    "precipChancePct": 63
+  },
+  "market": {
+    "fearGreed": {
+      "value": 50,
+      "label": "Neutral"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 79825,
+        "priceJpy": 12573889,
+        "change24hPct": -0.82,
+        "sparkline7d": [
+          81798.63,
+          82943.83,
+          82863.35,
+          81485.65,
+          80585.1,
+          80560.49,
+          79887.75
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2312.73,
+        "priceJpy": 364297,
+        "change24hPct": -1.5,
+        "sparkline7d": [
+          2392.56,
+          2446.49,
+          2442.77,
+          2398.56,
+          2367.49,
+          2340.88,
+          2311.46
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.167968,
+        "priceJpy": 26.46,
+        "change24hPct": -0.52,
+        "sparkline7d": [
+          0.175929,
+          0.182018,
+          0.180245,
+          0.17739,
+          0.169786,
+          0.168924,
+          0.16785
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 278.28,
+        "priceJpy": 43834,
+        "change24hPct": -0.34,
+        "sparkline7d": [
+          276.3,
+          283.15,
+          280.52,
+          285.52,
+          276.76,
+          274.62,
+          277.23
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-3bd97802",
+    "hn-front-dd7898da",
+    "hatebu-it-8783210c"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "hatebu-it-2b809125",
+        "nhk-top-c1acefed",
+        "nhk-top-1997b29d"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-24c0ffdd",
+        "hn-front-a047b783"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "nhk-world-65b98b22",
+        "nhk-world-4b8fdae2"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-3bd97802",
+      "title": "楽天トラベルに不正アクセス、顧客情報260万件流出か　クレカ3万件も - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUC2686T0W6A021C2000000/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-26T11:57:24.000Z",
+      "summaryJa": [
+        "楽天グループが運営する旅行予約サービス「楽天トラベル」は26日、海外ホテル予約サイトにログインした最大約260万件の顧客情報が不正アクセスを受けたと発表した。",
+        "氏名やメールアドレス、電話番号、社内用の識別番号が漏れた恐れがある。",
+        "シンガポール子会社が運営するサイトが不正アクセスを受けた。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "楽天トラベルに不正アクセス",
+        "顧客情報260万件流出か",
+        "クレカ3万件も",
+        "日本経済新聞"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 125,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 15
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-dd7898da",
+      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-26T15:11:59.000Z",
+      "summaryJa": [
+        "Sebastian Raschka's from-scratch video course on b",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Sebastian",
+        "Raschka",
+        "scratch",
+        "video",
+        "course"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 400,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 78.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-8783210c",
+      "title": "Apple、iPad miniに史上最大のアップデートを導入",
+      "url": "https://www.apple.com/jp/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-26T13:38:18.000Z",
+      "summaryJa": [
+        "一段と薄く、一段と軽量なデザインに美しいOLEDディスプレイを搭載し、飛躍的に進化したパフォーマンス、より高速なワイヤレス接続、耐水性能と防塵性能を備えています",
+        ".",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Apple",
+        "iPad",
+        "miniに史上最大のアップデートを導入"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 88,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 13.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-2b809125",
+      "title": "Ｊｏｓｈｉｎ、不正アクセスで最大約600万件の会員情報などが漏えいの可能性",
+      "url": "https://internet.watch.impress.co.jp/docs/news/2151273.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-26T09:20:26.000Z",
+      "summaryJa": [
+        "Ｊｏｓｈｉｎ、不正アクセスで最大約600万件の会員情報などが漏えいの可能性",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Ｊｏｓｈｉｎ"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 122,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 11.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-c1acefed",
+      "title": "GMO ハッカー集団の脅迫続くなか 注意呼びかけを一段と強化",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261027de66048",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-26T19:54:11.000Z",
+      "summaryJa": [
+        "GMOインターネットグループのサービスに不正アクセスがあり、身に覚えのない取り引きが確認された問題で、不正アクセスをしたとみられるハッカー集団は、27日正午まで",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "GMO",
+        "ハッカー集団の脅迫続くなか",
+        "注意呼びかけを一段と強化"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-1997b29d",
+      "title": "韓国でAI悪用し800万超の個人情報入手か グループ検挙",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261026de66026",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-26T15:53:06.000Z",
+      "summaryJa": [
+        "韓国で企業などのシステムに不正にアクセスし、800万件を超える個人情報を入手した上で、企業側を脅して金銭を要求していたとして国内のグループが検挙されました。",
+        "韓国メディアは生成AIを悪用した大規模なハッ…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "グループ検挙"
+      ],
+      "heat": {
+        "temperature": 59,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-24c0ffdd",
+      "title": "無料の画像生成AI「Moss-Image」がすごい　日本語も漫画も生成、商用利用OKの実力を試した (1/4)",
+      "url": "https://ascii.jp/elem/000/004/445/4445534/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-26T01:54:11.000Z",
+      "summaryJa": [
+        "10月16日、「Moss-Image」という新しい画像AIモデルがオープンウエイトで登場しました。",
+        "5B（50億）パラメータを持ち、写真からアニメ風まで、様々な画風での画像生成や日本語を含むテキストの描画ができる有能なモデルです。",
+        "また、商用利用・改変・再配布・製品への組み込みを認めるApache 2."
+      ],
+      "category": "programming",
+      "keywords": [
+        "無料の画像生成AI",
+        "Moss",
+        "Image",
+        "日本語も漫画も生成",
+        "商用利用OKの実力を試した"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 308,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 16.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-a047b783",
+      "title": "Microsoft Announces Type Server Protocol, Extension of Language Server Protocol",
+      "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-26T18:14:49.000Z",
+      "summaryJa": [
+        "Microsoft Announces Type Server Protocol, Extensio",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Microsoft",
+        "Announces",
+        "Type",
+        "Server",
+        "Protocol"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 103,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 50.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-65b98b22",
+      "title": "米IT大手メタ 株式発行で最大15兆円調達 AI巨額設備投資の方針",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261027de66071",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-10-26T19:26:05.000Z",
+      "summaryJa": [
+        "アメリカのIT大手「メタ」は株式の発行によって最大で950億ドル、日本円にしておよそ15兆円の資金を調達する計画を発表しました。",
+        "AI開発に必要な巨額の設備投資にあてる方針です。",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "米IT大手メタ",
+        "株式発行で最大15兆円調達",
+        "AI巨額設備投資の方針"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-4b8fdae2",
+      "title": "AI開発のアンソロピックが上場に向け書類 15兆円以上調達か",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261027de66050",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-10-26T18:13:17.000Z",
+      "summaryJa": [
+        "アメリカのAI開発企業、「アンソロピック」は26日、IPO＝新規株式公開に向けた書類を公表しました。",
+        "アメリカのメディアは上場に伴い、1000億ドル、日本円にして15兆円以上の資金調達を行う可能性があ…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "AI開発のアンソロピックが上場に向け書類",
+        "15兆円以上調達か"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-6edb6109",
+      "title": "shorepine/tulipcc — The Tulip Creative Computer and AMYboard - portable Python synthesizers",
+      "url": "https://github.com/shorepine/tulipcc",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-22T23:47:30Z",
+      "summaryJa": [
+        "The Tulip Creative Computer and AMYboard - portable Python synthesizers",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "shorepine/tulipcc",
+        "Tulip",
+        "Creative",
+        "Computer",
+        "AMYboard"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 93,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "ポータブルなPythonシンセサイザーという、手元で音を生成する道具の物理的な愛らしさに惹かれました。創作のフィードバックループを自分の机の上に閉じ込めるための、最高に誠実なプロジェクトです。"
+  },
+  "unavailableSources": []
+}

@@ -365,6 +365,13 @@
       "edition": "midday",
       "theme": "目的特化の構造と手元の実質",
       "path": "issues/2026-10-26-midday.json"
+    },
+    {
+      "issueNo": 217,
+      "date": "2026-10-27",
+      "edition": "morning",
+      "theme": "侵害される門と、調律された手元の装置",
+      "path": "issues/2026-10-27-morning.json"
     }
   ]
 }
