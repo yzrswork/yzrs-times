@@ -379,6 +379,13 @@
       "edition": "midday",
       "theme": "設計図の解像度と、手元の検証",
       "path": "issues/2026-10-27-midday.json"
+    },
+    {
+      "issueNo": 219,
+      "date": "2026-10-28",
+      "edition": "morning",
+      "theme": "伝達の構造と、磨かれる端末",
+      "path": "issues/2026-10-28-morning.json"
     }
   ]
 }

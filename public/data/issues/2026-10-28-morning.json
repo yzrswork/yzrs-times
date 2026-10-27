@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 219,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-28",
+  "dateDisplay": "Wednesday, October 28, 2026",
+  "pressTimeJst": "2026-10-28 05:00",
+  "generatedAt": "2026-10-27T20:17:45.763Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "伝達の構造と、磨かれる端末",
+    "note": "情報を外へ送り出すデザインの手順と、日々の作業を支えるCLIツールの洗練に焦点を当てた編成です。"
+  },
+  "editorial": {
+    "comment": "Ghostty 1.4.0の更新が示すように、毎日使うターミナルの手触りを研ぎ澄ます営みは思考を軽やかにします。スライド作成の設計資料と併せ、創作物を外へ正しく届ける足場を整える朝にしてください。 —— YZRS Times 編集長",
+    "passedOver": "AIの無断学習を巡る法規論争争争やSNS上のゴシップ的論題は、朝のインプットの焦点を絞るため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ",
+    "icon": "sunny",
+    "tempMax": 19,
+    "tempMin": 12,
+    "precipChancePct": 10
+  },
+  "market": {
+    "fearGreed": {
+      "value": 48,
+      "label": "Neutral"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 80672,
+        "priceJpy": 12739343,
+        "change24hPct": 1.05,
+        "sparkline7d": [
+          82499.45,
+          84082.27,
+          81796.37,
+          80653.61,
+          80196.26,
+          80267.93,
+          80533.75
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2344.7,
+        "priceJpy": 370265,
+        "change24hPct": 1.35,
+        "sparkline7d": [
+          2434.66,
+          2472.68,
+          2408,
+          2372.63,
+          2323.65,
+          2323.18,
+          2341.3
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.169884,
+        "priceJpy": 26.83,
+        "change24hPct": 1.12,
+        "sparkline7d": [
+          0.179755,
+          0.183813,
+          0.177776,
+          0.171013,
+          0.168453,
+          0.170146,
+          0.16979
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 289.66,
+        "priceJpy": 45742,
+        "change24hPct": 4.08,
+        "sparkline7d": [
+          280.55,
+          286.13,
+          283.89,
+          275.87,
+          272.09,
+          277.68,
+          289.01
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hn-front-fa801ba8",
+    "hatebu-it-9e1d6944",
+    "nhk-top-2ff53aed"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-fc407a57",
+        "nhk-world-14d6508e",
+        "nhk-top-add15c31"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hn-front-10f6e952",
+        "hn-front-f2521308"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hn-front-fa801ba8",
+      "title": "Ghostty 1.4.0",
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-27T16:51:22.000Z",
+      "summaryJa": [
+        "Ghostty 1.4.0",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Ghostty"
+      ],
+      "heat": {
+        "temperature": 89,
+        "signals": {
+          "hnPoints": 397,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 115.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-9e1d6944",
+      "title": "スライド作成入門_2024.indd",
+      "url": "https://home.riise.hiroshima-u.ac.jp/~ten/slide_20240328.pdf?utm_source=chatgpt.com",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-27T11:47:50.000Z",
+      "summaryJa": [
+        "スライド 見やすく！",
+        "わかりやすく！",
+        "情報デザインを意識した スライド作成入門 伝わる！"
+      ],
+      "category": "programming",
+      "keywords": [
+        "スライド作成入門_2024.indd"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 80,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 9.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-2ff53aed",
+      "title": "GMO“懸賞金支払い”で脅迫に対抗も不安続く",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261028de66716",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-27T20:07:26.000Z",
+      "summaryJa": [
+        "GMOインターネットグループのサービスに不正にアクセスし、金銭などを要求していたハッカー集団は27日、利用者に関するとみられる情報をネット上に公開しました。",
+        "会社は不正アクセスに関与した人物の特定に…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "GMO",
+        "懸賞金支払い"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-fc407a57",
+      "title": "きょう日独首脳会談 サプライチェーン強じん化など確認へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261028de66709",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-27T20:08:32.000Z",
+      "summaryJa": [
+        "高市総理大臣は28日、ドイツのメルツ首相と会談します。",
+        "重要鉱物や半導体など幅広い品目のサプライチェーンの強じん化に加え、サイバー分野での協力の強化を確認する方向で調整しています。",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "サプライチェーン強じん化など確認へ"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-14d6508e",
+      "title": "メタ 安全対策責任者 「アプリのダウンロードに保護者承認を」",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261027de66669",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-10-27T20:05:40.000Z",
+      "summaryJa": [
+        "インスタグラムなどを運営するアメリカのIT大手「メタ」の安全対策の責任者がNHKのインタビューに応じました。",
+        "子どものSNSの過度な利用をどのように防ぐかについて、一律に年齢で規制するのではなく、子ども…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "メタ",
+        "安全対策責任者"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-add15c31",
+      "title": "定数31議席削減案 各党が賛否表明へ 国民 総合的に判断へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261028de66708",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-27T20:09:33.000Z",
+      "summaryJa": [
+        "衆議院議員の定数削減をめぐり、自民党の実務者が示した比例代表で31議席を削減するなどとした案について与野党は28日の協議で賛否を表明する見通しです。",
+        "国民民主党内からはこれまで求めてきた選挙制度の見…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "定数31議席削減案",
+        "各党が賛否表明へ",
+        "国民",
+        "総合的に判断へ"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-10f6e952",
+      "title": "Python's experimental JIT to be removed",
+      "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-27T11:17:57.000Z",
+      "summaryJa": [
+        "Python's experimental JIT to be removed",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Python",
+        "experimental",
+        "JIT",
+        "removed"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 372,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 2,
+          "velocity": 41.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-f2521308",
+      "title": "Wikipedia's Cleanup of AI-Generated Content",
+      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-27T11:08:15.000Z",
+      "summaryJa": [
+        "Wikipedia's Cleanup of AI-Generated Content",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Wikipedia",
+        "Cleanup",
+        "AI",
+        "Generated",
+        "Content"
+      ],
+      "heat": {
+        "temperature": 77,
+        "signals": {
+          "hnPoints": 377,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 41.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "fleetwood vs arsenal",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-27T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "fleetwood",
+        "arsenal"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-ac0e96d5",
+      "title": "dmellok/tesserae — E-ink dashboard companion. Compose dashboards in a browser, render server-side, and push to e-ink panels over REST or MQTT.",
+      "url": "https://github.com/dmellok/tesserae",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-27T11:19:51Z",
+      "summaryJa": [
+        "E-ink dashboard companion.",
+        "Compose dashboards in a browser, render server-side, and push to e-ink panels ov",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "dmellok/tesserae",
+        "ink",
+        "dashboard",
+        "companion",
+        "Compose"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "Web上で構成した画面をサーバ側で描画し電子ペーパーへ配信する軽量な実装です。日常の視界に静かな情報端末を自作したい作り手の心をくすぐります。"
+  },
+  "unavailableSources": []
+}
