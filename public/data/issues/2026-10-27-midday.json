@@ -1,0 +1,478 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 218,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-10-27",
+  "dateDisplay": "Tuesday, October 27, 2026",
+  "pressTimeJst": "2026-10-27 12:00",
+  "generatedAt": "2026-10-27T02:47:44.505Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "設計図の解像度と、手元の検証",
+    "note": "AIへの委任が進む中で、人間が持ち帰るべき設計の責務と、その品質をどう担保するかに焦点を当てた。"
+  },
+  "editorial": {
+    "comment": "『AI時代のアーキテクチャ』で小林氏が説くように、実装の自動化は設計という人間の聖域を再定義します。AIに任せきりになるのではなく、出力されたコードの意図を検品する技術こそが、作り手が手元に残すべき現代の教養です。 —— YZRS Times 編集長",
+    "passedOver": "Appleの新製品発表や企業の大規模不正アクセス報告は重要ですが、今日の「技術を使いこなす」という紙面の流れに合わないため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "霧雨",
+    "icon": "rain",
+    "tempMax": 21,
+    "tempMin": 16,
+    "precipChancePct": 90
+  },
+  "market": {
+    "fearGreed": {
+      "value": 48,
+      "label": "Neutral"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 79834,
+        "priceJpy": 12588976,
+        "change24hPct": 0.4,
+        "sparkline7d": [
+          81724.07,
+          82579.41,
+          81866.34,
+          81894.45,
+          80155.27,
+          80402.65,
+          80115.25
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2313.87,
+        "priceJpy": 364873,
+        "change24hPct": 0.61,
+        "sparkline7d": [
+          2397.11,
+          2436.45,
+          2405.18,
+          2411.19,
+          2316.35,
+          2344.84,
+          2323.79
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.168391,
+        "priceJpy": 26.55,
+        "change24hPct": 0.78,
+        "sparkline7d": [
+          0.176797,
+          0.181688,
+          0.177778,
+          0.177069,
+          0.169222,
+          0.168623,
+          0.169207
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 280.91,
+        "priceJpy": 44297,
+        "change24hPct": 1.68,
+        "sparkline7d": [
+          279.25,
+          284.98,
+          275.3,
+          285.08,
+          272.59,
+          279.61,
+          281.63
+        ]
+      }
+    ]
+  },
+  "top": [
+    "zenn-trend-564dd391",
+    "qiita-popular-4f1057a1",
+    "qiita-popular-064d8648"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hatebu-it-12de1eac",
+        "hn-front-cdb79b87",
+        "hn-front-f727c805"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "zenn-trend-82a7f25d"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-919c9600",
+        "lobsters-6f07948f",
+        "lobsters-a906d48f"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "zenn-trend-564dd391",
+      "title": "AI時代のアーキテクチャ：実装を任せるために、詳細設計を自分のものにする",
+      "url": "https://zenn.dev/simplex/articles/f2b41d3367e9c7",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-26T07:02:56.000Z",
+      "summaryJa": [
+        "はじめに こんにちは。",
+        "シンプレクスで今年度よりSPM（Senior Project Manager）としてプロジェクトマネジメントに携わっている小林政友です。",
+        "また、時にアーキテクトや開発リードとして、設計と実装の両面からプロジェクトを推進しています。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "詳細設計を自分のものにする"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-4f1057a1",
+      "title": "生成AIに渡す仕様書はどう書くべきか ― AIが「読みやすい」形式と「読みにくい」形式",
+      "url": "https://qiita.com/kodai_kitahara/items/d9b8c30d50e7bc8be317?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-26T03:44:28.000Z",
+      "summaryJa": [
+        "はじめに Claude CodeやCursorなどのコーディングエージェントに実装を任せる場面が増えてきました。",
+        "エージェントの出力品質は、モデルの性能以上に入力されるコンテキストの質、つまり仕様書の書き方に左右されます。",
+        "従来の仕様書(Excel方眼紙、PowerPoin."
+      ],
+      "category": "programming",
+      "keywords": [
+        "生成AIに渡す仕様書はどう書くべきか",
+        "AIが",
+        "読みやすい",
+        "形式と",
+        "読みにくい"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 23,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-064d8648",
+      "title": "LLMを組み込むETLパイプラインの設計：品質をどう証明し、欠陥をどう特定するか",
+      "url": "https://qiita.com/AoraNow_Xun_Zheng/items/60d12958bddaabd5f1de?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-26T08:28:56.000Z",
+      "summaryJa": [
+        "1.",
+        "はじめに：読者と問題設定 パイプラインは、割とすぐに動きました。",
+        "社内文書をセグメントに分割し、LLMに渡して記事を生成し、ナレッジベースに取り込み、検索につなぐ。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "欠陥をどう特定するか"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-12de1eac",
+      "title": "大手テクノロジー企業以外ではAIへの投資による経済的利益がほとんど得られていないとの指摘",
+      "url": "https://gigazine.net/news/20261027-no-signs-ai-payoff-outside-tech/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-26T22:03:58.000Z",
+      "summaryJa": [
+        "近年では多くの企業がAIツールやAIエージェントを導入し、生産性や収益性を向上させようと取り組んでいます。",
+        "ところがアメリカの投資会社・Apolloのチーフエコノミストであるトルステン・スロク氏は、「AIはテクノロジー業界以外のアメリカ企業に何の経済的利益ももたらして",
+        "No S."
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 67,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 14.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-cdb79b87",
+      "title": "Three new discoveries in mathematics, computer science, and physics",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-26T21:35:28.000Z",
+      "summaryJa": [
+        "Related:<p><i>The Exponential Time Hypothesis Is False [pdf]</i> - <a href=\"http",
+        "ycombinator.",
+        "com&#x2F;item?"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Three",
+        "discoveries",
+        "mathematics",
+        "computer",
+        "science"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 538,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 103.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-f727c805",
+      "title": "The Exponential Time Hypothesis Is False [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-26T21:59:15.000Z",
+      "summaryJa": [
+        "See also: <i>Announcing three new discoveries in mathematics, computer science, ",
+        "ycombinator.",
+        "com&#x2F;item?"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Exponential",
+        "Time",
+        "Hypothesis",
+        "False",
+        "pdf"
+      ],
+      "heat": {
+        "temperature": 91,
+        "signals": {
+          "hnPoints": 345,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 2,
+          "velocity": 71.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-82a7f25d",
+      "title": "AI の謎な説明文を直すスキル",
+      "url": "https://zenn.dev/microsoft/articles/explain-before-shorten",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-26T04:32:54.000Z",
+      "summaryJa": [
+        "ここ最近は自作の MarkdStage で Markdown ファイルでスライドを作っているのですが、AI に箇条書きを作らせると、なんというか、もっとこう説明",
+        "？",
+        "なんでいきなり否定から入るの！"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AI"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 22,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-919c9600",
+      "title": "A faster way to compute signed 64-bit floor division by constants",
+      "url": "https://www.benjoffe.com/fast-floordiv",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-26T18:44:53.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "faster",
+        "compute",
+        "signed",
+        "bit",
+        "floor"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-6f07948f",
+      "title": "Heavenly delights of hashing numbers under EQUALP",
+      "url": "https://turtleware.eu/posts/Heavenly-delights-of-hashing-numbers-under-EQUALP.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-26T15:40:59.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Heavenly",
+        "delights",
+        "hashing",
+        "numbers",
+        "EQUALP"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-a906d48f",
+      "title": "The result of the C++26 DIS ballot",
+      "url": "https://train-it.eu/blog/cpp26-contracts-the-ballot-result/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-26T17:53:05.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "result",
+        "C++26",
+        "DIS",
+        "ballot"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-7c19f251",
+      "title": "FluidSynth/fluidsynth — Software synthesizer based on the SoundFont 2 specifications",
+      "url": "https://github.com/FluidSynth/fluidsynth",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-26T20:41:22Z",
+      "summaryJa": [
+        "Software synthesizer based on the SoundFont 2 specifications",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "Software",
+        "synthesizer",
+        "based",
+        "SoundFont",
+        "specifications"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "デジタルで音を紡ぐ作り手にとって、SoundFont 2は忘れがたい物理の模倣です。歴史あるソフト音源の精緻な構造を、改めて今の開発環境で確認してみてください。"
+  },
+  "unavailableSources": []
+}

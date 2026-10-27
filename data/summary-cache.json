@@ -1,78 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "3c2b7e598e57c3f7": {
-      "url": "https://gigazine.net/news/20260728-pgsimcity-postgresql/",
-      "summaryJa": [
-        "PostgreSQLは世界中で広く使われているデータベース管理システムですが、SQLを実行したときに内部でどのプロセスが動き、データがどのようにメモリやディスク",
-        "そんなPostgreSQLの内部構造を、シムシティのような3D都市として可視化してくれるウェブアプリ.",
-        "."
-      ],
-      "cachedAt": "2026-07-28T20:19:46.783Z"
-    },
-    "e4bb77d67f7eba44": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015189251000",
-      "summaryJa": [
-        "28日に熊本県熊本地方でマグニチュード7.",
-        "1の大地震が発生して熊本県の宇城市と氷川町で震度7の揺れを観測し、熊本県では大きな被害が出ています。",
-        "その後も震度5弱を観測する地震が3回発生するなど地震活動が…"
-      ],
-      "cachedAt": "2026-07-28T20:19:46.783Z"
-    },
-    "594636fb126e14b4": {
-      "url": "https://forbesjapan.com/articles/detail/101739",
-      "summaryJa": [
-        "米国防高等研究計画局（DARPA）は2014年、「Z-Man」と呼ばれるプログラムの成果を公開した。",
-        "それは、体重90kg超のクライマーが約23kgの荷物を背負い、ロープもハーネスも吸盤も使わず、2つの接着パドルだけを使って、ガラスでできた高さ約7.",
-        "6mの垂直壁を上るというデモンストレーションだった。"
-      ],
-      "cachedAt": "2026-07-28T20:19:46.783Z"
-    },
-    "1b846cfee5a3f5e6": {
-      "url": "https://news.yahoo.co.jp/pickup/6589711?source=rss",
-      "summaryJa": [
-        "電池や通信 スマホの災害時の対策",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-28T20:19:46.783Z"
-    },
-    "07ce21d841aaa6d0": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015189261000",
-      "summaryJa": [
-        "ウクライナのゼレンスキー大統領はアメリカのトランプ大統領と会談し、迎撃ミサイルのライセンス生産などについて協議したことを明らかにするとともに、ロシアとの和平に向",
-        "出典: NHKニュース 国際",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-28T20:19:46.783Z"
-    },
-    "92e9aa85f976a324": {
-      "url": "https://tajd.github.io/projektor/",
-      "summaryJa": [
-        "An issue tracker and wiki your AI coding agent runs as a first-class client - ag",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-28T20:19:46.783Z"
-    },
-    "4e8493f89302bfd4": {
-      "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000249/",
-      "summaryJa": [
-        "7月28日に発生した令和8年熊本地震。",
-        "政府・自治体や通信各社などが対応や情報発信に動いている一方で、SNSでは「Xが情報収集の役に立たなくなっている」との声が散見される。",
-        "障害が起きていない点を評価する声もあるが、少なくないユーザーから「Twitter（時代の利便性）を返して」という意見が上がっていた。"
-      ],
-      "cachedAt": "2026-07-28T20:19:46.783Z"
-    },
-    "d946e33afa34c4e7": {
-      "url": "https://github.com/pschatzmann/arduino-audio-tools",
-      "summaryJa": [
-        "Audio Tools (a powerful Audio library for Arduino, PlatformIO, IDF)",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-28T20:19:46.783Z"
-    },
     "801877cefe7c0751": {
       "url": "https://blog.tymscar.com/posts/opensourcedimmer/",
       "summaryJa": [
@@ -15093,6 +15021,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-26T20:20:26.453Z"
+    },
+    "564dd391e8ab8298": {
+      "url": "https://zenn.dev/simplex/articles/f2b41d3367e9c7",
+      "summaryJa": [
+        "はじめに こんにちは。",
+        "シンプレクスで今年度よりSPM（Senior Project Manager）としてプロジェクトマネジメントに携わっている小林政友です。",
+        "また、時にアーキテクトや開発リードとして、設計と実装の両面からプロジェクトを推進しています。"
+      ],
+      "cachedAt": "2026-10-27T02:49:53.382Z"
+    },
+    "4f1057a153ecb20f": {
+      "url": "https://qiita.com/kodai_kitahara/items/d9b8c30d50e7bc8be317?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに Claude CodeやCursorなどのコーディングエージェントに実装を任せる場面が増えてきました。",
+        "エージェントの出力品質は、モデルの性能以上に入力されるコンテキストの質、つまり仕様書の書き方に左右されます。",
+        "従来の仕様書(Excel方眼紙、PowerPoin."
+      ],
+      "cachedAt": "2026-10-27T02:49:53.382Z"
+    },
+    "064d864892f3506c": {
+      "url": "https://qiita.com/AoraNow_Xun_Zheng/items/60d12958bddaabd5f1de?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "1.",
+        "はじめに：読者と問題設定 パイプラインは、割とすぐに動きました。",
+        "社内文書をセグメントに分割し、LLMに渡して記事を生成し、ナレッジベースに取り込み、検索につなぐ。"
+      ],
+      "cachedAt": "2026-10-27T02:49:53.382Z"
+    },
+    "12de1eac86a29e0d": {
+      "url": "https://gigazine.net/news/20261027-no-signs-ai-payoff-outside-tech/",
+      "summaryJa": [
+        "近年では多くの企業がAIツールやAIエージェントを導入し、生産性や収益性を向上させようと取り組んでいます。",
+        "ところがアメリカの投資会社・Apolloのチーフエコノミストであるトルステン・スロク氏は、「AIはテクノロジー業界以外のアメリカ企業に何の経済的利益ももたらして",
+        "No S."
+      ],
+      "cachedAt": "2026-10-27T02:49:53.382Z"
+    },
+    "fe7d7660eaaca489": {
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "summaryJa": [
+        "Related:<p><i>The Exponential Time Hypothesis Is False [pdf]</i> - <a href=\"http",
+        "ycombinator.",
+        "com&#x2F;item?"
+      ],
+      "cachedAt": "2026-10-27T02:49:53.382Z"
+    },
+    "2f04de563efd474f": {
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "summaryJa": [
+        "See also: <i>Announcing three new discoveries in mathematics, computer science, ",
+        "ycombinator.",
+        "com&#x2F;item?"
+      ],
+      "cachedAt": "2026-10-27T02:49:53.382Z"
+    },
+    "82a7f25d5eacc018": {
+      "url": "https://zenn.dev/microsoft/articles/explain-before-shorten",
+      "summaryJa": [
+        "ここ最近は自作の MarkdStage で Markdown ファイルでスライドを作っているのですが、AI に箇条書きを作らせると、なんというか、もっとこう説明",
+        "？",
+        "なんでいきなり否定から入るの！"
+      ],
+      "cachedAt": "2026-10-27T02:49:53.382Z"
+    },
+    "919c9600e8a39d1c": {
+      "url": "https://www.benjoffe.com/fast-floordiv",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-27T02:49:53.382Z"
+    },
+    "6f07948f0f685228": {
+      "url": "https://turtleware.eu/posts/Heavenly-delights-of-hashing-numbers-under-EQUALP.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-27T02:49:53.382Z"
+    },
+    "a906d48f9b11f278": {
+      "url": "https://train-it.eu/blog/cpp26-contracts-the-ballot-result/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-27T02:49:53.382Z"
+    },
+    "9f5e8d15998d0d23": {
+      "url": "https://github.com/FluidSynth/fluidsynth",
+      "summaryJa": [
+        "Software synthesizer based on the SoundFont 2 specifications",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-27T02:49:53.382Z"
     }
   }
 }

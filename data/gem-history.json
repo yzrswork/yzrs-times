@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "indieblog-9976c491",
-      "url": "https://docpop.org/2026/07/bangladesh-chiptune-cover/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
-      "date": "2026-09-27"
-    },
-    {
-      "id": "show-hn-247159c1",
-      "url": "http://www.dogbunnypuzzle.com/",
-      "date": "2026-09-27"
-    },
-    {
       "id": "github-gems-aef1d765",
       "url": "https://github.com/jgromes/RadioLib",
       "date": "2026-09-28"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-6edb6109",
       "url": "https://github.com/shorepine/tulipcc",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "github-gems-7c19f251",
+      "url": "https://github.com/FluidSynth/fluidsynth",
       "date": "2026-10-27"
     }
   ]

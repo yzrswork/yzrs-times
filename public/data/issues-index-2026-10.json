@@ -372,6 +372,13 @@
       "edition": "morning",
       "theme": "侵害される門と、調律された手元の装置",
       "path": "issues/2026-10-27-morning.json"
+    },
+    {
+      "issueNo": 218,
+      "date": "2026-10-27",
+      "edition": "midday",
+      "theme": "設計図の解像度と、手元の検証",
+      "path": "issues/2026-10-27-midday.json"
     }
   ]
 }
