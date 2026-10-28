@@ -1,0 +1,532 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 221,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-29",
+  "dateDisplay": "Thursday, October 29, 2026",
+  "pressTimeJst": "2026-10-29 05:00",
+  "generatedAt": "2026-10-28T20:17:43.080Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "半世紀の道具と、切り出される実体",
+    "note": "長年研ぎ澄まされたエディタの系譜と、デジタル制御で現実の石や空間を刻む試みが交錯する朝。"
+  },
+  "editorial": {
+    "comment": "50周年を迎えたEmacsのニュースは、私たちが日々使う道具の寿命と拡張性の高さを改めて提示してくれます。今朝の作業では、今使っている環境に少し手を入れ、自分だけの道具として育て直してみてはいかがでしょうか。 —— YZRS Times 編集長",
+    "passedOver": "トランプ氏のAI名称禁止に関する話題など、政治的なパフォーマンス要素の強い記事は実務的示唆が乏しいため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ時々曇り",
+    "icon": "partly-cloudy",
+    "tempMax": 18,
+    "tempMin": 10,
+    "precipChancePct": 39
+  },
+  "market": {
+    "fearGreed": {
+      "value": 51,
+      "label": "Neutral"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 81239,
+        "priceJpy": 12823913,
+        "change24hPct": 0.68,
+        "sparkline7d": [
+          84448.57,
+          81328.21,
+          80878.95,
+          80599.49,
+          80283.62,
+          80266.65,
+          80949.29
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2365.06,
+        "priceJpy": 373334,
+        "change24hPct": 0.84,
+        "sparkline7d": [
+          2492.88,
+          2386.48,
+          2379.8,
+          2345.71,
+          2325.85,
+          2331.97,
+          2352.83
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.172971,
+        "priceJpy": 27.3,
+        "change24hPct": 1.71,
+        "sparkline7d": [
+          0.185732,
+          0.175289,
+          0.173092,
+          0.169815,
+          0.168921,
+          0.16814,
+          0.171392
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 287.99,
+        "priceJpy": 45461,
+        "change24hPct": -0.78,
+        "sparkline7d": [
+          287.13,
+          274.8,
+          277.48,
+          274.81,
+          278.82,
+          286.78,
+          284.35
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hn-front-1f639086",
+    "hn-front-386d97b4",
+    "hatebu-it-b0171ab6"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-a109d1c7",
+        "nhk-top-3603a604",
+        "nhk-top-b2c0f42d",
+        "nhk-world-fd630b1e"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-af5381ed",
+        "hatebu-it-169eecdf",
+        "hn-front-69a14f1b",
+        "hatebu-it-3860bf85"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hn-front-1f639086",
+      "title": "Emacs Turns 50",
+      "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-28T13:25:11.000Z",
+      "summaryJa": [
+        "Emacs Turns 50",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Emacs",
+        "Turns"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 321,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 46.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-386d97b4",
+      "title": "CNC Stone Carving",
+      "url": "https://carmelitegothic.com/cnc-stone-carving/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-28T14:38:22.000Z",
+      "summaryJa": [
+        "CNC Stone Carving",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "CNC",
+        "Stone",
+        "Carving"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 298,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 52.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-b0171ab6",
+      "title": "MarkdownからきれいなPDFを作るCLIツールpfpdfを公開しました｜株式会社Preferred Networks",
+      "url": "https://www.preferred.jp/ja/blog/tech/1798",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-28T04:31:34.000Z",
+      "summaryJa": [
+        "皆さん、こんにちは。",
+        "エンジニアのいもす (@imos) です。",
+        "文書はMarkdownで管理はしたいけど、Markdownは他の人に読んでもらうにはイマイチ使いにくい。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Networks"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 193,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 12.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-a109d1c7",
+      "title": "GMO 攻撃者に関する情報精査 被害拡大防止で緊急の対応続く",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261029de67431",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-28T16:44:00.000Z",
+      "summaryJa": [
+        "GMOインターネットグループのサービスが不正アクセスを受け、利用者に関するとみられる個人情報が公開された問題で、会社は28日、関係事業者とともにこのサイトを閲覧",
+        "会社…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "GMO",
+        "攻撃者に関する情報精査",
+        "被害拡大防止で緊急の対応続く"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-3603a604",
+      "title": "ホンダと日産 EV用バッテリーの協業へ具体的な交渉",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261029de67424",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-28T16:05:00.000Z",
+      "summaryJa": [
+        "去年、経営統合の協議を打ち切ったホンダと日産自動車が、EV用のバッテリーをめぐって協業に向けた具体的な交渉を進めていることが明らかになりました。",
+        "EVの性能のカギを握る中核分野での協業に踏み込み、国内で…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ホンダと日産",
+        "EV用バッテリーの協業へ具体的な交渉"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-b2c0f42d",
+      "title": "新幹線と活断層の交差 全国79か所 ズレで被害のおそれ 対策を",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261028de67015",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-28T13:33:00.000Z",
+      "summaryJa": [
+        "ことし7月の熊本地震では、活断層の「ズレ」が地表に現れ、真上にあった九州新幹線の線路などに被害が相次ぎました。",
+        "復旧工事を終えて、9月に運転を再開しましたが、地震から3か月たった今も、橋桁と橋桁の間には…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "新幹線と活断層の交差",
+        "全国79か所",
+        "ズレで被害のおそれ"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-fd630b1e",
+      "title": "日独首脳会談 サプライチェーン強じん化など協力強化で一致",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261028de67318",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-10-28T15:56:18.000Z",
+      "summaryJa": [
+        "高市総理大臣は28日夜、ドイツのメルツ首相と会談しました。",
+        "両国関係を「プレミアム・パートナー」と位置づけ、重要鉱物や半導体など幅広い品目のサプライチェーンの強じん化に加え、AIやサイバー分野での協力の…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "日独首脳会談"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-af5381ed",
+      "title": "AIがコードを書いてくれる時代、我々は何を確かめるのか",
+      "url": "https://speakerdeck.com/yosuke_furukawa/ai-ga-kodo-o-kai-te-kureru-jidai-wareware-ha-nani-o-tashikameru-no-ka",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-28T09:48:15.000Z",
+      "summaryJa": [
+        "Qiita Conference 2026 Autumn",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AIがコードを書いてくれる時代",
+        "我々は何を確かめるのか"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 86,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 8.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-169eecdf",
+      "title": "支給PCのスペックがショボすぎて、新人が辞めた。",
+      "url": "https://anond.hatelabo.jp/20261028103922",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-28T01:39:36.000Z",
+      "summaryJa": [
+        "メモリ価格の高騰で、PCの値段は昨年の倍になった。",
+        "一方、うちの会社のPC調達規程は平成に制定されて以来、一度も改定されていない。",
+        "PCは1台10万円未満とする。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "支給PCのスペックがショボすぎて",
+        "新人が辞めた"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 201,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 10.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-69a14f1b",
+      "title": "Apple's git still trusts the compromised eMudhra certificates",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-28T11:03:40.000Z",
+      "summaryJa": [
+        "Apple's git still trusts the compromised eMudhra c",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Apple",
+        "git",
+        "trusts",
+        "compromised",
+        "eMudhra"
+      ],
+      "heat": {
+        "temperature": 90,
+        "signals": {
+          "hnPoints": 912,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 2,
+          "velocity": 98.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-3860bf85",
+      "title": "ELF-MN1 | 空間再現ディスプレイ（Spatial Reality Display） | ソニー",
+      "url": "https://www.sony.jp/spatial-reality-display/products/ELF-MN1/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-28T01:56:24.000Z",
+      "summaryJa": [
+        "クーポン・お買い物券:coupon枚 ソニーポイント:pointポイント一度サインアウトして、再度サインインしてください",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "ELF",
+        "MN1",
+        "空間再現ディスプレイ",
+        "Spatial",
+        "Reality"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 170,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 9.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "liverpool vs chelsea",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-28T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "liverpool",
+        "chelsea"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-2afbb1c1",
+      "title": "SolderedElectronics/Inkplate-Arduino-library — Inkplate family Arduino library. The easiest way to add e-paper to your project. ",
+      "url": "https://github.com/SolderedElectronics/Inkplate-Arduino-library",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-28T14:32:39Z",
+      "summaryJa": [
+        "Inkplate family Arduino library.",
+        "The easiest way to add e-paper to your project.",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "Arduino",
+        "library",
+        "Inkplate",
+        "family",
+        "easiest"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "電子ペーパー表示器を手軽にマイコン制御できるライブラリです。低消費電力な物理デバイスを用いた自作インテリアや情報表示端末の制作に最適です。"
+  },
+  "unavailableSources": []
+}

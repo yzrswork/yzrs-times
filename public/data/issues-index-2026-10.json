@@ -393,6 +393,13 @@
       "edition": "midday",
       "theme": "過不足なき記述と、自律する軽量環境",
       "path": "issues/2026-10-28-midday.json"
+    },
+    {
+      "issueNo": 221,
+      "date": "2026-10-29",
+      "edition": "morning",
+      "theme": "半世紀の道具と、切り出される実体",
+      "path": "issues/2026-10-29-morning.json"
     }
   ]
 }
