@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 219,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 220,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-10-28",
   "dateDisplay": "Wednesday, October 28, 2026",
-  "pressTimeJst": "2026-10-28 05:00",
-  "generatedAt": "2026-10-27T20:17:45.763Z",
+  "pressTimeJst": "2026-10-28 12:00",
+  "generatedAt": "2026-10-28T02:47:43.073Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,295 +14,215 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "伝達の構造と、磨かれる端末",
-    "note": "情報を外へ送り出すデザインの手順と、日々の作業を支えるCLIツールの洗練に焦点を当てた編成です。"
+    "title": "過不足なき記述と、自律する軽量環境",
+    "note": "手元の計算資源で完結させるツールや、AIへの最小限の指示設計など、過剰さを削ぎ落として自律性を高める技術インプットを集めました。"
   },
   "editorial": {
-    "comment": "Ghostty 1.4.0の更新が示すように、毎日使うターミナルの手触りを研ぎ澄ます営みは思考を軽やかにします。スライド作成の設計資料と併せ、創作物を外へ正しく届ける足場を整える朝にしてください。 —— YZRS Times 編集長",
-    "passedOver": "AIの無断学習を巡る法規論争争争やSNS上のゴシップ的論題は、朝のインプットの焦点を絞るため見送りました。",
+    "comment": "AGENTS.mdの指示記述を51行に削ぎ落とした取り組みは、AIへの指示設計だけでなく人が書くドキュメントの本質を突いています。午後の作業では、手元のコードや指示書から不要な1行を削ることから始めてみてください。 —— YZRS Times 編集長",
+    "passedOver": "企業サービスのセキュリティ障害報告やダークパターンを巡る議論。午後の創作と手を動かすインプットに集中できるよう時事・トラブル記事は見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
     "summary": "晴れ",
     "icon": "sunny",
-    "tempMax": 19,
+    "tempMax": 18,
     "tempMin": 12,
-    "precipChancePct": 10
+    "precipChancePct": 14
   },
   "market": {
     "fearGreed": {
-      "value": 48,
+      "value": 51,
       "label": "Neutral"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 80672,
-        "priceJpy": 12739343,
-        "change24hPct": 1.05,
+        "priceUsd": 80835,
+        "priceJpy": 12765375,
+        "change24hPct": 1.24,
         "sparkline7d": [
-          82499.45,
-          84082.27,
-          81796.37,
-          80653.61,
-          80196.26,
-          80267.93,
-          80533.75
+          82941.39,
+          82755.32,
+          81577.52,
+          80615.67,
+          80718.95,
+          79751.41,
+          80639.79
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2344.7,
-        "priceJpy": 370265,
-        "change24hPct": 1.35,
+        "priceUsd": 2354.45,
+        "priceJpy": 371812,
+        "change24hPct": 1.74,
         "sparkline7d": [
-          2434.66,
-          2472.68,
-          2408,
-          2372.63,
-          2323.65,
-          2323.18,
-          2341.3
+          2454.32,
+          2436.74,
+          2396.09,
+          2365.86,
+          2353.92,
+          2303.42,
+          2343.04
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.169884,
-        "priceJpy": 26.83,
-        "change24hPct": 1.12,
+        "priceUsd": 0.171586,
+        "priceJpy": 27.1,
+        "change24hPct": 1.92,
         "sparkline7d": [
-          0.179755,
-          0.183813,
-          0.177776,
-          0.171013,
-          0.168453,
-          0.170146,
-          0.16979
+          0.183318,
+          0.179123,
+          0.176425,
+          0.170285,
+          0.170054,
+          0.167613,
+          0.170695
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 289.66,
-        "priceJpy": 45742,
-        "change24hPct": 4.08,
+        "priceUsd": 294.23,
+        "priceJpy": 46464,
+        "change24hPct": 4.56,
         "sparkline7d": [
-          280.55,
-          286.13,
-          283.89,
-          275.87,
-          272.09,
-          277.68,
-          289.01
+          286.91,
+          278.18,
+          286.06,
+          276.58,
+          277.24,
+          277.78,
+          294.44
         ]
       }
     ]
   },
   "top": [
-    "hn-front-fa801ba8",
-    "hatebu-it-9e1d6944",
-    "nhk-top-2ff53aed"
+    "hn-front-1458e6a2",
+    "qiita-popular-c5a0c542",
+    "hatebu-it-e1acf95e"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "nhk-top-fc407a57",
-        "nhk-world-14d6508e",
-        "nhk-top-add15c31"
+        "hn-front-10f6e952"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hn-front-10f6e952",
-        "hn-front-f2521308"
+        "zenn-trend-bd0a3680",
+        "zenn-trend-07d2506b",
+        "qiita-popular-91774df6"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-ccbd37e7"
+        "lobsters-fc52a61d",
+        "lobsters-4b134ced",
+        "lobsters-a4ce81ac"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hn-front-fa801ba8",
-      "title": "Ghostty 1.4.0",
-      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "id": "hn-front-1458e6a2",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "url": "https://www.brangus.io/survival-llm",
       "source": "Hacker News",
       "sourceId": "hn-front",
-      "publishedAt": "2026-10-27T16:51:22.000Z",
+      "publishedAt": "2026-10-27T19:55:06.000Z",
       "summaryJa": [
-        "Ghostty 1.4.0",
+        "Survival LLM: AI assistant and emergency library t",
         "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Ghostty"
+        "Survival",
+        "LLM",
+        "AI",
+        "assistant",
+        "emergency"
       ],
       "heat": {
-        "temperature": 89,
+        "temperature": 84,
         "signals": {
-          "hnPoints": 397,
+          "hnPoints": 206,
           "hatebuCount": 0,
-          "ageHours": 3,
+          "ageHours": 7,
           "crossSources": 1,
-          "velocity": 115.4
+          "velocity": 30
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-9e1d6944",
-      "title": "スライド作成入門_2024.indd",
-      "url": "https://home.riise.hiroshima-u.ac.jp/~ten/slide_20240328.pdf?utm_source=chatgpt.com",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-27T11:47:50.000Z",
+      "id": "qiita-popular-c5a0c542",
+      "title": "AGENTS.mdを278行から51行にした：AIエージェントに「必要な分だけ読ませる」ドキュメント設計",
+      "url": "https://qiita.com/blackcats-lab/items/069d2640e1e7cf8ce21d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-27T06:40:06.000Z",
       "summaryJa": [
-        "スライド 見やすく！",
-        "わかりやすく！",
-        "情報デザインを意識した スライド作成入門 伝わる！"
+        "はじめに 当記事は生成AIによって執筆しています。",
+        "内容の正確性には十分注意を払っていますが、誤った情報が含まれている可能性があります。",
+        "実際にご利用の際は、公式ドキュメント等もあわせてご確認ください。"
       ],
       "category": "programming",
       "keywords": [
-        "スライド作成入門_2024.indd"
+        "必要な分だけ読ませる",
+        "ドキュメント設計"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-e1acf95e",
+      "title": "軽量・軽快なウェブ地図描画ライブラリが登場。「MachGL」は本体が90KB程度、東京都全域の3D都市モデルでも100MB未満【地図と位置情報】",
+      "url": "https://internet.watch.impress.co.jp/docs/column/chizu3/2151651.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-27T22:49:05.000Z",
+      "summaryJa": [
+        "軽量・軽快なウェブ地図描画ライブラリが登場。「MachGL」は本体が90KB程度、東京都全域の3D都",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "軽量",
+        "軽快なウェブ地図描画ライブラリが登場",
+        "MachGL",
+        "地図と位置情報"
       ],
       "heat": {
         "temperature": 80,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 80,
-          "ageHours": 8,
+          "hatebuCount": 40,
+          "ageHours": 4,
           "crossSources": 1,
-          "velocity": 9.4
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-2ff53aed",
-      "title": "GMO“懸賞金支払い”で脅迫に対抗も不安続く",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261028de66716",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-27T20:07:26.000Z",
-      "summaryJa": [
-        "GMOインターネットグループのサービスに不正にアクセスし、金銭などを要求していたハッカー集団は27日、利用者に関するとみられる情報をネット上に公開しました。",
-        "会社は不正アクセスに関与した人物の特定に…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "GMO",
-        "懸賞金支払い"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-fc407a57",
-      "title": "きょう日独首脳会談 サプライチェーン強じん化など確認へ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261028de66709",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-27T20:08:32.000Z",
-      "summaryJa": [
-        "高市総理大臣は28日、ドイツのメルツ首相と会談します。",
-        "重要鉱物や半導体など幅広い品目のサプライチェーンの強じん化に加え、サイバー分野での協力の強化を確認する方向で調整しています。",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "サプライチェーン強じん化など確認へ"
-      ],
-      "heat": {
-        "temperature": 60,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 2,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-world-14d6508e",
-      "title": "メタ 安全対策責任者 「アプリのダウンロードに保護者承認を」",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261027de66669",
-      "source": "NHKニュース 国際",
-      "sourceId": "nhk-world",
-      "publishedAt": "2026-10-27T20:05:40.000Z",
-      "summaryJa": [
-        "インスタグラムなどを運営するアメリカのIT大手「メタ」の安全対策の責任者がNHKのインタビューに応じました。",
-        "子どものSNSの過度な利用をどのように防ぐかについて、一律に年齢で規制するのではなく、子ども…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "メタ",
-        "安全対策責任者"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-add15c31",
-      "title": "定数31議席削減案 各党が賛否表明へ 国民 総合的に判断へ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261028de66708",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-27T20:09:33.000Z",
-      "summaryJa": [
-        "衆議院議員の定数削減をめぐり、自民党の実務者が示した比例代表で31議席を削減するなどとした案について与野党は28日の協議で賛否を表明する見通しです。",
-        "国民民主党内からはこれまで求めてきた選挙制度の見…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "定数31議席削減案",
-        "各党が賛否表明へ",
-        "国民",
-        "総合的に判断へ"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
+          "velocity": 10.1
         }
       },
       "image": null
@@ -329,70 +249,194 @@
       "heat": {
         "temperature": 82,
         "signals": {
-          "hnPoints": 372,
+          "hnPoints": 454,
           "hatebuCount": 0,
-          "ageHours": 9,
+          "ageHours": 15,
           "crossSources": 2,
-          "velocity": 41.3
+          "velocity": 29.3
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-f2521308",
-      "title": "Wikipedia's Cleanup of AI-Generated Content",
-      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-27T11:08:15.000Z",
+      "id": "zenn-trend-bd0a3680",
+      "title": "Go で動く新世代の補完プラグイン goda-cmp.vim",
+      "url": "https://zenn.dev/shougo/articles/goda-cmp-vim-beta",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-27T10:25:24.000Z",
       "summaryJa": [
-        "Wikipedia's Cleanup of AI-Generated Content",
-        "出典: Hacker News",
+        "始めに 新世代の補完プラグインである goda-cmp.",
+        "vim の主要な機能が一通りそろいました。",
+        "私自身も ddc."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Go",
+        "goda",
+        "cmp.vim"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-07d2506b",
+      "title": "コードを読まずにマージするために必要なこと",
+      "url": "https://zenn.dev/nrs/articles/c777388530aa84",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-27T11:00:05.000Z",
+      "summaryJa": [
+        "AI に実装を任せると PR が次々にできあがります。",
+        "その差分を開発者がひとつずつ読み、指摘を返して修正を待ち、修正後のコードをまた読む。",
+        "実装が速くなった分だけレビュー待ちの PR がたまっていきます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-91774df6",
+      "title": "Xで話題の、原文を芋づる式にたどるスキル「imozuru」でドメイン知識を仕入れて、普通のAI検索と比べてみた",
+      "url": "https://qiita.com/inoyu-qiita/items/4fc91ba7f67d6763960e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-27T10:06:53.000Z",
+      "summaryJa": [
+        "はじめに Xのこちらの投稿で、Claude Codeのスキルimozuruが話題になっていました。",
+        "知らない分野のドメイン知識を、原文から芋づる式に集められるスキルです。",
+        "一方、普通にAIに「この分野を調べて」と頼むと、数十秒できれいな答えが返ってきます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Xで話題の",
+        "原文を芋づる式にたどるスキル",
+        "imozuru",
+        "普通のAI検索と比べてみた"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-fc52a61d",
+      "title": "A fast and secure tar parser for the Rust ecosystem",
+      "url": "https://astral.sh/blog/tar-codec",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-27T16:59:30.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Wikipedia",
-        "Cleanup",
-        "AI",
-        "Generated",
-        "Content"
+        "fast",
+        "secure",
+        "tar",
+        "parser",
+        "Rust"
       ],
       "heat": {
-        "temperature": 77,
+        "temperature": 52,
         "signals": {
-          "hnPoints": 377,
+          "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 9,
+          "ageHours": 10,
           "crossSources": 1,
-          "velocity": 41.2
+          "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "gtrends-jp-ccbd37e7",
-      "title": "fleetwood vs arsenal",
-      "url": "https://trends.google.com/trending/rss?geo=JP",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-10-27T20:00:00.000Z",
+      "id": "lobsters-4b134ced",
+      "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
+      "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-27T19:08:23.000Z",
       "summaryJa": [
-        "早期天候情報",
-        "出典: Google トレンド",
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "trends",
+      "category": "tech",
       "keywords": [
-        "fleetwood",
-        "arsenal"
+        "Fuzzers",
+        "AI",
+        "Comparing",
+        "Fuzzilli",
+        "BigSleep"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-a4ce81ac",
+      "title": "Finding panics with Call Graph Analyzer",
+      "url": "https://tweedegolf.nl/en/blog/242/finding-panics-with-call-graph-analyzer/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-27T16:45:26.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Finding",
+        "panics",
+        "Call",
+        "Graph",
+        "Analyzer"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 10,
           "crossSources": 1,
           "velocity": 0
         }
@@ -402,38 +446,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-ac0e96d5",
-      "title": "dmellok/tesserae — E-ink dashboard companion. Compose dashboards in a browser, render server-side, and push to e-ink panels over REST or MQTT.",
-      "url": "https://github.com/dmellok/tesserae",
+      "id": "github-gems-f6ae6f69",
+      "title": "usetrmnl/trmnl-firmware — TRMNL ePaper device firmware",
+      "url": "https://github.com/usetrmnl/trmnl-firmware",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-10-27T11:19:51Z",
+      "publishedAt": "2026-10-27T20:21:07Z",
       "summaryJa": [
-        "E-ink dashboard companion.",
-        "Compose dashboards in a browser, render server-side, and push to e-ink panels ov",
+        "TRMNL ePaper device firmware",
+        "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "dmellok/tesserae",
-        "ink",
-        "dashboard",
-        "companion",
-        "Compose"
+        "usetrmnl/trmnl",
+        "firmware",
+        "TRMNL",
+        "ePaper",
+        "device"
       ],
       "heat": {
-        "temperature": 52,
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 9,
+          "ageHours": 6,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "Web上で構成した画面をサーバ側で描画し電子ペーパーへ配信する軽量な実装です。日常の視界に静かな情報端末を自作したい作り手の心をくすぐります。"
+    "reason": "卓上に置く専用電子ペーパー端末のファームウェアであり、物理画面の描画制御を直接カスタマイズできます。手元に置くディスプレイや情報の見せ方にこだわる創作意欲を強く刺激するプロダクトです。"
   },
   "unavailableSources": []
 }

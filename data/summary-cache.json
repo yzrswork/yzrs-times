@@ -1,69 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "22e15fc9f7a60605": {
-      "url": "https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice",
-      "summaryJa": [
-        "Keychron announces first open-source firmware for ",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-29T20:20:38.558Z"
-    },
-    "7af3ac00212dbeff": {
-      "url": "https://github.com/drumih/turbo-fieldfare",
-      "summaryJa": [
-        "Hi HN,<p>I built a specialized inference engine for running 4-bit Gemma 4 26B-A4",
-        "It is called TurboFieldfare and is written in Swift and Metal.",
-        "<p>I have always adored on-device AI."
-      ],
-      "cachedAt": "2026-07-29T20:20:38.558Z"
-    },
-    "7328e4f59f8b972d": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015190151000",
-      "summaryJa": [
-        "アメリカのFRB＝連邦準備制度理事会は、金融政策を決める会合を開き、29日、政策金利を据え置くと発表しました。",
-        "据え置きは5会合連続で、イラン情勢を背景にしたインフレの動向を慎重に見極めるねらいがあるも…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-29T20:20:38.558Z"
-    },
-    "05e9ca73c2352e37": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015189881000",
-      "summaryJa": [
-        "AI向けのデータセンターの電力需要が拡大するアメリカでは、事故を起こしたスリーマイル島原子力発電所2号機の隣にあり、廃炉が決まっていた1号機について早ければ来年",
-        "出典: NHKニュース 国際",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-29T20:20:38.558Z"
-    },
-    "75ed2a4dc50a045d": {
-      "url": "https://blog.flatt.tech/entry/kindarails2shell_rails",
-      "summaryJa": [
-        "2026年7月29日、認証を必要とせず、リモートからの任意コード実行（RCE）につながり得る脆弱性「CVE-2026-66066」を修正したRuby on Ra",
-        "2.",
-        "3."
-      ],
-      "cachedAt": "2026-07-29T20:20:38.558Z"
-    },
-    "806b5ceb76a532fd": {
-      "url": "https://togetter.com/li/2725950",
-      "summaryJa": [
-        "汐里れん @Hackyou_OL 今まで都心に住んでたのに関わらず、 「子供達に自然を感じさせたくて田舎に一家総出で引っ越した」親は毒親だと思ってます。",
-        "pic.",
-        "x."
-      ],
-      "cachedAt": "2026-07-29T20:20:38.558Z"
-    },
-    "92bc363fd801e459": {
-      "url": "http://news.ycombinator.com/vote?for=3742902&dir=up&whence=%6e%65%77%65%73%74",
-      "summaryJa": [
-        "Show HN: This up votes itself",
-        "出典: Show HN",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-29T20:20:38.558Z"
-    },
     "7767f12764a9c19b": {
       "url": "https://tech-lab.sios.jp/archives/53583",
       "summaryJa": [
@@ -15093,6 +15030,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-27T20:18:03.668Z"
+    },
+    "b9b5de18e9156d54": {
+      "url": "https://www.brangus.io/survival-llm",
+      "summaryJa": [
+        "Survival LLM: AI assistant and emergency library t",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-28T02:48:27.183Z"
+    },
+    "c5a0c542a2f90dab": {
+      "url": "https://qiita.com/blackcats-lab/items/069d2640e1e7cf8ce21d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 当記事は生成AIによって執筆しています。",
+        "内容の正確性には十分注意を払っていますが、誤った情報が含まれている可能性があります。",
+        "実際にご利用の際は、公式ドキュメント等もあわせてご確認ください。"
+      ],
+      "cachedAt": "2026-10-28T02:48:27.183Z"
+    },
+    "e1acf95ebbf47754": {
+      "url": "https://internet.watch.impress.co.jp/docs/column/chizu3/2151651.html",
+      "summaryJa": [
+        "軽量・軽快なウェブ地図描画ライブラリが登場。「MachGL」は本体が90KB程度、東京都全域の3D都",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-28T02:48:27.183Z"
+    },
+    "bd0a36804ba52853": {
+      "url": "https://zenn.dev/shougo/articles/goda-cmp-vim-beta",
+      "summaryJa": [
+        "始めに 新世代の補完プラグインである goda-cmp.",
+        "vim の主要な機能が一通りそろいました。",
+        "私自身も ddc."
+      ],
+      "cachedAt": "2026-10-28T02:48:27.183Z"
+    },
+    "07d2506be5669263": {
+      "url": "https://zenn.dev/nrs/articles/c777388530aa84",
+      "summaryJa": [
+        "AI に実装を任せると PR が次々にできあがります。",
+        "その差分を開発者がひとつずつ読み、指摘を返して修正を待ち、修正後のコードをまた読む。",
+        "実装が速くなった分だけレビュー待ちの PR がたまっていきます。"
+      ],
+      "cachedAt": "2026-10-28T02:48:27.183Z"
+    },
+    "91774df6a53f15c3": {
+      "url": "https://qiita.com/inoyu-qiita/items/4fc91ba7f67d6763960e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに Xのこちらの投稿で、Claude Codeのスキルimozuruが話題になっていました。",
+        "知らない分野のドメイン知識を、原文から芋づる式に集められるスキルです。",
+        "一方、普通にAIに「この分野を調べて」と頼むと、数十秒できれいな答えが返ってきます。"
+      ],
+      "cachedAt": "2026-10-28T02:48:27.183Z"
+    },
+    "fc52a61df275cc5f": {
+      "url": "https://astral.sh/blog/tar-codec",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-28T02:48:27.183Z"
+    },
+    "4b134cedffabe49d": {
+      "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-28T02:48:27.183Z"
+    },
+    "a4ce81aceebb3f9e": {
+      "url": "https://tweedegolf.nl/en/blog/242/finding-panics-with-call-graph-analyzer/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-28T02:48:27.183Z"
+    },
+    "9a1d3010529efa46": {
+      "url": "https://github.com/usetrmnl/trmnl-firmware",
+      "summaryJa": [
+        "TRMNL ePaper device firmware",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-28T02:48:27.183Z"
     }
   }
 }

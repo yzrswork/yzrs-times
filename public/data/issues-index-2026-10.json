@@ -386,6 +386,13 @@
       "edition": "morning",
       "theme": "伝達の構造と、磨かれる端末",
       "path": "issues/2026-10-28-morning.json"
+    },
+    {
+      "issueNo": 220,
+      "date": "2026-10-28",
+      "edition": "midday",
+      "theme": "過不足なき記述と、自律する軽量環境",
+      "path": "issues/2026-10-28-midday.json"
     }
   ]
 }
