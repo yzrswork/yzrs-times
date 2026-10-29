@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 222,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-10-29",
-  "dateDisplay": "Thursday, October 29, 2026",
-  "pressTimeJst": "2026-10-29 12:00",
-  "generatedAt": "2026-10-29T02:47:43.235Z",
+  "issueNo": 223,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-30",
+  "dateDisplay": "Friday, October 30, 2026",
+  "pressTimeJst": "2026-10-30 05:00",
+  "generatedAt": "2026-10-29T20:17:33.838Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,21 +14,21 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "手元に組み込む仕掛けの型",
-    "note": "既存の枠組みに囚われず、手元の作業や構造に合わせて自作の仕組みを落とし込む試みが揃いました。"
+    "title": "メディアの境目と、解析の仕掛け",
+    "note": "朝の5分で物理からデジタルへの移行、アルゴリズムの妙技、解析をかわすハックを俯瞰する。"
   },
   "editorial": {
-    "comment": "pfpdfの登場は、ドキュメントの記述と装飾を綺麗に分離したい作り手にとって注目のニュースです。午後の作業では、テキストで書かれたメモや仕様書を自分好みのフォーマットへ整形するツール周りを少し手入れしてみてはいかがでしょうか。 —— YZRS Times 編集長",
-    "passedOver": "Appleのタッチ対応MacBook Pro発表などのハードウェア新製品ニュースは、午後の技術インプットの趣旨から外れるため見送りました。",
+    "comment": "H.264の仕組みを紐解く「H.264 Is Magic」は、膨大なデータをいかに巧妙に削ぎ落とすかという職人技の宝庫です。普段私たちが意識せずに見ている映像の裏で動く低層設計の手触りは、自作のツールやプログラミングの設計にも確かなインスピレーションを与えてくれます。 —— YZRS Times 編集長",
+    "passedOver": "中野ブロードウェイでの高級腕時計盗難などの個別犯罪ニュースは、手元のものづくりに直接関係しないため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "曇り",
-    "icon": "cloudy",
-    "tempMax": 18,
-    "tempMin": 11,
-    "precipChancePct": 12
+    "summary": "霧雨",
+    "icon": "rain",
+    "tempMax": 22,
+    "tempMin": 12,
+    "precipChancePct": 17
   },
   "market": {
     "fearGreed": {
@@ -39,390 +39,421 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 79669,
-        "priceJpy": 12566157,
-        "change24hPct": -1.42,
+        "priceUsd": 80287,
+        "priceJpy": 12660099,
+        "change24hPct": -1.16,
         "sparkline7d": [
-          83385.06,
-          81751.26,
-          80547.46,
-          80299.91,
-          80132.38,
-          80686.4,
-          81026.95
+          81387.15,
+          81102.31,
+          80784.78,
+          79966.13,
+          79845.09,
+          80505.69,
+          80792.66
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2298.49,
-        "priceJpy": 362541,
-        "change24hPct": -2.43,
+        "priceUsd": 2311.74,
+        "priceJpy": 364530,
+        "change24hPct": -2.22,
         "sparkline7d": [
-          2451.28,
-          2401.36,
-          2364.91,
-          2332.01,
-          2318.31,
-          2341.49,
-          2352.23
+          2384.21,
+          2384.75,
+          2360.52,
+          2316.41,
+          2312.81,
+          2330.26,
+          2329.84
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.167184,
-        "priceJpy": 26.37,
-        "change24hPct": -2.65,
+        "priceUsd": 0.167729,
+        "priceJpy": 26.45,
+        "change24hPct": -2.96,
         "sparkline7d": [
-          0.181905,
-          0.178154,
-          0.168988,
-          0.168683,
-          0.168706,
-          0.16976,
-          0.171472
+          0.176153,
+          0.173212,
+          0.171545,
+          0.167974,
+          0.16785,
+          0.169524,
+          0.169584
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 281.08,
-        "priceJpy": 44334,
-        "change24hPct": -4.47,
+        "priceUsd": 282.04,
+        "priceJpy": 44473,
+        "change24hPct": -2.12,
         "sparkline7d": [
-          283.43,
-          285.64,
-          274.35,
-          272.32,
-          279.33,
-          289,
-          287.43
+          274.03,
+          282.01,
+          276.93,
+          275.58,
+          280.32,
+          293.4,
+          288.12
         ]
       }
     ]
   },
   "top": [
-    "hatebu-it-b0171ab6",
-    "qiita-popular-cb842696",
-    "hn-front-7262b589"
+    "hn-front-73b5c43e",
+    "hatebu-it-acb663a5",
+    "hatebu-it-cc45a290"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hn-front-69a14f1b"
+        "nhk-top-9a4dcd71",
+        "nhk-top-1e96ab1f",
+        "nhk-top-b50afb58"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-trend-7125f7e9",
-        "qiita-popular-7190bcf1",
-        "zenn-trend-04994437"
+        "hatebu-it-6a2a68fa",
+        "hatebu-it-e92bdaaf",
+        "hn-front-1ba6f06b",
+        "hatebu-it-57e5a83a"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-c7d58964",
-        "lobsters-4d44a4a2",
-        "lobsters-56edb212"
+        "gtrends-jp-ccbd37e7"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hatebu-it-b0171ab6",
-      "title": "MarkdownからきれいなPDFを作るCLIツールpfpdfを公開しました｜株式会社Preferred Networks",
-      "url": "https://www.preferred.jp/ja/blog/tech/1798",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-28T04:31:34.000Z",
-      "summaryJa": [
-        "皆さん、こんにちは。",
-        "エンジニアのいもす (@imos) です。",
-        "文書はMarkdownで管理はしたいけど、Markdownは他の人に読んでもらうにはイマイチ使いにくい。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Networks"
-      ],
-      "heat": {
-        "temperature": 81,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 391,
-          "ageHours": 22,
-          "crossSources": 1,
-          "velocity": 17.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-cb842696",
-      "title": "デスクトップに置いて、AIからも操作できるタスク管理アプリを作った",
-      "url": "https://qiita.com/GpAraki/items/6aa0ff0c287486e82960?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-10-28T07:10:22.000Z",
-      "summaryJa": [
-        "デスクトップに置いて、AIからも操作できるタスク管理アプリを作った 個人開発で、macOS向けのタスク管理アプリ「私の引き出し（Hikidashi）」を作りまし",
-        "デスクトップウィジェットでタスクを確認できるほか、Claude CodeやCodexなどのAIからMCP経.",
-        "."
-      ],
-      "category": "programming",
-      "keywords": [
-        "デスクトップに置いて"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 20,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-7262b589",
-      "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
-      "url": "https://divagr.com/blog/qwenputer",
+      "id": "hn-front-73b5c43e",
+      "title": "H.264 Is Magic (2016)",
+      "url": "https://sidbala.com/h-264-is-magic/",
       "source": "Hacker News",
       "sourceId": "hn-front",
-      "publishedAt": "2026-10-29T00:25:45.000Z",
+      "publishedAt": "2026-10-29T15:53:03.000Z",
       "summaryJa": [
-        "Qwenputer: A functioning, deterministic RISC-V CPU",
+        "H.264 Is Magic (2016)",
         "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Qwenputer",
-        "functioning",
-        "deterministic",
-        "RISC",
-        "CPU"
+        "H.264",
+        "Magic"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 206,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 46.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-acb663a5",
+      "title": "歌手・矢野顕子氏「音楽のプロとは思えない質問ですいませんが、CDをiPhoneやPCに取り込む方法を教えてください」→専用レコーダーやiTunesなど様々な方法が集まる",
+      "url": "https://togetter.com/li/2764323",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-29T13:50:04.000Z",
+      "summaryJa": [
+        "矢野顕子 Akiko Yano @Yano_Akiko 教えてくださいませ。",
+        "CDをiPhone やコンピュータに取り込むにはどうしたら良いのでしょうか？",
+        "音楽のプロとは思えない質問ですいません。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "歌手",
+        "矢野顕子氏",
+        "音楽のプロとは思えない質問ですいませんが"
       ],
       "heat": {
         "temperature": 83,
         "signals": {
-          "hnPoints": 115,
-          "hatebuCount": 0,
-          "ageHours": 2,
+          "hnPoints": 0,
+          "hatebuCount": 45,
+          "ageHours": 6,
           "crossSources": 1,
-          "velocity": 48.6
+          "velocity": 7
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-69a14f1b",
-      "title": "Apple's git still trusts the compromised eMudhra certificates",
-      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "id": "hatebu-it-cc45a290",
+      "title": "Firefox の Intl.Segmenter で「メロス」を「彼」にすると「した」が文字扱いされなくなる - id:onk のはてなブログ",
+      "url": "https://onk.hatenablog.jp/entry/2026/10/29/151858",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-29T06:48:37.000Z",
+      "summaryJa": [
+        "const segmenter = new Intl.",
+        "Segmenter(undefined, { granularity: \"word\" }); console.",
+        "table([."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Firefox",
+        "Intl.Segmenter",
+        "メロス",
+        "id",
+        "onk"
+      ],
+      "heat": {
+        "temperature": 77,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 76,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 5.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-9a4dcd71",
+      "title": "GMO 被害拡大防止へ有力情報は警察などと随時共有",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261030de68154",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-29T20:03:53.000Z",
+      "summaryJa": [
+        "GMOインターネットグループのサービスが不正アクセスを受け、利用者に関するとみられる個人情報が公開された問題で、会社は29日、攻撃者の特定につながる有力な情報を",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "GMO"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-1e96ab1f",
+      "title": "フォルクスワーゲン 7-9月期決算 8000億円超の大幅赤字",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261029de68034",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-29T19:55:56.000Z",
+      "summaryJa": [
+        "ドイツの大手自動車メーカー、フォルクスワーゲンは9月までの3か月間の決算を発表し、最終的な損益は46億4800万ユーロ、日本円で8000億円を超える大幅な赤字と",
+        "中国市場での販売の不振などが…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "フォルクスワーゲン",
+        "9月期決算",
+        "8000億円超の大幅赤字"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-b50afb58",
+      "title": "「副首都」構想関連法 きょう施行 4道府県でも検討・調整へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261030de68147",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-29T20:06:34.000Z",
+      "summaryJa": [
+        "大規模災害の際に首都の代替機能を担う「副首都」構想の関連法が、30日、施行されました。",
+        "政府は、11月にも副首都の指定に向けたスケジュールなどを示す方針で、今後、指定の可能性がある4道府県側でも検討や調…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "副首都",
+        "構想関連法",
+        "4道府県でも検討",
+        "調整へ"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-6a2a68fa",
+      "title": "AIのコード解析を妨害するために「天安門事件」「台湾独立」「水道水に毒物混入」などのフレーズを大量に混入させる手法が発見される",
+      "url": "https://gigazine.net/news/20261029-anti-ai-words-in-script/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-29T11:05:08.000Z",
+      "summaryJa": [
+        "AIには悪意ある用途での使用をブロックするための安全対策が施されているほか、特定の分野のフレーズを拒否している場合もあります。",
+        "こうしたAIの挙動を逆手に取り、危険とみなされる単語をコードに紛れ込ませることでAIによる解析を妨害しているとみられるプログラムが、セキュリティ研究者のveri",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "AIのコード解析を妨害するために",
+        "天安門事件",
+        "台湾独立",
+        "水道水に毒物混入"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 98,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 10.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-e92bdaaf",
+      "title": "Cloudflare はなんでこんなに無料で使わせてくれるの？ | ashunar0",
+      "url": "https://ashunar0.dev/posts/cloudflare-free-plan/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-29T03:25:44.000Z",
+      "summaryJa": [
+        "はじめに Cloudflareって、無料で使えすぎじゃないですか？",
+        "？",
+        "Workers は 1 日 10 万リクエストまでタダです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Cloudflare",
+        "ashunar0"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 390,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 23.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-1ba6f06b",
+      "title": "We're releasing the weights of Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
       "source": "Hacker News",
       "sourceId": "hn-front",
-      "publishedAt": "2026-10-28T11:03:40.000Z",
+      "publishedAt": "2026-10-29T14:13:21.000Z",
       "summaryJa": [
-        "Apple's git still trusts the compromised eMudhra c",
+        "We're releasing the weights of Mistral Large 4",
         "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Apple",
-        "git",
-        "trusts",
-        "compromised",
-        "eMudhra"
+        "re",
+        "releasing",
+        "weights",
+        "Mistral",
+        "Large"
       ],
       "heat": {
-        "temperature": 85,
+        "temperature": 86,
         "signals": {
-          "hnPoints": 1053,
+          "hnPoints": 901,
           "hatebuCount": 0,
-          "ageHours": 16,
-          "crossSources": 2,
-          "velocity": 66.9
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 148.4
         }
       },
       "image": null
     },
     {
-      "id": "zenn-trend-7125f7e9",
-      "title": "RustからDynamoDBを型安全に扱うためのraiden-dynamoを作った",
-      "url": "https://zenn.dev/fraim/articles/50908c30561af5",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-28T04:14:52.000Z",
+      "id": "hatebu-it-57e5a83a",
+      "title": "AIが生成したコードは読むべきか？抽象化設計とコードの品質保証 / abstraction-design-and-quality",
+      "url": "https://speakerdeck.com/minodriven/abstraction-design-and-quality",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-29T10:14:39.000Z",
       "summaryJa": [
-        "RustからDynamoDBを使うとき、SDKが提供するAPIは必要な機能をひと通り備えている。",
-        "一方で、アプリケーションの構造体とDynamoDBの属性値の変換、式の組み立て、キーの指定など、アプリケーションごとに繰り返し書くことも多い。",
-        "そのあたりを少し楽にしつつ、Rustの型を活かしてDynamoDBを扱えるようにするライブラリとしてraiden-dynamoを作った。"
+        "こちらのイベントの登壇資料です。",
+        "Qiita Conference 2026 Autumn https://qiita.",
+        "com/conference"
       ],
       "category": "programming",
       "keywords": [
-        "dynamoを作った"
+        "abstraction",
+        "design",
+        "quality"
       ],
       "heat": {
-        "temperature": 48,
+        "temperature": 78,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 23,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-7190bcf1",
-      "title": "1,000ファイルの言語移行をAIとASTトランスパイラで完遂した話：LLMの「評価の抜け道」とどう戦ったか",
-      "url": "https://qiita.com/dev-hasegawa/items/79f612c5a4e6c874eaa9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-10-28T06:04:47.000Z",
-      "summaryJa": [
-        "こんにちは！",
-        "株式会社DearOneの長谷川です。",
-        "DearOneのAI推進室でRAGの開発やRAGを使った社内システムの開発に従事しています。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "評価の抜け道"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 21,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-04994437",
-      "title": "人間が見るのは設計書だけ ― PdM不在・バグ修正中心のチームで、AI-DLCを開発フローごと作り直した話",
-      "url": "https://zenn.dev/canly/articles/85dc645c252832",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-28T07:55:08.000Z",
-      "summaryJa": [
-        "はじめに カンリーでトストアの開発を担当している鈴木です。",
-        "トストアは、Google ビジネスプロフィールや Yahoo!",
-        "プレイスなど、複数の地図・検索サービスに掲載する店舗情報・クチコミ・投稿を、企業がまとめて管理できるサービスです。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "人間が見るのは設計書だけ",
-        "PdM不在",
-        "バグ修正中心のチームで",
-        "AI",
-        "DLCを開発フローごと作り直した話"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 19,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-c7d58964",
-      "title": "GOTO Considered Totally Sick (for error handling in C)",
-      "url": "https://thestateofinahaze.net/blog/c-goto-considered-totally-sick/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-28T16:07:18.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "GOTO",
-        "Considered",
-        "Totally",
-        "Sick",
-        "error"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 11,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-4d44a4a2",
-      "title": "Hoot 0.10.0 released",
-      "url": "https://spritely.institute/news/hoot-0-10-0-released.html",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-28T16:47:10.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Hoot",
-        "released"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
+          "hatebuCount": 46,
           "ageHours": 10,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 4.6
         }
       },
       "image": null
     },
     {
-      "id": "lobsters-56edb212",
-      "title": "Redox Ring Buffers Project Summary",
-      "url": "https://www.redox-os.org/news/nlnet-rb-summary/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-29T02:04:00.000Z",
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "patrick stewart",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-29T20:00:00.000Z",
       "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "早期天候情報",
+        "出典: Google トレンド",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "trends",
       "keywords": [
-        "Redox",
-        "Ring",
-        "Buffers",
-        "Project",
-        "Summary"
+        "patrick",
+        "stewart"
       ],
       "heat": {
         "temperature": 55,
@@ -439,38 +470,36 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-83f0eda9",
-      "title": "altsem/gitu — A TUI Git client inspired by Magit",
-      "url": "https://github.com/altsem/gitu",
-      "source": "GitHub 小さなOSS",
-      "sourceId": "github-gems",
-      "publishedAt": "2026-10-28T21:49:40Z",
+      "id": "show-hn-1f47465a",
+      "title": "Show HN: If YouTube had actual channels",
+      "url": "https://ytch.xyz",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2024-08-14T15:10:06.000Z",
       "summaryJa": [
-        "A TUI Git client inspired by Magit",
-        "出典: GitHub 小さなOSS",
+        "Show HN: If YouTube had actual channels",
+        "出典: Show HN",
         "詳細は元記事を参照してください。"
       ],
-      "category": "oss",
+      "category": "tech",
       "keywords": [
-        "altsem/gitu",
-        "TUI",
-        "Git",
-        "client",
-        "inspired"
+        "YouTube",
+        "actual",
+        "channels"
       ],
       "heat": {
-        "temperature": 53,
+        "temperature": 64,
         "signals": {
-          "hnPoints": 0,
+          "hnPoints": 2741,
           "hatebuCount": 0,
-          "ageHours": 5,
+          "ageHours": 19349,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 0.1
         }
       },
       "image": null
     },
-    "reason": "Magitの軽快な操作感をターミナル上へ移植したTUIクライアントです。キーボード主体の開発環境を自作・愛用する方の手元をさらに加速させてくれます。"
+    "reason": "かつてのテレビチャンネルのように枠を選んでコンテンツを流し見するUIを試みる面白い実験です。受動的なフィード消費から離れて手作りのインターフェースで映像を楽しむ体験が新鮮に感じられます。"
   },
   "unavailableSources": []
 }

@@ -1,0 +1,505 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 223,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-30",
+  "dateDisplay": "Friday, October 30, 2026",
+  "pressTimeJst": "2026-10-30 05:00",
+  "generatedAt": "2026-10-29T20:17:33.838Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "メディアの境目と、解析の仕掛け",
+    "note": "朝の5分で物理からデジタルへの移行、アルゴリズムの妙技、解析をかわすハックを俯瞰する。"
+  },
+  "editorial": {
+    "comment": "H.264の仕組みを紐解く「H.264 Is Magic」は、膨大なデータをいかに巧妙に削ぎ落とすかという職人技の宝庫です。普段私たちが意識せずに見ている映像の裏で動く低層設計の手触りは、自作のツールやプログラミングの設計にも確かなインスピレーションを与えてくれます。 —— YZRS Times 編集長",
+    "passedOver": "中野ブロードウェイでの高級腕時計盗難などの個別犯罪ニュースは、手元のものづくりに直接関係しないため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "霧雨",
+    "icon": "rain",
+    "tempMax": 22,
+    "tempMin": 12,
+    "precipChancePct": 17
+  },
+  "market": {
+    "fearGreed": {
+      "value": 51,
+      "label": "Neutral"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 80287,
+        "priceJpy": 12660099,
+        "change24hPct": -1.16,
+        "sparkline7d": [
+          81387.15,
+          81102.31,
+          80784.78,
+          79966.13,
+          79845.09,
+          80505.69,
+          80792.66
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2311.74,
+        "priceJpy": 364530,
+        "change24hPct": -2.22,
+        "sparkline7d": [
+          2384.21,
+          2384.75,
+          2360.52,
+          2316.41,
+          2312.81,
+          2330.26,
+          2329.84
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.167729,
+        "priceJpy": 26.45,
+        "change24hPct": -2.96,
+        "sparkline7d": [
+          0.176153,
+          0.173212,
+          0.171545,
+          0.167974,
+          0.16785,
+          0.169524,
+          0.169584
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 282.04,
+        "priceJpy": 44473,
+        "change24hPct": -2.12,
+        "sparkline7d": [
+          274.03,
+          282.01,
+          276.93,
+          275.58,
+          280.32,
+          293.4,
+          288.12
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hn-front-73b5c43e",
+    "hatebu-it-acb663a5",
+    "hatebu-it-cc45a290"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-9a4dcd71",
+        "nhk-top-1e96ab1f",
+        "nhk-top-b50afb58"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-6a2a68fa",
+        "hatebu-it-e92bdaaf",
+        "hn-front-1ba6f06b",
+        "hatebu-it-57e5a83a"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hn-front-73b5c43e",
+      "title": "H.264 Is Magic (2016)",
+      "url": "https://sidbala.com/h-264-is-magic/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-29T15:53:03.000Z",
+      "summaryJa": [
+        "H.264 Is Magic (2016)",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "H.264",
+        "Magic"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 206,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 46.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-acb663a5",
+      "title": "歌手・矢野顕子氏「音楽のプロとは思えない質問ですいませんが、CDをiPhoneやPCに取り込む方法を教えてください」→専用レコーダーやiTunesなど様々な方法が集まる",
+      "url": "https://togetter.com/li/2764323",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-29T13:50:04.000Z",
+      "summaryJa": [
+        "矢野顕子 Akiko Yano @Yano_Akiko 教えてくださいませ。",
+        "CDをiPhone やコンピュータに取り込むにはどうしたら良いのでしょうか？",
+        "音楽のプロとは思えない質問ですいません。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "歌手",
+        "矢野顕子氏",
+        "音楽のプロとは思えない質問ですいませんが"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 45,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-cc45a290",
+      "title": "Firefox の Intl.Segmenter で「メロス」を「彼」にすると「した」が文字扱いされなくなる - id:onk のはてなブログ",
+      "url": "https://onk.hatenablog.jp/entry/2026/10/29/151858",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-29T06:48:37.000Z",
+      "summaryJa": [
+        "const segmenter = new Intl.",
+        "Segmenter(undefined, { granularity: \"word\" }); console.",
+        "table([."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Firefox",
+        "Intl.Segmenter",
+        "メロス",
+        "id",
+        "onk"
+      ],
+      "heat": {
+        "temperature": 77,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 76,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 5.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-9a4dcd71",
+      "title": "GMO 被害拡大防止へ有力情報は警察などと随時共有",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261030de68154",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-29T20:03:53.000Z",
+      "summaryJa": [
+        "GMOインターネットグループのサービスが不正アクセスを受け、利用者に関するとみられる個人情報が公開された問題で、会社は29日、攻撃者の特定につながる有力な情報を",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "GMO"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-1e96ab1f",
+      "title": "フォルクスワーゲン 7-9月期決算 8000億円超の大幅赤字",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261029de68034",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-29T19:55:56.000Z",
+      "summaryJa": [
+        "ドイツの大手自動車メーカー、フォルクスワーゲンは9月までの3か月間の決算を発表し、最終的な損益は46億4800万ユーロ、日本円で8000億円を超える大幅な赤字と",
+        "中国市場での販売の不振などが…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "フォルクスワーゲン",
+        "9月期決算",
+        "8000億円超の大幅赤字"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-b50afb58",
+      "title": "「副首都」構想関連法 きょう施行 4道府県でも検討・調整へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261030de68147",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-29T20:06:34.000Z",
+      "summaryJa": [
+        "大規模災害の際に首都の代替機能を担う「副首都」構想の関連法が、30日、施行されました。",
+        "政府は、11月にも副首都の指定に向けたスケジュールなどを示す方針で、今後、指定の可能性がある4道府県側でも検討や調…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "副首都",
+        "構想関連法",
+        "4道府県でも検討",
+        "調整へ"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-6a2a68fa",
+      "title": "AIのコード解析を妨害するために「天安門事件」「台湾独立」「水道水に毒物混入」などのフレーズを大量に混入させる手法が発見される",
+      "url": "https://gigazine.net/news/20261029-anti-ai-words-in-script/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-29T11:05:08.000Z",
+      "summaryJa": [
+        "AIには悪意ある用途での使用をブロックするための安全対策が施されているほか、特定の分野のフレーズを拒否している場合もあります。",
+        "こうしたAIの挙動を逆手に取り、危険とみなされる単語をコードに紛れ込ませることでAIによる解析を妨害しているとみられるプログラムが、セキュリティ研究者のveri",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "AIのコード解析を妨害するために",
+        "天安門事件",
+        "台湾独立",
+        "水道水に毒物混入"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 98,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 10.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-e92bdaaf",
+      "title": "Cloudflare はなんでこんなに無料で使わせてくれるの？ | ashunar0",
+      "url": "https://ashunar0.dev/posts/cloudflare-free-plan/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-29T03:25:44.000Z",
+      "summaryJa": [
+        "はじめに Cloudflareって、無料で使えすぎじゃないですか？",
+        "？",
+        "Workers は 1 日 10 万リクエストまでタダです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Cloudflare",
+        "ashunar0"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 390,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 23.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-1ba6f06b",
+      "title": "We're releasing the weights of Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-29T14:13:21.000Z",
+      "summaryJa": [
+        "We're releasing the weights of Mistral Large 4",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "re",
+        "releasing",
+        "weights",
+        "Mistral",
+        "Large"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 901,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 148.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-57e5a83a",
+      "title": "AIが生成したコードは読むべきか？抽象化設計とコードの品質保証 / abstraction-design-and-quality",
+      "url": "https://speakerdeck.com/minodriven/abstraction-design-and-quality",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-29T10:14:39.000Z",
+      "summaryJa": [
+        "こちらのイベントの登壇資料です。",
+        "Qiita Conference 2026 Autumn https://qiita.",
+        "com/conference"
+      ],
+      "category": "programming",
+      "keywords": [
+        "abstraction",
+        "design",
+        "quality"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 46,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 4.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "patrick stewart",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-29T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "patrick",
+        "stewart"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "show-hn-1f47465a",
+      "title": "Show HN: If YouTube had actual channels",
+      "url": "https://ytch.xyz",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2024-08-14T15:10:06.000Z",
+      "summaryJa": [
+        "Show HN: If YouTube had actual channels",
+        "出典: Show HN",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "YouTube",
+        "actual",
+        "channels"
+      ],
+      "heat": {
+        "temperature": 64,
+        "signals": {
+          "hnPoints": 2741,
+          "hatebuCount": 0,
+          "ageHours": 19349,
+          "crossSources": 1,
+          "velocity": 0.1
+        }
+      },
+      "image": null
+    },
+    "reason": "かつてのテレビチャンネルのように枠を選んでコンテンツを流し見するUIを試みる面白い実験です。受動的なフィード消費から離れて手作りのインターフェースで映像を楽しむ体験が新鮮に感じられます。"
+  },
+  "unavailableSources": []
+}

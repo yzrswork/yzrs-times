@@ -1,87 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "b70f49194fad6896": {
-      "url": "https://zenn.dev/u1/articles/rhw-reviewable-html-workbench",
-      "summaryJa": [
-        "出力量が増えると何が起きるか 2026 年 4 月の CHI ワークショップで発表された研究が、この負荷の分布を実際に観察しています(Catalan et al",
-        ")。",
-        "Samsung R&D Institute Philippines と York University のグループが、経験 1 年未満から 10 年超まで 4 "
-      ],
-      "cachedAt": "2026-07-31T02:50:37.072Z"
-    },
-    "865ead93f52d73f3": {
-      "url": "https://marcin.juszkiewicz.com.pl/2026/07/29/new-keyboard-alicja-v2/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-31T02:50:37.072Z"
-    },
-    "998e566f7ccdf926": {
-      "url": "https://5gctextbook.com/",
-      "summaryJa": [
-        "5GC教科書 — 世界最高品質の無料5G Coreオンライン教材¶ このサイトのゴールは「仕様書を要約すること」ではありません。",
-        "あなたが 5G Core Network（5GC）を 本当に理解し、自分の言葉で説明でき、実務で使えるようになること を最優先にした教科書です。",
-        "なぜこのサイトを作ったのか（Why）¶ 3GPP仕様書（TS 23."
-      ],
-      "cachedAt": "2026-07-31T02:50:37.072Z"
-    },
-    "5bf70fae6c670e13": {
-      "url": "https://zenn.dev/estie/articles/c5503dfe56f7a1",
-      "summaryJa": [
-        "こんにちは、株式会社estie（エスティ） 取締役CTO の Nari（@tiwanari）です。",
-        "みなさんは、新しいプロダクトを世に出す前に、「抜け漏れ」がないか不安になった経験はないですか？",
-        "先日、あるプロダクトのリリース前チェックで「個人情報がエラー監視ツールへ送られる実装になっている」と指摘されました。"
-      ],
-      "cachedAt": "2026-07-31T02:50:37.072Z"
-    },
-    "b01c6a08cb21114c": {
-      "url": "https://qiita.com/kaneko_desu/items/a75831913a96757444fa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "C#で new を差し替える実験的モックツールを作っている話 C# のテストで、次のようなコードに出会うことがあります。",
-        "namespace TargetApp; public class UserService { public string GetDispl.",
-        "."
-      ],
-      "cachedAt": "2026-07-31T02:50:37.072Z"
-    },
-    "c49ec0f18622e7ce": {
-      "url": "https://qiita.com/ikageso17g/items/734ee24a5cd1c203b835?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "TL;DR Web版Claude(claude.",
-        "ai)のプロジェクト機能＋MCPコネクタ（Gmail・Notion・Google Drive）だけで、結婚式準備の情報集約ハブを構築しました プロジェクトのカス",
-        "."
-      ],
-      "cachedAt": "2026-07-31T02:50:37.072Z"
-    },
-    "ccb52241cc93f20c": {
-      "url": "https://www.openmymind.net/std-io-writer-allocating-ate-my-memory/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-31T02:50:37.072Z"
-    },
-    "4c6312874204fb17": {
-      "url": "https://lwn.net/SubscriberLink/1083202/f1ba926cd57ac5c5/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-31T02:50:37.072Z"
-    },
-    "a0dcf0d1f6c73722": {
-      "url": "https://github.com/raphaelameaume/fragment",
-      "summaryJa": [
-        "[alpha] A modern toolkit for creative coding",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-31T02:50:37.072Z"
-    },
     "89097b1a3486fba1": {
       "url": "https://www.itmedia.co.jp/aiplus/article/2607/31/2000000322/",
       "summaryJa": [
@@ -15102,6 +15021,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-29T02:48:08.121Z"
+    },
+    "e812e22ff0c3b6d7": {
+      "url": "https://sidbala.com/h-264-is-magic/",
+      "summaryJa": [
+        "H.264 Is Magic (2016)",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-29T20:18:25.003Z"
+    },
+    "acb663a5007213a9": {
+      "url": "https://togetter.com/li/2764323",
+      "summaryJa": [
+        "矢野顕子 Akiko Yano @Yano_Akiko 教えてくださいませ。",
+        "CDをiPhone やコンピュータに取り込むにはどうしたら良いのでしょうか？",
+        "音楽のプロとは思えない質問ですいません。"
+      ],
+      "cachedAt": "2026-10-29T20:18:25.003Z"
+    },
+    "cc45a290aaf7dcb1": {
+      "url": "https://onk.hatenablog.jp/entry/2026/10/29/151858",
+      "summaryJa": [
+        "const segmenter = new Intl.",
+        "Segmenter(undefined, { granularity: \"word\" }); console.",
+        "table([."
+      ],
+      "cachedAt": "2026-10-29T20:18:25.003Z"
+    },
+    "9a4dcd71f710d157": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261030de68154",
+      "summaryJa": [
+        "GMOインターネットグループのサービスが不正アクセスを受け、利用者に関するとみられる個人情報が公開された問題で、会社は29日、攻撃者の特定につながる有力な情報を",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-29T20:18:25.003Z"
+    },
+    "1e96ab1fda5fc99d": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261029de68034",
+      "summaryJa": [
+        "ドイツの大手自動車メーカー、フォルクスワーゲンは9月までの3か月間の決算を発表し、最終的な損益は46億4800万ユーロ、日本円で8000億円を超える大幅な赤字と",
+        "中国市場での販売の不振などが…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-29T20:18:25.003Z"
+    },
+    "b50afb586cba5cb9": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261030de68147",
+      "summaryJa": [
+        "大規模災害の際に首都の代替機能を担う「副首都」構想の関連法が、30日、施行されました。",
+        "政府は、11月にも副首都の指定に向けたスケジュールなどを示す方針で、今後、指定の可能性がある4道府県側でも検討や調…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-29T20:18:25.003Z"
+    },
+    "6a2a68fa268aee96": {
+      "url": "https://gigazine.net/news/20261029-anti-ai-words-in-script/",
+      "summaryJa": [
+        "AIには悪意ある用途での使用をブロックするための安全対策が施されているほか、特定の分野のフレーズを拒否している場合もあります。",
+        "こうしたAIの挙動を逆手に取り、危険とみなされる単語をコードに紛れ込ませることでAIによる解析を妨害しているとみられるプログラムが、セキュリティ研究者のveri",
+        "."
+      ],
+      "cachedAt": "2026-10-29T20:18:25.003Z"
+    },
+    "e92bdaaff3097511": {
+      "url": "https://ashunar0.dev/posts/cloudflare-free-plan/",
+      "summaryJa": [
+        "はじめに Cloudflareって、無料で使えすぎじゃないですか？",
+        "？",
+        "Workers は 1 日 10 万リクエストまでタダです。"
+      ],
+      "cachedAt": "2026-10-29T20:18:25.003Z"
+    },
+    "bd03e4a483646b85": {
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "summaryJa": [
+        "We're releasing the weights of Mistral Large 4",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-29T20:18:25.003Z"
+    },
+    "57e5a83af78b7cff": {
+      "url": "https://speakerdeck.com/minodriven/abstraction-design-and-quality",
+      "summaryJa": [
+        "こちらのイベントの登壇資料です。",
+        "Qiita Conference 2026 Autumn https://qiita.",
+        "com/conference"
+      ],
+      "cachedAt": "2026-10-29T20:18:25.003Z"
+    },
+    "ead04ed25ef61063": {
+      "url": "https://ytch.xyz",
+      "summaryJa": [
+        "Show HN: If YouTube had actual channels",
+        "出典: Show HN",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-29T20:18:25.004Z"
     }
   }
 }

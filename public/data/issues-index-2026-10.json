@@ -407,6 +407,13 @@
       "edition": "midday",
       "theme": "手元に組み込む仕掛けの型",
       "path": "issues/2026-10-29-midday.json"
+    },
+    {
+      "issueNo": 223,
+      "date": "2026-10-30",
+      "edition": "morning",
+      "theme": "メディアの境目と、解析の仕掛け",
+      "path": "issues/2026-10-30-morning.json"
     }
   ]
 }
