@@ -1,105 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "a7842ccc464f620b": {
-      "url": "https://chatexe.net/",
-      "summaryJa": [
-        "■ アプリ概要 インターネットの原風景がここにある。",
-        "Windows 95/98風のレトロなUIと、現代のリアルタイム通信が融合した新感覚チャットアプリ！",
-        "「いいね」もない、「フォロー」もない、広告もない、おすすめアルゴリズムもない、AIに学習されることもない。"
-      ],
-      "cachedAt": "2026-07-30T20:19:56.579Z"
-    },
-    "b1d7747418b9f2da": {
-      "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
-      "summaryJa": [
-        "Stacked PRs are now live on GitHub",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-30T20:19:56.579Z"
-    },
-    "5a22875eeec652ab": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015191421000",
-      "summaryJa": [
-        "熊本県は30日の災害対策本部会議で、今回の地震で亡くなったかどうか調査中の人も含めて34人が死亡したと発表しました。",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-30T20:19:56.579Z"
-    },
-    "c18238493edd235d": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015191301000",
-      "summaryJa": [
-        "ウクライナの隣国、ポーランドの東部に30日、飛しょう体が落下し、ポーランド政府はロシアのミサイルだった可能性が高いとしたうえで、詳しい調査を進める考えを示しまし",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-30T20:19:56.579Z"
-    },
-    "4fd00ebd53b17e40": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015191341000",
-      "summaryJa": [
-        "アメリカのことし4月から6月までのGDP＝国内総生産が発表され、前の3か月と比べた伸び率は、年率に換算してプラス1.",
-        "5％となりました。",
-        "前の期よりも減速したものの底堅い個人消費やAI関連への活発な投資な…"
-      ],
-      "cachedAt": "2026-07-30T20:19:56.579Z"
-    },
-    "0c45b1e5b6a7314b": {
-      "url": "https://news.yahoo.co.jp/pickup/6589953?source=rss",
-      "summaryJa": [
-        "熊本地震 ボラ受け入れ態勢準備中",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-30T20:19:56.579Z"
-    },
-    "c549af4f2156129f": {
-      "url": "https://virtualtech.jp/2026-07-29/",
-      "summaryJa": [
-        "技術メディア ThinkIT にて連載していた「Windowsユーザーのための WSL2で始める Linux環境構築術」の全29回に渡って執筆を担当いたしました",
-        "執筆完了を記念し、構成・内容・文章をすべて見直し、最新の知見を踏まえて全面的にリライトした再構築版として公開しました。",
-        "連載で培われた知見をもとに、より体系的で実践."
-      ],
-      "cachedAt": "2026-07-30T20:19:56.579Z"
-    },
-    "376044ad61a3b672": {
-      "url": "https://agend.jp/media/ikuo-self-management/",
-      "summaryJa": [
-        "「働くしんどさ」とどう付き合っていくか———『エンジニアのための自己管理入門』著者、小田中育生さんインタビュー",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-30T20:19:56.579Z"
-    },
-    "4c0b63a3cb0b06e5": {
-      "url": "https://www.dbos.dev/blog/making-postgres-queues-scale",
-      "summaryJa": [
-        "Making Postgres queues scale",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-30T20:19:56.579Z"
-    },
-    "a1d71dcf8fe7de91": {
-      "url": "https://zenn.dev/shotaro_tsuji/articles/091517e89ab17d",
-      "summaryJa": [
-        "はじめに 私が読んできたソフトウェアエンジニアリングに関する書籍を紹介しようと思います。",
-        "全てを紹介しているとキリがないので、プログラミング、データベース、アーキテクチャ、プロダクト、組織とマネジメントという括りで、それぞれ何冊か選びました。",
-        "コードを書くところから始めて、徐々にシステム、プロダクト、."
-      ],
-      "cachedAt": "2026-07-30T20:19:56.579Z"
-    },
-    "c842afdf7312c497": {
-      "url": "https://github.com/ad-si/awesome-music-production",
-      "summaryJa": [
-        "A curated list of software, services, and resources to create and distribute mus",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-07-30T20:19:56.579Z"
-    },
     "b70f49194fad6896": {
       "url": "https://zenn.dev/u1/articles/rhw-reviewable-html-workbench",
       "summaryJa": [
@@ -15129,6 +15030,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-28T20:19:14.045Z"
+    },
+    "cb84269672478330": {
+      "url": "https://qiita.com/GpAraki/items/6aa0ff0c287486e82960?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "デスクトップに置いて、AIからも操作できるタスク管理アプリを作った 個人開発で、macOS向けのタスク管理アプリ「私の引き出し（Hikidashi）」を作りまし",
+        "デスクトップウィジェットでタスクを確認できるほか、Claude CodeやCodexなどのAIからMCP経.",
+        "."
+      ],
+      "cachedAt": "2026-10-29T02:48:08.120Z"
+    },
+    "871d193932e07498": {
+      "url": "https://divagr.com/blog/qwenputer",
+      "summaryJa": [
+        "Qwenputer: A functioning, deterministic RISC-V CPU",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-29T02:48:08.121Z"
+    },
+    "7125f7e9eaa12b64": {
+      "url": "https://zenn.dev/fraim/articles/50908c30561af5",
+      "summaryJa": [
+        "RustからDynamoDBを使うとき、SDKが提供するAPIは必要な機能をひと通り備えている。",
+        "一方で、アプリケーションの構造体とDynamoDBの属性値の変換、式の組み立て、キーの指定など、アプリケーションごとに繰り返し書くことも多い。",
+        "そのあたりを少し楽にしつつ、Rustの型を活かしてDynamoDBを扱えるようにするライブラリとしてraiden-dynamoを作った。"
+      ],
+      "cachedAt": "2026-10-29T02:48:08.121Z"
+    },
+    "7190bcf1287f75b4": {
+      "url": "https://qiita.com/dev-hasegawa/items/79f612c5a4e6c874eaa9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "こんにちは！",
+        "株式会社DearOneの長谷川です。",
+        "DearOneのAI推進室でRAGの開発やRAGを使った社内システムの開発に従事しています。"
+      ],
+      "cachedAt": "2026-10-29T02:48:08.121Z"
+    },
+    "04994437bf57700b": {
+      "url": "https://zenn.dev/canly/articles/85dc645c252832",
+      "summaryJa": [
+        "はじめに カンリーでトストアの開発を担当している鈴木です。",
+        "トストアは、Google ビジネスプロフィールや Yahoo!",
+        "プレイスなど、複数の地図・検索サービスに掲載する店舗情報・クチコミ・投稿を、企業がまとめて管理できるサービスです。"
+      ],
+      "cachedAt": "2026-10-29T02:48:08.121Z"
+    },
+    "c7d58964935c0958": {
+      "url": "https://thestateofinahaze.net/blog/c-goto-considered-totally-sick/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-29T02:48:08.121Z"
+    },
+    "4d44a4a20abae64b": {
+      "url": "https://spritely.institute/news/hoot-0-10-0-released.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-29T02:48:08.121Z"
+    },
+    "56edb2129778c3b8": {
+      "url": "https://www.redox-os.org/news/nlnet-rb-summary/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-29T02:48:08.121Z"
     }
   }
 }

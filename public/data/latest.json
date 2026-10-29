@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 221,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 222,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-10-29",
   "dateDisplay": "Thursday, October 29, 2026",
-  "pressTimeJst": "2026-10-29 05:00",
-  "generatedAt": "2026-10-28T20:17:43.080Z",
+  "pressTimeJst": "2026-10-29 12:00",
+  "generatedAt": "2026-10-29T02:47:43.235Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,21 +14,21 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "半世紀の道具と、切り出される実体",
-    "note": "長年研ぎ澄まされたエディタの系譜と、デジタル制御で現実の石や空間を刻む試みが交錯する朝。"
+    "title": "手元に組み込む仕掛けの型",
+    "note": "既存の枠組みに囚われず、手元の作業や構造に合わせて自作の仕組みを落とし込む試みが揃いました。"
   },
   "editorial": {
-    "comment": "50周年を迎えたEmacsのニュースは、私たちが日々使う道具の寿命と拡張性の高さを改めて提示してくれます。今朝の作業では、今使っている環境に少し手を入れ、自分だけの道具として育て直してみてはいかがでしょうか。 —— YZRS Times 編集長",
-    "passedOver": "トランプ氏のAI名称禁止に関する話題など、政治的なパフォーマンス要素の強い記事は実務的示唆が乏しいため見送りました。",
+    "comment": "pfpdfの登場は、ドキュメントの記述と装飾を綺麗に分離したい作り手にとって注目のニュースです。午後の作業では、テキストで書かれたメモや仕様書を自分好みのフォーマットへ整形するツール周りを少し手入れしてみてはいかがでしょうか。 —— YZRS Times 編集長",
+    "passedOver": "Appleのタッチ対応MacBook Pro発表などのハードウェア新製品ニュースは、午後の技術インプットの趣旨から外れるため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "晴れ時々曇り",
-    "icon": "partly-cloudy",
+    "summary": "曇り",
+    "icon": "cloudy",
     "tempMax": 18,
-    "tempMin": 10,
-    "precipChancePct": 39
+    "tempMin": 11,
+    "precipChancePct": 12
   },
   "market": {
     "fearGreed": {
@@ -39,163 +39,102 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 81239,
-        "priceJpy": 12823913,
-        "change24hPct": 0.68,
+        "priceUsd": 79669,
+        "priceJpy": 12566157,
+        "change24hPct": -1.42,
         "sparkline7d": [
-          84448.57,
-          81328.21,
-          80878.95,
-          80599.49,
-          80283.62,
-          80266.65,
-          80949.29
+          83385.06,
+          81751.26,
+          80547.46,
+          80299.91,
+          80132.38,
+          80686.4,
+          81026.95
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2365.06,
-        "priceJpy": 373334,
-        "change24hPct": 0.84,
+        "priceUsd": 2298.49,
+        "priceJpy": 362541,
+        "change24hPct": -2.43,
         "sparkline7d": [
-          2492.88,
-          2386.48,
-          2379.8,
-          2345.71,
-          2325.85,
-          2331.97,
-          2352.83
+          2451.28,
+          2401.36,
+          2364.91,
+          2332.01,
+          2318.31,
+          2341.49,
+          2352.23
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.172971,
-        "priceJpy": 27.3,
-        "change24hPct": 1.71,
+        "priceUsd": 0.167184,
+        "priceJpy": 26.37,
+        "change24hPct": -2.65,
         "sparkline7d": [
-          0.185732,
-          0.175289,
-          0.173092,
-          0.169815,
-          0.168921,
-          0.16814,
-          0.171392
+          0.181905,
+          0.178154,
+          0.168988,
+          0.168683,
+          0.168706,
+          0.16976,
+          0.171472
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 287.99,
-        "priceJpy": 45461,
-        "change24hPct": -0.78,
+        "priceUsd": 281.08,
+        "priceJpy": 44334,
+        "change24hPct": -4.47,
         "sparkline7d": [
-          287.13,
-          274.8,
-          277.48,
-          274.81,
-          278.82,
-          286.78,
-          284.35
+          283.43,
+          285.64,
+          274.35,
+          272.32,
+          279.33,
+          289,
+          287.43
         ]
       }
     ]
   },
   "top": [
-    "hn-front-1f639086",
-    "hn-front-386d97b4",
-    "hatebu-it-b0171ab6"
+    "hatebu-it-b0171ab6",
+    "qiita-popular-cb842696",
+    "hn-front-7262b589"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "nhk-top-a109d1c7",
-        "nhk-top-3603a604",
-        "nhk-top-b2c0f42d",
-        "nhk-world-fd630b1e"
+        "hn-front-69a14f1b"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hatebu-it-af5381ed",
-        "hatebu-it-169eecdf",
-        "hn-front-69a14f1b",
-        "hatebu-it-3860bf85"
+        "zenn-trend-7125f7e9",
+        "qiita-popular-7190bcf1",
+        "zenn-trend-04994437"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-ccbd37e7"
+        "lobsters-c7d58964",
+        "lobsters-4d44a4a2",
+        "lobsters-56edb212"
       ]
     }
   ],
   "articles": [
-    {
-      "id": "hn-front-1f639086",
-      "title": "Emacs Turns 50",
-      "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-28T13:25:11.000Z",
-      "summaryJa": [
-        "Emacs Turns 50",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Emacs",
-        "Turns"
-      ],
-      "heat": {
-        "temperature": 79,
-        "signals": {
-          "hnPoints": 321,
-          "hatebuCount": 0,
-          "ageHours": 7,
-          "crossSources": 1,
-          "velocity": 46.7
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-386d97b4",
-      "title": "CNC Stone Carving",
-      "url": "https://carmelitegothic.com/cnc-stone-carving/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-28T14:38:22.000Z",
-      "summaryJa": [
-        "CNC Stone Carving",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "CNC",
-        "Stone",
-        "Carving"
-      ],
-      "heat": {
-        "temperature": 83,
-        "signals": {
-          "hnPoints": 298,
-          "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 1,
-          "velocity": 52.7
-        }
-      },
-      "image": null
-    },
     {
       "id": "hatebu-it-b0171ab6",
       "title": "MarkdownからきれいなPDFを作るCLIツールpfpdfを公開しました｜株式会社Preferred Networks",
@@ -213,188 +152,73 @@
         "Networks"
       ],
       "heat": {
-        "temperature": 82,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 193,
-          "ageHours": 16,
-          "crossSources": 1,
-          "velocity": 12.2
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-a109d1c7",
-      "title": "GMO 攻撃者に関する情報精査 被害拡大防止で緊急の対応続く",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261029de67431",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-28T16:44:00.000Z",
-      "summaryJa": [
-        "GMOインターネットグループのサービスが不正アクセスを受け、利用者に関するとみられる個人情報が公開された問題で、会社は28日、関係事業者とともにこのサイトを閲覧",
-        "会社…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "GMO",
-        "攻撃者に関する情報精査",
-        "被害拡大防止で緊急の対応続く"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 4,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-3603a604",
-      "title": "ホンダと日産 EV用バッテリーの協業へ具体的な交渉",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261029de67424",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-28T16:05:00.000Z",
-      "summaryJa": [
-        "去年、経営統合の協議を打ち切ったホンダと日産自動車が、EV用のバッテリーをめぐって協業に向けた具体的な交渉を進めていることが明らかになりました。",
-        "EVの性能のカギを握る中核分野での協業に踏み込み、国内で…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "ホンダと日産",
-        "EV用バッテリーの協業へ具体的な交渉"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 4,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-b2c0f42d",
-      "title": "新幹線と活断層の交差 全国79か所 ズレで被害のおそれ 対策を",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261028de67015",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-28T13:33:00.000Z",
-      "summaryJa": [
-        "ことし7月の熊本地震では、活断層の「ズレ」が地表に現れ、真上にあった九州新幹線の線路などに被害が相次ぎました。",
-        "復旧工事を終えて、9月に運転を再開しましたが、地震から3か月たった今も、橋桁と橋桁の間には…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "新幹線と活断層の交差",
-        "全国79か所",
-        "ズレで被害のおそれ"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 7,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-world-fd630b1e",
-      "title": "日独首脳会談 サプライチェーン強じん化など協力強化で一致",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261028de67318",
-      "source": "NHKニュース 国際",
-      "sourceId": "nhk-world",
-      "publishedAt": "2026-10-28T15:56:18.000Z",
-      "summaryJa": [
-        "高市総理大臣は28日夜、ドイツのメルツ首相と会談しました。",
-        "両国関係を「プレミアム・パートナー」と位置づけ、重要鉱物や半導体など幅広い品目のサプライチェーンの強じん化に加え、AIやサイバー分野での協力の…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "日独首脳会談"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 4,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-af5381ed",
-      "title": "AIがコードを書いてくれる時代、我々は何を確かめるのか",
-      "url": "https://speakerdeck.com/yosuke_furukawa/ai-ga-kodo-o-kai-te-kureru-jidai-wareware-ha-nani-o-tashikameru-no-ka",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-28T09:48:15.000Z",
-      "summaryJa": [
-        "Qiita Conference 2026 Autumn",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "AIがコードを書いてくれる時代",
-        "我々は何を確かめるのか"
-      ],
-      "heat": {
-        "temperature": 78,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 86,
-          "ageHours": 10,
-          "crossSources": 1,
-          "velocity": 8.2
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-169eecdf",
-      "title": "支給PCのスペックがショボすぎて、新人が辞めた。",
-      "url": "https://anond.hatelabo.jp/20261028103922",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-28T01:39:36.000Z",
-      "summaryJa": [
-        "メモリ価格の高騰で、PCの値段は昨年の倍になった。",
-        "一方、うちの会社のPC調達規程は平成に制定されて以来、一度も改定されていない。",
-        "PCは1台10万円未満とする。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "支給PCのスペックがショボすぎて",
-        "新人が辞めた"
-      ],
-      "heat": {
         "temperature": 81,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 201,
-          "ageHours": 19,
+          "hatebuCount": 391,
+          "ageHours": 22,
           "crossSources": 1,
-          "velocity": 10.8
+          "velocity": 17.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-cb842696",
+      "title": "デスクトップに置いて、AIからも操作できるタスク管理アプリを作った",
+      "url": "https://qiita.com/GpAraki/items/6aa0ff0c287486e82960?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-28T07:10:22.000Z",
+      "summaryJa": [
+        "デスクトップに置いて、AIからも操作できるタスク管理アプリを作った 個人開発で、macOS向けのタスク管理アプリ「私の引き出し（Hikidashi）」を作りまし",
+        "デスクトップウィジェットでタスクを確認できるほか、Claude CodeやCodexなどのAIからMCP経.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "デスクトップに置いて"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-7262b589",
+      "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "url": "https://divagr.com/blog/qwenputer",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-29T00:25:45.000Z",
+      "summaryJa": [
+        "Qwenputer: A functioning, deterministic RISC-V CPU",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Qwenputer",
+        "functioning",
+        "deterministic",
+        "RISC",
+        "CPU"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 115,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 48.6
         }
       },
       "image": null
@@ -420,65 +244,185 @@
         "eMudhra"
       ],
       "heat": {
-        "temperature": 90,
+        "temperature": 85,
         "signals": {
-          "hnPoints": 912,
+          "hnPoints": 1053,
           "hatebuCount": 0,
-          "ageHours": 9,
+          "ageHours": 16,
           "crossSources": 2,
-          "velocity": 98.8
+          "velocity": 66.9
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-3860bf85",
-      "title": "ELF-MN1 | 空間再現ディスプレイ（Spatial Reality Display） | ソニー",
-      "url": "https://www.sony.jp/spatial-reality-display/products/ELF-MN1/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-28T01:56:24.000Z",
+      "id": "zenn-trend-7125f7e9",
+      "title": "RustからDynamoDBを型安全に扱うためのraiden-dynamoを作った",
+      "url": "https://zenn.dev/fraim/articles/50908c30561af5",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-28T04:14:52.000Z",
       "summaryJa": [
-        "クーポン・お買い物券:coupon枚 ソニーポイント:pointポイント一度サインアウトして、再度サインインしてください",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
+        "RustからDynamoDBを使うとき、SDKが提供するAPIは必要な機能をひと通り備えている。",
+        "一方で、アプリケーションの構造体とDynamoDBの属性値の変換、式の組み立て、キーの指定など、アプリケーションごとに繰り返し書くことも多い。",
+        "そのあたりを少し楽にしつつ、Rustの型を活かしてDynamoDBを扱えるようにするライブラリとしてraiden-dynamoを作った。"
       ],
       "category": "programming",
       "keywords": [
-        "ELF",
-        "MN1",
-        "空間再現ディスプレイ",
-        "Spatial",
-        "Reality"
+        "dynamoを作った"
       ],
       "heat": {
-        "temperature": 78,
+        "temperature": 48,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 170,
-          "ageHours": 18,
+          "hatebuCount": 0,
+          "ageHours": 23,
           "crossSources": 1,
-          "velocity": 9.3
+          "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "gtrends-jp-ccbd37e7",
-      "title": "liverpool vs chelsea",
-      "url": "https://trends.google.com/trending/rss?geo=JP",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-10-28T20:00:00.000Z",
+      "id": "qiita-popular-7190bcf1",
+      "title": "1,000ファイルの言語移行をAIとASTトランスパイラで完遂した話：LLMの「評価の抜け道」とどう戦ったか",
+      "url": "https://qiita.com/dev-hasegawa/items/79f612c5a4e6c874eaa9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-28T06:04:47.000Z",
       "summaryJa": [
-        "早期天候情報",
-        "出典: Google トレンド",
+        "こんにちは！",
+        "株式会社DearOneの長谷川です。",
+        "DearOneのAI推進室でRAGの開発やRAGを使った社内システムの開発に従事しています。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "評価の抜け道"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 21,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-04994437",
+      "title": "人間が見るのは設計書だけ ― PdM不在・バグ修正中心のチームで、AI-DLCを開発フローごと作り直した話",
+      "url": "https://zenn.dev/canly/articles/85dc645c252832",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-28T07:55:08.000Z",
+      "summaryJa": [
+        "はじめに カンリーでトストアの開発を担当している鈴木です。",
+        "トストアは、Google ビジネスプロフィールや Yahoo!",
+        "プレイスなど、複数の地図・検索サービスに掲載する店舗情報・クチコミ・投稿を、企業がまとめて管理できるサービスです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "人間が見るのは設計書だけ",
+        "PdM不在",
+        "バグ修正中心のチームで",
+        "AI",
+        "DLCを開発フローごと作り直した話"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-c7d58964",
+      "title": "GOTO Considered Totally Sick (for error handling in C)",
+      "url": "https://thestateofinahaze.net/blog/c-goto-considered-totally-sick/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-28T16:07:18.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "trends",
+      "category": "tech",
       "keywords": [
-        "liverpool",
-        "chelsea"
+        "GOTO",
+        "Considered",
+        "Totally",
+        "Sick",
+        "error"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-4d44a4a2",
+      "title": "Hoot 0.10.0 released",
+      "url": "https://spritely.institute/news/hoot-0-10-0-released.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-28T16:47:10.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Hoot",
+        "released"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-56edb212",
+      "title": "Redox Ring Buffers Project Summary",
+      "url": "https://www.redox-os.org/news/nlnet-rb-summary/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-29T02:04:00.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Redox",
+        "Ring",
+        "Buffers",
+        "Project",
+        "Summary"
       ],
       "heat": {
         "temperature": 55,
@@ -495,38 +439,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-2afbb1c1",
-      "title": "SolderedElectronics/Inkplate-Arduino-library — Inkplate family Arduino library. The easiest way to add e-paper to your project. ",
-      "url": "https://github.com/SolderedElectronics/Inkplate-Arduino-library",
+      "id": "github-gems-83f0eda9",
+      "title": "altsem/gitu — A TUI Git client inspired by Magit",
+      "url": "https://github.com/altsem/gitu",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-10-28T14:32:39Z",
+      "publishedAt": "2026-10-28T21:49:40Z",
       "summaryJa": [
-        "Inkplate family Arduino library.",
-        "The easiest way to add e-paper to your project.",
+        "A TUI Git client inspired by Magit",
+        "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "Arduino",
-        "library",
-        "Inkplate",
-        "family",
-        "easiest"
+        "altsem/gitu",
+        "TUI",
+        "Git",
+        "client",
+        "inspired"
       ],
       "heat": {
         "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 6,
+          "ageHours": 5,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "電子ペーパー表示器を手軽にマイコン制御できるライブラリです。低消費電力な物理デバイスを用いた自作インテリアや情報表示端末の制作に最適です。"
+    "reason": "Magitの軽快な操作感をターミナル上へ移植したTUIクライアントです。キーボード主体の開発環境を自作・愛用する方の手元をさらに加速させてくれます。"
   },
   "unavailableSources": []
 }

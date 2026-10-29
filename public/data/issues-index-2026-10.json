@@ -400,6 +400,13 @@
       "edition": "morning",
       "theme": "半世紀の道具と、切り出される実体",
       "path": "issues/2026-10-29-morning.json"
+    },
+    {
+      "issueNo": 222,
+      "date": "2026-10-29",
+      "edition": "midday",
+      "theme": "手元に組み込む仕掛けの型",
+      "path": "issues/2026-10-29-midday.json"
     }
   ]
 }
