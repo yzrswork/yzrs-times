@@ -421,6 +421,13 @@
       "edition": "midday",
       "theme": "検証の厳密さと、手元の再利用",
       "path": "issues/2026-10-30-midday.json"
+    },
+    {
+      "issueNo": 225,
+      "date": "2026-10-31",
+      "edition": "morning",
+      "theme": "秘匿の境界と、非保有の設計",
+      "path": "issues/2026-10-31-morning.json"
     }
   ]
 }

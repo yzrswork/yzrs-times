@@ -1,0 +1,538 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 225,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-31",
+  "dateDisplay": "Saturday, October 31, 2026",
+  "pressTimeJst": "2026-10-31 05:00",
+  "generatedAt": "2026-10-30T20:17:34.597Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "秘匿の境界と、非保有の設計",
+    "note": "データを『持たない』構造や検証なき信用への疑義から、システム防壁の原点を再考する紙面。"
+  },
+  "editorial": {
+    "comment": "「個人情報を自社のDBに持たない設計は、どこまでできるのか」という記事は、システム構築において『持たないこと』こそが最強の防壁になるという本質を突きつけています。リスクを管理するのではなく、リスクの発生源そのものを構造から除外する思考は、ソフトウェア開発だけでなく日々のものづくりの設計思想全般に通じる学びがあります。 —— YZRS Times 編集長",
+    "passedOver": "「無印良品アプリの大量情報流出」や「Binanceの超巨大ハック」などの事件報道は多数ありましたが、単なる被害規模のショック療法にとどまるため見送り、背後にあるアーキテクチャや設計思想の議論に紙面を割きました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "霧雨",
+    "icon": "rain",
+    "tempMax": 23,
+    "tempMin": 13,
+    "precipChancePct": 37
+  },
+  "market": {
+    "fearGreed": {
+      "value": 30,
+      "label": "Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 76836,
+        "priceJpy": 12105115,
+        "change24hPct": -4.3,
+        "sparkline7d": [
+          81201.17,
+          80810.57,
+          79514.19,
+          79706.49,
+          81400.76,
+          81144.77,
+          76360.18
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2238.92,
+        "priceJpy": 352730,
+        "change24hPct": -3.24,
+        "sparkline7d": [
+          2392.21,
+          2356.57,
+          2300.6,
+          2311.66,
+          2365.72,
+          2343.07,
+          2230.38
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.167412,
+        "priceJpy": 26.37,
+        "change24hPct": -0.33,
+        "sparkline7d": [
+          0.174901,
+          0.171406,
+          0.166941,
+          0.167806,
+          0.171725,
+          0.170989,
+          0.167616
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 289.14,
+        "priceJpy": 45553,
+        "change24hPct": 2.52,
+        "sparkline7d": [
+          283.22,
+          277.57,
+          276.31,
+          281.77,
+          299.43,
+          282.35,
+          285.73
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-fc8602fd",
+    "hatebu-it-f8669263",
+    "hatebu-it-fe2e8842"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-world-33831cd1",
+        "nhk-world-3ebac518",
+        "nhk-top-0db0bc92",
+        "nhk-top-902f28e7"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hn-front-7d402e45",
+        "hatebu-it-1e4e799f",
+        "hn-front-269dcdd9",
+        "hn-front-082fd841"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-fc8602fd",
+      "title": "個人情報を自社のDBに持たない設計は、どこまでできるのか - every Tech Blog",
+      "url": "https://tech.every.tv/entry/2026/10/30/124255",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-30T05:48:02.000Z",
+      "summaryJa": [
+        "はじめに こんにちは、開発1部の新谷です。",
+        "最近、個人情報の漏洩のニュースが増えています。",
+        "私は普段セキュリティを専門にしているわけではありませんが、漏洩への対策として、そもそも自社で個人情報を持たないように設計する方法はすぐに思いつくと思います。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "個人情報を自社のDBに持たない設計は",
+        "every"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 146,
+          "ageHours": 14,
+          "crossSources": 1,
+          "velocity": 10.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-f8669263",
+      "title": "読んでいないコードを私たちはどれだけ信頼できるのか - YAMAGUCHI::weblog",
+      "url": "https://ymotongpoo.hatenablog.com/entry/2026/10/30/093000",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-30T00:38:15.000Z",
+      "summaryJa": [
+        "はじめに こんにちは、Grafana Labsでデベロッパーアドボケイトをしているものです。",
+        "私は2018年前後から、SRE*1の啓蒙に携わってきました。",
+        "SREの実践では本番環境のオブザーバビリティは欠かせず、私もその重要性を強く主張しています。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "YAMAGUCHI",
+        "weblog"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 277,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 14.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-fe2e8842",
+      "title": "メルセンヌ・ツイスタ。PythonやC++でも使われる、世界標準「擬似乱数」の設計思想【松本眞】 - レバテックLAB",
+      "url": "https://levtech.jp/media/detail_959/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-30T00:24:37.000Z",
+      "summaryJa": [
+        "数学者・算法学者 松本 眞（まつもと・まこと） 1965年東京都生まれ。",
+        "東京大学理学部情報科学科卒業、同大学大学院理学系研究科修士課程情報科学専攻修了、同研究科博士課程数学専攻中退。",
+        "京都大学数理解析研究所助手、慶應義塾大学理工学部助教授、九州大学助教授、広島大学教授、東京大学教授などを務めた。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "メルセンヌ",
+        "ツイスタ",
+        "PythonやC++でも使われる",
+        "世界標準",
+        "擬似乱数"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 263,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 13.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-33831cd1",
+      "title": "暗号資産の「バイナンス」に不正アクセスか 影響額 約9900億円",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261030de68404",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-10-30T13:49:13.000Z",
+      "summaryJa": [
+        "暗号資産の取引所として世界的な大手の「バイナンス」は29日、不正アクセスとみられるセキュリティー上の問題が起き、影響額が推定でおよそ63億ドル、日本円にしておよ",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "暗号資産の",
+        "バイナンス",
+        "影響額",
+        "約9900億円"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-3ebac518",
+      "title": "ナスダック指数一時3％余下落 AI投資への懸念再燃",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261031de68814",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-10-30T18:07:22.000Z",
+      "summaryJa": [
+        "30日のニューヨーク株式市場では、AI・半導体関連の銘柄に売り注文が膨らみ、ハイテク株の比率が高いナスダックの株価指数は一時、3％余りの下落となっています。",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ナスダック指数一時3％余下落",
+        "AI投資への懸念再燃"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-0db0bc92",
+      "title": "日銀 物価2％到達で定着に軸足移す 利上げどう進めるか焦点",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261031de68799",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-30T20:01:25.000Z",
+      "summaryJa": [
+        "日銀は基調的な物価上昇率が目標とする2％に達したという判断を初めて示し、今後はこの水準で定着させることに政策運営の軸足を移すことになりました。",
+        "日銀は、物価が上振れるリスクがあるとして当面は利上げを進め…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "日銀",
+        "物価2％到達で定着に軸足移す",
+        "利上げどう進めるか焦点"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-902f28e7",
+      "title": "松江 給食で約300人体調不良 焼き魚のヒスタミンによる食中毒",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261030de68361",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-30T13:59:38.000Z",
+      "summaryJa": [
+        "29日、松江市の4つの小中学校で提供された給食を食べた児童などおよそ300人が体調不良を訴えた問題で、市の教育委員会は、保健所による原因調査の結果、給食の焼き魚",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "松江",
+        "給食で約300人体調不良",
+        "焼き魚のヒスタミンによる食中毒"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-7d402e45",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-30T07:09:12.000Z",
+      "summaryJa": [
+        "<a href=\"https:&#x2F;&#x2F;cursor.",
+        "com&#x2F;blog&#x2F;claude-code-extension-security-notice\" rel=\"nofollow\">https:&",
+        "com&#x2F;blog&#x2F;claude-code-extension-security-notic."
+      ],
+      "category": "tech",
+      "keywords": [
+        "Backdoor",
+        "Claude",
+        "Code",
+        "extension",
+        "Cursor"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 592,
+          "hatebuCount": 0,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 45.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-1e4e799f",
+      "title": "Linuxカーネルの重大な脆弱性（CVE-2026-98432）によるカーリルへの影響について – カーリルのブログ",
+      "url": "https://blog.calil.jp/2026/10/linux-kernel.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-30T03:40:04.000Z",
+      "summaryJa": [
+        "2026年10月15日、Linuxカーネル（Linux OSの中核部分）のネットワーク処理に重大な脆弱性（CVE-2026-98432）があることが公表され、あ",
+        "細工したパケットを送りつけることでサーバーを停止させたり、条件によっては認証なしでリモートからプログラムを実行されたりするおそれがある問題です.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Linuxカーネルの重大な脆弱性",
+        "CVE",
+        "カーリルのブログ"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 166,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 10
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-269dcdd9",
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-30T15:52:18.000Z",
+      "summaryJa": [
+        "AI isn't replacing SREs, it's deskilling them",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "AI",
+        "replacing",
+        "SREs",
+        "deskilling"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 372,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 84.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-082fd841",
+      "title": "The federated code forge",
+      "url": "https://tangled.org/blog/forge/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-30T15:44:29.000Z",
+      "summaryJa": [
+        "The federated code forge",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "federated",
+        "code",
+        "forge"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 152,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 2,
+          "velocity": 33.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "ゆうちょ銀行",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-30T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "trends"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-05b12dd8",
+      "title": "YunoHost/yunohost — YunoHost is an operating system aiming to simplify as much as possible the administration of a server. This repository corresponds to the core code, written mostly in Python and Bash.",
+      "url": "https://github.com/YunoHost/yunohost",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-30T19:32:44Z",
+      "summaryJa": [
+        "YunoHost is an operating system aiming to simplify as much as possible the admin",
+        "This repository corresponds to the core code, written mostly in Python and Bash.",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "YunoHost/yunohost",
+        "YunoHost",
+        "operating",
+        "system",
+        "aiming"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "PythonとBashで書かれたオープンソースのサーバー管理OSで、セルフホストのハードルを極限まで下げてくれます。自前のインフラやサービスを手元で自由自在に動かしたい創作意欲を刺激する一品です。"
+  },
+  "unavailableSources": []
+}

@@ -1,105 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "56db7c648fda4297": {
-      "url": "https://qiita.com/RyoWakabayashi/items/4095d86be797008d799e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに Llamex は、 @piacerex さんが作っている Elixir で書かれた LLM 推論エンジン です LLM の API クライアントではあ",
-        "cpp のような推論パイプラインそのものを Elixir で最小構成に書いたものです.",
-        "."
-      ],
-      "cachedAt": "2026-08-01T02:50:57.117Z"
-    },
-    "4434ccf9d8cade5b": {
-      "url": "https://zenn.dev/ubie_dev/articles/gh-stack-introduction",
-      "summaryJa": [
-        "GitHubでPRを細かく作り、前のブランチに対して数珠つなぎのようにPRを作る私が大歓喜！",
-        "GitHubに「スタックプルリクエスト」機能が来ました💐 3行まとめ 大きな変更を、順序付きの小さなPR群（スタック）に分割して扱える機能がGitHub公式で",
-        "."
-      ],
-      "cachedAt": "2026-08-01T02:50:57.117Z"
-    },
-    "874a930fea69fac5": {
-      "url": "https://www.youtube.com/watch?v=yeJRK_1rS4Y",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-01T02:50:57.117Z"
-    },
-    "4efe3997818bc9e3": {
-      "url": "https://note.com/chan_san_jp/n/n3c72de4fedd9",
-      "summaryJa": [
-        "はじめにこんにちは、ちゃんさんです。",
-        "大吉祥寺.",
-        "pm 2026で、すどうさんと一緒にコアスタッフ（広報）をやりましたが、Recap動画を絶対作りたい！"
-      ],
-      "cachedAt": "2026-08-01T02:50:57.117Z"
-    },
-    "a885262f51a2c91f": {
-      "url": "https://servo.org/blog/2026/07/31/june-in-servo/",
-      "summaryJa": [
-        "June in Servo: real world compat, media queries, S",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-01T02:50:57.117Z"
-    },
-    "a4cbcf4d41d370bc": {
-      "url": "https://speakerdeck.com/yuukiyo/building-strong-teams-in-the-age-of-ai",
-      "summaryJa": [
-        "「それ、どこに出しても恥ずかしくないTerraformコードになってるか？",
-        "」 / Terraform AWS Best Practices",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-01T02:50:57.117Z"
-    },
-    "770eb154ae4b8d4d": {
-      "url": "https://zenn.dev/mkj/articles/claudian-orchestra-build_20260720",
-      "summaryJa": [
-        "こんにちは，松尾研究所の尾崎です．25卒でデータサイエンティストをやっています． このところ，ObsidianのVaultを人間とAIの共有メモリに据えたPer",
-        ".",
-        "."
-      ],
-      "cachedAt": "2026-08-01T02:50:57.117Z"
-    },
-    "836a2ad4c7bb8734": {
-      "url": "https://zenn.dev/hisaju01/books/meteorfall-development",
-      "summaryJa": [
-        "AIエージェントで粗い初期実装をまず落とし、人間が観測・分解・修正していく開発手法「メテオフォール開発」の考え方と実践をまとめた本。",
-        "依頼設計・レビュー・タスク分解・ジュニア参加・品質ゲート・ケーススタディ・テンプレートまでを扱う。",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-01T02:50:57.117Z"
-    },
-    "08c7c05889ce1dd2": {
-      "url": "https://tusharhero.codeberg.page/guix-shell-in-emacs.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-01T02:50:57.117Z"
-    },
-    "d82d72d50fcbd0e7": {
-      "url": "https://beza1e1.tuxen.de/git_two_users.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-01T02:50:57.118Z"
-    },
-    "ff3b40182218712c": {
-      "url": "https://github.com/simplefoc/Arduino-FOC",
-      "summaryJa": [
-        "Arduino FOC for BLDC and Stepper motors - Arduino Based Field Oriented Control A",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-01T02:50:57.118Z"
-    },
     "b001beb17f2a173e": {
       "url": "https://ameblo.jp/miyamotokarin-official/entry-12974440752.html",
       "summaryJa": [
@@ -15147,6 +15048,96 @@
         "Your files never leave your network."
       ],
       "cachedAt": "2026-10-30T02:48:09.204Z"
+    },
+    "fc8602fd5b855b22": {
+      "url": "https://tech.every.tv/entry/2026/10/30/124255",
+      "summaryJa": [
+        "はじめに こんにちは、開発1部の新谷です。",
+        "最近、個人情報の漏洩のニュースが増えています。",
+        "私は普段セキュリティを専門にしているわけではありませんが、漏洩への対策として、そもそも自社で個人情報を持たないように設計する方法はすぐに思いつくと思います。"
+      ],
+      "cachedAt": "2026-10-30T20:18:06.175Z"
+    },
+    "fe2e8842f7bcdac9": {
+      "url": "https://levtech.jp/media/detail_959/",
+      "summaryJa": [
+        "数学者・算法学者 松本 眞（まつもと・まこと） 1965年東京都生まれ。",
+        "東京大学理学部情報科学科卒業、同大学大学院理学系研究科修士課程情報科学専攻修了、同研究科博士課程数学専攻中退。",
+        "京都大学数理解析研究所助手、慶應義塾大学理工学部助教授、九州大学助教授、広島大学教授、東京大学教授などを務めた。"
+      ],
+      "cachedAt": "2026-10-30T20:18:06.175Z"
+    },
+    "33831cd1aaa1ca02": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261030de68404",
+      "summaryJa": [
+        "暗号資産の取引所として世界的な大手の「バイナンス」は29日、不正アクセスとみられるセキュリティー上の問題が起き、影響額が推定でおよそ63億ドル、日本円にしておよ",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-30T20:18:06.175Z"
+    },
+    "3ebac518c4712e0e": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261031de68814",
+      "summaryJa": [
+        "30日のニューヨーク株式市場では、AI・半導体関連の銘柄に売り注文が膨らみ、ハイテク株の比率が高いナスダックの株価指数は一時、3％余りの下落となっています。",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-30T20:18:06.175Z"
+    },
+    "0db0bc92f8feb489": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261031de68799",
+      "summaryJa": [
+        "日銀は基調的な物価上昇率が目標とする2％に達したという判断を初めて示し、今後はこの水準で定着させることに政策運営の軸足を移すことになりました。",
+        "日銀は、物価が上振れるリスクがあるとして当面は利上げを進め…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-30T20:18:06.175Z"
+    },
+    "902f28e7979b6cd5": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261030de68361",
+      "summaryJa": [
+        "29日、松江市の4つの小中学校で提供された給食を食べた児童などおよそ300人が体調不良を訴えた問題で、市の教育委員会は、保健所による原因調査の結果、給食の焼き魚",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-30T20:18:06.175Z"
+    },
+    "a13f736d98945685": {
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "summaryJa": [
+        "<a href=\"https:&#x2F;&#x2F;cursor.",
+        "com&#x2F;blog&#x2F;claude-code-extension-security-notice\" rel=\"nofollow\">https:&",
+        "com&#x2F;blog&#x2F;claude-code-extension-security-notic."
+      ],
+      "cachedAt": "2026-10-30T20:18:06.175Z"
+    },
+    "1e4e799f8744bfa8": {
+      "url": "https://blog.calil.jp/2026/10/linux-kernel.html",
+      "summaryJa": [
+        "2026年10月15日、Linuxカーネル（Linux OSの中核部分）のネットワーク処理に重大な脆弱性（CVE-2026-98432）があることが公表され、あ",
+        "細工したパケットを送りつけることでサーバーを停止させたり、条件によっては認証なしでリモートからプログラムを実行されたりするおそれがある問題です.",
+        "."
+      ],
+      "cachedAt": "2026-10-30T20:18:06.175Z"
+    },
+    "55737272f83db8f2": {
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "summaryJa": [
+        "AI isn't replacing SREs, it's deskilling them",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-30T20:18:06.175Z"
+    },
+    "6055dc2671b073d0": {
+      "url": "https://tangled.org/blog/forge/",
+      "summaryJa": [
+        "The federated code forge",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-30T20:18:06.175Z"
     }
   }
 }

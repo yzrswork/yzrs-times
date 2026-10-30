@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 224,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-10-30",
-  "dateDisplay": "Friday, October 30, 2026",
-  "pressTimeJst": "2026-10-30 12:00",
-  "generatedAt": "2026-10-30T02:47:34.668Z",
+  "issueNo": 225,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-10-31",
+  "dateDisplay": "Saturday, October 31, 2026",
+  "pressTimeJst": "2026-10-31 05:00",
+  "generatedAt": "2026-10-30T20:17:34.597Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,21 +14,21 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "検証の厳密さと、手元の再利用",
-    "note": "形式検証による確固たるコードからWiiの再活用まで、信頼と改造の境界を探る紙面。"
+    "title": "秘匿の境界と、非保有の設計",
+    "note": "データを『持たない』構造や検証なき信用への疑義から、システム防壁の原点を再考する紙面。"
   },
   "editorial": {
-    "comment": "WiiをLinuxマシンとして蘇らせる『My favourite PowerMac is a Nintendo Wii』のハックには、既成の製品を別の角度から見立て直すものづくりの原点が詰まっています。手元にある古いハードや余剰の計算資源をどう遊び尽くすか、午後の作業の合間に妄想が膨らみます。 —— YZRS Times 編集長",
-    "passedOver": "Binanceからの大金流出や有名人の訃報など時事ニュースが多数ありましたが、昼休みに技術の手を動かすための紙面づくりのため見送りました。",
+    "comment": "「個人情報を自社のDBに持たない設計は、どこまでできるのか」という記事は、システム構築において『持たないこと』こそが最強の防壁になるという本質を突きつけています。リスクを管理するのではなく、リスクの発生源そのものを構造から除外する思考は、ソフトウェア開発だけでなく日々のものづくりの設計思想全般に通じる学びがあります。 —— YZRS Times 編集長",
+    "passedOver": "「無印良品アプリの大量情報流出」や「Binanceの超巨大ハック」などの事件報道は多数ありましたが、単なる被害規模のショック療法にとどまるため見送り、背後にあるアーキテクチャや設計思想の議論に紙面を割きました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "曇り",
-    "icon": "cloudy",
-    "tempMax": 24,
+    "summary": "霧雨",
+    "icon": "rain",
+    "tempMax": 23,
     "tempMin": 13,
-    "precipChancePct": 33
+    "precipChancePct": 37
   },
   "market": {
     "fearGreed": {
@@ -39,189 +39,129 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 77357,
-        "priceJpy": 12180337,
-        "change24hPct": -2.92,
+        "priceUsd": 76836,
+        "priceJpy": 12105115,
+        "change24hPct": -4.3,
         "sparkline7d": [
-          81258.1,
-          80690.41,
-          80253.7,
-          79602.43,
-          80555.83,
-          81234.81,
-          77052.47
+          81201.17,
+          80810.57,
+          79514.19,
+          79706.49,
+          81400.76,
+          81144.77,
+          76360.18
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2211.22,
-        "priceJpy": 348170,
-        "change24hPct": -3.76,
+        "priceUsd": 2238.92,
+        "priceJpy": 352730,
+        "change24hPct": -3.24,
         "sparkline7d": [
-          2389.72,
-          2375.59,
-          2326,
-          2300.88,
-          2348.16,
-          2357.9,
-          2217.46
+          2392.21,
+          2356.57,
+          2300.6,
+          2311.66,
+          2365.72,
+          2343.07,
+          2230.38
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.162856,
-        "priceJpy": 25.64,
-        "change24hPct": -2.6,
+        "priceUsd": 0.167412,
+        "priceJpy": 26.37,
+        "change24hPct": -0.33,
         "sparkline7d": [
-          0.175805,
-          0.172412,
-          0.168702,
-          0.168289,
-          0.169268,
-          0.173325,
-          0.16106
+          0.174901,
+          0.171406,
+          0.166941,
+          0.167806,
+          0.171725,
+          0.170989,
+          0.167616
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 277.01,
-        "priceJpy": 43616,
-        "change24hPct": -1.41,
+        "priceUsd": 289.14,
+        "priceJpy": 45553,
+        "change24hPct": 2.52,
         "sparkline7d": [
-          278.92,
-          277.33,
-          272.32,
-          275.48,
-          290.15,
-          288.97,
-          270.36
+          283.22,
+          277.57,
+          276.31,
+          281.77,
+          299.43,
+          282.35,
+          285.73
         ]
       }
     ]
   },
   "top": [
-    "zenn-trend-90082d75",
-    "lobsters-2557b27e",
-    "zenn-trend-cf45e404"
+    "hatebu-it-fc8602fd",
+    "hatebu-it-f8669263",
+    "hatebu-it-fe2e8842"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hatebu-it-f8669263",
-        "hatebu-it-a1230cb3",
-        "hatebu-it-706ae209"
+        "nhk-world-33831cd1",
+        "nhk-world-3ebac518",
+        "nhk-top-0db0bc92",
+        "nhk-top-902f28e7"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "qiita-popular-8e1474ad",
-        "zenn-trend-7fb7a906"
+        "hn-front-7d402e45",
+        "hatebu-it-1e4e799f",
+        "hn-front-269dcdd9",
+        "hn-front-082fd841"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-cc324635",
-        "lobsters-6cad2e16"
+        "gtrends-jp-ccbd37e7"
       ]
     }
   ],
   "articles": [
     {
-      "id": "zenn-trend-90082d75",
-      "title": "KaniによるVerylコンパイラの形式検証",
-      "url": "https://zenn.dev/dalance/articles/44a8f80ea0cfa1",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-29T03:17:06.000Z",
+      "id": "hatebu-it-fc8602fd",
+      "title": "個人情報を自社のDBに持たない設計は、どこまでできるのか - every Tech Blog",
+      "url": "https://tech.every.tv/entry/2026/10/30/124255",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-30T05:48:02.000Z",
       "summaryJa": [
-        "はじめに 現在開発中のハードウェア記述言語Verylではコンパイラ中に様々な式評価があります。",
-        "この式評価においては、例えば各ビットは0/1の2値ではなく0/1/x/zの4値だったり、変数のサイズは可変（1ビットから数千ビットまで）だったりと、単純な固定長",
-        "さらに、VerylはSystemVerilogの意味論を継承しているため、SystemVerilogの規格書（IEEE 1800-2023）に書かれた細かい式評"
+        "はじめに こんにちは、開発1部の新谷です。",
+        "最近、個人情報の漏洩のニュースが増えています。",
+        "私は普段セキュリティを専門にしているわけではありませんが、漏洩への対策として、そもそも自社で個人情報を持たないように設計する方法はすぐに思いつくと思います。"
       ],
       "category": "programming",
       "keywords": [
-        "programming"
+        "個人情報を自社のDBに持たない設計は",
+        "every"
       ],
       "heat": {
-        "temperature": 48,
+        "temperature": 81,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 24,
+          "hatebuCount": 146,
+          "ageHours": 14,
           "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-2557b27e",
-      "title": "My favourite PowerMac is a Nintendo Wii",
-      "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-29T16:32:18.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "favourite",
-        "PowerMac",
-        "Nintendo",
-        "Wii"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 10,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-cf45e404",
-      "title": "Claude Codeで「QAチーム」を組んだら、効いたのは「捨てる仕組み」だった ― AIだけが見つけた不具合・見逃しは？",
-      "url": "https://zenn.dev/sre_holdings/articles/d4acb079680a79",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-29T05:00:29.000Z",
-      "summaryJa": [
-        "SREホールディングス株式会社でプロジェクトマネージャ（PM）をしている鍋谷です。",
-        "「AIにテストを手伝わせたい。",
-        "でも、AIの『できました』はどこまで信用していいのか分からない」 そんなモヤモヤ、あなたのチームにもありませんか？"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Claude",
-        "Codeで",
-        "QAチーム",
-        "効いたのは",
-        "捨てる仕組み"
-      ],
-      "heat": {
-        "temperature": 48,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 22,
-          "crossSources": 1,
-          "velocity": 0
+          "velocity": 10.1
         }
       },
       "image": null
@@ -244,163 +184,74 @@
         "weblog"
       ],
       "heat": {
-        "temperature": 89,
+        "temperature": 82,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 34,
-          "ageHours": 2,
+          "hatebuCount": 277,
+          "ageHours": 20,
           "crossSources": 1,
-          "velocity": 15.8
+          "velocity": 14.1
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-a1230cb3",
-      "title": "デザインは見た目ではなく意思決定だった ─ フロントエンドエンジニアがデザインシステム導入で学び直したこと - Findy Tech Blog",
-      "url": "https://tech.findy.co.jp/entry/2026/10/30/070000",
+      "id": "hatebu-it-fe2e8842",
+      "title": "メルセンヌ・ツイスタ。PythonやC++でも使われる、世界標準「擬似乱数」の設計思想【松本眞】 - レバテックLAB",
+      "url": "https://levtech.jp/media/detail_959/",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-29T22:25:22.000Z",
+      "publishedAt": "2026-10-30T00:24:37.000Z",
       "summaryJa": [
-        "こんにちは。",
-        "こんばんは。",
-        "ファインディでリードエンジニアをしている@shootaです。"
+        "数学者・算法学者 松本 眞（まつもと・まこと） 1965年東京都生まれ。",
+        "東京大学理学部情報科学科卒業、同大学大学院理学系研究科修士課程情報科学専攻修了、同研究科博士課程数学専攻中退。",
+        "京都大学数理解析研究所助手、慶應義塾大学理工学部助教授、九州大学助教授、広島大学教授、東京大学教授などを務めた。"
       ],
       "category": "programming",
       "keywords": [
-        "デザインは見た目ではなく意思決定だった",
-        "Findy"
+        "メルセンヌ",
+        "ツイスタ",
+        "PythonやC++でも使われる",
+        "世界標準",
+        "擬似乱数"
       ],
       "heat": {
-        "temperature": 87,
+        "temperature": 79,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 48,
-          "ageHours": 4,
+          "hatebuCount": 263,
+          "ageHours": 20,
           "crossSources": 1,
-          "velocity": 11
+          "velocity": 13.2
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-706ae209",
-      "title": "複数サービスに配信するembeddingの品質監視 ── 配信データ・ベクトル空間・推薦スコアの3観点 - ZOZO TECH BLOG",
-      "url": "https://techblog.zozo.com/entry/embedding-quality-monitoring",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-30T02:09:13.000Z",
+      "id": "nhk-world-33831cd1",
+      "title": "暗号資産の「バイナンス」に不正アクセスか 影響額 約9900億円",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261030de68404",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-10-30T13:49:13.000Z",
       "summaryJa": [
-        "はじめに こんにちは、データシステム部MLOpsブロックの木村です。",
-        "MLOpsブロックではZOZOTOWN、WEAR by ZOZOをはじめとして、弊社で提供するさまざまなサービスに関わるML機能を開発・運用しています。",
-        "ZOZOTOWNでは、ユーザーと商品を同じベクトル空間で表現するembeddingを、ホーム画面やメールマガジンなど複数の推薦."
-      ],
-      "category": "programming",
-      "keywords": [
-        "配信データ",
-        "ベクトル空間",
-        "推薦スコアの3観点",
-        "ZOZO"
-      ],
-      "heat": {
-        "temperature": 84,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 5,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 7.8
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-8e1474ad",
-      "title": "緊急時に、安全に変更を届けられる開発・運用基盤って何だろう",
-      "url": "https://qiita.com/poku_log/items/e57ac8276df88a2a32d1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-10-29T10:08:08.000Z",
-      "summaryJa": [
-        "1.",
-        "はじめに 想定読者 Webアプリケーションの開発・運用に携わっている方 CI/CDやコンテナ、GitOpsを利用している、または導入を検討している方 脆弱性対応",
-        "."
-      ],
-      "category": "programming",
-      "keywords": [
-        "緊急時に",
-        "安全に変更を届けられる開発",
-        "運用基盤って何だろう"
-      ],
-      "heat": {
-        "temperature": 50,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 17,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-7fb7a906",
-      "title": "Expo アプリを iPhone Duo に対応させる",
-      "url": "https://zenn.dev/chot/articles/5718685fde3626",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-10-29T03:38:52.000Z",
-      "summaryJa": [
-        "2026年10月23日に、Apple の折りたたみ iPhone「iPhone Duo」が出ました。",
-        "2027年4月から、App Store に出すアプリは Duo への備えが必要になります。",
-        "Expo で作ったアプリを題材に、何が必須なのかを公式の情報で確かめ、Duo のシミュレーターで開いて崩れた所を直しました（実機では試していません）。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Expo",
-        "iPhone",
-        "Duo"
-      ],
-      "heat": {
-        "temperature": 48,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 23,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-cc324635",
-      "title": "gh-inbox: clean up GitHub notifications in bulk from the command line",
-      "url": "https://github.com/maraino/gh-inbox",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-30T02:37:55.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "暗号資産の取引所として世界的な大手の「バイナンス」は29日、不正アクセスとみられるセキュリティー上の問題が起き、影響額が推定でおよそ63億ドル、日本円にしておよ",
+        "出典: NHKニュース 国際",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "gh",
-        "inbox",
-        "clean",
-        "GitHub",
-        "notifications"
+        "暗号資産の",
+        "バイナンス",
+        "影響額",
+        "約9900億円"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 6,
           "crossSources": 1,
           "velocity": 0
         }
@@ -408,23 +259,21 @@
       "image": null
     },
     {
-      "id": "lobsters-6cad2e16",
-      "title": "Design the interface for functionality not familiarity",
-      "url": "https://lapcatsoftware.com/articles/2026/10/10.html",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-10-30T01:04:38.000Z",
+      "id": "nhk-world-3ebac518",
+      "title": "ナスダック指数一時3％余下落 AI投資への懸念再燃",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261031de68814",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-10-30T18:07:22.000Z",
       "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "30日のニューヨーク株式市場では、AI・半導体関連の銘柄に売り注文が膨らみ、ハイテク株の比率が高いナスダックの株価指数は一時、3％余りの下落となっています。",
+        "出典: NHKニュース 国際",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "Design",
-        "interface",
-        "functionality",
-        "familiarity"
+        "ナスダック指数一時3％余下落",
+        "AI投資への懸念再燃"
       ],
       "heat": {
         "temperature": 54,
@@ -437,28 +286,24 @@
         }
       },
       "image": null
-    }
-  ],
-  "hiddenGem": {
-    "article": {
-      "id": "github-gems-13fc5800",
-      "title": "snapotter-hq/SnapOtter — Open-source, self-hosted file-processing tool. Convert, compress, OCR, transcribe & run local AI across image, video, audio, PDF & documents, via UI, REST API & pipelines. Your files never leave your network.",
-      "url": "https://github.com/snapotter-hq/SnapOtter",
-      "source": "GitHub 小さなOSS",
-      "sourceId": "github-gems",
-      "publishedAt": "2026-10-30T01:31:44Z",
+    },
+    {
+      "id": "nhk-top-0db0bc92",
+      "title": "日銀 物価2％到達で定着に軸足移す 利上げどう進めるか焦点",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261031de68799",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-30T20:01:25.000Z",
       "summaryJa": [
-        "Open-source, self-hosted file-processing tool.",
-        "Convert, compress, OCR, transcribe & run local AI across image, video, audio, PD",
-        "Your files never leave your network."
+        "日銀は基調的な物価上昇率が目標とする2％に達したという判断を初めて示し、今後はこの水準で定着させることに政策運営の軸足を移すことになりました。",
+        "日銀は、物価が上振れるリスクがあるとして当面は利上げを進め…",
+        "詳細は元記事を参照してください。"
       ],
-      "category": "oss",
+      "category": "news",
       "keywords": [
-        "snapotter",
-        "hq/SnapOtter",
-        "source",
-        "self",
-        "hosted"
+        "日銀",
+        "物価2％到達で定着に軸足移す",
+        "利上げどう進めるか焦点"
       ],
       "heat": {
         "temperature": 55,
@@ -472,7 +317,222 @@
       },
       "image": null
     },
-    "reason": "各種ファイルの変換やOCR、ローカルAI処理を自分のネットワーク内で完結させるセルフホスト環境です。外部サービスに依存せず手元のデータを自前で処理したい作り手に最適です。"
+    {
+      "id": "nhk-top-902f28e7",
+      "title": "松江 給食で約300人体調不良 焼き魚のヒスタミンによる食中毒",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261030de68361",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-30T13:59:38.000Z",
+      "summaryJa": [
+        "29日、松江市の4つの小中学校で提供された給食を食べた児童などおよそ300人が体調不良を訴えた問題で、市の教育委員会は、保健所による原因調査の結果、給食の焼き魚",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "松江",
+        "給食で約300人体調不良",
+        "焼き魚のヒスタミンによる食中毒"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-7d402e45",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-30T07:09:12.000Z",
+      "summaryJa": [
+        "<a href=\"https:&#x2F;&#x2F;cursor.",
+        "com&#x2F;blog&#x2F;claude-code-extension-security-notice\" rel=\"nofollow\">https:&",
+        "com&#x2F;blog&#x2F;claude-code-extension-security-notic."
+      ],
+      "category": "tech",
+      "keywords": [
+        "Backdoor",
+        "Claude",
+        "Code",
+        "extension",
+        "Cursor"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 592,
+          "hatebuCount": 0,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 45.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-1e4e799f",
+      "title": "Linuxカーネルの重大な脆弱性（CVE-2026-98432）によるカーリルへの影響について – カーリルのブログ",
+      "url": "https://blog.calil.jp/2026/10/linux-kernel.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-30T03:40:04.000Z",
+      "summaryJa": [
+        "2026年10月15日、Linuxカーネル（Linux OSの中核部分）のネットワーク処理に重大な脆弱性（CVE-2026-98432）があることが公表され、あ",
+        "細工したパケットを送りつけることでサーバーを停止させたり、条件によっては認証なしでリモートからプログラムを実行されたりするおそれがある問題です.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Linuxカーネルの重大な脆弱性",
+        "CVE",
+        "カーリルのブログ"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 166,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 10
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-269dcdd9",
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-30T15:52:18.000Z",
+      "summaryJa": [
+        "AI isn't replacing SREs, it's deskilling them",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "AI",
+        "replacing",
+        "SREs",
+        "deskilling"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 372,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 84.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-082fd841",
+      "title": "The federated code forge",
+      "url": "https://tangled.org/blog/forge/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-30T15:44:29.000Z",
+      "summaryJa": [
+        "The federated code forge",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "federated",
+        "code",
+        "forge"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 152,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 2,
+          "velocity": 33.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "ゆうちょ銀行",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-30T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "trends"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-05b12dd8",
+      "title": "YunoHost/yunohost — YunoHost is an operating system aiming to simplify as much as possible the administration of a server. This repository corresponds to the core code, written mostly in Python and Bash.",
+      "url": "https://github.com/YunoHost/yunohost",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-30T19:32:44Z",
+      "summaryJa": [
+        "YunoHost is an operating system aiming to simplify as much as possible the admin",
+        "This repository corresponds to the core code, written mostly in Python and Bash.",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "YunoHost/yunohost",
+        "YunoHost",
+        "operating",
+        "system",
+        "aiming"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "PythonとBashで書かれたオープンソースのサーバー管理OSで、セルフホストのハードルを極限まで下げてくれます。自前のインフラやサービスを手元で自由自在に動かしたい創作意欲を刺激する一品です。"
   },
   "unavailableSources": []
 }
