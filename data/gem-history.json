@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-d70d7341",
-      "url": "https://github.com/daisyaudio/DaisySP",
-      "date": "2026-09-30"
-    },
-    {
-      "id": "show-hn-256ea017",
-      "url": "https://news.ycombinator.com/item?id=43186406",
-      "date": "2026-09-30"
-    },
-    {
       "id": "github-gems-24c8dccc",
       "url": "https://github.com/Botspot/pi-apps",
       "date": "2026-10-01"
@@ -304,6 +294,11 @@
     {
       "id": "show-hn-1f47465a",
       "url": "https://ytch.xyz",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "github-gems-13fc5800",
+      "url": "https://github.com/snapotter-hq/SnapOtter",
       "date": "2026-10-30"
     }
   ]

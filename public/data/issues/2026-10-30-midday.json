@@ -1,0 +1,478 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 224,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-10-30",
+  "dateDisplay": "Friday, October 30, 2026",
+  "pressTimeJst": "2026-10-30 12:00",
+  "generatedAt": "2026-10-30T02:47:34.668Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "検証の厳密さと、手元の再利用",
+    "note": "形式検証による確固たるコードからWiiの再活用まで、信頼と改造の境界を探る紙面。"
+  },
+  "editorial": {
+    "comment": "WiiをLinuxマシンとして蘇らせる『My favourite PowerMac is a Nintendo Wii』のハックには、既成の製品を別の角度から見立て直すものづくりの原点が詰まっています。手元にある古いハードや余剰の計算資源をどう遊び尽くすか、午後の作業の合間に妄想が膨らみます。 —— YZRS Times 編集長",
+    "passedOver": "Binanceからの大金流出や有名人の訃報など時事ニュースが多数ありましたが、昼休みに技術の手を動かすための紙面づくりのため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "曇り",
+    "icon": "cloudy",
+    "tempMax": 24,
+    "tempMin": 13,
+    "precipChancePct": 33
+  },
+  "market": {
+    "fearGreed": {
+      "value": 30,
+      "label": "Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 77357,
+        "priceJpy": 12180337,
+        "change24hPct": -2.92,
+        "sparkline7d": [
+          81258.1,
+          80690.41,
+          80253.7,
+          79602.43,
+          80555.83,
+          81234.81,
+          77052.47
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2211.22,
+        "priceJpy": 348170,
+        "change24hPct": -3.76,
+        "sparkline7d": [
+          2389.72,
+          2375.59,
+          2326,
+          2300.88,
+          2348.16,
+          2357.9,
+          2217.46
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.162856,
+        "priceJpy": 25.64,
+        "change24hPct": -2.6,
+        "sparkline7d": [
+          0.175805,
+          0.172412,
+          0.168702,
+          0.168289,
+          0.169268,
+          0.173325,
+          0.16106
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 277.01,
+        "priceJpy": 43616,
+        "change24hPct": -1.41,
+        "sparkline7d": [
+          278.92,
+          277.33,
+          272.32,
+          275.48,
+          290.15,
+          288.97,
+          270.36
+        ]
+      }
+    ]
+  },
+  "top": [
+    "zenn-trend-90082d75",
+    "lobsters-2557b27e",
+    "zenn-trend-cf45e404"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hatebu-it-f8669263",
+        "hatebu-it-a1230cb3",
+        "hatebu-it-706ae209"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "qiita-popular-8e1474ad",
+        "zenn-trend-7fb7a906"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-cc324635",
+        "lobsters-6cad2e16"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "zenn-trend-90082d75",
+      "title": "KaniによるVerylコンパイラの形式検証",
+      "url": "https://zenn.dev/dalance/articles/44a8f80ea0cfa1",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-29T03:17:06.000Z",
+      "summaryJa": [
+        "はじめに 現在開発中のハードウェア記述言語Verylではコンパイラ中に様々な式評価があります。",
+        "この式評価においては、例えば各ビットは0/1の2値ではなく0/1/x/zの4値だったり、変数のサイズは可変（1ビットから数千ビットまで）だったりと、単純な固定長",
+        "さらに、VerylはSystemVerilogの意味論を継承しているため、SystemVerilogの規格書（IEEE 1800-2023）に書かれた細かい式評"
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 24,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-2557b27e",
+      "title": "My favourite PowerMac is a Nintendo Wii",
+      "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-29T16:32:18.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "favourite",
+        "PowerMac",
+        "Nintendo",
+        "Wii"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-cf45e404",
+      "title": "Claude Codeで「QAチーム」を組んだら、効いたのは「捨てる仕組み」だった ― AIだけが見つけた不具合・見逃しは？",
+      "url": "https://zenn.dev/sre_holdings/articles/d4acb079680a79",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-29T05:00:29.000Z",
+      "summaryJa": [
+        "SREホールディングス株式会社でプロジェクトマネージャ（PM）をしている鍋谷です。",
+        "「AIにテストを手伝わせたい。",
+        "でも、AIの『できました』はどこまで信用していいのか分からない」 そんなモヤモヤ、あなたのチームにもありませんか？"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Codeで",
+        "QAチーム",
+        "効いたのは",
+        "捨てる仕組み"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 22,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-f8669263",
+      "title": "読んでいないコードを私たちはどれだけ信頼できるのか - YAMAGUCHI::weblog",
+      "url": "https://ymotongpoo.hatenablog.com/entry/2026/10/30/093000",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-30T00:38:15.000Z",
+      "summaryJa": [
+        "はじめに こんにちは、Grafana Labsでデベロッパーアドボケイトをしているものです。",
+        "私は2018年前後から、SRE*1の啓蒙に携わってきました。",
+        "SREの実践では本番環境のオブザーバビリティは欠かせず、私もその重要性を強く主張しています。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "YAMAGUCHI",
+        "weblog"
+      ],
+      "heat": {
+        "temperature": 89,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 34,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 15.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-a1230cb3",
+      "title": "デザインは見た目ではなく意思決定だった ─ フロントエンドエンジニアがデザインシステム導入で学び直したこと - Findy Tech Blog",
+      "url": "https://tech.findy.co.jp/entry/2026/10/30/070000",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-29T22:25:22.000Z",
+      "summaryJa": [
+        "こんにちは。",
+        "こんばんは。",
+        "ファインディでリードエンジニアをしている@shootaです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "デザインは見た目ではなく意思決定だった",
+        "Findy"
+      ],
+      "heat": {
+        "temperature": 87,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 48,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 11
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-706ae209",
+      "title": "複数サービスに配信するembeddingの品質監視 ── 配信データ・ベクトル空間・推薦スコアの3観点 - ZOZO TECH BLOG",
+      "url": "https://techblog.zozo.com/entry/embedding-quality-monitoring",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-30T02:09:13.000Z",
+      "summaryJa": [
+        "はじめに こんにちは、データシステム部MLOpsブロックの木村です。",
+        "MLOpsブロックではZOZOTOWN、WEAR by ZOZOをはじめとして、弊社で提供するさまざまなサービスに関わるML機能を開発・運用しています。",
+        "ZOZOTOWNでは、ユーザーと商品を同じベクトル空間で表現するembeddingを、ホーム画面やメールマガジンなど複数の推薦."
+      ],
+      "category": "programming",
+      "keywords": [
+        "配信データ",
+        "ベクトル空間",
+        "推薦スコアの3観点",
+        "ZOZO"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 5,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 7.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-8e1474ad",
+      "title": "緊急時に、安全に変更を届けられる開発・運用基盤って何だろう",
+      "url": "https://qiita.com/poku_log/items/e57ac8276df88a2a32d1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-29T10:08:08.000Z",
+      "summaryJa": [
+        "1.",
+        "はじめに 想定読者 Webアプリケーションの開発・運用に携わっている方 CI/CDやコンテナ、GitOpsを利用している、または導入を検討している方 脆弱性対応",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "緊急時に",
+        "安全に変更を届けられる開発",
+        "運用基盤って何だろう"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-7fb7a906",
+      "title": "Expo アプリを iPhone Duo に対応させる",
+      "url": "https://zenn.dev/chot/articles/5718685fde3626",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-29T03:38:52.000Z",
+      "summaryJa": [
+        "2026年10月23日に、Apple の折りたたみ iPhone「iPhone Duo」が出ました。",
+        "2027年4月から、App Store に出すアプリは Duo への備えが必要になります。",
+        "Expo で作ったアプリを題材に、何が必須なのかを公式の情報で確かめ、Duo のシミュレーターで開いて崩れた所を直しました（実機では試していません）。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Expo",
+        "iPhone",
+        "Duo"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 23,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-cc324635",
+      "title": "gh-inbox: clean up GitHub notifications in bulk from the command line",
+      "url": "https://github.com/maraino/gh-inbox",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-30T02:37:55.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "gh",
+        "inbox",
+        "clean",
+        "GitHub",
+        "notifications"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-6cad2e16",
+      "title": "Design the interface for functionality not familiarity",
+      "url": "https://lapcatsoftware.com/articles/2026/10/10.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-30T01:04:38.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Design",
+        "interface",
+        "functionality",
+        "familiarity"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-13fc5800",
+      "title": "snapotter-hq/SnapOtter — Open-source, self-hosted file-processing tool. Convert, compress, OCR, transcribe & run local AI across image, video, audio, PDF & documents, via UI, REST API & pipelines. Your files never leave your network.",
+      "url": "https://github.com/snapotter-hq/SnapOtter",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-30T01:31:44Z",
+      "summaryJa": [
+        "Open-source, self-hosted file-processing tool.",
+        "Convert, compress, OCR, transcribe & run local AI across image, video, audio, PD",
+        "Your files never leave your network."
+      ],
+      "category": "oss",
+      "keywords": [
+        "snapotter",
+        "hq/SnapOtter",
+        "source",
+        "self",
+        "hosted"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "各種ファイルの変換やOCR、ローカルAI処理を自分のネットワーク内で完結させるセルフホスト環境です。外部サービスに依存せず手元のデータを自前で処理したい作り手に最適です。"
+  },
+  "unavailableSources": []
+}

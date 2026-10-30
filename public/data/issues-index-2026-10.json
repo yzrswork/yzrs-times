@@ -414,6 +414,13 @@
       "edition": "morning",
       "theme": "メディアの境目と、解析の仕掛け",
       "path": "issues/2026-10-30-morning.json"
+    },
+    {
+      "issueNo": 224,
+      "date": "2026-10-30",
+      "edition": "midday",
+      "theme": "検証の厳密さと、手元の再利用",
+      "path": "issues/2026-10-30-midday.json"
     }
   ]
 }
