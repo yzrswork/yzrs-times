@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 226,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-10-31",
+  "dateDisplay": "Saturday, October 31, 2026",
+  "pressTimeJst": "2026-10-31 12:00",
+  "generatedAt": "2026-10-31T02:47:34.410Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "エージェントの輪郭と、手元の自律",
+    "note": "AIが個人の作業を肩代わりし、開発環境へ深く浸透していく中での、ツールとの付き合い方と安全性を見つめる。"
+  },
+  "editorial": {
+    "comment": "『マルチタスクが苦手なので〜』の記事は、AIを単なるツールではなく、自身のシングルスレッドな思考を補完する「外部脳」として機能させている点が秀逸です。ツールの習熟度がそのまま個人の処理能力に直結する現代において、エージェントを定型作業に組み込む設計は多くのクリエイターにとっての突破口になるでしょう。 —— YZRS Times 編集長",
+    "passedOver": "セキュリティ関連の速報が集中していましたが、技術的な深掘りに寄与しないものは整理しました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "霧雨",
+    "icon": "rain",
+    "tempMax": 23,
+    "tempMin": 13,
+    "precipChancePct": 47
+  },
+  "market": {
+    "fearGreed": {
+      "value": 30,
+      "label": "Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 77376,
+        "priceJpy": 12192991,
+        "change24hPct": 0.09,
+        "sparkline7d": [
+          80857.85,
+          80535.27,
+          80449.49,
+          79916.48,
+          80534.46,
+          78763.49,
+          77460.98
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2245.06,
+        "priceJpy": 353776,
+        "change24hPct": 1.61,
+        "sparkline7d": [
+          2379.88,
+          2351.07,
+          2333.42,
+          2318.53,
+          2333.11,
+          2256.16,
+          2247.4
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.169646,
+        "priceJpy": 26.73,
+        "change24hPct": 4.18,
+        "sparkline7d": [
+          0.17329,
+          0.170374,
+          0.169119,
+          0.167332,
+          0.170165,
+          0.162104,
+          0.170067
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 290.67,
+        "priceJpy": 45804,
+        "change24hPct": 4.95,
+        "sparkline7d": [
+          279.62,
+          274.64,
+          277.62,
+          284.26,
+          288,
+          270.76,
+          294.97
+        ]
+      }
+    ]
+  },
+  "top": [
+    "qiita-popular-1b562c0b",
+    "zenn-trend-b4affa3f",
+    "hn-front-7d402e45"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hn-front-269dcdd9",
+        "hatebu-it-bddb8765"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "qiita-popular-752750e9",
+        "qiita-popular-8c68bcbc"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-ecd4ca48",
+        "lobsters-27510769"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "qiita-popular-1b562c0b",
+      "title": "マルチタスクが苦手なので、Slack の返信と PR レビューを Claude Code に定時で下ごしらえさせている",
+      "url": "https://qiita.com/generoKoki/items/81ca4042e30c42ffe4a7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-30T11:21:08.000Z",
+      "summaryJa": [
+        "はじめに 作ったきっかけ 自分はシングルスレッドな人間で、マルチタスクが大の苦手です。",
+        "Slack の返信に、業務の時間のかなりの部分を取られている メンションがたくさん来ると、あとで返そうと思ったものを忘れてしまう そこで、「返し忘れを拾う」「返",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "マルチタスクが苦手なので",
+        "Slack",
+        "PR",
+        "Claude",
+        "Code"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-b4affa3f",
+      "title": "yoroによろしくぅ！Ai Workforce 事業部のリモートコーディングエージェント環境 yoro のご紹介",
+      "url": "https://zenn.dev/layerx/articles/a277f83a93d300",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-30T02:11:36.000Z",
+      "summaryJa": [
+        "Ai Workforce 事業部で SRE をしている石田です。",
+        "先日、バクラク事業部から内製の Background Coding Agent、haro の紹介記事が出ました。",
+        "https://tech."
+      ],
+      "category": "programming",
+      "keywords": [
+        "yoroによろしくぅ！Ai",
+        "Workforce",
+        "yoro"
+      ],
+      "heat": {
+        "temperature": 47,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 25,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-7d402e45",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-30T07:09:12.000Z",
+      "summaryJa": [
+        "<a href=\"https:&#x2F;&#x2F;cursor.",
+        "com&#x2F;blog&#x2F;claude-code-extension-security-notice\" rel=\"nofollow\">https:&",
+        "com&#x2F;blog&#x2F;claude-code-extension-security-notic."
+      ],
+      "category": "tech",
+      "keywords": [
+        "Backdoor",
+        "Claude",
+        "Code",
+        "extension",
+        "Cursor"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 793,
+          "hatebuCount": 0,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 40.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-269dcdd9",
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-30T15:52:18.000Z",
+      "summaryJa": [
+        "AI isn't replacing SREs, it's deskilling them",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "AI",
+        "replacing",
+        "SREs",
+        "deskilling"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 520,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 47.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-bddb8765",
+      "title": "今後のセキュリティの考え方",
+      "url": "https://zenn.dev/cscloud_blog/articles/a987163efae5d8",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-30T11:11:33.000Z",
+      "summaryJa": [
+        "どうもサイバーセキュリティクラウド 脅威インテリジェンスグループの西川です。",
+        "本日のウェビナー（【緊急開催セミナー】重大脆弱性を狙うサイバー攻撃への備え ～パッチ適用までのリスクを低減する「仮想パッチ」とは～）にお越しくださった皆様ありが",
+        "当日は時間の関係でお伝えしきれなかった、今後."
+      ],
+      "category": "programming",
+      "keywords": [
+        "今後のセキュリティの考え方"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 158,
+          "ageHours": 16,
+          "crossSources": 2,
+          "velocity": 10.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-752750e9",
+      "title": "AgentCore GatewayのターゲットにStep Functionsを指定できるようになりました",
+      "url": "https://qiita.com/har1101/items/de6104e8057452ebd720?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-30T10:33:25.000Z",
+      "summaryJa": [
+        "こんにちは、ふくちです。",
+        "AgentCore GatewayのターゲットにStep Functionsが選べるようになったので、一通り触ってみました。",
+        "何ができるのか 既存のステートマシンを、そのままMCPツールとしてエージェントに渡せます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AgentCore",
+        "GatewayのターゲットにStep"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-8c68bcbc",
+      "title": "Codex のいいところだけを、Claude Code や Muse から使う",
+      "url": "https://qiita.com/tatsuya582/items/4d79021c9f78f4015992?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-30T03:58:43.000Z",
+      "summaryJa": [
+        "はじめに 私は Claude Code、Meta の Muse、DeepSeek Harness を使い分けています。",
+        "Codex も使っていて、特に Computer Use（Mac のアプリを操作する機能）と Meetings（会議の録音と議事録）は、ほかのツールより使.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Codex",
+        "Claude",
+        "Code",
+        "Muse"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 23,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-ecd4ca48",
+      "title": "Defending the patch gap against automated attackers",
+      "url": "https://blog.mozilla.org/en/firefox/privacy-security/defending-patch-gap/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-30T21:06:04.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Defending",
+        "patch",
+        "gap",
+        "automated",
+        "attackers"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-27510769",
+      "title": "The top ten reasons embedded projects get into trouble (2002)",
+      "url": "https://www.ganssle.com/articles/jackstoptenlist.htm",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-30T22:35:08.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "ten",
+        "reasons",
+        "embedded",
+        "projects",
+        "trouble"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-a2ac0310",
+      "title": "ailyProject/aily-builder — Faster Arduino compilation CLI. Arduino快速编译工具，小项目提速50%，大项目提速80%! 时间就是金钱，我的朋友!",
+      "url": "https://github.com/ailyProject/aily-builder",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-31T02:06:01Z",
+      "summaryJa": [
+        "Faster Arduino compilation CLI.",
+        "Arduino快速编译工具，小项目提速50%，大项目提速80%!",
+        "时间就是金钱，我的朋友!"
+      ],
+      "category": "oss",
+      "keywords": [
+        "ailyProject/aily",
+        "builder",
+        "Faster",
+        "Arduino",
+        "compilation"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "Arduino開発におけるビルド速度の改善は、電子工作の試行錯誤を劇的に軽快にします。小さな改善が積み重なって開発のリズムが生まれる様子を想起させます。"
+  },
+  "unavailableSources": []
+}

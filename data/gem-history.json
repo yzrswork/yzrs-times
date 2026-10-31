@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-24c8dccc",
-      "url": "https://github.com/Botspot/pi-apps",
-      "date": "2026-10-01"
-    },
-    {
-      "id": "github-gems-f5c12733",
-      "url": "https://github.com/vshymanskyy/TinyGSM",
-      "date": "2026-10-01"
-    },
-    {
       "id": "github-gems-c56cc1a2",
       "url": "https://github.com/evancohen/smart-mirror",
       "date": "2026-10-02"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-05b12dd8",
       "url": "https://github.com/YunoHost/yunohost",
+      "date": "2026-10-31"
+    },
+    {
+      "id": "github-gems-a2ac0310",
+      "url": "https://github.com/ailyProject/aily-builder",
       "date": "2026-10-31"
     }
   ]
