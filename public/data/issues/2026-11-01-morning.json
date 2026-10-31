@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 227,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-01",
+  "dateDisplay": "Sunday, November 1, 2026",
+  "pressTimeJst": "2026-11-01 05:00",
+  "generatedAt": "2026-10-31T20:17:43.111Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "手のひらの集積と、届かぬ警告",
+    "note": "80年代の高度に洗練された腕時計から、クラウド集約を説く現代の言説、そして事前警告の届かぬセキュリティ現場までを追う。"
+  },
+  "editorial": {
+    "comment": "80年代のカシオの腕時計を振り返る記事には、極小の基盤上に制限されたボタンと液晶だけでいかに豊かな機能を詰め込むかという、ものづくりの原点がありました。クラウド上の無制限な計算資源に頼る前に、手元の限られた領域で何を結実させられるかという問いは、現代のプログラマやクリエイターにとっても深く刺さるものです。 —— YZRS Times 編集長",
+    "passedOver": "トランプ氏の米中間選挙遊説に関する政情ニュースや複数件発生しているウクライナ情勢の報は、手元の創作や技術探求に直接対話する視点が薄いため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "曇り",
+    "icon": "cloudy",
+    "tempMax": 20,
+    "tempMin": 13,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 30,
+      "label": "Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 77527,
+        "priceJpy": 12216669,
+        "change24hPct": 0.88,
+        "sparkline7d": [
+          80431.4,
+          80048.85,
+          79703.86,
+          80992.73,
+          80202.56,
+          77090.78,
+          77532.33
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2253.03,
+        "priceJpy": 355033,
+        "change24hPct": 0.62,
+        "sparkline7d": [
+          2338.62,
+          2326.83,
+          2311.34,
+          2358.24,
+          2325.9,
+          2235.94,
+          2253.98
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.169773,
+        "priceJpy": 26.75,
+        "change24hPct": 1.33,
+        "sparkline7d": [
+          0.170273,
+          0.167986,
+          0.168039,
+          0.171822,
+          0.16988,
+          0.166251,
+          0.169406
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 286.05,
+        "priceJpy": 45076,
+        "change24hPct": -1.45,
+        "sparkline7d": [
+          274.64,
+          278.46,
+          281.37,
+          297.39,
+          280.76,
+          287.49,
+          287.94
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hn-front-4c828a12",
+    "hatebu-it-a317fa20",
+    "nhk-top-431a024a"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "yahoo-topics-4d36a5a6",
+        "nhk-top-0d46fb2e",
+        "nhk-top-92729886"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hn-front-07e6e25d",
+        "hatebu-it-22ba7b37"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hn-front-4c828a12",
+      "title": "Casio Watches of the 1980s",
+      "url": "https://www.casio.com/us/watches/50th/Heritage/1980s/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-31T16:00:48.000Z",
+      "summaryJa": [
+        "Casio Watches of the 1980s",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Casio",
+        "Watches",
+        "1980s"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 161,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 37.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-a317fa20",
+      "title": "OpenAI アルトマンCEO「PCに大量のRAMを搭載するのは問題」と発言。ローカルAIより「クラウドで24時間活用すべき」との考え語る | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/10/31/5657.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-31T07:41:11.000Z",
+      "summaryJa": [
+        "ガジェット全般、サイエンス、宇宙、音楽、モータースポーツetc.",
+        ".",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "OpenAI",
+        "アルトマンCEO",
+        "PCに大量のRAMを搭載するのは問題",
+        "ローカルAIより",
+        "クラウドで24時間活用すべき"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 163,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 12.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-431a024a",
+      "title": "GMO 子会社が2年前にシステムのぜい弱性を指摘 社長あす会見へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261031de69037",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-31T20:09:50.000Z",
+      "summaryJa": [
+        "GMOインターネットグループの為替取引に関するサービスが不正アクセスを受けた問題で、2年前に子会社のセキュリティー企業がシステムのぜい弱性を指摘していたことが関",
+        "熊谷正寿社…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "GMO",
+        "子会社が2年前にシステムのぜい弱性を指摘",
+        "社長あす会見へ"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "yahoo-topics-4d36a5a6",
+      "title": "クラブツーリズム 432万件流出か",
+      "url": "https://news.yahoo.co.jp/pickup/6600875?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-10-31T14:04:30.000Z",
+      "summaryJa": [
+        "クラブツーリズム 432万件流出か",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "クラブツーリズム",
+        "432万件流出か"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-0d46fb2e",
+      "title": "北海道 JR宗谷線特急 ヒグマと衝突で脱線 1日も運転見合わせ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261031de68820",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-31T10:22:00.000Z",
+      "summaryJa": [
+        "先月30日夜、北海道のJR宗谷線で稚内駅へ向かう特急列車がヒグマと衝突し、先頭車両が脱線しました。",
+        "乗客と乗員にけがはありませんでした。",
+        "1987年にJR北海道が発足してから、ヒグマとの衝突による脱線事故…"
+      ],
+      "category": "news",
+      "keywords": [
+        "北海道",
+        "JR宗谷線特急",
+        "ヒグマと衝突で脱線",
+        "1日も運転見合わせ"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-92729886",
+      "title": "スペイン高速列車事故 “後続列車に停止措置とらず 信号も青”",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261031de68821",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-10-31T08:42:00.000Z",
+      "summaryJa": [
+        "スペイン中部で高速鉄道の列車が別の列車に追突し60人以上が死亡した事故で、先行の列車が運転を再開できないことを把握しながら、運転指令センターが後続の列車に停止さ",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "スペイン高速列車事故",
+        "後続列車に停止措置とらず",
+        "信号も青"
+      ],
+      "heat": {
+        "temperature": 56,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 12,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-07e6e25d",
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-31T14:29:03.000Z",
+      "summaryJa": [
+        "Malware uses LLMs to rank victims by how much they",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Malware",
+        "uses",
+        "LLMs",
+        "rank",
+        "victims"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 205,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 35.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-22ba7b37",
+      "title": "もう無理｜ひでと",
+      "url": "https://note.com/happy_dahlia405/n/n1b16c06e71e6",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-31T01:30:40.000Z",
+      "summaryJa": [
+        "はじめに精神的にもう無理、というときに開くためのWebページを作りました。",
+        "https://ogawahideto.",
+        "github."
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 76,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 153,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 8.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "整体",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-10-31T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "整体"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-0839244c",
+      "title": "chrisryugj/kordoc — 모두 파싱해버리겠다 — HWP·HWPX·PDF·Office 문서를 Markdown으로. 양식 자동 채우기와 신구대조를 갖춘 CLI·MCP 서버 | Convert Korean documents (HWP, HWPX, PDF, Office) to Markdown — CLI and MCP server with form filling and diff",
+      "url": "https://github.com/chrisryugj/kordoc",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-31T19:49:21Z",
+      "summaryJa": [
+        "모두 파싱해버리겠다 — HWP·HWPX·PDF·Office 문서를 Markdown으로.",
+        "양식 자동 채우기와 신구대조를 갖춘 CLI·MCP 서버 | Convert Korean documents (HWP, HWPX, PDF, Offic",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "chrisryugj/kordoc",
+        "모두",
+        "파싱해버리겠다",
+        "HWP·HWPX·PDF·Office",
+        "문서를"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "複雑なフォーマットを持つHWPやOffice文書をMarkdownへと正確に変換し、MCPサーバーとしても機能する実践的なツールです。ドキュメントの解体と再構築を泥臭く自動化する姿勢は、構造化データを扱う作風に大きな示唆を与えてくれます。"
+  },
+  "unavailableSources": []
+}

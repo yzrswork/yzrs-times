@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "month": "2026-11",
+  "issues": [
+    {
+      "issueNo": 227,
+      "date": "2026-11-01",
+      "edition": "morning",
+      "theme": "手のひらの集積と、届かぬ警告",
+      "path": "issues/2026-11-01-morning.json"
+    }
+  ]
+}

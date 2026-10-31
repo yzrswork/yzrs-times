@@ -1,69 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "c091b3a143016e32": {
-      "url": "https://animeuserinterface.tumblr.com",
-      "summaryJa": [
-        "Anime User Interfaces",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-02T02:48:31.018Z"
-    },
-    "7d01337b801b65f1": {
-      "url": "https://qiita.com/t2murata/items/0f6a7551da98464cc54e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "背景 世の中にはいわゆる「AI臭いUI」というのが存在します。",
-        "絵文字が多用されている／丸すぎる角丸／中央寄せ／過度な余白／揃っていないアイテム／問題ないが、なんか臭う・・・などなど 私が以前AIで作った「ゆめぐり帳」という",
-        "."
-      ],
-      "cachedAt": "2026-08-02T02:48:31.018Z"
-    },
-    "66ab2bb7b9d0e16c": {
-      "url": "https://note.com/o_ob/n/nd19cba8e11d7",
-      "summaryJa": [
-        "Claude CodeやCodexのようなコーディングエージェントを使い続けていると、いつの間にかCLAUDE.",
-        "mdやAGENTS.",
-        "mdが巨大化していきます。"
-      ],
-      "cachedAt": "2026-08-02T02:48:31.018Z"
-    },
-    "bd1fe04bddb74701": {
-      "url": "https://victoriametrics.com/blog/go-1-27/index.html",
-      "summaryJa": [
-        "Go 1.27 Interactive Tour",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-02T02:48:31.018Z"
-    },
-    "dcf645ce5f6ea6df": {
-      "url": "https://qiita.com/teppei19980914/items/8d0ec908a7943725ec98?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "この記事は約 5 分で読めます。",
-        "筆者プロフィール: ソフトウェアエンジニア。",
-        "「知った気にならない。"
-      ],
-      "cachedAt": "2026-08-02T02:48:31.018Z"
-    },
-    "0d5ec0fd0aa4a90c": {
-      "url": "https://jmmv.dev/2026/07/hello-getoptsargs.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-02T02:48:31.018Z"
-    },
-    "e2a1415fb455bf14": {
-      "url": "https://github.com/DBraun/DawDreamer",
-      "summaryJa": [
-        "Digital Audio Workstation with Python; VST instruments/effects, parameter automa",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-02T02:48:31.018Z"
-    },
     "a513210dec1776dc": {
       "url": "https://meshdiff.com/",
       "summaryJa": [
@@ -15129,6 +15066,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-31T02:50:55.061Z"
+    },
+    "ac9efc1c4f60d94a": {
+      "url": "https://www.casio.com/us/watches/50th/Heritage/1980s/",
+      "summaryJa": [
+        "Casio Watches of the 1980s",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-31T20:18:42.761Z"
+    },
+    "a317fa203d3664e9": {
+      "url": "https://www.techno-edge.net/article/2026/10/31/5657.html",
+      "summaryJa": [
+        "ガジェット全般、サイエンス、宇宙、音楽、モータースポーツetc.",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-10-31T20:18:42.761Z"
+    },
+    "431a024a1fe959f2": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261031de69037",
+      "summaryJa": [
+        "GMOインターネットグループの為替取引に関するサービスが不正アクセスを受けた問題で、2年前に子会社のセキュリティー企業がシステムのぜい弱性を指摘していたことが関",
+        "熊谷正寿社…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-31T20:18:42.761Z"
+    },
+    "4d36a5a693a06fe7": {
+      "url": "https://news.yahoo.co.jp/pickup/6600875?source=rss",
+      "summaryJa": [
+        "クラブツーリズム 432万件流出か",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-31T20:18:42.761Z"
+    },
+    "0d46fb2e6c60a55e": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261031de68820",
+      "summaryJa": [
+        "先月30日夜、北海道のJR宗谷線で稚内駅へ向かう特急列車がヒグマと衝突し、先頭車両が脱線しました。",
+        "乗客と乗員にけがはありませんでした。",
+        "1987年にJR北海道が発足してから、ヒグマとの衝突による脱線事故…"
+      ],
+      "cachedAt": "2026-10-31T20:18:42.761Z"
+    },
+    "92729886da985406": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261031de68821",
+      "summaryJa": [
+        "スペイン中部で高速鉄道の列車が別の列車に追突し60人以上が死亡した事故で、先行の列車が運転を再開できないことを把握しながら、運転指令センターが後続の列車に停止さ",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-31T20:18:42.761Z"
+    },
+    "ef006b6d1900eae3": {
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "summaryJa": [
+        "Malware uses LLMs to rank victims by how much they",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-31T20:18:42.761Z"
+    },
+    "22ba7b373e182d34": {
+      "url": "https://note.com/happy_dahlia405/n/n1b16c06e71e6",
+      "summaryJa": [
+        "はじめに精神的にもう無理、というときに開くためのWebページを作りました。",
+        "https://ogawahideto.",
+        "github."
+      ],
+      "cachedAt": "2026-10-31T20:18:42.761Z"
+    },
+    "d6c04b6931fe925a": {
+      "url": "https://github.com/chrisryugj/kordoc",
+      "summaryJa": [
+        "모두 파싱해버리겠다 — HWP·HWPX·PDF·Office 문서를 Markdown으로.",
+        "양식 자동 채우기와 신구대조를 갖춘 CLI·MCP 서버 | Convert Korean documents (HWP, HWPX, PDF, Offic",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-10-31T20:18:42.761Z"
     }
   }
 }
