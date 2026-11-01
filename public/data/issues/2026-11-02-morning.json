@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 229,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-02",
+  "dateDisplay": "Monday, November 2, 2026",
+  "pressTimeJst": "2026-11-02 05:00",
+  "generatedAt": "2026-11-01T20:17:43.270Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "集積された知と手元の直感",
+    "note": "長年蓄積されたデータの活用と、専門知識を排した直観的な道具が共存する朝の紙面。"
+  },
+  "editorial": {
+    "comment": "音楽理論を無視して感覚的にポチポチ作れるツール（hatebu-it-b7a1a8cd）には、作ることへの純粋な衝動を感じます。ハードルを極限まで下げる仕掛けは、プログラミングや電子工作の道具作りにも通じる面白さがあります。 —— YZRS Times 編集長",
+    "passedOver": "米国中間選挙や海外デモなど動向が定まらない国際時事ニュースは見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "雨",
+    "icon": "rain",
+    "tempMax": 22,
+    "tempMin": 12,
+    "precipChancePct": 97
+  },
+  "market": {
+    "fearGreed": {
+      "value": 34,
+      "label": "Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 77726,
+        "priceJpy": 12240411,
+        "change24hPct": 0.26,
+        "sparkline7d": [
+          80485.73,
+          80029.43,
+          81029.84,
+          79782.36,
+          77693.3,
+          77446.8,
+          77841.95
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2256.37,
+        "priceJpy": 355339,
+        "change24hPct": 0.09,
+        "sparkline7d": [
+          2348.8,
+          2320.67,
+          2357.65,
+          2308.06,
+          2246.95,
+          2245.11,
+          2261.1
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.167194,
+        "priceJpy": 26.33,
+        "change24hPct": -1.53,
+        "sparkline7d": [
+          0.168882,
+          0.169157,
+          0.171756,
+          0.167398,
+          0.165878,
+          0.169511,
+          0.167707
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 279.35,
+        "priceJpy": 43992,
+        "change24hPct": -2.38,
+        "sparkline7d": [
+          280.13,
+          280.5,
+          297.03,
+          278.83,
+          286.16,
+          288.21,
+          281.44
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-b7a1a8cd",
+    "hn-front-538721fb",
+    "nhk-top-0bb9e9eb"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "yahoo-topics-18558978",
+        "nhk-top-533f0ff0"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-480a1bef",
+        "hatebu-it-20c537ba"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-b7a1a8cd",
+      "title": "「作曲って難しいと思うじゃん？だったら遊びにしちゃえばいいんじゃね？」ということで、音楽理論やコード進行が全くわからなくても音楽が作れる作曲ツールを作った",
+      "url": "https://togetter.com/li/2765526",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-01T12:12:05.000Z",
+      "summaryJa": [
+        "げどうさん@ボカロPなのかもしれない @gedousan 作曲って難しいと思うじゃん？",
+        "だったら遊びにしちゃえばいいんじゃね？",
+        "ｗｗ ということで、音楽で遊べるものを作ってみた！"
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 115,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 14.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-538721fb",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "url": "https://hackerbooks.org",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-01T15:58:28.000Z",
+      "summaryJa": [
+        "Saw Karpathy&#x27;s HackerTube and wanted the same thing for books.",
+        "So I had Claude build one (Opus 5.",
+        "5)."
+      ],
+      "category": "tech",
+      "keywords": [
+        "HackerBooks",
+        "HackerTube",
+        "books",
+        "mentioned"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 500,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 115.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-0bb9e9eb",
+      "title": "災害対策司令塔の「防災庁」が発足 体制の抜本的強化へ 政府",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261101de69293",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-01T19:39:26.000Z",
+      "summaryJa": [
+        "災害対策の司令塔となる防災庁が2日、発足しました。",
+        "事前防災に加え、発災から復旧・復興までの一貫した災害対応にあたる組織で政府は、防災体制の抜本的な強化を図ることにしています。",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "災害対策司令塔の",
+        "防災庁",
+        "体制の抜本的強化へ",
+        "政府"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "yahoo-topics-18558978",
+      "title": "生命起源巡る理論 定説覆る可能性",
+      "url": "https://news.yahoo.co.jp/pickup/6600999?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-11-01T14:44:54.000Z",
+      "summaryJa": [
+        "生命起源巡る理論 定説覆る可能性",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "生命起源巡る理論",
+        "定説覆る可能性"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-533f0ff0",
+      "title": "GMOきょう会見 不安の抑止やぜい弱性指摘後の対応が焦点",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261101de69276",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-01T19:42:07.000Z",
+      "summaryJa": [
+        "GMOインターネットグループのサービスが不正アクセスを受けた問題で2日、熊谷正寿社長らが記者会見を開きます。",
+        "これまでの経緯や被害拡大の防止策などについて説明するとみられ、利用者の不安を抑えられるの…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "GMOきょう会見",
+        "不安の抑止やぜい弱性指摘後の対応が焦点"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-480a1bef",
+      "title": "いまのダークウェブでは二段階認証も無力化する「ブラウザのクローンデータ」が売買されており、その対策にはブラウザを使い分けることが有効らしい",
+      "url": "https://togetter.com/li/2765521",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-01T12:12:19.000Z",
+      "summaryJa": [
+        "Taiki Watanabe | フルスタックエンジニア・ダークウェブ研究家 @ECHODE_Dev ・いまダークウェブの闇市場で暴落しているもの：単なる「ID",
+        ".",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "ブラウザのクローンデータ"
+      ],
+      "heat": {
+        "temperature": 87,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 171,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 21.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-20c537ba",
+      "title": "HonoがPRを閉じた理由",
+      "url": "https://slides.yusu.ke/foss4g-2026",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-01T11:35:27.000Z",
+      "summaryJa": [
+        "::title:: HonoがPRを閉じた理由 Yusuke Wada FOSS4G分科会シンポジウム 2026「AI時代のFOSS4G」 ・ November",
+        "67億 ダウンロード.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "HonoがPRを閉じた理由"
+      ],
+      "heat": {
+        "temperature": 77,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 44,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 5.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "株式",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-01T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "株式"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-c4b62849",
+      "title": "runkids/skillshare — 📚 Sync skills, agents, MCP, plugins to all AI CLI tools with one command and simplify team sharing.",
+      "url": "https://github.com/runkids/skillshare",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-01T12:16:40Z",
+      "summaryJa": [
+        "📚 Sync skills, agents, MCP, plugins to all AI CLI tools with one command and si",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "runkids/skillshare",
+        "Sync",
+        "skills",
+        "agents",
+        "MCP"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "各種AI CLIツールの設定やプラグインをコマンド一発で同期できる軽量ツールです。手元の開発環境をシンプルに保ちたいあなたに、道具箱を整える快適さを提供します。"
+  },
+  "unavailableSources": []
+}

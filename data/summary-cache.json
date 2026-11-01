@@ -1,96 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "5f8ccbbeab9f9310": {
-      "url": "https://zenn.dev/hellohazime/articles/kimi_k3_reap640_512gb_mac",
-      "summaryJa": [
-        "お疲れ様です波浪です。",
-        "今回は、最近流行りのKimi K3です。",
-        "前回の失敗を活かして自分の中でも熱があるうちにBLOGにしました。"
-      ],
-      "cachedAt": "2026-08-03T02:50:34.256Z"
-    },
-    "b2425a5889f3b1ec": {
-      "url": "https://github.com/pg83/shitty",
-      "summaryJa": [
-        "Show HN: Shitty – fast terminal. Memory-unsafe and",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-03T02:50:34.256Z"
-    },
-    "f89c9b669d2da87a": {
-      "url": "https://sf.isopolis.city/",
-      "summaryJa": [
-        "Show HN: Isopolis – isometric pixel map of SF",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-03T02:50:34.256Z"
-    },
-    "110be558030d063c": {
-      "url": "https://github.com/johnsonjh/cpm386",
-      "summaryJa": [
-        "CP/M-386 – CP/M for 386 protected mode, derived fr",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-03T02:50:34.256Z"
-    },
-    "983dfa341f73f869": {
-      "url": "https://internet.watch.impress.co.jp/docs/column/shimizu/2128634.html",
-      "summaryJa": [
-        "これはTailscaleか？　国産WireGuardメッシュ「ロリポップ！ゼロトラストリンク byG",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-03T02:50:34.256Z"
-    },
-    "0bb0f063fd5bb4b1": {
-      "url": "https://qiita.com/ennagara128/items/5bcc4e448048a1e15f5d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "起きたこと Reactでリストを日付順に並べ替えて表示する処理をAIに書いてもらったところ、なぜか元のstateの並び順まで変わってしまう不具合が起きました。",
-        "const [items, setItems] = useState(originalItems); func.",
-        "."
-      ],
-      "cachedAt": "2026-08-03T02:50:34.256Z"
-    },
-    "cc4516f262346ba7": {
-      "url": "https://zenn.dev/headwaters/articles/76f20490b76952",
-      "summaryJa": [
-        "背景 今まではタスクは自分の頭で整理するか、メモ帳のようなものに書き留めていました。",
-        "それくらいの管理で十分でした。",
-        "しかし最近、案件業務・社内業務とタスクが増え、整理していかないと厳しい状態になってきました。"
-      ],
-      "cachedAt": "2026-08-03T02:50:34.256Z"
-    },
-    "540bc495c6c10ecb": {
-      "url": "https://pythonspeed.com/articles/faster-float-math-rust/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-03T02:50:34.256Z"
-    },
-    "7ac036a31b627f1c": {
-      "url": "https://www.joelonsoftware.com/2000/04/10/controlling-your-environment-makes-you-happy/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-03T02:50:34.256Z"
-    },
-    "e672f0fcf14ac643": {
-      "url": "https://github.com/schellingb/TinySoundFont",
-      "summaryJa": [
-        "SoundFont2 synthesizer library in a single C/C++ file",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-03T02:50:34.256Z"
-    },
     "67f3850ffc0a3886": {
       "url": "https://ameblo.jp/miyamotokarin-official/entry-12974640519.html",
       "summaryJa": [
@@ -15156,6 +15066,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-01T02:48:06.038Z"
+    },
+    "b7a1a8cddeaf5eb4": {
+      "url": "https://togetter.com/li/2765526",
+      "summaryJa": [
+        "げどうさん@ボカロPなのかもしれない @gedousan 作曲って難しいと思うじゃん？",
+        "だったら遊びにしちゃえばいいんじゃね？",
+        "ｗｗ ということで、音楽で遊べるものを作ってみた！"
+      ],
+      "cachedAt": "2026-11-01T20:18:03.207Z"
+    },
+    "12844ee7f8055ffe": {
+      "url": "https://hackerbooks.org",
+      "summaryJa": [
+        "Saw Karpathy&#x27;s HackerTube and wanted the same thing for books.",
+        "So I had Claude build one (Opus 5.",
+        "5)."
+      ],
+      "cachedAt": "2026-11-01T20:18:03.207Z"
+    },
+    "0bb9e9eba3c3be3a": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261101de69293",
+      "summaryJa": [
+        "災害対策の司令塔となる防災庁が2日、発足しました。",
+        "事前防災に加え、発災から復旧・復興までの一貫した災害対応にあたる組織で政府は、防災体制の抜本的な強化を図ることにしています。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-01T20:18:03.207Z"
+    },
+    "18558978a96b3f7d": {
+      "url": "https://news.yahoo.co.jp/pickup/6600999?source=rss",
+      "summaryJa": [
+        "生命起源巡る理論 定説覆る可能性",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-01T20:18:03.207Z"
+    },
+    "533f0ff00ebe7d09": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261101de69276",
+      "summaryJa": [
+        "GMOインターネットグループのサービスが不正アクセスを受けた問題で2日、熊谷正寿社長らが記者会見を開きます。",
+        "これまでの経緯や被害拡大の防止策などについて説明するとみられ、利用者の不安を抑えられるの…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-01T20:18:03.207Z"
+    },
+    "480a1bef5a504f07": {
+      "url": "https://togetter.com/li/2765521",
+      "summaryJa": [
+        "Taiki Watanabe | フルスタックエンジニア・ダークウェブ研究家 @ECHODE_Dev ・いまダークウェブの闇市場で暴落しているもの：単なる「ID",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-11-01T20:18:03.207Z"
+    },
+    "20c537ba9190339c": {
+      "url": "https://slides.yusu.ke/foss4g-2026",
+      "summaryJa": [
+        "::title:: HonoがPRを閉じた理由 Yusuke Wada FOSS4G分科会シンポジウム 2026「AI時代のFOSS4G」 ・ November",
+        "67億 ダウンロード.",
+        "."
+      ],
+      "cachedAt": "2026-11-01T20:18:03.207Z"
+    },
+    "c519ad090000de71": {
+      "url": "https://github.com/runkids/skillshare",
+      "summaryJa": [
+        "📚 Sync skills, agents, MCP, plugins to all AI CLI tools with one command and si",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-01T20:18:03.207Z"
     }
   }
 }
