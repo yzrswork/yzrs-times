@@ -1,78 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "a513210dec1776dc": {
-      "url": "https://meshdiff.com/",
-      "summaryJa": [
-        "Meshdiff – visually compare two STL versions in th",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-02T20:19:12.443Z"
-    },
-    "a1682152beb5669c": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015194421000",
-      "summaryJa": [
-        "歴史的な円安に歯止めをかけるため、日本とアメリカの通貨当局は、先週、協調して円買いの市場介入に踏み切りました。",
-        "ことし5月中旬に東京で行われた日米財務相会談で協調介入についての調整が本格化し、その後、入…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-02T20:19:12.443Z"
-    },
-    "50ec0c277e213fd1": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015194451000",
-      "summaryJa": [
-        "今回の地震で、政府は、猛暑の中での災害関連死を防ぐ対策を強化する必要があるとして、車中泊や在宅避難をしている人のもとを行政側から積極的に訪れ、医療や福祉につなげ",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-02T20:19:12.443Z"
-    },
-    "89cd937d93c6fa2a": {
-      "url": "https://news.yahoo.co.jp/pickup/6590323?source=rss",
-      "summaryJa": [
-        "地震と雲を関係付ける誤情報 注意",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-02T20:19:12.443Z"
-    },
-    "a11f954e0dcda3ac": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015193981000",
-      "summaryJa": [
-        "2日も晴れて気温が上がり、高知県と和歌山県で40度を超える酷暑日となったほか、全国の40を超える観測点で観測史上、最も高い気温を観測する記録的な暑さとなりました",
-        "さらに、3日は熊本市など九州で酷暑日が…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-02T20:19:12.443Z"
-    },
-    "bf09ce46557e5a94": {
-      "url": "https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/",
-      "summaryJa": [
-        "Rooting, firmware analysis and persistent credenti",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-02T20:19:12.443Z"
-    },
-    "0aeb376780235985": {
-      "url": "https://github.com/microsoft/skill-recorder",
-      "summaryJa": [
-        "Record yourself doing a task once, then turn it into a skill your AI agent can r",
-        "Skill Recorder captures a real work session on your screen: the clicks, the app ",
-        "It then uses the GitHub Copilot CLI to reconstr."
-      ],
-      "cachedAt": "2026-08-02T20:19:12.443Z"
-    },
-    "5df1a6b28697ecfb": {
-      "url": "https://github.com/abey79/vpype",
-      "summaryJa": [
-        "The Swiss-Army-knife command-line tool for plotter vector graphics.",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-02T20:19:12.443Z"
-    },
     "5f8ccbbeab9f9310": {
       "url": "https://zenn.dev/hellohazime/articles/kimi_k3_reap640_512gb_mac",
       "summaryJa": [
@@ -15147,6 +15075,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-10-31T20:18:42.761Z"
+    },
+    "cfddc492a1fbb9fa": {
+      "url": "https://zenn.dev/shozotanaka/articles/01877d688dfc65",
+      "summaryJa": [
+        "概要 2026年10月初頭、NVIDIA RTX Sparkを搭載したノートPCの出荷が開始されました。",
+        "最大128GBのユニファイドメモリと最大6,144 CUDAコアのBlackwell RTX GPUを搭載できるRTX Sparkは、これまでのWindowsノ",
+        "筆者が現在使用しているのは、RAM 16GB、VRAM 6GB（GeForce RTX 4050 Laptop GPU）を搭載したノートPCです。"
+      ],
+      "cachedAt": "2026-11-01T02:48:06.037Z"
+    },
+    "1809302af5b6e260": {
+      "url": "https://zenn.dev/kauche/articles/f3736c660aab77",
+      "summaryJa": [
+        "3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点） この記事の下書きは、メンバーの 1",
+        "そのメンバーが加筆と修正をしています。",
+        "3 人のチーム「いくぜカウシェ」で ISUCON2026."
+      ],
+      "cachedAt": "2026-11-01T02:48:06.037Z"
+    },
+    "e3c87c681279156e": {
+      "url": "https://zenn.dev/comamoca/articles/2026-10-30-trying-hello-world-with-goda-vim",
+      "summaryJa": [
+        "トリックオアトリート！",
+        "お菓子をくれなきゃあなたを今後Vim/Neovim/Emacsしか使えない体にします。",
+        "こまもかです。"
+      ],
+      "cachedAt": "2026-11-01T02:48:06.037Z"
+    },
+    "2f8f2a14b01c9a21": {
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "summaryJa": [
+        "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007.",
+        "<p><a href=\"https:&#x2F;&#x2F;hackertube.",
+        "org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hackertube."
+      ],
+      "cachedAt": "2026-11-01T02:48:06.037Z"
+    },
+    "a3e34d3a8910f0f2": {
+      "url": "https://qiita.com/tetsuro731/items/65590daa94499e705850?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに AIエージェントにコードを書かせるのが当たり前になった。",
+        "AIはリポジトリのコードを読めば、「何がどう実装されているか」を正確に把握してくれる。",
+        "ただ、コードをいくら読んでもわからないことがある。"
+      ],
+      "cachedAt": "2026-11-01T02:48:06.037Z"
+    },
+    "eda93f8752404811": {
+      "url": "https://zenn.dev/paraponera/articles/2026-10-31-isucon-2026-isureal",
+      "summaryJa": [
+        "はじめに 船長（せんちょう）と申します。",
+        "2年ぶりに開催された ISUCON 2026 に、初めて出てきました。",
+        "実務でパフォーマンスチューニングをやった経験はほぼないです。"
+      ],
+      "cachedAt": "2026-11-01T02:48:06.037Z"
+    },
+    "b1b5dd45fcabe7b5": {
+      "url": "https://abhinavsarkar.net/posts/lc3-disassembler/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-01T02:48:06.038Z"
+    },
+    "05defb0a65495b1d": {
+      "url": "https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-01T02:48:06.038Z"
+    },
+    "a646dccb670a7ad2": {
+      "url": "https://futhark-lang.org/blog/2026-10-31-faster-copying.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-01T02:48:06.038Z"
     }
   }
 }

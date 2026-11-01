@@ -1,0 +1,485 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 228,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-01",
+  "dateDisplay": "Sunday, November 1, 2026",
+  "pressTimeJst": "2026-11-01 12:00",
+  "generatedAt": "2026-11-01T02:47:34.424Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "制約下の駆動と意図の記述",
+    "note": "限られた手元のリソースで工夫して動かす試みと、将来の自分やAIへ設計理由を渡すドキュメンテーションが交差する昼刊。"
+  },
+  "editorial": {
+    "comment": "16GBのノートPCで20Bモデルを自作ゲームエンジン上に通す記事（zenn-trend-cfddc492）には、手元の限られたリソースで泥臭く工夫するモノづくりの真骨頂があります。大物クラウドを借りなくても自分の端末で仕掛けを動かす手触りは、創作の原動力そのものです。 —— YZRS Times 編集長",
+    "passedOver": "GMOの不正アクセス問題やrobots.txtによるAI学習拒否の標準化など時事的なニュースが相次ぎましたが、午後の作業の手を動かすインプットに特化するため昼刊では見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "曇り",
+    "icon": "cloudy",
+    "tempMax": 20,
+    "tempMin": 13,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 34,
+      "label": "Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 77618,
+        "priceJpy": 12231100,
+        "change24hPct": 0.31,
+        "sparkline7d": [
+          80809.39,
+          80172.67,
+          79657.71,
+          80596.23,
+          81172.94,
+          76832.97,
+          77577.87
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2265.13,
+        "priceJpy": 356939,
+        "change24hPct": 0.9,
+        "sparkline7d": [
+          2361.66,
+          2324.77,
+          2309.43,
+          2331.88,
+          2350.94,
+          2236.99,
+          2260.95
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.168802,
+        "priceJpy": 26.6,
+        "change24hPct": -0.47,
+        "sparkline7d": [
+          0.172137,
+          0.169132,
+          0.167466,
+          0.169457,
+          0.17217,
+          0.167916,
+          0.169187
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 285.14,
+        "priceJpy": 44932,
+        "change24hPct": -1.91,
+        "sparkline7d": [
+          277.8,
+          282.9,
+          281.17,
+          294.58,
+          288.24,
+          289.28,
+          285.53
+        ]
+      }
+    ]
+  },
+  "top": [
+    "zenn-trend-cfddc492",
+    "hatebu-it-1809302a",
+    "zenn-trend-e3c87c68"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hatebu-it-a317fa20",
+        "hn-front-15d29738"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "qiita-popular-a3e34d3a",
+        "zenn-trend-eda93f87"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-b1b5dd45",
+        "lobsters-05defb0a",
+        "lobsters-a646dccb"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "zenn-trend-cfddc492",
+      "title": "16GB RAM・6GB VRAM のノート PC で gpt-oss-20b とチャットする",
+      "url": "https://zenn.dev/shozotanaka/articles/01877d688dfc65",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-31T08:47:05.000Z",
+      "summaryJa": [
+        "概要 2026年10月初頭、NVIDIA RTX Sparkを搭載したノートPCの出荷が開始されました。",
+        "最大128GBのユニファイドメモリと最大6,144 CUDAコアのBlackwell RTX GPUを搭載できるRTX Sparkは、これまでのWindowsノ",
+        "筆者が現在使用しているのは、RAM 16GB、VRAM 6GB（GeForce RTX 4050 Laptop GPU）を搭載したノートPCです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "16GB",
+        "RAM",
+        "6GB",
+        "VRAM",
+        "PC"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-1809302a",
+      "title": "3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点）",
+      "url": "https://zenn.dev/kauche/articles/f3736c660aab77",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-31T15:02:52.000Z",
+      "summaryJa": [
+        "3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点） この記事の下書きは、メンバーの 1",
+        "そのメンバーが加筆と修正をしています。",
+        "3 人のチーム「いくぜカウシェ」で ISUCON2026."
+      ],
+      "category": "programming",
+      "keywords": [
+        "人それぞれの",
+        "Claude",
+        "Code",
+        "Slack",
+        "ISUCON2026"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 61,
+          "ageHours": 12,
+          "crossSources": 2,
+          "velocity": 5.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-e3c87c68",
+      "title": "【最速解説】goda.vimでHello, worldする",
+      "url": "https://zenn.dev/comamoca/articles/2026-10-30-trying-hello-world-with-goda-vim",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-31T01:57:43.000Z",
+      "summaryJa": [
+        "トリックオアトリート！",
+        "お菓子をくれなきゃあなたを今後Vim/Neovim/Emacsしか使えない体にします。",
+        "こまもかです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "最速解説",
+        "goda.vimでHello",
+        "worldする"
+      ],
+      "heat": {
+        "temperature": 47,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 25,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-a317fa20",
+      "title": "OpenAI アルトマンCEO「PCに大量のRAMを搭載するのは問題」と発言。ローカルAIより「クラウドで24時間活用すべき」との考え語る | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/10/31/5657.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-31T07:41:11.000Z",
+      "summaryJa": [
+        "ガジェット全般、サイエンス、宇宙、音楽、モータースポーツetc.",
+        ".",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "OpenAI",
+        "アルトマンCEO",
+        "PCに大量のRAMを搭載するのは問題",
+        "ローカルAIより",
+        "クラウドで24時間活用すべき"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 240,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 12.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-15d29738",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-31T19:56:53.000Z",
+      "summaryJa": [
+        "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007.",
+        "<p><a href=\"https:&#x2F;&#x2F;hackertube.",
+        "org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hackertube."
+      ],
+      "category": "tech",
+      "keywords": [
+        "HackerTube",
+        "YouTube",
+        "videos",
+        "recommended"
+      ],
+      "heat": {
+        "temperature": 89,
+        "signals": {
+          "hnPoints": 787,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 115
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-a3e34d3a",
+      "title": "ADRを書いて、AIに \"Why\" を理解させよう【Architecture Decision Record】",
+      "url": "https://qiita.com/tetsuro731/items/65590daa94499e705850?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-31T05:31:15.000Z",
+      "summaryJa": [
+        "はじめに AIエージェントにコードを書かせるのが当たり前になった。",
+        "AIはリポジトリのコードを読めば、「何がどう実装されているか」を正確に把握してくれる。",
+        "ただ、コードをいくら読んでもわからないことがある。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "ADRを書いて",
+        "AIに",
+        "Architecture",
+        "Decision",
+        "Record"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 21,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-eda93f87",
+      "title": "ISUCONに初めて出たら、直すたびに次のボトルネックが出てきて、超面白かった",
+      "url": "https://zenn.dev/paraponera/articles/2026-10-31-isucon-2026-isureal",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-31T12:17:24.000Z",
+      "summaryJa": [
+        "はじめに 船長（せんちょう）と申します。",
+        "2年ぶりに開催された ISUCON 2026 に、初めて出てきました。",
+        "実務でパフォーマンスチューニングをやった経験はほぼないです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "ISUCONに初めて出たら",
+        "直すたびに次のボトルネックが出てきて",
+        "超面白かった"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-b1b5dd45",
+      "title": "An LC-3 Disassembler in Haskell",
+      "url": "https://abhinavsarkar.net/posts/lc3-disassembler/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-31T16:08:42.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "LC",
+        "Disassembler",
+        "Haskell"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-05defb0a",
+      "title": "Novellas with groff",
+      "url": "https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-31T20:31:13.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Novellas",
+        "groff"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-a646dccb",
+      "title": "Speeding up GPU copies by permuting iteration spaces, or, optimising the identity function",
+      "url": "https://futhark-lang.org/blog/2026-10-31-faster-copying.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-31T17:03:04.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Speeding",
+        "GPU",
+        "copies",
+        "permuting",
+        "iteration"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-913585d4",
+      "title": "1Password/typeshare — Typeshare is the ultimate tool for synchronizing your type definitions between Rust and other languages for seamless FFI.",
+      "url": "https://github.com/1Password/typeshare",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-01T00:30:06Z",
+      "summaryJa": [
+        "Typeshare is the ultimate tool for synchronizing your type definitions between R",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "1Password/typeshare",
+        "Typeshare",
+        "ultimate",
+        "tool",
+        "synchronizing"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "Rustの型定義を他言語と同期させるTypeshareは、言語の境界を跨ぐ開発の煩わしさを一気に解消してくれます。ツールチェインの繋ぎ目にこだわりたい作風のあなたにぴったりです。"
+  },
+  "unavailableSources": []
+}

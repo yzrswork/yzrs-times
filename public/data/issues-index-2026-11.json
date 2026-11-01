@@ -8,6 +8,13 @@
       "edition": "morning",
       "theme": "手のひらの集積と、届かぬ警告",
       "path": "issues/2026-11-01-morning.json"
+    },
+    {
+      "issueNo": 228,
+      "date": "2026-11-01",
+      "edition": "midday",
+      "theme": "制約下の駆動と意図の記述",
+      "path": "issues/2026-11-01-midday.json"
     }
   ]
 }

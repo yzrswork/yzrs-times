@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 227,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 228,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-11-01",
   "dateDisplay": "Sunday, November 1, 2026",
-  "pressTimeJst": "2026-11-01 05:00",
-  "generatedAt": "2026-10-31T20:17:43.111Z",
+  "pressTimeJst": "2026-11-01 12:00",
+  "generatedAt": "2026-11-01T02:47:34.424Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,12 +14,12 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "手のひらの集積と、届かぬ警告",
-    "note": "80年代の高度に洗練された腕時計から、クラウド集約を説く現代の言説、そして事前警告の届かぬセキュリティ現場までを追う。"
+    "title": "制約下の駆動と意図の記述",
+    "note": "限られた手元のリソースで工夫して動かす試みと、将来の自分やAIへ設計理由を渡すドキュメンテーションが交差する昼刊。"
   },
   "editorial": {
-    "comment": "80年代のカシオの腕時計を振り返る記事には、極小の基盤上に制限されたボタンと液晶だけでいかに豊かな機能を詰め込むかという、ものづくりの原点がありました。クラウド上の無制限な計算資源に頼る前に、手元の限られた領域で何を結実させられるかという問いは、現代のプログラマやクリエイターにとっても深く刺さるものです。 —— YZRS Times 編集長",
-    "passedOver": "トランプ氏の米中間選挙遊説に関する政情ニュースや複数件発生しているウクライナ情勢の報は、手元の創作や技術探求に直接対話する視点が薄いため見送りました。",
+    "comment": "16GBのノートPCで20Bモデルを自作ゲームエンジン上に通す記事（zenn-trend-cfddc492）には、手元の限られたリソースで泥臭く工夫するモノづくりの真骨頂があります。大物クラウドを借りなくても自分の端末で仕掛けを動かす手触りは、創作の原動力そのものです。 —— YZRS Times 編集長",
+    "passedOver": "GMOの不正アクセス問題やrobots.txtによるAI学習拒否の標準化など時事的なニュースが相次ぎましたが、午後の作業の手を動かすインプットに特化するため昼刊では見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
@@ -32,134 +32,199 @@
   },
   "market": {
     "fearGreed": {
-      "value": 30,
+      "value": 34,
       "label": "Fear"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 77527,
-        "priceJpy": 12216669,
-        "change24hPct": 0.88,
+        "priceUsd": 77618,
+        "priceJpy": 12231100,
+        "change24hPct": 0.31,
         "sparkline7d": [
-          80431.4,
-          80048.85,
-          79703.86,
-          80992.73,
-          80202.56,
-          77090.78,
-          77532.33
+          80809.39,
+          80172.67,
+          79657.71,
+          80596.23,
+          81172.94,
+          76832.97,
+          77577.87
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2253.03,
-        "priceJpy": 355033,
-        "change24hPct": 0.62,
+        "priceUsd": 2265.13,
+        "priceJpy": 356939,
+        "change24hPct": 0.9,
         "sparkline7d": [
-          2338.62,
-          2326.83,
-          2311.34,
-          2358.24,
-          2325.9,
-          2235.94,
-          2253.98
+          2361.66,
+          2324.77,
+          2309.43,
+          2331.88,
+          2350.94,
+          2236.99,
+          2260.95
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.169773,
-        "priceJpy": 26.75,
-        "change24hPct": 1.33,
+        "priceUsd": 0.168802,
+        "priceJpy": 26.6,
+        "change24hPct": -0.47,
         "sparkline7d": [
-          0.170273,
-          0.167986,
-          0.168039,
-          0.171822,
-          0.16988,
-          0.166251,
-          0.169406
+          0.172137,
+          0.169132,
+          0.167466,
+          0.169457,
+          0.17217,
+          0.167916,
+          0.169187
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 286.05,
-        "priceJpy": 45076,
-        "change24hPct": -1.45,
+        "priceUsd": 285.14,
+        "priceJpy": 44932,
+        "change24hPct": -1.91,
         "sparkline7d": [
-          274.64,
-          278.46,
-          281.37,
-          297.39,
-          280.76,
-          287.49,
-          287.94
+          277.8,
+          282.9,
+          281.17,
+          294.58,
+          288.24,
+          289.28,
+          285.53
         ]
       }
     ]
   },
   "top": [
-    "hn-front-4c828a12",
-    "hatebu-it-a317fa20",
-    "nhk-top-431a024a"
+    "zenn-trend-cfddc492",
+    "hatebu-it-1809302a",
+    "zenn-trend-e3c87c68"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "yahoo-topics-4d36a5a6",
-        "nhk-top-0d46fb2e",
-        "nhk-top-92729886"
+        "hatebu-it-a317fa20",
+        "hn-front-15d29738"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hn-front-07e6e25d",
-        "hatebu-it-22ba7b37"
+        "qiita-popular-a3e34d3a",
+        "zenn-trend-eda93f87"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-ccbd37e7"
+        "lobsters-b1b5dd45",
+        "lobsters-05defb0a",
+        "lobsters-a646dccb"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hn-front-4c828a12",
-      "title": "Casio Watches of the 1980s",
-      "url": "https://www.casio.com/us/watches/50th/Heritage/1980s/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-31T16:00:48.000Z",
+      "id": "zenn-trend-cfddc492",
+      "title": "16GB RAM・6GB VRAM のノート PC で gpt-oss-20b とチャットする",
+      "url": "https://zenn.dev/shozotanaka/articles/01877d688dfc65",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-31T08:47:05.000Z",
       "summaryJa": [
-        "Casio Watches of the 1980s",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
+        "概要 2026年10月初頭、NVIDIA RTX Sparkを搭載したノートPCの出荷が開始されました。",
+        "最大128GBのユニファイドメモリと最大6,144 CUDAコアのBlackwell RTX GPUを搭載できるRTX Sparkは、これまでのWindowsノ",
+        "筆者が現在使用しているのは、RAM 16GB、VRAM 6GB（GeForce RTX 4050 Laptop GPU）を搭載したノートPCです。"
       ],
-      "category": "tech",
+      "category": "programming",
       "keywords": [
-        "Casio",
-        "Watches",
-        "1980s"
+        "16GB",
+        "RAM",
+        "6GB",
+        "VRAM",
+        "PC"
       ],
       "heat": {
-        "temperature": 85,
+        "temperature": 49,
         "signals": {
-          "hnPoints": 161,
+          "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 4,
+          "ageHours": 18,
           "crossSources": 1,
-          "velocity": 37.6
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-1809302a",
+      "title": "3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点）",
+      "url": "https://zenn.dev/kauche/articles/f3736c660aab77",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-10-31T15:02:52.000Z",
+      "summaryJa": [
+        "3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点） この記事の下書きは、メンバーの 1",
+        "そのメンバーが加筆と修正をしています。",
+        "3 人のチーム「いくぜカウシェ」で ISUCON2026."
+      ],
+      "category": "programming",
+      "keywords": [
+        "人それぞれの",
+        "Claude",
+        "Code",
+        "Slack",
+        "ISUCON2026"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 61,
+          "ageHours": 12,
+          "crossSources": 2,
+          "velocity": 5.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-e3c87c68",
+      "title": "【最速解説】goda.vimでHello, worldする",
+      "url": "https://zenn.dev/comamoca/articles/2026-10-30-trying-hello-world-with-goda-vim",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-31T01:57:43.000Z",
+      "summaryJa": [
+        "トリックオアトリート！",
+        "お菓子をくれなきゃあなたを今後Vim/Neovim/Emacsしか使えない体にします。",
+        "こまもかです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "最速解説",
+        "goda.vimでHello",
+        "worldする"
+      ],
+      "heat": {
+        "temperature": 47,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 25,
+          "crossSources": 1,
+          "velocity": 0
         }
       },
       "image": null
@@ -185,41 +250,74 @@
         "クラウドで24時間活用すべき"
       ],
       "heat": {
-        "temperature": 83,
+        "temperature": 80,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 163,
-          "ageHours": 13,
+          "hatebuCount": 240,
+          "ageHours": 19,
           "crossSources": 1,
-          "velocity": 12.9
+          "velocity": 12.6
         }
       },
       "image": null
     },
     {
-      "id": "nhk-top-431a024a",
-      "title": "GMO 子会社が2年前にシステムのぜい弱性を指摘 社長あす会見へ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261031de69037",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-31T20:09:50.000Z",
+      "id": "hn-front-15d29738",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-10-31T19:56:53.000Z",
       "summaryJa": [
-        "GMOインターネットグループの為替取引に関するサービスが不正アクセスを受けた問題で、2年前に子会社のセキュリティー企業がシステムのぜい弱性を指摘していたことが関",
-        "熊谷正寿社…",
-        "詳細は元記事を参照してください。"
+        "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007.",
+        "<p><a href=\"https:&#x2F;&#x2F;hackertube.",
+        "org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hackertube."
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "GMO",
-        "子会社が2年前にシステムのぜい弱性を指摘",
-        "社長あす会見へ"
+        "HackerTube",
+        "YouTube",
+        "videos",
+        "recommended"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 89,
+        "signals": {
+          "hnPoints": 787,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 115
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-a3e34d3a",
+      "title": "ADRを書いて、AIに \"Why\" を理解させよう【Architecture Decision Record】",
+      "url": "https://qiita.com/tetsuro731/items/65590daa94499e705850?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-10-31T05:31:15.000Z",
+      "summaryJa": [
+        "はじめに AIエージェントにコードを書かせるのが当たり前になった。",
+        "AIはリポジトリのコードを読めば、「何がどう実装されているか」を正確に把握してくれる。",
+        "ただ、コードをいくら読んでもわからないことがある。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "ADRを書いて",
+        "AIに",
+        "Architecture",
+        "Decision",
+        "Record"
+      ],
+      "heat": {
+        "temperature": 48,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 21,
           "crossSources": 1,
           "velocity": 0
         }
@@ -227,21 +325,81 @@
       "image": null
     },
     {
-      "id": "yahoo-topics-4d36a5a6",
-      "title": "クラブツーリズム 432万件流出か",
-      "url": "https://news.yahoo.co.jp/pickup/6600875?source=rss",
-      "source": "Yahoo!ニュース トピックス",
-      "sourceId": "yahoo-topics",
-      "publishedAt": "2026-10-31T14:04:30.000Z",
+      "id": "zenn-trend-eda93f87",
+      "title": "ISUCONに初めて出たら、直すたびに次のボトルネックが出てきて、超面白かった",
+      "url": "https://zenn.dev/paraponera/articles/2026-10-31-isucon-2026-isureal",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-10-31T12:17:24.000Z",
       "summaryJa": [
-        "クラブツーリズム 432万件流出か",
-        "出典: Yahoo!ニュース トピックス",
+        "はじめに 船長（せんちょう）と申します。",
+        "2年ぶりに開催された ISUCON 2026 に、初めて出てきました。",
+        "実務でパフォーマンスチューニングをやった経験はほぼないです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "ISUCONに初めて出たら",
+        "直すたびに次のボトルネックが出てきて",
+        "超面白かった"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-b1b5dd45",
+      "title": "An LC-3 Disassembler in Haskell",
+      "url": "https://abhinavsarkar.net/posts/lc3-disassembler/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-31T16:08:42.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "クラブツーリズム",
-        "432万件流出か"
+        "LC",
+        "Disassembler",
+        "Haskell"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-05defb0a",
+      "title": "Novellas with groff",
+      "url": "https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-31T20:31:13.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Novellas",
+        "groff"
       ],
       "heat": {
         "temperature": 53,
@@ -256,23 +414,24 @@
       "image": null
     },
     {
-      "id": "nhk-top-0d46fb2e",
-      "title": "北海道 JR宗谷線特急 ヒグマと衝突で脱線 1日も運転見合わせ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261031de68820",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-31T10:22:00.000Z",
+      "id": "lobsters-a646dccb",
+      "title": "Speeding up GPU copies by permuting iteration spaces, or, optimising the identity function",
+      "url": "https://futhark-lang.org/blog/2026-10-31-faster-copying.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-10-31T17:03:04.000Z",
       "summaryJa": [
-        "先月30日夜、北海道のJR宗谷線で稚内駅へ向かう特急列車がヒグマと衝突し、先頭車両が脱線しました。",
-        "乗客と乗員にけがはありませんでした。",
-        "1987年にJR北海道が発足してから、ヒグマとの衝突による脱線事故…"
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "北海道",
-        "JR宗谷線特急",
-        "ヒグマと衝突で脱線",
-        "1日も運転見合わせ"
+        "Speeding",
+        "GPU",
+        "copies",
+        "permuting",
+        "iteration"
       ],
       "heat": {
         "temperature": 52,
@@ -285,160 +444,42 @@
         }
       },
       "image": null
-    },
-    {
-      "id": "nhk-top-92729886",
-      "title": "スペイン高速列車事故 “後続列車に停止措置とらず 信号も青”",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261031de68821",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-10-31T08:42:00.000Z",
-      "summaryJa": [
-        "スペイン中部で高速鉄道の列車が別の列車に追突し60人以上が死亡した事故で、先行の列車が運転を再開できないことを把握しながら、運転指令センターが後続の列車に停止さ",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "スペイン高速列車事故",
-        "後続列車に停止措置とらず",
-        "信号も青"
-      ],
-      "heat": {
-        "temperature": 56,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 12,
-          "crossSources": 2,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-07e6e25d",
-      "title": "Malware uses LLMs to rank victims by how much they're worth",
-      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-10-31T14:29:03.000Z",
-      "summaryJa": [
-        "Malware uses LLMs to rank victims by how much they",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Malware",
-        "uses",
-        "LLMs",
-        "rank",
-        "victims"
-      ],
-      "heat": {
-        "temperature": 83,
-        "signals": {
-          "hnPoints": 205,
-          "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 1,
-          "velocity": 35.3
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-22ba7b37",
-      "title": "もう無理｜ひでと",
-      "url": "https://note.com/happy_dahlia405/n/n1b16c06e71e6",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-10-31T01:30:40.000Z",
-      "summaryJa": [
-        "はじめに精神的にもう無理、というときに開くためのWebページを作りました。",
-        "https://ogawahideto.",
-        "github."
-      ],
-      "category": "programming",
-      "keywords": [
-        "programming"
-      ],
-      "heat": {
-        "temperature": 76,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 153,
-          "ageHours": 19,
-          "crossSources": 1,
-          "velocity": 8.1
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "gtrends-jp-ccbd37e7",
-      "title": "整体",
-      "url": "https://trends.google.com/trending/rss?geo=JP",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-10-31T20:00:00.000Z",
-      "summaryJa": [
-        "早期天候情報",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "trends",
-      "keywords": [
-        "整体"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
     }
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-0839244c",
-      "title": "chrisryugj/kordoc — 모두 파싱해버리겠다 — HWP·HWPX·PDF·Office 문서를 Markdown으로. 양식 자동 채우기와 신구대조를 갖춘 CLI·MCP 서버 | Convert Korean documents (HWP, HWPX, PDF, Office) to Markdown — CLI and MCP server with form filling and diff",
-      "url": "https://github.com/chrisryugj/kordoc",
+      "id": "github-gems-913585d4",
+      "title": "1Password/typeshare — Typeshare is the ultimate tool for synchronizing your type definitions between Rust and other languages for seamless FFI.",
+      "url": "https://github.com/1Password/typeshare",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-10-31T19:49:21Z",
+      "publishedAt": "2026-11-01T00:30:06Z",
       "summaryJa": [
-        "모두 파싱해버리겠다 — HWP·HWPX·PDF·Office 문서를 Markdown으로.",
-        "양식 자동 채우기와 신구대조를 갖춘 CLI·MCP 서버 | Convert Korean documents (HWP, HWPX, PDF, Offic",
+        "Typeshare is the ultimate tool for synchronizing your type definitions between R",
+        "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "chrisryugj/kordoc",
-        "모두",
-        "파싱해버리겠다",
-        "HWP·HWPX·PDF·Office",
-        "문서를"
+        "1Password/typeshare",
+        "Typeshare",
+        "ultimate",
+        "tool",
+        "synchronizing"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 54,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 2,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "複雑なフォーマットを持つHWPやOffice文書をMarkdownへと正確に変換し、MCPサーバーとしても機能する実践的なツールです。ドキュメントの解体と再構築を泥臭く自動化する姿勢は、構造化データを扱う作風に大きな示唆を与えてくれます。"
+    "reason": "Rustの型定義を他言語と同期させるTypeshareは、言語の境界を跨ぐ開発の煩わしさを一気に解消してくれます。ツールチェインの繋ぎ目にこだわりたい作風のあなたにぴったりです。"
   },
   "unavailableSources": []
 }
