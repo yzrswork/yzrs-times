@@ -1,78 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "967491fbfdd428b2": {
-      "url": "https://levtech.jp/media/detail_902/",
-      "summaryJa": [
-        "プログラマー フリーソフト・シェアウェア開発者 たかぼー 静岡県浜松市在住。",
-        "システムエンジニア、プログラマーとして長年ソフトウェア開発に携わる。",
-        "個人としては「TAKABO SOFT」名義にて、ドット絵エディタ「EDGE」や、シェアウェア「EDGE2」を開発。"
-      ],
-      "cachedAt": "2026-08-04T02:50:32.719Z"
-    },
-    "35b568b1d098f869": {
-      "url": "https://zenn.dev/jtechjapan_pub/articles/intent-cli-herdr-orchestration",
-      "summaryJa": [
-        "株式会社ジェイテックジャパン CTOの高丘 @tomohisaです。",
-        "AIエージェントを4体、止まりを見つけて再開させながら回して開発を進める、ということを日常的にやっています。",
-        "設計・オーケストレーション・実装・レビューの4スレッドが、GitHub の Issue と PR を通じて協調する仕組みです。"
-      ],
-      "cachedAt": "2026-08-04T02:50:32.719Z"
-    },
-    "f24dd03a59f6594d": {
-      "url": "https://qiita.com/jqit_suwa/items/2dee3e3d53080c3676a0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "36.",
-        "2%。",
-        "これ、何の数字だと思いますか。"
-      ],
-      "cachedAt": "2026-08-04T02:50:32.719Z"
-    },
-    "87da4fd2d88c7015": {
-      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
-      "summaryJa": [
-        "LLMs reward expertise",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-04T02:50:32.719Z"
-    },
-    "7745990cfc57d41e": {
-      "url": "https://qiita.com/jqit_suwa/items/2adb0c35fffb41514791?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "プロンプトには、こう書いてありました。",
-        "この環境はシミュレーションです。",
-        "インターネットへのアクセスはありません。"
-      ],
-      "cachedAt": "2026-08-04T02:50:32.719Z"
-    },
-    "d318d4f519e07be7": {
-      "url": "https://www.crowdsupply.com/baochip/dabao",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-04T02:50:32.719Z"
-    },
-    "8c0563f07539e1d5": {
-      "url": "https://www.youtube.com/watch?v=V_qzqY1bb7I",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-04T02:50:32.719Z"
-    },
-    "d391748e5c28bf53": {
-      "url": "https://john.fun/elevators",
-      "summaryJa": [
-        "Show HN: Elevators",
-        "出典: Show HN",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-04T02:50:32.719Z"
-    },
     "30ee77cf1904f21b": {
       "url": "https://toneyalexander.github.io/inclusive-color-space/",
       "summaryJa": [
@@ -15138,6 +15066,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-02T02:47:58.895Z"
+    },
+    "ac308236b931a9ca": {
+      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002806/",
+      "summaryJa": [
+        "GMOインターネットグループの熊谷正寿代表は11月2日、傘下のGMOインターネットが提供するFX自動売買用VPS「お名前.",
+        "com デスクトップクラウド」への不正アクセスを巡って記者会見を開き、「お客さまをお守りすることができず、誠に申し訳ありませんでした」と謝罪した。",
+        "10月21日に不正アクセスを公表して以来、GMOインタ."
+      ],
+      "cachedAt": "2026-11-02T20:20:32.096Z"
+    },
+    "635efc8e6dbb2691": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261102de69780",
+      "summaryJa": [
+        "大手家電量販店のノジマは、会社が運営するネット通販サイトの会員管理システムが不正アクセスを受け、会員の個人情報およそ700万件が漏えいしたと発表しました。",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-02T20:20:32.096Z"
+    },
+    "c0d02fcdb2978af8": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261103de69868",
+      "summaryJa": [
+        "トランプ政権に対する有権者の評価が事実上、示されるアメリカの中間選挙は、日本時間の3日夜に投票が始まります。",
+        "トランプ大統領は投票日前日の2日、首都ワシントンで演説し、投票前日まで、激しい選挙戦が続いて…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-02T20:20:32.096Z"
+    },
+    "34bacd6eb84000e1": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261102de69807",
+      "summaryJa": [
+        "企業の業務を代行する事業を行う「プレステージ・インターナショナル」は2日、グループ会社のシステムが不正アクセスを受け、最大でおよそ550万件の個人情報が漏えいし",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-02T20:20:32.096Z"
+    },
+    "088a8b55a70728b1": {
+      "url": "https://zenn.dev/luvtechno/articles/isucon2026-competition-day",
+      "summaryJa": [
+        "当日の様子 8:53 用意していた agent skill で、競技エージェントの起動依頼をして、競技エージェントに渡すPlaywrightのセッションでポータ",
+        "この後は、競技エージェントには一度も指示を入力しませんでした。",
+        "左の pane が起動に使う Claude Code のセッションで、右の pane が競技エージェント実."
+      ],
+      "cachedAt": "2026-11-02T20:20:32.096Z"
+    },
+    "f9ecf66c18226a74": {
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "summaryJa": [
+        "Astra can read and write weights to improve Qwen",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-02T20:20:32.096Z"
+    },
+    "0db7b6f459a78855": {
+      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "summaryJa": [
+        "Anthropic's internal AI use, at retail prices, now",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-02T20:20:32.096Z"
+    },
+    "ea307d35f7398452": {
+      "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+      "summaryJa": [
+        "Anthropic reveals $900B AI spending commitments ah",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-02T20:20:32.096Z"
     }
   }
 }

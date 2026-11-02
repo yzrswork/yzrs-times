@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 231,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-03",
+  "dateDisplay": "Tuesday, November 3, 2026",
+  "pressTimeJst": "2026-11-03 05:00",
+  "generatedAt": "2026-11-02T20:17:44.344Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-flash-lite-latest",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "相次ぐ侵食と防壁の綻び",
+    "note": "大規模な個人情報流出やインフラへの不正アクセスが相次ぎ、安全神話のほころびが露わになった一日。"
+  },
+  "editorial": {
+    "comment": "ISUCON2026での優勝記（hatebu-it-088a8b55）にあるように、事前のエージェント設計で実務の大部分を自動化するアプローチは鮮やかです。一方で、相次ぐ不正アクセスや情報漏えいのニュースは、システム基盤の足元をどれだけ堅固に保つべきかという重い課題を突き付けています。 —— YZRS Times 編集長",
+    "passedOver": "海外のモデルへの巨額投資やAI関連の資金調達ニュースは多数ありましたが、足元のセキュリティインシデントの重さを優先し、見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ時々曇り",
+    "icon": "partly-cloudy",
+    "tempMax": 19,
+    "tempMin": 12,
+    "precipChancePct": 8
+  },
+  "market": {
+    "fearGreed": {
+      "value": 37,
+      "label": "Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 76899,
+        "priceJpy": 12142358,
+        "change24hPct": -1.03,
+        "sparkline7d": [
+          79911.72,
+          80800.83,
+          79761.64,
+          78064.93,
+          77341.12,
+          77994.7,
+          76922.05
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2250.11,
+        "priceJpy": 355295,
+        "change24hPct": -0.21,
+        "sparkline7d": [
+          2315.34,
+          2347.32,
+          2306.17,
+          2233.69,
+          2242.8,
+          2269.91,
+          2251.13
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.164676,
+        "priceJpy": 26,
+        "change24hPct": -1.36,
+        "sparkline7d": [
+          0.16796,
+          0.170293,
+          0.167617,
+          0.165778,
+          0.168587,
+          0.16859,
+          0.165296
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 277.79,
+        "priceJpy": 43863,
+        "change24hPct": -0.46,
+        "sparkline7d": [
+          278.31,
+          295.76,
+          277.14,
+          281.65,
+          289.2,
+          284.48,
+          275.04
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-ac308236",
+    "nhk-top-635efc8e",
+    "nhk-top-c0d02fcd"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-34bacd6e"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-088a8b55",
+        "hn-front-587c63ef",
+        "hn-front-d962c340",
+        "hn-front-c2ba7dfd"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-ccbd37e7"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-ac308236",
+      "title": "GMO熊谷代表、会見で改めて謝罪　SNS投稿巡り「配慮が欠けていた」",
+      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002806/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-02T07:17:57.000Z",
+      "summaryJa": [
+        "GMOインターネットグループの熊谷正寿代表は11月2日、傘下のGMOインターネットが提供するFX自動売買用VPS「お名前.",
+        "com デスクトップクラウド」への不正アクセスを巡って記者会見を開き、「お客さまをお守りすることができず、誠に申し訳ありませんでした」と謝罪した。",
+        "10月21日に不正アクセスを公表して以来、GMOインタ."
+      ],
+      "category": "programming",
+      "keywords": [
+        "GMO熊谷代表",
+        "会見で改めて謝罪",
+        "SNS投稿巡り",
+        "配慮が欠けていた"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 313,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 24.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-635efc8e",
+      "title": "ノジマ 不正アクセスで約700万件の個人情報漏えい",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261102de69780",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-02T10:16:00.000Z",
+      "summaryJa": [
+        "大手家電量販店のノジマは、会社が運営するネット通販サイトの会員管理システムが不正アクセスを受け、会員の個人情報およそ700万件が漏えいしたと発表しました。",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ノジマ"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-c0d02fcd",
+      "title": "アメリカ中間選挙 日本時間の今夜 投票開始 激しい選挙戦続く",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261103de69868",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-02T20:07:25.000Z",
+      "summaryJa": [
+        "トランプ政権に対する有権者の評価が事実上、示されるアメリカの中間選挙は、日本時間の3日夜に投票が始まります。",
+        "トランプ大統領は投票日前日の2日、首都ワシントンで演説し、投票前日まで、激しい選挙戦が続いて…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "アメリカ中間選挙",
+        "日本時間の今夜",
+        "投票開始",
+        "激しい選挙戦続く"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-34bacd6e",
+      "title": "ロードサービス利用者の個人情報 最大約550万件漏えい",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261102de69807",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-02T11:46:20.000Z",
+      "summaryJa": [
+        "企業の業務を代行する事業を行う「プレステージ・インターナショナル」は2日、グループ会社のシステムが不正アクセスを受け、最大でおよそ550万件の個人情報が漏えいし",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ロードサービス利用者の個人情報",
+        "最大約550万件漏えい"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-088a8b55",
+      "title": "ISUCON2026 で優勝しました（当日編）",
+      "url": "https://zenn.dev/luvtechno/articles/isucon2026-competition-day",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-02T13:50:45.000Z",
+      "summaryJa": [
+        "当日の様子 8:53 用意していた agent skill で、競技エージェントの起動依頼をして、競技エージェントに渡すPlaywrightのセッションでポータ",
+        "この後は、競技エージェントには一度も指示を入力しませんでした。",
+        "左の pane が起動に使う Claude Code のセッションで、右の pane が競技エージェント実."
+      ],
+      "category": "programming",
+      "keywords": [
+        "ISUCON2026",
+        "当日編"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 76,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 11.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-587c63ef",
+      "title": "Astra can read and write weights to improve Qwen",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-02T18:21:28.000Z",
+      "summaryJa": [
+        "Astra can read and write weights to improve Qwen",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Astra",
+        "read",
+        "write",
+        "weights",
+        "improve"
+      ],
+      "heat": {
+        "temperature": 89,
+        "signals": {
+          "hnPoints": 713,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 367.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-d962c340",
+      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-02T16:40:29.000Z",
+      "summaryJa": [
+        "Anthropic's internal AI use, at retail prices, now",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Anthropic",
+        "internal",
+        "AI",
+        "retail",
+        "prices"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 205,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 56.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-c2ba7dfd",
+      "title": "Anthropic reveals $900B AI spending commitments ahead of IPO",
+      "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-02T19:36:37.000Z",
+      "summaryJa": [
+        "Anthropic reveals $900B AI spending commitments ah",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Anthropic",
+        "reveals",
+        "$900B",
+        "AI",
+        "spending"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 24,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 35
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "破産",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-02T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "破産"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "show-hn-538721fb",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "url": "https://hackerbooks.org",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2026-11-01T15:58:28.000Z",
+      "summaryJa": [
+        "Saw Karpathy&#x27;s HackerTube and wanted the same thing for books.",
+        "So I had Claude build one (Opus 5.",
+        "5)."
+      ],
+      "category": "tech",
+      "keywords": [
+        "HackerBooks",
+        "HackerTube",
+        "books",
+        "mentioned"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 1791,
+          "hatebuCount": 0,
+          "ageHours": 28,
+          "crossSources": 1,
+          "velocity": 63.2
+        }
+      },
+      "image": null
+    },
+    "reason": "Hacker Newsで言及された書籍を一網打尽にするこのデータベースは、読者の知的好奇心を刺激する優れた個人開発です。散らばった議論の断片を一つの美しい書庫にまとめる手仕事の温かみを感じてください。"
+  },
+  "unavailableSources": []
+}
