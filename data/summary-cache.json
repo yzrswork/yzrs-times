@@ -1,105 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "67f3850ffc0a3886": {
-      "url": "https://ameblo.jp/miyamotokarin-official/entry-12974640519.html",
-      "summaryJa": [
-        "こんにちは！",
-        "2020年までハロー！",
-        "プロジェクト Juice=Juiceで活動をし、卒業以降はソロで音楽活動をしております。"
-      ],
-      "cachedAt": "2026-08-03T20:20:10.078Z"
-    },
-    "bd7cfec7102c195d": {
-      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
-      "summaryJa": [
-        "SQLite Critical CVEs or LLM Slop?",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-03T20:20:10.078Z"
-    },
-    "1d7c82cecd9ac75c": {
-      "url": "https://zenn.dev/dress_code/articles/c73500ae73361c",
-      "summaryJa": [
-        "SDD は Spec-Driven Development（仕様駆動開発）のことで、仕様を源泉としてコードを書く・生成する開発スタイルを指しています。",
-        "Dress Code では OpenSpec を使って導入していて、その実践については別のメンバーが記事にしています。",
-        "データ層では Event Sourcing で「状態」ではなく「変化（イベント）」を残してい."
-      ],
-      "cachedAt": "2026-08-03T20:20:10.078Z"
-    },
-    "0931b40bac4ad907": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015195441000",
-      "summaryJa": [
-        "東京 日野市の多摩動物公園では2日までに飼育していたライオン3頭が相次いで死んだと発表しました。",
-        "動物園は熱中症の疑いがあるとみていて、今後詳しい調査を行うことにしています。",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-03T20:20:10.078Z"
-    },
-    "053067bf3f8fab8a": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015194581000",
-      "summaryJa": [
-        "7月28日に最大震度7の非常に激しい揺れを観測した熊本県では、地震活動が活発になっているほか、熊本市などで日中の最高気温が40度を超える初の酷暑日になり、4日も",
-        "気象庁は引き…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-03T20:20:10.078Z"
-    },
-    "29e8ae797b52a12a": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015195291000",
-      "summaryJa": [
-        "小学館の漫画アプリの編集部が、性加害事件を起こして連載が中止となった漫画家を別のペンネームで原作者として再び起用していた問題で、小学館が設置した第三者委員会は、",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-03T20:20:10.078Z"
-    },
-    "342a64417fb6de91": {
-      "url": "https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384",
-      "summaryJa": [
-        "概要 Claude CodeやCodexのようなAIコーディングエージェントは、コードの調査、実装、テスト、ドキュメント更新などをまとめて進められます。",
-        "小さな修正であれば、「この不具合を直してください」という指示だけでも十分な結果が得られることがあります。",
-        "一方、数十〜数百件のタスクを含む開発では、同じ進め方は通用."
-      ],
-      "cachedAt": "2026-08-03T20:20:10.078Z"
-    },
-    "d9432c0689e6667e": {
-      "url": "https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase",
-      "summaryJa": [
-        "Celebrating 45 Years of Kermit with the First New ",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-03T20:20:10.078Z"
-    },
-    "907ade74157a98c8": {
-      "url": "https://anond.hatelabo.jp/20260803162719",
-      "summaryJa": [
-        "こんにちは。",
-        "突然ですが、みなさんは仕事を効率化していますか？",
-        "僕はしていました。"
-      ],
-      "cachedAt": "2026-08-03T20:20:10.078Z"
-    },
-    "0f1a6267701c7d7d": {
-      "url": "https://blog.exe.dev/devtools-must-be-open-source",
-      "summaryJa": [
-        "Devtools must be open source",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-03T20:20:10.078Z"
-    },
-    "0aac257adf236073": {
-      "url": "https://github.com/Szybet/InkWatchy",
-      "summaryJa": [
-        "A firmware for the open source Watchy/Yatchy - with some unique features",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-03T20:20:10.078Z"
-    },
     "967491fbfdd428b2": {
       "url": "https://levtech.jp/media/detail_902/",
       "summaryJa": [
@@ -15138,6 +15039,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-01T20:18:03.207Z"
+    },
+    "8ffdc39a8470ef23": {
+      "url": "https://qiita.com/songchong/items/ac9779bb8e8838b546b9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "AI エージェントのトークン代を節約するには、どうすればよいでしょうか。",
+        "1 つの方法は、プロンプトキャッシュを上手に使うことです。",
+        "プロンプトキャッシュは、前の問い合わせと先頭が同じ部分を提供元のサーバーに保存しておき、次から安く読む仕組みです。"
+      ],
+      "cachedAt": "2026-11-02T02:47:58.895Z"
+    },
+    "10b16420fbc69bf2": {
+      "url": "https://ymotongpoo.hatenablog.com/entry/2026/11/02/093500",
+      "summaryJa": [
+        "はじめに こんにちは、Grafana Labsでデベロッパーアドボケイトをしているものです。",
+        "2026年10月31日、元同僚のJames Ward*1が、Xで「IaC is dead」と投稿しました。",
+        "AIがあれば、インフラの構成をコードで管理するIaC*2は不要になるという主張で、最後には共著書の宣伝が添えられていました。"
+      ],
+      "cachedAt": "2026-11-02T02:47:58.895Z"
+    },
+    "d1269238ce7a77bd": {
+      "url": "https://vinipsmaker.github.io/blog/article/pratt-parsing-is-a-black-box/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-02T02:47:58.895Z"
+    },
+    "9cabf7200f20aaa3": {
+      "url": "https://picon.dev/en/publications/ai-assisted-engineering/",
+      "summaryJa": [
+        "AI Can Write More of the Code. We Still Have to En",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-02T02:47:58.895Z"
+    },
+    "2692a3d46c0b6915": {
+      "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+      "summaryJa": [
+        "Lenovo's 'encrypted' fingerprint USB is just an un",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-02T02:47:58.895Z"
+    },
+    "b943505ef97e79df": {
+      "url": "https://qiita.com/ryo33/items/3a1a9d1ba2b289b23244?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに AIにコードを書いてもらうのが当たり前になってきました。",
+        "でも、こんなモヤモヤはありませんか？",
+        "AIが書いたコード、差分を全部読むのはもう限界 テストは通っている。"
+      ],
+      "cachedAt": "2026-11-02T02:47:58.895Z"
+    },
+    "28891262805141a9": {
+      "url": "https://qiita.com/nabe2030/items/0b89543adbf2ba60bf25?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "1.",
+        "背景：LLM モデルが勝手に外部にデータ送信！",
+        "？"
+      ],
+      "cachedAt": "2026-11-02T02:47:58.895Z"
+    },
+    "f84cb0e016bb1f36": {
+      "url": "https://zenn.dev/mazrean/articles/5c968503fd69a3",
+      "summaryJa": [
+        "ISUCON2026 に INUCON2026(いい感じに猫を動かすコンテスト ニャオニャム)として参加したのでその参加記です。",
+        "最終スコアは 198,146、順位としては 40~50 位あたりになりそうです。",
+        "ISUCON には ISUCON 9 から参加していて、ISUCON 12 からは「誰でも ISUCON 優勝クラスのチューニングができる」ようにできないかと思"
+      ],
+      "cachedAt": "2026-11-02T02:47:58.895Z"
+    },
+    "fea04d4ec8bf7c5a": {
+      "url": "https://karthinks.com/software/understanding-org-latex-preview/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-02T02:47:58.895Z"
+    },
+    "76c825b4d55f2fa6": {
+      "url": "https://www.youtube.com/watch?v=jWCQXBVIyrY",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-02T02:47:58.895Z"
+    },
+    "9e15b67e01d67260": {
+      "url": "https://www.jonashietala.se/blog/2026/06/26/designing_a_personal_pebble_watchface?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "summaryJa": [
+        "Jonas Hietala: Designing a personal Pebble watchfa",
+        "出典: indieblog.page（個人ブログ）",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-02T02:47:58.895Z"
     }
   }
 }

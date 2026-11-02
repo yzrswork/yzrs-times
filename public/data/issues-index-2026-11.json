@@ -22,6 +22,13 @@
       "edition": "morning",
       "theme": "集積された知と手元の直感",
       "path": "issues/2026-11-02-morning.json"
+    },
+    {
+      "issueNo": 230,
+      "date": "2026-11-02",
+      "edition": "midday",
+      "theme": "構造の解剖と手元の制御",
+      "path": "issues/2026-11-02-midday.json"
     }
   ]
 }
