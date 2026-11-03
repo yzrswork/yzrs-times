@@ -43,6 +43,13 @@
       "edition": "midday",
       "theme": "可視化するキャンバスと手元のハック",
       "path": "issues/2026-11-03-midday.json"
+    },
+    {
+      "issueNo": 233,
+      "date": "2026-11-04",
+      "edition": "morning",
+      "theme": "暗黙の挙動と手元の境界",
+      "path": "issues/2026-11-04-morning.json"
     }
   ]
 }

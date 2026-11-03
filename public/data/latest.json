@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 232,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-11-03",
-  "dateDisplay": "Tuesday, November 3, 2026",
-  "pressTimeJst": "2026-11-03 12:00",
-  "generatedAt": "2026-11-03T02:47:39.079Z",
+  "issueNo": 233,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-04",
+  "dateDisplay": "Wednesday, November 4, 2026",
+  "pressTimeJst": "2026-11-04 05:00",
+  "generatedAt": "2026-11-03T20:17:59.049Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,21 +14,21 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "可視化するキャンバスと手元のハック",
-    "note": "昼休みに創作意欲を刺激する、Web3Dアート・光ディスク描画・機器のハックと実践的な開発知見を集めました。"
+    "title": "暗黙の挙動と手元の境界",
+    "note": "ツールや環境が静かに書き換わる時代に、自分の制作領域を防護し確実な足場を保つための知恵を揃えました。"
   },
   "editorial": {
-    "comment": "Three.jsで展示空間を作った「Virtual Art Museum」（lobsters-c70cd398）の静かな熱量に惹かれました。誰かの作品を届けるために作られた手製の空間は、機能性だけでなく制作者の愛を感じさせ、午後の制作意欲を心地よく刺激してくれます。 —— YZRS Times 編集長",
-    "passedOver": "GMOの不正アクセス謝罪会見や半導体株の急落などの時事ニュースは、昼休み技術専門版の編成方針に基づき見送りました。",
+    "comment": "PostmanがAIプラグインを自動挿入していた件（hn-front-412a451b）のように、使い慣れたツールが手元で勝手に姿を変えるリスクが増えています。便利さの裏で動く暗黙の挙動を観察し、境界線を自前で引き直す姿勢を忘れずにいたい朝です。 —— YZRS Times 編集長",
+    "passedOver": "米中間選挙の開票ニュースやスポーツ速報など多数の報道がありましたが、制作の手元に直接作用する技術と境界線の話を中心に据えるため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "晴れ時々曇り",
-    "icon": "partly-cloudy",
-    "tempMax": 20,
+    "summary": "弱い雨",
+    "icon": "rain",
+    "tempMax": 17,
     "tempMin": 12,
-    "precipChancePct": 12
+    "precipChancePct": 94
   },
   "market": {
     "fearGreed": {
@@ -39,434 +39,456 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 76806,
-        "priceJpy": 12130604,
-        "change24hPct": -2,
+        "priceUsd": 77610,
+        "priceJpy": 12318753,
+        "change24hPct": 0.9,
         "sparkline7d": [
-          79957.55,
-          80797.6,
-          80116.5,
-          76999.37,
-          77554.42,
-          77830.07,
-          76999.16
+          80711.14,
+          81274.37,
+          78062.24,
+          77269.62,
+          77982.67,
+          77772.02,
+          77513.49
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2255.3,
-        "priceJpy": 356199,
-        "change24hPct": -1.59,
+        "priceUsd": 2280.69,
+        "priceJpy": 362008,
+        "change24hPct": 1.39,
         "sparkline7d": [
-          2319.87,
-          2349.15,
-          2318.82,
-          2221.58,
-          2250.34,
-          2261.47,
-          2254.87
+          2345.35,
+          2357.47,
+          2232.43,
+          2241.44,
+          2268.6,
+          2287.97,
+          2290.43
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.16175,
-        "priceJpy": 25.55,
-        "change24hPct": -3.98,
+        "priceUsd": 0.162567,
+        "priceJpy": 25.8,
+        "change24hPct": -1.34,
         "sparkline7d": [
-          0.168938,
-          0.17105,
-          0.168931,
-          0.166476,
-          0.170433,
-          0.167546,
-          0.162258
+          0.169909,
+          0.172323,
+          0.164434,
+          0.168741,
+          0.16879,
+          0.167967,
+          0.163663
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 274.46,
-        "priceJpy": 43348,
-        "change24hPct": -3.37,
+        "priceUsd": 274.17,
+        "priceJpy": 43519,
+        "change24hPct": -1.33,
         "sparkline7d": [
-          282.24,
-          298.93,
-          279.46,
-          286.22,
-          286.05,
-          281.18,
-          276.82
+          288.96,
+          288.75,
+          283.21,
+          290.05,
+          282.85,
+          276.26,
+          275.81
         ]
       }
     ]
   },
   "top": [
-    "lobsters-c70cd398",
-    "hn-front-9715d135",
-    "zenn-trend-55de1e9c"
+    "hn-front-412a451b",
+    "hatebu-it-412c06ed",
+    "yahoo-topics-62fa8bb7"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hn-front-16c90f25",
-        "hatebu-it-088a8b55",
-        "hn-front-587c63ef"
+        "nhk-top-595c9b10",
+        "nhk-top-83a070e0",
+        "nhk-top-5958e8ce"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "qiita-popular-b56927b4",
-        "zenn-trend-d157c690",
-        "qiita-popular-388c3100"
+        "hatebu-it-384810f8",
+        "hatebu-it-6acb3bd0",
+        "hatebu-it-570fc10a",
+        "hn-front-1cf81b56"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-10176951",
-        "lobsters-a5b2e62b"
+        "gtrends-jp-ccbd37e7",
+        "hatebu-it-b6c28238"
       ]
     }
   ],
   "articles": [
     {
-      "id": "lobsters-c70cd398",
-      "title": "Virtual Art Museum built with Three js",
-      "url": "https://dostoynikov.bearblog.dev/virtual-museum-for-my-wifes-artworks/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-02T15:51:17.000Z",
-      "summaryJa": [
-        "My wife wanted a website for her artworks.",
-        "While building the website, I suddenly had this urge to try building a virtual a",
-        "It turned out not bad."
-      ],
-      "category": "tech",
-      "keywords": [
-        "Virtual",
-        "Art",
-        "Museum",
-        "Three",
-        "js"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 11,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-9715d135",
-      "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
-      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "id": "hn-front-412a451b",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
       "source": "Hacker News",
       "sourceId": "hn-front",
-      "publishedAt": "2026-11-03T01:33:43.000Z",
+      "publishedAt": "2026-11-03T17:22:37.000Z",
       "summaryJa": [
-        "DiscImageStudio: burn visible artwork onto CDs, DV",
+        "Postman silently auto-installs AI plugins and atte",
         "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "DiscImageStudio",
-        "burn",
-        "visible",
-        "artwork",
-        "CDs"
+        "Postman",
+        "silently",
+        "auto",
+        "installs",
+        "AI"
       ],
       "heat": {
-        "temperature": 80,
+        "temperature": 90,
         "signals": {
-          "hnPoints": 41,
+          "hnPoints": 678,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 3,
           "crossSources": 1,
-          "velocity": 33.3
+          "velocity": 232
         }
       },
       "image": null
     },
     {
-      "id": "zenn-trend-55de1e9c",
-      "title": "弊社がAIでPlaywrightテストコードを生成するために調整したこと",
-      "url": "https://zenn.dev/castingone_dev/articles/casone_playwright_for_claude",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-02T02:58:52.000Z",
+      "id": "hatebu-it-412c06ed",
+      "title": "「GoogleやAppleのアカウントを守るためにYubiKeyを使っている」物理キーが注目を集め、売り切れが相次いでいる→導入前に知っておきたい注意点は？",
+      "url": "https://togetter.com/li/2766080",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-03T03:56:08.000Z",
       "summaryJa": [
-        "こんにちは！",
-        "CastingONEの大沼です。",
-        "始めに 弊社では毎回のQA期間で行うテスト工数を減らすために、Playwrightを使った自動テストを導入しました。"
+        "でこ @DEKO_MUGEN GoogleとAppleアカウントの乗っ取り対策に、物理キー「YubiKey 5C NFC」を使っています。",
+        "普段はキーホルダーに。",
+        "薄くて軽いので気になりません。"
       ],
       "category": "programming",
       "keywords": [
-        "programming"
-      ],
-      "heat": {
-        "temperature": 48,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 24,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-16c90f25",
-      "title": "Show HN: Hacker Times, a New York Times-Inspired Version Hacker News",
-      "url": "https://hackertimes.ca/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-03T01:53:34.000Z",
-      "summaryJa": [
-        "I thought it would be fun to browse HN as if it were a newspaper.",
-        "The site updates once an hour.",
-        "Enjoy!"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Hacker",
-        "Times",
-        "York",
-        "Inspired",
-        "Version"
+        "物理キーが注目を集め"
       ],
       "heat": {
         "temperature": 82,
         "signals": {
-          "hnPoints": 33,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 36.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-088a8b55",
-      "title": "ISUCON2026 で優勝しました（当日編）",
-      "url": "https://zenn.dev/luvtechno/articles/isucon2026-competition-day",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-02T13:50:45.000Z",
-      "summaryJa": [
-        "当日の様子 8:53 用意していた agent skill で、競技エージェントの起動依頼をして、競技エージェントに渡すPlaywrightのセッションでポータ",
-        "この後は、競技エージェントには一度も指示を入力しませんでした。",
-        "左の pane が起動に使う Claude Code のセッションで、右の pane が競技エージェント実."
-      ],
-      "category": "programming",
-      "keywords": [
-        "ISUCON2026",
-        "当日編"
-      ],
-      "heat": {
-        "temperature": 91,
-        "signals": {
           "hnPoints": 0,
-          "hatebuCount": 248,
-          "ageHours": 13,
-          "crossSources": 2,
-          "velocity": 19.2
+          "hatebuCount": 220,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 13.4
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-587c63ef",
-      "title": "Astra can read and write weights to improve Qwen",
-      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-02T18:21:28.000Z",
+      "id": "yahoo-topics-62fa8bb7",
+      "title": "アソビュー 1500万件超の情報流出",
+      "url": "https://news.yahoo.co.jp/pickup/6601234?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-11-03T14:59:10.000Z",
       "summaryJa": [
-        "Astra can read and write weights to improve Qwen",
-        "出典: Hacker News",
+        "アソビュー 1500万件超の情報流出",
+        "出典: Yahoo!ニュース トピックス",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "Astra",
-        "read",
-        "write",
-        "weights",
-        "improve"
-      ],
-      "heat": {
-        "temperature": 91,
-        "signals": {
-          "hnPoints": 2025,
-          "hatebuCount": 10,
-          "ageHours": 8,
-          "crossSources": 2,
-          "velocity": 240
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-b56927b4",
-      "title": "Figma Motionで作ったUIアニメーションをCSSで再現してみた",
-      "url": "https://qiita.com/pengin_r/items/a13f3020137816bc532a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-11-02T08:30:40.000Z",
-      "summaryJa": [
-        "はじめに 2026年6月、Figmaにアニメーション機能「Figma Motion」が登場しました。",
-        "以前から気になっていたので、今回はFigma Motionで保存完了時のボタンアニメーションを作成し、CSSで再現してみました。",
-        "作成したアニメーション 「保存する」を."
-      ],
-      "category": "programming",
-      "keywords": [
-        "Figma"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 18,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-d157c690",
-      "title": "学部生3人でISUCON2026に出て、最後に証拠より常識を選んで負けた話",
-      "url": "https://zenn.dev/enari_k/articles/b512e044ec9240",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-02T07:00:35.000Z",
-      "summaryJa": [
-        "はじめに こんにちは、enari_Kです。",
-        "ISUCON2026 にチーム 判 で出ました。",
-        "最終スコアは約 30,000。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "学部生3人でISUCON2026に出て",
-        "最後に証拠より常識を選んで負けた話"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 20,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-388c3100",
-      "title": "S3への画像アップロード、署名付きPUTとPOSTはどう使い分ける？",
-      "url": "https://qiita.com/pengin_r/items/d3f3fbe1b4ba1e648ed7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-11-02T08:30:25.000Z",
-      "summaryJa": [
-        "はじめに エンジニア未経験で入社し、初めてAWSに触れる中で、画像をAmazon S3にアップロードする方法が複数あることを知りました。",
-        "その中でも、署名付きPUT URLと署名付きPOSTという2つの方法があり、何を基準に使い分ければ良いのか迷ったため、今回はAWS公式.",
-        "."
-      ],
-      "category": "programming",
-      "keywords": [
-        "S3への画像アップロード",
-        "署名付きPUTとPOSTはどう使い分ける"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 18,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-10176951",
-      "title": "Jailbreaking my car's navigation system just so I can change the time",
-      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-02T16:30:58.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Jailbreaking",
-        "car",
-        "navigation",
-        "system",
-        "change"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 10,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-a5b2e62b",
-      "title": "An Introduction to Bε-trees and Write-Optimization",
-      "url": "https://www.usenix.org/publications/login/oct15/bender",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-02T20:26:38.000Z",
-      "summaryJa": [
-        "This is the underlying tech of the recently posted GEFS: https://lobste.",
-        "rs/s/zjjvbo/work_on_gefs_good_enough_file_system_for Comments",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Introduction",
-        "Bε",
-        "trees",
-        "Write",
-        "Optimization"
+        "アソビュー",
+        "1500万件超の情報流出"
       ],
       "heat": {
         "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 6,
+          "ageHours": 5,
           "crossSources": 1,
           "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-595c9b10",
+      "title": "スペイン列車事故 AI導入し異常検知など再発防止策",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261104de70092",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-03T20:05:36.000Z",
+      "summaryJa": [
+        "スペイン中部で高速鉄道の列車が別の列車に追突し、69人が死亡した事故で、スペイン政府は再発防止に向けて、運転指令センターと運転士のやりとりの監視や異常事態の検知",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "スペイン列車事故",
+        "AI導入し異常検知など再発防止策"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-83a070e0",
+      "title": "JR山手線 外回りで始発から運転見合わせ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261104de70098",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-03T19:50:44.000Z",
+      "summaryJa": [
+        "JR東日本によりますと、山手線は巣鴨駅の線路内で煙が確認されたとして、外回りの全線で始発から運転を見合わせています。",
+        "運転再開の見込みは立っていないということです。",
+        "内回りは始発から運転しているということ…"
+      ],
+      "category": "news",
+      "keywords": [
+        "JR山手線",
+        "外回りで始発から運転見合わせ"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-5958e8ce",
+      "title": "米・ウクライナ・ロシアの実務者協議 10日からUAEで開催へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261103de69878",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-03T11:55:23.000Z",
+      "summaryJa": [
+        "アメリカのウィトコフ特使はウクライナとロシアの和平をめぐるアメリカも交えた3か国の実務者協議を11月、UAE＝アラブ首長国連邦で開催すると明らかにしました。",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ウクライナ",
+        "ロシアの実務者協議",
+        "10日からUAEで開催へ"
+      ],
+      "heat": {
+        "temperature": 57,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 8,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-384810f8",
+      "title": "ADRをregoでlintする",
+      "url": "https://zenn.dev/babarot/articles/regomark-adr-checker",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-03T11:32:21.000Z",
+      "summaryJa": [
+        "AIが書くADRのフォーマットをどう揃えるか 自分のリポジトリでは、設計の決定を ADR（Architecture Decision Records）として d",
+        "最近は、その ADR の多くを Claude Code に書いてもらっている。",
+        "決定を相談して、「これを ADR にしておいて」と頼むと書いてくれる。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "ADRをregoでlintする"
+      ],
+      "heat": {
+        "temperature": 87,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 35,
+          "ageHours": 9,
+          "crossSources": 2,
+          "velocity": 4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-6acb3bd0",
+      "title": "Protocol Explorer · Learn how the internet works",
+      "url": "https://protocol-explorer-alpha.vercel.app/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-03T03:40:37.000Z",
+      "summaryJa": [
+        "Watch the internet work, packet by packet.",
+        "Interactive lessons on HTTP, HTTPS, TCP, UDP, IP, DNS, DHCP, ICMP, SMTP, POP3, I",
+        "In English, Spanish, Portuguese, French, German, Turkish, Indonesian, Japanese, "
+      ],
+      "category": "programming",
+      "keywords": [
+        "Protocol",
+        "Explorer",
+        "Learn",
+        "internet"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 84,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 5.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-570fc10a",
+      "title": "ドメイン更新料が2,676円から18,139円に。通知から約45時間で判断を迫られた話",
+      "url": "https://anond.hatelabo.jp/20261103160506",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-03T07:06:48.000Z",
+      "summaryJa": [
+        "お名前.",
+        "comで管理している「xxxx.",
+        "cyou」の更新関連費用が、前年の2,676円から18,139円になりました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "ドメイン更新料が2",
+        "676円から18",
+        "139円に",
+        "通知から約45時間で判断を迫られた話"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 381,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 28.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-1cf81b56",
+      "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
+      "url": "https://news.ycombinator.com/item?id=50352757",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-03T14:53:41.000Z",
+      "summaryJa": [
+        "My company is pretty paranoid about leaking IP to the frontier labs through prom",
+        "But yesterday my coworkers and I noticed that the setting had been silently reen",
+        "None of us knowingly o"
+      ],
+      "category": "tech",
+      "keywords": [
+        "OpenAI",
+        "seems",
+        "silently",
+        "re",
+        "enabling"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 341,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 63.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "フェイエノールト 対 インテル",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-03T20:00:00.000Z",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "フェイエノールト",
+        "インテル"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-b6c28238",
+      "title": "AI書道コンクール",
+      "url": "https://aishodo.enpitsu.org/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-03T04:55:10.000Z",
+      "summaryJa": [
+        "AI書道コンクール",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AI書道コンクール"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 168,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 10.9
         }
       },
       "image": null
@@ -474,37 +496,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-57d55110",
-      "title": "goniszewski/grimoire — Bookmark manager for the wizards 🧙",
-      "url": "https://github.com/goniszewski/grimoire",
+      "id": "github-gems-aef1d765",
+      "title": "jgromes/RadioLib — Universal wireless communication library for embedded devices",
+      "url": "https://github.com/jgromes/RadioLib",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-11-02T14:53:21Z",
+      "publishedAt": "2026-11-03T20:17:26Z",
       "summaryJa": [
-        "Bookmark manager for the wizards 🧙",
+        "Universal wireless communication library for embedded devices",
         "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "goniszewski/grimoire",
-        "Bookmark",
-        "manager",
-        "wizards"
+        "jgromes/RadioLib",
+        "Universal",
+        "wireless",
+        "communication",
+        "library"
       ],
       "heat": {
-        "temperature": 51,
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 12,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "魔法使いの書をイメージした洗練されたUIを持つオープンソースのブックマーク管理ツールです。週末のWeb開発や収集した知見を美しく整理したい創作意欲の高い読者にぴったりな手元ツールです。"
+    "reason": "各種無線モジュールを統一インターフェースで扱える本ライブラリは、自作ハードウェアの通信プロトタイプ作成を強力に助けます。センサーノードや自作端末の無線化を企むあなたの工作机に、確かな骨組みをもたらすはずです。"
   },
   "unavailableSources": []
 }

@@ -1,105 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "b6d093ebdafa8ddf": {
-      "url": "https://zenn.dev/kimushun1101/books/ros2-handson",
-      "summaryJa": [
-        "ROS 2 Jazzy で TurtleBot3 をシミュレーション (Gazebo) 上で動かしながら、ノード / トピックの基礎、launch ファイル、自",
-        "回答例付きのハンズオン演習を11本収録。",
-        "Windows (WSL) / Ubuntu のどちらでも進められます。"
-      ],
-      "cachedAt": "2026-08-05T02:50:44.041Z"
-    },
-    "b709f7d0b2acde87": {
-      "url": "https://qiita.com/taguchi_sapeet/items/f2da1003b168b52f5770?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "まず、これを聴いてください 音声①：自作したTTSで「こんにちは」 聞き覚えのある感じ、しませんか。",
-        "∧＿∧ （ ´∀｀） ＜ こんにちは （ ） ｜ ｜ ｜ （_＿）＿） そう、モナーです。",
-        "一応、本人（？"
-      ],
-      "cachedAt": "2026-08-05T02:50:44.041Z"
-    },
-    "06e686e8bdd04b97": {
-      "url": "https://tech.findy.co.jp/entry/2026/08/05/070000",
-      "summaryJa": [
-        "こんにちは。",
-        "ファインディ株式会社でプリンシパルエンジニアをしている戸田です。",
-        "先日、GitHubのスタックプルリクエスト（Stacked Pull Requests）がpublic previewになりました。"
-      ],
-      "cachedAt": "2026-08-05T02:50:44.041Z"
-    },
-    "b1fb4ee9db031afb": {
-      "url": "https://zenn.dev/benjuwan/articles/c2ba48e7662f92",
-      "summaryJa": [
-        "はじめに スキル（SKILL.",
-        "md）で定型業務をAIに移譲したり、特定業務の自動化・半自動化を実現したりといった状況は珍しくなくなってきたと思います。",
-        "例えば、ブラウザ操作のトレースはplaywright-mcpまたはplaywright-cliで行い、そのトレース結果からAIに業務効率化のスキル作成までをして"
-      ],
-      "cachedAt": "2026-08-05T02:50:44.041Z"
-    },
-    "e762e41d1a2ba1ad": {
-      "url": "https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/",
-      "summaryJa": [
-        "libexpat now funded by the City of Munich for up t",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-05T02:50:44.041Z"
-    },
-    "963ec29507870862": {
-      "url": "https://zenn.dev/estie/articles/882e14dcad0d46",
-      "summaryJa": [
-        "こんにちは。",
-        "株式会社estie（エスティ）で Rust や Python でデータパイプラインや Web サーバーサイドの開発に取り組んでいる Masaki Miyazak",
-        "前職も含め、これまで様々なアプリケーション Rust プロジェクトを見てきた中で、Rust のテストエコシステムへの理解不足に起因する時間的・金銭的損失を数多く"
-      ],
-      "cachedAt": "2026-08-05T02:50:44.041Z"
-    },
-    "a058130e12493d20": {
-      "url": "https://qiita.com/shou-dev19/items/e1583af614a573e4b245?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "この記事は誰のために書いたのか この記事は、IT業界で働いていて、プログラミングは普通にできる。",
-        "でもAIエージェントを使った開発の経験はほぼゼロ、という人に向けて書いています。",
-        "最近、恐れ多くも同僚や知人にAI駆動開発についてお話しする機会が増えました。"
-      ],
-      "cachedAt": "2026-08-05T02:50:44.042Z"
-    },
-    "f563c8fd612a1718": {
-      "url": "https://github.com/larrasket/emacs-liquid-glass",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-05T02:50:44.042Z"
-    },
-    "20dba9d051ee28f7": {
-      "url": "https://codeberg.org/dlowe/irken",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-05T02:50:44.042Z"
-    },
-    "bbc1216f917aea31": {
-      "url": "https://bal-e.org/speed/krabby/2026/query-system-design/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-05T02:50:44.042Z"
-    },
-    "5453af9f797ee01c": {
-      "url": "https://github.com/aceinnolab/Inkycal",
-      "summaryJa": [
-        "Create awesome e-paper dashboards within minutes!",
-        "Modularity?",
-        "Check!"
-      ],
-      "cachedAt": "2026-08-05T02:50:44.042Z"
-    },
     "b3dd0a05db13ace9": {
       "url": "https://note.com/fladdict/n/nd10afb769a62",
       "summaryJa": [
@@ -15156,6 +15057,114 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-03T02:48:45.037Z"
+    },
+    "210b26f029f33a3e": {
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "summaryJa": [
+        "Postman silently auto-installs AI plugins and atte",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-03T20:18:46.988Z"
+    },
+    "412c06edbf461dc5": {
+      "url": "https://togetter.com/li/2766080",
+      "summaryJa": [
+        "でこ @DEKO_MUGEN GoogleとAppleアカウントの乗っ取り対策に、物理キー「YubiKey 5C NFC」を使っています。",
+        "普段はキーホルダーに。",
+        "薄くて軽いので気になりません。"
+      ],
+      "cachedAt": "2026-11-03T20:18:46.988Z"
+    },
+    "62fa8bb7d9a18733": {
+      "url": "https://news.yahoo.co.jp/pickup/6601234?source=rss",
+      "summaryJa": [
+        "アソビュー 1500万件超の情報流出",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-03T20:18:46.988Z"
+    },
+    "595c9b109340fb52": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261104de70092",
+      "summaryJa": [
+        "スペイン中部で高速鉄道の列車が別の列車に追突し、69人が死亡した事故で、スペイン政府は再発防止に向けて、運転指令センターと運転士のやりとりの監視や異常事態の検知",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-03T20:18:46.988Z"
+    },
+    "83a070e0f73d362a": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261104de70098",
+      "summaryJa": [
+        "JR東日本によりますと、山手線は巣鴨駅の線路内で煙が確認されたとして、外回りの全線で始発から運転を見合わせています。",
+        "運転再開の見込みは立っていないということです。",
+        "内回りは始発から運転しているということ…"
+      ],
+      "cachedAt": "2026-11-03T20:18:46.988Z"
+    },
+    "5958e8ced2715c22": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261103de69878",
+      "summaryJa": [
+        "アメリカのウィトコフ特使はウクライナとロシアの和平をめぐるアメリカも交えた3か国の実務者協議を11月、UAE＝アラブ首長国連邦で開催すると明らかにしました。",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-03T20:18:46.988Z"
+    },
+    "384810f8423e3791": {
+      "url": "https://zenn.dev/babarot/articles/regomark-adr-checker",
+      "summaryJa": [
+        "AIが書くADRのフォーマットをどう揃えるか 自分のリポジトリでは、設計の決定を ADR（Architecture Decision Records）として d",
+        "最近は、その ADR の多くを Claude Code に書いてもらっている。",
+        "決定を相談して、「これを ADR にしておいて」と頼むと書いてくれる。"
+      ],
+      "cachedAt": "2026-11-03T20:18:46.988Z"
+    },
+    "6acb3bd0f67c9085": {
+      "url": "https://protocol-explorer-alpha.vercel.app/",
+      "summaryJa": [
+        "Watch the internet work, packet by packet.",
+        "Interactive lessons on HTTP, HTTPS, TCP, UDP, IP, DNS, DHCP, ICMP, SMTP, POP3, I",
+        "In English, Spanish, Portuguese, French, German, Turkish, Indonesian, Japanese, "
+      ],
+      "cachedAt": "2026-11-03T20:18:46.988Z"
+    },
+    "570fc10a60690611": {
+      "url": "https://anond.hatelabo.jp/20261103160506",
+      "summaryJa": [
+        "お名前.",
+        "comで管理している「xxxx.",
+        "cyou」の更新関連費用が、前年の2,676円から18,139円になりました。"
+      ],
+      "cachedAt": "2026-11-03T20:18:46.988Z"
+    },
+    "31229f01153710fb": {
+      "url": "https://news.ycombinator.com/item?id=50352757",
+      "summaryJa": [
+        "My company is pretty paranoid about leaking IP to the frontier labs through prom",
+        "But yesterday my coworkers and I noticed that the setting had been silently reen",
+        "None of us knowingly o"
+      ],
+      "cachedAt": "2026-11-03T20:18:46.988Z"
+    },
+    "b6c28238a67eb014": {
+      "url": "https://aishodo.enpitsu.org/",
+      "summaryJa": [
+        "AI書道コンクール",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-03T20:18:46.988Z"
+    },
+    "e5eb1fc0754c5609": {
+      "url": "https://github.com/jgromes/RadioLib",
+      "summaryJa": [
+        "Universal wireless communication library for embedded devices",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-03T20:18:46.988Z"
     }
   }
 }
