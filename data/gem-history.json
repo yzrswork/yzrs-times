@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-d4bbb213",
-      "url": "https://github.com/sepandhaghighi/samila",
-      "date": "2026-10-04"
-    },
-    {
-      "id": "github-gems-20b87101",
-      "url": "https://github.com/agiwhitelist/auteur",
-      "date": "2026-10-04"
-    },
-    {
       "id": "github-gems-d4a9ebeb",
       "url": "https://github.com/aitjcize/esp32-photoframe",
       "date": "2026-10-05"
@@ -304,6 +294,11 @@
     {
       "id": "show-hn-538721fb",
       "url": "https://hackerbooks.org",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "github-gems-57d55110",
+      "url": "https://github.com/goniszewski/grimoire",
       "date": "2026-11-03"
     }
   ]

@@ -1,78 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "30ee77cf1904f21b": {
-      "url": "https://toneyalexander.github.io/inclusive-color-space/",
-      "summaryJa": [
-        "Hello HN!",
-        "<p>I found that picking out plausible but diverse skin tones for my digital art ",
-        "<p>I&#x27;ve built a color picker and procedural generation algorithm bas"
-      ],
-      "cachedAt": "2026-08-04T20:20:20.830Z"
-    },
-    "7491297a6cbf0757": {
-      "url": "https://matsuo-koya.github.io/sf-tech-lifeline/",
-      "summaryJa": [
-        "生年を入れると、SFとコンピューター技術の年表があなたの学齢期にマッピングされます。",
-        "1822年から2026年、全171項目。",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-04T20:20:20.830Z"
-    },
-    "82a091ca0947df3f": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015196421000",
-      "summaryJa": [
-        "熊本県内では、地震の影響で河川の堤防が沈下したり亀裂が入ったりする被害が相次いでいます。",
-        "6日以降、台風13号の影響で熊本県内でも雨が降るおそれがあり、国土交通省は応急的な復旧を急ぐとともに、川が増水し…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-04T20:20:20.830Z"
-    },
-    "6ac31f6fdd95a0be": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015196511000",
-      "summaryJa": [
-        "アメリカのベッセント財務長官がNHKの単独インタビューに応じました。",
-        "日米の通貨当局が歴史的な円安を阻止するために先週、実施した円買いの協調介入について、日米連携の象徴的な意味合いだったと述べたうえで、…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-04T20:20:20.830Z"
-    },
-    "0d9c512c1f68b25f": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015196301000",
-      "summaryJa": [
-        "安全保障関連の3文書の改定に向けた政府の有識者会議が開かれ、中国による重要鉱物の輸出規制を念頭に、出席者から、経済的な威圧を受けた場合に対処するための法整備を求",
-        "出典: NHKニュース 国際",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-04T20:20:20.830Z"
-    },
-    "59288e745cad18f9": {
-      "url": "https://forest.watch.impress.co.jp/docs/news/2130221.html",
-      "summaryJa": [
-        "デスクトップ操作を記録してAIのスキル・自動化を生成。Microsoft、「Skill Record",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-04T20:20:20.830Z"
-    },
-    "5e3c3434f8bc63f0": {
-      "url": "https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/",
-      "summaryJa": [
-        "Xbox goes down. You can't play games you own on di",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-04T20:20:20.830Z"
-    },
-    "c7ef9c41a364db29": {
-      "url": "https://github.com/agent-of-empires/agent-of-empires",
-      "summaryJa": [
-        "Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy acc",
-        "Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.",
-        "dev, Copilot CLI, Factory Droid Coding."
-      ],
-      "cachedAt": "2026-08-04T20:20:20.830Z"
-    },
     "b6d093ebdafa8ddf": {
       "url": "https://zenn.dev/kimushun1101/books/ros2-handson",
       "summaryJa": [
@@ -15138,6 +15066,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-02T20:20:32.096Z"
+    },
+    "c70cd39838686b45": {
+      "url": "https://dostoynikov.bearblog.dev/virtual-museum-for-my-wifes-artworks/",
+      "summaryJa": [
+        "My wife wanted a website for her artworks.",
+        "While building the website, I suddenly had this urge to try building a virtual a",
+        "It turned out not bad."
+      ],
+      "cachedAt": "2026-11-03T02:48:45.037Z"
+    },
+    "baf6a1185cdb25e9": {
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "summaryJa": [
+        "DiscImageStudio: burn visible artwork onto CDs, DV",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-03T02:48:45.037Z"
+    },
+    "55de1e9c0fe76bd4": {
+      "url": "https://zenn.dev/castingone_dev/articles/casone_playwright_for_claude",
+      "summaryJa": [
+        "こんにちは！",
+        "CastingONEの大沼です。",
+        "始めに 弊社では毎回のQA期間で行うテスト工数を減らすために、Playwrightを使った自動テストを導入しました。"
+      ],
+      "cachedAt": "2026-11-03T02:48:45.037Z"
+    },
+    "c6b64c6f66589d18": {
+      "url": "https://hackertimes.ca/",
+      "summaryJa": [
+        "I thought it would be fun to browse HN as if it were a newspaper.",
+        "The site updates once an hour.",
+        "Enjoy!"
+      ],
+      "cachedAt": "2026-11-03T02:48:45.037Z"
+    },
+    "b56927b4c5890457": {
+      "url": "https://qiita.com/pengin_r/items/a13f3020137816bc532a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 2026年6月、Figmaにアニメーション機能「Figma Motion」が登場しました。",
+        "以前から気になっていたので、今回はFigma Motionで保存完了時のボタンアニメーションを作成し、CSSで再現してみました。",
+        "作成したアニメーション 「保存する」を."
+      ],
+      "cachedAt": "2026-11-03T02:48:45.037Z"
+    },
+    "d157c690cfbab6ea": {
+      "url": "https://zenn.dev/enari_k/articles/b512e044ec9240",
+      "summaryJa": [
+        "はじめに こんにちは、enari_Kです。",
+        "ISUCON2026 にチーム 判 で出ました。",
+        "最終スコアは約 30,000。"
+      ],
+      "cachedAt": "2026-11-03T02:48:45.037Z"
+    },
+    "388c3100b0ee17cb": {
+      "url": "https://qiita.com/pengin_r/items/d3f3fbe1b4ba1e648ed7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに エンジニア未経験で入社し、初めてAWSに触れる中で、画像をAmazon S3にアップロードする方法が複数あることを知りました。",
+        "その中でも、署名付きPUT URLと署名付きPOSTという2つの方法があり、何を基準に使い分ければ良いのか迷ったため、今回はAWS公式.",
+        "."
+      ],
+      "cachedAt": "2026-11-03T02:48:45.037Z"
+    },
+    "101769515b6870b2": {
+      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-03T02:48:45.037Z"
+    },
+    "a5b2e62b58d706cc": {
+      "url": "https://www.usenix.org/publications/login/oct15/bender",
+      "summaryJa": [
+        "This is the underlying tech of the recently posted GEFS: https://lobste.",
+        "rs/s/zjjvbo/work_on_gefs_good_enough_file_system_for Comments",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-03T02:48:45.037Z"
+    },
+    "f75703b938d4bc9d": {
+      "url": "https://github.com/goniszewski/grimoire",
+      "summaryJa": [
+        "Bookmark manager for the wizards 🧙",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-03T02:48:45.037Z"
     }
   }
 }

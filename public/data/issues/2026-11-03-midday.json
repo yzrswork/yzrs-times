@@ -1,0 +1,510 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 232,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-03",
+  "dateDisplay": "Tuesday, November 3, 2026",
+  "pressTimeJst": "2026-11-03 12:00",
+  "generatedAt": "2026-11-03T02:47:39.079Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "可視化するキャンバスと手元のハック",
+    "note": "昼休みに創作意欲を刺激する、Web3Dアート・光ディスク描画・機器のハックと実践的な開発知見を集めました。"
+  },
+  "editorial": {
+    "comment": "Three.jsで展示空間を作った「Virtual Art Museum」（lobsters-c70cd398）の静かな熱量に惹かれました。誰かの作品を届けるために作られた手製の空間は、機能性だけでなく制作者の愛を感じさせ、午後の制作意欲を心地よく刺激してくれます。 —— YZRS Times 編集長",
+    "passedOver": "GMOの不正アクセス謝罪会見や半導体株の急落などの時事ニュースは、昼休み技術専門版の編成方針に基づき見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ時々曇り",
+    "icon": "partly-cloudy",
+    "tempMax": 20,
+    "tempMin": 12,
+    "precipChancePct": 12
+  },
+  "market": {
+    "fearGreed": {
+      "value": 26,
+      "label": "Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 76806,
+        "priceJpy": 12130604,
+        "change24hPct": -2,
+        "sparkline7d": [
+          79957.55,
+          80797.6,
+          80116.5,
+          76999.37,
+          77554.42,
+          77830.07,
+          76999.16
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2255.3,
+        "priceJpy": 356199,
+        "change24hPct": -1.59,
+        "sparkline7d": [
+          2319.87,
+          2349.15,
+          2318.82,
+          2221.58,
+          2250.34,
+          2261.47,
+          2254.87
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.16175,
+        "priceJpy": 25.55,
+        "change24hPct": -3.98,
+        "sparkline7d": [
+          0.168938,
+          0.17105,
+          0.168931,
+          0.166476,
+          0.170433,
+          0.167546,
+          0.162258
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 274.46,
+        "priceJpy": 43348,
+        "change24hPct": -3.37,
+        "sparkline7d": [
+          282.24,
+          298.93,
+          279.46,
+          286.22,
+          286.05,
+          281.18,
+          276.82
+        ]
+      }
+    ]
+  },
+  "top": [
+    "lobsters-c70cd398",
+    "hn-front-9715d135",
+    "zenn-trend-55de1e9c"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hn-front-16c90f25",
+        "hatebu-it-088a8b55",
+        "hn-front-587c63ef"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "qiita-popular-b56927b4",
+        "zenn-trend-d157c690",
+        "qiita-popular-388c3100"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-10176951",
+        "lobsters-a5b2e62b"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "lobsters-c70cd398",
+      "title": "Virtual Art Museum built with Three js",
+      "url": "https://dostoynikov.bearblog.dev/virtual-museum-for-my-wifes-artworks/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-02T15:51:17.000Z",
+      "summaryJa": [
+        "My wife wanted a website for her artworks.",
+        "While building the website, I suddenly had this urge to try building a virtual a",
+        "It turned out not bad."
+      ],
+      "category": "tech",
+      "keywords": [
+        "Virtual",
+        "Art",
+        "Museum",
+        "Three",
+        "js"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-9715d135",
+      "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-03T01:33:43.000Z",
+      "summaryJa": [
+        "DiscImageStudio: burn visible artwork onto CDs, DV",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "DiscImageStudio",
+        "burn",
+        "visible",
+        "artwork",
+        "CDs"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 41,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 33.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-55de1e9c",
+      "title": "弊社がAIでPlaywrightテストコードを生成するために調整したこと",
+      "url": "https://zenn.dev/castingone_dev/articles/casone_playwright_for_claude",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-02T02:58:52.000Z",
+      "summaryJa": [
+        "こんにちは！",
+        "CastingONEの大沼です。",
+        "始めに 弊社では毎回のQA期間で行うテスト工数を減らすために、Playwrightを使った自動テストを導入しました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 24,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-16c90f25",
+      "title": "Show HN: Hacker Times, a New York Times-Inspired Version Hacker News",
+      "url": "https://hackertimes.ca/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-03T01:53:34.000Z",
+      "summaryJa": [
+        "I thought it would be fun to browse HN as if it were a newspaper.",
+        "The site updates once an hour.",
+        "Enjoy!"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Hacker",
+        "Times",
+        "York",
+        "Inspired",
+        "Version"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 33,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 36.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-088a8b55",
+      "title": "ISUCON2026 で優勝しました（当日編）",
+      "url": "https://zenn.dev/luvtechno/articles/isucon2026-competition-day",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-02T13:50:45.000Z",
+      "summaryJa": [
+        "当日の様子 8:53 用意していた agent skill で、競技エージェントの起動依頼をして、競技エージェントに渡すPlaywrightのセッションでポータ",
+        "この後は、競技エージェントには一度も指示を入力しませんでした。",
+        "左の pane が起動に使う Claude Code のセッションで、右の pane が競技エージェント実."
+      ],
+      "category": "programming",
+      "keywords": [
+        "ISUCON2026",
+        "当日編"
+      ],
+      "heat": {
+        "temperature": 91,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 248,
+          "ageHours": 13,
+          "crossSources": 2,
+          "velocity": 19.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-587c63ef",
+      "title": "Astra can read and write weights to improve Qwen",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-02T18:21:28.000Z",
+      "summaryJa": [
+        "Astra can read and write weights to improve Qwen",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Astra",
+        "read",
+        "write",
+        "weights",
+        "improve"
+      ],
+      "heat": {
+        "temperature": 91,
+        "signals": {
+          "hnPoints": 2025,
+          "hatebuCount": 10,
+          "ageHours": 8,
+          "crossSources": 2,
+          "velocity": 240
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-b56927b4",
+      "title": "Figma Motionで作ったUIアニメーションをCSSで再現してみた",
+      "url": "https://qiita.com/pengin_r/items/a13f3020137816bc532a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-02T08:30:40.000Z",
+      "summaryJa": [
+        "はじめに 2026年6月、Figmaにアニメーション機能「Figma Motion」が登場しました。",
+        "以前から気になっていたので、今回はFigma Motionで保存完了時のボタンアニメーションを作成し、CSSで再現してみました。",
+        "作成したアニメーション 「保存する」を."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Figma"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-d157c690",
+      "title": "学部生3人でISUCON2026に出て、最後に証拠より常識を選んで負けた話",
+      "url": "https://zenn.dev/enari_k/articles/b512e044ec9240",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-02T07:00:35.000Z",
+      "summaryJa": [
+        "はじめに こんにちは、enari_Kです。",
+        "ISUCON2026 にチーム 判 で出ました。",
+        "最終スコアは約 30,000。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "学部生3人でISUCON2026に出て",
+        "最後に証拠より常識を選んで負けた話"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-388c3100",
+      "title": "S3への画像アップロード、署名付きPUTとPOSTはどう使い分ける？",
+      "url": "https://qiita.com/pengin_r/items/d3f3fbe1b4ba1e648ed7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-02T08:30:25.000Z",
+      "summaryJa": [
+        "はじめに エンジニア未経験で入社し、初めてAWSに触れる中で、画像をAmazon S3にアップロードする方法が複数あることを知りました。",
+        "その中でも、署名付きPUT URLと署名付きPOSTという2つの方法があり、何を基準に使い分ければ良いのか迷ったため、今回はAWS公式.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "S3への画像アップロード",
+        "署名付きPUTとPOSTはどう使い分ける"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-10176951",
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-02T16:30:58.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Jailbreaking",
+        "car",
+        "navigation",
+        "system",
+        "change"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-a5b2e62b",
+      "title": "An Introduction to Bε-trees and Write-Optimization",
+      "url": "https://www.usenix.org/publications/login/oct15/bender",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-02T20:26:38.000Z",
+      "summaryJa": [
+        "This is the underlying tech of the recently posted GEFS: https://lobste.",
+        "rs/s/zjjvbo/work_on_gefs_good_enough_file_system_for Comments",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Introduction",
+        "Bε",
+        "trees",
+        "Write",
+        "Optimization"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-57d55110",
+      "title": "goniszewski/grimoire — Bookmark manager for the wizards 🧙",
+      "url": "https://github.com/goniszewski/grimoire",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-02T14:53:21Z",
+      "summaryJa": [
+        "Bookmark manager for the wizards 🧙",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "goniszewski/grimoire",
+        "Bookmark",
+        "manager",
+        "wizards"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "魔法使いの書をイメージした洗練されたUIを持つオープンソースのブックマーク管理ツールです。週末のWeb開発や収集した知見を美しく整理したい創作意欲の高い読者にぴったりな手元ツールです。"
+  },
+  "unavailableSources": []
+}
