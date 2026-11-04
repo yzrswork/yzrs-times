@@ -57,6 +57,13 @@
       "edition": "midday",
       "theme": "手元の規律と検証の環境",
       "path": "issues/2026-11-04-midday.json"
+    },
+    {
+      "issueNo": 235,
+      "date": "2026-11-05",
+      "edition": "morning",
+      "theme": "侵害される門と、調律された手元の装置",
+      "path": "issues/2026-11-05-morning.json"
     }
   ]
 }

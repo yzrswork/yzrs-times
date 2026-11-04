@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "issueNo": 234,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-11-04",
-  "dateDisplay": "Wednesday, November 4, 2026",
-  "pressTimeJst": "2026-11-04 12:00",
-  "generatedAt": "2026-11-04T02:47:35.964Z",
+  "issueNo": 235,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-05",
+  "dateDisplay": "Thursday, November 5, 2026",
+  "pressTimeJst": "2026-11-05 05:00",
+  "generatedAt": "2026-11-04T20:17:45.789Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-flash-lite-latest",
+    "model": "gemini-3.1-flash-lite",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "手元の規律と検証の環境",
-    "note": "昼休みに技術を深く掘り下げるための実践的なインプットを集めた紙面。"
+    "title": "侵害される門と、調律された手元の装置",
+    "note": "外部からの侵食と内部の構築、その境界線で作り手はどう振る舞うべきかを問う。"
   },
   "editorial": {
-    "comment": "Postmanが勝手にAIプラグインを導入しデータを共有しようとしていた件（hn-front-412a451b）は、日頃信頼して使うツールであっても暗黙の挙動に気を配る必要性を痛感させられます。午後の開発に備えて、自分の手元の環境を今一度見直すきっかけにしたいものです。 —— YZRS Times 編集長",
-    "passedOver": "データベースの性能比較やドメイン移管の備忘録など実務的な記事もありましたが、午後の作業の直感を刺激する構造やテストの理論を優先し見送りました。",
+    "comment": "良品計画のカード情報漏えい（hatebu-it-f8eb9ff5）は、デジタル基盤の信頼が脆いことを改めて示しています。便利さと安全性のバランスを常に意識し、手元の実装一つ一つを慎重に管理する規律を保ちたいものです。",
+    "passedOver": "米国中間選挙のニュースは、結果そのものよりもそれが世界情勢に与える影響が不透明であるため、テック的な技術選定への影響が見えるまで見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "弱い雨",
+    "summary": "雨",
     "icon": "rain",
-    "tempMax": 16,
-    "tempMin": 12,
-    "precipChancePct": 97
+    "tempMax": 17,
+    "tempMin": 11,
+    "precipChancePct": 100
   },
   "market": {
     "fearGreed": {
@@ -39,129 +39,155 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 76558,
-        "priceJpy": 12064867,
-        "change24hPct": -0.31,
+        "priceUsd": 80049,
+        "priceJpy": 12687823,
+        "change24hPct": 3.15,
         "sparkline7d": [
-          80845.04,
-          80150.93,
-          77611.98,
-          77451.69,
-          78073.86,
-          76674.54,
-          77148.12
+          81515.6,
+          77838.81,
+          77085.48,
+          77945.75,
+          77896.1,
+          77271.06,
+          80302.21
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2253.29,
-        "priceJpy": 355098,
-        "change24hPct": -0.06,
+        "priceUsd": 2407.78,
+        "priceJpy": 381633,
+        "change24hPct": 5.58,
         "sparkline7d": [
-          2352.22,
-          2320.86,
-          2227.02,
-          2249.54,
-          2267.65,
-          2245.55,
-          2271.93
+          2369.21,
+          2249.48,
+          2237.83,
+          2268.92,
+          2284.34,
+          2283.59,
+          2421.63
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.159476,
-        "priceJpy": 25.13,
-        "change24hPct": -1.38,
+        "priceUsd": 0.165536,
+        "priceJpy": 26.24,
+        "change24hPct": 1.86,
         "sparkline7d": [
-          0.17217,
-          0.169014,
-          0.164589,
-          0.169451,
-          0.167915,
-          0.164461,
-          0.160684
+          0.173095,
+          0.162102,
+          0.169006,
+          0.169168,
+          0.16716,
+          0.164786,
+          0.166553
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 268.79,
-        "priceJpy": 42359,
-        "change24hPct": -2.1,
+        "priceUsd": 280.36,
+        "priceJpy": 44437,
+        "change24hPct": 2.3,
         "sparkline7d": [
-          293.85,
-          281.13,
-          281.08,
-          289.04,
-          283.02,
-          277.91,
-          273.01
+          288.03,
+          273.42,
+          290.06,
+          284.19,
+          276.64,
+          277.1,
+          279.41
         ]
       }
     ]
   },
   "top": [
-    "hn-front-412a451b",
-    "hatebu-it-fb8b8aeb",
-    "zenn-trend-5c83499c"
+    "hatebu-it-f8eb9ff5",
+    "hatebu-it-e86e1f19",
+    "hatebu-it-fb8b8aeb"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hn-front-84b0777a"
+        "nhk-top-e1f235ab",
+        "nhk-top-9ef83afa"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-trend-384810f8",
-        "qiita-popular-3ffc04ca"
+        "hatebu-it-32d75efd"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-0a505f53",
-        "lobsters-e2a2fa53",
-        "lobsters-4cfd00b1"
+        "gtrends-jp-ccbd37e7"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hn-front-412a451b",
-      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
-      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-03T17:22:37.000Z",
+      "id": "hatebu-it-f8eb9ff5",
+      "title": "良品計画 クレカ番号の全桁 約109万件が漏えいのおそれ | NHKニュース",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261104de70494",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-04T09:17:59.000Z",
       "summaryJa": [
-        "Postman silently auto-installs AI plugins and atte",
-        "出典: Hacker News",
+        "「無印良品」を展開する良品計画は、不正アクセスを受けて、クレジットカード番号の全桁、およそ109万件が漏えいしたおそれがあると発表しました。",
+        "この中には、すでに期限切れとなっているカードも多く含ま…",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "programming",
       "keywords": [
-        "Postman",
-        "silently",
-        "auto",
-        "installs",
-        "AI"
+        "良品計画",
+        "クレカ番号の全桁",
+        "約109万件が漏えいのおそれ",
+        "NHKニュース"
       ],
       "heat": {
-        "temperature": 86,
+        "temperature": 90,
         "signals": {
-          "hnPoints": 1056,
-          "hatebuCount": 0,
-          "ageHours": 9,
+          "hnPoints": 0,
+          "hatebuCount": 386,
+          "ageHours": 11,
+          "crossSources": 2,
+          "velocity": 35.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-e86e1f19",
+      "title": "中国メーカー、出荷前のAndroid端末に犯罪用のバックドアを設置か　Googleが取引停止",
+      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002884/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-04T10:13:30.000Z",
+      "summaryJa": [
+        "中国の端末メーカーが製造したAndroid端末に、遠隔から操作できるバックドアを仕込み、そのアクセス権を犯罪者らに販売していた――米Googleは11月3日（現",
+        "関与を指摘されたのは、中国のOEM／.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "中国メーカー",
+        "Googleが取引停止"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 202,
+          "ageHours": 10,
           "crossSources": 1,
-          "velocity": 112.1
+          "velocity": 20.1
         }
       },
       "image": null
@@ -185,162 +211,73 @@
         "若くない何かの悩み"
       ],
       "heat": {
-        "temperature": 86,
+        "temperature": 80,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 233,
-          "ageHours": 5,
+          "hatebuCount": 614,
+          "ageHours": 23,
           "crossSources": 1,
-          "velocity": 43.6
+          "velocity": 26.9
         }
       },
       "image": null
     },
     {
-      "id": "zenn-trend-5c83499c",
-      "title": "1 人チームでKiro CLI とISUCON2026に参加した記録：エージェントに任せたこと、任せきれなかったこと",
-      "url": "https://zenn.dev/ndmxjp/articles/isucon2026-kiro-agent-ops",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-03T06:33:45.000Z",
+      "id": "nhk-top-e1f235ab",
+      "title": "アメリカ中間選挙 民主党 上下両院で多数派奪還へ【最新情報】",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261103de69965",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-04T19:53:20.000Z",
       "summaryJa": [
-        "はじめに こんにちは！",
-        "AWSでソリューションアーキテクトをしている齋藤 拓巳です。",
-        "2026 年 10 月 31 日のISUCON2026に、1 人チーム「takumi_」で参加しました。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "人チームでKiro",
-        "CLI",
-        "任せきれなかったこと"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 20,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-84b0777a",
-      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-03T17:40:00.000Z",
-      "summaryJa": [
-        "Qwen 3.8 27B on my laptop can interpret model weig",
-        "出典: Hacker News",
+        "アメリカの中間選挙は、野党・民主党が連邦議会の上下両院で多数派を奪還することが確実になり、予想を上回る大きな勝利となりました。",
+        "トランプ政権に対し、有権者の厳しい評価が示されたかたちです。",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "Qwen",
-        "27B",
-        "laptop",
-        "interpret",
-        "model"
+        "アメリカ中間選挙",
+        "民主党",
+        "上下両院で多数派奪還へ",
+        "最新情報"
       ],
       "heat": {
-        "temperature": 83,
-        "signals": {
-          "hnPoints": 501,
-          "hatebuCount": 0,
-          "ageHours": 9,
-          "crossSources": 1,
-          "velocity": 54.9
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-384810f8",
-      "title": "ADRをregoでlintする",
-      "url": "https://zenn.dev/babarot/articles/regomark-adr-checker",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-03T07:59:33.000Z",
-      "summaryJa": [
-        "AIが書くADRのフォーマットをどう揃えるか 自分のリポジトリでは、設計の決定を ADR（Architecture Decision Records）として d",
-        "最近は、その ADR の多くを Claude Code に書いてもらっている。",
-        "決定を相談して、「これを ADR にしておいて」と頼むと書いてくれる。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "ADRをregoでlintする"
-      ],
-      "heat": {
-        "temperature": 49,
+        "temperature": 60,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 19,
-          "crossSources": 1,
+          "ageHours": 1,
+          "crossSources": 2,
           "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "qiita-popular-3ffc04ca",
-      "title": "「⚪︎⚪︎はしないで」は効かない？AI Agent の危険行動を制限する 5 つの方法と守られる強さで比べた",
-      "url": "https://qiita.com/songchong/items/945479177d4dcbb80f69?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-11-03T19:35:02.000Z",
+      "id": "nhk-top-9ef83afa",
+      "title": "日本郵便 サイバー攻撃で海外向け配送「UGX」一部停止",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261105de70691",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-04T17:20:03.000Z",
       "summaryJa": [
-        "AI エージェントに「⚪︎⚪︎はしないで」と書けば、その通りにしてくれるのでしょうか。",
-        "答えは、🔴 問題: 「しないで」と禁止だけを頼むと、守られないことがありました、です。",
-        "IT連携マップ編集部は、AI エージェント（Claude Code・Antigravity CLI・."
-      ],
-      "category": "programming",
-      "keywords": [
-        "⚪︎⚪︎はしないで",
-        "Agent"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 7,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-0a505f53",
-      "title": "Postgres 19 REPACK: Built-In Online Table Bloat Cleanup",
-      "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-03T22:44:48.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "日本郵便は、出資先の会社が提供するシステムがサイバー攻撃を受け、海外宛ての配送サービス「UGX」で、一部利用ができなくなっていると発表しました。",
+        "出典: NHKニュース 主要",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "Postgres",
-        "REPACK",
-        "Online",
-        "Table",
-        "Bloat"
+        "日本郵便",
+        "サイバー攻撃で海外向け配送",
+        "UGX",
+        "一部停止"
       ],
       "heat": {
         "temperature": 54,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 4,
+          "ageHours": 3,
           "crossSources": 1,
           "velocity": 0
         }
@@ -348,58 +285,59 @@
       "image": null
     },
     {
-      "id": "lobsters-e2a2fa53",
-      "title": "Gist of Go: Concurrency",
-      "url": "https://antonz.org/go-concurrency/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-03T23:05:03.000Z",
+      "id": "hatebu-it-32d75efd",
+      "title": "日本語プログラミングフォント「Cyroit」とそのファミリー8種が一斉アップデート／「Inconsolata」＋「Circle M+」＋「BIZ UDゴシック」、コード特有の可読性にも配慮",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2153421.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-04T09:09:14.000Z",
       "summaryJa": [
-        "This seems like a well executed mini-course on concurrency in Go.",
-        "I'd love to hear where it might be out of date or otherwise steering me wrong, a",
-        "Comments"
+        "日本語プログラミングフォント「Cyroit」とそのファミリー8種が一斉アップデート／「Inconso",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "programming",
       "keywords": [
-        "Gist",
-        "Go",
-        "Concurrency"
+        "日本語プログラミングフォント",
+        "Cyroit",
+        "Inconsolata",
+        "Circle",
+        "M+"
       ],
       "heat": {
-        "temperature": 54,
+        "temperature": 76,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 4,
+          "hatebuCount": 69,
+          "ageHours": 11,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 6.2
         }
       },
       "image": null
     },
     {
-      "id": "lobsters-4cfd00b1",
-      "title": "Your terminal manipulation/navigation setups",
-      "url": "https://lobste.rs/s/r3gton/your_terminal_manipulation_navigation",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-03T18:54:55.000Z",
+      "id": "gtrends-jp-ccbd37e7",
+      "title": "池袋線",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-04T20:00:00.000Z",
       "summaryJa": [
-        "Dear Lobste.",
-        "rs, over a year after my previous post on mouse free setups, your advice was ins",
-        ") One aspect of my work a"
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "trends",
       "keywords": [
-        "terminal",
-        "setups"
+        "池袋線"
       ],
       "heat": {
-        "temperature": 53,
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 8,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -409,38 +347,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-a10a4428",
-      "title": "ace-trump-tech/MindPaw — 🐕 MindPaw — 基于 ESP8266 的开源桌面四足机器狗，支持语音、手势、网页遥控、豆包 AI 对话与 PAD 情感交互。可选 AI Infra 网关，适合机器人入门、嵌入式 AI、边缘 Agent 与 HRI 研究。",
-      "url": "https://github.com/ace-trump-tech/MindPaw",
+      "id": "github-gems-c4db0d0b",
+      "title": "raspberrypi/rpi-imager — The home of Raspberry Pi Imager, a user-friendly tool for creating bootable media for Raspberry Pi devices.",
+      "url": "https://github.com/raspberrypi/rpi-imager",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-10-15T01:13:38Z",
+      "publishedAt": "2026-11-04T16:40:41Z",
       "summaryJa": [
-        "🐕 MindPaw — 基于 ESP8266 的桌面级四足机器狗，支持语音交互 (HLK-V20)、手势识别 (OV2640+轻量MLP)、AI 对话 (豆包",
-        "总物料成本 ≈¥50，代码/PCB/3D打印全开源，适合机器人入门、嵌入式AI、HRI 情感交互研究。",
+        "The home of Raspberry Pi Imager, a user-friendly tool for creating bootable medi",
+        "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "ace",
-        "trump",
-        "tech/MindPaw",
-        "MindPaw",
-        "基于"
+        "raspberrypi/rpi",
+        "imager",
+        "home",
+        "Raspberry",
+        "Pi"
       ],
       "heat": {
-        "temperature": 40,
+        "temperature": 54,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 482,
+          "ageHours": 4,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "ESP8266をベースにしたオープンソースのデスクトップ四足機器狗であり、電子工作とエッジAIの組み合わせに魅力を感じるあなたにぴったりの手元の相棒です。日々のプログラミングの合間に触れるハードウェアの遊び場として、ぜひその手で組み立てて動かしてみてください。"
+    "reason": "Raspberry Piのセットアップを簡略化するこのツールは、ハードウェアへの入り口を物理的な苦労から解放してくれます。小さな基板から何かを生み出そうとするあなたにとって、このGUIは最初の確実な足掛かりとなるでしょう。"
   },
   "unavailableSources": []
 }
