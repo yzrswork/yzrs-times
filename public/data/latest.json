@@ -1,138 +1,135 @@
 {
   "schemaVersion": 1,
-  "issueNo": 233,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 234,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-11-04",
   "dateDisplay": "Wednesday, November 4, 2026",
-  "pressTimeJst": "2026-11-04 05:00",
-  "generatedAt": "2026-11-03T20:17:59.049Z",
+  "pressTimeJst": "2026-11-04 12:00",
+  "generatedAt": "2026-11-04T02:47:35.964Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-flash-lite-latest",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "暗黙の挙動と手元の境界",
-    "note": "ツールや環境が静かに書き換わる時代に、自分の制作領域を防護し確実な足場を保つための知恵を揃えました。"
+    "title": "手元の規律と検証の環境",
+    "note": "昼休みに技術を深く掘り下げるための実践的なインプットを集めた紙面。"
   },
   "editorial": {
-    "comment": "PostmanがAIプラグインを自動挿入していた件（hn-front-412a451b）のように、使い慣れたツールが手元で勝手に姿を変えるリスクが増えています。便利さの裏で動く暗黙の挙動を観察し、境界線を自前で引き直す姿勢を忘れずにいたい朝です。 —— YZRS Times 編集長",
-    "passedOver": "米中間選挙の開票ニュースやスポーツ速報など多数の報道がありましたが、制作の手元に直接作用する技術と境界線の話を中心に据えるため見送りました。",
+    "comment": "Postmanが勝手にAIプラグインを導入しデータを共有しようとしていた件（hn-front-412a451b）は、日頃信頼して使うツールであっても暗黙の挙動に気を配る必要性を痛感させられます。午後の開発に備えて、自分の手元の環境を今一度見直すきっかけにしたいものです。 —— YZRS Times 編集長",
+    "passedOver": "データベースの性能比較やドメイン移管の備忘録など実務的な記事もありましたが、午後の作業の直感を刺激する構造やテストの理論を優先し見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
     "summary": "弱い雨",
     "icon": "rain",
-    "tempMax": 17,
+    "tempMax": 16,
     "tempMin": 12,
-    "precipChancePct": 94
+    "precipChancePct": 97
   },
   "market": {
     "fearGreed": {
-      "value": 26,
+      "value": 34,
       "label": "Fear"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 77610,
-        "priceJpy": 12318753,
-        "change24hPct": 0.9,
+        "priceUsd": 76558,
+        "priceJpy": 12064867,
+        "change24hPct": -0.31,
         "sparkline7d": [
-          80711.14,
-          81274.37,
-          78062.24,
-          77269.62,
-          77982.67,
-          77772.02,
-          77513.49
+          80845.04,
+          80150.93,
+          77611.98,
+          77451.69,
+          78073.86,
+          76674.54,
+          77148.12
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2280.69,
-        "priceJpy": 362008,
-        "change24hPct": 1.39,
+        "priceUsd": 2253.29,
+        "priceJpy": 355098,
+        "change24hPct": -0.06,
         "sparkline7d": [
-          2345.35,
-          2357.47,
-          2232.43,
-          2241.44,
-          2268.6,
-          2287.97,
-          2290.43
+          2352.22,
+          2320.86,
+          2227.02,
+          2249.54,
+          2267.65,
+          2245.55,
+          2271.93
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.162567,
-        "priceJpy": 25.8,
-        "change24hPct": -1.34,
+        "priceUsd": 0.159476,
+        "priceJpy": 25.13,
+        "change24hPct": -1.38,
         "sparkline7d": [
-          0.169909,
-          0.172323,
-          0.164434,
-          0.168741,
-          0.16879,
-          0.167967,
-          0.163663
+          0.17217,
+          0.169014,
+          0.164589,
+          0.169451,
+          0.167915,
+          0.164461,
+          0.160684
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 274.17,
-        "priceJpy": 43519,
-        "change24hPct": -1.33,
+        "priceUsd": 268.79,
+        "priceJpy": 42359,
+        "change24hPct": -2.1,
         "sparkline7d": [
-          288.96,
-          288.75,
-          283.21,
-          290.05,
-          282.85,
-          276.26,
-          275.81
+          293.85,
+          281.13,
+          281.08,
+          289.04,
+          283.02,
+          277.91,
+          273.01
         ]
       }
     ]
   },
   "top": [
     "hn-front-412a451b",
-    "hatebu-it-412c06ed",
-    "yahoo-topics-62fa8bb7"
+    "hatebu-it-fb8b8aeb",
+    "zenn-trend-5c83499c"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "nhk-top-595c9b10",
-        "nhk-top-83a070e0",
-        "nhk-top-5958e8ce"
+        "hn-front-84b0777a"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hatebu-it-384810f8",
-        "hatebu-it-6acb3bd0",
-        "hatebu-it-570fc10a",
-        "hn-front-1cf81b56"
+        "zenn-trend-384810f8",
+        "qiita-popular-3ffc04ca"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-ccbd37e7",
-        "hatebu-it-b6c28238"
+        "lobsters-0a505f53",
+        "lobsters-e2a2fa53",
+        "lobsters-4cfd00b1"
       ]
     }
   ],
@@ -158,126 +155,71 @@
         "AI"
       ],
       "heat": {
-        "temperature": 90,
+        "temperature": 86,
         "signals": {
-          "hnPoints": 678,
+          "hnPoints": 1056,
           "hatebuCount": 0,
-          "ageHours": 3,
+          "ageHours": 9,
           "crossSources": 1,
-          "velocity": 232
+          "velocity": 112.1
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-412c06ed",
-      "title": "「GoogleやAppleのアカウントを守るためにYubiKeyを使っている」物理キーが注目を集め、売り切れが相次いでいる→導入前に知っておきたい注意点は？",
-      "url": "https://togetter.com/li/2766080",
+      "id": "hatebu-it-fb8b8aeb",
+      "title": "E2Eテスト大全（あなたの知らない、E2Eテスト周辺の理論） - 若くない何かの悩み",
+      "url": "https://blog.kuniwak.com/entry/e2ebok",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-03T03:56:08.000Z",
+      "publishedAt": "2026-11-03T21:27:17.000Z",
       "summaryJa": [
-        "でこ @DEKO_MUGEN GoogleとAppleアカウントの乗っ取り対策に、物理キー「YubiKey 5C NFC」を使っています。",
-        "普段はキーホルダーに。",
-        "薄くて軽いので気になりません。"
+        "目次 前置き 独自用語の整理と拡張について E2Eテストの境界と定義 UIテストとの概念的な差異 UIを操作しないE2Eテスト E2Eテストで検知可能な欠陥 正",
+        ".",
+        "."
       ],
       "category": "programming",
       "keywords": [
-        "物理キーが注目を集め"
+        "E2Eテスト大全",
+        "E2Eテスト周辺の理論",
+        "若くない何かの悩み"
       ],
       "heat": {
-        "temperature": 82,
+        "temperature": 86,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 220,
-          "ageHours": 16,
-          "crossSources": 1,
-          "velocity": 13.4
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "yahoo-topics-62fa8bb7",
-      "title": "アソビュー 1500万件超の情報流出",
-      "url": "https://news.yahoo.co.jp/pickup/6601234?source=rss",
-      "source": "Yahoo!ニュース トピックス",
-      "sourceId": "yahoo-topics",
-      "publishedAt": "2026-11-03T14:59:10.000Z",
-      "summaryJa": [
-        "アソビュー 1500万件超の情報流出",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "アソビュー",
-        "1500万件超の情報流出"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
+          "hatebuCount": 233,
           "ageHours": 5,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 43.6
         }
       },
       "image": null
     },
     {
-      "id": "nhk-top-595c9b10",
-      "title": "スペイン列車事故 AI導入し異常検知など再発防止策",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261104de70092",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-03T20:05:36.000Z",
+      "id": "zenn-trend-5c83499c",
+      "title": "1 人チームでKiro CLI とISUCON2026に参加した記録：エージェントに任せたこと、任せきれなかったこと",
+      "url": "https://zenn.dev/ndmxjp/articles/isucon2026-kiro-agent-ops",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-03T06:33:45.000Z",
       "summaryJa": [
-        "スペイン中部で高速鉄道の列車が別の列車に追突し、69人が死亡した事故で、スペイン政府は再発防止に向けて、運転指令センターと運転士のやりとりの監視や異常事態の検知",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
+        "はじめに こんにちは！",
+        "AWSでソリューションアーキテクトをしている齋藤 拓巳です。",
+        "2026 年 10 月 31 日のISUCON2026に、1 人チーム「takumi_」で参加しました。"
       ],
-      "category": "news",
+      "category": "programming",
       "keywords": [
-        "スペイン列車事故",
-        "AI導入し異常検知など再発防止策"
+        "人チームでKiro",
+        "CLI",
+        "任せきれなかったこと"
       ],
       "heat": {
-        "temperature": 60,
+        "temperature": 49,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 2,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-83a070e0",
-      "title": "JR山手線 外回りで始発から運転見合わせ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261104de70098",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-03T19:50:44.000Z",
-      "summaryJa": [
-        "JR東日本によりますと、山手線は巣鴨駅の線路内で煙が確認されたとして、外回りの全線で始発から運転を見合わせています。",
-        "運転再開の見込みは立っていないということです。",
-        "内回りは始発から運転しているということ…"
-      ],
-      "category": "news",
-      "keywords": [
-        "JR山手線",
-        "外回りで始発から運転見合わせ"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 20,
           "crossSources": 1,
           "velocity": 0
         }
@@ -285,42 +227,44 @@
       "image": null
     },
     {
-      "id": "nhk-top-5958e8ce",
-      "title": "米・ウクライナ・ロシアの実務者協議 10日からUAEで開催へ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261103de69878",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-03T11:55:23.000Z",
+      "id": "hn-front-84b0777a",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-03T17:40:00.000Z",
       "summaryJa": [
-        "アメリカのウィトコフ特使はウクライナとロシアの和平をめぐるアメリカも交えた3か国の実務者協議を11月、UAE＝アラブ首長国連邦で開催すると明らかにしました。",
-        "出典: NHKニュース 主要",
+        "Qwen 3.8 27B on my laptop can interpret model weig",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "ウクライナ",
-        "ロシアの実務者協議",
-        "10日からUAEで開催へ"
+        "Qwen",
+        "27B",
+        "laptop",
+        "interpret",
+        "model"
       ],
       "heat": {
-        "temperature": 57,
+        "temperature": 83,
         "signals": {
-          "hnPoints": 0,
+          "hnPoints": 501,
           "hatebuCount": 0,
-          "ageHours": 8,
-          "crossSources": 2,
-          "velocity": 0
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 54.9
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-384810f8",
+      "id": "zenn-trend-384810f8",
       "title": "ADRをregoでlintする",
       "url": "https://zenn.dev/babarot/articles/regomark-adr-checker",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-03T11:32:21.000Z",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-03T07:59:33.000Z",
       "summaryJa": [
         "AIが書くADRのフォーマットをどう揃えるか 自分のリポジトリでは、設計の決定を ADR（Architecture Decision Records）として d",
         "最近は、その ADR の多くを Claude Code に書いてもらっている。",
@@ -331,134 +275,11 @@
         "ADRをregoでlintする"
       ],
       "heat": {
-        "temperature": 87,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 35,
-          "ageHours": 9,
-          "crossSources": 2,
-          "velocity": 4
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-6acb3bd0",
-      "title": "Protocol Explorer · Learn how the internet works",
-      "url": "https://protocol-explorer-alpha.vercel.app/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-03T03:40:37.000Z",
-      "summaryJa": [
-        "Watch the internet work, packet by packet.",
-        "Interactive lessons on HTTP, HTTPS, TCP, UDP, IP, DNS, DHCP, ICMP, SMTP, POP3, I",
-        "In English, Spanish, Portuguese, French, German, Turkish, Indonesian, Japanese, "
-      ],
-      "category": "programming",
-      "keywords": [
-        "Protocol",
-        "Explorer",
-        "Learn",
-        "internet"
-      ],
-      "heat": {
-        "temperature": 80,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 84,
-          "ageHours": 17,
-          "crossSources": 1,
-          "velocity": 5.1
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-570fc10a",
-      "title": "ドメイン更新料が2,676円から18,139円に。通知から約45時間で判断を迫られた話",
-      "url": "https://anond.hatelabo.jp/20261103160506",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-03T07:06:48.000Z",
-      "summaryJa": [
-        "お名前.",
-        "comで管理している「xxxx.",
-        "cyou」の更新関連費用が、前年の2,676円から18,139円になりました。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "ドメイン更新料が2",
-        "676円から18",
-        "139円に",
-        "通知から約45時間で判断を迫られた話"
-      ],
-      "heat": {
-        "temperature": 86,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 381,
-          "ageHours": 13,
-          "crossSources": 1,
-          "velocity": 28.9
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-1cf81b56",
-      "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
-      "url": "https://news.ycombinator.com/item?id=50352757",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-03T14:53:41.000Z",
-      "summaryJa": [
-        "My company is pretty paranoid about leaking IP to the frontier labs through prom",
-        "But yesterday my coworkers and I noticed that the setting had been silently reen",
-        "None of us knowingly o"
-      ],
-      "category": "tech",
-      "keywords": [
-        "OpenAI",
-        "seems",
-        "silently",
-        "re",
-        "enabling"
-      ],
-      "heat": {
-        "temperature": 82,
-        "signals": {
-          "hnPoints": 341,
-          "hatebuCount": 0,
-          "ageHours": 5,
-          "crossSources": 1,
-          "velocity": 63.1
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "gtrends-jp-ccbd37e7",
-      "title": "フェイエノールト 対 インテル",
-      "url": "https://trends.google.com/trending/rss?geo=JP",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-03T20:00:00.000Z",
-      "summaryJa": [
-        "早期天候情報",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "trends",
-      "keywords": [
-        "フェイエノールト",
-        "インテル"
-      ],
-      "heat": {
-        "temperature": 55,
+        "temperature": 49,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 19,
           "crossSources": 1,
           "velocity": 0
         }
@@ -466,29 +287,121 @@
       "image": null
     },
     {
-      "id": "hatebu-it-b6c28238",
-      "title": "AI書道コンクール",
-      "url": "https://aishodo.enpitsu.org/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-03T04:55:10.000Z",
+      "id": "qiita-popular-3ffc04ca",
+      "title": "「⚪︎⚪︎はしないで」は効かない？AI Agent の危険行動を制限する 5 つの方法と守られる強さで比べた",
+      "url": "https://qiita.com/songchong/items/945479177d4dcbb80f69?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-03T19:35:02.000Z",
       "summaryJa": [
-        "AI書道コンクール",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
+        "AI エージェントに「⚪︎⚪︎はしないで」と書けば、その通りにしてくれるのでしょうか。",
+        "答えは、🔴 問題: 「しないで」と禁止だけを頼むと、守られないことがありました、です。",
+        "IT連携マップ編集部は、AI エージェント（Claude Code・Antigravity CLI・."
       ],
       "category": "programming",
       "keywords": [
-        "AI書道コンクール"
+        "⚪︎⚪︎はしないで",
+        "Agent"
       ],
       "heat": {
-        "temperature": 80,
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 168,
-          "ageHours": 15,
+          "hatebuCount": 0,
+          "ageHours": 7,
           "crossSources": 1,
-          "velocity": 10.9
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-0a505f53",
+      "title": "Postgres 19 REPACK: Built-In Online Table Bloat Cleanup",
+      "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-03T22:44:48.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Postgres",
+        "REPACK",
+        "Online",
+        "Table",
+        "Bloat"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-e2a2fa53",
+      "title": "Gist of Go: Concurrency",
+      "url": "https://antonz.org/go-concurrency/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-03T23:05:03.000Z",
+      "summaryJa": [
+        "This seems like a well executed mini-course on concurrency in Go.",
+        "I'd love to hear where it might be out of date or otherwise steering me wrong, a",
+        "Comments"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Gist",
+        "Go",
+        "Concurrency"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-4cfd00b1",
+      "title": "Your terminal manipulation/navigation setups",
+      "url": "https://lobste.rs/s/r3gton/your_terminal_manipulation_navigation",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-03T18:54:55.000Z",
+      "summaryJa": [
+        "Dear Lobste.",
+        "rs, over a year after my previous post on mouse free setups, your advice was ins",
+        ") One aspect of my work a"
+      ],
+      "category": "tech",
+      "keywords": [
+        "terminal",
+        "setups"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 0
         }
       },
       "image": null
@@ -496,38 +409,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-aef1d765",
-      "title": "jgromes/RadioLib — Universal wireless communication library for embedded devices",
-      "url": "https://github.com/jgromes/RadioLib",
+      "id": "github-gems-a10a4428",
+      "title": "ace-trump-tech/MindPaw — 🐕 MindPaw — 基于 ESP8266 的开源桌面四足机器狗，支持语音、手势、网页遥控、豆包 AI 对话与 PAD 情感交互。可选 AI Infra 网关，适合机器人入门、嵌入式 AI、边缘 Agent 与 HRI 研究。",
+      "url": "https://github.com/ace-trump-tech/MindPaw",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-11-03T20:17:26Z",
+      "publishedAt": "2026-10-15T01:13:38Z",
       "summaryJa": [
-        "Universal wireless communication library for embedded devices",
-        "出典: GitHub 小さなOSS",
+        "🐕 MindPaw — 基于 ESP8266 的桌面级四足机器狗，支持语音交互 (HLK-V20)、手势识别 (OV2640+轻量MLP)、AI 对话 (豆包",
+        "总物料成本 ≈¥50，代码/PCB/3D打印全开源，适合机器人入门、嵌入式AI、HRI 情感交互研究。",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "jgromes/RadioLib",
-        "Universal",
-        "wireless",
-        "communication",
-        "library"
+        "ace",
+        "trump",
+        "tech/MindPaw",
+        "MindPaw",
+        "基于"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 40,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 482,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "各種無線モジュールを統一インターフェースで扱える本ライブラリは、自作ハードウェアの通信プロトタイプ作成を強力に助けます。センサーノードや自作端末の無線化を企むあなたの工作机に、確かな骨組みをもたらすはずです。"
+    "reason": "ESP8266をベースにしたオープンソースのデスクトップ四足機器狗であり、電子工作とエッジAIの組み合わせに魅力を感じるあなたにぴったりの手元の相棒です。日々のプログラミングの合間に触れるハードウェアの遊び場として、ぜひその手で組み立てて動かしてみてください。"
   },
   "unavailableSources": []
 }

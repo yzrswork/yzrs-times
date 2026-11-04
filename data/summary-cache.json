@@ -1,105 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "b3dd0a05db13ace9": {
-      "url": "https://note.com/fladdict/n/nd10afb769a62",
-      "summaryJa": [
-        "オープン社内報です。",
-        "このままAI駆動開発が進むと、ソフトウェア開発は工芸から農業へ近づいていくんじゃないかなと思っています。",
-        "従来の開発は、人間が一行づつこころを込めてコードを書いてました。"
-      ],
-      "cachedAt": "2026-08-05T20:20:17.147Z"
-    },
-    "9527c3055c057d6c": {
-      "url": "https://blog.fogus.me/llm/born-against.html",
-      "summaryJa": [
-        "Born Against, or why hobby programming communities",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-05T20:20:17.147Z"
-    },
-    "56367d99e98733f1": {
-      "url": "https://www.47news.jp/14745830.html",
-      "summaryJa": [
-        "【ロンドン共同】英政府機関AIセキュリティー研究所は4日、米アンソロピックなどの人工知能（AI）が試験中に別人になりすましたり、偽のメッセージを送ったりして、サ",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-05T20:20:17.147Z"
-    },
-    "cadfc144b27c6599": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015197191000",
-      "summaryJa": [
-        "食料品の消費税減税について、政府は、5日の臨時閣議で、来年4月から2年間、税率を1％に引き下げるなどとした基本方針を決定しました。",
-        "決定された基本方針では、中低所得の人などの税や社会保険料の負担軽減を図…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-05T20:20:17.147Z"
-    },
-    "1f44a79866c667d0": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015197471000",
-      "summaryJa": [
-        "広島に原爆が投下されて6日で81年です。",
-        "世界で核による脅しや核抑止力を強化しようとする動きがみられる中、被爆地・広島は、犠牲者を追悼するとともに、核兵器の廃絶を改めて国内外に訴えます。",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-05T20:20:17.147Z"
-    },
-    "f6e75644d6f627e0": {
-      "url": "https://news.yahoo.co.jp/pickup/6590670?source=rss",
-      "summaryJa": [
-        "スペースXロケット残骸 月衝突か",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-05T20:20:17.147Z"
-    },
-    "050c74b3cdc0d942": {
-      "url": "https://zed.dev/deltadb",
-      "summaryJa": [
-        "Zed DeltaDB",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-05T20:20:17.147Z"
-    },
-    "12dd29c0cb472c86": {
-      "url": "https://speakerdeck.com/masuda220/jin-kosowen-kitaisohutoueashe-ji-domeinqu-dong-she-ji-zai-ru-men",
-      "summaryJa": [
-        "①ソフトウェア開発の基本課題 ②AI技術をソフトウェア開発に活用するアプローチ ③これからのソフトウェア開発にどう取り組むか ④ドメイン駆動設計 再入門",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-05T20:20:17.147Z"
-    },
-    "2048ae2af934206c": {
-      "url": "https://speakerdeck.com/mikimhk/how-a-skill-born-from-a-chance-encounter-became-the-most-used-tool-in-the-company",
-      "summaryJa": [
-        "『Claude Code Skills利用Skill Top5 誕生と運用の苦労も大公開！",
-        "』登壇資料 https://findy-aiplus.",
-        "connpass."
-      ],
-      "cachedAt": "2026-08-05T20:20:17.147Z"
-    },
-    "eb39e1b5923c62a7": {
-      "url": "https://blog.cloudflare.com/cloudflare-os/",
-      "summaryJa": [
-        "Cloudflare OS: an open platform for agents, apps, ",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-05T20:20:17.147Z"
-    },
-    "5f37a127620be06c": {
-      "url": "https://github.com/YunoHost/yunohost",
-      "summaryJa": [
-        "YunoHost is an operating system aiming to simplify as much as possible the admin",
-        "This repository corresponds to the core code, written mostly in Python and Bash.",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-05T20:20:17.147Z"
-    },
     "1ba4b940fcbf06d8": {
       "url": "https://zenn.dev/cybozu_frontend/articles/llm-wiki-for-design-systems",
       "summaryJa": [
@@ -15165,6 +15066,69 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-03T20:18:46.988Z"
+    },
+    "fb8b8aebeeae80fe": {
+      "url": "https://blog.kuniwak.com/entry/e2ebok",
+      "summaryJa": [
+        "目次 前置き 独自用語の整理と拡張について E2Eテストの境界と定義 UIテストとの概念的な差異 UIを操作しないE2Eテスト E2Eテストで検知可能な欠陥 正",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-11-04T02:49:34.826Z"
+    },
+    "5c83499c347b16fc": {
+      "url": "https://zenn.dev/ndmxjp/articles/isucon2026-kiro-agent-ops",
+      "summaryJa": [
+        "はじめに こんにちは！",
+        "AWSでソリューションアーキテクトをしている齋藤 拓巳です。",
+        "2026 年 10 月 31 日のISUCON2026に、1 人チーム「takumi_」で参加しました。"
+      ],
+      "cachedAt": "2026-11-04T02:49:34.826Z"
+    },
+    "f1a111e72742f0df": {
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "summaryJa": [
+        "Qwen 3.8 27B on my laptop can interpret model weig",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-04T02:49:34.826Z"
+    },
+    "3ffc04cac1e92a99": {
+      "url": "https://qiita.com/songchong/items/945479177d4dcbb80f69?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "AI エージェントに「⚪︎⚪︎はしないで」と書けば、その通りにしてくれるのでしょうか。",
+        "答えは、🔴 問題: 「しないで」と禁止だけを頼むと、守られないことがありました、です。",
+        "IT連携マップ編集部は、AI エージェント（Claude Code・Antigravity CLI・."
+      ],
+      "cachedAt": "2026-11-04T02:49:34.826Z"
+    },
+    "0a505f53302ffb67": {
+      "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-04T02:49:34.826Z"
+    },
+    "e2a2fa5361046448": {
+      "url": "https://antonz.org/go-concurrency/",
+      "summaryJa": [
+        "This seems like a well executed mini-course on concurrency in Go.",
+        "I'd love to hear where it might be out of date or otherwise steering me wrong, a",
+        "Comments"
+      ],
+      "cachedAt": "2026-11-04T02:49:34.826Z"
+    },
+    "4cfd00b1a1cb0875": {
+      "url": "https://lobste.rs/s/r3gton/your_terminal_manipulation_navigation",
+      "summaryJa": [
+        "Dear Lobste.",
+        "rs, over a year after my previous post on mouse free setups, your advice was ins",
+        ") One aspect of my work a"
+      ],
+      "cachedAt": "2026-11-04T02:49:34.826Z"
     }
   }
 }

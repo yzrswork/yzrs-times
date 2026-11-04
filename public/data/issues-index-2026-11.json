@@ -50,6 +50,13 @@
       "edition": "morning",
       "theme": "暗黙の挙動と手元の境界",
       "path": "issues/2026-11-04-morning.json"
+    },
+    {
+      "issueNo": 234,
+      "date": "2026-11-04",
+      "edition": "midday",
+      "theme": "手元の規律と検証の環境",
+      "path": "issues/2026-11-04-midday.json"
     }
   ]
 }
