@@ -1,6 +1,4 @@
-// NHK / Yahoo! / Google Trends など単純なRSSソース。
-// Google Trendsは非公式フィードのため形式が崩れることがある＝呼び出し元(collect.mjs)が
-// Promise.allSettledでfail-softに扱う前提で、ここでは素直に投げる。
+// NHK / Yahoo! など単純なRSSソース。
 import { parseFeed } from './_feed.mjs';
 import { makeId, toIso } from '../util.mjs';
 

@@ -181,13 +181,15 @@ export function selectGemCandidates(items, { blockedDomains, gemHistoryEntries, 
   return selected.sort((a, b) => b.heat.temperature - a.heat.temperature);
 }
 
+const NO_SIGNAL_SOURCE_TYPES = new Set(['rss', 'gtrends']);
+
 // --- エントリポイント ---
 export function rank(items, { sourcesConfig, editionConfig, gemHistoryEntries, now }) {
   const deduped = dedupe(items);
 
   const gemSourceIds = new Set(sourcesConfig.sources.filter((s) => s.gemPool).map((s) => s.id));
   const noSignalClampSourceIds = new Set(
-    sourcesConfig.sources.filter((s) => !s.gemPool && s.type === 'rss').map((s) => s.id),
+    sourcesConfig.sources.filter((s) => !s.gemPool && NO_SIGNAL_SOURCE_TYPES.has(s.type)).map((s) => s.id),
   );
 
   const withHeat = computeHeat(deduped, now, noSignalClampSourceIds);

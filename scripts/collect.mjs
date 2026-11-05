@@ -1,6 +1,7 @@
 // sources.jsonの各ソースをPromise.allSettledで並行取得する。
 // AIは一切使わない（決定論的なfetch＋正規化のみ）。
 import * as rss from './sources/rss.mjs';
+import * as gtrends from './sources/gtrends.mjs';
 import * as hatebu from './sources/hatebu.mjs';
 import * as hn from './sources/hn.mjs';
 import * as githubGems from './sources/github-gems.mjs';
@@ -11,6 +12,7 @@ import { fetchWeather } from './sources/weather.mjs';
 
 const FETCHERS = {
   rss: rss.fetchItems,
+  gtrends: gtrends.fetchItems,
   hatebu: hatebu.fetchItems,
   hn: hn.fetchItems,
   'github-gems': githubGems.fetchItems,
