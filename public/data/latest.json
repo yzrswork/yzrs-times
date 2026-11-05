@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 235,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 236,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-11-05",
   "dateDisplay": "Thursday, November 5, 2026",
-  "pressTimeJst": "2026-11-05 05:00",
-  "generatedAt": "2026-11-04T20:17:45.789Z",
+  "pressTimeJst": "2026-11-05 12:00",
+  "generatedAt": "2026-11-05T02:47:36.512Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,270 +14,150 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "侵害される門と、調律された手元の装置",
-    "note": "外部からの侵食と内部の構築、その境界線で作り手はどう振る舞うべきかを問う。"
+    "title": "実装の型と、検証の粒度",
+    "note": "AI時代に求められるのは、ただ書かせることではなく、何をどう実装するかという設計の解像度です。"
   },
   "editorial": {
-    "comment": "良品計画のカード情報漏えい（hatebu-it-f8eb9ff5）は、デジタル基盤の信頼が脆いことを改めて示しています。便利さと安全性のバランスを常に意識し、手元の実装一つ一つを慎重に管理する規律を保ちたいものです。",
-    "passedOver": "米国中間選挙のニュースは、結果そのものよりもそれが世界情勢に与える影響が不透明であるため、テック的な技術選定への影響が見えるまで見送りました。",
+    "comment": "AIに実装を任せる際、要件定義という名の『ヒアリング設計』こそが技術者の腕の見せ所だと感じさせる（zenn-trend-8c668410）。書かせることが目的ではなく、何を確定させるべきかの本質を見失わないようにしたいですね。",
+    "passedOver": "脆弱性関連のニュースが多かったが、インシデント速報よりは開発の足回りを整える記事を優先した。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
     "summary": "雨",
     "icon": "rain",
-    "tempMax": 17,
+    "tempMax": 16,
     "tempMin": 11,
     "precipChancePct": 100
   },
   "market": {
     "fearGreed": {
-      "value": 34,
-      "label": "Fear"
+      "value": 50,
+      "label": "Neutral"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 80049,
-        "priceJpy": 12687823,
-        "change24hPct": 3.15,
+        "priceUsd": 80576,
+        "priceJpy": 12726601,
+        "change24hPct": 5.24,
         "sparkline7d": [
-          81515.6,
-          77838.81,
-          77085.48,
-          77945.75,
-          77896.1,
-          77271.06,
-          80302.21
+          79892.97,
+          78443.93,
+          77377.36,
+          77956.66,
+          77431.26,
+          77789.97,
+          80494.09
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2407.78,
-        "priceJpy": 381633,
-        "change24hPct": 5.58,
+        "priceUsd": 2429.72,
+        "priceJpy": 383765,
+        "change24hPct": 7.82,
         "sparkline7d": [
-          2369.21,
-          2249.48,
-          2237.83,
-          2268.92,
-          2284.34,
-          2283.59,
-          2421.63
+          2309.79,
+          2236.89,
+          2243.22,
+          2266.07,
+          2267.56,
+          2288.58,
+          2419.58
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.165536,
-        "priceJpy": 26.24,
-        "change24hPct": 1.86,
+        "priceUsd": 0.168733,
+        "priceJpy": 26.65,
+        "change24hPct": 5.77,
         "sparkline7d": [
-          0.173095,
-          0.162102,
-          0.169006,
-          0.169168,
-          0.16716,
-          0.164786,
-          0.166553
+          0.168057,
+          0.1665,
+          0.16877,
+          0.168127,
+          0.167058,
+          0.162806,
+          0.16756
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 280.36,
-        "priceJpy": 44437,
-        "change24hPct": 2.3,
+        "priceUsd": 281.89,
+        "priceJpy": 44523,
+        "change24hPct": 4.87,
         "sparkline7d": [
-          288.03,
-          273.42,
-          290.06,
-          284.19,
-          276.64,
-          277.1,
-          279.41
+          282.36,
+          283.66,
+          287.62,
+          283.6,
+          275.99,
+          275.01,
+          280.5
         ]
       }
     ]
   },
   "top": [
-    "hatebu-it-f8eb9ff5",
-    "hatebu-it-e86e1f19",
-    "hatebu-it-fb8b8aeb"
+    "zenn-trend-8c668410",
+    "qiita-popular-e2aa6c08",
+    "hatebu-it-9eee4a73"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "nhk-top-e1f235ab",
-        "nhk-top-9ef83afa"
+        "hatebu-it-44d660b1",
+        "hatebu-it-8a9a4175",
+        "hn-front-b49f6ab4"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hatebu-it-32d75efd"
+        "zenn-trend-6dbee4c2",
+        "qiita-popular-441e9155",
+        "zenn-trend-cd4eb13a"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-ccbd37e7"
+        "lobsters-7a8f9f42",
+        "lobsters-61c011c8"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hatebu-it-f8eb9ff5",
-      "title": "良品計画 クレカ番号の全桁 約109万件が漏えいのおそれ | NHKニュース",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261104de70494",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-04T09:17:59.000Z",
+      "id": "zenn-trend-8c668410",
+      "title": "AIにいきなり実装させない — kintoneカスタマイズ開発Skillのヒアリング設計",
+      "url": "https://zenn.dev/genda_jp/articles/a5cbba3664748b",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-04T06:44:57.000Z",
       "summaryJa": [
-        "「無印良品」を展開する良品計画は、不正アクセスを受けて、クレジットカード番号の全桁、およそ109万件が漏えいしたおそれがあると発表しました。",
-        "この中には、すでに期限切れとなっているカードも多く含ま…",
-        "詳細は元記事を参照してください。"
+        "こんにちは、IT戦略部の谷川です。",
+        "GENDAでは社内の業務アプリの一部をkintoneで構築しており、標準機能で足りない部分をkintoneのJavaScriptのカスタマイズで補っています。",
+        "しかし要望が出るたびにコードを書くことになるので、この部分をAIに任せられないかと考え、ClaudeのAgent Skillsで仕組み化しました。"
       ],
       "category": "programming",
       "keywords": [
-        "良品計画",
-        "クレカ番号の全桁",
-        "約109万件が漏えいのおそれ",
-        "NHKニュース"
+        "AIにいきなり実装させない"
       ],
       "heat": {
-        "temperature": 90,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 386,
-          "ageHours": 11,
-          "crossSources": 2,
-          "velocity": 35.1
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-e86e1f19",
-      "title": "中国メーカー、出荷前のAndroid端末に犯罪用のバックドアを設置か　Googleが取引停止",
-      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002884/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-04T10:13:30.000Z",
-      "summaryJa": [
-        "中国の端末メーカーが製造したAndroid端末に、遠隔から操作できるバックドアを仕込み、そのアクセス権を犯罪者らに販売していた――米Googleは11月3日（現",
-        "関与を指摘されたのは、中国のOEM／.",
-        "."
-      ],
-      "category": "programming",
-      "keywords": [
-        "中国メーカー",
-        "Googleが取引停止"
-      ],
-      "heat": {
-        "temperature": 83,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 202,
-          "ageHours": 10,
-          "crossSources": 1,
-          "velocity": 20.1
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-fb8b8aeb",
-      "title": "E2Eテスト大全（あなたの知らない、E2Eテスト周辺の理論） - 若くない何かの悩み",
-      "url": "https://blog.kuniwak.com/entry/e2ebok",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-03T21:27:17.000Z",
-      "summaryJa": [
-        "目次 前置き 独自用語の整理と拡張について E2Eテストの境界と定義 UIテストとの概念的な差異 UIを操作しないE2Eテスト E2Eテストで検知可能な欠陥 正",
-        ".",
-        "."
-      ],
-      "category": "programming",
-      "keywords": [
-        "E2Eテスト大全",
-        "E2Eテスト周辺の理論",
-        "若くない何かの悩み"
-      ],
-      "heat": {
-        "temperature": 80,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 614,
-          "ageHours": 23,
-          "crossSources": 1,
-          "velocity": 26.9
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-e1f235ab",
-      "title": "アメリカ中間選挙 民主党 上下両院で多数派奪還へ【最新情報】",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261103de69965",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-04T19:53:20.000Z",
-      "summaryJa": [
-        "アメリカの中間選挙は、野党・民主党が連邦議会の上下両院で多数派を奪還することが確実になり、予想を上回る大きな勝利となりました。",
-        "トランプ政権に対し、有権者の厳しい評価が示されたかたちです。",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "アメリカ中間選挙",
-        "民主党",
-        "上下両院で多数派奪還へ",
-        "最新情報"
-      ],
-      "heat": {
-        "temperature": 60,
+        "temperature": 49,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 2,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-9ef83afa",
-      "title": "日本郵便 サイバー攻撃で海外向け配送「UGX」一部停止",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261105de70691",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-04T17:20:03.000Z",
-      "summaryJa": [
-        "日本郵便は、出資先の会社が提供するシステムがサイバー攻撃を受け、海外宛ての配送サービス「UGX」で、一部利用ができなくなっていると発表しました。",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "日本郵便",
-        "サイバー攻撃で海外向け配送",
-        "UGX",
-        "一部停止"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 3,
+          "ageHours": 20,
           "crossSources": 1,
           "velocity": 0
         }
@@ -285,59 +165,307 @@
       "image": null
     },
     {
-      "id": "hatebu-it-32d75efd",
-      "title": "日本語プログラミングフォント「Cyroit」とそのファミリー8種が一斉アップデート／「Inconsolata」＋「Circle M+」＋「BIZ UDゴシック」、コード特有の可読性にも配慮",
-      "url": "https://forest.watch.impress.co.jp/docs/news/2153421.html",
+      "id": "qiita-popular-e2aa6c08",
+      "title": "Claude Codeの/model opusplan＋/advisor fableでOpus・Fable・Sonnetを自動で使い分けたら、めちゃめちゃ良かった",
+      "url": "https://qiita.com/inoyu-qiita/items/d486f85b8333d5b324d9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-04T11:31:08.000Z",
+      "summaryJa": [
+        "はじめに Opusが考え、Fableが助言し、Sonnetが作る。",
+        "Claude Codeで、計画・助言・実装を3モデルへ自動で振り分ける運用を、実際の業務で使ってみました。",
+        "設定するのはopusplanと/advisor fableです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Codeの/model",
+        "opusplan＋/advisor",
+        "fableでOpus",
+        "Fable"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-9eee4a73",
+      "title": "ローカルAI最強エンジン「Strata」初心者向けガイド【チャットAIで動画やマンガを自動生成】 | ちもろぐ",
+      "url": "https://chimolog.co/strata-guide/",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-04T09:09:14.000Z",
+      "publishedAt": "2026-11-04T09:44:17.000Z",
       "summaryJa": [
-        "日本語プログラミングフォント「Cyroit」とそのファミリー8種が一斉アップデート／「Inconso",
+        "ローカル生成AIに真の民主化をもたらした推論エンジン「Strata」が凄いらしいけど、イマイチ使い方が分からないし、そもそも「凄さ」が分からない。",
+        "そう感じている自作PCユーザーが意外と少なくないので、本記事でStrataの使い方を解説します。",
+        "すでに知ってる人からすれば当たり前の内容も多いですが、誰だって最初は初."
+      ],
+      "category": "programming",
+      "keywords": [
+        "ローカルAI最強エンジン",
+        "Strata",
+        "初心者向けガイド",
+        "チャットAIで動画やマンガを自動生成"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 472,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 27.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-44d660b1",
+      "title": "メーカー自身がバックドアを仕込み、犯罪集団に“販売”　乗っ取られたTV用端末130万台超、Googleが遮断　日本の警察庁も参加",
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2611/05/news045.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-04T22:58:52.000Z",
+      "summaryJa": [
+        "Googleの脅威分析チーム「Google Threat Intelligence Group」は11月2日（米国時間）、不正プログラム「XCPE」を、日本の警",
+        "XCPEはTVにつないで動画配信サービスなどを楽しむための「セットトップボックス」130万台超を乗っ取っていた。",
+        "驚くべきは、不正プログラ."
+      ],
+      "category": "programming",
+      "keywords": [
+        "メーカー自身がバックドアを仕込み",
+        "犯罪集団に",
+        "販売",
+        "乗っ取られたTV用端末130万台超",
+        "Googleが遮断"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 27,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 7.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-8a9a4175",
+      "title": "日本の全法令が「Git」の履歴に ～改正で何が変わったのかが一目瞭然／「Git」の意外な弱点も？【やじうまの杜】",
+      "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2153621.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-04T23:02:29.000Z",
+      "summaryJa": [
+        "日本の全法令が「Git」の履歴に ～改正で何が変わったのかが一目瞭然／「Git」の意外な弱点も？【や",
         "出典: はてなブックマーク テクノロジー",
         "詳細は元記事を参照してください。"
       ],
       "category": "programming",
       "keywords": [
-        "日本語プログラミングフォント",
-        "Cyroit",
-        "Inconsolata",
-        "Circle",
-        "M+"
+        "日本の全法令が",
+        "Git",
+        "～改正で何が変わったのかが一目瞭然／"
       ],
       "heat": {
-        "temperature": 76,
+        "temperature": 87,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 69,
-          "ageHours": 11,
+          "hatebuCount": 86,
+          "ageHours": 4,
           "crossSources": 1,
-          "velocity": 6.2
+          "velocity": 22.9
         }
       },
       "image": null
     },
     {
-      "id": "gtrends-jp-ccbd37e7",
-      "title": "池袋線",
-      "url": "https://trends.google.com/trending/rss?geo=JP",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-04T20:00:00.000Z",
+      "id": "hn-front-b49f6ab4",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-04T11:52:17.000Z",
       "summaryJa": [
-        "早期天候情報",
-        "出典: Google トレンド",
+        "AI is forcing us to pay off 40 years of technical ",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
-      "category": "trends",
+      "category": "tech",
       "keywords": [
-        "池袋線"
+        "AI",
+        "forcing",
+        "pay",
+        "years",
+        "technical"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 1090,
+          "hatebuCount": 0,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 73
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-6dbee4c2",
+      "title": "C/Rust/Julia/Go/Java/JS/PyPy/LuaJIT 実行速度ベンチマーク ― 競プロと科学計算のあいだ",
+      "url": "https://zenn.dev/trbx304/articles/34fec79781e39c",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-04T13:20:42.000Z",
+      "summaryJa": [
+        "!",
+        "休日の暇つぶしでやった、ゆるい比較です。",
+        "計測は各 1 回だけで、厳密なベンチマークではありません。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "実行速度ベンチマーク",
+        "競プロと科学計算のあいだ"
+      ],
+      "heat": {
+        "temperature": 51,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-441e9155",
+      "title": "【脆弱性ラッシュ】PHP2Shell・Brotli(HTTP2Shell)・Node・Chrome・Goが同時に来た週に、サーバーの「放置」が露呈した話",
+      "url": "https://qiita.com/ysmreg1/items/d9f14d2da0ad57303036?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-04T07:28:14.000Z",
+      "summaryJa": [
+        "はじめに 2026年10月下旬、PHP、Node.",
+        "js、Chrome、Goの重大な更新が立て続けに公開されました。",
+        "私はこれを「脆弱性ラッシュ」と呼んでいます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "脆弱性ラッシュ",
+        "PHP2Shell",
+        "Brotli",
+        "HTTP2Shell",
+        "Node"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-cd4eb13a",
+      "title": "SigLIP2に匹敵する画像エンコーダーをフルスクラッチで開発した話",
+      "url": "https://zenn.dev/noetra_techblog/articles/0cea39ce67d2c2",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-04T05:42:59.000Z",
+      "summaryJa": [
+        "はじめに Noetraでは、フィジカルAIの実現に向けて、国産マルチモーダルLLMの開発を進めています。",
+        "その基盤技術の一つとして、本記事では画像エンコーダーをフルスクラッチで構築した取り組みについて紹介します。",
+        "近年、国内外の企業・研究機関でマルチモーダルLLMの開発が活発化しています。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 21,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-7a8f9f42",
+      "title": "Shlemiel the Painter Is Back: How Zig’s libc Rewrite Made SQLite Slower",
+      "url": "https://dennisforbes.ca/blog/microblog/2026/10/the_accidental_12000x_sqlite_slowdown/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-04T15:23:09.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Shlemiel",
+        "Painter",
+        "Zig’s",
+        "libc",
+        "Rewrite"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-61c011c8",
+      "title": "Arrows to Arrows, Categories to Queries",
+      "url": "https://reasonablypolymorphic.com/blog/arrows-to-arrows/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-04T15:49:15.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Arrows",
+        "Categories",
+        "Queries"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
           "crossSources": 1,
           "velocity": 0
         }
@@ -347,38 +475,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-c4db0d0b",
-      "title": "raspberrypi/rpi-imager — The home of Raspberry Pi Imager, a user-friendly tool for creating bootable media for Raspberry Pi devices.",
-      "url": "https://github.com/raspberrypi/rpi-imager",
+      "id": "github-gems-24c8dccc",
+      "title": "Botspot/pi-apps — Raspberry Pi App Store for Open Source Projects",
+      "url": "https://github.com/Botspot/pi-apps",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-11-04T16:40:41Z",
+      "publishedAt": "2026-11-05T00:43:10Z",
       "summaryJa": [
-        "The home of Raspberry Pi Imager, a user-friendly tool for creating bootable medi",
+        "Raspberry Pi App Store for Open Source Projects",
         "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "raspberrypi/rpi",
-        "imager",
-        "home",
+        "Botspot/pi",
+        "apps",
         "Raspberry",
-        "Pi"
+        "Pi",
+        "App"
       ],
       "heat": {
         "temperature": 54,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 4,
+          "ageHours": 2,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "Raspberry Piのセットアップを簡略化するこのツールは、ハードウェアへの入り口を物理的な苦労から解放してくれます。小さな基板から何かを生み出そうとするあなたにとって、このGUIは最初の確実な足掛かりとなるでしょう。"
+    "reason": "Raspberry PiのためのOSSアプリストアという、作り手の道具箱を豊かにするプロジェクトです。手元の小さな計算機をどう活用するかの視点が、今日の技術探求に新たな選択肢を与えてくれます。"
   },
   "unavailableSources": []
 }

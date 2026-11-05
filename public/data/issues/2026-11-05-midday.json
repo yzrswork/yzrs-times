@@ -1,0 +1,512 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 236,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-05",
+  "dateDisplay": "Thursday, November 5, 2026",
+  "pressTimeJst": "2026-11-05 12:00",
+  "generatedAt": "2026-11-05T02:47:36.512Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "実装の型と、検証の粒度",
+    "note": "AI時代に求められるのは、ただ書かせることではなく、何をどう実装するかという設計の解像度です。"
+  },
+  "editorial": {
+    "comment": "AIに実装を任せる際、要件定義という名の『ヒアリング設計』こそが技術者の腕の見せ所だと感じさせる（zenn-trend-8c668410）。書かせることが目的ではなく、何を確定させるべきかの本質を見失わないようにしたいですね。",
+    "passedOver": "脆弱性関連のニュースが多かったが、インシデント速報よりは開発の足回りを整える記事を優先した。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "雨",
+    "icon": "rain",
+    "tempMax": 16,
+    "tempMin": 11,
+    "precipChancePct": 100
+  },
+  "market": {
+    "fearGreed": {
+      "value": 50,
+      "label": "Neutral"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 80576,
+        "priceJpy": 12726601,
+        "change24hPct": 5.24,
+        "sparkline7d": [
+          79892.97,
+          78443.93,
+          77377.36,
+          77956.66,
+          77431.26,
+          77789.97,
+          80494.09
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2429.72,
+        "priceJpy": 383765,
+        "change24hPct": 7.82,
+        "sparkline7d": [
+          2309.79,
+          2236.89,
+          2243.22,
+          2266.07,
+          2267.56,
+          2288.58,
+          2419.58
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.168733,
+        "priceJpy": 26.65,
+        "change24hPct": 5.77,
+        "sparkline7d": [
+          0.168057,
+          0.1665,
+          0.16877,
+          0.168127,
+          0.167058,
+          0.162806,
+          0.16756
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 281.89,
+        "priceJpy": 44523,
+        "change24hPct": 4.87,
+        "sparkline7d": [
+          282.36,
+          283.66,
+          287.62,
+          283.6,
+          275.99,
+          275.01,
+          280.5
+        ]
+      }
+    ]
+  },
+  "top": [
+    "zenn-trend-8c668410",
+    "qiita-popular-e2aa6c08",
+    "hatebu-it-9eee4a73"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hatebu-it-44d660b1",
+        "hatebu-it-8a9a4175",
+        "hn-front-b49f6ab4"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "zenn-trend-6dbee4c2",
+        "qiita-popular-441e9155",
+        "zenn-trend-cd4eb13a"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-7a8f9f42",
+        "lobsters-61c011c8"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "zenn-trend-8c668410",
+      "title": "AIにいきなり実装させない — kintoneカスタマイズ開発Skillのヒアリング設計",
+      "url": "https://zenn.dev/genda_jp/articles/a5cbba3664748b",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-04T06:44:57.000Z",
+      "summaryJa": [
+        "こんにちは、IT戦略部の谷川です。",
+        "GENDAでは社内の業務アプリの一部をkintoneで構築しており、標準機能で足りない部分をkintoneのJavaScriptのカスタマイズで補っています。",
+        "しかし要望が出るたびにコードを書くことになるので、この部分をAIに任せられないかと考え、ClaudeのAgent Skillsで仕組み化しました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AIにいきなり実装させない"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-e2aa6c08",
+      "title": "Claude Codeの/model opusplan＋/advisor fableでOpus・Fable・Sonnetを自動で使い分けたら、めちゃめちゃ良かった",
+      "url": "https://qiita.com/inoyu-qiita/items/d486f85b8333d5b324d9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-04T11:31:08.000Z",
+      "summaryJa": [
+        "はじめに Opusが考え、Fableが助言し、Sonnetが作る。",
+        "Claude Codeで、計画・助言・実装を3モデルへ自動で振り分ける運用を、実際の業務で使ってみました。",
+        "設定するのはopusplanと/advisor fableです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Codeの/model",
+        "opusplan＋/advisor",
+        "fableでOpus",
+        "Fable"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-9eee4a73",
+      "title": "ローカルAI最強エンジン「Strata」初心者向けガイド【チャットAIで動画やマンガを自動生成】 | ちもろぐ",
+      "url": "https://chimolog.co/strata-guide/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-04T09:44:17.000Z",
+      "summaryJa": [
+        "ローカル生成AIに真の民主化をもたらした推論エンジン「Strata」が凄いらしいけど、イマイチ使い方が分からないし、そもそも「凄さ」が分からない。",
+        "そう感じている自作PCユーザーが意外と少なくないので、本記事でStrataの使い方を解説します。",
+        "すでに知ってる人からすれば当たり前の内容も多いですが、誰だって最初は初."
+      ],
+      "category": "programming",
+      "keywords": [
+        "ローカルAI最強エンジン",
+        "Strata",
+        "初心者向けガイド",
+        "チャットAIで動画やマンガを自動生成"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 472,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 27.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-44d660b1",
+      "title": "メーカー自身がバックドアを仕込み、犯罪集団に“販売”　乗っ取られたTV用端末130万台超、Googleが遮断　日本の警察庁も参加",
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2611/05/news045.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-04T22:58:52.000Z",
+      "summaryJa": [
+        "Googleの脅威分析チーム「Google Threat Intelligence Group」は11月2日（米国時間）、不正プログラム「XCPE」を、日本の警",
+        "XCPEはTVにつないで動画配信サービスなどを楽しむための「セットトップボックス」130万台超を乗っ取っていた。",
+        "驚くべきは、不正プログラ."
+      ],
+      "category": "programming",
+      "keywords": [
+        "メーカー自身がバックドアを仕込み",
+        "犯罪集団に",
+        "販売",
+        "乗っ取られたTV用端末130万台超",
+        "Googleが遮断"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 27,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 7.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-8a9a4175",
+      "title": "日本の全法令が「Git」の履歴に ～改正で何が変わったのかが一目瞭然／「Git」の意外な弱点も？【やじうまの杜】",
+      "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2153621.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-04T23:02:29.000Z",
+      "summaryJa": [
+        "日本の全法令が「Git」の履歴に ～改正で何が変わったのかが一目瞭然／「Git」の意外な弱点も？【や",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "日本の全法令が",
+        "Git",
+        "～改正で何が変わったのかが一目瞭然／"
+      ],
+      "heat": {
+        "temperature": 87,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 86,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 22.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-b49f6ab4",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-04T11:52:17.000Z",
+      "summaryJa": [
+        "AI is forcing us to pay off 40 years of technical ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "AI",
+        "forcing",
+        "pay",
+        "years",
+        "technical"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 1090,
+          "hatebuCount": 0,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 73
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-6dbee4c2",
+      "title": "C/Rust/Julia/Go/Java/JS/PyPy/LuaJIT 実行速度ベンチマーク ― 競プロと科学計算のあいだ",
+      "url": "https://zenn.dev/trbx304/articles/34fec79781e39c",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-04T13:20:42.000Z",
+      "summaryJa": [
+        "!",
+        "休日の暇つぶしでやった、ゆるい比較です。",
+        "計測は各 1 回だけで、厳密なベンチマークではありません。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "実行速度ベンチマーク",
+        "競プロと科学計算のあいだ"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-441e9155",
+      "title": "【脆弱性ラッシュ】PHP2Shell・Brotli(HTTP2Shell)・Node・Chrome・Goが同時に来た週に、サーバーの「放置」が露呈した話",
+      "url": "https://qiita.com/ysmreg1/items/d9f14d2da0ad57303036?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-04T07:28:14.000Z",
+      "summaryJa": [
+        "はじめに 2026年10月下旬、PHP、Node.",
+        "js、Chrome、Goの重大な更新が立て続けに公開されました。",
+        "私はこれを「脆弱性ラッシュ」と呼んでいます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "脆弱性ラッシュ",
+        "PHP2Shell",
+        "Brotli",
+        "HTTP2Shell",
+        "Node"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-cd4eb13a",
+      "title": "SigLIP2に匹敵する画像エンコーダーをフルスクラッチで開発した話",
+      "url": "https://zenn.dev/noetra_techblog/articles/0cea39ce67d2c2",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-04T05:42:59.000Z",
+      "summaryJa": [
+        "はじめに Noetraでは、フィジカルAIの実現に向けて、国産マルチモーダルLLMの開発を進めています。",
+        "その基盤技術の一つとして、本記事では画像エンコーダーをフルスクラッチで構築した取り組みについて紹介します。",
+        "近年、国内外の企業・研究機関でマルチモーダルLLMの開発が活発化しています。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 21,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-7a8f9f42",
+      "title": "Shlemiel the Painter Is Back: How Zig’s libc Rewrite Made SQLite Slower",
+      "url": "https://dennisforbes.ca/blog/microblog/2026/10/the_accidental_12000x_sqlite_slowdown/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-04T15:23:09.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Shlemiel",
+        "Painter",
+        "Zig’s",
+        "libc",
+        "Rewrite"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-61c011c8",
+      "title": "Arrows to Arrows, Categories to Queries",
+      "url": "https://reasonablypolymorphic.com/blog/arrows-to-arrows/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-04T15:49:15.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Arrows",
+        "Categories",
+        "Queries"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-24c8dccc",
+      "title": "Botspot/pi-apps — Raspberry Pi App Store for Open Source Projects",
+      "url": "https://github.com/Botspot/pi-apps",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-05T00:43:10Z",
+      "summaryJa": [
+        "Raspberry Pi App Store for Open Source Projects",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "Botspot/pi",
+        "apps",
+        "Raspberry",
+        "Pi",
+        "App"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "Raspberry PiのためのOSSアプリストアという、作り手の道具箱を豊かにするプロジェクトです。手元の小さな計算機をどう活用するかの視点が、今日の技術探求に新たな選択肢を与えてくれます。"
+  },
+  "unavailableSources": []
+}

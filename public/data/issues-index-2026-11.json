@@ -64,6 +64,13 @@
       "edition": "morning",
       "theme": "侵害される門と、調律された手元の装置",
       "path": "issues/2026-11-05-morning.json"
+    },
+    {
+      "issueNo": 236,
+      "date": "2026-11-05",
+      "edition": "midday",
+      "theme": "実装の型と、検証の粒度",
+      "path": "issues/2026-11-05-midday.json"
     }
   ]
 }
