@@ -1,186 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "ce7c808760e117c4": {
-      "url": "https://notashelf.dev/posts/taste-is-all-thats-left",
-      "summaryJa": [
-        "Taste Is All That's Left",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-07T02:50:36.516Z"
-    },
-    "0c4b52da53d2566d": {
-      "url": "https://github.com/gmpalter/cl-forth",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-07T02:50:36.516Z"
-    },
-    "c48585f0de9fe7b6": {
-      "url": "https://zenn.dev/aiforall/articles/cb36b724e20a43",
-      "summaryJa": [
-        "はじめに プロンプトの細かな差異（空白の有無、指示の構造など）は、LLM の回答の質を大きく左右します。",
-        "「なんとなく書いたら動いた／動かなかった」を卒業するには、勘ではなくテスト駆動で Skill を育てていく発想が有効です。",
-        "この記事では、mizchi 氏が提唱する「empirical-prompt-tuning」の手法を GitHub Copilot 環境で試し、意図的に品質を落と"
-      ],
-      "cachedAt": "2026-08-07T02:50:36.516Z"
-    },
-    "680afa7c39461709": {
-      "url": "https://zenn.dev/finatext/articles/2ea88e4b1c2e5b",
-      "summaryJa": [
-        "Open Knowledge Format（OKF）— LLM Wikiパターンの標準化 ナウキャストで長期LLMインターンをしている北川です。",
-        "LLM系のタスクのキャッチアップをする中で、最近「OKF」という技術を耳にする機会が増えました。",
-        "OKFはまだ登場したばかりの仕様で、その概念を理解するにはRAGやLLM wikiといった周辺技術への理解が欠かせ."
-      ],
-      "cachedAt": "2026-08-07T02:50:36.516Z"
-    },
-    "29a29d5c58eb9503": {
-      "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
-      "summaryJa": [
-        "Mario Meets Pareto",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-07T02:50:36.516Z"
-    },
-    "74b19e69547787b9": {
-      "url": "https://www.itmedia.co.jp/aiplus/article/2608/06/2000000418/",
-      "summaryJa": [
-        "リクルートは8月5日、2026年度の新卒エンジニア向けの研修資料を公開した。",
-        "エンジニアとして生き残るためのAIの活用法や、AIによるソフトウェア開発の考え方の変化など、業務やキャリア形成に必要な知見を幅広く紹介している。",
-        "26年度の研修で利用した13の資料を公開した。"
-      ],
-      "cachedAt": "2026-08-07T02:50:36.516Z"
-    },
-    "6ac58a7ce3a938b5": {
-      "url": "https://zenn.dev/rakko_inc/articles/claude-code-security-guidance-intro",
-      "summaryJa": [
-        "AI にコードを書かせるようになって、実装のスピードが上がりました。",
-        "一方で次なる課題も山のようにありますよね。",
-        "今日はその中から「セキュリティ対策」をテーマに選びました。"
-      ],
-      "cachedAt": "2026-08-07T02:50:36.516Z"
-    },
-    "d0995676d7dd7660": {
-      "url": "https://qiita.com/jqit_suwa/items/aefb1adac27a34646cf3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "AI にバグの原因を聞くと、けっこう当ててきます。",
-        "でも、たまにとんでもなく的外れなことを言う。",
-        "しかも自信満々で。"
-      ],
-      "cachedAt": "2026-08-07T02:50:36.516Z"
-    },
-    "c0a615d8f7340a05": {
-      "url": "https://qiita.com/maskot1977/items/198f98dbbdce80c1790e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "user: 「システム設計視点の行動経済学」も 10回目まで連載しました。",
-        "ここで、これまでの内容の振り返りをしたいと思います。",
-        "Claude Codeさん、まとめを作ってください。"
-      ],
-      "cachedAt": "2026-08-07T02:50:36.516Z"
-    },
-    "0b5b2fb89ba76e4b": {
-      "url": "https://celld.dev/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-07T02:50:36.516Z"
-    },
-    "dc1864f923db9890": {
-      "url": "https://trevmex.com/post/824245295374303232/my-son-found-a-world-atlas-in-a-thrift-store-so-i",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-07T02:50:36.516Z"
-    },
-    "3d312c359e3fba3c": {
-      "url": "https://github.com/Devin-AXIS/iPolloWork",
-      "summaryJa": [
-        "A source-available, local-first alternative to Codex and Claude Code: an AI work",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-07T02:50:36.516Z"
-    },
-    "5c970cc4af2cfed0": {
-      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
-      "summaryJa": [
-        "Oracle bans AI-generated code from OpenJDK",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-07T20:17:46.820Z"
-    },
-    "6613850b14c2411c": {
-      "url": "https://forest.watch.impress.co.jp/docs/news/2131497.html",
-      "summaryJa": [
-        "老舗のマウスユーティリティ「チューチューマウス」がAIの力を借りて15年ぶりに復活／64bit化、W",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-07T20:17:46.820Z"
-    },
-    "9a630ca45e2cd495": {
-      "url": "https://ancientlibrary.net/",
-      "summaryJa": [
-        "Ancient Library – 1,060 Greek/Latin texts, click a",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-07T20:17:46.820Z"
-    },
-    "bfaf26f7d86cf49e": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-      "summaryJa": [
-        "大型で非常に強い台風13号は、依然として沖縄本島地方や・奄美地方を暴風域に巻き込みながら西寄りに進んでいます。",
-        "暴風などに厳重な警戒を続けてください。",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-07T20:17:46.820Z"
-    },
-    "38e77f6fcfb9c9a4": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015199481000",
-      "summaryJa": [
-        "熱波の影響が続くヨーロッパでは、ドナウ川の水位が記録的な低さとなり、川底からマンモスのものとみられる骨や沈没した船が姿を現しました。",
-        "出典: NHKニュース 国際",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-07T20:17:46.820Z"
-    },
-    "dee14e02769725c9": {
-      "url": "https://news.web.nhk/newsweb/na/na-k10015199381000",
-      "summaryJa": [
-        "茨城県の税務署の職員が税務調査で知り合った高齢の女性からおよそ1億5000万円を受け取って競艇につぎ込んだうえ、脱税していたとして、関東信越国税局は懲戒免職の処",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-07T20:17:46.820Z"
-    },
-    "12a203aee41753a2": {
-      "url": "https://tech.timee.co.jp/entry/2026/08/07/164910",
-      "summaryJa": [
-        "はじめに こんにちは、タイミーのプラットフォームエンジニアリングチームに所属している徳富(@yannKazu1)です。",
-        "この記事では、スキマバイトサービス「タイミー」のバックエンド（Rails API）に Datadog Test Impact Analysis（TIA） を導入",
-        "."
-      ],
-      "cachedAt": "2026-08-07T20:17:46.820Z"
-    },
-    "1d8ea36d46d8b342": {
-      "url": "https://github.com/RavenSystem/esp-homekit-devices",
-      "summaryJa": [
-        "Advanced firmware to add native Apple HomeKit and custom configurations, compati",
-        "(Shelly, Sonoff, Electrodragon, Tuya.",
-        "."
-      ],
-      "cachedAt": "2026-08-07T20:17:46.820Z"
-    },
     "b48d312d168846e2": {
       "url": "https://www.asahi.com/articles/ASV8723PZV87UCVL05TM.html",
       "summaryJa": [
@@ -15111,6 +14931,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-05T02:49:22.095Z"
+    },
+    "120202a3af58ed67": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261105de71024",
+      "summaryJa": [
+        "カードローンなどの保証業務を行っているSMBCコンシューマーファイナンスは、システムが不正アクセスを受け、ローンを申し込んだ人の名前や住所のほか、年収なども含む",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-05T20:19:08.270Z"
+    },
+    "5e126dfcd8493473": {
+      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+      "summaryJa": [
+        "Alpine Linux Security Advisory: OpenSSH-server pas",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-05T20:19:08.270Z"
+    },
+    "50c1fda49479a954": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71299",
+      "summaryJa": [
+        "不正アクセスによる情報流出の被害が相次ぐ中、サイバー攻撃を受けた場合に影響を最小限にとどめて事業を継続するための計画「サイバーBCP」への関心が企業や団体の間で",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-05T20:19:08.270Z"
+    },
+    "56e8dd979921d80f": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261105de71261",
+      "summaryJa": [
+        "ロシアのプーチン大統領は5日、JT＝日本たばこ産業の海外の子会社がロシア国内に保有する4つの生産拠点を、一時的にロシア企業の管理下に置く大統領令に署名しました。",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-05T20:19:08.270Z"
+    },
+    "25b68b0059ad4aaa": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71306",
+      "summaryJa": [
+        "5日のニューヨーク株式市場では、半導体をはじめ幅広い銘柄に売り注文が広がってハイテク株の比率が高いナスダックの株価指数は一時、前日と比べて5％を超える大幅な下落",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-05T20:19:08.270Z"
+    },
+    "19d0899f97f4118b": {
+      "url": "https://blog.mudatobunka.org/entry/2026/11/05/100000",
+      "summaryJa": [
+        "今年の6月まで、データ分析用途の AI エージェント (以下、分析エージェント) をスクラッチで開発していた。",
+        "が、思うところがあり開発をスッパリとやめた。",
+        "この記事でいろいろと振り返ってみようと思う。"
+      ],
+      "cachedAt": "2026-11-05T20:19:08.270Z"
+    },
+    "6300ca9130c49bb1": {
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/11/05/133509",
+      "summaryJa": [
+        "2026年11月5日、Level Infiniteは「勝利の女神：NIKKE」のPCランチャーの一部ファイルが第三者に改ざんされ、起動時に不正プログラムが実行さ",
+        "ここでは関連する情報をまとめます。",
+        "公式CDNのスクリプト4件を改ざん 「勝利の女神：NIKKE」はSHIFT UPが開発し、Level Infiniteが配信して."
+      ],
+      "cachedAt": "2026-11-05T20:19:08.270Z"
+    },
+    "c8d06251698dcc37": {
+      "url": "https://www.theverge.com/news/1027379/discord-ditching-electron-web-app",
+      "summaryJa": [
+        "Discord is ditching Electron and its new app uses ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-05T20:19:08.270Z"
+    },
+    "4d4f76766843a7c2": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%95%E3%83%A9%E3%82%A4%E3%83%87%E3%83%BC",
+      "summaryJa": [
+        "ブラックフライデー",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-05T20:19:08.270Z"
+    },
+    "0a780612d72ec841": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%97%A9%E6%9C%9F%E5%A4%A9%E5%80%99%E6%83%85%E5%A0%B1",
+      "summaryJa": [
+        "早期天候情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-05T20:19:08.270Z"
+    },
+    "3854d8dee8c1f24d": {
+      "url": "https://github.com/kube-vip/kube-vip",
+      "summaryJa": [
+        "Kubernetes Control Plane Virtual IP and Load-Balancer",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-05T20:19:08.270Z"
     }
   }
 }

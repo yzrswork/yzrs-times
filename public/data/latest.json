@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 236,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-11-05",
-  "dateDisplay": "Thursday, November 5, 2026",
-  "pressTimeJst": "2026-11-05 12:00",
-  "generatedAt": "2026-11-05T02:47:36.512Z",
+  "issueNo": 237,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-06",
+  "dateDisplay": "Friday, November 6, 2026",
+  "pressTimeJst": "2026-11-06 05:00",
+  "generatedAt": "2026-11-05T20:17:44.374Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,21 +14,21 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "実装の型と、検証の粒度",
-    "note": "AI時代に求められるのは、ただ書かせることではなく、何をどう実装するかという設計の解像度です。"
+    "title": "侵害される安全と、構築される基盤",
+    "note": "システムの脆弱性とデータ流出という現実の脅威に対し、いかに堅牢な運用と代替的な構成を模索するかの岐路にある。"
   },
   "editorial": {
-    "comment": "AIに実装を任せる際、要件定義という名の『ヒアリング設計』こそが技術者の腕の見せ所だと感じさせる（zenn-trend-8c668410）。書かせることが目的ではなく、何を確定させるべきかの本質を見失わないようにしたいですね。",
-    "passedOver": "脆弱性関連のニュースが多かったが、インシデント速報よりは開発の足回りを整える記事を優先した。",
+    "comment": "『自作AIエージェントの開発をやめた（hatebu-it-19d0899f）』に見る、全機能を自前で抱え込むことの限界と、インターフェースを通じた再定義の潔さに技術の本質を感じます。",
+    "passedOver": "米国中間選挙関連のニュースは数多く報じられていますが、今朝の作り手向け紙面としては個別のインシデントと技術的適応を優先しました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "雨",
-    "icon": "rain",
-    "tempMax": 16,
-    "tempMin": 11,
-    "precipChancePct": 100
+    "summary": "曇り",
+    "icon": "cloudy",
+    "tempMax": 24,
+    "tempMin": 14,
+    "precipChancePct": 31
   },
   "market": {
     "fearGreed": {
@@ -39,403 +39,367 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 80576,
-        "priceJpy": 12726601,
-        "change24hPct": 5.24,
+        "priceUsd": 75961,
+        "priceJpy": 11988291,
+        "change24hPct": -5.15,
         "sparkline7d": [
-          79892.97,
-          78443.93,
-          77377.36,
-          77956.66,
-          77431.26,
-          77789.97,
-          80494.09
+          80769.04,
+          77275.05,
+          77750.96,
+          78032.08,
+          77012.04,
+          79225.86,
+          76017.11
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2429.72,
-        "priceJpy": 383765,
-        "change24hPct": 7.82,
+        "priceUsd": 2247.16,
+        "priceJpy": 354649,
+        "change24hPct": -6.79,
         "sparkline7d": [
-          2309.79,
-          2236.89,
-          2243.22,
-          2266.07,
-          2267.56,
-          2288.58,
-          2419.58
-        ]
-      },
-      {
-        "id": "stellar",
-        "symbol": "XLM",
-        "priceUsd": 0.168733,
-        "priceJpy": 26.65,
-        "change24hPct": 5.77,
-        "sparkline7d": [
-          0.168057,
-          0.1665,
-          0.16877,
-          0.168127,
-          0.167058,
-          0.162806,
-          0.16756
+          2334.55,
+          2242.5,
+          2266.92,
+          2282.64,
+          2268.57,
+          2375.39,
+          2249.58
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 281.89,
-        "priceJpy": 44523,
-        "change24hPct": 4.87,
+        "priceUsd": 275.65,
+        "priceJpy": 43503,
+        "change24hPct": -1.76,
         "sparkline7d": [
-          282.36,
-          283.66,
-          287.62,
-          283.6,
-          275.99,
-          275.01,
-          280.5
+          286.65,
+          293.78,
+          286.9,
+          278.46,
+          276.68,
+          280.5,
+          274.07
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.154747,
+        "priceJpy": 24.42,
+        "change24hPct": -6.66,
+        "sparkline7d": [
+          0.16914,
+          0.170785,
+          0.168803,
+          0.167032,
+          0.161993,
+          0.167277,
+          0.153784
         ]
       }
     ]
   },
   "top": [
-    "zenn-trend-8c668410",
-    "qiita-popular-e2aa6c08",
-    "hatebu-it-9eee4a73"
+    "hatebu-it-120202a3",
+    "hn-front-e80af6d9",
+    "nhk-top-50c1fda4"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hatebu-it-44d660b1",
-        "hatebu-it-8a9a4175",
-        "hn-front-b49f6ab4"
+        "nhk-top-56e8dd97",
+        "nhk-world-25b68b00"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-trend-6dbee4c2",
-        "qiita-popular-441e9155",
-        "zenn-trend-cd4eb13a"
+        "hatebu-it-19d0899f",
+        "hatebu-it-6300ca91",
+        "hn-front-4184fea3"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-7a8f9f42",
-        "lobsters-61c011c8"
+        "gtrends-jp-4d4f7676",
+        "gtrends-jp-0a780612"
       ]
     }
   ],
   "articles": [
     {
-      "id": "zenn-trend-8c668410",
-      "title": "AIにいきなり実装させない — kintoneカスタマイズ開発Skillのヒアリング設計",
-      "url": "https://zenn.dev/genda_jp/articles/a5cbba3664748b",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-04T06:44:57.000Z",
-      "summaryJa": [
-        "こんにちは、IT戦略部の谷川です。",
-        "GENDAでは社内の業務アプリの一部をkintoneで構築しており、標準機能で足りない部分をkintoneのJavaScriptのカスタマイズで補っています。",
-        "しかし要望が出るたびにコードを書くことになるので、この部分をAIに任せられないかと考え、ClaudeのAgent Skillsで仕組み化しました。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "AIにいきなり実装させない"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 20,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-e2aa6c08",
-      "title": "Claude Codeの/model opusplan＋/advisor fableでOpus・Fable・Sonnetを自動で使い分けたら、めちゃめちゃ良かった",
-      "url": "https://qiita.com/inoyu-qiita/items/d486f85b8333d5b324d9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-11-04T11:31:08.000Z",
-      "summaryJa": [
-        "はじめに Opusが考え、Fableが助言し、Sonnetが作る。",
-        "Claude Codeで、計画・助言・実装を3モデルへ自動で振り分ける運用を、実際の業務で使ってみました。",
-        "設定するのはopusplanと/advisor fableです。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Claude",
-        "Codeの/model",
-        "opusplan＋/advisor",
-        "fableでOpus",
-        "Fable"
-      ],
-      "heat": {
-        "temperature": 50,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 15,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-9eee4a73",
-      "title": "ローカルAI最強エンジン「Strata」初心者向けガイド【チャットAIで動画やマンガを自動生成】 | ちもろぐ",
-      "url": "https://chimolog.co/strata-guide/",
+      "id": "hatebu-it-120202a3",
+      "title": "三井住友G保証会社 個人情報最大32万人分漏えい 住所や年収も | NHKニュース",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261105de71024",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-04T09:44:17.000Z",
+      "publishedAt": "2026-11-05T08:11:57.000Z",
       "summaryJa": [
-        "ローカル生成AIに真の民主化をもたらした推論エンジン「Strata」が凄いらしいけど、イマイチ使い方が分からないし、そもそも「凄さ」が分からない。",
-        "そう感じている自作PCユーザーが意外と少なくないので、本記事でStrataの使い方を解説します。",
-        "すでに知ってる人からすれば当たり前の内容も多いですが、誰だって最初は初."
-      ],
-      "category": "programming",
-      "keywords": [
-        "ローカルAI最強エンジン",
-        "Strata",
-        "初心者向けガイド",
-        "チャットAIで動画やマンガを自動生成"
-      ],
-      "heat": {
-        "temperature": 84,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 472,
-          "ageHours": 17,
-          "crossSources": 1,
-          "velocity": 27.7
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-44d660b1",
-      "title": "メーカー自身がバックドアを仕込み、犯罪集団に“販売”　乗っ取られたTV用端末130万台超、Googleが遮断　日本の警察庁も参加",
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2611/05/news045.html",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-04T22:58:52.000Z",
-      "summaryJa": [
-        "Googleの脅威分析チーム「Google Threat Intelligence Group」は11月2日（米国時間）、不正プログラム「XCPE」を、日本の警",
-        "XCPEはTVにつないで動画配信サービスなどを楽しむための「セットトップボックス」130万台超を乗っ取っていた。",
-        "驚くべきは、不正プログラ."
-      ],
-      "category": "programming",
-      "keywords": [
-        "メーカー自身がバックドアを仕込み",
-        "犯罪集団に",
-        "販売",
-        "乗っ取られたTV用端末130万台超",
-        "Googleが遮断"
-      ],
-      "heat": {
-        "temperature": 82,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 27,
-          "ageHours": 4,
-          "crossSources": 1,
-          "velocity": 7.1
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-8a9a4175",
-      "title": "日本の全法令が「Git」の履歴に ～改正で何が変わったのかが一目瞭然／「Git」の意外な弱点も？【やじうまの杜】",
-      "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2153621.html",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-04T23:02:29.000Z",
-      "summaryJa": [
-        "日本の全法令が「Git」の履歴に ～改正で何が変わったのかが一目瞭然／「Git」の意外な弱点も？【や",
+        "カードローンなどの保証業務を行っているSMBCコンシューマーファイナンスは、システムが不正アクセスを受け、ローンを申し込んだ人の名前や住所のほか、年収なども含む",
         "出典: はてなブックマーク テクノロジー",
         "詳細は元記事を参照してください。"
       ],
       "category": "programming",
       "keywords": [
-        "日本の全法令が",
-        "Git",
-        "～改正で何が変わったのかが一目瞭然／"
+        "三井住友G保証会社",
+        "個人情報最大32万人分漏えい",
+        "住所や年収も",
+        "NHKニュース"
       ],
       "heat": {
-        "temperature": 87,
+        "temperature": 80,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 86,
-          "ageHours": 4,
+          "hatebuCount": 92,
+          "ageHours": 12,
           "crossSources": 1,
-          "velocity": 22.9
+          "velocity": 7.6
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-b49f6ab4",
-      "title": "AI is forcing us to pay off 40 years of technical debt",
-      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "id": "hn-front-e80af6d9",
+      "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
+      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
       "source": "Hacker News",
       "sourceId": "hn-front",
-      "publishedAt": "2026-11-04T11:52:17.000Z",
+      "publishedAt": "2026-11-05T14:44:20.000Z",
       "summaryJa": [
-        "AI is forcing us to pay off 40 years of technical ",
+        "Alpine Linux Security Advisory: OpenSSH-server pas",
         "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "AI",
-        "forcing",
-        "pay",
-        "years",
-        "technical"
+        "Alpine",
+        "Linux",
+        "Security",
+        "Advisory",
+        "OpenSSH"
       ],
       "heat": {
-        "temperature": 82,
+        "temperature": 88,
         "signals": {
-          "hnPoints": 1090,
+          "hnPoints": 440,
           "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 79.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-50c1fda4",
+      "title": "関心高まる「サイバーBCP」 攻撃された後も事業継続へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71299",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-05T20:05:38.000Z",
+      "summaryJa": [
+        "不正アクセスによる情報流出の被害が相次ぐ中、サイバー攻撃を受けた場合に影響を最小限にとどめて事業を継続するための計画「サイバーBCP」への関心が企業や団体の間で",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "関心高まる",
+        "サイバーBCP",
+        "攻撃された後も事業継続へ"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-56e8dd97",
+      "title": "ロシア国内のJT関連工場 一時的にロシア企業管理下に 大統領令",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261105de71261",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-05T20:02:19.000Z",
+      "summaryJa": [
+        "ロシアのプーチン大統領は5日、JT＝日本たばこ産業の海外の子会社がロシア国内に保有する4つの生産拠点を、一時的にロシア企業の管理下に置く大統領令に署名しました。",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ロシア国内のJT関連工場",
+        "一時的にロシア企業管理下に",
+        "大統領令"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-25b68b00",
+      "title": "ナスダック一時5％下落 AI・データセンター規制強化を懸念",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71306",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-11-05T16:37:00.000Z",
+      "summaryJa": [
+        "5日のニューヨーク株式市場では、半導体をはじめ幅広い銘柄に売り注文が広がってハイテク株の比率が高いナスダックの株価指数は一時、前日と比べて5％を超える大幅な下落",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ナスダック一時5％下落",
+        "AI",
+        "データセンター規制強化を懸念"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-19d0899f",
+      "title": "自作AIエージェントの開発をやめた - 無駄と文化",
+      "url": "https://blog.mudatobunka.org/entry/2026/11/05/100000",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-05T09:16:13.000Z",
+      "summaryJa": [
+        "今年の6月まで、データ分析用途の AI エージェント (以下、分析エージェント) をスクラッチで開発していた。",
+        "が、思うところがあり開発をスッパリとやめた。",
+        "この記事でいろいろと振り返ってみようと思う。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "自作AIエージェントの開発をやめた",
+        "無駄と文化"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 118,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 10.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-6300ca91",
+      "title": "「勝利の女神：NIKKE」のPCランチャー経由の不正プログラム配布についてまとめてみた - piyolog",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/11/05/133509",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-05T04:48:15.000Z",
+      "summaryJa": [
+        "2026年11月5日、Level Infiniteは「勝利の女神：NIKKE」のPCランチャーの一部ファイルが第三者に改ざんされ、起動時に不正プログラムが実行さ",
+        "ここでは関連する情報をまとめます。",
+        "公式CDNのスクリプト4件を改ざん 「勝利の女神：NIKKE」はSHIFT UPが開発し、Level Infiniteが配信して."
+      ],
+      "category": "programming",
+      "keywords": [
+        "勝利の女神：NIKKE",
+        "piyolog"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 118,
           "ageHours": 15,
           "crossSources": 1,
-          "velocity": 73
+          "velocity": 7.6
         }
       },
       "image": null
     },
     {
-      "id": "zenn-trend-6dbee4c2",
-      "title": "C/Rust/Julia/Go/Java/JS/PyPy/LuaJIT 実行速度ベンチマーク ― 競プロと科学計算のあいだ",
-      "url": "https://zenn.dev/trbx304/articles/34fec79781e39c",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-04T13:20:42.000Z",
+      "id": "hn-front-4184fea3",
+      "title": "Discord is ditching Electron and its new app uses less RAM",
+      "url": "https://www.theverge.com/news/1027379/discord-ditching-electron-web-app",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-05T13:05:28.000Z",
       "summaryJa": [
-        "!",
-        "休日の暇つぶしでやった、ゆるい比較です。",
-        "計測は各 1 回だけで、厳密なベンチマークではありません。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "実行速度ベンチマーク",
-        "競プロと科学計算のあいだ"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 13,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-441e9155",
-      "title": "【脆弱性ラッシュ】PHP2Shell・Brotli(HTTP2Shell)・Node・Chrome・Goが同時に来た週に、サーバーの「放置」が露呈した話",
-      "url": "https://qiita.com/ysmreg1/items/d9f14d2da0ad57303036?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-11-04T07:28:14.000Z",
-      "summaryJa": [
-        "はじめに 2026年10月下旬、PHP、Node.",
-        "js、Chrome、Goの重大な更新が立て続けに公開されました。",
-        "私はこれを「脆弱性ラッシュ」と呼んでいます。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "脆弱性ラッシュ",
-        "PHP2Shell",
-        "Brotli",
-        "HTTP2Shell",
-        "Node"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 19,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-cd4eb13a",
-      "title": "SigLIP2に匹敵する画像エンコーダーをフルスクラッチで開発した話",
-      "url": "https://zenn.dev/noetra_techblog/articles/0cea39ce67d2c2",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-04T05:42:59.000Z",
-      "summaryJa": [
-        "はじめに Noetraでは、フィジカルAIの実現に向けて、国産マルチモーダルLLMの開発を進めています。",
-        "その基盤技術の一つとして、本記事では画像エンコーダーをフルスクラッチで構築した取り組みについて紹介します。",
-        "近年、国内外の企業・研究機関でマルチモーダルLLMの開発が活発化しています。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "programming"
-      ],
-      "heat": {
-        "temperature": 48,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 21,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-7a8f9f42",
-      "title": "Shlemiel the Painter Is Back: How Zig’s libc Rewrite Made SQLite Slower",
-      "url": "https://dennisforbes.ca/blog/microblog/2026/10/the_accidental_12000x_sqlite_slowdown/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-04T15:23:09.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "Discord is ditching Electron and its new app uses ",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Shlemiel",
-        "Painter",
-        "Zig’s",
-        "libc",
-        "Rewrite"
+        "Discord",
+        "ditching",
+        "Electron",
+        "app",
+        "uses"
       ],
       "heat": {
-        "temperature": 51,
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 297,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 41.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-4d4f7676",
+      "title": "ブラックフライデー",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%95%E3%83%A9%E3%82%A4%E3%83%87%E3%83%BC",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-05T20:00:00.000Z",
+      "summaryJa": [
+        "ブラックフライデー",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "ブラックフライデー"
+      ],
+      "heat": {
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 11,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -443,29 +407,27 @@
       "image": null
     },
     {
-      "id": "lobsters-61c011c8",
-      "title": "Arrows to Arrows, Categories to Queries",
-      "url": "https://reasonablypolymorphic.com/blog/arrows-to-arrows/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-04T15:49:15.000Z",
+      "id": "gtrends-jp-0a780612",
+      "title": "早期天候情報",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%97%A9%E6%9C%9F%E5%A4%A9%E5%80%99%E6%83%85%E5%A0%B1",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-05T20:00:00.000Z",
       "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "早期天候情報",
+        "出典: Google トレンド",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "trends",
       "keywords": [
-        "Arrows",
-        "Categories",
-        "Queries"
+        "早期天候情報"
       ],
       "heat": {
-        "temperature": 52,
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 11,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -475,38 +437,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-24c8dccc",
-      "title": "Botspot/pi-apps — Raspberry Pi App Store for Open Source Projects",
-      "url": "https://github.com/Botspot/pi-apps",
+      "id": "github-gems-51d2e4d8",
+      "title": "kube-vip/kube-vip — Kubernetes Control Plane Virtual IP and Load-Balancer",
+      "url": "https://github.com/kube-vip/kube-vip",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-11-05T00:43:10Z",
+      "publishedAt": "2026-11-02T02:32:52Z",
       "summaryJa": [
-        "Raspberry Pi App Store for Open Source Projects",
+        "Kubernetes Control Plane Virtual IP and Load-Balancer",
         "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "Botspot/pi",
-        "apps",
-        "Raspberry",
-        "Pi",
-        "App"
+        "kube",
+        "vip/kube",
+        "vip",
+        "Kubernetes",
+        "Control"
       ],
       "heat": {
-        "temperature": 54,
+        "temperature": 40,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 2,
+          "ageHours": 90,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "Raspberry PiのためのOSSアプリストアという、作り手の道具箱を豊かにするプロジェクトです。手元の小さな計算機をどう活用するかの視点が、今日の技術探求に新たな選択肢を与えてくれます。"
+    "reason": "Kubernetesの制御面に仮想IPを付与するシンプルな実装です。分散環境を構築する際、複雑なロードバランサを避けて足元を固めたいエンジニアには最適な道具となるでしょう。"
   },
   "unavailableSources": []
 }
