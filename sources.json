@@ -63,7 +63,7 @@
     {
       "id": "gtrends-jp",
       "name": "Google トレンド",
-      "type": "rss",
+      "type": "gtrends",
       "url": "https://trends.google.com/trending/rss?geo=JP",
       "lang": "ja",
       "optional": true
