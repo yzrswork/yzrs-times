@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 238,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-11-06",
-  "dateDisplay": "Friday, November 6, 2026",
-  "pressTimeJst": "2026-11-06 12:00",
-  "generatedAt": "2026-11-06T02:47:33.177Z",
+  "issueNo": 239,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-07",
+  "dateDisplay": "Saturday, November 7, 2026",
+  "pressTimeJst": "2026-11-07 05:00",
+  "generatedAt": "2026-11-06T20:17:43.819Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,21 +14,21 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "極小の描画と、枠組みの再構築",
-    "note": "制約下で研ぎ澄まされる表現力と、コードや環境を堅牢に保つための設計手順に着目した紙面です。"
+    "title": "不意の前提変更と、露出する隙",
+    "note": "朝の5分で今日を知る。揺らぐ仕様とセキュリティの境界に触れ、確かな足場を整えて作業を始めるための紙面。"
   },
   "editorial": {
-    "comment": "「I Go to Olympics of 4KB Coding（lobsters-14c13b17）」に漂う、制約の中で極限まで表現を磨き上げる熱量に胸が躍ります。午後の作業に向かう手元に、ほんの少しの美学を持ち込みたくなります。 —— YZRS Times 編集長",
-    "passedOver": "「OpenAIのGPT-6 Cyber発表」などのセキュリティ時事ニュースは、昼休みの技術インプットという趣旨に合わせて見送りました。",
+    "comment": "「[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件（hatebu-it-64924335）」の事例のように、疑いもしなかった基礎ライブラリの前提がひっくり返る瞬間には独特の凄みがあります。手元のコードの足場を固めつつ、今日の作業に入りたいところです。 —— YZRS Times 編集長",
+    "passedOver": "政治関連の議会調査報道や特定企業の業績修正ニュースは、本日の時事と手元のものづくりをつなぐ文脈に乏しいため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
     "summary": "曇り",
     "icon": "cloudy",
-    "tempMax": 24,
-    "tempMin": 14,
-    "precipChancePct": 12
+    "tempMax": 20,
+    "tempMin": 11,
+    "precipChancePct": 2
   },
   "market": {
     "fearGreed": {
@@ -39,365 +39,270 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 76065,
-        "priceJpy": 12007497,
-        "change24hPct": -5.6,
+        "priceUsd": 75768,
+        "priceJpy": 12009706,
+        "change24hPct": -0.26,
         "sparkline7d": [
-          76666.41,
-          77195.6,
-          78074.88,
-          77837.86,
-          77672.03,
-          80087.15,
-          76209.5
+          76845.61,
+          77520.89,
+          78556.55,
+          76722.12,
+          78513.77,
+          78172.49,
+          75724.44
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2239.24,
-        "priceJpy": 353483,
-        "change24hPct": -7.84,
+        "priceUsd": 2230.06,
+        "priceJpy": 353477,
+        "change24hPct": -0.72,
         "sparkline7d": [
-          2191.63,
-          2240.44,
-          2269.28,
-          2284.39,
-          2295.79,
-          2419.25,
-          2242.39
-        ]
-      },
-      {
-        "id": "bitcoin-cash",
-        "symbol": "BCH",
-        "priceUsd": 275.25,
-        "priceJpy": 43451,
-        "change24hPct": -2.31,
-        "sparkline7d": [
-          271.31,
-          289.09,
-          283.14,
-          277.96,
-          276.44,
-          281.23,
-          278.42
+          2236.7,
+          2254.13,
+          2306.94,
+          2255.2,
+          2325.32,
+          2339.87,
+          2228.96
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.155539,
-        "priceJpy": 24.55,
-        "change24hPct": -7.79,
+        "priceUsd": 0.154981,
+        "priceJpy": 24.57,
+        "change24hPct": 0.22,
         "sparkline7d": [
-          0.16095,
-          0.168867,
-          0.16897,
-          0.168117,
-          0.163672,
-          0.166268,
-          0.155309
+          0.167274,
+          0.169516,
+          0.169359,
+          0.161407,
+          0.164473,
+          0.160199,
+          0.155917
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 264.42,
+        "priceJpy": 41912,
+        "change24hPct": -4.04,
+        "sparkline7d": [
+          289.78,
+          285.2,
+          285.72,
+          275.4,
+          276.01,
+          284.2,
+          265.6
         ]
       }
     ]
   },
   "top": [
-    "lobsters-14c13b17",
-    "zenn-trend-17670507",
-    "hatebu-it-054a0dba"
+    "hatebu-it-64924335",
+    "hn-front-87395bf2",
+    "nhk-top-8d171446"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hatebu-it-1671d9b9",
-        "hatebu-it-ae1122f0"
+        "nhk-top-57ec067c",
+        "nhk-top-f7032111",
+        "nhk-world-93542ff6"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-trend-a935fd15",
-        "zenn-trend-24bb5093",
-        "qiita-popular-e38dc067"
+        "hn-front-48934373",
+        "hatebu-it-91493e15"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-6d29edca",
-        "lobsters-430e0dc8"
+        "hatebu-it-470a9d9b",
+        "gtrends-jp-571e38b8",
+        "gtrends-jp-8df1fccd"
       ]
     }
   ],
   "articles": [
     {
-      "id": "lobsters-14c13b17",
-      "title": "I Go to Olympics of 4KB Coding",
-      "url": "https://inv.nadeko.net/watch?v=PeZNLvD4mds",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-05T23:33:07.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Go",
-        "Olympics",
-        "4KB",
-        "Coding"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 3,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-17670507",
-      "title": "AI生成コードを本番品質に保つためのフロントエンド開発の仕組み",
-      "url": "https://zenn.dev/sun_asterisk/articles/d4e4bc24974b99",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-05T09:00:55.000Z",
-      "summaryJa": [
-        "はじめに AI が書いたコードの品質は、プロンプトの工夫よりも、AI の外側に用意した「仕組み」で決まります。",
-        "この記事では、Next.",
-        "js（App Router）と TypeScript のフロントエンド開発を例に、AI 生成コードを本番品質に保つための仕組みを 4 つの層に分けて紹介します。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "programming"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 18,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-054a0dba",
-      "title": "ソニー、初代ウォークマン付属ヘッドフォンを再現。USB-C化した「MDR-3R」",
-      "url": "https://av.watch.impress.co.jp/docs/news/2153686.html",
+      "id": "hatebu-it-64924335",
+      "title": "[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件",
+      "url": "https://zenn.dev/xin9le/articles/9a1cf8e10494d6",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-06T00:14:47.000Z",
+      "publishedAt": "2026-11-06T16:49:21.000Z",
       "summaryJa": [
-        "ソニー、初代ウォークマン付属ヘッドフォンを再現。USB-C化した「MDR-3R」",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
+        "「お前は何を言っているんだ？",
+        "」と思うかもしれませんが、本当なのだから仕方ない！",
+        "動いていたはずの CI の単体テストが突然コケるという事態に遭遇してビックリ。"
       ],
       "category": "programming",
       "keywords": [
-        "ソニー",
-        "初代ウォークマン付属ヘッドフォンを再現",
-        "USB",
-        "C化した",
-        "MDR"
+        "破壊的変更"
       ],
       "heat": {
         "temperature": 87,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 45,
+          "hatebuCount": 28,
           "ageHours": 3,
           "crossSources": 1,
-          "velocity": 17.7
+          "velocity": 8.1
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-1671d9b9",
-      "title": "DHHに会いに行って、初心者に戻ることにした - kickflow Tech Blog",
-      "url": "https://tech.kickflow.co.jp/entry/2026/11/05/160106",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-06T01:13:58.000Z",
+      "id": "hn-front-87395bf2",
+      "title": "First steps in bare-metal programming using UEFI",
+      "url": "https://kevinboone.me/efitest_index.html",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-06T16:50:29.000Z",
       "summaryJa": [
-        "こんにちは。",
-        "2026年7月にkickflowに入社した、エンジニアのpesoです。",
-        "2026年10月16日と17日に渋谷で開かれたKaigi on Rails 2026に、kickflowのメンバーとして参加しました。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "DHHに会いに行って",
-        "初心者に戻ることにした",
-        "kickflow"
-      ],
-      "heat": {
-        "temperature": 83,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 17,
-          "ageHours": 2,
-          "crossSources": 1,
-          "velocity": 10.9
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-ae1122f0",
-      "title": "「Firefox」に新しい「ミニウィンドウ」--マルチタスク派にとって夢のような機能",
-      "url": "https://japan.zdnet.com/article/35254318/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-05T21:38:45.000Z",
-      "summaryJa": [
-        "Mozillaの開発陣は、ウェブブラウザーの「Firefox」を市場で最も実用的なブラウザーにすべく、機能改善を重ねている。",
-        "その一環として追加された新機能が、現在ベータ段階にある「Mini Window」だ。",
-        "筆者は同機能がFirefox Nightlyに搭載されてから試用しているが、その動作や完成度には大いに満足している。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Firefox",
-        "ミニウィンドウ",
-        "マルチタスク派にとって夢のような機能"
-      ],
-      "heat": {
-        "temperature": 89,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 114,
-          "ageHours": 5,
-          "crossSources": 1,
-          "velocity": 22.2
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-a935fd15",
-      "title": "手書き Provider 261 件を @riverpod へ全面移行した進め方",
-      "url": "https://zenn.dev/jtcc/articles/riverpod-generator-migration",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-05T08:07:39.000Z",
-      "summaryJa": [
-        "こんにちは。",
-        "日本トレカセンターでモバイルアプリを開発している新宅です。",
-        "私たちの Flutter アプリで、手書きの Riverpod Provider 宣言 261 件を @riverpod によるコード生成へ全面移行しました。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "手書き",
-        "Provider",
-        "@riverpod"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 19,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-24bb5093",
-      "title": "Slurm は Kaggle で役に立つ",
-      "url": "https://zenn.dev/pomcho555/articles/c455d086ec47af",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-05T11:54:56.000Z",
-      "summaryJa": [
-        "1.",
-        "はじめに Slurm は、スパコンや研究室の GPU クラスタでよく使われるジョブスケジューラです。",
-        "投入されたジョブをキューに並べておいて、CPU・メモリ・GPU が空いたものから順に実行してくれます。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Slurm",
-        "Kaggle"
-      ],
-      "heat": {
-        "temperature": 50,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 15,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-e38dc067",
-      "title": "高校生がNew Relic × ChatGPTでScyllaDBの1.1秒遅延を追ったら、CPU steal 72%が見えた",
-      "url": "https://qiita.com/harupython/items/8db7460b05ac8705837d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-11-05T07:17:33.000Z",
-      "summaryJa": [
-        "1秒の読み取り遅延から、OSのCPU stealまでたどり着いた 私は現在高校生で、個人でソフトウェアの開発・運用をしています。",
-        "最近導入したNew Relicが予想以上に便利だったので、実際の障害調査で何ができたのか紹介します。",
-        "ScyllaDBを使っているシステムで、設."
-      ],
-      "category": "programming",
-      "keywords": [
-        "高校生がNew",
-        "Relic",
-        "CPU",
-        "steal",
-        "72%が見えた"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 20,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-6d29edca",
-      "title": "A Quick Guide to Go's Assembler",
-      "url": "https://go.dev/doc/asm",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-05T22:07:32.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "First steps in bare-metal programming using UEFI",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Quick",
-        "Guide",
-        "Go",
-        "Assembler"
+        "steps",
+        "bare",
+        "metal",
+        "UEFI"
       ],
       "heat": {
-        "temperature": 54,
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 112,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 2,
+          "velocity": 32.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-8d171446",
+      "title": "サイバー攻撃対応強化で法改正検討へ 国内通信情報取得が焦点",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71963",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-06T13:42:00.000Z",
+      "summaryJa": [
+        "政府はサイバー攻撃の情報収集能力を強化するため「能動的サイバー防御」の関連法の改正を検討します。",
+        "現在の法律では認められていない、国内で完結する通信情報の取得を可能にするかが焦点となる見通しです。",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "サイバー攻撃対応強化で法改正検討へ",
+        "国内通信情報取得が焦点"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-57ec067c",
+      "title": "国税庁装う偽メールが急増「メールで還付手続き案内しない」",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71902",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-06T20:05:13.000Z",
+      "summaryJa": [
+        "国税庁を装って個人情報や金銭をだまし取ろうとする偽メールが急増しています。",
+        "国税庁は「メールで還付手続きを案内したり納税を求めたりすることはない」として、ホームページで偽メールの特徴を詳しく紹介し、注意…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "国税庁装う偽メールが急増",
+        "メールで還付手続き案内しない"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-f7032111",
+      "title": "大分 陸上自衛隊戦車3人死亡事故 前の砲弾の破片が原因か",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261107de71984",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-06T19:56:32.000Z",
+      "summaryJa": [
+        "ことし4月、大分県にある陸上自衛隊の演習場で訓練中の戦車内で砲弾が破裂し隊員3人が死亡した事故で、前の砲弾の破片が異物として装填する場所に残っていたことが原因と",
+        "この異物…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "大分",
+        "陸上自衛隊戦車3人死亡事故",
+        "前の砲弾の破片が原因か"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-93542ff6",
+      "title": "アメリカ就業者数 市場予想上回る 来週の物価動向焦点",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71979",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-11-06T15:11:00.000Z",
+      "summaryJa": [
+        "円相場や株価に影響を及ぼすアメリカの雇用統計が発表され、10月の農業分野以外の就業者は、16万5000人増加し、市場の予想を大きく上回りました。",
+        "FRB＝連邦準備制度理事会の金融政策を見通す上で、来…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "アメリカ就業者数",
+        "市場予想上回る",
+        "来週の物価動向焦点"
+      ],
+      "heat": {
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
@@ -409,28 +314,147 @@
       "image": null
     },
     {
-      "id": "lobsters-430e0dc8",
-      "title": "X-87 - DOS 256 bytes",
-      "url": "https://www.onirom.fr/wiki/codegolf/x-87/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-06T00:16:07.000Z",
+      "id": "hn-front-48934373",
+      "title": "Firecracker VM Escape: PwnEscape Part 2",
+      "url": "https://pwn.ai/blog/firecracker-escape",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-06T19:33:38.000Z",
       "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "Firecracker VM Escape: PwnEscape Part 2",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "DOS",
-        "bytes"
+        "Firecracker",
+        "VM",
+        "Escape",
+        "PwnEscape",
+        "Part"
       ],
       "heat": {
-        "temperature": 54,
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 37,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 50.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-91493e15",
+      "title": "セキュリティ啓発団体に不正アクセス　個人情報最大1.5万件漏えいか",
+      "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002978/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-06T08:41:42.000Z",
+      "summaryJa": [
+        "情報セキュリティの普及啓発に向けて活動する日本ネットワークセキュリティ協会（JNSA）は11月6日、同協会が運営する「情報セキュリティ理解度チェックサービス」が",
+        "利用者のIDやハッシュ化したパスワードなどが漏えいした.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "セキュリティ啓発団体に不正アクセス",
+        "個人情報最大1.5万件漏えいか"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 77,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 6.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-470a9d9b",
+      "title": "メタバース、ワーケーションなど「ここ数年で恐ろしいほど聞かなくなった言葉一覧」に共感「Clubhouse懐かしい！」「半分がWeb3でわろた」",
+      "url": "https://togetter.com/li/2767231",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-06T02:34:22.000Z",
+      "summaryJa": [
+        "えりまどⅢ @greynomado ここ数年で恐ろしいほど聞かなくなった言葉一覧 ・NFT ・メタバース ・Web3.",
+        "0 ・Clubhouse ・DAO ・STEPN ・GameFi ・仮想通貨女子 ・ワーケーション ・地方創生 ・ノマドワーカー ・タピオカ ・ひとりキャンプ ",
+        "1番怖いのは、当時「これ."
+      ],
+      "category": "programming",
+      "keywords": [
+        "メタバース",
+        "ワーケーションなど",
+        "Clubhouse懐かしい",
+        "半分がWeb3でわろた"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 176,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 9.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-571e38b8",
+      "title": "ダウ平均",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%80%E3%82%A6%E5%B9%B3%E5%9D%87",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-06T20:00:00.000Z",
+      "summaryJa": [
+        "ダウ平均",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "ダウ平均"
+      ],
+      "heat": {
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 3,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-8df1fccd",
+      "title": "警察",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E8%AD%A6%E5%AF%9F",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-06T19:20:00.000Z",
+      "summaryJa": [
+        "警察",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "警察"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -440,38 +464,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-c56cc1a2",
-      "title": "evancohen/smart-mirror — The fairest of them all. A DIY voice controlled smart mirror with IoT integration.",
-      "url": "https://github.com/evancohen/smart-mirror",
+      "id": "github-gems-f9f3b3d1",
+      "title": "raphaelameaume/fragment — [alpha] A modern toolkit for creative coding",
+      "url": "https://github.com/raphaelameaume/fragment",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-10-31T09:51:29Z",
+      "publishedAt": "2026-11-06T17:05:24Z",
       "summaryJa": [
-        "The fairest of them all.",
-        "A DIY voice controlled smart mirror with IoT integration.",
+        "[alpha] A modern toolkit for creative coding",
+        "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "evancohen/smart",
-        "mirror",
-        "fairest",
-        "DIY",
-        "voice"
+        "alpha",
+        "modern",
+        "toolkit",
+        "creative",
+        "coding"
       ],
       "heat": {
-        "temperature": 40,
+        "temperature": 54,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 137,
+          "ageHours": 3,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "鏡にスマート機能を組み込み音声とIoTで制御するDIY精神あふれるリポジトリです。ハードウェアとソフトウェアが融合した手作りのインターフェースは創作欲を大いに刺激します。"
+    "reason": "クリエイティブコーディング向けのモダンなツールキットであり、アルファ版ながら描画と制御の扱いやすさが光ります。手元でシェーダーやグラフィックスを実験したい作風に、直感的なインスピレーションを与えてくれるはずです。"
   },
   "unavailableSources": []
 }

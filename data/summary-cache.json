@@ -1,105 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "b48d312d168846e2": {
-      "url": "https://www.asahi.com/articles/ASV8723PZV87UCVL05TM.html",
-      "summaryJa": [
-        "1980年に発売されて販売不振などで2年間で生産が終わったのに、今も世界のミュージシャンを魅了している日本製の電子楽器がある。",
-        "ローランドが生産した、ドラムや手拍子、カウベルなど16種類の音が鳴らせる…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-08T02:47:40.436Z"
-    },
-    "a409ccc755cc1b74": {
-      "url": "https://zenn.dev/kesin11/articles/20260806_stacked_pr",
-      "summaryJa": [
-        "https://github.",
-        "blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/ Stack",
-        "changelogの記事の雰囲気を見た感じ、１つの機能を実装するときに１つの大きなPRを作るのではなく、複数の小さなPRに分解して実装していくという以前から良い"
-      ],
-      "cachedAt": "2026-08-08T02:47:40.436Z"
-    },
-    "b60a3073f2e74e02": {
-      "url": "https://zenn.dev/pipipipipi/articles/661b28da670728",
-      "summaryJa": [
-        "業務で社内MCPを作成する機会がありました。",
-        "Cloudflare AccessのManaged OAuthを使うことで簡単に実装できたので備忘録もかねてZennに投稿することにしまいた。",
-        "要件 社内メンバーのみが利用できること MCPから行えるのは読み取り操作だけであること 簡単がいい！"
-      ],
-      "cachedAt": "2026-08-08T02:47:40.436Z"
-    },
-    "1d5cf36718f6e92c": {
-      "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
-      "summaryJa": [
-        "Assembly Hall of Shame",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-08T02:47:40.436Z"
-    },
-    "f23daaf278f0e688": {
-      "url": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
-      "summaryJa": [
-        "The Nixpkgs core team has disbanded",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-08T02:47:40.436Z"
-    },
-    "c86476dbea846a79": {
-      "url": "https://qiita.com/tamashiro_nobuyuki/items/573178ed3b8a6a22ebb1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "Claude Codeの覚えておきたいスラッシュコマンドまとめ Claude Codeを使っていて「コマンド何だっけ?",
-        "」となることが多かったので、よく使うスラッシュコマンドを用途別に整理しました。",
-        "早見表 コマンド 何をするか /compact 会話を要約."
-      ],
-      "cachedAt": "2026-08-08T02:47:40.436Z"
-    },
-    "a182a5f77b1f2cf9": {
-      "url": "https://qiita.com/can-can/items/ec8cd4dd183e12ac5781?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "「AI で業務効率化」が当たり前になった一方で、こんな経験はないでしょうか。",
-        "思ったような出力をしてくれない… 出力に、いらないデータが混ざっている… 事実と異なる結果を、それっぽく返してくる… さらに、チームで使い始めると別の不安も出て",
-        "このエージェント、社."
-      ],
-      "cachedAt": "2026-08-08T02:47:40.436Z"
-    },
-    "3d4c3fa198fde7a3": {
-      "url": "https://zenn.dev/levtech/articles/how-to-concrete-optimistic-lock",
-      "summaryJa": [
-        "これはなに こんにちは、レバテック開発部のもりたです。",
-        "今回はアプリケーションを作る上でわりと出会う楽観ロックの実装方法についてまとめます。",
-        "コードの例はPHP/Laravelですが、基本的には言語やフレームワークに制限はありません。"
-      ],
-      "cachedAt": "2026-08-08T02:47:40.436Z"
-    },
-    "2d755d8cb467f7c1": {
-      "url": "https://www.youtube.com/watch?v=-aI_XEwmKFk",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-08T02:47:40.436Z"
-    },
-    "9b96d3e9ce02d4d5": {
-      "url": "https://planetscale.com/blog/concurrency-vs-throughput-vitess-mysql",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-08T02:47:40.436Z"
-    },
-    "e30f4354d3265595": {
-      "url": "https://github.com/earlephilhower/ESP8266Audio",
-      "summaryJa": [
-        "Arduino library to play MOD, WAV, FLAC, MIDI, RTTTL, OGG/Opus, MP3, and AAC file",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-08T02:47:40.436Z"
-    },
     "fabda0a665d08b24": {
       "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
       "summaryJa": [
@@ -15120,6 +15021,114 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-06T02:48:26.336Z"
+    },
+    "64924335032994bd": {
+      "url": "https://zenn.dev/xin9le/articles/9a1cf8e10494d6",
+      "summaryJa": [
+        "「お前は何を言っているんだ？",
+        "」と思うかもしれませんが、本当なのだから仕方ない！",
+        "動いていたはずの CI の単体テストが突然コケるという事態に遭遇してビックリ。"
+      ],
+      "cachedAt": "2026-11-06T20:18:40.166Z"
+    },
+    "1c0e2b2010398178": {
+      "url": "https://kevinboone.me/efitest_index.html",
+      "summaryJa": [
+        "First steps in bare-metal programming using UEFI",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-06T20:18:40.166Z"
+    },
+    "8d1714465bf697e1": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71963",
+      "summaryJa": [
+        "政府はサイバー攻撃の情報収集能力を強化するため「能動的サイバー防御」の関連法の改正を検討します。",
+        "現在の法律では認められていない、国内で完結する通信情報の取得を可能にするかが焦点となる見通しです。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-06T20:18:40.166Z"
+    },
+    "57ec067cc1c53a7a": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71902",
+      "summaryJa": [
+        "国税庁を装って個人情報や金銭をだまし取ろうとする偽メールが急増しています。",
+        "国税庁は「メールで還付手続きを案内したり納税を求めたりすることはない」として、ホームページで偽メールの特徴を詳しく紹介し、注意…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-06T20:18:40.166Z"
+    },
+    "f703211147d4f539": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261107de71984",
+      "summaryJa": [
+        "ことし4月、大分県にある陸上自衛隊の演習場で訓練中の戦車内で砲弾が破裂し隊員3人が死亡した事故で、前の砲弾の破片が異物として装填する場所に残っていたことが原因と",
+        "この異物…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-06T20:18:40.166Z"
+    },
+    "93542ff6fd5cbb17": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71979",
+      "summaryJa": [
+        "円相場や株価に影響を及ぼすアメリカの雇用統計が発表され、10月の農業分野以外の就業者は、16万5000人増加し、市場の予想を大きく上回りました。",
+        "FRB＝連邦準備制度理事会の金融政策を見通す上で、来…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-06T20:18:40.166Z"
+    },
+    "19e5a3d3b856bd20": {
+      "url": "https://pwn.ai/blog/firecracker-escape",
+      "summaryJa": [
+        "Firecracker VM Escape: PwnEscape Part 2",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-06T20:18:40.166Z"
+    },
+    "91493e1583f2be9d": {
+      "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002978/",
+      "summaryJa": [
+        "情報セキュリティの普及啓発に向けて活動する日本ネットワークセキュリティ協会（JNSA）は11月6日、同協会が運営する「情報セキュリティ理解度チェックサービス」が",
+        "利用者のIDやハッシュ化したパスワードなどが漏えいした.",
+        "."
+      ],
+      "cachedAt": "2026-11-06T20:18:40.166Z"
+    },
+    "470a9d9b6b3f96b5": {
+      "url": "https://togetter.com/li/2767231",
+      "summaryJa": [
+        "えりまどⅢ @greynomado ここ数年で恐ろしいほど聞かなくなった言葉一覧 ・NFT ・メタバース ・Web3.",
+        "0 ・Clubhouse ・DAO ・STEPN ・GameFi ・仮想通貨女子 ・ワーケーション ・地方創生 ・ノマドワーカー ・タピオカ ・ひとりキャンプ ",
+        "1番怖いのは、当時「これ."
+      ],
+      "cachedAt": "2026-11-06T20:18:40.166Z"
+    },
+    "571e38b8fd2baeb2": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%80%E3%82%A6%E5%B9%B3%E5%9D%87",
+      "summaryJa": [
+        "ダウ平均",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-06T20:18:40.166Z"
+    },
+    "8df1fccdb1c9dc2e": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E8%AD%A6%E5%AF%9F",
+      "summaryJa": [
+        "警察",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-06T20:18:40.166Z"
+    },
+    "a0dcf0d1f6c73722": {
+      "url": "https://github.com/raphaelameaume/fragment",
+      "summaryJa": [
+        "[alpha] A modern toolkit for creative coding",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-06T20:18:40.166Z"
     }
   }
 }
