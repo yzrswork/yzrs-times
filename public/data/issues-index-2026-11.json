@@ -78,6 +78,13 @@
       "edition": "morning",
       "theme": "侵害される安全と、構築される基盤",
       "path": "issues/2026-11-06-morning.json"
+    },
+    {
+      "issueNo": 238,
+      "date": "2026-11-06",
+      "edition": "midday",
+      "theme": "極小の描画と、枠組みの再構築",
+      "path": "issues/2026-11-06-midday.json"
     }
   ]
 }

@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-3914195c",
-      "url": "https://www.beeper.com/",
-      "date": "2026-10-07"
-    },
-    {
-      "id": "github-gems-9d0e0476",
-      "url": "https://github.com/martin-ger/esp32_nat_router",
-      "date": "2026-10-07"
-    },
-    {
       "id": "github-gems-024259fc",
       "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
       "date": "2026-10-08"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-51d2e4d8",
       "url": "https://github.com/kube-vip/kube-vip",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "github-gems-c56cc1a2",
+      "url": "https://github.com/evancohen/smart-mirror",
       "date": "2026-11-06"
     }
   ]

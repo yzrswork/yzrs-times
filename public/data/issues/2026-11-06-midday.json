@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 238,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-06",
+  "dateDisplay": "Friday, November 6, 2026",
+  "pressTimeJst": "2026-11-06 12:00",
+  "generatedAt": "2026-11-06T02:47:33.177Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "極小の描画と、枠組みの再構築",
+    "note": "制約下で研ぎ澄まされる表現力と、コードや環境を堅牢に保つための設計手順に着目した紙面です。"
+  },
+  "editorial": {
+    "comment": "「I Go to Olympics of 4KB Coding（lobsters-14c13b17）」に漂う、制約の中で極限まで表現を磨き上げる熱量に胸が躍ります。午後の作業に向かう手元に、ほんの少しの美学を持ち込みたくなります。 —— YZRS Times 編集長",
+    "passedOver": "「OpenAIのGPT-6 Cyber発表」などのセキュリティ時事ニュースは、昼休みの技術インプットという趣旨に合わせて見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "曇り",
+    "icon": "cloudy",
+    "tempMax": 24,
+    "tempMin": 14,
+    "precipChancePct": 12
+  },
+  "market": {
+    "fearGreed": {
+      "value": 28,
+      "label": "Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 76065,
+        "priceJpy": 12007497,
+        "change24hPct": -5.6,
+        "sparkline7d": [
+          76666.41,
+          77195.6,
+          78074.88,
+          77837.86,
+          77672.03,
+          80087.15,
+          76209.5
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2239.24,
+        "priceJpy": 353483,
+        "change24hPct": -7.84,
+        "sparkline7d": [
+          2191.63,
+          2240.44,
+          2269.28,
+          2284.39,
+          2295.79,
+          2419.25,
+          2242.39
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 275.25,
+        "priceJpy": 43451,
+        "change24hPct": -2.31,
+        "sparkline7d": [
+          271.31,
+          289.09,
+          283.14,
+          277.96,
+          276.44,
+          281.23,
+          278.42
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.155539,
+        "priceJpy": 24.55,
+        "change24hPct": -7.79,
+        "sparkline7d": [
+          0.16095,
+          0.168867,
+          0.16897,
+          0.168117,
+          0.163672,
+          0.166268,
+          0.155309
+        ]
+      }
+    ]
+  },
+  "top": [
+    "lobsters-14c13b17",
+    "zenn-trend-17670507",
+    "hatebu-it-054a0dba"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hatebu-it-1671d9b9",
+        "hatebu-it-ae1122f0"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "zenn-trend-a935fd15",
+        "zenn-trend-24bb5093",
+        "qiita-popular-e38dc067"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-6d29edca",
+        "lobsters-430e0dc8"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "lobsters-14c13b17",
+      "title": "I Go to Olympics of 4KB Coding",
+      "url": "https://inv.nadeko.net/watch?v=PeZNLvD4mds",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-05T23:33:07.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Go",
+        "Olympics",
+        "4KB",
+        "Coding"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-17670507",
+      "title": "AI生成コードを本番品質に保つためのフロントエンド開発の仕組み",
+      "url": "https://zenn.dev/sun_asterisk/articles/d4e4bc24974b99",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-05T09:00:55.000Z",
+      "summaryJa": [
+        "はじめに AI が書いたコードの品質は、プロンプトの工夫よりも、AI の外側に用意した「仕組み」で決まります。",
+        "この記事では、Next.",
+        "js（App Router）と TypeScript のフロントエンド開発を例に、AI 生成コードを本番品質に保つための仕組みを 4 つの層に分けて紹介します。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-054a0dba",
+      "title": "ソニー、初代ウォークマン付属ヘッドフォンを再現。USB-C化した「MDR-3R」",
+      "url": "https://av.watch.impress.co.jp/docs/news/2153686.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-06T00:14:47.000Z",
+      "summaryJa": [
+        "ソニー、初代ウォークマン付属ヘッドフォンを再現。USB-C化した「MDR-3R」",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "ソニー",
+        "初代ウォークマン付属ヘッドフォンを再現",
+        "USB",
+        "C化した",
+        "MDR"
+      ],
+      "heat": {
+        "temperature": 87,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 45,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 17.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-1671d9b9",
+      "title": "DHHに会いに行って、初心者に戻ることにした - kickflow Tech Blog",
+      "url": "https://tech.kickflow.co.jp/entry/2026/11/05/160106",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-06T01:13:58.000Z",
+      "summaryJa": [
+        "こんにちは。",
+        "2026年7月にkickflowに入社した、エンジニアのpesoです。",
+        "2026年10月16日と17日に渋谷で開かれたKaigi on Rails 2026に、kickflowのメンバーとして参加しました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "DHHに会いに行って",
+        "初心者に戻ることにした",
+        "kickflow"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 17,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 10.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-ae1122f0",
+      "title": "「Firefox」に新しい「ミニウィンドウ」--マルチタスク派にとって夢のような機能",
+      "url": "https://japan.zdnet.com/article/35254318/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-05T21:38:45.000Z",
+      "summaryJa": [
+        "Mozillaの開発陣は、ウェブブラウザーの「Firefox」を市場で最も実用的なブラウザーにすべく、機能改善を重ねている。",
+        "その一環として追加された新機能が、現在ベータ段階にある「Mini Window」だ。",
+        "筆者は同機能がFirefox Nightlyに搭載されてから試用しているが、その動作や完成度には大いに満足している。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Firefox",
+        "ミニウィンドウ",
+        "マルチタスク派にとって夢のような機能"
+      ],
+      "heat": {
+        "temperature": 89,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 114,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 22.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-a935fd15",
+      "title": "手書き Provider 261 件を @riverpod へ全面移行した進め方",
+      "url": "https://zenn.dev/jtcc/articles/riverpod-generator-migration",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-05T08:07:39.000Z",
+      "summaryJa": [
+        "こんにちは。",
+        "日本トレカセンターでモバイルアプリを開発している新宅です。",
+        "私たちの Flutter アプリで、手書きの Riverpod Provider 宣言 261 件を @riverpod によるコード生成へ全面移行しました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "手書き",
+        "Provider",
+        "@riverpod"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-24bb5093",
+      "title": "Slurm は Kaggle で役に立つ",
+      "url": "https://zenn.dev/pomcho555/articles/c455d086ec47af",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-05T11:54:56.000Z",
+      "summaryJa": [
+        "1.",
+        "はじめに Slurm は、スパコンや研究室の GPU クラスタでよく使われるジョブスケジューラです。",
+        "投入されたジョブをキューに並べておいて、CPU・メモリ・GPU が空いたものから順に実行してくれます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Slurm",
+        "Kaggle"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-e38dc067",
+      "title": "高校生がNew Relic × ChatGPTでScyllaDBの1.1秒遅延を追ったら、CPU steal 72%が見えた",
+      "url": "https://qiita.com/harupython/items/8db7460b05ac8705837d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-05T07:17:33.000Z",
+      "summaryJa": [
+        "1秒の読み取り遅延から、OSのCPU stealまでたどり着いた 私は現在高校生で、個人でソフトウェアの開発・運用をしています。",
+        "最近導入したNew Relicが予想以上に便利だったので、実際の障害調査で何ができたのか紹介します。",
+        "ScyllaDBを使っているシステムで、設."
+      ],
+      "category": "programming",
+      "keywords": [
+        "高校生がNew",
+        "Relic",
+        "CPU",
+        "steal",
+        "72%が見えた"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-6d29edca",
+      "title": "A Quick Guide to Go's Assembler",
+      "url": "https://go.dev/doc/asm",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-05T22:07:32.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Quick",
+        "Guide",
+        "Go",
+        "Assembler"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-430e0dc8",
+      "title": "X-87 - DOS 256 bytes",
+      "url": "https://www.onirom.fr/wiki/codegolf/x-87/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-06T00:16:07.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "DOS",
+        "bytes"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-c56cc1a2",
+      "title": "evancohen/smart-mirror — The fairest of them all. A DIY voice controlled smart mirror with IoT integration.",
+      "url": "https://github.com/evancohen/smart-mirror",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-10-31T09:51:29Z",
+      "summaryJa": [
+        "The fairest of them all.",
+        "A DIY voice controlled smart mirror with IoT integration.",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "evancohen/smart",
+        "mirror",
+        "fairest",
+        "DIY",
+        "voice"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 137,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "鏡にスマート機能を組み込み音声とIoTで制御するDIY精神あふれるリポジトリです。ハードウェアとソフトウェアが融合した手作りのインターフェースは創作欲を大いに刺激します。"
+  },
+  "unavailableSources": []
+}

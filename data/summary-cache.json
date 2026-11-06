@@ -15030,6 +15030,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-05T20:19:08.270Z"
+    },
+    "14c13b17a9c72ec6": {
+      "url": "https://inv.nadeko.net/watch?v=PeZNLvD4mds",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-06T02:48:26.336Z"
+    },
+    "176705070d744fab": {
+      "url": "https://zenn.dev/sun_asterisk/articles/d4e4bc24974b99",
+      "summaryJa": [
+        "はじめに AI が書いたコードの品質は、プロンプトの工夫よりも、AI の外側に用意した「仕組み」で決まります。",
+        "この記事では、Next.",
+        "js（App Router）と TypeScript のフロントエンド開発を例に、AI 生成コードを本番品質に保つための仕組みを 4 つの層に分けて紹介します。"
+      ],
+      "cachedAt": "2026-11-06T02:48:26.336Z"
+    },
+    "054a0dba52e51d2f": {
+      "url": "https://av.watch.impress.co.jp/docs/news/2153686.html",
+      "summaryJa": [
+        "ソニー、初代ウォークマン付属ヘッドフォンを再現。USB-C化した「MDR-3R」",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-06T02:48:26.336Z"
+    },
+    "1671d9b934d57bf9": {
+      "url": "https://tech.kickflow.co.jp/entry/2026/11/05/160106",
+      "summaryJa": [
+        "こんにちは。",
+        "2026年7月にkickflowに入社した、エンジニアのpesoです。",
+        "2026年10月16日と17日に渋谷で開かれたKaigi on Rails 2026に、kickflowのメンバーとして参加しました。"
+      ],
+      "cachedAt": "2026-11-06T02:48:26.336Z"
+    },
+    "ae1122f0cf72ce0b": {
+      "url": "https://japan.zdnet.com/article/35254318/",
+      "summaryJa": [
+        "Mozillaの開発陣は、ウェブブラウザーの「Firefox」を市場で最も実用的なブラウザーにすべく、機能改善を重ねている。",
+        "その一環として追加された新機能が、現在ベータ段階にある「Mini Window」だ。",
+        "筆者は同機能がFirefox Nightlyに搭載されてから試用しているが、その動作や完成度には大いに満足している。"
+      ],
+      "cachedAt": "2026-11-06T02:48:26.336Z"
+    },
+    "a935fd153262b218": {
+      "url": "https://zenn.dev/jtcc/articles/riverpod-generator-migration",
+      "summaryJa": [
+        "こんにちは。",
+        "日本トレカセンターでモバイルアプリを開発している新宅です。",
+        "私たちの Flutter アプリで、手書きの Riverpod Provider 宣言 261 件を @riverpod によるコード生成へ全面移行しました。"
+      ],
+      "cachedAt": "2026-11-06T02:48:26.336Z"
+    },
+    "24bb509386b98b2f": {
+      "url": "https://zenn.dev/pomcho555/articles/c455d086ec47af",
+      "summaryJa": [
+        "1.",
+        "はじめに Slurm は、スパコンや研究室の GPU クラスタでよく使われるジョブスケジューラです。",
+        "投入されたジョブをキューに並べておいて、CPU・メモリ・GPU が空いたものから順に実行してくれます。"
+      ],
+      "cachedAt": "2026-11-06T02:48:26.336Z"
+    },
+    "e38dc067534f83a1": {
+      "url": "https://qiita.com/harupython/items/8db7460b05ac8705837d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "1秒の読み取り遅延から、OSのCPU stealまでたどり着いた 私は現在高校生で、個人でソフトウェアの開発・運用をしています。",
+        "最近導入したNew Relicが予想以上に便利だったので、実際の障害調査で何ができたのか紹介します。",
+        "ScyllaDBを使っているシステムで、設."
+      ],
+      "cachedAt": "2026-11-06T02:48:26.336Z"
+    },
+    "6d29edca62f82ddd": {
+      "url": "https://go.dev/doc/asm",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-06T02:48:26.336Z"
+    },
+    "430e0dc8d188536f": {
+      "url": "https://www.onirom.fr/wiki/codegolf/x-87/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-06T02:48:26.336Z"
     }
   }
 }
