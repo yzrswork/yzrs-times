@@ -1,0 +1,437 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 241,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-08",
+  "dateDisplay": "Sunday, November 8, 2026",
+  "pressTimeJst": "2026-11-08 05:00",
+  "generatedAt": "2026-11-07T20:17:43.641Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "身近な基盤の感触と、揺らぐ現実",
+    "note": "朝の5分で、手元の軽量環境やハードウェア、社会インフラの変化を把握する。"
+  },
+  "editorial": {
+    "comment": "10ドルの格安スティック端末で自前サーバーを構築する記事（hn-front-37c93784）には、制約を工夫で乗り越えるハックの原点があります。早朝の地震ニュースで日常の基盤を意識しつつ、手元の環境を自分の手で整える作業から今日を始めてみてはいかがでしょうか。 —— YZRS Times 編集長",
+    "passedOver": "Microsoft ResearchのAI Frontiersグループ解散の報は話題性が高いものの組織動向の側面が強いため今回は見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ時々曇り",
+    "icon": "partly-cloudy",
+    "tempMax": 17,
+    "tempMin": 10,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 25,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 75736,
+        "priceJpy": 12002327,
+        "change24hPct": -0.05,
+        "sparkline7d": [
+          77535.31,
+          78293.84,
+          76829.44,
+          78036.68,
+          80221.62,
+          75457.89,
+          75750.47
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2233.26,
+        "priceJpy": 353916,
+        "change24hPct": 0.13,
+        "sparkline7d": [
+          2252.43,
+          2273.92,
+          2250.33,
+          2300.66,
+          2416.54,
+          2226.24,
+          2235.47
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.150933,
+        "priceJpy": 23.92,
+        "change24hPct": -2.61,
+        "sparkline7d": [
+          0.16964,
+          0.168244,
+          0.161946,
+          0.162989,
+          0.165988,
+          0.155157,
+          0.151278
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 257.02,
+        "priceJpy": 40731,
+        "change24hPct": -2.77,
+        "sparkline7d": [
+          286.41,
+          284.19,
+          274.15,
+          275.43,
+          287.11,
+          267.41,
+          258.17
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hn-front-37c93784",
+    "nhk-top-ee6b7d75",
+    "hatebu-it-62ec9052"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-52534a67",
+        "nhk-world-2ac2bc45"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hn-front-c681def4",
+        "hatebu-it-f62f814b"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-4304f49f",
+        "gtrends-jp-37122849"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hn-front-37c93784",
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "url": "https://blog.bosscher.ch/posts/openstick/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-07T18:12:12.000Z",
+      "summaryJa": [
+        "What I run on my $10 USD OpenStick homelab",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "run",
+        "USD",
+        "OpenStick",
+        "homelab"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 104,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 49.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-ee6b7d75",
+      "title": "【地震情報】愛知県で震度5強 津波の心配なし",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72252",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-07T19:21:28.000Z",
+      "summaryJa": [
+        "8日午前1時4分ごろ、静岡県西部を震源とする地震があり、愛知県で震度5強の強い揺れを観測しました。",
+        "気象庁は、今後1週間程度は最大震度5強程度の揺れを伴う地震に注意するよう呼びかけています。",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "地震情報",
+        "愛知県で震度5強",
+        "津波の心配なし"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-62ec9052",
+      "title": "ISUCON2026をClaude Codeが優勝したらしい｜laiso",
+      "url": "https://sizu.me/laiso/posts/k59is4cnd77f",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-07T10:00:45.000Z",
+      "summaryJa": [
+        "タイトルは釣りです（懐かしいブログ仕草） 正確には、元Wantedly CTOのkawasyさんが、ISUCON参加に向けて3ヶ月以上の試行錯誤をしたハーネスを",
+        "もちろん他のチームも競技にClaude CodeやCodexなどを大活用して挑んだようだけど、完全自律実行.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "ISUCON2026をClaude",
+        "Codeが優勝したらしい｜laiso"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 102,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 9.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-52534a67",
+      "title": "東海道新幹線 地震の影響で始発から遅れの見込み",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72329",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-07T20:04:00.000Z",
+      "summaryJa": [
+        "JR東海によりますと、東海道新幹線は地震の影響で静岡駅から岐阜羽島駅の間で設備の点検を行ったあと、速度を落として運転するため、8日の始発から遅れが発生する見込み",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "東海道新幹線",
+        "地震の影響で始発から遅れの見込み"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-2ac2bc45",
+      "title": "ロシア JTの資産を追加で一時管理下に置く大統領令に署名",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261107de72211",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-11-07T15:02:24.000Z",
+      "summaryJa": [
+        "ロシアのプーチン大統領は6日、JT＝日本たばこ産業グループのロシア国内にある3つの現地法人を一時的にロシア企業の管理下に置くとする大統領令に署名しました。",
+        "5日にもロシア国内にあるJT関連の生産拠点を一…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ロシア"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-c681def4",
+      "title": "Libghostty 1.0",
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-06T23:30:52.000Z",
+      "summaryJa": [
+        "Libghostty 1.0",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Libghostty"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 972,
+          "hatebuCount": 9,
+          "ageHours": 21,
+          "crossSources": 3,
+          "velocity": 46.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-f62f814b",
+      "title": "ワイヤレス主流時代になぜ？「有線イヤホン」再流行のワケ【THE TIME,】  | TBS NEWS DIG",
+      "url": "https://newsdig.tbs.co.jp/articles/-/3068819",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-07T04:39:14.000Z",
+      "summaryJa": [
+        "ワイヤレスが主流となるなか「有線イヤホン」が再び注目され、あのBOSEも11年ぶりに有線タイプを発売。",
+        "その人気のワケとは？",
+        "有線イヤホンを使っている人は街のあちこちで見かけますが、そのまま使うのではなく“…"
+      ],
+      "category": "programming",
+      "keywords": [
+        "ワイヤレス主流時代になぜ",
+        "有線イヤホン",
+        "再流行のワケ",
+        "TIME",
+        "TBS"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 186,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 11.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-4304f49f",
+      "title": "全国瞬時警報システム",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E5%85%A8%E5%9B%BD%E7%9E%AC%E6%99%82%E8%AD%A6%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-07T20:00:00.000Z",
+      "summaryJa": [
+        "全国瞬時警報システム",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "全国瞬時警報システム"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-37122849",
+      "title": "日本国債",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%97%A5%E6%9C%AC%E5%9B%BD%E5%82%B5",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-07T20:00:00.000Z",
+      "summaryJa": [
+        "日本国債",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "日本国債"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-e404e1fb",
+      "title": "baku89/glisp — A small Lisp as an interaction substrate for creative software: one program, edited as code, as blocks, or by hand on a canvas. Glisp Canvas is the vector drawing app built on it.",
+      "url": "https://github.com/baku89/glisp",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-07T14:41:23Z",
+      "summaryJa": [
+        "A small Lisp as an interaction substrate for creative software: one program, edi",
+        "Glisp Canvas is the vector drawing app built on it.",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "baku89/glisp",
+        "small",
+        "Lisp",
+        "interaction",
+        "substrate"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "コード記述とキャンバス操作を融合させたGlispは、プログラミングとアートを行き来する創作意欲を強烈に刺激します。手元の描画表現をコードで制御したいあなたにぴったりの実験的ツールです。"
+  },
+  "unavailableSources": []
+}

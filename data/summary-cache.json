@@ -1,87 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "664518f288036bbe": {
-      "url": "https://seg6.space/posts/phone-server/",
-      "summaryJa": [
-        "My server is a phone now",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-09T02:49:05.655Z"
-    },
-    "cf845bdb91e9e54e": {
-      "url": "https://zenn.dev/tetsu_don/articles/e40b95dfc726ac",
-      "summaryJa": [
-        "Claude Code で「ループエンジニアリング」を実践し、Maker-Checker構成で本物のバグを検出できた話 はじめに てつどんです。",
-        "データエンジニアとして 日々業務をこなしております。",
-        "最近、バズワードのように、いろんなところで「ループエンジニアリング」というのを聞くことが多くなりました。"
-      ],
-      "cachedAt": "2026-08-09T02:49:05.655Z"
-    },
-    "78b23e98a8f17c95": {
-      "url": "https://os8088.com/",
-      "summaryJa": [
-        "Os8088: A powerful Mac-like OS for the IBM XT, 286",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-09T02:49:05.655Z"
-    },
-    "f63632aafb13d6a1": {
-      "url": "https://qiita.com/Syoitu/items/068db63a8bf3bb961b2b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "前書き 2026年8月5日、Amazon DynamoDBがリアルタイムベクトル検索に対応しました。",
-        "これまでAWSでベクトル検索をやりたい場合、AWS Marketplace利用しない場合、選択肢はだいたい次の5つでした。",
-        "Amazon OpenSearch S."
-      ],
-      "cachedAt": "2026-08-09T02:49:05.655Z"
-    },
-    "cf712d270092f177": {
-      "url": "https://qiita.com/tanahiro2010/items/e536eabc73691f87dc0e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "LTをしたことがある人に聞いてみたいことがある。",
-        "登壇の直前、演台に立つ寸前のあの数十秒間、自分の身体に何が起きていたかを覚えているだろうか。",
-        "僕にはある。"
-      ],
-      "cachedAt": "2026-08-09T02:49:05.655Z"
-    },
-    "a1e1ea334758d8e4": {
-      "url": "https://www.sheeeeeeeep.art/multistack-catlangs.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-09T02:49:05.655Z"
-    },
-    "4f7d751bc2dca239": {
-      "url": "https://atomstr.data.haus/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-09T02:49:05.655Z"
-    },
-    "3dbd526666946088": {
-      "url": "https://ethulhu.co.uk/systemd-dynamicuser",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-09T02:49:05.655Z"
-    },
-    "6307f92dfaad3b70": {
-      "url": "https://github.com/Zer0-bit/gaggiuino",
-      "summaryJa": [
-        "A Gaggia Classic control project using microcontrollers.",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-09T02:49:05.655Z"
-    },
     "23e0494f1c6b3139": {
       "url": "https://www.techeblog.com/tom-stanton-supersonic-trebuchet/",
       "summaryJa": [
@@ -15138,6 +15057,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-07T02:50:38.616Z"
+    },
+    "579f1e45f94231f7": {
+      "url": "https://blog.bosscher.ch/posts/openstick/",
+      "summaryJa": [
+        "What I run on my $10 USD OpenStick homelab",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-07T20:18:07.463Z"
+    },
+    "ee6b7d75dfad77c0": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72252",
+      "summaryJa": [
+        "8日午前1時4分ごろ、静岡県西部を震源とする地震があり、愛知県で震度5強の強い揺れを観測しました。",
+        "気象庁は、今後1週間程度は最大震度5強程度の揺れを伴う地震に注意するよう呼びかけています。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-07T20:18:07.463Z"
+    },
+    "62ec9052985455ab": {
+      "url": "https://sizu.me/laiso/posts/k59is4cnd77f",
+      "summaryJa": [
+        "タイトルは釣りです（懐かしいブログ仕草） 正確には、元Wantedly CTOのkawasyさんが、ISUCON参加に向けて3ヶ月以上の試行錯誤をしたハーネスを",
+        "もちろん他のチームも競技にClaude CodeやCodexなどを大活用して挑んだようだけど、完全自律実行.",
+        "."
+      ],
+      "cachedAt": "2026-11-07T20:18:07.463Z"
+    },
+    "52534a67c0eb8291": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72329",
+      "summaryJa": [
+        "JR東海によりますと、東海道新幹線は地震の影響で静岡駅から岐阜羽島駅の間で設備の点検を行ったあと、速度を落として運転するため、8日の始発から遅れが発生する見込み",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-07T20:18:07.463Z"
+    },
+    "2ac2bc4545b6e6ba": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261107de72211",
+      "summaryJa": [
+        "ロシアのプーチン大統領は6日、JT＝日本たばこ産業グループのロシア国内にある3つの現地法人を一時的にロシア企業の管理下に置くとする大統領令に署名しました。",
+        "5日にもロシア国内にあるJT関連の生産拠点を一…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-07T20:18:07.463Z"
+    },
+    "3283891a5ef32136": {
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "summaryJa": [
+        "Libghostty 1.0",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-07T20:18:07.463Z"
+    },
+    "f62f814b8640e9fc": {
+      "url": "https://newsdig.tbs.co.jp/articles/-/3068819",
+      "summaryJa": [
+        "ワイヤレスが主流となるなか「有線イヤホン」が再び注目され、あのBOSEも11年ぶりに有線タイプを発売。",
+        "その人気のワケとは？",
+        "有線イヤホンを使っている人は街のあちこちで見かけますが、そのまま使うのではなく“…"
+      ],
+      "cachedAt": "2026-11-07T20:18:07.463Z"
+    },
+    "4304f49fe3e4d5ce": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E5%85%A8%E5%9B%BD%E7%9E%AC%E6%99%82%E8%AD%A6%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0",
+      "summaryJa": [
+        "全国瞬時警報システム",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-07T20:18:07.463Z"
+    },
+    "371228497013c1fb": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%97%A5%E6%9C%AC%E5%9B%BD%E5%82%B5",
+      "summaryJa": [
+        "日本国債",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-07T20:18:07.463Z"
+    },
+    "b7f24f48da1984a9": {
+      "url": "https://github.com/baku89/glisp",
+      "summaryJa": [
+        "A small Lisp as an interaction substrate for creative software: one program, edi",
+        "Glisp Canvas is the vector drawing app built on it.",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-07T20:18:07.463Z"
     }
   }
 }

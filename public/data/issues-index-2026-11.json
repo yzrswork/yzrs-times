@@ -99,6 +99,13 @@
       "edition": "midday",
       "theme": "実行環境の深部と、手元の検証回路",
       "path": "issues/2026-11-07-midday.json"
+    },
+    {
+      "issueNo": 241,
+      "date": "2026-11-08",
+      "edition": "morning",
+      "theme": "身近な基盤の感触と、揺らぐ現実",
+      "path": "issues/2026-11-08-morning.json"
     }
   ]
 }

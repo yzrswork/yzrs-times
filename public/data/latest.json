@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "issueNo": 240,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-11-07",
-  "dateDisplay": "Saturday, November 7, 2026",
-  "pressTimeJst": "2026-11-07 12:00",
-  "generatedAt": "2026-11-07T02:47:32.870Z",
+  "issueNo": 241,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-08",
+  "dateDisplay": "Sunday, November 8, 2026",
+  "pressTimeJst": "2026-11-08 05:00",
+  "generatedAt": "2026-11-07T20:17:43.641Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.1-flash-lite",
+    "model": "gemini-3.5-flash",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "実行環境の深部と、手元の検証回路",
-    "note": "足元のテストやランタイムを疑い、自らの設計をコードで裏付けるための紙面"
+    "title": "身近な基盤の感触と、揺らぐ現実",
+    "note": "朝の5分で、手元の軽量環境やハードウェア、社会インフラの変化を把握する。"
   },
   "editorial": {
-    "comment": "「[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件」のように、外部環境の変転がテストコードを突き崩す経験は、エンジニアにとっての通過儀礼です。この揺らぎを前にして、我々ができることは検証環境の足場をより堅牢にすることだけ。今日はそんな実装の深淵を覗く記事を揃えました。 —— YZRS Times 編集長",
-    "passedOver": "海外のAI関連ニュースを多数見送りました。潮流が速すぎて紙面が流動的になりすぎるためです。",
+    "comment": "10ドルの格安スティック端末で自前サーバーを構築する記事（hn-front-37c93784）には、制約を工夫で乗り越えるハックの原点があります。早朝の地震ニュースで日常の基盤を意識しつつ、手元の環境を自分の手で整える作業から今日を始めてみてはいかがでしょうか。 —— YZRS Times 編集長",
+    "passedOver": "Microsoft ResearchのAI Frontiersグループ解散の報は話題性が高いものの組織動向の側面が強いため今回は見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "曇り",
-    "icon": "cloudy",
-    "tempMax": 19,
-    "tempMin": 11,
-    "precipChancePct": 29
+    "summary": "晴れ時々曇り",
+    "icon": "partly-cloudy",
+    "tempMax": 17,
+    "tempMin": 10,
+    "precipChancePct": 0
   },
   "market": {
     "fearGreed": {
@@ -39,364 +39,214 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 75978,
-        "priceJpy": 12039792,
-        "change24hPct": -0.14,
+        "priceUsd": 75736,
+        "priceJpy": 12002327,
+        "change24hPct": -0.05,
         "sparkline7d": [
-          77314.39,
-          77864.57,
-          78004.67,
-          77293.91,
-          80490.64,
-          76107.78,
-          75835.83
+          77535.31,
+          78293.84,
+          76829.44,
+          78036.68,
+          80221.62,
+          75457.89,
+          75750.47
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2244.84,
-        "priceJpy": 355729,
-        "change24hPct": 0.27,
+        "priceUsd": 2233.26,
+        "priceJpy": 353916,
+        "change24hPct": 0.13,
         "sparkline7d": [
-          2242.07,
-          2268.37,
-          2288.55,
-          2283.8,
-          2433.56,
-          2246.26,
-          2237.88
+          2252.43,
+          2273.92,
+          2250.33,
+          2300.66,
+          2416.54,
+          2226.24,
+          2235.47
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.15298,
-        "priceJpy": 24.24,
-        "change24hPct": -1.64,
+        "priceUsd": 0.150933,
+        "priceJpy": 23.92,
+        "change24hPct": -2.61,
         "sparkline7d": [
-          0.169744,
-          0.16917,
-          0.167341,
-          0.166078,
-          0.16836,
-          0.154634,
-          0.154243
+          0.16964,
+          0.168244,
+          0.161946,
+          0.162989,
+          0.165988,
+          0.155157,
+          0.151278
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 262.45,
-        "priceJpy": 41588,
-        "change24hPct": -4.67,
+        "priceUsd": 257.02,
+        "priceJpy": 40731,
+        "change24hPct": -2.77,
         "sparkline7d": [
-          292.22,
-          284.51,
-          276.61,
-          276.21,
-          283.28,
-          274.74,
-          263.39
+          286.41,
+          284.19,
+          274.15,
+          275.43,
+          287.11,
+          267.41,
+          258.17
         ]
       }
     ]
   },
   "top": [
-    "hatebu-it-64924335",
-    "zenn-trend-94684c0a",
-    "qiita-popular-14d620d4"
+    "hn-front-37c93784",
+    "nhk-top-ee6b7d75",
+    "hatebu-it-62ec9052"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hn-front-48934373",
-        "hn-front-87395bf2",
-        "hatebu-it-09d31c4f"
+        "nhk-top-52534a67",
+        "nhk-world-2ac2bc45"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-trend-9c749f04",
-        "zenn-trend-c694964e"
+        "hn-front-c681def4",
+        "hatebu-it-f62f814b"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-6e5368b1",
-        "lobsters-07fc94e0",
-        "lobsters-83821d68"
+        "gtrends-jp-4304f49f",
+        "gtrends-jp-37122849"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hatebu-it-64924335",
-      "title": "[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件",
-      "url": "https://zenn.dev/xin9le/articles/9a1cf8e10494d6",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-06T16:49:21.000Z",
-      "summaryJa": [
-        "「お前は何を言っているんだ？",
-        "」と思うかもしれませんが、本当なのだから仕方ない！",
-        "動いていたはずの CI の単体テストが突然コケるという事態に遭遇してビックリ。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "破壊的変更"
-      ],
-      "heat": {
-        "temperature": 89,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 111,
-          "ageHours": 10,
-          "crossSources": 2,
-          "velocity": 11.1
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-94684c0a",
-      "title": "【.NET/Unity】C# の型制約とボックス化をハックする — IL と手動スタック配置",
-      "url": "https://zenn.dev/aakei/articles/csharp-stack-box",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-06T03:01:26.000Z",
-      "summaryJa": [
-        "!",
-        "この記事は、C# とランタイムの挙動を調べるための実験です。",
-        "unsafe な操作やランタイム内部の構造に依存する実装を含みます。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "NET/Unity",
-        "C#",
-        "IL"
-      ],
-      "heat": {
-        "temperature": 48,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 24,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-14d620d4",
-      "title": "Figmaのリアルタイム同期の仕組みを、Node.js + WebSocketの最小構成で実装してみた",
-      "url": "https://qiita.com/keishin_nishiura/items/b13d72afb085891e4fc9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-11-06T03:11:21.000Z",
-      "summaryJa": [
-        "1.",
-        "はじめに ソーイ株式会社の西浦です。",
-        "前回の記事「Figmaの同時編集、なぜこんなになめらか？"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Node.js"
-      ],
-      "heat": {
-        "temperature": 48,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 24,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-48934373",
-      "title": "Firecracker VM Escape: PwnEscape Part 2",
-      "url": "https://pwn.ai/blog/firecracker-escape",
+      "id": "hn-front-37c93784",
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "url": "https://blog.bosscher.ch/posts/openstick/",
       "source": "Hacker News",
       "sourceId": "hn-front",
-      "publishedAt": "2026-11-06T19:33:38.000Z",
+      "publishedAt": "2026-11-07T18:12:12.000Z",
       "summaryJa": [
-        "Firecracker VM Escape: PwnEscape Part 2",
+        "What I run on my $10 USD OpenStick homelab",
         "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Firecracker",
-        "VM",
-        "Escape",
-        "PwnEscape",
-        "Part"
+        "run",
+        "USD",
+        "OpenStick",
+        "homelab"
       ],
       "heat": {
-        "temperature": 81,
+        "temperature": 86,
         "signals": {
-          "hnPoints": 180,
+          "hnPoints": 104,
           "hatebuCount": 0,
-          "ageHours": 7,
+          "ageHours": 2,
           "crossSources": 1,
-          "velocity": 24.9
+          "velocity": 49.7
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-87395bf2",
-      "title": "First steps in bare-metal programming using UEFI",
-      "url": "https://kevinboone.me/efitest_index.html",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-06T16:50:29.000Z",
+      "id": "nhk-top-ee6b7d75",
+      "title": "【地震情報】愛知県で震度5強 津波の心配なし",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72252",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-07T19:21:28.000Z",
       "summaryJa": [
-        "First steps in bare-metal programming using UEFI",
-        "出典: Hacker News",
+        "8日午前1時4分ごろ、静岡県西部を震源とする地震があり、愛知県で震度5強の強い揺れを観測しました。",
+        "気象庁は、今後1週間程度は最大震度5強程度の揺れを伴う地震に注意するよう呼びかけています。",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "steps",
-        "bare",
-        "metal",
-        "UEFI"
+        "地震情報",
+        "愛知県で震度5強",
+        "津波の心配なし"
       ],
       "heat": {
-        "temperature": 80,
+        "temperature": 55,
         "signals": {
-          "hnPoints": 195,
+          "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 10,
-          "crossSources": 2,
-          "velocity": 19.6
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-09d31c4f",
-      "title": "AWSでWebリクエストを受ける8パターンと「オリジンを裸にしない」設定プラクティス",
-      "url": "https://zenn.dev/anfangd/articles/aws-web-ingress-origin-protection",
+      "id": "hatebu-it-62ec9052",
+      "title": "ISUCON2026をClaude Codeが優勝したらしい｜laiso",
+      "url": "https://sizu.me/laiso/posts/k59is4cnd77f",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-06T23:36:13.000Z",
+      "publishedAt": "2026-11-07T10:00:45.000Z",
       "summaryJa": [
-        "この記事は、Claude と一緒に AWS 公式ドキュメントを調べ、構成図を作りながら整理した内容をまとめたものです。",
-        "各設定の根拠は、記事中のリンク先の公式ドキュメントで確認できます。",
-        "はじめに 先日、X（旧Twitter）でこんな趣旨の話題が流れてきました。"
+        "タイトルは釣りです（懐かしいブログ仕草） 正確には、元Wantedly CTOのkawasyさんが、ISUCON参加に向けて3ヶ月以上の試行錯誤をしたハーネスを",
+        "もちろん他のチームも競技にClaude CodeやCodexなどを大活用して挑んだようだけど、完全自律実行.",
+        "."
       ],
       "category": "programming",
       "keywords": [
-        "オリジンを裸にしない",
-        "設定プラクティス"
+        "ISUCON2026をClaude",
+        "Codeが優勝したらしい｜laiso"
       ],
       "heat": {
-        "temperature": 87,
+        "temperature": 83,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 35,
-          "ageHours": 3,
+          "hatebuCount": 102,
+          "ageHours": 10,
           "crossSources": 1,
-          "velocity": 11
+          "velocity": 9.9
         }
       },
       "image": null
     },
     {
-      "id": "zenn-trend-9c749f04",
-      "title": "Claudeを使いこなす人に、MagicPodは要るのか。知らないアプリでPlaywrightと比べた記録",
-      "url": "https://zenn.dev/genda_jp/articles/7b423bcd20b532",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-06T05:13:04.000Z",
+      "id": "nhk-top-52534a67",
+      "title": "東海道新幹線 地震の影響で始発から遅れの見込み",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72329",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-07T20:04:00.000Z",
       "summaryJa": [
-        "2026年10月、MagicPodのMCPサーバーが刷新されました。",
-        "Claudeのコネクタ一覧から接続するだけで、Claudeとの対話を通じてMagicPodのテストケースを作成・編集・実行できるようになっています。",
-        "https://prtimes."
-      ],
-      "category": "programming",
-      "keywords": [
-        "Claudeを使いこなす人に",
-        "MagicPodは要るのか"
-      ],
-      "heat": {
-        "temperature": 48,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 22,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-c694964e",
-      "title": "タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった",
-      "url": "https://zenn.dev/rescuenow/articles/4c03a548cd6589",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-06T08:59:24.000Z",
-      "summaryJa": [
-        "はじめに こんにちは、しもちです。",
-        "前回の「2026年自分流AIエージェント環境構築の秋」では、司令塔のエージェントに作業役を回してもらう仕組みを紹介しました。",
-        "司令塔には作業だけでなく、抱えているタスク全体の管理も任せていて、どれに手を付けるか、どの順で進めるかも司令塔が決めます。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "タスク管理までAIエージェントに任せたら",
-        "確認待ちに答えるだけになった"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 18,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-6e5368b1",
-      "title": "The MustCreate Pattern for Go Tests",
-      "url": "https://mtlynch.io/notes/go-must-create-pattern/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-06T15:37:00.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "JR東海によりますと、東海道新幹線は地震の影響で静岡駅から岐阜羽島駅の間で設備の点検を行ったあと、速度を落として運転するため、8日の始発から遅れが発生する見込み",
+        "出典: NHKニュース 主要",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "MustCreate",
-        "Pattern",
-        "Go",
-        "Tests"
+        "東海道新幹線",
+        "地震の影響で始発から遅れの見込み"
       ],
       "heat": {
-        "temperature": 52,
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 11,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -404,60 +254,143 @@
       "image": null
     },
     {
-      "id": "lobsters-07fc94e0",
-      "title": "How we continuously validate formal specifications in production",
-      "url": "https://www.datadoghq.com/blog/engineering/continuous-formal-spec-validation/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-06T18:00:07.000Z",
+      "id": "nhk-world-2ac2bc45",
+      "title": "ロシア JTの資産を追加で一時管理下に置く大統領令に署名",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261107de72211",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-11-07T15:02:24.000Z",
       "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "ロシアのプーチン大統領は6日、JT＝日本たばこ産業グループのロシア国内にある3つの現地法人を一時的にロシア企業の管理下に置くとする大統領令に署名しました。",
+        "5日にもロシア国内にあるJT関連の生産拠点を一…",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "continuously",
-        "validate",
-        "formal",
-        "specifications",
-        "production"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 9,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-83821d68",
-      "title": "Nondeterminism in Futhark",
-      "url": "https://futhark-lang.org/blog/2026-11-04-nondeterminism.html",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-06T19:16:01.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Nondeterminism",
-        "Futhark"
+        "ロシア"
       ],
       "heat": {
         "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 8,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-c681def4",
+      "title": "Libghostty 1.0",
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-06T23:30:52.000Z",
+      "summaryJa": [
+        "Libghostty 1.0",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Libghostty"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 972,
+          "hatebuCount": 9,
+          "ageHours": 21,
+          "crossSources": 3,
+          "velocity": 46.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-f62f814b",
+      "title": "ワイヤレス主流時代になぜ？「有線イヤホン」再流行のワケ【THE TIME,】  | TBS NEWS DIG",
+      "url": "https://newsdig.tbs.co.jp/articles/-/3068819",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-07T04:39:14.000Z",
+      "summaryJa": [
+        "ワイヤレスが主流となるなか「有線イヤホン」が再び注目され、あのBOSEも11年ぶりに有線タイプを発売。",
+        "その人気のワケとは？",
+        "有線イヤホンを使っている人は街のあちこちで見かけますが、そのまま使うのではなく“…"
+      ],
+      "category": "programming",
+      "keywords": [
+        "ワイヤレス主流時代になぜ",
+        "有線イヤホン",
+        "再流行のワケ",
+        "TIME",
+        "TBS"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 186,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 11.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-4304f49f",
+      "title": "全国瞬時警報システム",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E5%85%A8%E5%9B%BD%E7%9E%AC%E6%99%82%E8%AD%A6%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-07T20:00:00.000Z",
+      "summaryJa": [
+        "全国瞬時警報システム",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "全国瞬時警報システム"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-37122849",
+      "title": "日本国債",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%97%A5%E6%9C%AC%E5%9B%BD%E5%82%B5",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-07T20:00:00.000Z",
+      "summaryJa": [
+        "日本国債",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "日本国債"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -467,38 +400,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-6dd8ef80",
-      "title": "kevinraymond/florilegium — Procedurally generated Delft-blue floral page margins for LuaLaTeX, with plants and visitors sampled from genomes and a TikZ library that also draws them under pdfLaTeX",
-      "url": "https://github.com/kevinraymond/florilegium",
+      "id": "github-gems-e404e1fb",
+      "title": "baku89/glisp — A small Lisp as an interaction substrate for creative software: one program, edited as code, as blocks, or by hand on a canvas. Glisp Canvas is the vector drawing app built on it.",
+      "url": "https://github.com/baku89/glisp",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-11-06T13:27:54Z",
+      "publishedAt": "2026-11-07T14:41:23Z",
       "summaryJa": [
-        "Procedurally generated Delft-blue floral page margins for LuaLaTeX, with plants ",
-        "出典: GitHub 小さなOSS",
+        "A small Lisp as an interaction substrate for creative software: one program, edi",
+        "Glisp Canvas is the vector drawing app built on it.",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "Procedurally",
-        "generated",
-        "Delft",
-        "blue",
-        "floral"
+        "baku89/glisp",
+        "small",
+        "Lisp",
+        "interaction",
+        "substrate"
       ],
       "heat": {
-        "temperature": 51,
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 13,
+          "ageHours": 6,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "LuaLaTeXという硬派な組版環境で、生物学的遺伝子から生成される装飾を施すという狂気的な発想に惹かれました。実用性と無縁なところにこそ、作り手の美学が宿ります。"
+    "reason": "コード記述とキャンバス操作を融合させたGlispは、プログラミングとアートを行き来する創作意欲を強烈に刺激します。手元の描画表現をコードで制御したいあなたにぴったりの実験的ツールです。"
   },
   "unavailableSources": []
 }
