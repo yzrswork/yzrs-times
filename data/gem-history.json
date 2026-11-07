@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-024259fc",
-      "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
-      "date": "2026-10-08"
-    },
-    {
-      "id": "github-gems-ebd51f8b",
-      "url": "https://github.com/pschatzmann/arduino-audio-tools",
-      "date": "2026-10-08"
-    },
-    {
       "id": "github-gems-0c605160",
       "url": "https://github.com/OpenHD/OpenHD",
       "date": "2026-10-09"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-f9f3b3d1",
       "url": "https://github.com/raphaelameaume/fragment",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "github-gems-6dd8ef80",
+      "url": "https://github.com/kevinraymond/florilegium",
       "date": "2026-11-07"
     }
   ]

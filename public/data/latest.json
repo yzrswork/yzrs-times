@@ -1,137 +1,137 @@
 {
   "schemaVersion": 1,
-  "issueNo": 239,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 240,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-11-07",
   "dateDisplay": "Saturday, November 7, 2026",
-  "pressTimeJst": "2026-11-07 05:00",
-  "generatedAt": "2026-11-06T20:17:43.819Z",
+  "pressTimeJst": "2026-11-07 12:00",
+  "generatedAt": "2026-11-07T02:47:32.870Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.1-flash-lite",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "不意の前提変更と、露出する隙",
-    "note": "朝の5分で今日を知る。揺らぐ仕様とセキュリティの境界に触れ、確かな足場を整えて作業を始めるための紙面。"
+    "title": "実行環境の深部と、手元の検証回路",
+    "note": "足元のテストやランタイムを疑い、自らの設計をコードで裏付けるための紙面"
   },
   "editorial": {
-    "comment": "「[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件（hatebu-it-64924335）」の事例のように、疑いもしなかった基礎ライブラリの前提がひっくり返る瞬間には独特の凄みがあります。手元のコードの足場を固めつつ、今日の作業に入りたいところです。 —— YZRS Times 編集長",
-    "passedOver": "政治関連の議会調査報道や特定企業の業績修正ニュースは、本日の時事と手元のものづくりをつなぐ文脈に乏しいため見送りました。",
+    "comment": "「[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件」のように、外部環境の変転がテストコードを突き崩す経験は、エンジニアにとっての通過儀礼です。この揺らぎを前にして、我々ができることは検証環境の足場をより堅牢にすることだけ。今日はそんな実装の深淵を覗く記事を揃えました。 —— YZRS Times 編集長",
+    "passedOver": "海外のAI関連ニュースを多数見送りました。潮流が速すぎて紙面が流動的になりすぎるためです。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
     "summary": "曇り",
     "icon": "cloudy",
-    "tempMax": 20,
+    "tempMax": 19,
     "tempMin": 11,
-    "precipChancePct": 2
+    "precipChancePct": 29
   },
   "market": {
     "fearGreed": {
-      "value": 28,
-      "label": "Fear"
+      "value": 25,
+      "label": "Extreme Fear"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 75768,
-        "priceJpy": 12009706,
-        "change24hPct": -0.26,
+        "priceUsd": 75978,
+        "priceJpy": 12039792,
+        "change24hPct": -0.14,
         "sparkline7d": [
-          76845.61,
-          77520.89,
-          78556.55,
-          76722.12,
-          78513.77,
-          78172.49,
-          75724.44
+          77314.39,
+          77864.57,
+          78004.67,
+          77293.91,
+          80490.64,
+          76107.78,
+          75835.83
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2230.06,
-        "priceJpy": 353477,
-        "change24hPct": -0.72,
+        "priceUsd": 2244.84,
+        "priceJpy": 355729,
+        "change24hPct": 0.27,
         "sparkline7d": [
-          2236.7,
-          2254.13,
-          2306.94,
-          2255.2,
-          2325.32,
-          2339.87,
-          2228.96
+          2242.07,
+          2268.37,
+          2288.55,
+          2283.8,
+          2433.56,
+          2246.26,
+          2237.88
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.154981,
-        "priceJpy": 24.57,
-        "change24hPct": 0.22,
+        "priceUsd": 0.15298,
+        "priceJpy": 24.24,
+        "change24hPct": -1.64,
         "sparkline7d": [
-          0.167274,
-          0.169516,
-          0.169359,
-          0.161407,
-          0.164473,
-          0.160199,
-          0.155917
+          0.169744,
+          0.16917,
+          0.167341,
+          0.166078,
+          0.16836,
+          0.154634,
+          0.154243
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 264.42,
-        "priceJpy": 41912,
-        "change24hPct": -4.04,
+        "priceUsd": 262.45,
+        "priceJpy": 41588,
+        "change24hPct": -4.67,
         "sparkline7d": [
-          289.78,
-          285.2,
-          285.72,
-          275.4,
-          276.01,
-          284.2,
-          265.6
+          292.22,
+          284.51,
+          276.61,
+          276.21,
+          283.28,
+          274.74,
+          263.39
         ]
       }
     ]
   },
   "top": [
     "hatebu-it-64924335",
-    "hn-front-87395bf2",
-    "nhk-top-8d171446"
+    "zenn-trend-94684c0a",
+    "qiita-popular-14d620d4"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
-      "articleIds": [
-        "nhk-top-57ec067c",
-        "nhk-top-f7032111",
-        "nhk-world-93542ff6"
-      ]
-    },
-    {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
         "hn-front-48934373",
-        "hatebu-it-91493e15"
+        "hn-front-87395bf2",
+        "hatebu-it-09d31c4f"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hatebu-it-470a9d9b",
-        "gtrends-jp-571e38b8",
-        "gtrends-jp-8df1fccd"
+        "zenn-trend-9c749f04",
+        "zenn-trend-c694964e"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-6e5368b1",
+        "lobsters-07fc94e0",
+        "lobsters-83821d68"
       ]
     }
   ],
@@ -153,71 +153,41 @@
         "破壊的変更"
       ],
       "heat": {
-        "temperature": 87,
+        "temperature": 89,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 28,
-          "ageHours": 3,
-          "crossSources": 1,
-          "velocity": 8.1
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-87395bf2",
-      "title": "First steps in bare-metal programming using UEFI",
-      "url": "https://kevinboone.me/efitest_index.html",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-06T16:50:29.000Z",
-      "summaryJa": [
-        "First steps in bare-metal programming using UEFI",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "steps",
-        "bare",
-        "metal",
-        "UEFI"
-      ],
-      "heat": {
-        "temperature": 80,
-        "signals": {
-          "hnPoints": 112,
-          "hatebuCount": 0,
-          "ageHours": 3,
+          "hatebuCount": 111,
+          "ageHours": 10,
           "crossSources": 2,
-          "velocity": 32.4
+          "velocity": 11.1
         }
       },
       "image": null
     },
     {
-      "id": "nhk-top-8d171446",
-      "title": "サイバー攻撃対応強化で法改正検討へ 国内通信情報取得が焦点",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71963",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-06T13:42:00.000Z",
+      "id": "zenn-trend-94684c0a",
+      "title": "【.NET/Unity】C# の型制約とボックス化をハックする — IL と手動スタック配置",
+      "url": "https://zenn.dev/aakei/articles/csharp-stack-box",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-06T03:01:26.000Z",
       "summaryJa": [
-        "政府はサイバー攻撃の情報収集能力を強化するため「能動的サイバー防御」の関連法の改正を検討します。",
-        "現在の法律では認められていない、国内で完結する通信情報の取得を可能にするかが焦点となる見通しです。",
-        "詳細は元記事を参照してください。"
+        "!",
+        "この記事は、C# とランタイムの挙動を調べるための実験です。",
+        "unsafe な操作やランタイム内部の構造に依存する実装を含みます。"
       ],
-      "category": "news",
+      "category": "programming",
       "keywords": [
-        "サイバー攻撃対応強化で法改正検討へ",
-        "国内通信情報取得が焦点"
+        "NET/Unity",
+        "C#",
+        "IL"
       ],
       "heat": {
-        "temperature": 53,
+        "temperature": 48,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 7,
+          "ageHours": 24,
           "crossSources": 1,
           "velocity": 0
         }
@@ -225,88 +195,27 @@
       "image": null
     },
     {
-      "id": "nhk-top-57ec067c",
-      "title": "国税庁装う偽メールが急増「メールで還付手続き案内しない」",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71902",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-06T20:05:13.000Z",
+      "id": "qiita-popular-14d620d4",
+      "title": "Figmaのリアルタイム同期の仕組みを、Node.js + WebSocketの最小構成で実装してみた",
+      "url": "https://qiita.com/keishin_nishiura/items/b13d72afb085891e4fc9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-06T03:11:21.000Z",
       "summaryJa": [
-        "国税庁を装って個人情報や金銭をだまし取ろうとする偽メールが急増しています。",
-        "国税庁は「メールで還付手続きを案内したり納税を求めたりすることはない」として、ホームページで偽メールの特徴を詳しく紹介し、注意…",
-        "詳細は元記事を参照してください。"
+        "1.",
+        "はじめに ソーイ株式会社の西浦です。",
+        "前回の記事「Figmaの同時編集、なぜこんなになめらか？"
       ],
-      "category": "news",
+      "category": "programming",
       "keywords": [
-        "国税庁装う偽メールが急増",
-        "メールで還付手続き案内しない"
+        "Node.js"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 48,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-f7032111",
-      "title": "大分 陸上自衛隊戦車3人死亡事故 前の砲弾の破片が原因か",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261107de71984",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-06T19:56:32.000Z",
-      "summaryJa": [
-        "ことし4月、大分県にある陸上自衛隊の演習場で訓練中の戦車内で砲弾が破裂し隊員3人が死亡した事故で、前の砲弾の破片が異物として装填する場所に残っていたことが原因と",
-        "この異物…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "大分",
-        "陸上自衛隊戦車3人死亡事故",
-        "前の砲弾の破片が原因か"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-world-93542ff6",
-      "title": "アメリカ就業者数 市場予想上回る 来週の物価動向焦点",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71979",
-      "source": "NHKニュース 国際",
-      "sourceId": "nhk-world",
-      "publishedAt": "2026-11-06T15:11:00.000Z",
-      "summaryJa": [
-        "円相場や株価に影響を及ぼすアメリカの雇用統計が発表され、10月の農業分野以外の就業者は、16万5000人増加し、市場の予想を大きく上回りました。",
-        "FRB＝連邦準備制度理事会の金融政策を見通す上で、来…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "アメリカ就業者数",
-        "市場予想上回る",
-        "来週の物価動向焦点"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 5,
+          "ageHours": 24,
           "crossSources": 1,
           "velocity": 0
         }
@@ -334,99 +243,100 @@
         "Part"
       ],
       "heat": {
-        "temperature": 85,
+        "temperature": 81,
         "signals": {
-          "hnPoints": 37,
+          "hnPoints": 180,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 7,
           "crossSources": 1,
-          "velocity": 50.3
+          "velocity": 24.9
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-91493e15",
-      "title": "セキュリティ啓発団体に不正アクセス　個人情報最大1.5万件漏えいか",
-      "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002978/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-06T08:41:42.000Z",
+      "id": "hn-front-87395bf2",
+      "title": "First steps in bare-metal programming using UEFI",
+      "url": "https://kevinboone.me/efitest_index.html",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-06T16:50:29.000Z",
       "summaryJa": [
-        "情報セキュリティの普及啓発に向けて活動する日本ネットワークセキュリティ協会（JNSA）は11月6日、同協会が運営する「情報セキュリティ理解度チェックサービス」が",
-        "利用者のIDやハッシュ化したパスワードなどが漏えいした.",
-        "."
-      ],
-      "category": "programming",
-      "keywords": [
-        "セキュリティ啓発団体に不正アクセス",
-        "個人情報最大1.5万件漏えいか"
-      ],
-      "heat": {
-        "temperature": 81,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 77,
-          "ageHours": 12,
-          "crossSources": 1,
-          "velocity": 6.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-470a9d9b",
-      "title": "メタバース、ワーケーションなど「ここ数年で恐ろしいほど聞かなくなった言葉一覧」に共感「Clubhouse懐かしい！」「半分がWeb3でわろた」",
-      "url": "https://togetter.com/li/2767231",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-06T02:34:22.000Z",
-      "summaryJa": [
-        "えりまどⅢ @greynomado ここ数年で恐ろしいほど聞かなくなった言葉一覧 ・NFT ・メタバース ・Web3.",
-        "0 ・Clubhouse ・DAO ・STEPN ・GameFi ・仮想通貨女子 ・ワーケーション ・地方創生 ・ノマドワーカー ・タピオカ ・ひとりキャンプ ",
-        "1番怖いのは、当時「これ."
-      ],
-      "category": "programming",
-      "keywords": [
-        "メタバース",
-        "ワーケーションなど",
-        "Clubhouse懐かしい",
-        "半分がWeb3でわろた"
-      ],
-      "heat": {
-        "temperature": 81,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 176,
-          "ageHours": 18,
-          "crossSources": 1,
-          "velocity": 9.9
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "gtrends-jp-571e38b8",
-      "title": "ダウ平均",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%80%E3%82%A6%E5%B9%B3%E5%9D%87",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-06T20:00:00.000Z",
-      "summaryJa": [
-        "ダウ平均",
-        "出典: Google トレンド",
+        "First steps in bare-metal programming using UEFI",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
-      "category": "trends",
+      "category": "tech",
       "keywords": [
-        "ダウ平均"
+        "steps",
+        "bare",
+        "metal",
+        "UEFI"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 195,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 2,
+          "velocity": 19.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-09d31c4f",
+      "title": "AWSでWebリクエストを受ける8パターンと「オリジンを裸にしない」設定プラクティス",
+      "url": "https://zenn.dev/anfangd/articles/aws-web-ingress-origin-protection",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-06T23:36:13.000Z",
+      "summaryJa": [
+        "この記事は、Claude と一緒に AWS 公式ドキュメントを調べ、構成図を作りながら整理した内容をまとめたものです。",
+        "各設定の根拠は、記事中のリンク先の公式ドキュメントで確認できます。",
+        "はじめに 先日、X（旧Twitter）でこんな趣旨の話題が流れてきました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "オリジンを裸にしない",
+        "設定プラクティス"
+      ],
+      "heat": {
+        "temperature": 87,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 35,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 11
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-9c749f04",
+      "title": "Claudeを使いこなす人に、MagicPodは要るのか。知らないアプリでPlaywrightと比べた記録",
+      "url": "https://zenn.dev/genda_jp/articles/7b423bcd20b532",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-06T05:13:04.000Z",
+      "summaryJa": [
+        "2026年10月、MagicPodのMCPサーバーが刷新されました。",
+        "Claudeのコネクタ一覧から接続するだけで、Claudeとの対話を通じてMagicPodのテストケースを作成・編集・実行できるようになっています。",
+        "https://prtimes."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claudeを使いこなす人に",
+        "MagicPodは要るのか"
+      ],
+      "heat": {
+        "temperature": 48,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 22,
           "crossSources": 1,
           "velocity": 0
         }
@@ -434,27 +344,120 @@
       "image": null
     },
     {
-      "id": "gtrends-jp-8df1fccd",
-      "title": "警察",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E8%AD%A6%E5%AF%9F",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-06T19:20:00.000Z",
+      "id": "zenn-trend-c694964e",
+      "title": "タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった",
+      "url": "https://zenn.dev/rescuenow/articles/4c03a548cd6589",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-06T08:59:24.000Z",
       "summaryJa": [
-        "警察",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
+        "はじめに こんにちは、しもちです。",
+        "前回の「2026年自分流AIエージェント環境構築の秋」では、司令塔のエージェントに作業役を回してもらう仕組みを紹介しました。",
+        "司令塔には作業だけでなく、抱えているタスク全体の管理も任せていて、どれに手を付けるか、どの順で進めるかも司令塔が決めます。"
       ],
-      "category": "trends",
+      "category": "programming",
       "keywords": [
-        "警察"
+        "タスク管理までAIエージェントに任せたら",
+        "確認待ちに答えるだけになった"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 49,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-6e5368b1",
+      "title": "The MustCreate Pattern for Go Tests",
+      "url": "https://mtlynch.io/notes/go-must-create-pattern/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-06T15:37:00.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "MustCreate",
+        "Pattern",
+        "Go",
+        "Tests"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-07fc94e0",
+      "title": "How we continuously validate formal specifications in production",
+      "url": "https://www.datadoghq.com/blog/engineering/continuous-formal-spec-validation/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-06T18:00:07.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "continuously",
+        "validate",
+        "formal",
+        "specifications",
+        "production"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-83821d68",
+      "title": "Nondeterminism in Futhark",
+      "url": "https://futhark-lang.org/blog/2026-11-04-nondeterminism.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-06T19:16:01.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Nondeterminism",
+        "Futhark"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 8,
           "crossSources": 1,
           "velocity": 0
         }
@@ -464,38 +467,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-f9f3b3d1",
-      "title": "raphaelameaume/fragment — [alpha] A modern toolkit for creative coding",
-      "url": "https://github.com/raphaelameaume/fragment",
+      "id": "github-gems-6dd8ef80",
+      "title": "kevinraymond/florilegium — Procedurally generated Delft-blue floral page margins for LuaLaTeX, with plants and visitors sampled from genomes and a TikZ library that also draws them under pdfLaTeX",
+      "url": "https://github.com/kevinraymond/florilegium",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-11-06T17:05:24Z",
+      "publishedAt": "2026-11-06T13:27:54Z",
       "summaryJa": [
-        "[alpha] A modern toolkit for creative coding",
+        "Procedurally generated Delft-blue floral page margins for LuaLaTeX, with plants ",
         "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "alpha",
-        "modern",
-        "toolkit",
-        "creative",
-        "coding"
+        "Procedurally",
+        "generated",
+        "Delft",
+        "blue",
+        "floral"
       ],
       "heat": {
-        "temperature": 54,
+        "temperature": 51,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 3,
+          "ageHours": 13,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "クリエイティブコーディング向けのモダンなツールキットであり、アルファ版ながら描画と制御の扱いやすさが光ります。手元でシェーダーやグラフィックスを実験したい作風に、直感的なインスピレーションを与えてくれるはずです。"
+    "reason": "LuaLaTeXという硬派な組版環境で、生物学的遺伝子から生成される装飾を施すという狂気的な発想に惹かれました。実用性と無縁なところにこそ、作り手の美学が宿ります。"
   },
   "unavailableSources": []
 }

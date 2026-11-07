@@ -92,6 +92,13 @@
       "edition": "morning",
       "theme": "不意の前提変更と、露出する隙",
       "path": "issues/2026-11-07-morning.json"
+    },
+    {
+      "issueNo": 240,
+      "date": "2026-11-07",
+      "edition": "midday",
+      "theme": "実行環境の深部と、手元の検証回路",
+      "path": "issues/2026-11-07-midday.json"
     }
   ]
 }

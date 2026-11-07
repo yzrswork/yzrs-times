@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 240,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-07",
+  "dateDisplay": "Saturday, November 7, 2026",
+  "pressTimeJst": "2026-11-07 12:00",
+  "generatedAt": "2026-11-07T02:47:32.870Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "実行環境の深部と、手元の検証回路",
+    "note": "足元のテストやランタイムを疑い、自らの設計をコードで裏付けるための紙面"
+  },
+  "editorial": {
+    "comment": "「[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件」のように、外部環境の変転がテストコードを突き崩す経験は、エンジニアにとっての通過儀礼です。この揺らぎを前にして、我々ができることは検証環境の足場をより堅牢にすることだけ。今日はそんな実装の深淵を覗く記事を揃えました。 —— YZRS Times 編集長",
+    "passedOver": "海外のAI関連ニュースを多数見送りました。潮流が速すぎて紙面が流動的になりすぎるためです。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "曇り",
+    "icon": "cloudy",
+    "tempMax": 19,
+    "tempMin": 11,
+    "precipChancePct": 29
+  },
+  "market": {
+    "fearGreed": {
+      "value": 25,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 75978,
+        "priceJpy": 12039792,
+        "change24hPct": -0.14,
+        "sparkline7d": [
+          77314.39,
+          77864.57,
+          78004.67,
+          77293.91,
+          80490.64,
+          76107.78,
+          75835.83
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2244.84,
+        "priceJpy": 355729,
+        "change24hPct": 0.27,
+        "sparkline7d": [
+          2242.07,
+          2268.37,
+          2288.55,
+          2283.8,
+          2433.56,
+          2246.26,
+          2237.88
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.15298,
+        "priceJpy": 24.24,
+        "change24hPct": -1.64,
+        "sparkline7d": [
+          0.169744,
+          0.16917,
+          0.167341,
+          0.166078,
+          0.16836,
+          0.154634,
+          0.154243
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 262.45,
+        "priceJpy": 41588,
+        "change24hPct": -4.67,
+        "sparkline7d": [
+          292.22,
+          284.51,
+          276.61,
+          276.21,
+          283.28,
+          274.74,
+          263.39
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-64924335",
+    "zenn-trend-94684c0a",
+    "qiita-popular-14d620d4"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hn-front-48934373",
+        "hn-front-87395bf2",
+        "hatebu-it-09d31c4f"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "zenn-trend-9c749f04",
+        "zenn-trend-c694964e"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-6e5368b1",
+        "lobsters-07fc94e0",
+        "lobsters-83821d68"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-64924335",
+      "title": "[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件",
+      "url": "https://zenn.dev/xin9le/articles/9a1cf8e10494d6",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-06T16:49:21.000Z",
+      "summaryJa": [
+        "「お前は何を言っているんだ？",
+        "」と思うかもしれませんが、本当なのだから仕方ない！",
+        "動いていたはずの CI の単体テストが突然コケるという事態に遭遇してビックリ。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "破壊的変更"
+      ],
+      "heat": {
+        "temperature": 89,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 111,
+          "ageHours": 10,
+          "crossSources": 2,
+          "velocity": 11.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-94684c0a",
+      "title": "【.NET/Unity】C# の型制約とボックス化をハックする — IL と手動スタック配置",
+      "url": "https://zenn.dev/aakei/articles/csharp-stack-box",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-06T03:01:26.000Z",
+      "summaryJa": [
+        "!",
+        "この記事は、C# とランタイムの挙動を調べるための実験です。",
+        "unsafe な操作やランタイム内部の構造に依存する実装を含みます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "NET/Unity",
+        "C#",
+        "IL"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 24,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-14d620d4",
+      "title": "Figmaのリアルタイム同期の仕組みを、Node.js + WebSocketの最小構成で実装してみた",
+      "url": "https://qiita.com/keishin_nishiura/items/b13d72afb085891e4fc9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-06T03:11:21.000Z",
+      "summaryJa": [
+        "1.",
+        "はじめに ソーイ株式会社の西浦です。",
+        "前回の記事「Figmaの同時編集、なぜこんなになめらか？"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Node.js"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 24,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-48934373",
+      "title": "Firecracker VM Escape: PwnEscape Part 2",
+      "url": "https://pwn.ai/blog/firecracker-escape",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-06T19:33:38.000Z",
+      "summaryJa": [
+        "Firecracker VM Escape: PwnEscape Part 2",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Firecracker",
+        "VM",
+        "Escape",
+        "PwnEscape",
+        "Part"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 180,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 24.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-87395bf2",
+      "title": "First steps in bare-metal programming using UEFI",
+      "url": "https://kevinboone.me/efitest_index.html",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-06T16:50:29.000Z",
+      "summaryJa": [
+        "First steps in bare-metal programming using UEFI",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "steps",
+        "bare",
+        "metal",
+        "UEFI"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 195,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 2,
+          "velocity": 19.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-09d31c4f",
+      "title": "AWSでWebリクエストを受ける8パターンと「オリジンを裸にしない」設定プラクティス",
+      "url": "https://zenn.dev/anfangd/articles/aws-web-ingress-origin-protection",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-06T23:36:13.000Z",
+      "summaryJa": [
+        "この記事は、Claude と一緒に AWS 公式ドキュメントを調べ、構成図を作りながら整理した内容をまとめたものです。",
+        "各設定の根拠は、記事中のリンク先の公式ドキュメントで確認できます。",
+        "はじめに 先日、X（旧Twitter）でこんな趣旨の話題が流れてきました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "オリジンを裸にしない",
+        "設定プラクティス"
+      ],
+      "heat": {
+        "temperature": 87,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 35,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 11
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-9c749f04",
+      "title": "Claudeを使いこなす人に、MagicPodは要るのか。知らないアプリでPlaywrightと比べた記録",
+      "url": "https://zenn.dev/genda_jp/articles/7b423bcd20b532",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-06T05:13:04.000Z",
+      "summaryJa": [
+        "2026年10月、MagicPodのMCPサーバーが刷新されました。",
+        "Claudeのコネクタ一覧から接続するだけで、Claudeとの対話を通じてMagicPodのテストケースを作成・編集・実行できるようになっています。",
+        "https://prtimes."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claudeを使いこなす人に",
+        "MagicPodは要るのか"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 22,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-c694964e",
+      "title": "タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった",
+      "url": "https://zenn.dev/rescuenow/articles/4c03a548cd6589",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-06T08:59:24.000Z",
+      "summaryJa": [
+        "はじめに こんにちは、しもちです。",
+        "前回の「2026年自分流AIエージェント環境構築の秋」では、司令塔のエージェントに作業役を回してもらう仕組みを紹介しました。",
+        "司令塔には作業だけでなく、抱えているタスク全体の管理も任せていて、どれに手を付けるか、どの順で進めるかも司令塔が決めます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "タスク管理までAIエージェントに任せたら",
+        "確認待ちに答えるだけになった"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-6e5368b1",
+      "title": "The MustCreate Pattern for Go Tests",
+      "url": "https://mtlynch.io/notes/go-must-create-pattern/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-06T15:37:00.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "MustCreate",
+        "Pattern",
+        "Go",
+        "Tests"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-07fc94e0",
+      "title": "How we continuously validate formal specifications in production",
+      "url": "https://www.datadoghq.com/blog/engineering/continuous-formal-spec-validation/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-06T18:00:07.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "continuously",
+        "validate",
+        "formal",
+        "specifications",
+        "production"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-83821d68",
+      "title": "Nondeterminism in Futhark",
+      "url": "https://futhark-lang.org/blog/2026-11-04-nondeterminism.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-06T19:16:01.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Nondeterminism",
+        "Futhark"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-6dd8ef80",
+      "title": "kevinraymond/florilegium — Procedurally generated Delft-blue floral page margins for LuaLaTeX, with plants and visitors sampled from genomes and a TikZ library that also draws them under pdfLaTeX",
+      "url": "https://github.com/kevinraymond/florilegium",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-06T13:27:54Z",
+      "summaryJa": [
+        "Procedurally generated Delft-blue floral page margins for LuaLaTeX, with plants ",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "Procedurally",
+        "generated",
+        "Delft",
+        "blue",
+        "floral"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "LuaLaTeXという硬派な組版環境で、生物学的遺伝子から生成される装飾を施すという狂気的な発想に惹かれました。実用性と無縁なところにこそ、作り手の美学が宿ります。"
+  },
+  "unavailableSources": []
+}
