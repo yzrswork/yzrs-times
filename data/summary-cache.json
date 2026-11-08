@@ -1,105 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "ae8d9268f48a04c4": {
-      "url": "https://zenn.dev/gsy0911/articles/a4dc76f0639576",
-      "summaryJa": [
-        "はじめに 本記事ではRaspberry Pi 5 で Claude Code を常時起動し、外部から常時アクセス可能にします。",
-        "低消費電力で 24 時間つけっぱなしにできる Pi 5 は、Agent の常駐場所として手頃です。",
-        "母艦の Mac とは切り離された専用機なので、多少強い権限を与えても隔離された中で完結します。"
-      ],
-      "cachedAt": "2026-08-10T02:50:41.658Z"
-    },
-    "86656d0ad66e6dd9": {
-      "url": "https://zenn.dev/awesome_kou/articles/7a5bb472fcdfa8",
-      "summaryJa": [
-        "あの --- を、また書いている気がしませんか ブログを書いたことがある人なら、記事ファイルの先頭にこんな数行を打った記憶があるはずです。",
-        "三本のハイフンで囲んだ、この小さな設定ブロック。",
-        "これを Front Matter（フロントマター）と呼びます。"
-      ],
-      "cachedAt": "2026-08-10T02:50:41.658Z"
-    },
-    "c8040ab456c05e71": {
-      "url": "https://lemire.me/blog/2026/08/09/profile-guided-optimization-in-go/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-10T02:50:41.658Z"
-    },
-    "8361ea51f23ca6b7": {
-      "url": "https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/",
-      "summaryJa": [
-        "How We Pushed CDC into Postgres",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-10T02:50:41.658Z"
-    },
-    "b2d4554ee517d9da": {
-      "url": "https://qiita.com/gyu-don/items/f02f1c55e18281c916a5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに 先日、OpenAI Build Weekというのが開かれていました。",
-        "これは、Codexを使って自由にプロダクトを作り、それを投稿するといった趣旨のものです。",
-        "偶然、応募する機会があったので、そのとき作ったものを紹介します。"
-      ],
-      "cachedAt": "2026-08-10T02:50:41.658Z"
-    },
-    "f6e7b396ee536b30": {
-      "url": "https://qiita.com/ITvision/items/345e0dc5e98775c16cd7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "ヘリコプター操縦ゲームです。",
-        "日本語プログラミング言語 Mind9(Windowsのみ対応)で作りました。",
-        "使用方法は、ソースコード先頭に書いています。"
-      ],
-      "cachedAt": "2026-08-10T02:50:41.658Z"
-    },
-    "b5fa74eda716327c": {
-      "url": "https://zenn.dev/gamella/articles/d5ad80722d01ae",
-      "summaryJa": [
-        "AlpacaTechの北山です。",
-        "このブログでは、気になったクオンツネタを取り上げています。",
-        "億万株姫☆あばねちゃんのチャンネルに、いつもお世話になっているUKIさん・Hohetoさんが出演したということで覗いてみました。"
-      ],
-      "cachedAt": "2026-08-10T02:50:41.658Z"
-    },
-    "655ed5d338902136": {
-      "url": "https://qiita.com/TheGateBreaker/items/c7cf0baa0dc76ed8435b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "TL;DR: さくらのAI Engineで動かしているAI小説執筆エンジンに、登場人物や伏線を構造化して持つ「ナレッジグラフ」を新設し、AIが自分の判断で検索で",
-        "実装自体は正しく動いた(セッション内で確認した範囲では、テストも全件パスした)。",
-        "しかし、."
-      ],
-      "cachedAt": "2026-08-10T02:50:41.658Z"
-    },
-    "ad1f1a7e4f2a3d38": {
-      "url": "https://fzakaria.com/2026/08/09/nixpkgs-multiverse-every-version-that-ever-existed",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-10T02:50:41.658Z"
-    },
-    "35c1739d4892fe92": {
-      "url": "https://postmarketos.org/blog/2026/08/06/pmOS-update-2026-07/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-10T02:50:41.658Z"
-    },
-    "ff02783e628a7de6": {
-      "url": "https://github.com/SharpAI/DeepCamera",
-      "summaryJa": [
-        "Open-Source AI Camera Skills Platform, AI NVR & CCTV Surveillance.",
-        "Local VLM video analysis with Qwen, DeepSeek, SmolVLM, LLaVA, YOLO26.",
-        "LLM-powered agentic security camera agent — watches, understands, remembers & gu"
-      ],
-      "cachedAt": "2026-08-10T02:50:41.658Z"
-    },
     "4ebe2b50e1eb1ed8": {
       "url": "https://github.com/AntigmaLabs/ante",
       "summaryJa": [
@@ -15165,6 +15066,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-08T02:48:36.023Z"
+    },
+    "4db9e2f963682156": {
+      "url": "https://posfie.com/@su_damari/p/xvcxjNy",
+      "summaryJa": [
+        "Ole Lehmann @itsolelehmann we have a winner for the most absurd AI startup ever ",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-11-08T20:18:02.477Z"
+    },
+    "98c97e0e9298719b": {
+      "url": "https://ken-it.world/it/2026/11/sumicad-free-bim.html",
+      "summaryJa": [
+        "管理人のイエイリです。",
+        "木造住宅の設計でBIMソフトを使っていても、確認申請用の図面は結局、Jw_cadで仕上げる。",
+        "そんな話をよく聞きます。"
+      ],
+      "cachedAt": "2026-11-08T20:18:02.477Z"
+    },
+    "c7aa9e435f02c624": {
+      "url": "https://duxlabs.dev/",
+      "summaryJa": [
+        "Dux: Free, open-source Wayland desktop shell with ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-08T20:18:02.477Z"
+    },
+    "aa075289b56883e0": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72633",
+      "summaryJa": [
+        "気候変動対策を話し合う国連の会議「COP31」が、日本時間の9日、トルコで開幕します。",
+        "世界各地で気候変動の影響とみられる災害が相次ぐなか、温室効果ガスの排出削減など具体的な対策の実行に向けて、各国が足…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-08T20:18:02.477Z"
+    },
+    "dc2e6ee6dfb57d16": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261109de72637",
+      "summaryJa": [
+        "アメリカの中間選挙で野党・民主党が大勝したことで、AIやデータセンターへの規制が強化されるのではないかという警戒感から、先週5日にはハイテク株の比率が高いナスダ",
+        "実際に規制…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-08T20:18:02.477Z"
+    },
+    "184b584e5e43d2e1": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72622",
+      "summaryJa": [
+        "食料品の消費税減税関連法案は、11日に参議院で審議入りします。",
+        "参議院で与党が少数となる中、政府・与党が野党の賛同も得て成立させたいとしているのに対し、野党はそれぞれの主張を受け入れるよう迫る構えで、活…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-08T20:18:02.477Z"
+    },
+    "25d7eec55dada5cc": {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html",
+      "summaryJa": [
+        "【図解あり】マルチエージェント設計「15のパターン」 GitHub、Google、Siemensの知見を一気に整理：AIエージェントの「暴走」を防ぐ6つの基本原",
+        "GitHub、Google、Siemensが紹介した15のデザインパ.",
+        "."
+      ],
+      "cachedAt": "2026-11-08T20:18:02.477Z"
+    },
+    "d36002134e267c56": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=ahamo",
+      "summaryJa": [
+        "ahamo",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-08T20:18:02.477Z"
+    },
+    "67d8f9a3a2d543ae": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%A0%AA%E4%B8%BB",
+      "summaryJa": [
+        "株主",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-08T20:18:02.477Z"
+    },
+    "f838d6c51cbfacbe": {
+      "url": "https://github.com/furrtek/PrecIR",
+      "summaryJa": [
+        "You know what this is for ;-)",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-08T20:18:02.477Z"
     }
   }
 }

@@ -113,6 +113,13 @@
       "edition": "midday",
       "theme": "自作の機構と、拡張される表現",
       "path": "issues/2026-11-08-midday.json"
+    },
+    {
+      "issueNo": 243,
+      "date": "2026-11-09",
+      "edition": "morning",
+      "theme": "実体の技法と、軽量な枠組み",
+      "path": "issues/2026-11-09-morning.json"
     }
   ]
 }

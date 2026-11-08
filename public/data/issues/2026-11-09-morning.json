@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 243,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-09",
+  "dateDisplay": "Monday, November 9, 2026",
+  "pressTimeJst": "2026-11-09 05:00",
+  "generatedAt": "2026-11-08T20:17:42.943Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "実体の技法と、軽量な枠組み",
+    "note": "魚の締め方からデスクトップ環境まで、手技や馴染みの操作を現代のツール群へ着地させる試みが並びます。"
+  },
+  "editorial": {
+    "comment": "AIロボットによる活け締めの自動化（hatebu-it-4db9e2f9）は、泥臭い物理世界の手技と最新の自動化技術が結びついた最高のお手本です。手元の技術をどう物理世界に着地させるか、制作の妄想が膨らみます。 —— YZRS Times 編集長",
+    "passedOver": "ゴールドマン・サックスによるClaude Codeの利用停止措置など、組織都合のテックニュースは見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "弱い雨",
+    "icon": "rain",
+    "tempMax": 11,
+    "tempMin": 8,
+    "precipChancePct": 96
+  },
+  "market": {
+    "fearGreed": {
+      "value": 28,
+      "label": "Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 75816,
+        "priceJpy": 12000105,
+        "change24hPct": 0.11,
+        "sparkline7d": [
+          77731.66,
+          76709.41,
+          76410.47,
+          80297.23,
+          76009.06,
+          75884.99,
+          75863.68
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2226.42,
+        "priceJpy": 352396,
+        "change24hPct": -0.3,
+        "sparkline7d": [
+          2257.01,
+          2250.22,
+          2246.95,
+          2413.86,
+          2235.26,
+          2244.6,
+          2233.96
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.150274,
+        "priceJpy": 23.79,
+        "change24hPct": -0.42,
+        "sparkline7d": [
+          0.167069,
+          0.162795,
+          0.158991,
+          0.165924,
+          0.154399,
+          0.151897,
+          0.150568
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 245.82,
+        "priceJpy": 38908,
+        "change24hPct": -4.31,
+        "sparkline7d": [
+          279.81,
+          275.82,
+          268.82,
+          284.31,
+          266.92,
+          258.78,
+          246.09
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-4db9e2f9",
+    "hatebu-it-98c97e0e",
+    "hn-front-deb70362"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-aa075289",
+        "nhk-world-dc2e6ee6",
+        "nhk-top-184b584e"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-25d7eec5"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-d3600213",
+        "gtrends-jp-67d8f9a3"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-4db9e2f9",
+      "title": "日本で言う「活け締め」をAIロボで自動化したらしいんだが、ビジネスの組み方賢すぎる.",
+      "url": "https://posfie.com/@su_damari/p/xvcxjNy",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-08T10:45:23.000Z",
+      "summaryJa": [
+        "Ole Lehmann @itsolelehmann we have a winner for the most absurd AI startup ever ",
+        ".",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "日本で言う",
+        "活け締め",
+        "ビジネスの組み方賢すぎる"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 132,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 13.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-98c97e0e",
+      "title": "Jw_cadを思わせる無料BIM「SumiCAD」登場！ 開発者の意外な正体とは | 建設ITブログ",
+      "url": "https://ken-it.world/it/2026/11/sumicad-free-bim.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-08T04:37:22.000Z",
+      "summaryJa": [
+        "管理人のイエイリです。",
+        "木造住宅の設計でBIMソフトを使っていても、確認申請用の図面は結局、Jw_cadで仕上げる。",
+        "そんな話をよく聞きます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Jw_cadを思わせる無料BIM",
+        "SumiCAD",
+        "登場",
+        "開発者の意外な正体とは",
+        "建設ITブログ"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 148,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 9.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-deb70362",
+      "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+      "url": "https://duxlabs.dev/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-08T19:08:51.000Z",
+      "summaryJa": [
+        "Dux: Free, open-source Wayland desktop shell with ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Dux",
+        "source",
+        "Wayland",
+        "desktop",
+        "shell"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 34,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 29.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-aa075289",
+      "title": "COP31 きょう開幕へ 各国が足並みそろえられるか焦点に",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72633",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-08T20:09:37.000Z",
+      "summaryJa": [
+        "気候変動対策を話し合う国連の会議「COP31」が、日本時間の9日、トルコで開幕します。",
+        "世界各地で気候変動の影響とみられる災害が相次ぐなか、温室効果ガスの排出削減など具体的な対策の実行に向けて、各国が足…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "COP31",
+        "各国が足並みそろえられるか焦点に"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-dc2e6ee6",
+      "title": "米ハイテク株不安定な値動き続くか データセンター規制懸念で",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261109de72637",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-11-08T15:46:26.000Z",
+      "summaryJa": [
+        "アメリカの中間選挙で野党・民主党が大勝したことで、AIやデータセンターへの規制が強化されるのではないかという警戒感から、先週5日にはハイテク株の比率が高いナスダ",
+        "実際に規制…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "米ハイテク株不安定な値動き続くか",
+        "データセンター規制懸念で"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-184b584e",
+      "title": "消費税減税法案 あさって参議院で審議入り 与野党論戦へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72622",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-08T20:04:28.000Z",
+      "summaryJa": [
+        "食料品の消費税減税関連法案は、11日に参議院で審議入りします。",
+        "参議院で与党が少数となる中、政府・与党が野党の賛同も得て成立させたいとしているのに対し、野党はそれぞれの主張を受け入れるよう迫る構えで、活…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "消費税減税法案",
+        "与野党論戦へ"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-25d7eec5",
+      "title": "【図解あり】マルチエージェント設計「15のパターン」　GitHub、Google、Siemensの知見を一気に整理",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-08T06:14:17.000Z",
+      "summaryJa": [
+        "【図解あり】マルチエージェント設計「15のパターン」 GitHub、Google、Siemensの知見を一気に整理：AIエージェントの「暴走」を防ぐ6つの基本原",
+        "GitHub、Google、Siemensが紹介した15のデザインパ.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "図解あり",
+        "マルチエージェント設計",
+        "15のパターン",
+        "GitHub",
+        "Google"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 137,
+          "ageHours": 14,
+          "crossSources": 1,
+          "velocity": 9.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-d3600213",
+      "title": "ahamo",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=ahamo",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-08T19:40:00.000Z",
+      "summaryJa": [
+        "ahamo",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "ahamo"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-67d8f9a3",
+      "title": "株主",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%A0%AA%E4%B8%BB",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-08T19:30:00.000Z",
+      "summaryJa": [
+        "株主",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "株主"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-33403834",
+      "title": "furrtek/PrecIR — You know what this is for ;-)",
+      "url": "https://github.com/furrtek/PrecIR",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-07T09:20:21Z",
+      "summaryJa": [
+        "You know what this is for ;-)",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "furrtek/PrecIR",
+        "know"
+      ],
+      "heat": {
+        "temperature": 44,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 35,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "赤外線信号を解析・生成するための単一目的に特化した軽量なリバースエンジニアリングツールです。ハードウェアと通信の境界を手元でいじる電子工作好きの知的好奇心をくすぐります。"
+  },
+  "unavailableSources": []
+}
