@@ -106,6 +106,13 @@
       "edition": "morning",
       "theme": "身近な基盤の感触と、揺らぐ現実",
       "path": "issues/2026-11-08-morning.json"
+    },
+    {
+      "issueNo": 242,
+      "date": "2026-11-08",
+      "edition": "midday",
+      "theme": "自作の機構と、拡張される表現",
+      "path": "issues/2026-11-08-midday.json"
     }
   ]
 }

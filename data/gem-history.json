@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-0c605160",
-      "url": "https://github.com/OpenHD/OpenHD",
-      "date": "2026-10-09"
-    },
-    {
-      "id": "github-gems-8820f1db",
-      "url": "https://github.com/okalachev/flix",
-      "date": "2026-10-09"
-    },
-    {
       "id": "github-gems-f89c7825",
       "url": "https://github.com/homebridge/docker-homebridge",
       "date": "2026-10-10"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-e404e1fb",
       "url": "https://github.com/baku89/glisp",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "indieblog-b7a6ffa5",
+      "url": "https://acko.net/blog/curvature-beziers/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
       "date": "2026-11-08"
     }
   ]

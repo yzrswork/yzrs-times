@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 242,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-08",
+  "dateDisplay": "Sunday, November 8, 2026",
+  "pressTimeJst": "2026-11-08 12:00",
+  "generatedAt": "2026-11-08T02:47:34.359Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "自作の機構と、拡張される表現",
+    "note": "昼休みに手を動かしたくなる描画エンジン、自作基盤、ハーネス設計などの技術インプットを揃えました。"
+  },
+  "editorial": {
+    "comment": "Pythonレトロゲームエンジン「Pyxel 3.0」（qiita-popular-167465a0）の3D機能追加は、制約ある環境でいかに創造性を刺激するかを見事に示しています。手元のコードで小さな立体世界を動かす実験から、午後の制作を再開してみてはいかがでしょうか。 —— YZRS Times 編集長",
+    "passedOver": "有線イヤホンの再ブームや照明器具の故障など日常的な話題は、昼休みの技術インプット特化の紙面方針に合わせて見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ時々曇り",
+    "icon": "partly-cloudy",
+    "tempMax": 17,
+    "tempMin": 10,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 28,
+      "label": "Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 75608,
+        "priceJpy": 11982017,
+        "change24hPct": -0.51,
+        "sparkline7d": [
+          77674.24,
+          78288.64,
+          76963.13,
+          78288.46,
+          76339.2,
+          75800.57,
+          75711.09
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2227.45,
+        "priceJpy": 352995,
+        "change24hPct": -0.81,
+        "sparkline7d": [
+          2268.58,
+          2289.19,
+          2265.09,
+          2317.34,
+          2264.45,
+          2227.13,
+          2234.04
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.150345,
+        "priceJpy": 23.83,
+        "change24hPct": -1.74,
+        "sparkline7d": [
+          0.168886,
+          0.168175,
+          0.162087,
+          0.162696,
+          0.153389,
+          0.154125,
+          0.151146
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 247.37,
+        "priceJpy": 39202,
+        "change24hPct": -5.77,
+        "sparkline7d": [
+          285.03,
+          282.36,
+          277.5,
+          273.3,
+          277.37,
+          263.98,
+          248.14
+        ]
+      }
+    ]
+  },
+  "top": [
+    "qiita-popular-167465a0",
+    "hatebu-it-80572c30",
+    "lobsters-7113845d"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hatebu-it-62ec9052",
+        "hatebu-it-74f1462b",
+        "hn-front-503a0f76"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "qiita-popular-634ba490",
+        "zenn-trend-e5a32074",
+        "zenn-trend-64924335"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-8a5f499f",
+        "lobsters-76811b88"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "qiita-popular-167465a0",
+      "title": "【公式】Pyxel 3.0リリース！世界初（？）レトロ3Dゲームエンジン機能を搭載！",
+      "url": "https://qiita.com/kitao/items/af92619297d5563f2a0e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-07T09:11:57.000Z",
+      "summaryJa": [
+        "Pyxel 3.",
+        "0をリリースしました！",
+        "Python向けレトロゲームエンジンPyxel の新バージョンである3."
+      ],
+      "category": "programming",
+      "keywords": [
+        "公式",
+        "Pyxel",
+        "3.0リリース！世界初",
+        "レトロ3Dゲームエンジン機能を搭載"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-80572c30",
+      "title": "ハーネスエンジニアリングを有名OSSはどう組んでいるのか？AIへの信頼で比べる5事例",
+      "url": "https://gibberishlab.com/blog/oss-ai-agent-harness-philosophy",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-07T09:20:09.000Z",
+      "summaryJa": [
+        "信頼の厚さの評価はハーネスの設計から読み取った筆者の解釈で、プロジェクトの規模や開発文化の違いも影響しているはずです。",
+        "各行の根拠はそれぞれの節で引用しています。",
+        "信頼が厚いZedとSentryは、ハーネスに書く量を最小限にして、残りをAIの判断に任せています。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 152,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 8.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-7113845d",
+      "title": "CHIMERA simulates organic sound with acoustic tubes",
+      "url": "https://chimera-vocal-synth.vercel.app/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-07T20:49:41.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "CHIMERA",
+        "simulates",
+        "organic",
+        "sound",
+        "acoustic"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-62ec9052",
+      "title": "ISUCON2026をClaude Codeが優勝したらしい｜laiso",
+      "url": "https://sizu.me/laiso/posts/k59is4cnd77f",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-07T10:00:45.000Z",
+      "summaryJa": [
+        "タイトルは釣りです（懐かしいブログ仕草） 正確には、元Wantedly CTOのkawasyさんが、ISUCON参加に向けて3ヶ月以上の試行錯誤をしたハーネスを",
+        "もちろん他のチームも競技にClaude CodeやCodexなどを大活用して挑んだようだけど、完全自律実行.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "ISUCON2026をClaude",
+        "Codeが優勝したらしい｜laiso"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 141,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 8.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-74f1462b",
+      "title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
+      "url": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-07T13:18:14.000Z",
+      "summaryJa": [
+        "はじめに 2026年11月、Cloudflare Radar に Zero Wire という脆弱性インテリジェンスのフィードが公開されました。",
+        "全 CVE を網羅するのではなく、Web アプリやランタイム、インターネットに公開されたサービスなど「外向きのソフトウェアの重大な CVE」に絞って、ニュースの",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Cloudflare",
+        "Zero",
+        "Wire",
+        "GitHub",
+        "Actions"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 94,
+          "ageHours": 13,
+          "crossSources": 2,
+          "velocity": 7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-503a0f76",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-07T20:45:32.000Z",
+      "summaryJa": [
+        "Claude Code's \"Don't Ask Again\" exposes passwords ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Claude",
+        "Code",
+        "exposes",
+        "passwords"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 198,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 32.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-634ba490",
+      "title": "SSA ベースの .NET IL 最適化コンパイラーを作ってみた",
+      "url": "https://qiita.com/hez2010/items/70fe879c1a37379f020c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-07T07:25:48.000Z",
+      "summaryJa": [
+        "はじめに C# のコードがソースから実行に至るまでには、Roslyn と JIT の 2 段階のコンパイルを経由します。",
+        "コンパイラフロントエンドである Roslyn は主に構文展開と基礎的な解析を担当しており、出力される IL は元のソースコードの構造をほぼそのまま保って.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "SSA",
+        "ベースの",
+        "NET",
+        "IL",
+        "最適化コンパイラーを作ってみた"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-e5a32074",
+      "title": "goda-pm.vim: goda.vim のためのプラグインマネージャー",
+      "url": "https://zenn.dev/shougo/articles/goda-pm-vim-beta",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-07T04:46:13.000Z",
+      "summaryJa": [
+        "始めに これまで goda.",
+        "vim の上に、ddu.",
+        "vim や ddc."
+      ],
+      "category": "programming",
+      "keywords": [
+        "goda",
+        "pm.vim",
+        "goda.vim"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 22,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-64924335",
+      "title": "[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件",
+      "url": "https://zenn.dev/xin9le/articles/9a1cf8e10494d6",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-06T14:39:45.000Z",
+      "summaryJa": [
+        "「お前は何を言っているんだ？",
+        "」と思うかもしれませんが、本当なのだから仕方ない！",
+        "動いていたはずの CI の単体テストが突然コケるという事態に遭遇してビックリ。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "破壊的変更"
+      ],
+      "heat": {
+        "temperature": 44,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 36,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-8a5f499f",
+      "title": "How to prove equations using diagrams, part 1",
+      "url": "https://www.epatters.org/post/e-graphs-1/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-08T01:48:58.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "prove",
+        "equations",
+        "diagrams",
+        "part"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-76811b88",
+      "title": "Workflow dependency lockfiles",
+      "url": "https://docs.github.com/en/actions/concepts/security/workflow-dependency-lockfiles",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-07T20:27:05.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Workflow",
+        "dependency",
+        "lockfiles"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "indieblog-b7a6ffa5",
+      "title": "Curvature Beziers — Acko.net",
+      "url": "https://acko.net/blog/curvature-beziers/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "source": "indieblog.page（個人ブログ）",
+      "sourceId": "indieblog",
+      "publishedAt": "2026-11-08T02:47:34.359Z",
+      "summaryJa": [
+        "Curvature Beziers — Acko.net",
+        "出典: indieblog.page（個人ブログ）",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "blog",
+      "keywords": [
+        "Curvature",
+        "Beziers",
+        "Acko.net"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "ベジェ曲線の曲率とスムーズな連続性を幾何学的に美しく解き明かした素晴らしい記事です。描画アルゴリズムやジェネラティブアートを嗜む作り手にとって、手元の実装精度を一段深める貴重なヒントになります。"
+  },
+  "unavailableSources": []
+}
