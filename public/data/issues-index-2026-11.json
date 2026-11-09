@@ -127,6 +127,13 @@
       "edition": "midday",
       "theme": "自前の基盤駆動と、手元のハック",
       "path": "issues/2026-11-09-midday.json"
+    },
+    {
+      "issueNo": 245,
+      "date": "2026-11-10",
+      "edition": "morning",
+      "theme": "手元の常駐と、不可逆な変化",
+      "path": "issues/2026-11-10-morning.json"
     }
   ]
 }
