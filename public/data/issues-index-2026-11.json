@@ -120,6 +120,13 @@
       "edition": "morning",
       "theme": "実体の技法と、軽量な枠組み",
       "path": "issues/2026-11-09-morning.json"
+    },
+    {
+      "issueNo": 244,
+      "date": "2026-11-09",
+      "edition": "midday",
+      "theme": "自前の基盤駆動と、手元のハック",
+      "path": "issues/2026-11-09-midday.json"
     }
   ]
 }

@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 244,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-09",
+  "dateDisplay": "Monday, November 9, 2026",
+  "pressTimeJst": "2026-11-09 12:00",
+  "generatedAt": "2026-11-09T02:47:38.149Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "自前の基盤駆動と、手元のハック",
+    "note": "院内ローカルLLMから自作3Dツール、自宅サーバーの遠隔制御まで、手元に環境を構築し自立的に制御する試行錯誤が集まりました。"
+  },
+  "editorial": {
+    "comment": "自宅サーバーでのClaude Code常駐（zenn-trend-16e363e9）のように、クラウド依存を避けて自分の手元に環境を整え制御する工夫には作り手の愛着を感じます。午後の創作意欲が刺激される好記事です。 —— YZRS Times 編集長",
+    "passedOver": "NVIDIAのCEOに関する一連の不祥事・スパイ疑惑の報道（hn-front-7111eeb4等）は注目度は高いものの、モノづくりのインプットを重視する昼刊の方針に従い見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "雨",
+    "icon": "rain",
+    "tempMax": 11,
+    "tempMin": 8,
+    "precipChancePct": 100
+  },
+  "market": {
+    "fearGreed": {
+      "value": 29,
+      "label": "Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 75366,
+        "priceJpy": 11927258,
+        "change24hPct": -0.31,
+        "sparkline7d": [
+          78353.65,
+          76552.71,
+          78312.05,
+          79599.71,
+          75914.1,
+          75625.3,
+          75190.61
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2153.28,
+        "priceJpy": 340771,
+        "change24hPct": -3.33,
+        "sparkline7d": [
+          2288.53,
+          2245.45,
+          2319.53,
+          2386,
+          2232.85,
+          2226.62,
+          2143.17
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.148563,
+        "priceJpy": 23.51,
+        "change24hPct": -1.12,
+        "sparkline7d": [
+          0.168806,
+          0.161361,
+          0.163795,
+          0.164127,
+          0.156405,
+          0.150426,
+          0.147433
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 242.83,
+        "priceJpy": 38429,
+        "change24hPct": -1.8,
+        "sparkline7d": [
+          283.6,
+          274.63,
+          275.27,
+          289.51,
+          267.88,
+          247.71,
+          241.86
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-6d889f92",
+    "zenn-trend-16e363e9",
+    "hn-front-0f174d11"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hatebu-it-04c0e206",
+        "hatebu-it-36a0505f"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "zenn-trend-74b7045d",
+        "qiita-popular-47e2a507",
+        "zenn-trend-6614581c"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-070e31d3",
+        "lobsters-351cda8f",
+        "lobsters-6c056d55"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-6d889f92",
+      "title": "ローカルLLM利用のクリニックを受診してみた　PCマニアの院長が自力で構築、その導入効果は？",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/09/2000002916/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-08T23:17:44.000Z",
+      "summaryJa": [
+        "9月、都内のクリニックがWebサイトに掲載したお知らせがX上で話題を呼んだ。",
+        "院内のサーバで動かす「ローカルLLM」で診療情報を処理し、外部のAIサービスには患者の情報を送らないという内容だ。",
+        "AIで仕事を効率化する人は着実に増えているが、その多くが米OpenAIの「ChatGPT」や米Anthropicの「Claude」、米Googleの「Ge."
+      ],
+      "category": "programming",
+      "keywords": [
+        "PCマニアの院長が自力で構築"
+      ],
+      "heat": {
+        "temperature": 90,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 67,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 19.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-16e363e9",
+      "title": "自宅サーバーにClaude Codeを常駐させ、スマホから24時間指示を出す（Remote Control＋systemd）",
+      "url": "https://zenn.dev/samurai_works/articles/114a5e654ca295",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-08T08:59:05.000Z",
+      "summaryJa": [
+        "自宅の Linux サーバーに Claude Code を入れて常駐させ、外出先のスマホから「サーバー上の実ファイルを触る作業」を頼めるようにしました。",
+        "ポート開放なし・VPN なしで動く構成です。",
+        "実際にセットアップしてハマったところも含めて、手順をまとめます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "自宅サーバーにClaude",
+        "Codeを常駐させ",
+        "スマホから24時間指示を出す",
+        "Remote",
+        "Control＋systemd"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-0f174d11",
+      "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+      "url": "https://ketchup3d.github.io/app/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-08T22:35:35.000Z",
+      "summaryJa": [
+        "KetchUp – Open-source SketchUp alternative built w",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "KetchUp",
+        "source",
+        "SketchUp",
+        "alternative",
+        "Rust"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 239,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 56.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-04c0e206",
+      "title": "コード非公開のWebサイト・アプリ・ゲームを解析し、AIが類似版を生成する無料ツール「Craft Anything」（生成AIクローズアップ） | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/11/09/5686.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-08T22:49:48.000Z",
+      "summaryJa": [
+        "Craft Anythingは、お手本にしたい対象を指定して、何を作りたいかを伝えるだけで、「調べる」（Study）、「作る」（Build）、「確認する」（Ch",
+        "単にAIがコードを書くだけでなく、完成したものを元の対象と実際に見比べ（ウェブサ.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "コード非公開のWebサイト",
+        "アプリ",
+        "ゲームを解析し",
+        "AIが類似版を生成する無料ツール",
+        "Craft"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 73,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 18.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-36a0505f",
+      "title": "AIが「最安」を選び続ける世界は幸せなのか? Museと節約・買い物自動化の光と影【西田宗千佳のイマトミライ】",
+      "url": "https://www.watch.impress.co.jp/docs/series/nishida/2154614.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-08T23:24:01.000Z",
+      "summaryJa": [
+        "AIが「最安」を選び続ける世界は幸せなのか? Museと節約・買い物自動化の光と影【西田宗千佳のイマ",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AIが",
+        "最安",
+        "Museと節約",
+        "買い物自動化の光と影",
+        "西田宗千佳のイマトミライ"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 41,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 12.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-74b7045d",
+      "title": "古代のグラボ（GTX 1080）でも動くローカルLLMを動かしてみた",
+      "url": "https://zenn.dev/koheidisney/articles/729394f8be42c5",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-08T16:01:13.000Z",
+      "summaryJa": [
+        "古代のグラボ（GTX 1080）でも動くローカルLLMを動かしてみた はじめに ローカルでドラえもんは実現できるのか？",
+        "今回はローカルLLMで、ドラえもんの道具を選択するタスクが実現可能かを考察してみました。",
+        "私のおうちには古代のグラボ(GTX 1080)があるので、古代のグラボでもエッジでドラえもんの道具選択タスクが実現可能かを検証しました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "古代のグラボ",
+        "GTX"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-47e2a507",
+      "title": "AIエージェントのための git worktree の使い方",
+      "url": "https://qiita.com/sf-12/items/34ddfb7d7f245085fb2b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-08T10:52:57.000Z",
+      "summaryJa": [
+        "はじめに AIエージェントで複数のセッションを立ち上げ、並列でタスクを進めたい時、 それぞれのエージェントが同じファイルを編集しようとすると、片方のエージェント",
+        "それを解決するためにgi.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "AIエージェントのための",
+        "git",
+        "worktree"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-6614581c",
+      "title": "SELECTしかしていないのに、PostgreSQLのマイグレーションがロック待ちで失敗した話",
+      "url": "https://zenn.dev/naokisuzuki27/articles/cb1a5ac0e23763",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-08T08:41:46.000Z",
+      "summaryJa": [
+        "前提 DB：Amazon Aurora PostgreSQL 16 TL;DR SELECTしかしていないトランザクションが放置され、リリース時のマイグレーショ",
+        ".",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "SELECTしかしていないのに"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-070e31d3",
+      "title": "Sem86: a full-system x86 emulator without hardcoded semantics",
+      "url": "https://liblisa.nl/sem86/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-09T02:44:11.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Sem86",
+        "full",
+        "system",
+        "x86",
+        "emulator"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-351cda8f",
+      "title": "What can I realistically do with local AI on a Mac mini M5 Pro (48GB)?",
+      "url": "https://lobste.rs/s/umsitb/what_can_i_realistically_do_with_local_ai",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-08T17:07:51.000Z",
+      "summaryJa": [
+        "I just got a Mac mini with an M5 Pro (base CPU config) and 48GB of unified memor",
+        "I want to run as much AI locally as makes sense, but it's hard to separate what ",
+        "What I'd like to do: Coding: autocomplete and agentic workflows with local model"
+      ],
+      "category": "tech",
+      "keywords": [
+        "realistically",
+        "local",
+        "AI",
+        "Mac",
+        "mini"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-6c056d55",
+      "title": "How to prove equations using diagrams, part 3",
+      "url": "https://www.epatters.org/post/e-graphs-3/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-08T18:23:35.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "prove",
+        "equations",
+        "diagrams",
+        "part"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-32f4429d",
+      "title": "tsl0922/EPD-nRF5 — E-paper display firmware for Nordic nRF51/nRF52, with support for image transfer, OTA update.",
+      "url": "https://github.com/tsl0922/EPD-nRF5",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-09-08T08:10:24Z",
+      "summaryJa": [
+        "E-paper display firmware for Nordic nRF51/nRF52, with support for image transfer",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "tsl0922/EPD",
+        "nRF5",
+        "paper",
+        "display",
+        "firmware"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1483,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "nRF51/nRF52マイコンから電子ペーパーを制御しOTA更新まで盛り込んだ誠実なファームウェア実装です。省電力な自作卓上端末を作りたいあなたの心をくすぐる素晴らしい知見です。"
+  },
+  "unavailableSources": []
+}

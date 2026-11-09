@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-f89c7825",
-      "url": "https://github.com/homebridge/docker-homebridge",
-      "date": "2026-10-10"
-    },
-    {
-      "id": "show-hn-80cb349a",
-      "url": "https://john.fun/elevators",
-      "date": "2026-10-10"
-    },
-    {
       "id": "github-gems-b899f681",
       "url": "https://github.com/alexgreensh/anidoodle",
       "date": "2026-10-11"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-33403834",
       "url": "https://github.com/furrtek/PrecIR",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "github-gems-32f4429d",
+      "url": "https://github.com/tsl0922/EPD-nRF5",
       "date": "2026-11-09"
     }
   ]
