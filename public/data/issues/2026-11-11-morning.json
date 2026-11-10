@@ -1,0 +1,470 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 247,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-11",
+  "dateDisplay": "Wednesday, November 11, 2026",
+  "pressTimeJst": "2026-11-11 05:00",
+  "generatedAt": "2026-11-10T20:17:46.557Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "自律の足場と、コードの行方",
+    "note": "インターネットの基盤からコードエージェントの作法まで、手元で制御を取り戻すための設計思想を編みました。"
+  },
+  "editorial": {
+    "comment": "『退屈なCoding AgentはMuseにやらせよう』で触れられたAIエージェントの使い分けは、ただツールを導入する以上の「意思」を感じさせます。単なる効率化ではなく、自分の思考の延長としてエージェントをどう飼い慣らすか。皆さんが今日書くコードにも、そんな主導権の回復が宿りますように。 —— YZRS Times 編集長",
+    "passedOver": "小笠原諸島の台風関連ニュースは極めて重要ですが、本紙の読者の創作環境とは距離があるため、今回は速報性を考慮して割愛しました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ",
+    "icon": "sunny",
+    "tempMax": 14,
+    "tempMin": 7,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 32,
+      "label": "Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 73476,
+        "priceJpy": 11667807,
+        "change24hPct": -1.95,
+        "sparkline7d": [
+          77535.82,
+          80442.71,
+          75810.56,
+          76028.04,
+          75810.34,
+          74798.14,
+          73416.16
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2048,
+        "priceJpy": 325215,
+        "change24hPct": -3.9,
+        "sparkline7d": [
+          2284.76,
+          2423.08,
+          2232.73,
+          2243.95,
+          2233.7,
+          2126.81,
+          2042.27
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.144367,
+        "priceJpy": 22.93,
+        "change24hPct": -2.29,
+        "sparkline7d": [
+          0.162994,
+          0.167858,
+          0.15468,
+          0.153938,
+          0.149953,
+          0.147908,
+          0.144116
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 230.96,
+        "priceJpy": 36675,
+        "change24hPct": -4.1,
+        "sparkline7d": [
+          273.98,
+          281.64,
+          274.94,
+          260.92,
+          245.13,
+          241.97,
+          228.65
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-935ec0ce",
+    "hatebu-it-aaca0453",
+    "hn-front-1ef1f573"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-ad5237d9",
+        "nhk-world-06c26dca",
+        "nhk-world-54bb8366"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-c6088341"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-c2e8e35f",
+        "gtrends-jp-93068956",
+        "gtrends-jp-c1f36fa8"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-935ec0ce",
+      "title": "退屈なCoding AgentはMuseにやらせよう",
+      "url": "https://zenn.dev/watany/articles/342b9815dd0553",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-10T04:12:04.000Z",
+      "summaryJa": [
+        "はじめに 旧FacebookのMetaが開発したパーソナルAIエージェントのMuseがすごく良くて、意味不明なくらいずっと触ってる。",
+        "紹介コード: 7L990R を入れるとトークンがもらえるのでよろしくね。",
+        "Museは触ると魅力がわかるタイプのプロダクトで、使ってないとClaudeやCodexで良いじゃん、なんで今更驚き屋してんの？"
+      ],
+      "category": "programming",
+      "keywords": [
+        "退屈なCoding",
+        "AgentはMuseにやらせよう"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 168,
+          "ageHours": 16,
+          "crossSources": 2,
+          "velocity": 10.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-aaca0453",
+      "title": "Claude Codeで最近使っているTips【2026/11】",
+      "url": "https://zenn.dev/oikon/articles/claude-code-recipe",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-10T03:58:52.000Z",
+      "summaryJa": [
+        "Oikonです。",
+        "気がつけば2026年も終わりが見えてきました。",
+        "今年はありがたいことにClaude Codeの書籍を2冊出版させていただきました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Codeで最近使っているTips"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 433,
+          "ageHours": 16,
+          "crossSources": 2,
+          "velocity": 26.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-1ef1f573",
+      "title": "Smart home devices should work without the internet",
+      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-10T15:25:20.000Z",
+      "summaryJa": [
+        "Smart home devices should work without the interne",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Smart",
+        "home",
+        "devices",
+        "work",
+        "internet"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 386,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 79.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-ad5237d9",
+      "title": "米 ロシア ウクライナ高官協議 ゼレンスキー大統領「建設的」",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261111de73861",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-10T19:55:00.000Z",
+      "summaryJa": [
+        "ロシアとウクライナの和平をめぐるアメリカも交えた3か国の高官協議が10日、およそ9か月ぶりに行われ、ゼレンスキー大統領は「建設的かつ実質的な内容があった」と評価",
+        "協議は11日も行われ、和平の実…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ロシア",
+        "ウクライナ高官協議",
+        "ゼレンスキー大統領",
+        "建設的"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-06c26dca",
+      "title": "【Q＆A】ホンダ アメリカに新工場建設へ その狙いは？",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261110de73250",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-11-10T12:44:23.000Z",
+      "summaryJa": [
+        "大手自動車メーカーの「ホンダ」はアメリカ中西部オハイオ州に新たな工場を建設すると発表しました。",
+        "現地で高まっているハイブリッド車の需要に応えるためだとしていて、2029年中の稼働開始を目指すということで…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "Q＆A",
+        "ホンダ",
+        "アメリカに新工場建設へ"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-54bb8366",
+      "title": "米消費者物価指数 市場予想上回る FRB追加利上げの見方強まる",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261110de73820",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-11-10T13:57:00.000Z",
+      "summaryJa": [
+        "為替相場や株価に影響を及ぼすアメリカの消費者物価指数は10月、9月と比べて0.",
+        "4％の上昇となり市場予想を上回りました。",
+        "金融市場では、FRB＝連邦準備制度理事会が来月、追加の利上げを決めるとの見方が…"
+      ],
+      "category": "news",
+      "keywords": [
+        "米消費者物価指数",
+        "市場予想上回る",
+        "FRB追加利上げの見方強まる"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-c6088341",
+      "title": "【資料公開】「自分の仕事はここまで」はどこから来るのか",
+      "url": "https://www.ryuzee.com/contents/blog/14628",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-10T11:36:50.000Z",
+      "summaryJa": [
+        "みなさんこんにちは。",
+        "@ryuzeeです。",
+        "2026年10月22日に、あるお客様の社内イベントで「『自分の仕事はここまで』はどこから来るのか」というテーマで講演したので、資料を公開します（講演依頼はお気軽"
+      ],
+      "category": "programming",
+      "keywords": [
+        "資料公開",
+        "自分の仕事はここまで"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 76,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 8.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-c2e8e35f",
+      "title": "エヌビディア 株価",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%82%A8%E3%83%8C%E3%83%93%E3%83%87%E3%82%A3%E3%82%A2%20%E6%A0%AA%E4%BE%A1",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-10T19:50:00.000Z",
+      "summaryJa": [
+        "エヌビディア 株価",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "エヌビディア",
+        "株価"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-93068956",
+      "title": "nyダウ",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=ny%E3%83%80%E3%82%A6",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-10T20:00:00.000Z",
+      "summaryJa": [
+        "nyダウ",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "nyダウ"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-c1f36fa8",
+      "title": "株式分割",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%A0%AA%E5%BC%8F%E5%88%86%E5%89%B2",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-10T20:00:00.000Z",
+      "summaryJa": [
+        "株式分割",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "株式分割"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-8820f1db",
+      "title": "okalachev/flix — Making an ESP32-based quadcopter from scratch",
+      "url": "https://github.com/okalachev/flix",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-10T13:31:20Z",
+      "summaryJa": [
+        "Making an ESP32-based quadcopter from scratch",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "okalachev/flix",
+        "ESP32",
+        "based",
+        "quadcopter",
+        "scratch"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "ESP32という小さなチップだけでクアッドコプターをゼロから作り上げる過程に、電子工作の原初的な喜びが凝縮されています。飛行制御という物理的な挑戦を楽しみ、あなたの手元のハックに風を送り込んでください。"
+  },
+  "unavailableSources": []
+}

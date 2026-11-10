@@ -141,6 +141,13 @@
       "edition": "midday",
       "theme": "素子の解剖と自前モデルの調律",
       "path": "issues/2026-11-10-midday.json"
+    },
+    {
+      "issueNo": 247,
+      "date": "2026-11-11",
+      "edition": "morning",
+      "theme": "自律の足場と、コードの行方",
+      "path": "issues/2026-11-11-morning.json"
     }
   ]
 }
