@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 245,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 246,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-11-10",
   "dateDisplay": "Tuesday, November 10, 2026",
-  "pressTimeJst": "2026-11-10 05:00",
-  "generatedAt": "2026-11-09T20:17:44.952Z",
+  "pressTimeJst": "2026-11-10 12:00",
+  "generatedAt": "2026-11-10T02:47:33.235Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,12 +14,12 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "手元の常駐と、不可逆な変化",
-    "note": "OSやローカルAIが手元で静かに動く技術的実像と、社会やツールの不可逆な変化に焦点を当てた朝刊です。"
+    "title": "素子の解剖と自前モデルの調律",
+    "note": "ヴィンテージ回路の解体から自作の全二重音声モデルまで、手を動かす作り手の試行錯誤を集めた紙面。"
   },
   "editorial": {
-    "comment": "macOSに人間関係グラフを作るデーモンが常駐している話（hatebu-it-641251d8）には、OSが密かに個人の脈絡を収集する現代の不気味さと技術的興味が同居しています。自分のマシンで何が動いているかを知ることは、ものづくりの第一歩です。 —— YZRS Times 編集長",
-    "passedOver": "カナダの即時決済システム稼働やサカナAIの上場計画など大規模な事業動向は、朝の手元の創作意欲に繋がりにくいため見送りました。",
+    "comment": "ヴィンテージなDTLチップを物理層から解析する記事（lobsters-8966d71d）には、現代のブラックボックス化したICに対する素朴な好奇心が詰まっています。トランジスタ1個の挙動を追う視点は、自作の電子工作やソフトウェアの境界を考える上で良い刺激になるはずです。午後の創作への良い足がかりにしてください。 —— YZRS Times 編集長",
+    "passedOver": "GMO熊谷社長の社内講話や筑波大リポジトリの障害報道など時事・組織の話題は、午後の作業の集中を削がないため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
@@ -28,166 +28,138 @@
     "icon": "rain",
     "tempMax": 12,
     "tempMin": 9,
-    "precipChancePct": 98
+    "precipChancePct": 100
   },
   "market": {
     "fearGreed": {
-      "value": 29,
+      "value": 32,
       "label": "Fear"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 74933,
-        "priceJpy": 11824637,
-        "change24hPct": -1.18,
+        "priceUsd": 74769,
+        "priceJpy": 11818557,
+        "change24hPct": -0.74,
         "sparkline7d": [
-          76947.06,
-          77384.59,
-          80488.88,
-          75538.15,
-          75925.15,
-          75955.06,
-          74609.16
+          77020.97,
+          77670.4,
+          80397.18,
+          75828.26,
+          75696.4,
+          75687.23,
+          75003.04
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2131.5,
-        "priceJpy": 336355,
-        "change24hPct": -4.29,
+        "priceUsd": 2117.7,
+        "priceJpy": 334740,
+        "change24hPct": -1.56,
         "sparkline7d": [
-          2248.91,
-          2273.63,
-          2422.74,
-          2226.72,
-          2244.65,
-          2238.59,
-          2123.79
+          2255.06,
+          2290.95,
+          2418.36,
+          2234.48,
+          2232.2,
+          2225.2,
+          2123.95
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.147683,
-        "priceJpy": 23.3,
-        "change24hPct": -1.68,
+        "priceUsd": 0.146483,
+        "priceJpy": 23.15,
+        "change24hPct": -1.33,
         "sparkline7d": [
-          0.164319,
-          0.162336,
-          0.167853,
-          0.153133,
-          0.152757,
-          0.150811,
-          0.147227
+          0.161679,
+          0.162948,
+          0.16742,
+          0.154468,
+          0.151915,
+          0.150048,
+          0.147275
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 240.53,
-        "priceJpy": 37955,
-        "change24hPct": -2.15,
+        "priceUsd": 237.73,
+        "priceJpy": 37578,
+        "change24hPct": -2.03,
         "sparkline7d": [
-          276.93,
-          274.38,
-          282.34,
-          264.05,
-          256.19,
-          245.87,
-          238.4
+          276.45,
+          273.02,
+          288.43,
+          265.55,
+          257.02,
+          246.28,
+          238.17
         ]
       }
     ]
   },
   "top": [
-    "hatebu-it-05824d80",
-    "nhk-top-49b24a7a",
-    "hatebu-it-641251d8"
+    "lobsters-8966d71d",
+    "zenn-trend-550799fc",
+    "hatebu-it-410c7779"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "yahoo-topics-eadead7f",
-        "nhk-top-036a4e18",
-        "nhk-world-7993fb48"
+        "hatebu-it-57ebc6d2",
+        "hn-front-296a7fcc"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hn-front-14c3af27",
-        "hatebu-it-d217d65a"
+        "zenn-trend-0232b0b3",
+        "qiita-popular-8e82faed"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-4c7b455c",
-        "gtrends-jp-82b923e7",
-        "gtrends-jp-99cd29d8"
+        "lobsters-66ebd21e",
+        "lobsters-5f972e09"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hatebu-it-05824d80",
-      "title": "ソフトウェア産業が消滅する日──小さなローカルAIが暴く「プログラムを売る」という商売の終焉",
-      "url": "https://wirelesswire.jp/2026/11/94903/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-09T03:53:21.000Z",
+      "id": "lobsters-8966d71d",
+      "title": "Reverse engineering a vintage diode-transistor logic chip",
+      "url": "http://www.righto.com/2026/11/signetics-st680a-dtl-nand.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-09T22:25:03.000Z",
       "summaryJa": [
-        "たった9BのAIが、ソフトウェア産業の終わりを告げるかもしれない さきほど、ちょっとしたプログラムを作った。",
-        "名前は「mightyCode」。",
-        "GitHubで公開しているので、興味のある人は見てみてほしい。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "プログラムを売る"
-      ],
-      "heat": {
-        "temperature": 83,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 253,
-          "ageHours": 16,
-          "crossSources": 1,
-          "velocity": 15.4
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-49b24a7a",
-      "title": "震度5強 震源を静岡県西部から愛知県東部に変更 気象庁",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261109de73182",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-09T13:13:00.000Z",
-      "summaryJa": [
-        "8日未明、愛知県で震度5強の揺れを観測した地震について、気象庁は、データを詳しく精査した結果、震源の場所を静岡県西部から愛知県東部に変更しました。",
-        "出典: NHKニュース 主要",
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "震度5強",
-        "震源を静岡県西部から愛知県東部に変更",
-        "気象庁"
+        "Reverse",
+        "engineering",
+        "vintage",
+        "diode",
+        "transistor"
       ],
       "heat": {
-        "temperature": 53,
+        "temperature": 54,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 7,
+          "ageHours": 4,
           "crossSources": 1,
           "velocity": 0
         }
@@ -195,49 +167,197 @@
       "image": null
     },
     {
-      "id": "hatebu-it-641251d8",
-      "title": "Macにはユーザーの人間関係をグラフ化する常駐プログラムが搭載されている",
-      "url": "https://gigazine.net/news/20261109-macos-personal-knowledge-graph/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-09T07:02:52.000Z",
+      "id": "zenn-trend-550799fc",
+      "title": "ゼロから作ったMamba3言語モデルを日本語で話せる全二重音声対話モデルに拡張するまで",
+      "url": "https://zenn.dev/taaroo/articles/47f8d1ac55d4af",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-09T14:48:35.000Z",
       "summaryJa": [
-        "2022年10月にリリースされたmacOS Ventura(macOS 13)以降のmacOSには、「ユーザーが誰で、どういった知り合いを持っていて、どのような",
-        "Anatomy of Apple's Personal Knowledge Graph —.",
-        "."
+        "はじめに こんにちはTaarooです。",
+        "皆さんMambaしてますか〜 自分はですね、前回の記事で作ったMamba3言語モデル（NanoMambaLM）をちょっとスケール(0.",
+        "13B → 0."
       ],
       "category": "programming",
       "keywords": [
         "programming"
       ],
       "heat": {
-        "temperature": 81,
+        "temperature": 51,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 134,
-          "ageHours": 13,
+          "hatebuCount": 0,
+          "ageHours": 12,
           "crossSources": 1,
-          "velocity": 10.1
+          "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "yahoo-topics-eadead7f",
-      "title": "自動運転バス運行初日に接触 運休",
-      "url": "https://news.yahoo.co.jp/pickup/6601972?source=rss",
-      "source": "Yahoo!ニュース トピックス",
-      "sourceId": "yahoo-topics",
-      "publishedAt": "2026-11-09T15:44:51.000Z",
+      "id": "hatebu-it-410c7779",
+      "title": "Go における Graceful Shutdown とハマりどころ",
+      "url": "https://speakerdeck.com/ogidow/layerx-go-6-graceful-shutdown",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-09T21:51:50.000Z",
       "summaryJa": [
-        "自動運転バス運行初日に接触 運休",
-        "出典: Yahoo!ニュース トピックス",
+        "Sponsored · Your Podcast.",
+        "Everywhere.",
+        "Effortlessly."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Go",
+        "Graceful",
+        "Shutdown"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 41,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 8.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-57ebc6d2",
+      "title": "Claude Fable 5.2へのプロンプト",
+      "url": "https://platform.claude.com/docs/ja/build-with-claude/prompt-engineering/prompting-claude-fable-5-2",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-09T22:21:33.000Z",
+      "summaryJa": [
+        "Claude Fable 5.",
+        "2およびClaude Mythos 5.",
+        "2に固有のプロンプトパターン：エフォート、早期停止、承認、コードの所有権、進捗の更新、サブエージェント、蓄積する慎重さ、以前のモデル向けに書かれた指示、最終レポ"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Fable",
+        "5.2へのプロンプト"
+      ],
+      "heat": {
+        "temperature": 90,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 73,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 16.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-296a7fcc",
+      "title": "Foldable Flight: The Best Paper Airplanes",
+      "url": "https://www.foldableflight.com",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-09T12:19:22.000Z",
+      "summaryJa": [
+        "Foldable Flight: The Best Paper Airplanes",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "自動運転バス運行初日に接触",
-        "運休"
+        "Foldable",
+        "Flight",
+        "Best",
+        "Paper",
+        "Airplanes"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 864,
+          "hatebuCount": 0,
+          "ageHours": 14,
+          "crossSources": 1,
+          "velocity": 59.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-0232b0b3",
+      "title": "2 つのエージェントで異なる方向性から検証を行う",
+      "url": "https://zenn.dev/kokagex/articles/75f89df3b007cc",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-09T13:41:19.000Z",
+      "summaryJa": [
+        "この記事は AI コーディングエージェントが自分で書いとります。",
+        "ソロ開発者が回しとる自作の長期記憶基盤と、その周りの skill 群の連載 11 本目だわ。",
+        "今回は、書き終えたコードを 2 つのエージェントに、別々の方向から確かめさせた話を書く。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-8e82faed",
+      "title": "【PHP8.7】JSONにコメントと末尾カンマを書けるようになる！",
+      "url": "https://qiita.com/rana_kualu/items/b77ae011f4ba8df8135c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-09T11:06:30.000Z",
+      "summaryJa": [
+        "JSONはほとんどの言語で容易に利用可能な、最も普及したデータフォーマットです。",
+        "仕様が非常に簡単で人間にも読みやすいというところが、XMLなどの『厳密だがややこしい』フォーマットにとってかわった理由といえるでしょう。",
+        "RESTがSOAPやJava RMIなんかを駆逐したの."
+      ],
+      "category": "programming",
+      "keywords": [
+        "PHP8.7"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-66ebd21e",
+      "title": "Two apps one process",
+      "url": "https://andersmurphy.com/2026/11/09/two-apps-one-process.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-09T22:14:10.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "apps",
+        "process"
       ],
       "heat": {
         "temperature": 54,
@@ -252,202 +372,23 @@
       "image": null
     },
     {
-      "id": "nhk-top-036a4e18",
-      "title": "山口県警 ミスでボーナスなど8000万円余が未払い 一部時効に",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261109de73131",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-09T10:22:00.000Z",
+      "id": "lobsters-5f972e09",
+      "title": "Tabernetes: Kubernetes in your browser tab",
+      "url": "https://jkroepke.de/tabernetes/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-10T01:59:28.000Z",
       "summaryJa": [
-        "山口県警察本部で、給与などに関するシステムに誤った情報を入力したことが原因とみられるミスによって、500人余りの警察官のボーナスなどの一部、あわせて8000万円",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "山口県警",
-        "ミスでボーナスなど8000万円余が未払い",
-        "一部時効に"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 10,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-world-7993fb48",
-      "title": "日本ベトナム首脳会談 安保推進で一致 重要鉱物や原子力で連携",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261109de72912",
-      "source": "NHKニュース 国際",
-      "sourceId": "nhk-world",
-      "publishedAt": "2026-11-09T14:33:22.000Z",
-      "summaryJa": [
-        "高市総理大臣はベトナムの最高指導者のトー・ラム共産党書記長と首脳会談を行い、安全保障面での協力推進で一致するとともに、重要鉱物のサプライチェーンの強じん化や原子",
-        "出典: NHKニュース 国際",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "日本ベトナム首脳会談",
-        "安保推進で一致",
-        "重要鉱物や原子力で連携"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-14c3af27",
-      "title": "When will this stop? The Raspberry Pi 5 16GB SBC now sells for $385",
-      "url": "https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-09T17:42:55.000Z",
-      "summaryJa": [
-        "When will this stop? The Raspberry Pi 5 16GB SBC n",
-        "出典: Hacker News",
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "stop",
-        "Raspberry",
-        "Pi",
-        "16GB",
-        "SBC"
-      ],
-      "heat": {
-        "temperature": 81,
-        "signals": {
-          "hnPoints": 175,
-          "hatebuCount": 0,
-          "ageHours": 3,
-          "crossSources": 1,
-          "velocity": 67.8
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-d217d65a",
-      "title": "【速報】ニトリ　最大3762万件の会員情報が流出の可能性　今月6日不正アクセスを確認　客の氏名、住所、電話番号など流出か　カード情報やパスワード含まれず（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "url": "https://news.yahoo.co.jp/articles/ec14e72be9639e846f42978f9e81da07fdd05687",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-09T08:57:55.000Z",
-      "summaryJa": [
-        "TBS NEWS DIG Powered by JNN家具大手の「ニトリホールディングス」は、不正アクセスを受け、最大でおよそ3762万件の会員情報が流出した可",
-        "【サイバー攻撃でアイスがドロドロに】生活に身近なスーパーにも被害が＜写真で見る＞ ニトリホールディングスによりますと、今月6日に、自社で管理す.",
-        "."
-      ],
-      "category": "programming",
-      "keywords": [
-        "速報",
-        "ニトリ",
-        "最大3762万件の会員情報が流出の可能性",
-        "今月6日不正アクセスを確認",
-        "客の氏名"
-      ],
-      "heat": {
-        "temperature": 81,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 96,
-          "ageHours": 11,
-          "crossSources": 1,
-          "velocity": 8.5
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "gtrends-jp-4c7b455c",
-      "title": "ダウ先物",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%80%E3%82%A6%E5%85%88%E7%89%A9",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-09T20:00:00.000Z",
-      "summaryJa": [
-        "ダウ先物",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "trends",
-      "keywords": [
-        "ダウ先物"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "gtrends-jp-82b923e7",
-      "title": "フェルナンド アロンソ",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%95%E3%82%A7%E3%83%AB%E3%83%8A%E3%83%B3%E3%83%89%20%E3%82%A2%E3%83%AD%E3%83%B3%E3%82%BD",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-09T19:50:00.000Z",
-      "summaryJa": [
-        "フェルナンド アロンソ",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "trends",
-      "keywords": [
-        "フェルナンド",
-        "アロンソ"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "gtrends-jp-99cd29d8",
-      "title": "nhk bs",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=nhk%20bs",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-09T20:00:00.000Z",
-      "summaryJa": [
-        "nhk bs",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "trends",
-      "keywords": [
-        "nhk",
-        "bs"
+        "Tabernetes",
+        "Kubernetes",
+        "browser",
+        "tab"
       ],
       "heat": {
         "temperature": 55,
@@ -464,34 +405,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "show-hn-80cb349a",
-      "title": "Show HN: Elevators",
-      "url": "https://john.fun/elevators",
-      "source": "Show HN",
-      "sourceId": "show-hn",
-      "publishedAt": "2026-07-31T15:17:28.000Z",
+      "id": "github-gems-bf4a065d",
+      "title": "Vexa-ai/vexa — Open-source meeting transcription API for Google Meet, Microsoft Teams & Zoom. Auto-join bots, real-time WebSocket transcripts, MCP server for AI agents. Self-host or use hosted SaaS.",
+      "url": "https://github.com/Vexa-ai/vexa",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-09T22:30:25Z",
       "summaryJa": [
-        "Show HN: Elevators",
-        "出典: Show HN",
-        "詳細は元記事を参照してください。"
+        "Open-source meeting transcription API for Google Meet, Microsoft Teams & Zoom.",
+        "Auto-join bots, real-time WebSocket transcripts, MCP server for AI agents.",
+        "Self-host or use hosted SaaS."
       ],
-      "category": "tech",
+      "category": "oss",
       "keywords": [
-        "Elevators"
+        "Vexa",
+        "ai/vexa",
+        "source",
+        "meeting",
+        "transcription"
       ],
       "heat": {
-        "temperature": 77,
+        "temperature": 54,
         "signals": {
-          "hnPoints": 1680,
+          "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 2429,
+          "ageHours": 4,
           "crossSources": 1,
-          "velocity": 0.7
+          "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "日常の裏側で動作するエレベーターの制御をウェブ上でシミュレートした静かな仕掛けです。コードや挙動の面白さに触れることで、日頃のUI設計やアルゴリズム実装のインスピレーションを得られます。"
+    "reason": "Google MeetやZoomに自動参加して文字起こしをリアルタイムにAIへ送るオープンソース基盤です。自分専用の会議エージェントを自前で組みたいあなたの開発心を刺激します。"
   },
   "unavailableSources": []
 }

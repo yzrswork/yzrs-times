@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-b899f681",
-      "url": "https://github.com/alexgreensh/anidoodle",
-      "date": "2026-10-11"
-    },
-    {
-      "id": "github-gems-463502d7",
-      "url": "https://github.com/DBraun/DawDreamer",
-      "date": "2026-10-11"
-    },
-    {
       "id": "github-gems-72020fc8",
       "url": "https://github.com/abey79/vpype",
       "date": "2026-10-12"
@@ -304,6 +294,11 @@
     {
       "id": "show-hn-80cb349a",
       "url": "https://john.fun/elevators",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "github-gems-bf4a065d",
+      "url": "https://github.com/Vexa-ai/vexa",
       "date": "2026-11-10"
     }
   ]

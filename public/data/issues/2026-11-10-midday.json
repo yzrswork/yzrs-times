@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 246,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-10",
+  "dateDisplay": "Tuesday, November 10, 2026",
+  "pressTimeJst": "2026-11-10 12:00",
+  "generatedAt": "2026-11-10T02:47:33.235Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "素子の解剖と自前モデルの調律",
+    "note": "ヴィンテージ回路の解体から自作の全二重音声モデルまで、手を動かす作り手の試行錯誤を集めた紙面。"
+  },
+  "editorial": {
+    "comment": "ヴィンテージなDTLチップを物理層から解析する記事（lobsters-8966d71d）には、現代のブラックボックス化したICに対する素朴な好奇心が詰まっています。トランジスタ1個の挙動を追う視点は、自作の電子工作やソフトウェアの境界を考える上で良い刺激になるはずです。午後の創作への良い足がかりにしてください。 —— YZRS Times 編集長",
+    "passedOver": "GMO熊谷社長の社内講話や筑波大リポジトリの障害報道など時事・組織の話題は、午後の作業の集中を削がないため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "弱い雨",
+    "icon": "rain",
+    "tempMax": 12,
+    "tempMin": 9,
+    "precipChancePct": 100
+  },
+  "market": {
+    "fearGreed": {
+      "value": 32,
+      "label": "Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 74769,
+        "priceJpy": 11818557,
+        "change24hPct": -0.74,
+        "sparkline7d": [
+          77020.97,
+          77670.4,
+          80397.18,
+          75828.26,
+          75696.4,
+          75687.23,
+          75003.04
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2117.7,
+        "priceJpy": 334740,
+        "change24hPct": -1.56,
+        "sparkline7d": [
+          2255.06,
+          2290.95,
+          2418.36,
+          2234.48,
+          2232.2,
+          2225.2,
+          2123.95
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.146483,
+        "priceJpy": 23.15,
+        "change24hPct": -1.33,
+        "sparkline7d": [
+          0.161679,
+          0.162948,
+          0.16742,
+          0.154468,
+          0.151915,
+          0.150048,
+          0.147275
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 237.73,
+        "priceJpy": 37578,
+        "change24hPct": -2.03,
+        "sparkline7d": [
+          276.45,
+          273.02,
+          288.43,
+          265.55,
+          257.02,
+          246.28,
+          238.17
+        ]
+      }
+    ]
+  },
+  "top": [
+    "lobsters-8966d71d",
+    "zenn-trend-550799fc",
+    "hatebu-it-410c7779"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hatebu-it-57ebc6d2",
+        "hn-front-296a7fcc"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "zenn-trend-0232b0b3",
+        "qiita-popular-8e82faed"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-66ebd21e",
+        "lobsters-5f972e09"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "lobsters-8966d71d",
+      "title": "Reverse engineering a vintage diode-transistor logic chip",
+      "url": "http://www.righto.com/2026/11/signetics-st680a-dtl-nand.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-09T22:25:03.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Reverse",
+        "engineering",
+        "vintage",
+        "diode",
+        "transistor"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-550799fc",
+      "title": "ゼロから作ったMamba3言語モデルを日本語で話せる全二重音声対話モデルに拡張するまで",
+      "url": "https://zenn.dev/taaroo/articles/47f8d1ac55d4af",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-09T14:48:35.000Z",
+      "summaryJa": [
+        "はじめに こんにちはTaarooです。",
+        "皆さんMambaしてますか〜 自分はですね、前回の記事で作ったMamba3言語モデル（NanoMambaLM）をちょっとスケール(0.",
+        "13B → 0."
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-410c7779",
+      "title": "Go における Graceful Shutdown とハマりどころ",
+      "url": "https://speakerdeck.com/ogidow/layerx-go-6-graceful-shutdown",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-09T21:51:50.000Z",
+      "summaryJa": [
+        "Sponsored · Your Podcast.",
+        "Everywhere.",
+        "Effortlessly."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Go",
+        "Graceful",
+        "Shutdown"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 41,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 8.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-57ebc6d2",
+      "title": "Claude Fable 5.2へのプロンプト",
+      "url": "https://platform.claude.com/docs/ja/build-with-claude/prompt-engineering/prompting-claude-fable-5-2",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-09T22:21:33.000Z",
+      "summaryJa": [
+        "Claude Fable 5.",
+        "2およびClaude Mythos 5.",
+        "2に固有のプロンプトパターン：エフォート、早期停止、承認、コードの所有権、進捗の更新、サブエージェント、蓄積する慎重さ、以前のモデル向けに書かれた指示、最終レポ"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Fable",
+        "5.2へのプロンプト"
+      ],
+      "heat": {
+        "temperature": 90,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 73,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 16.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-296a7fcc",
+      "title": "Foldable Flight: The Best Paper Airplanes",
+      "url": "https://www.foldableflight.com",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-09T12:19:22.000Z",
+      "summaryJa": [
+        "Foldable Flight: The Best Paper Airplanes",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Foldable",
+        "Flight",
+        "Best",
+        "Paper",
+        "Airplanes"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 864,
+          "hatebuCount": 0,
+          "ageHours": 14,
+          "crossSources": 1,
+          "velocity": 59.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-0232b0b3",
+      "title": "2 つのエージェントで異なる方向性から検証を行う",
+      "url": "https://zenn.dev/kokagex/articles/75f89df3b007cc",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-09T13:41:19.000Z",
+      "summaryJa": [
+        "この記事は AI コーディングエージェントが自分で書いとります。",
+        "ソロ開発者が回しとる自作の長期記憶基盤と、その周りの skill 群の連載 11 本目だわ。",
+        "今回は、書き終えたコードを 2 つのエージェントに、別々の方向から確かめさせた話を書く。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-8e82faed",
+      "title": "【PHP8.7】JSONにコメントと末尾カンマを書けるようになる！",
+      "url": "https://qiita.com/rana_kualu/items/b77ae011f4ba8df8135c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-09T11:06:30.000Z",
+      "summaryJa": [
+        "JSONはほとんどの言語で容易に利用可能な、最も普及したデータフォーマットです。",
+        "仕様が非常に簡単で人間にも読みやすいというところが、XMLなどの『厳密だがややこしい』フォーマットにとってかわった理由といえるでしょう。",
+        "RESTがSOAPやJava RMIなんかを駆逐したの."
+      ],
+      "category": "programming",
+      "keywords": [
+        "PHP8.7"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-66ebd21e",
+      "title": "Two apps one process",
+      "url": "https://andersmurphy.com/2026/11/09/two-apps-one-process.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-09T22:14:10.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "apps",
+        "process"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-5f972e09",
+      "title": "Tabernetes: Kubernetes in your browser tab",
+      "url": "https://jkroepke.de/tabernetes/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-10T01:59:28.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Tabernetes",
+        "Kubernetes",
+        "browser",
+        "tab"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-bf4a065d",
+      "title": "Vexa-ai/vexa — Open-source meeting transcription API for Google Meet, Microsoft Teams & Zoom. Auto-join bots, real-time WebSocket transcripts, MCP server for AI agents. Self-host or use hosted SaaS.",
+      "url": "https://github.com/Vexa-ai/vexa",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-09T22:30:25Z",
+      "summaryJa": [
+        "Open-source meeting transcription API for Google Meet, Microsoft Teams & Zoom.",
+        "Auto-join bots, real-time WebSocket transcripts, MCP server for AI agents.",
+        "Self-host or use hosted SaaS."
+      ],
+      "category": "oss",
+      "keywords": [
+        "Vexa",
+        "ai/vexa",
+        "source",
+        "meeting",
+        "transcription"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "Google MeetやZoomに自動参加して文字起こしをリアルタイムにAIへ送るオープンソース基盤です。自分専用の会議エージェントを自前で組みたいあなたの開発心を刺激します。"
+  },
+  "unavailableSources": []
+}

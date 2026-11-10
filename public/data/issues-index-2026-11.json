@@ -134,6 +134,13 @@
       "edition": "morning",
       "theme": "手元の常駐と、不可逆な変化",
       "path": "issues/2026-11-10-morning.json"
+    },
+    {
+      "issueNo": 246,
+      "date": "2026-11-10",
+      "edition": "midday",
+      "theme": "素子の解剖と自前モデルの調律",
+      "path": "issues/2026-11-10-midday.json"
     }
   ]
 }
