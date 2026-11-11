@@ -1,165 +1,167 @@
 {
   "schemaVersion": 1,
-  "issueNo": 247,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 248,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-11-11",
   "dateDisplay": "Wednesday, November 11, 2026",
-  "pressTimeJst": "2026-11-11 05:00",
-  "generatedAt": "2026-11-10T20:17:46.557Z",
+  "pressTimeJst": "2026-11-11 12:00",
+  "generatedAt": "2026-11-11T02:47:34.851Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.1-flash-lite",
+    "model": "gemini-3.5-flash",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "自律の足場と、コードの行方",
-    "note": "インターネットの基盤からコードエージェントの作法まで、手元で制御を取り戻すための設計思想を編みました。"
+    "title": "手元の装置と、内部への眼差し",
+    "note": "昼休みの技術インプット版。手を動かして物理・構造の仕組みを解き明かす刺激を集めました。"
   },
   "editorial": {
-    "comment": "『退屈なCoding AgentはMuseにやらせよう』で触れられたAIエージェントの使い分けは、ただツールを導入する以上の「意思」を感じさせます。単なる効率化ではなく、自分の思考の延長としてエージェントをどう飼い慣らすか。皆さんが今日書くコードにも、そんな主導権の回復が宿りますように。 —— YZRS Times 編集長",
-    "passedOver": "小笠原諸島の台風関連ニュースは極めて重要ですが、本紙の読者の創作環境とは距離があるため、今回は速報性を考慮して割愛しました。",
+    "comment": "『HAC125DX 用の無線カメラを Pi Zero 2 W で作って、ライブスタックしてみた』で描かれた、光路長の数ミリを追い込む泥臭い試行錯誤に胸が熱くなります。既製品の枠を飛び出し、自分の見たい世界のために手元で基盤と筐体を組み上げる。午後のひととき、皆さんの机の上にあるコードやパーツも、新しい視界を開く装置へと変わっていきますように。 —— YZRS Times 編集長",
+    "passedOver": "ネットカルチャーの歴史を振り返るエッセイやドメイン失効などの時事話題は、技術インプットに集中する昼刊の趣旨に沿い見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
     "summary": "晴れ",
     "icon": "sunny",
-    "tempMax": 14,
-    "tempMin": 7,
+    "tempMax": 15,
+    "tempMin": 8,
     "precipChancePct": 0
   },
   "market": {
     "fearGreed": {
-      "value": 32,
+      "value": 29,
       "label": "Fear"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 73476,
-        "priceJpy": 11667807,
-        "change24hPct": -1.95,
+        "priceUsd": 73660,
+        "priceJpy": 11702066,
+        "change24hPct": -1.51,
         "sparkline7d": [
-          77535.82,
-          80442.71,
-          75810.56,
-          76028.04,
-          75810.34,
-          74798.14,
-          73416.16
+          76889.33,
+          80354.35,
+          76093.34,
+          75871.53,
+          75696.01,
+          74804.46,
+          73462.87
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2048,
-        "priceJpy": 325215,
-        "change24hPct": -3.9,
+        "priceUsd": 2059.78,
+        "priceJpy": 327228,
+        "change24hPct": -2.77,
         "sparkline7d": [
-          2284.76,
-          2423.08,
-          2232.73,
-          2243.95,
-          2233.7,
-          2126.81,
-          2042.27
+          2261.38,
+          2417.75,
+          2236.64,
+          2243.45,
+          2227.79,
+          2128.39,
+          2047.77
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.144367,
-        "priceJpy": 22.93,
-        "change24hPct": -2.29,
+        "priceUsd": 0.145138,
+        "priceJpy": 23.06,
+        "change24hPct": -0.98,
         "sparkline7d": [
-          0.162994,
-          0.167858,
-          0.15468,
-          0.153938,
-          0.149953,
-          0.147908,
-          0.144116
+          0.15973,
+          0.166794,
+          0.154094,
+          0.151656,
+          0.150022,
+          0.147716,
+          0.145019
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 230.96,
-        "priceJpy": 36675,
-        "change24hPct": -4.1,
+        "priceUsd": 231.2,
+        "priceJpy": 36729,
+        "change24hPct": -2.76,
         "sparkline7d": [
-          273.98,
-          281.64,
-          274.94,
-          260.92,
-          245.13,
-          241.97,
-          228.65
+          270.89,
+          280.69,
+          268.38,
+          257.96,
+          242.64,
+          239.97,
+          230.63
         ]
       }
     ]
   },
   "top": [
-    "hatebu-it-935ec0ce",
+    "zenn-trend-9ff340ce",
     "hatebu-it-aaca0453",
-    "hn-front-1ef1f573"
+    "lobsters-7e44a128"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "nhk-top-ad5237d9",
-        "nhk-world-06c26dca",
-        "nhk-world-54bb8366"
-      ]
-    },
-    {
-      "id": "tech",
-      "title": "世界のテック",
-      "articleIds": [
+        "hn-front-1ef1f573",
         "hatebu-it-c6088341"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "gtrends-jp-c2e8e35f",
-        "gtrends-jp-93068956",
-        "gtrends-jp-c1f36fa8"
+        "zenn-trend-8b7c554a",
+        "qiita-popular-769bfa1f",
+        "zenn-trend-5f6f1008"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-4e522b4b",
+        "lobsters-dcd95134"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hatebu-it-935ec0ce",
-      "title": "退屈なCoding AgentはMuseにやらせよう",
-      "url": "https://zenn.dev/watany/articles/342b9815dd0553",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-10T04:12:04.000Z",
+      "id": "zenn-trend-9ff340ce",
+      "title": "HAC125DX 用の無線カメラを Pi Zero 2 W で作って、ライブスタックしてみた",
+      "url": "https://zenn.dev/tsukitsukiss/articles/livestack-hac125dx-wireless-camera",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-10T20:52:00.000Z",
       "summaryJa": [
-        "はじめに 旧FacebookのMetaが開発したパーソナルAIエージェントのMuseがすごく良くて、意味不明なくらいずっと触ってる。",
-        "紹介コード: 7L990R を入れるとトークンがもらえるのでよろしくね。",
-        "Museは触ると魅力がわかるタイプのプロダクトで、使ってないとClaudeやCodexで良いじゃん、なんで今更驚き屋してんの？"
+        "はじめに 撮影専用の天体望遠鏡である Sky-Watcher の HAC125DX（口径 125mm、焦点距離 250mm、F2）のプライムフォーカスに載せる ",
+        "Raspberry Pi Zero 2 W に IMX585 というイメージセンサを取り付け、バッテリーで動かし、撮った RAW を Wi-Fi で PC に送",
+        "この記事では、なぜ無線にしたのか、筐体の光路長をどう追い込んだのか、実際に使ってどこでつまずいたのかを書きます。"
       ],
       "category": "programming",
       "keywords": [
-        "退屈なCoding",
-        "AgentはMuseにやらせよう"
+        "HAC125DX",
+        "Pi",
+        "Zero",
+        "ライブスタックしてみた"
       ],
       "heat": {
-        "temperature": 82,
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 168,
-          "ageHours": 16,
-          "crossSources": 2,
-          "velocity": 10.4
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
         }
       },
       "image": null
@@ -182,13 +184,44 @@
         "Codeで最近使っているTips"
       ],
       "heat": {
-        "temperature": 88,
+        "temperature": 84,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 433,
-          "ageHours": 16,
+          "hatebuCount": 514,
+          "ageHours": 23,
           "crossSources": 2,
-          "velocity": 26.5
+          "velocity": 22.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-7e44a128",
+      "title": "Rendering in batches with glimmer and Datastar",
+      "url": "https://yogthos.net/posts/2026-11-10-glimmer-datastar.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-10T22:54:17.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Rendering",
+        "batches",
+        "glimmer",
+        "Datastar"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
         }
       },
       "image": null
@@ -214,104 +247,13 @@
         "internet"
       ],
       "heat": {
-        "temperature": 86,
+        "temperature": 85,
         "signals": {
-          "hnPoints": 386,
+          "hnPoints": 734,
           "hatebuCount": 0,
-          "ageHours": 5,
+          "ageHours": 11,
           "crossSources": 1,
-          "velocity": 79.2
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-ad5237d9",
-      "title": "米 ロシア ウクライナ高官協議 ゼレンスキー大統領「建設的」",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261111de73861",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-10T19:55:00.000Z",
-      "summaryJa": [
-        "ロシアとウクライナの和平をめぐるアメリカも交えた3か国の高官協議が10日、およそ9か月ぶりに行われ、ゼレンスキー大統領は「建設的かつ実質的な内容があった」と評価",
-        "協議は11日も行われ、和平の実…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "ロシア",
-        "ウクライナ高官協議",
-        "ゼレンスキー大統領",
-        "建設的"
-      ],
-      "heat": {
-        "temperature": 60,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 2,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-world-06c26dca",
-      "title": "【Q＆A】ホンダ アメリカに新工場建設へ その狙いは？",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261110de73250",
-      "source": "NHKニュース 国際",
-      "sourceId": "nhk-world",
-      "publishedAt": "2026-11-10T12:44:23.000Z",
-      "summaryJa": [
-        "大手自動車メーカーの「ホンダ」はアメリカ中西部オハイオ州に新たな工場を建設すると発表しました。",
-        "現地で高まっているハイブリッド車の需要に応えるためだとしていて、2029年中の稼働開始を目指すということで…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "Q＆A",
-        "ホンダ",
-        "アメリカに新工場建設へ"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 8,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-world-54bb8366",
-      "title": "米消費者物価指数 市場予想上回る FRB追加利上げの見方強まる",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261110de73820",
-      "source": "NHKニュース 国際",
-      "sourceId": "nhk-world",
-      "publishedAt": "2026-11-10T13:57:00.000Z",
-      "summaryJa": [
-        "為替相場や株価に影響を及ぼすアメリカの消費者物価指数は10月、9月と比べて0.",
-        "4％の上昇となり市場予想を上回りました。",
-        "金融市場では、FRB＝連邦準備制度理事会が来月、追加の利上げを決めるとの見方が…"
-      ],
-      "category": "news",
-      "keywords": [
-        "米消費者物価指数",
-        "市場予想上回る",
-        "FRB追加利上げの見方強まる"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 1,
-          "velocity": 0
+          "velocity": 64.6
         }
       },
       "image": null
@@ -334,40 +276,39 @@
         "自分の仕事はここまで"
       ],
       "heat": {
-        "temperature": 80,
+        "temperature": 81,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 76,
-          "ageHours": 9,
+          "hatebuCount": 160,
+          "ageHours": 15,
           "crossSources": 1,
-          "velocity": 8.8
+          "velocity": 10.5
         }
       },
       "image": null
     },
     {
-      "id": "gtrends-jp-c2e8e35f",
-      "title": "エヌビディア 株価",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%82%A8%E3%83%8C%E3%83%93%E3%83%87%E3%82%A3%E3%82%A2%20%E6%A0%AA%E4%BE%A1",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-10T19:50:00.000Z",
+      "id": "zenn-trend-8b7c554a",
+      "title": "Clojureのマクロによるメタプログラミングで業務ルールのDSLを作る",
+      "url": "https://zenn.dev/pksha/articles/b7e4c1a9d38f52",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-10T12:55:14.000Z",
       "summaryJa": [
-        "エヌビディア 株価",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
+        "要約 設備点検の条件式から、判定関数と、根拠を集めるための参照一覧を生成する DSL(ドメイン固有言語)を作ります。",
+        "Clojure のマクロで式をデータとして読み取り、参照箇所を集めながら、実行するコードへ変換します。",
+        "条件式を一度書けば、判定と根拠の収集に必要な定義がそろう仕組みです。"
       ],
-      "category": "trends",
+      "category": "programming",
       "keywords": [
-        "エヌビディア",
-        "株価"
+        "programming"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 51,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 14,
           "crossSources": 1,
           "velocity": 0
         }
@@ -375,27 +316,30 @@
       "image": null
     },
     {
-      "id": "gtrends-jp-93068956",
-      "title": "nyダウ",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=ny%E3%83%80%E3%82%A6",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-10T20:00:00.000Z",
+      "id": "qiita-popular-769bfa1f",
+      "title": "Fable 5.2でGTA 6 Osaka Cityを作ってみた",
+      "url": "https://qiita.com/7mpy/items/5710fef43ba0e59204c6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-10T13:38:25.000Z",
       "summaryJa": [
-        "nyダウ",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
+        "ここから遊べます 「GTA 6のようなオープンワールドゲームを、大阪を舞台にブラウザで動かしたい」——そんなテーマで、Claude Fable 5.",
+        "2を使ってゲームを作ってみました。",
+        "完成したのは、通天閣・新世界から天王寺・あべのハルカス周辺を自由に歩き回り、車を運転."
       ],
-      "category": "trends",
+      "category": "programming",
       "keywords": [
-        "nyダウ"
+        "Fable",
+        "5.2でGTA",
+        "Osaka",
+        "Cityを作ってみた"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 51,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 13,
           "crossSources": 1,
           "velocity": 0
         }
@@ -403,54 +347,84 @@
       "image": null
     },
     {
-      "id": "gtrends-jp-c1f36fa8",
-      "title": "株式分割",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%A0%AA%E5%BC%8F%E5%88%86%E5%89%B2",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-10T20:00:00.000Z",
+      "id": "zenn-trend-5f6f1008",
+      "title": "JaCoCoはどうやってカバレッジを測っているのか",
+      "url": "https://zenn.dev/chikina/articles/jacoco-coverage-bytecode",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-10T08:41:07.000Z",
       "summaryJa": [
-        "株式分割",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
+        "Eclipseでカバレッジを計測すると、コードが赤、黄、緑で色分けされます。",
+        "どこまでカバーできたかは見えるものの、その色をどう決めているかは見えづらく、ちょっと黒魔術っぽく感じます。",
+        "Eclipseからカバレッジを計測し、結果を表示するプラグインがEclEmmaで、計測と解析にはJaCoCoを使います。"
       ],
-      "category": "trends",
+      "category": "programming",
       "keywords": [
-        "株式分割"
+        "programming"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 49,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 18,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
-    }
-  ],
-  "hiddenGem": {
-    "article": {
-      "id": "github-gems-8820f1db",
-      "title": "okalachev/flix — Making an ESP32-based quadcopter from scratch",
-      "url": "https://github.com/okalachev/flix",
-      "source": "GitHub 小さなOSS",
-      "sourceId": "github-gems",
-      "publishedAt": "2026-11-10T13:31:20Z",
+    },
+    {
+      "id": "lobsters-4e522b4b",
+      "title": "Finding a vulnerability in Star Wars Episode I: Racer",
+      "url": "https://synacktiv.com/en/publications/star-wars-episode-i-racer",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-10T21:58:18.000Z",
       "summaryJa": [
-        "Making an ESP32-based quadcopter from scratch",
-        "出典: GitHub 小さなOSS",
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "oss",
+      "category": "tech",
       "keywords": [
-        "okalachev/flix",
-        "ESP32",
-        "based",
-        "quadcopter",
-        "scratch"
+        "Finding",
+        "vulnerability",
+        "Star",
+        "Wars",
+        "Episode"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-dcd95134",
+      "title": "Memory Safety Bugs in Rust Standard Library",
+      "url": "https://forge-blog.github.io/posts/rust-std-memory-safety/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-10T19:44:50.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Memory",
+        "Safety",
+        "Bugs",
+        "Rust",
+        "Standard"
       ],
       "heat": {
         "temperature": 53,
@@ -463,8 +437,42 @@
         }
       },
       "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "indieblog-16c28525",
+      "title": "Solving Wordle with information theory and SQLite - Jiby&#39;s toolbox",
+      "url": "https://jiby.tech/post/solving-wordle-sqlite-entropy/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "source": "indieblog.page（個人ブログ）",
+      "sourceId": "indieblog",
+      "publishedAt": "2026-11-11T02:47:34.851Z",
+      "summaryJa": [
+        "Solving Wordle with information theory and SQLite ",
+        "出典: indieblog.page（個人ブログ）",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "blog",
+      "keywords": [
+        "Solving",
+        "Wordle",
+        "information",
+        "theory",
+        "SQLite"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
     },
-    "reason": "ESP32という小さなチップだけでクアッドコプターをゼロから作り上げる過程に、電子工作の原初的な喜びが凝縮されています。飛行制御という物理的な挑戦を楽しみ、あなたの手元のハックに風を送り込んでください。"
+    "reason": "情報理論の基礎概念と身近なSQLiteだけでWordleの最適解を導き出す、シンプルで美しい実験記です。高価なライブラリに頼らず手元のツールを研ぎ澄ます思考は、午後のハックに心地よい刺激を与えてくれます。"
   },
   "unavailableSources": []
 }

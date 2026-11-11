@@ -148,6 +148,13 @@
       "edition": "morning",
       "theme": "自律の足場と、コードの行方",
       "path": "issues/2026-11-11-morning.json"
+    },
+    {
+      "issueNo": 248,
+      "date": "2026-11-11",
+      "edition": "midday",
+      "theme": "手元の装置と、内部への眼差し",
+      "path": "issues/2026-11-11-midday.json"
     }
   ]
 }

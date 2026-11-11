@@ -1,0 +1,478 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 248,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-11",
+  "dateDisplay": "Wednesday, November 11, 2026",
+  "pressTimeJst": "2026-11-11 12:00",
+  "generatedAt": "2026-11-11T02:47:34.851Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "手元の装置と、内部への眼差し",
+    "note": "昼休みの技術インプット版。手を動かして物理・構造の仕組みを解き明かす刺激を集めました。"
+  },
+  "editorial": {
+    "comment": "『HAC125DX 用の無線カメラを Pi Zero 2 W で作って、ライブスタックしてみた』で描かれた、光路長の数ミリを追い込む泥臭い試行錯誤に胸が熱くなります。既製品の枠を飛び出し、自分の見たい世界のために手元で基盤と筐体を組み上げる。午後のひととき、皆さんの机の上にあるコードやパーツも、新しい視界を開く装置へと変わっていきますように。 —— YZRS Times 編集長",
+    "passedOver": "ネットカルチャーの歴史を振り返るエッセイやドメイン失効などの時事話題は、技術インプットに集中する昼刊の趣旨に沿い見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ",
+    "icon": "sunny",
+    "tempMax": 15,
+    "tempMin": 8,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 29,
+      "label": "Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 73660,
+        "priceJpy": 11702066,
+        "change24hPct": -1.51,
+        "sparkline7d": [
+          76889.33,
+          80354.35,
+          76093.34,
+          75871.53,
+          75696.01,
+          74804.46,
+          73462.87
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2059.78,
+        "priceJpy": 327228,
+        "change24hPct": -2.77,
+        "sparkline7d": [
+          2261.38,
+          2417.75,
+          2236.64,
+          2243.45,
+          2227.79,
+          2128.39,
+          2047.77
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.145138,
+        "priceJpy": 23.06,
+        "change24hPct": -0.98,
+        "sparkline7d": [
+          0.15973,
+          0.166794,
+          0.154094,
+          0.151656,
+          0.150022,
+          0.147716,
+          0.145019
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 231.2,
+        "priceJpy": 36729,
+        "change24hPct": -2.76,
+        "sparkline7d": [
+          270.89,
+          280.69,
+          268.38,
+          257.96,
+          242.64,
+          239.97,
+          230.63
+        ]
+      }
+    ]
+  },
+  "top": [
+    "zenn-trend-9ff340ce",
+    "hatebu-it-aaca0453",
+    "lobsters-7e44a128"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hn-front-1ef1f573",
+        "hatebu-it-c6088341"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "zenn-trend-8b7c554a",
+        "qiita-popular-769bfa1f",
+        "zenn-trend-5f6f1008"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-4e522b4b",
+        "lobsters-dcd95134"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "zenn-trend-9ff340ce",
+      "title": "HAC125DX 用の無線カメラを Pi Zero 2 W で作って、ライブスタックしてみた",
+      "url": "https://zenn.dev/tsukitsukiss/articles/livestack-hac125dx-wireless-camera",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-10T20:52:00.000Z",
+      "summaryJa": [
+        "はじめに 撮影専用の天体望遠鏡である Sky-Watcher の HAC125DX（口径 125mm、焦点距離 250mm、F2）のプライムフォーカスに載せる ",
+        "Raspberry Pi Zero 2 W に IMX585 というイメージセンサを取り付け、バッテリーで動かし、撮った RAW を Wi-Fi で PC に送",
+        "この記事では、なぜ無線にしたのか、筐体の光路長をどう追い込んだのか、実際に使ってどこでつまずいたのかを書きます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "HAC125DX",
+        "Pi",
+        "Zero",
+        "ライブスタックしてみた"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-aaca0453",
+      "title": "Claude Codeで最近使っているTips【2026/11】",
+      "url": "https://zenn.dev/oikon/articles/claude-code-recipe",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-10T03:58:52.000Z",
+      "summaryJa": [
+        "Oikonです。",
+        "気がつけば2026年も終わりが見えてきました。",
+        "今年はありがたいことにClaude Codeの書籍を2冊出版させていただきました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Codeで最近使っているTips"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 514,
+          "ageHours": 23,
+          "crossSources": 2,
+          "velocity": 22.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-7e44a128",
+      "title": "Rendering in batches with glimmer and Datastar",
+      "url": "https://yogthos.net/posts/2026-11-10-glimmer-datastar.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-10T22:54:17.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Rendering",
+        "batches",
+        "glimmer",
+        "Datastar"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-1ef1f573",
+      "title": "Smart home devices should work without the internet",
+      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-10T15:25:20.000Z",
+      "summaryJa": [
+        "Smart home devices should work without the interne",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Smart",
+        "home",
+        "devices",
+        "work",
+        "internet"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 734,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 64.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-c6088341",
+      "title": "【資料公開】「自分の仕事はここまで」はどこから来るのか",
+      "url": "https://www.ryuzee.com/contents/blog/14628",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-10T11:36:50.000Z",
+      "summaryJa": [
+        "みなさんこんにちは。",
+        "@ryuzeeです。",
+        "2026年10月22日に、あるお客様の社内イベントで「『自分の仕事はここまで』はどこから来るのか」というテーマで講演したので、資料を公開します（講演依頼はお気軽"
+      ],
+      "category": "programming",
+      "keywords": [
+        "資料公開",
+        "自分の仕事はここまで"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 160,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 10.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-8b7c554a",
+      "title": "Clojureのマクロによるメタプログラミングで業務ルールのDSLを作る",
+      "url": "https://zenn.dev/pksha/articles/b7e4c1a9d38f52",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-10T12:55:14.000Z",
+      "summaryJa": [
+        "要約 設備点検の条件式から、判定関数と、根拠を集めるための参照一覧を生成する DSL(ドメイン固有言語)を作ります。",
+        "Clojure のマクロで式をデータとして読み取り、参照箇所を集めながら、実行するコードへ変換します。",
+        "条件式を一度書けば、判定と根拠の収集に必要な定義がそろう仕組みです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 14,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-769bfa1f",
+      "title": "Fable 5.2でGTA 6 Osaka Cityを作ってみた",
+      "url": "https://qiita.com/7mpy/items/5710fef43ba0e59204c6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-10T13:38:25.000Z",
+      "summaryJa": [
+        "ここから遊べます 「GTA 6のようなオープンワールドゲームを、大阪を舞台にブラウザで動かしたい」——そんなテーマで、Claude Fable 5.",
+        "2を使ってゲームを作ってみました。",
+        "完成したのは、通天閣・新世界から天王寺・あべのハルカス周辺を自由に歩き回り、車を運転."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Fable",
+        "5.2でGTA",
+        "Osaka",
+        "Cityを作ってみた"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-5f6f1008",
+      "title": "JaCoCoはどうやってカバレッジを測っているのか",
+      "url": "https://zenn.dev/chikina/articles/jacoco-coverage-bytecode",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-10T08:41:07.000Z",
+      "summaryJa": [
+        "Eclipseでカバレッジを計測すると、コードが赤、黄、緑で色分けされます。",
+        "どこまでカバーできたかは見えるものの、その色をどう決めているかは見えづらく、ちょっと黒魔術っぽく感じます。",
+        "Eclipseからカバレッジを計測し、結果を表示するプラグインがEclEmmaで、計測と解析にはJaCoCoを使います。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-4e522b4b",
+      "title": "Finding a vulnerability in Star Wars Episode I: Racer",
+      "url": "https://synacktiv.com/en/publications/star-wars-episode-i-racer",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-10T21:58:18.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Finding",
+        "vulnerability",
+        "Star",
+        "Wars",
+        "Episode"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-dcd95134",
+      "title": "Memory Safety Bugs in Rust Standard Library",
+      "url": "https://forge-blog.github.io/posts/rust-std-memory-safety/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-10T19:44:50.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Memory",
+        "Safety",
+        "Bugs",
+        "Rust",
+        "Standard"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "indieblog-16c28525",
+      "title": "Solving Wordle with information theory and SQLite - Jiby&#39;s toolbox",
+      "url": "https://jiby.tech/post/solving-wordle-sqlite-entropy/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "source": "indieblog.page（個人ブログ）",
+      "sourceId": "indieblog",
+      "publishedAt": "2026-11-11T02:47:34.851Z",
+      "summaryJa": [
+        "Solving Wordle with information theory and SQLite ",
+        "出典: indieblog.page（個人ブログ）",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "blog",
+      "keywords": [
+        "Solving",
+        "Wordle",
+        "information",
+        "theory",
+        "SQLite"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "情報理論の基礎概念と身近なSQLiteだけでWordleの最適解を導き出す、シンプルで美しい実験記です。高価なライブラリに頼らず手元のツールを研ぎ澄ます思考は、午後のハックに心地よい刺激を与えてくれます。"
+  },
+  "unavailableSources": []
+}

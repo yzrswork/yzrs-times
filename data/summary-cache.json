@@ -1,69 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "eaf09036539fc61e": {
-      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
-      "summaryJa": [
-        "Tailscale Traces Database Corruption to 16y/o SQLi",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-12T20:19:11.809Z"
-    },
-    "0f3953ab21675605": {
-      "url": "https://www.itmedia.co.jp/news/article/2608/12/2000000507/",
-      "summaryJa": [
-        "日本の個人が開発したかくれんぼゲーム「めっちゃカメレオン」（790円／Steam向け）の販売本数が、6月10日の発売から約2カ月で2000万本を突破した。",
-        "開発者の1人・LEMORION（レモリオン）氏が12日、自身のXで明らかにした。",
-        "個人開発として異次元とも言える“超大ヒット”が続いている。"
-      ],
-      "cachedAt": "2026-08-12T20:19:11.809Z"
-    },
-    "0dc8faf46464fe90": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260812de43497",
-      "summaryJa": [
-        "中国国営の新華社通信は、1990年代に経済改革に取り組み、江沢民元国家主席のもとで、首相を務めた朱鎔基氏が12日死去したと伝えました。",
-        "97歳でした。",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-12T20:19:11.809Z"
-    },
-    "39ff1db3465d44bc": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260812de43537",
-      "summaryJa": [
-        "中国の国家プロジェクトとして開発された新型の旅客機が初めて国際線に就航しました。",
-        "欧米メーカーが世界の市場で高いシェアを占めるなか、今後、存在感を示すことができるのか注目されています。",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-12T20:19:11.809Z"
-    },
-    "c5d58f999b5597fb": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260812de43517",
-      "summaryJa": [
-        "為替相場や株価に影響を及ぼすアメリカの消費者物価指数は、7月、去年の同じ月と比べて3.",
-        "4％の上昇となりました。",
-        "伸び率は前の月を2か月連続で下回り、金融市場では、FRB＝連邦準備制度理事会による早期の利…"
-      ],
-      "cachedAt": "2026-08-12T20:19:11.809Z"
-    },
-    "da4772e0d9a3596f": {
-      "url": "https://vaaaaanquish.github.io/MicrophoneTest/",
-      "summaryJa": [
-        "Free online microphone test.",
-        "Record a few seconds of speech and get a literature-based quality score: noise (",
-        "Runs entirely in your browser — マイクの音質をブラウザでチェック。"
-      ],
-      "cachedAt": "2026-08-12T20:19:11.809Z"
-    },
-    "9e5a86081b76e231": {
-      "url": "https://zed.dev/blog/introducing-delta",
-      "summaryJa": [
-        "Zed: Delta",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-12T20:19:11.809Z"
-    },
     "9ea22d3fd64dfa9b": {
       "url": "https://zenn.dev/dinii/articles/a272b7c3b60ab8",
       "summaryJa": [
@@ -15183,6 +15120,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-10T20:19:52.334Z"
+    },
+    "9ff340ceae11f940": {
+      "url": "https://zenn.dev/tsukitsukiss/articles/livestack-hac125dx-wireless-camera",
+      "summaryJa": [
+        "はじめに 撮影専用の天体望遠鏡である Sky-Watcher の HAC125DX（口径 125mm、焦点距離 250mm、F2）のプライムフォーカスに載せる ",
+        "Raspberry Pi Zero 2 W に IMX585 というイメージセンサを取り付け、バッテリーで動かし、撮った RAW を Wi-Fi で PC に送",
+        "この記事では、なぜ無線にしたのか、筐体の光路長をどう追い込んだのか、実際に使ってどこでつまずいたのかを書きます。"
+      ],
+      "cachedAt": "2026-11-11T02:48:06.793Z"
+    },
+    "7e44a1282b77779c": {
+      "url": "https://yogthos.net/posts/2026-11-10-glimmer-datastar.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-11T02:48:06.793Z"
+    },
+    "8b7c554aa296b120": {
+      "url": "https://zenn.dev/pksha/articles/b7e4c1a9d38f52",
+      "summaryJa": [
+        "要約 設備点検の条件式から、判定関数と、根拠を集めるための参照一覧を生成する DSL(ドメイン固有言語)を作ります。",
+        "Clojure のマクロで式をデータとして読み取り、参照箇所を集めながら、実行するコードへ変換します。",
+        "条件式を一度書けば、判定と根拠の収集に必要な定義がそろう仕組みです。"
+      ],
+      "cachedAt": "2026-11-11T02:48:06.793Z"
+    },
+    "769bfa1fe5fec32b": {
+      "url": "https://qiita.com/7mpy/items/5710fef43ba0e59204c6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "ここから遊べます 「GTA 6のようなオープンワールドゲームを、大阪を舞台にブラウザで動かしたい」——そんなテーマで、Claude Fable 5.",
+        "2を使ってゲームを作ってみました。",
+        "完成したのは、通天閣・新世界から天王寺・あべのハルカス周辺を自由に歩き回り、車を運転."
+      ],
+      "cachedAt": "2026-11-11T02:48:06.793Z"
+    },
+    "5f6f10084a4285e7": {
+      "url": "https://zenn.dev/chikina/articles/jacoco-coverage-bytecode",
+      "summaryJa": [
+        "Eclipseでカバレッジを計測すると、コードが赤、黄、緑で色分けされます。",
+        "どこまでカバーできたかは見えるものの、その色をどう決めているかは見えづらく、ちょっと黒魔術っぽく感じます。",
+        "Eclipseからカバレッジを計測し、結果を表示するプラグインがEclEmmaで、計測と解析にはJaCoCoを使います。"
+      ],
+      "cachedAt": "2026-11-11T02:48:06.793Z"
+    },
+    "4e522b4b3f643e3c": {
+      "url": "https://synacktiv.com/en/publications/star-wars-episode-i-racer",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-11T02:48:06.793Z"
+    },
+    "dcd95134f0a6f8ad": {
+      "url": "https://forge-blog.github.io/posts/rust-std-memory-safety/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-11T02:48:06.793Z"
+    },
+    "16c28525bd7e5f0a": {
+      "url": "https://jiby.tech/post/solving-wordle-sqlite-entropy/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "summaryJa": [
+        "Solving Wordle with information theory and SQLite ",
+        "出典: indieblog.page（個人ブログ）",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-11T02:48:06.793Z"
     }
   }
 }
