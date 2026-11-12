@@ -162,6 +162,13 @@
       "edition": "morning",
       "theme": "エージェントの自律と、機械が書くコードの景色",
       "path": "issues/2026-11-12-morning.json"
+    },
+    {
+      "issueNo": 250,
+      "date": "2026-11-12",
+      "edition": "midday",
+      "theme": "無状態の乱数列と空間歪みの数理",
+      "path": "issues/2026-11-12-midday.json"
     }
   ]
 }

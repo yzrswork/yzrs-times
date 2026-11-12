@@ -15129,6 +15129,87 @@
         "Supports Wind"
       ],
       "cachedAt": "2026-11-12T01:56:19.374Z"
+    },
+    "c692d04af1e7050f": {
+      "url": "https://andrew-helmer.github.io/permute/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T02:48:01.464Z"
+    },
+    "6c929f5f03666a26": {
+      "url": "https://qiita.com/YYYGame/items/a1a4f0091acd106019c8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "アクションゲームでモンスターが咆哮した際や大爆発が起きた際、「ボスの口元を中心に空間が集中線状に歪む演出」を入れると画面の迫力が一気に跳ね上がります。",
+        "しかし、いざシェーダー（HLSL）で中心からの角度（atan2）を使って放射状のノイズを作ろうとすると、以下の3つの罠にハ.",
+        "."
+      ],
+      "cachedAt": "2026-11-12T02:48:01.464Z"
+    },
+    "619fd89e0b5ad960": {
+      "url": "https://zenn.dev/kudan_jp/articles/a0cb75384f4a83",
+      "summaryJa": [
+        "Kudanでは、自律移動ロボットの開発に、実際の現場をスキャンして作ったシミュレーション環境を使っています。",
+        "現場をスキャンして環境を作り、その中で検証してから現場に持ち込む、いわゆるReal2Sim2Realの進め方は業界でも一般的になってきており、汎用のテスト環境で",
+        "ただ、実際にやってみると、現場をスキャンすること自体よりも、そのデータをロボットが動ける環境に変える工程や、検証したい条件をどう増やすかに手間がかかります。"
+      ],
+      "cachedAt": "2026-11-12T02:48:01.464Z"
+    },
+    "1d87023686021195": {
+      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+      "summaryJa": [
+        "A false smoke alarm almost drowned Jane Street's o",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T02:48:01.464Z"
+    },
+    "1b2287d35dc2d818": {
+      "url": "https://zenn.dev/theoj/articles/opencode-development-log",
+      "summaryJa": [
+        "はじめに 背景と構想 AIに調査や資料作成を依頼していると、用途ごとに会話が増えていきます。",
+        "その結果、「どの会話に依頼したか」「どこまで進んだか」「次の依頼をどこへ送るか」を、利用者が会話を行き来しながら覚えておくことになります。",
+        "毎朝同じ依頼をしたい場合も、利用者が毎朝送り直すしかありません。"
+      ],
+      "cachedAt": "2026-11-12T02:48:01.464Z"
+    },
+    "861b9d9647b43baf": {
+      "url": "https://qiita.com/inoyu-qiita/items/b0a7aee8d9f97cc21e2c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに ローンチから約1.",
+        "5ヶ月、日本語の推敲を助けるスキル「yomiyasu」が、v3.",
+        "0."
+      ],
+      "cachedAt": "2026-11-12T02:48:01.464Z"
+    },
+    "fc70504093b39d2c": {
+      "url": "https://www.itworkslocally.dev/posts/no-effect-before-its-cause",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T02:48:01.464Z"
+    },
+    "0a1afdd4d801465a": {
+      "url": "https://alexandergoslin.me/writing-a-siggraph-paper-from-scratch/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T02:48:01.464Z"
+    },
+    "d946e33afa34c4e7": {
+      "url": "https://github.com/pschatzmann/arduino-audio-tools",
+      "summaryJa": [
+        "Audio Tools (a powerful Audio library for Microcontrollers and the Desktop)",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T02:48:01.464Z"
     }
   }
 }
