@@ -1,78 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "0fcb1c4786e1a538": {
-      "url": "https://zenn.dev/estie/articles/64b80da2fbf175",
-      "summaryJa": [
-        "はじめに こんにちは、デザインエンジニアのyamarinです。",
-        "BiomeとOxlintは、同じRust製でどちらも速い印象がありますね。",
-        "estie(エスティ)ではfrontendの静的解析ツールにBiomeを採用しており、Oxlintどんなもんかなと大体同じ条件で試してみたところ、条件次第でOx"
-      ],
-      "cachedAt": "2026-08-14T02:50:45.010Z"
-    },
-    "8085d320f59fc227": {
-      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
-      "summaryJa": [
-        "Spaghettifying DRAM",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-14T02:50:45.010Z"
-    },
-    "a261344ebf519df7": {
-      "url": "https://qiita.com/M_Ozu/items/346f6c8ab4b662a08f3e",
-      "summaryJa": [
-        "同じ質問を投げたのに、部署ごとに違う数字が返ってくる。",
-        "しかも、どちらのAIも間違ってない。",
-        "生成AIを業務に入れた組織で、いま静かに起きている現象です。"
-      ],
-      "cachedAt": "2026-08-14T02:50:45.010Z"
-    },
-    "ec7bf1a28a9531b0": {
-      "url": "https://qiita.com/hez2010/items/85c1fa4100e5898d1a55?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "ジェネリックメソッド .",
-        "NET のジェネリックメソッドは、1つ以上の型パラメーターを持つメソッドだ。",
-        "型安全性を維持しながら、さまざまなデータ型を扱える。"
-      ],
-      "cachedAt": "2026-08-14T02:50:45.011Z"
-    },
-    "0be67204ef491c4b": {
-      "url": "https://qiita.com/yama3133/items/6459627a4029eb5cbee7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに Claude Codeで長めのタスクを回していると 作業が終わったのか、まだ止まらずに動いているのかが画面を見るまでわからない という状態がよくありま",
-        "他のウィンドウで別作業をしていると尚更で、結局こまめに画面を覗きに行く癖がついていました。",
-        "「それなら音で."
-      ],
-      "cachedAt": "2026-08-14T02:50:45.011Z"
-    },
-    "2ce8c5e3023d68b6": {
-      "url": "https://rustmagazine.org/issue-2/write-a-sql-optimizer-using-egg",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-14T02:50:45.011Z"
-    },
-    "6662b901536bb4e0": {
-      "url": "https://github.com/djc/oxish",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-14T02:50:45.011Z"
-    },
-    "cc63af1cbf538e7b": {
-      "url": "https://youtu.be/a7qEOtkkDb8",
-      "summaryJa": [
-        "Starts at 4:21 Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-14T02:50:45.011Z"
-    },
     "225e19f71014a527": {
       "url": "https://dev.classmethod.jp/articles/why-tacit-knowledge-cannot-be-documented/",
       "summaryJa": [
@@ -15210,6 +15138,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-12T02:48:01.464Z"
+    },
+    "bc816e16a4a037cf": {
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "summaryJa": [
+        "<a href=\"https:&#x2F;&#x2F;nvidianews.",
+        "nvidia.",
+        "com&#x2F;news&#x2F;nvidia-announces-ceo-transition\" rel=\"nofollow\">https:&#x2F;&"
+      ],
+      "cachedAt": "2026-11-12T20:18:08.295Z"
+    },
+    "75f01f65521c26b7": {
+      "url": "https://news.ycombinator.com/item?id=50471668",
+      "summaryJa": [
+        "For the past 5 minutes all of our Microsoft Cloud connections are down.",
+        "Anyone else?",
+        "The Status page won&#x27;t even load."
+      ],
+      "cachedAt": "2026-11-12T20:18:08.295Z"
+    },
+    "cf1a058764fca627": {
+      "url": "https://koyasi777.com/mozkey/",
+      "summaryJa": [
+        "書くことに集中できる、 日本語入力。",
+        "自然に変換し、使うほど馴染む。",
+        "あなたの入力スタイルに合わせられる、日本語IME。"
+      ],
+      "cachedAt": "2026-11-12T20:18:08.295Z"
+    },
+    "953567c5d71f6629": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261112de75078",
+      "summaryJa": [
+        "アメリカの半導体大手「エヌビディア」は12日、中国の情報機関の協力者とされる女性と親密な関係にあったなどと報じられた創業者のジェンスン・フアン氏がCEOを辞任し",
+        "AI向け半導体で圧…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T20:18:08.295Z"
+    },
+    "da1a25c11da54e1a": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75110",
+      "summaryJa": [
+        "12日のニューヨーク外国為替市場では、円を売ってドルを買う動きが進んで、円相場は一時、およそ2か月ぶりの円安水準となる1ドル＝160円台まで値下がりしました。",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T20:18:08.295Z"
+    },
+    "4f165b132a65eeec": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75118",
+      "summaryJa": [
+        "ウクライナのゼレンスキー大統領は、ウクライナ軍が使用するアメリカの衛星通信サービスの利用が再び一部制限されたと明らかにし、ロシア軍の無人機の迎撃などに支障が出て",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T20:18:08.295Z"
+    },
+    "199b6ae7d429339a": {
+      "url": "https://github.com/rust-lang/rust/releases/tag/1.100.0",
+      "summaryJa": [
+        "Rust 1.100.0",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T20:18:08.296Z"
+    },
+    "28cd9cc98c8b0895": {
+      "url": "https://scrapbox.io/keroxp/%E3%81%9D%E3%81%AE%E3%83%A4%E3%83%90%E3%81%84Docker%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%92%E3%81%84%E3%81%A4%E3%81%BE%E3%81%A7%E4%BD%BF%E3%81%86%E3%81%AE%E3%81%8B",
+      "summaryJa": [
+        "Dockerコンテナは、環境構築やデプロイの容易さから広く普及して久しいと思う ホストマシンを選ばず（サーバーでは大抵Linuxだろうが）、Kubernetes",
+        "安全！",
+        "安心！"
+      ],
+      "cachedAt": "2026-11-12T20:18:08.296Z"
+    },
+    "3ffedfbef60cded0": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E7%B4%85%E7%99%BD%E6%AD%8C%E5%90%88%E6%88%A6",
+      "summaryJa": [
+        "紅白歌合戦",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T20:18:08.296Z"
+    },
+    "3d008da3fc67b963": {
+      "url": "https://github.com/Ysurac/openmptcprouter",
+      "summaryJa": [
+        "OpenMPTCProuter is an open source solution to aggregate multiple internet connec",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T20:18:08.296Z"
     }
   }
 }

@@ -169,6 +169,13 @@
       "edition": "midday",
       "theme": "無状態の乱数列と空間歪みの数理",
       "path": "issues/2026-11-12-midday.json"
+    },
+    {
+      "issueNo": 251,
+      "date": "2026-11-13",
+      "edition": "morning",
+      "theme": "巨人の揺らぎと、手元の手触り",
+      "path": "issues/2026-11-13-morning.json"
     }
   ]
 }
