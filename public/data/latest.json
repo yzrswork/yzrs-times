@@ -1,464 +1,311 @@
 {
   "schemaVersion": 1,
-  "issueNo": 248,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-11-11",
-  "dateDisplay": "Wednesday, November 11, 2026",
-  "pressTimeJst": "2026-11-11 12:00",
-  "generatedAt": "2026-11-11T02:47:34.851Z",
+  "issueNo": 249,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-12",
+  "dateDisplay": "Thursday, November 12, 2026",
+  "pressTimeJst": "2026-11-12 05:00",
+  "generatedAt": "2026-11-12T01:53:30.146Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.1-flash-lite",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "手元の装置と、内部への眼差し",
-    "note": "昼休みの技術インプット版。手を動かして物理・構造の仕組みを解き明かす刺激を集めました。"
+    "title": "エージェントの自律と、機械が書くコードの景色",
+    "note": "AIが実務に入り込むなかで、エンジニアの役割はどう変容するのか。その問いに対する今日の実装と応答を並べました。"
   },
   "editorial": {
-    "comment": "『HAC125DX 用の無線カメラを Pi Zero 2 W で作って、ライブスタックしてみた』で描かれた、光路長の数ミリを追い込む泥臭い試行錯誤に胸が熱くなります。既製品の枠を飛び出し、自分の見たい世界のために手元で基盤と筐体を組み上げる。午後のひととき、皆さんの机の上にあるコードやパーツも、新しい視界を開く装置へと変わっていきますように。 —— YZRS Times 編集長",
-    "passedOver": "ネットカルチャーの歴史を振り返るエッセイやドメイン失効などの時事話題は、技術インプットに集中する昼刊の趣旨に沿い見送りました。",
+    "comment": "『AWS Emulator and the engineer's job when agents write the code』が描く、エージェントがコードを生成する時代のエンジニア像に深く共感します。記述する苦労から解放される一方、システムの深部を理解し制御する直感がかつて以上に求められるようになるでしょう。",
+    "passedOver": "Nvidia関連のゴシップ記事群は、技術的本質よりもノイズが先行していると判断し見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
     "summary": "晴れ",
     "icon": "sunny",
-    "tempMax": 15,
-    "tempMin": 8,
+    "tempMax": 17,
+    "tempMin": 9,
     "precipChancePct": 0
   },
   "market": {
     "fearGreed": {
-      "value": 29,
+      "value": 28,
       "label": "Fear"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 73660,
-        "priceJpy": 11702066,
-        "change24hPct": -1.51,
+        "priceUsd": 73621,
+        "priceJpy": 11753264,
+        "change24hPct": -0.08,
         "sparkline7d": [
-          76889.33,
-          80354.35,
-          76093.34,
-          75871.53,
-          75696.01,
-          74804.46,
-          73462.87
+          80494.09,
+          75707.97,
+          76124.97,
+          75892.6,
+          75464.77,
+          73389.89,
+          73974.39
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2059.78,
-        "priceJpy": 327228,
-        "change24hPct": -2.77,
+        "priceUsd": 2048.27,
+        "priceJpy": 326998,
+        "change24hPct": -0.4,
         "sparkline7d": [
-          2261.38,
-          2417.75,
-          2236.64,
-          2243.45,
-          2227.79,
-          2128.39,
-          2047.77
+          2419.58,
+          2231.09,
+          2248.18,
+          2237,
+          2145.87,
+          2042.36,
+          2055.37
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.145138,
-        "priceJpy": 23.06,
-        "change24hPct": -0.98,
+        "priceUsd": 0.147282,
+        "priceJpy": 23.51,
+        "change24hPct": 1.66,
         "sparkline7d": [
-          0.15973,
-          0.166794,
-          0.154094,
-          0.151656,
-          0.150022,
-          0.147716,
-          0.145019
+          0.16756,
+          0.154124,
+          0.153943,
+          0.151019,
+          0.149621,
+          0.144104,
+          0.147092
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 231.2,
-        "priceJpy": 36729,
-        "change24hPct": -2.76,
+        "priceUsd": 228.48,
+        "priceJpy": 36476,
+        "change24hPct": -1.2,
         "sparkline7d": [
-          270.89,
-          280.69,
-          268.38,
-          257.96,
-          242.64,
-          239.97,
-          230.63
+          280.5,
+          275.66,
+          261.67,
+          245.01,
+          243.63,
+          229.64,
+          228.69
         ]
       }
     ]
   },
   "top": [
-    "zenn-trend-9ff340ce",
-    "hatebu-it-aaca0453",
-    "lobsters-7e44a128"
+    "hatebu-it-3021144f",
+    "hn-front-42b52efb",
+    "hatebu-it-e869f967"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hn-front-1ef1f573",
-        "hatebu-it-c6088341"
+        "nhk-top-2f7cf36e",
+        "nhk-top-111b7fb0",
+        "nhk-top-9213ca79",
+        "nhk-world-288e65b0"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-trend-8b7c554a",
-        "qiita-popular-769bfa1f",
-        "zenn-trend-5f6f1008"
+        "hatebu-it-fdf2d54e"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-4e522b4b",
-        "lobsters-dcd95134"
+        "gtrends-jp-cb1fca35",
+        "gtrends-jp-658cb063",
+        "gtrends-jp-2887ecb5"
       ]
     }
   ],
   "articles": [
     {
-      "id": "zenn-trend-9ff340ce",
-      "title": "HAC125DX 用の無線カメラを Pi Zero 2 W で作って、ライブスタックしてみた",
-      "url": "https://zenn.dev/tsukitsukiss/articles/livestack-hac125dx-wireless-camera",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-10T20:52:00.000Z",
-      "summaryJa": [
-        "はじめに 撮影専用の天体望遠鏡である Sky-Watcher の HAC125DX（口径 125mm、焦点距離 250mm、F2）のプライムフォーカスに載せる ",
-        "Raspberry Pi Zero 2 W に IMX585 というイメージセンサを取り付け、バッテリーで動かし、撮った RAW を Wi-Fi で PC に送",
-        "この記事では、なぜ無線にしたのか、筐体の光路長をどう追い込んだのか、実際に使ってどこでつまずいたのかを書きます。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "HAC125DX",
-        "Pi",
-        "Zero",
-        "ライブスタックしてみた"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-aaca0453",
-      "title": "Claude Codeで最近使っているTips【2026/11】",
-      "url": "https://zenn.dev/oikon/articles/claude-code-recipe",
+      "id": "hatebu-it-3021144f",
+      "title": "【特集】 AIが“ダチ”になった。Meta「Muse」と過ごした2週間",
+      "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2155692.html",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-10T03:58:52.000Z",
+      "publishedAt": "2026-11-11T21:15:31.000Z",
       "summaryJa": [
-        "Oikonです。",
-        "気がつけば2026年も終わりが見えてきました。",
-        "今年はありがたいことにClaude Codeの書籍を2冊出版させていただきました。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Claude",
-        "Codeで最近使っているTips"
-      ],
-      "heat": {
-        "temperature": 84,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 514,
-          "ageHours": 23,
-          "crossSources": 2,
-          "velocity": 22.5
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-7e44a128",
-      "title": "Rendering in batches with glimmer and Datastar",
-      "url": "https://yogthos.net/posts/2026-11-10-glimmer-datastar.html",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-10T22:54:17.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "【特集】 AIが“ダチ”になった。Meta「Muse」と過ごした2週間",
+        "出典: はてなブックマーク テクノロジー",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
-      "keywords": [
-        "Rendering",
-        "batches",
-        "glimmer",
-        "Datastar"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 4,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-1ef1f573",
-      "title": "Smart home devices should work without the internet",
-      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-10T15:25:20.000Z",
-      "summaryJa": [
-        "Smart home devices should work without the interne",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Smart",
-        "home",
-        "devices",
-        "work",
-        "internet"
-      ],
-      "heat": {
-        "temperature": 85,
-        "signals": {
-          "hnPoints": 734,
-          "hatebuCount": 0,
-          "ageHours": 11,
-          "crossSources": 1,
-          "velocity": 64.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-c6088341",
-      "title": "【資料公開】「自分の仕事はここまで」はどこから来るのか",
-      "url": "https://www.ryuzee.com/contents/blog/14628",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-10T11:36:50.000Z",
-      "summaryJa": [
-        "みなさんこんにちは。",
-        "@ryuzeeです。",
-        "2026年10月22日に、あるお客様の社内イベントで「『自分の仕事はここまで』はどこから来るのか」というテーマで講演したので、資料を公開します（講演依頼はお気軽"
-      ],
       "category": "programming",
       "keywords": [
-        "資料公開",
-        "自分の仕事はここまで"
+        "特集",
+        "AIが",
+        "ダチ",
+        "Meta",
+        "Muse"
       ],
       "heat": {
-        "temperature": 81,
+        "temperature": 90,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 160,
-          "ageHours": 15,
-          "crossSources": 1,
-          "velocity": 10.5
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-8b7c554a",
-      "title": "Clojureのマクロによるメタプログラミングで業務ルールのDSLを作る",
-      "url": "https://zenn.dev/pksha/articles/b7e4c1a9d38f52",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-10T12:55:14.000Z",
-      "summaryJa": [
-        "要約 設備点検の条件式から、判定関数と、根拠を集めるための参照一覧を生成する DSL(ドメイン固有言語)を作ります。",
-        "Clojure のマクロで式をデータとして読み取り、参照箇所を集めながら、実行するコードへ変換します。",
-        "条件式を一度書けば、判定と根拠の収集に必要な定義がそろう仕組みです。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "programming"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 14,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-769bfa1f",
-      "title": "Fable 5.2でGTA 6 Osaka Cityを作ってみた",
-      "url": "https://qiita.com/7mpy/items/5710fef43ba0e59204c6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-11-10T13:38:25.000Z",
-      "summaryJa": [
-        "ここから遊べます 「GTA 6のようなオープンワールドゲームを、大阪を舞台にブラウザで動かしたい」——そんなテーマで、Claude Fable 5.",
-        "2を使ってゲームを作ってみました。",
-        "完成したのは、通天閣・新世界から天王寺・あべのハルカス周辺を自由に歩き回り、車を運転."
-      ],
-      "category": "programming",
-      "keywords": [
-        "Fable",
-        "5.2でGTA",
-        "Osaka",
-        "Cityを作ってみた"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 13,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-5f6f1008",
-      "title": "JaCoCoはどうやってカバレッジを測っているのか",
-      "url": "https://zenn.dev/chikina/articles/jacoco-coverage-bytecode",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-10T08:41:07.000Z",
-      "summaryJa": [
-        "Eclipseでカバレッジを計測すると、コードが赤、黄、緑で色分けされます。",
-        "どこまでカバーできたかは見えるものの、その色をどう決めているかは見えづらく、ちょっと黒魔術っぽく感じます。",
-        "Eclipseからカバレッジを計測し、結果を表示するプラグインがEclEmmaで、計測と解析にはJaCoCoを使います。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "programming"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 18,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-4e522b4b",
-      "title": "Finding a vulnerability in Star Wars Episode I: Racer",
-      "url": "https://synacktiv.com/en/publications/star-wars-episode-i-racer",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-10T21:58:18.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Finding",
-        "vulnerability",
-        "Star",
-        "Wars",
-        "Episode"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
+          "hatebuCount": 107,
           "ageHours": 5,
           "crossSources": 1,
+          "velocity": 23.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-42b52efb",
+      "title": "AWS emulator",
+      "url": "https://github.com/aws/aws-emulator",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-11T18:21:38.000Z",
+      "summaryJa": [
+        "<a href=\"https:&#x2F;&#x2F;www.",
+        "aboutamazon.",
+        "com&#x2F;news&#x2F;aws&#x2F;how-autonomous-ai-agents-built-aws-emulator\" rel=\"no"
+      ],
+      "category": "tech",
+      "keywords": [
+        "AWS",
+        "emulator"
+      ],
+      "heat": {
+        "temperature": 90,
+        "signals": {
+          "hnPoints": 669,
+          "hatebuCount": 69,
+          "ageHours": 8,
+          "crossSources": 2,
+          "velocity": 88.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-e869f967",
+      "title": "AWS Emulator and the engineer's job when agents write the code",
+      "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-11T21:01:40.000Z",
+      "summaryJa": [
+        "AWS Emulator and the engineer's job when agents write the codeNovember 11, 2026 ",
+        "I had an advantage over my colleagues: I had already heard about a brilliant you",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "AWS",
+        "Emulator",
+        "engineer",
+        "job",
+        "agents"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 33,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 6.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-2f7cf36e",
+      "title": "エヌビディア フアンCEO解任へ準備 米紙報道",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261112de74529",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-12T01:48:02.000Z",
+      "summaryJa": [
+        "アメリカの有力紙、「ウォール・ストリート・ジャーナル」は11日、アメリカの半導体大手「エヌビディア」がジェンスン・フアンCEOを解任する準備を進めていると報じま",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "エヌビディア",
+        "フアンCEO解任へ準備",
+        "米紙報道"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
           "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "lobsters-dcd95134",
-      "title": "Memory Safety Bugs in Rust Standard Library",
-      "url": "https://forge-blog.github.io/posts/rust-std-memory-safety/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-10T19:44:50.000Z",
+      "id": "nhk-top-111b7fb0",
+      "title": "10月企業物価指数 前年同月比7.1％上昇 中東背景に伸び率拡大",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261112de74538",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-12T00:20:00.000Z",
       "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
+        "企業の間で取り引きされるモノの価格を示す先月の企業物価指数は、去年の同じ月と比べて7.",
+        "1％上昇しました。",
+        "9月と比べて伸び率は拡大していて、中東情勢の影響による石油関連製品の値上がりを反映して高い水準…"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "Memory",
-        "Safety",
-        "Bugs",
-        "Rust",
-        "Standard"
+        "10月企業物価指数",
+        "前年同月比7.1％上昇",
+        "中東背景に伸び率拡大"
       ],
       "heat": {
-        "temperature": 53,
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 7,
+          "ageHours": 2,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
-    }
-  ],
-  "hiddenGem": {
-    "article": {
-      "id": "indieblog-16c28525",
-      "title": "Solving Wordle with information theory and SQLite - Jiby&#39;s toolbox",
-      "url": "https://jiby.tech/post/solving-wordle-sqlite-entropy/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
-      "source": "indieblog.page（個人ブログ）",
-      "sourceId": "indieblog",
-      "publishedAt": "2026-11-11T02:47:34.851Z",
+    },
+    {
+      "id": "nhk-top-9213ca79",
+      "title": "日産自動車 中間決算 赤字幅縮小も2期連続の最終赤字",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261112de74555",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-12T01:22:00.000Z",
       "summaryJa": [
-        "Solving Wordle with information theory and SQLite ",
-        "出典: indieblog.page（個人ブログ）",
+        "経営再建中の日産自動車はことし4月から9月までのグループ全体の中間決算を発表し、最終的な損益は397億円の赤字と、コスト削減が進み為替が円安で推移したことなどで",
+        "出典: NHKニュース 主要",
         "詳細は元記事を参照してください。"
       ],
-      "category": "blog",
+      "category": "news",
       "keywords": [
-        "Solving",
-        "Wordle",
-        "information",
-        "theory",
-        "SQLite"
+        "日産自動車",
+        "中間決算",
+        "赤字幅縮小も2期連続の最終赤字"
       ],
       "heat": {
         "temperature": 55,
@@ -472,7 +319,187 @@
       },
       "image": null
     },
-    "reason": "情報理論の基礎概念と身近なSQLiteだけでWordleの最適解を導き出す、シンプルで美しい実験記です。高価なライブラリに頼らず手元のツールを研ぎ澄ます思考は、午後のハックに心地よい刺激を与えてくれます。"
+    {
+      "id": "nhk-world-288e65b0",
+      "title": "イタリアで6300校に爆破予告 イギリスの学校も標的に",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261112de74534",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-11-12T00:13:49.000Z",
+      "summaryJa": [
+        "ヨーロッパで今月に入り旅客機などへの爆破予告が相次ぐなか、イタリアではおよそ6300の学校に爆破予告があったことが分かりました。",
+        "メローニ首相は「現時点では危険性を示す証拠はない」としています。",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "イタリアで6300校に爆破予告",
+        "イギリスの学校も標的に"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-fdf2d54e",
+      "title": "software-factory-mode-2026aki skill - 橋本商会",
+      "url": "https://scrapbox.io/shokai/software-factory-mode-2026aki_skill",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-11T16:34:33.000Z",
+      "summaryJa": [
+        "software-factory-mode pluginの中の、現在の基本skill 移動式Software Factory (2026秋)として、Gyazoや",
+        ".",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "software",
+        "factory",
+        "mode",
+        "2026aki",
+        "skill"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 114,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 12.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-cb1fca35",
+      "title": "クラウドファンディング",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%83%95%E3%82%A1%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-12T01:30:00.000Z",
+      "summaryJa": [
+        "クラウドファンディング",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "クラウドファンディング"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-658cb063",
+      "title": "カバー 株価",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%82%AB%E3%83%90%E3%83%BC%20%E6%A0%AA%E4%BE%A1",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-12T01:00:00.000Z",
+      "summaryJa": [
+        "カバー 株価",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "カバー",
+        "株価"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-2887ecb5",
+      "title": "ラリー1",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%A9%E3%83%AA%E3%83%BC1",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-12T00:40:00.000Z",
+      "summaryJa": [
+        "ラリー1",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "ラリー1"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-0f91a454",
+      "title": "awawa-dev/HyperHDR — Next-gen open source ambient lighting system featuring a high-precision floating-point color pipeline breaking legacy RGB 24-bit limits. Includes advanced smoothing with inertia and adaptive temporal dithering for perfectly fluid, stable output to LEDs from any SDR or HDR video source. Supports Windows, macOS and Linux (x86/ARM). ",
+      "url": "https://github.com/awawa-dev/HyperHDR",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-01T18:39:51Z",
+      "summaryJa": [
+        "Next-gen open source ambient lighting system featuring a high-precision floating",
+        "Includes advanced smoothing with inertia and adaptive temporal dithering for per",
+        "Supports Wind"
+      ],
+      "category": "oss",
+      "keywords": [
+        "awawa",
+        "dev/HyperHDR",
+        "Next",
+        "gen",
+        "source"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 247,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "RGBの制約を浮動小数点パイプラインで突破しようとする、映像表現への執念を感じるプロジェクトです。ライティング制御に真面目に向き合う、あなたの手元の環境を鮮やかに変えるはず。"
   },
   "unavailableSources": []
 }

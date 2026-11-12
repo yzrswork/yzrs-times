@@ -1,0 +1,505 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 249,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-12",
+  "dateDisplay": "Thursday, November 12, 2026",
+  "pressTimeJst": "2026-11-12 05:00",
+  "generatedAt": "2026-11-12T01:53:30.146Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "エージェントの自律と、機械が書くコードの景色",
+    "note": "AIが実務に入り込むなかで、エンジニアの役割はどう変容するのか。その問いに対する今日の実装と応答を並べました。"
+  },
+  "editorial": {
+    "comment": "『AWS Emulator and the engineer's job when agents write the code』が描く、エージェントがコードを生成する時代のエンジニア像に深く共感します。記述する苦労から解放される一方、システムの深部を理解し制御する直感がかつて以上に求められるようになるでしょう。",
+    "passedOver": "Nvidia関連のゴシップ記事群は、技術的本質よりもノイズが先行していると判断し見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ",
+    "icon": "sunny",
+    "tempMax": 17,
+    "tempMin": 9,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 28,
+      "label": "Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 73621,
+        "priceJpy": 11753264,
+        "change24hPct": -0.08,
+        "sparkline7d": [
+          80494.09,
+          75707.97,
+          76124.97,
+          75892.6,
+          75464.77,
+          73389.89,
+          73974.39
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 2048.27,
+        "priceJpy": 326998,
+        "change24hPct": -0.4,
+        "sparkline7d": [
+          2419.58,
+          2231.09,
+          2248.18,
+          2237,
+          2145.87,
+          2042.36,
+          2055.37
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.147282,
+        "priceJpy": 23.51,
+        "change24hPct": 1.66,
+        "sparkline7d": [
+          0.16756,
+          0.154124,
+          0.153943,
+          0.151019,
+          0.149621,
+          0.144104,
+          0.147092
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 228.48,
+        "priceJpy": 36476,
+        "change24hPct": -1.2,
+        "sparkline7d": [
+          280.5,
+          275.66,
+          261.67,
+          245.01,
+          243.63,
+          229.64,
+          228.69
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-3021144f",
+    "hn-front-42b52efb",
+    "hatebu-it-e869f967"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-2f7cf36e",
+        "nhk-top-111b7fb0",
+        "nhk-top-9213ca79",
+        "nhk-world-288e65b0"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-fdf2d54e"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-cb1fca35",
+        "gtrends-jp-658cb063",
+        "gtrends-jp-2887ecb5"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-3021144f",
+      "title": "【特集】 AIが“ダチ”になった。Meta「Muse」と過ごした2週間",
+      "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2155692.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-11T21:15:31.000Z",
+      "summaryJa": [
+        "【特集】 AIが“ダチ”になった。Meta「Muse」と過ごした2週間",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "特集",
+        "AIが",
+        "ダチ",
+        "Meta",
+        "Muse"
+      ],
+      "heat": {
+        "temperature": 90,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 107,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 23.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-42b52efb",
+      "title": "AWS emulator",
+      "url": "https://github.com/aws/aws-emulator",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-11T18:21:38.000Z",
+      "summaryJa": [
+        "<a href=\"https:&#x2F;&#x2F;www.",
+        "aboutamazon.",
+        "com&#x2F;news&#x2F;aws&#x2F;how-autonomous-ai-agents-built-aws-emulator\" rel=\"no"
+      ],
+      "category": "tech",
+      "keywords": [
+        "AWS",
+        "emulator"
+      ],
+      "heat": {
+        "temperature": 90,
+        "signals": {
+          "hnPoints": 669,
+          "hatebuCount": 69,
+          "ageHours": 8,
+          "crossSources": 2,
+          "velocity": 88.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-e869f967",
+      "title": "AWS Emulator and the engineer's job when agents write the code",
+      "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-11T21:01:40.000Z",
+      "summaryJa": [
+        "AWS Emulator and the engineer's job when agents write the codeNovember 11, 2026 ",
+        "I had an advantage over my colleagues: I had already heard about a brilliant you",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "AWS",
+        "Emulator",
+        "engineer",
+        "job",
+        "agents"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 33,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 6.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-2f7cf36e",
+      "title": "エヌビディア フアンCEO解任へ準備 米紙報道",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261112de74529",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-12T01:48:02.000Z",
+      "summaryJa": [
+        "アメリカの有力紙、「ウォール・ストリート・ジャーナル」は11日、アメリカの半導体大手「エヌビディア」がジェンスン・フアンCEOを解任する準備を進めていると報じま",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "エヌビディア",
+        "フアンCEO解任へ準備",
+        "米紙報道"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-111b7fb0",
+      "title": "10月企業物価指数 前年同月比7.1％上昇 中東背景に伸び率拡大",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261112de74538",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-12T00:20:00.000Z",
+      "summaryJa": [
+        "企業の間で取り引きされるモノの価格を示す先月の企業物価指数は、去年の同じ月と比べて7.",
+        "1％上昇しました。",
+        "9月と比べて伸び率は拡大していて、中東情勢の影響による石油関連製品の値上がりを反映して高い水準…"
+      ],
+      "category": "news",
+      "keywords": [
+        "10月企業物価指数",
+        "前年同月比7.1％上昇",
+        "中東背景に伸び率拡大"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-9213ca79",
+      "title": "日産自動車 中間決算 赤字幅縮小も2期連続の最終赤字",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261112de74555",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-12T01:22:00.000Z",
+      "summaryJa": [
+        "経営再建中の日産自動車はことし4月から9月までのグループ全体の中間決算を発表し、最終的な損益は397億円の赤字と、コスト削減が進み為替が円安で推移したことなどで",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "日産自動車",
+        "中間決算",
+        "赤字幅縮小も2期連続の最終赤字"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-288e65b0",
+      "title": "イタリアで6300校に爆破予告 イギリスの学校も標的に",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261112de74534",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-11-12T00:13:49.000Z",
+      "summaryJa": [
+        "ヨーロッパで今月に入り旅客機などへの爆破予告が相次ぐなか、イタリアではおよそ6300の学校に爆破予告があったことが分かりました。",
+        "メローニ首相は「現時点では危険性を示す証拠はない」としています。",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "イタリアで6300校に爆破予告",
+        "イギリスの学校も標的に"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-fdf2d54e",
+      "title": "software-factory-mode-2026aki skill - 橋本商会",
+      "url": "https://scrapbox.io/shokai/software-factory-mode-2026aki_skill",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-11T16:34:33.000Z",
+      "summaryJa": [
+        "software-factory-mode pluginの中の、現在の基本skill 移動式Software Factory (2026秋)として、Gyazoや",
+        ".",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "software",
+        "factory",
+        "mode",
+        "2026aki",
+        "skill"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 114,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 12.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-cb1fca35",
+      "title": "クラウドファンディング",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%83%95%E3%82%A1%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-12T01:30:00.000Z",
+      "summaryJa": [
+        "クラウドファンディング",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "クラウドファンディング"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-658cb063",
+      "title": "カバー 株価",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%82%AB%E3%83%90%E3%83%BC%20%E6%A0%AA%E4%BE%A1",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-12T01:00:00.000Z",
+      "summaryJa": [
+        "カバー 株価",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "カバー",
+        "株価"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-2887ecb5",
+      "title": "ラリー1",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%A9%E3%83%AA%E3%83%BC1",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-12T00:40:00.000Z",
+      "summaryJa": [
+        "ラリー1",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "ラリー1"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-0f91a454",
+      "title": "awawa-dev/HyperHDR — Next-gen open source ambient lighting system featuring a high-precision floating-point color pipeline breaking legacy RGB 24-bit limits. Includes advanced smoothing with inertia and adaptive temporal dithering for perfectly fluid, stable output to LEDs from any SDR or HDR video source. Supports Windows, macOS and Linux (x86/ARM). ",
+      "url": "https://github.com/awawa-dev/HyperHDR",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-01T18:39:51Z",
+      "summaryJa": [
+        "Next-gen open source ambient lighting system featuring a high-precision floating",
+        "Includes advanced smoothing with inertia and adaptive temporal dithering for per",
+        "Supports Wind"
+      ],
+      "category": "oss",
+      "keywords": [
+        "awawa",
+        "dev/HyperHDR",
+        "Next",
+        "gen",
+        "source"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 247,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "RGBの制約を浮動小数点パイプラインで突破しようとする、映像表現への執念を感じるプロジェクトです。ライティング制御に真面目に向き合う、あなたの手元の環境を鮮やかに変えるはず。"
+  },
+  "unavailableSources": []
+}

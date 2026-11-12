@@ -1,177 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "9ea22d3fd64dfa9b": {
-      "url": "https://zenn.dev/dinii/articles/a272b7c3b60ab8",
-      "summaryJa": [
-        "はじめに !",
-        "修正や追加等はコメントまたはGitHubで編集リクエストをお待ちしております。",
-        "ダイニーで一番若いエンジニアのriya amemiya(21歳)です。"
-      ],
-      "cachedAt": "2026-08-13T02:50:32.516Z"
-    },
-    "dd34bc220390f43c": {
-      "url": "https://qiita.com/moritalous/items/8049684e8d746a81af3b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "こんなTypeScriptのソースがあるとします。",
-        "cli.",
-        "ts console."
-      ],
-      "cachedAt": "2026-08-13T02:50:32.516Z"
-    },
-    "e24db92b449a0a91": {
-      "url": "https://alan.norbauer.com/articles/github-stacks-with-jujutsu/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-13T02:50:32.517Z"
-    },
-    "cb9c2175cb8fbf44": {
-      "url": "https://qiita.com/haystacker/items/376d86bcbeefc3885183",
-      "summaryJa": [
-        "これを下から順番に理解していくと、「今どの話をしているのか」「何がどの上に乗っているのか」が見えやすくなります。",
-        "この記事で扱う題材 扱う概念は次の 5 つです。",
-        "Animal（動物） Mammal（哺乳類） Cat（猫） Dog（犬） hasLegCount（足の本数） そして、基本となる知識は次の通りです。"
-      ],
-      "cachedAt": "2026-08-13T02:50:32.517Z"
-    },
-    "ea455006446f24b4": {
-      "url": "https://zenn.dev/hellorusk/articles/3328866ca9e922",
-      "summaryJa": [
-        "2026年8月、Anthropic が「Claude の生成テキストに機械可読なマーク（電子透かし）を埋め込む」と発表しました[1]。",
-        "EU AI Act 第50条の透明性規範（Code of Practice on Transparency of AI-Generated Content）に署",
-        "."
-      ],
-      "cachedAt": "2026-08-13T02:50:32.517Z"
-    },
-    "49d05da81f8ee9c3": {
-      "url": "https://qiita.com/y0us91/items/2feffd2cc6c672717973",
-      "summaryJa": [
-        "はじめに Coding Agentの進化によって、ソフトウェア開発の形が大きく変わり始めています。",
-        "少し前までAIによる開発支援といえば、 コード補完 コード生成 リファクタリング テストコード生成 など、「人間が主体で、AIが支援する」使い方が中心でした。",
-        "しかし現在のCoding Agentは、単にコードを生成するだけではあり."
-      ],
-      "cachedAt": "2026-08-13T02:50:32.517Z"
-    },
-    "a3270937401e8db2": {
-      "url": "https://qiita.com/kaku_zui/items/81af00d831d1a412f953?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに この記事では IBM Bob に Confluent MCP サーバー を接続することで、日本語のチャットだけで Kafka トピックの作成・データ投",
-        "コマンドはセットアップ時にほんの少し打.",
-        "."
-      ],
-      "cachedAt": "2026-08-13T02:50:32.517Z"
-    },
-    "44072ee0c23550b6": {
-      "url": "https://zenn.dev/knowledgework/articles/2114d46c201da3",
-      "summaryJa": [
-        "はじめに ナレッジワークのQAエンジニアのtettanです。",
-        "ナレッジワークでは、マネージャーではなく、いちQAエンジニアという立場で、プロダクトのQA業務や品質施策の横断的な活動を行っています。",
-        "2026年8月5日に開催された「QA Test Talk Vol."
-      ],
-      "cachedAt": "2026-08-13T02:50:32.517Z"
-    },
-    "5d9eb5a27c8cd666": {
-      "url": "https://lithostech.com/2026/08/decrypting-flume-water-monitor-traffic/",
-      "summaryJa": [
-        "Previously submitted: https://lobste.",
-        "rs/s/vnigrw/diving_into_flume_water_monitor Comments",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-13T02:50:32.517Z"
-    },
-    "e3416fac4d9deb5a": {
-      "url": "https://blog.himanshuanand.com/2026/08/i-found-a-kvm-guest-to-host-heap-corruption-bug-and-someone-else-got-there-first/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-13T02:50:32.517Z"
-    },
-    "7f81ef9e68c63ba4": {
-      "url": "https://github.com/frain-dev/convoy",
-      "summaryJa": [
-        "The Cloud Native Webhooks Gateway",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-13T02:50:32.517Z"
-    },
-    "5a4ef5d9698b2a52": {
-      "url": "https://donkeybas.com/",
-      "summaryJa": [
-        "Donkey.bas is 45 Years Old – 131 line of Glory",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-13T20:18:38.344Z"
-    },
-    "6ad448b2233c6b5a": {
-      "url": "https://zenn.dev/kibe/articles/df74c2e9fe76b6",
-      "summaryJa": [
-        "作るより消すほうが大変 Webサービスは、作るときより終わらせるときのほうが面倒です。",
-        "少なくとも私はそうでした。",
-        "作り始めたころは、 「Cloudflare Workers便利！"
-      ],
-      "cachedAt": "2026-08-13T20:18:38.344Z"
-    },
-    "fce6c2d882e594e3": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260813de43577",
-      "summaryJa": [
-        "湿った空気や上空の寒気の影響で千葉県では13日夕方以降、線状降水帯が相次いで発生して1時間に100ミリを超える猛烈な雨が降り続き、記録的な大雨となっています。",
-        "気象庁は、千葉県の22の市町にレベル5大雨…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-13T20:18:38.344Z"
-    },
-    "dcf70a230a98e979": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260813de43748",
-      "summaryJa": [
-        "レベル５大雨特別警報が出された千葉県内の大雨被害についてまとめました。",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-13T20:18:38.344Z"
-    },
-    "a002b46678a2d34f": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260813de43566",
-      "summaryJa": [
-        "ロシア大統領府は13日、プーチン大統領が北方領土の択捉島を訪問したと発表しました。",
-        "プーチン氏の北方領土訪問は初めてで、ウクライナ侵攻を続けるロシアに制裁を科す日本を強くけん制するねらいがあるとみられま…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-13T20:18:38.344Z"
-    },
-    "928546a397737664": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260813de43766",
-      "summaryJa": [
-        "中国で経済改革に取り組み、江沢民元国家主席のもとで首相を務めた、朱鎔基氏が12日、死去したことを受けて、北京にある日本大使館で半旗が掲げられるなど、日本の関係者",
-        "出典: NHKニュース 国際",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-13T20:18:38.344Z"
-    },
-    "24b61a1efc3d6461": {
-      "url": "https://www.lifehacker.jp/article/2509android-is-making-it-more-difficult-to-sideload-apps-pai/",
-      "summaryJa": [
-        "AndroidとiOS、それぞれに長所と短所があるのはご存知の通り。",
-        "これまでAndroidがAppleのプラットフォームに対して持っていた最大の利点の一つは、その「オープンさ」でした。",
-        "GoogleのPlayストアからアプリをダウンロードできるだけでなく、インターネットから直接アプリをダウンロードすることも可能です。"
-      ],
-      "cachedAt": "2026-08-13T20:18:38.344Z"
-    },
-    "3458c3c83aa2b5a9": {
-      "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2132479.html",
-      "summaryJa": [
-        "オールドファン歓喜、ブラウザー上で動作するX68000エミュレーターが登場。ライセンスもクリア【やじ",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-13T20:18:38.344Z"
-    },
     "0fcb1c4786e1a538": {
       "url": "https://zenn.dev/estie/articles/64b80da2fbf175",
       "summaryJa": [
@@ -15192,6 +15021,114 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-11T02:48:06.793Z"
+    },
+    "3021144fab28f907": {
+      "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2155692.html",
+      "summaryJa": [
+        "【特集】 AIが“ダチ”になった。Meta「Muse」と過ごした2週間",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T01:56:19.374Z"
+    },
+    "78b8986836f7bb24": {
+      "url": "https://github.com/aws/aws-emulator",
+      "summaryJa": [
+        "<a href=\"https:&#x2F;&#x2F;www.",
+        "aboutamazon.",
+        "com&#x2F;news&#x2F;aws&#x2F;how-autonomous-ai-agents-built-aws-emulator\" rel=\"no"
+      ],
+      "cachedAt": "2026-11-12T01:56:19.374Z"
+    },
+    "e869f96790107481": {
+      "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+      "summaryJa": [
+        "AWS Emulator and the engineer's job when agents write the codeNovember 11, 2026 ",
+        "I had an advantage over my colleagues: I had already heard about a brilliant you",
+        "."
+      ],
+      "cachedAt": "2026-11-12T01:56:19.374Z"
+    },
+    "2f7cf36e7cfe10a1": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261112de74529",
+      "summaryJa": [
+        "アメリカの有力紙、「ウォール・ストリート・ジャーナル」は11日、アメリカの半導体大手「エヌビディア」がジェンスン・フアンCEOを解任する準備を進めていると報じま",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T01:56:19.374Z"
+    },
+    "111b7fb0f452c769": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261112de74538",
+      "summaryJa": [
+        "企業の間で取り引きされるモノの価格を示す先月の企業物価指数は、去年の同じ月と比べて7.",
+        "1％上昇しました。",
+        "9月と比べて伸び率は拡大していて、中東情勢の影響による石油関連製品の値上がりを反映して高い水準…"
+      ],
+      "cachedAt": "2026-11-12T01:56:19.374Z"
+    },
+    "9213ca7990933609": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261112de74555",
+      "summaryJa": [
+        "経営再建中の日産自動車はことし4月から9月までのグループ全体の中間決算を発表し、最終的な損益は397億円の赤字と、コスト削減が進み為替が円安で推移したことなどで",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T01:56:19.374Z"
+    },
+    "288e65b0a55adf92": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261112de74534",
+      "summaryJa": [
+        "ヨーロッパで今月に入り旅客機などへの爆破予告が相次ぐなか、イタリアではおよそ6300の学校に爆破予告があったことが分かりました。",
+        "メローニ首相は「現時点では危険性を示す証拠はない」としています。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T01:56:19.374Z"
+    },
+    "fdf2d54e7f270525": {
+      "url": "https://scrapbox.io/shokai/software-factory-mode-2026aki_skill",
+      "summaryJa": [
+        "software-factory-mode pluginの中の、現在の基本skill 移動式Software Factory (2026秋)として、Gyazoや",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-11-12T01:56:19.374Z"
+    },
+    "cb1fca35ef30a041": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%83%95%E3%82%A1%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0",
+      "summaryJa": [
+        "クラウドファンディング",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T01:56:19.374Z"
+    },
+    "658cb06340b921e2": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%82%AB%E3%83%90%E3%83%BC%20%E6%A0%AA%E4%BE%A1",
+      "summaryJa": [
+        "カバー 株価",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T01:56:19.374Z"
+    },
+    "2887ecb52cfe3a60": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%A9%E3%83%AA%E3%83%BC1",
+      "summaryJa": [
+        "ラリー1",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-12T01:56:19.374Z"
+    },
+    "6f56227e677024dc": {
+      "url": "https://github.com/awawa-dev/HyperHDR",
+      "summaryJa": [
+        "Next-gen open source ambient lighting system featuring a high-precision floating",
+        "Includes advanced smoothing with inertia and adaptive temporal dithering for per",
+        "Supports Wind"
+      ],
+      "cachedAt": "2026-11-12T01:56:19.374Z"
     }
   }
 }
