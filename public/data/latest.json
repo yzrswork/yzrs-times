@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "issueNo": 252,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-11-13",
-  "dateDisplay": "Friday, November 13, 2026",
-  "pressTimeJst": "2026-11-13 12:00",
-  "generatedAt": "2026-11-13T02:47:34.358Z",
+  "issueNo": 253,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-14",
+  "dateDisplay": "Saturday, November 14, 2026",
+  "pressTimeJst": "2026-11-14 05:00",
+  "generatedAt": "2026-11-13T20:17:45.403Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.1-flash-lite",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "解釈器の自作と、極小の描画",
-    "note": "仕組みを根本から理解し、手元の限られた環境で動かすための創作記事を集めました。"
+    "title": "複雑系の綻びと検証の行方",
+    "note": "巨大システムの接続障害から数理モデルの挙動まで、手元の環境がいかに脆く、あるいは何に支えられているかを凝視する朝。"
   },
   "editorial": {
-    "comment": "lobsters-d631de8e のPostScriptインタプリタ自作記事に心が躍ります。スタック指向のシンプルな文法を自力で解釈し、描画命令へ落とし込む工程は、プログラミングとデザインの原点を取り戻す素晴らしい体験です。—— YZRS Times 編集長",
-    "passedOver": "Microsoft 365の大規模障害やNVIDIAの動向など時事ニュースが多く挙がりましたが、昼休みの創作意欲を高める技術インプットに特化するため見送りました。",
+    "comment": "システム障害の現場での対立を描いたhatebu-it-868b7ea2（紙面外）には痛ましさを感じます。MS障害の影響範囲を詳細に追ったpiyologの冷静なまとめこそ、作り手が自らの環境を守るための羅針盤になります。—— YZRS Times 編集長",
+    "passedOver": "スポーツや芸能のトレンドは、日々の喧騒として今朝は静観しました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "晴れ",
-    "icon": "sunny",
-    "tempMax": 19,
-    "tempMin": 9,
-    "precipChancePct": 0
+    "summary": "曇り",
+    "icon": "cloudy",
+    "tempMax": 18,
+    "tempMin": 11,
+    "precipChancePct": 2
   },
   "market": {
     "fearGreed": {
@@ -39,331 +39,421 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 70204,
-        "priceJpy": 11227184,
-        "change24hPct": -4.82,
+        "priceUsd": 69032,
+        "priceJpy": 11030302,
+        "change24hPct": -3.41,
         "sparkline7d": [
-          76043.53,
-          75961.92,
-          75848.98,
-          74658.6,
-          72839.9,
-          74611.63,
-          71052.34
+          75805.88,
+          75776.38,
+          74780.55,
+          74774.77,
+          73979.72,
+          71556.5,
+          68930.61
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1989.56,
-        "priceJpy": 318173,
-        "change24hPct": -3.18,
+        "priceUsd": 1952.46,
+        "priceJpy": 311975,
+        "change24hPct": -3.14,
         "sparkline7d": [
-          2238.02,
-          2246.84,
-          2234.57,
-          2123.51,
-          2016.83,
-          2080.48,
-          2009.56
+          2233.04,
+          2237.05,
+          2138.72,
+          2114.36,
+          2058.13,
+          2002.9,
+          1942.84
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.145526,
-        "priceJpy": 23.27,
-        "change24hPct": -1.47,
+        "priceUsd": 0.149087,
+        "priceJpy": 23.82,
+        "change24hPct": 1.07,
         "sparkline7d": [
-          0.15486,
-          0.152931,
-          0.150326,
-          0.147069,
-          0.141586,
-          0.1497,
-          0.149002
+          0.15546,
+          0.151208,
+          0.146995,
+          0.149189,
+          0.147477,
+          0.1433,
+          0.149575
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 222.41,
-        "priceJpy": 35568,
-        "change24hPct": -3.16,
+        "priceUsd": 227.08,
+        "priceJpy": 36284,
+        "change24hPct": 1.02,
         "sparkline7d": [
-          274.81,
-          262.06,
-          245.68,
-          241.77,
-          228.25,
-          231.48,
-          224.9
+          264.91,
+          249.42,
+          241.42,
+          238.94,
+          229.67,
+          225.78,
+          225.56
         ]
       }
     ]
   },
   "top": [
-    "lobsters-fbb4c6ab",
-    "lobsters-d631de8e",
-    "zenn-trend-ab8aa557"
+    "hatebu-it-a5c8c85f",
+    "hn-front-e3009f1a",
+    "hn-front-e1468a2f"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hn-front-87af305f"
+        "hatebu-it-0725fcfa",
+        "nhk-top-012a83ca",
+        "yahoo-topics-15de41b0",
+        "nhk-top-cb4ab13e"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-trend-94d7a3b7",
-        "qiita-popular-e676935a",
-        "zenn-trend-ecaa9d14"
+        "hatebu-it-be7118be"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-7c27bf54"
+        "gtrends-jp-b6ce03db",
+        "gtrends-jp-111b90ac",
+        "gtrends-jp-f4f9f745"
       ]
     }
   ],
   "articles": [
     {
-      "id": "lobsters-fbb4c6ab",
-      "title": "JIT bitmap text rendering for microcontrollers",
-      "url": "https://linebender.org/blog/jit-bitmap-text/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-13T00:16:10.000Z",
+      "id": "hatebu-it-a5c8c85f",
+      "title": "2026年11月に発生したMicrosoft 365の接続障害についてまとめてみた - piyolog",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/11/13/114230",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-13T03:20:28.000Z",
       "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "JIT",
-        "bitmap",
-        "text",
-        "rendering",
-        "microcontrollers"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 3,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-d631de8e",
-      "title": "Let’s Write a PostScript Interpreter",
-      "url": "https://beyondloom.com/blog/postscript.html",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-12T22:17:32.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Let’s",
-        "Write",
-        "PostScript",
-        "Interpreter"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 5,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-ab8aa557",
-      "title": "【備忘録】Transformerを数式レベルからnumpyのみで実装して理解する（②Backward Propagation編）",
-      "url": "https://zenn.dev/matsu8/articles/a01ba3fc713e03",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-12T13:30:40.000Z",
-      "summaryJa": [
-        "はじめに 前回の記事（①Forward Propagation編）では、Transformerの各部品をnumpyだけで実装し、Forward Propagat",
-        "今回はその続きとして、各部品のBack Propagation（誤差逆伝播法）を実装し、損失から全てのパラメータまで勾配が流れることを確認していきます。",
-        "実装している途中で、「こういう学習内容のまとめは、AIの普及であまり価値がなくなるのでは？"
+        "2026年11月13日、Microsoftは、Exchange Onlineを中心に複数のMicrosoft 365サービスで接続障害が起きていると公表しました",
+        "ここでは関連する情報をまとめます。",
+        "Exchange Onlineの接続障害が複数サービスへ拡大 障害はExchange Onlineのメールボックスに接続できない問題として始まり、複数のMicr"
       ],
       "category": "programming",
       "keywords": [
-        "備忘録",
-        "②Backward",
-        "Propagation編"
+        "365の接続障害についてまとめてみた",
+        "piyolog"
       ],
       "heat": {
-        "temperature": 51,
+        "temperature": 81,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 13,
+          "hatebuCount": 205,
+          "ageHours": 17,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 12.1
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-87af305f",
-      "title": "Rust 1.100",
-      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "id": "hn-front-e3009f1a",
+      "title": "After 600 experiments, here's what I discovered about JEPA world models",
+      "url": "https://haddyalchaer.com/jepa",
       "source": "Hacker News",
       "sourceId": "hn-front",
-      "publishedAt": "2026-11-12T18:39:05.000Z",
+      "publishedAt": "2026-11-13T17:55:28.000Z",
       "summaryJa": [
-        "Rust 1.100",
+        "After 600 experiments, here's what I discovered ab",
         "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Rust"
+        "experiments",
+        "discovered",
+        "JEPA",
+        "world",
+        "models"
       ],
       "heat": {
-        "temperature": 92,
+        "temperature": 84,
         "signals": {
-          "hnPoints": 460,
-          "hatebuCount": 23,
-          "ageHours": 8,
-          "crossSources": 3,
-          "velocity": 56.5
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-94d7a3b7",
-      "title": "Tauri の MSI インストーラーが更新のたびに削除済みデスクトップショートカットを復活させる問題を直した話",
-      "url": "https://zenn.dev/takahiro_nago/articles/article-tauri-msi-desktop-shortcut",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-12T09:34:34.000Z",
-      "summaryJa": [
-        "はじめに Tauri の MSI インストーラーには、「ユーザーがデスクトップショートカットを削除しても、アプリを更新するたびに復活する」という問題がありました",
-        "NSIS 版のインストーラーでは起きない、MSI 版だけの挙動です。",
-        "この問題を tauri-bundler 側で修正し、Pull Request が 2026 年 11 月 12 日に dev ブランチへマージされました。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Tauri",
-        "MSI"
-      ],
-      "heat": {
-        "temperature": 50,
-        "signals": {
-          "hnPoints": 0,
+          "hnPoints": 126,
           "hatebuCount": 0,
-          "ageHours": 17,
+          "ageHours": 2,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 53.1
         }
       },
       "image": null
     },
     {
-      "id": "qiita-popular-e676935a",
-      "title": "【Part 1】ハンドトラッキングで行う盆栽育成アプリの開発",
-      "url": "https://qiita.com/Rikuto_q/items/5b27251bb934f50bf903?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-11-12T07:56:50.000Z",
+      "id": "hn-front-e1468a2f",
+      "title": "Models can now transmit viruses in weight-space",
+      "url": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-13T18:33:35.000Z",
       "summaryJa": [
-        "はじめに 今回、私は株式会社GENEROSITY様のもとでインターンシップを行わせていただき、その間に今回のハンドトラッキングで盆栽を手入れするアプリの企画立て",
-        "その過程を記していきます。",
-        "概要 今回私が開発したのは「MR盆栽」 これは現実空間上にバ."
-      ],
-      "category": "programming",
-      "keywords": [
-        "Part"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 19,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-ecaa9d14",
-      "title": "AWS EmulatorはAWS Blocksのモックを置き換えるのか？実際に動かして見えた「三つ目の層」",
-      "url": "https://zenn.dev/genda_jp/articles/18d1f780f6b41f",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-12T05:20:41.000Z",
-      "summaryJa": [
-        "2026年11月11日（米国時間）、AWSが AWS Emulator をリリースしました。",
-        "AWS SDKやAWS CLIの呼び出しを、クラウドではなく手元のエミュレーターが受けて、AWSと同じ形の応答を返すツールです。",
-        "https://github."
-      ],
-      "category": "programming",
-      "keywords": [
-        "AWS",
-        "EmulatorはAWS",
-        "三つ目の層"
-      ],
-      "heat": {
-        "temperature": 48,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 21,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-7c27bf54",
-      "title": "Building my own ADS-B receiver",
-      "url": "https://kew.edbn.me/blog/adsb-receiver/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-13T00:36:19.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "Models can now transmit viruses in weight-space",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "ADS",
-        "receiver"
+        "Models",
+        "transmit",
+        "viruses",
+        "weight",
+        "space"
       ],
       "heat": {
-        "temperature": 54,
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 74,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 42.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-0725fcfa",
+      "title": "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
+      "url": "https://k-tai.watch.impress.co.jp/docs/news/2156449.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-13T12:34:09.000Z",
+      "summaryJa": [
+        "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "マネックス証券"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 83,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 10.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-012a83ca",
+      "title": "ヤマダデンキ 不正アクセスで最大350万件が影響受けた可能性",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75739",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-13T14:39:16.000Z",
+      "summaryJa": [
+        "ヤマダデンキは、リフォームの管理システムが不正アクセスを受け、氏名、住所、電話番号のほかリフォームの実施履歴など最大で350万件の情報が影響を受けた可能性がある",
+        "こうした情報が外部に…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ヤマダデンキ"
+      ],
+      "heat": {
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 2,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "yahoo-topics-15de41b0",
+      "title": "「週明け怖い」MS障害の影響広く",
+      "url": "https://news.yahoo.co.jp/pickup/6602468?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-11-13T13:14:51.000Z",
+      "summaryJa": [
+        "「週明け怖い」MS障害の影響広く",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "週明け怖い",
+        "MS障害の影響広く"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-cb4ab13e",
+      "title": "マイクロソフトの接続障害「日本は比較的安定した状態続く」",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75121",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-13T13:46:55.000Z",
+      "summaryJa": [
+        "アメリカのIT大手「マイクロソフト」の「マイクロソフト365」と呼ばれるサービスで発生した接続障害の復旧状況についてマイクロソフトは、日本では比較的安定した状態",
+        "ヨーロッパや北…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "マイクロソフトの接続障害",
+        "日本は比較的安定した状態続く"
+      ],
+      "heat": {
+        "temperature": 58,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-be7118be",
+      "title": "Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例",
+      "url": "https://ktlog.net/posts/claude-code-ai-ecosystem",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-13T05:21:58.000Z",
+      "summaryJa": [
+        "公開 2026.",
+        "11.",
+        "08 Claude Codeのおすすめ環境を全体図で解説。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Codeのおすすめ環境を全体図で解説",
+        "ハーネス",
+        "スキル",
+        "MCPの仕組みと実例"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 274,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 18.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-b6ce03db",
+      "title": "介護報酬",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E4%BB%8B%E8%AD%B7%E5%A0%B1%E9%85%AC",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-13T20:00:00.000Z",
+      "summaryJa": [
+        "介護報酬",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "介護報酬"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-111b90ac",
+      "title": "桐谷広人",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%A1%90%E8%B0%B7%E5%BA%83%E4%BA%BA",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-13T20:00:00.000Z",
+      "summaryJa": [
+        "桐谷広人",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "桐谷広人"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-f4f9f745",
+      "title": "木村 拓哉",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%9C%A8%E6%9D%91%20%E6%8B%93%E5%93%89",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-13T19:50:00.000Z",
+      "summaryJa": [
+        "木村 拓哉",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "木村",
+        "拓哉"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -373,36 +463,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "show-hn-9a48ce0c",
-      "title": "Show HN: I made an open-source laptop from scratch",
-      "url": "https://www.byran.ee/posts/creation/",
-      "source": "Show HN",
-      "sourceId": "show-hn",
-      "publishedAt": "2025-01-22T20:41:52.000Z",
+      "id": "github-gems-1c66d8af",
+      "title": "Ka1-S/LYNX-SHARE — LYNX SHARE — lightweight open-source DAW in C++20/JUCE with the FL Studio workflow: Channel Rack, Piano Roll, Playlist, Mixer and .flp import",
+      "url": "https://github.com/Ka1-S/LYNX-SHARE",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-13T20:12:42Z",
       "summaryJa": [
-        "Hello!",
-        "I&#x27;m Byran.",
-        "I spent the past ~6 months engineering a laptop from scratch."
+        "LYNX SHARE — lightweight open-source DAW in C++20/JUCE with the FL Studio workfl",
+        "flp import",
+        "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "oss",
       "keywords": [
-        "source",
-        "laptop",
-        "scratch"
+        "Ka1",
+        "S/LYNX",
+        "SHARE",
+        "LYNX",
+        "lightweight"
       ],
       "heat": {
-        "temperature": 71,
+        "temperature": 55,
         "signals": {
-          "hnPoints": 3237,
+          "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 15822,
+          "ageHours": 1,
           "crossSources": 1,
-          "velocity": 0.2
+          "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "ゼロからノートPCを自作しオープンソースとして全行程を公開している圧巻のプロジェクトです。回路基板から筐体まで自分の手で作り上げる情熱は、ハードウェア制作の面白さを再認識させてくれます。"
+    "reason": "FL Studioのワークフローを模した軽量DAWのC++実装は、音楽とプログラミングの交差点を探るあなたに最適です。そのコードの軽やかさは、午後の創作のインスピレーションを刺激するはずです。"
   },
   "unavailableSources": []
 }

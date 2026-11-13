@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 253,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-14",
+  "dateDisplay": "Saturday, November 14, 2026",
+  "pressTimeJst": "2026-11-14 05:00",
+  "generatedAt": "2026-11-13T20:17:45.403Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "複雑系の綻びと検証の行方",
+    "note": "巨大システムの接続障害から数理モデルの挙動まで、手元の環境がいかに脆く、あるいは何に支えられているかを凝視する朝。"
+  },
+  "editorial": {
+    "comment": "システム障害の現場での対立を描いたhatebu-it-868b7ea2（紙面外）には痛ましさを感じます。MS障害の影響範囲を詳細に追ったpiyologの冷静なまとめこそ、作り手が自らの環境を守るための羅針盤になります。—— YZRS Times 編集長",
+    "passedOver": "スポーツや芸能のトレンドは、日々の喧騒として今朝は静観しました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "曇り",
+    "icon": "cloudy",
+    "tempMax": 18,
+    "tempMin": 11,
+    "precipChancePct": 2
+  },
+  "market": {
+    "fearGreed": {
+      "value": 20,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 69032,
+        "priceJpy": 11030302,
+        "change24hPct": -3.41,
+        "sparkline7d": [
+          75805.88,
+          75776.38,
+          74780.55,
+          74774.77,
+          73979.72,
+          71556.5,
+          68930.61
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1952.46,
+        "priceJpy": 311975,
+        "change24hPct": -3.14,
+        "sparkline7d": [
+          2233.04,
+          2237.05,
+          2138.72,
+          2114.36,
+          2058.13,
+          2002.9,
+          1942.84
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.149087,
+        "priceJpy": 23.82,
+        "change24hPct": 1.07,
+        "sparkline7d": [
+          0.15546,
+          0.151208,
+          0.146995,
+          0.149189,
+          0.147477,
+          0.1433,
+          0.149575
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 227.08,
+        "priceJpy": 36284,
+        "change24hPct": 1.02,
+        "sparkline7d": [
+          264.91,
+          249.42,
+          241.42,
+          238.94,
+          229.67,
+          225.78,
+          225.56
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-a5c8c85f",
+    "hn-front-e3009f1a",
+    "hn-front-e1468a2f"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "hatebu-it-0725fcfa",
+        "nhk-top-012a83ca",
+        "yahoo-topics-15de41b0",
+        "nhk-top-cb4ab13e"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-be7118be"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-b6ce03db",
+        "gtrends-jp-111b90ac",
+        "gtrends-jp-f4f9f745"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-a5c8c85f",
+      "title": "2026年11月に発生したMicrosoft 365の接続障害についてまとめてみた - piyolog",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/11/13/114230",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-13T03:20:28.000Z",
+      "summaryJa": [
+        "2026年11月13日、Microsoftは、Exchange Onlineを中心に複数のMicrosoft 365サービスで接続障害が起きていると公表しました",
+        "ここでは関連する情報をまとめます。",
+        "Exchange Onlineの接続障害が複数サービスへ拡大 障害はExchange Onlineのメールボックスに接続できない問題として始まり、複数のMicr"
+      ],
+      "category": "programming",
+      "keywords": [
+        "365の接続障害についてまとめてみた",
+        "piyolog"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 205,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 12.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-e3009f1a",
+      "title": "After 600 experiments, here's what I discovered about JEPA world models",
+      "url": "https://haddyalchaer.com/jepa",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-13T17:55:28.000Z",
+      "summaryJa": [
+        "After 600 experiments, here's what I discovered ab",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "experiments",
+        "discovered",
+        "JEPA",
+        "world",
+        "models"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 126,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 53.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-e1468a2f",
+      "title": "Models can now transmit viruses in weight-space",
+      "url": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-13T18:33:35.000Z",
+      "summaryJa": [
+        "Models can now transmit viruses in weight-space",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Models",
+        "transmit",
+        "viruses",
+        "weight",
+        "space"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 74,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 42.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-0725fcfa",
+      "title": "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
+      "url": "https://k-tai.watch.impress.co.jp/docs/news/2156449.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-13T12:34:09.000Z",
+      "summaryJa": [
+        "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "マネックス証券"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 83,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 10.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-012a83ca",
+      "title": "ヤマダデンキ 不正アクセスで最大350万件が影響受けた可能性",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75739",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-13T14:39:16.000Z",
+      "summaryJa": [
+        "ヤマダデンキは、リフォームの管理システムが不正アクセスを受け、氏名、住所、電話番号のほかリフォームの実施履歴など最大で350万件の情報が影響を受けた可能性がある",
+        "こうした情報が外部に…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ヤマダデンキ"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "yahoo-topics-15de41b0",
+      "title": "「週明け怖い」MS障害の影響広く",
+      "url": "https://news.yahoo.co.jp/pickup/6602468?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-11-13T13:14:51.000Z",
+      "summaryJa": [
+        "「週明け怖い」MS障害の影響広く",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "週明け怖い",
+        "MS障害の影響広く"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-cb4ab13e",
+      "title": "マイクロソフトの接続障害「日本は比較的安定した状態続く」",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75121",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-13T13:46:55.000Z",
+      "summaryJa": [
+        "アメリカのIT大手「マイクロソフト」の「マイクロソフト365」と呼ばれるサービスで発生した接続障害の復旧状況についてマイクロソフトは、日本では比較的安定した状態",
+        "ヨーロッパや北…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "マイクロソフトの接続障害",
+        "日本は比較的安定した状態続く"
+      ],
+      "heat": {
+        "temperature": 58,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-be7118be",
+      "title": "Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例",
+      "url": "https://ktlog.net/posts/claude-code-ai-ecosystem",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-13T05:21:58.000Z",
+      "summaryJa": [
+        "公開 2026.",
+        "11.",
+        "08 Claude Codeのおすすめ環境を全体図で解説。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Codeのおすすめ環境を全体図で解説",
+        "ハーネス",
+        "スキル",
+        "MCPの仕組みと実例"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 274,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 18.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-b6ce03db",
+      "title": "介護報酬",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E4%BB%8B%E8%AD%B7%E5%A0%B1%E9%85%AC",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-13T20:00:00.000Z",
+      "summaryJa": [
+        "介護報酬",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "介護報酬"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-111b90ac",
+      "title": "桐谷広人",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%A1%90%E8%B0%B7%E5%BA%83%E4%BA%BA",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-13T20:00:00.000Z",
+      "summaryJa": [
+        "桐谷広人",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "桐谷広人"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-f4f9f745",
+      "title": "木村 拓哉",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%9C%A8%E6%9D%91%20%E6%8B%93%E5%93%89",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-13T19:50:00.000Z",
+      "summaryJa": [
+        "木村 拓哉",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "木村",
+        "拓哉"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-1c66d8af",
+      "title": "Ka1-S/LYNX-SHARE — LYNX SHARE — lightweight open-source DAW in C++20/JUCE with the FL Studio workflow: Channel Rack, Piano Roll, Playlist, Mixer and .flp import",
+      "url": "https://github.com/Ka1-S/LYNX-SHARE",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-13T20:12:42Z",
+      "summaryJa": [
+        "LYNX SHARE — lightweight open-source DAW in C++20/JUCE with the FL Studio workfl",
+        "flp import",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "Ka1",
+        "S/LYNX",
+        "SHARE",
+        "LYNX",
+        "lightweight"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "FL Studioのワークフローを模した軽量DAWのC++実装は、音楽とプログラミングの交差点を探るあなたに最適です。そのコードの軽やかさは、午後の創作のインスピレーションを刺激するはずです。"
+  },
+  "unavailableSources": []
+}

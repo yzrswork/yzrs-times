@@ -183,6 +183,13 @@
       "edition": "midday",
       "theme": "解釈器の自作と、極小の描画",
       "path": "issues/2026-11-13-midday.json"
+    },
+    {
+      "issueNo": 253,
+      "date": "2026-11-14",
+      "edition": "morning",
+      "theme": "複雑系の綻びと検証の行方",
+      "path": "issues/2026-11-14-morning.json"
     }
   ]
 }
