@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-255160b1",
-      "url": "https://github.com/rafska/awesome-local-llm",
-      "date": "2026-10-14"
-    },
-    {
-      "id": "show-hn-9a48ce0c",
-      "url": "https://www.byran.ee/posts/creation/",
-      "date": "2026-10-14"
-    },
-    {
       "id": "github-gems-779568a9",
       "url": "https://github.com/cesanta/mongoose-os",
       "date": "2026-10-15"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-baffc682",
       "url": "https://github.com/Ysurac/openmptcprouter",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "show-hn-9a48ce0c",
+      "url": "https://www.byran.ee/posts/creation/",
       "date": "2026-11-13"
     }
   ]

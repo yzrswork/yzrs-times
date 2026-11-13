@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 252,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-13",
+  "dateDisplay": "Friday, November 13, 2026",
+  "pressTimeJst": "2026-11-13 12:00",
+  "generatedAt": "2026-11-13T02:47:34.358Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "解釈器の自作と、極小の描画",
+    "note": "仕組みを根本から理解し、手元の限られた環境で動かすための創作記事を集めました。"
+  },
+  "editorial": {
+    "comment": "lobsters-d631de8e のPostScriptインタプリタ自作記事に心が躍ります。スタック指向のシンプルな文法を自力で解釈し、描画命令へ落とし込む工程は、プログラミングとデザインの原点を取り戻す素晴らしい体験です。—— YZRS Times 編集長",
+    "passedOver": "Microsoft 365の大規模障害やNVIDIAの動向など時事ニュースが多く挙がりましたが、昼休みの創作意欲を高める技術インプットに特化するため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ",
+    "icon": "sunny",
+    "tempMax": 19,
+    "tempMin": 9,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 20,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 70204,
+        "priceJpy": 11227184,
+        "change24hPct": -4.82,
+        "sparkline7d": [
+          76043.53,
+          75961.92,
+          75848.98,
+          74658.6,
+          72839.9,
+          74611.63,
+          71052.34
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1989.56,
+        "priceJpy": 318173,
+        "change24hPct": -3.18,
+        "sparkline7d": [
+          2238.02,
+          2246.84,
+          2234.57,
+          2123.51,
+          2016.83,
+          2080.48,
+          2009.56
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.145526,
+        "priceJpy": 23.27,
+        "change24hPct": -1.47,
+        "sparkline7d": [
+          0.15486,
+          0.152931,
+          0.150326,
+          0.147069,
+          0.141586,
+          0.1497,
+          0.149002
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 222.41,
+        "priceJpy": 35568,
+        "change24hPct": -3.16,
+        "sparkline7d": [
+          274.81,
+          262.06,
+          245.68,
+          241.77,
+          228.25,
+          231.48,
+          224.9
+        ]
+      }
+    ]
+  },
+  "top": [
+    "lobsters-fbb4c6ab",
+    "lobsters-d631de8e",
+    "zenn-trend-ab8aa557"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hn-front-87af305f"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "zenn-trend-94d7a3b7",
+        "qiita-popular-e676935a",
+        "zenn-trend-ecaa9d14"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-7c27bf54"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "lobsters-fbb4c6ab",
+      "title": "JIT bitmap text rendering for microcontrollers",
+      "url": "https://linebender.org/blog/jit-bitmap-text/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-13T00:16:10.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "JIT",
+        "bitmap",
+        "text",
+        "rendering",
+        "microcontrollers"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-d631de8e",
+      "title": "Let’s Write a PostScript Interpreter",
+      "url": "https://beyondloom.com/blog/postscript.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-12T22:17:32.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Let’s",
+        "Write",
+        "PostScript",
+        "Interpreter"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-ab8aa557",
+      "title": "【備忘録】Transformerを数式レベルからnumpyのみで実装して理解する（②Backward Propagation編）",
+      "url": "https://zenn.dev/matsu8/articles/a01ba3fc713e03",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-12T13:30:40.000Z",
+      "summaryJa": [
+        "はじめに 前回の記事（①Forward Propagation編）では、Transformerの各部品をnumpyだけで実装し、Forward Propagat",
+        "今回はその続きとして、各部品のBack Propagation（誤差逆伝播法）を実装し、損失から全てのパラメータまで勾配が流れることを確認していきます。",
+        "実装している途中で、「こういう学習内容のまとめは、AIの普及であまり価値がなくなるのでは？"
+      ],
+      "category": "programming",
+      "keywords": [
+        "備忘録",
+        "②Backward",
+        "Propagation編"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-87af305f",
+      "title": "Rust 1.100",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-12T18:39:05.000Z",
+      "summaryJa": [
+        "Rust 1.100",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Rust"
+      ],
+      "heat": {
+        "temperature": 92,
+        "signals": {
+          "hnPoints": 460,
+          "hatebuCount": 23,
+          "ageHours": 8,
+          "crossSources": 3,
+          "velocity": 56.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-94d7a3b7",
+      "title": "Tauri の MSI インストーラーが更新のたびに削除済みデスクトップショートカットを復活させる問題を直した話",
+      "url": "https://zenn.dev/takahiro_nago/articles/article-tauri-msi-desktop-shortcut",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-12T09:34:34.000Z",
+      "summaryJa": [
+        "はじめに Tauri の MSI インストーラーには、「ユーザーがデスクトップショートカットを削除しても、アプリを更新するたびに復活する」という問題がありました",
+        "NSIS 版のインストーラーでは起きない、MSI 版だけの挙動です。",
+        "この問題を tauri-bundler 側で修正し、Pull Request が 2026 年 11 月 12 日に dev ブランチへマージされました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Tauri",
+        "MSI"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-e676935a",
+      "title": "【Part 1】ハンドトラッキングで行う盆栽育成アプリの開発",
+      "url": "https://qiita.com/Rikuto_q/items/5b27251bb934f50bf903?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-12T07:56:50.000Z",
+      "summaryJa": [
+        "はじめに 今回、私は株式会社GENEROSITY様のもとでインターンシップを行わせていただき、その間に今回のハンドトラッキングで盆栽を手入れするアプリの企画立て",
+        "その過程を記していきます。",
+        "概要 今回私が開発したのは「MR盆栽」 これは現実空間上にバ."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Part"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-ecaa9d14",
+      "title": "AWS EmulatorはAWS Blocksのモックを置き換えるのか？実際に動かして見えた「三つ目の層」",
+      "url": "https://zenn.dev/genda_jp/articles/18d1f780f6b41f",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-12T05:20:41.000Z",
+      "summaryJa": [
+        "2026年11月11日（米国時間）、AWSが AWS Emulator をリリースしました。",
+        "AWS SDKやAWS CLIの呼び出しを、クラウドではなく手元のエミュレーターが受けて、AWSと同じ形の応答を返すツールです。",
+        "https://github."
+      ],
+      "category": "programming",
+      "keywords": [
+        "AWS",
+        "EmulatorはAWS",
+        "三つ目の層"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 21,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-7c27bf54",
+      "title": "Building my own ADS-B receiver",
+      "url": "https://kew.edbn.me/blog/adsb-receiver/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-13T00:36:19.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "ADS",
+        "receiver"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "show-hn-9a48ce0c",
+      "title": "Show HN: I made an open-source laptop from scratch",
+      "url": "https://www.byran.ee/posts/creation/",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2025-01-22T20:41:52.000Z",
+      "summaryJa": [
+        "Hello!",
+        "I&#x27;m Byran.",
+        "I spent the past ~6 months engineering a laptop from scratch."
+      ],
+      "category": "tech",
+      "keywords": [
+        "source",
+        "laptop",
+        "scratch"
+      ],
+      "heat": {
+        "temperature": 71,
+        "signals": {
+          "hnPoints": 3237,
+          "hatebuCount": 0,
+          "ageHours": 15822,
+          "crossSources": 1,
+          "velocity": 0.2
+        }
+      },
+      "image": null
+    },
+    "reason": "ゼロからノートPCを自作しオープンソースとして全行程を公開している圧巻のプロジェクトです。回路基板から筐体まで自分の手で作り上げる情熱は、ハードウェア制作の面白さを再認識させてくれます。"
+  },
+  "unavailableSources": []
+}

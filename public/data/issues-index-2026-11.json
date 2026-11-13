@@ -176,6 +176,13 @@
       "edition": "morning",
       "theme": "巨人の揺らぎと、手元の手触り",
       "path": "issues/2026-11-13-morning.json"
+    },
+    {
+      "issueNo": 252,
+      "date": "2026-11-13",
+      "edition": "midday",
+      "theme": "解釈器の自作と、極小の描画",
+      "path": "issues/2026-11-13-midday.json"
     }
   ]
 }

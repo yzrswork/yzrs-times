@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 251,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 252,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-11-13",
   "dateDisplay": "Friday, November 13, 2026",
-  "pressTimeJst": "2026-11-13 05:00",
-  "generatedAt": "2026-11-12T20:17:43.993Z",
+  "pressTimeJst": "2026-11-13 12:00",
+  "generatedAt": "2026-11-13T02:47:34.358Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,12 +14,12 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "巨人の揺らぎと、手元の手触り",
-    "note": "巨大インフラや巨頭の動揺が相次ぐ中、自らの身近な入力ツールや開発環境を確かめる朝。"
+    "title": "解釈器の自作と、極小の描画",
+    "note": "仕組みを根本から理解し、手元の限られた環境で動かすための創作記事を集めました。"
   },
   "editorial": {
-    "comment": "Mozkey『hatebu-it-cf1a0587』の静かな入力環境へのこだわりに惹かれます。Azureの広域障害やNVIDIAの劇的な体制変化が起きる朝だからこそ、毎日指先で触れる道具の精度を手入れしたくなります。—— YZRS Times 編集長",
-    "passedOver": "無印良品のクレカ情報長期保管漏洩の報道はセキュリティ管理の教訓として重要ですが、今朝は基盤障害と開発ツールの対比を優先し見送りました。",
+    "comment": "lobsters-d631de8e のPostScriptインタプリタ自作記事に心が躍ります。スタック指向のシンプルな文法を自力で解釈し、描画命令へ落とし込む工程は、プログラミングとデザインの原点を取り戻す素晴らしい体験です。—— YZRS Times 編集長",
+    "passedOver": "Microsoft 365の大規模障害やNVIDIAの動向など時事ニュースが多く挙がりましたが、昼休みの創作意欲を高める技術インプットに特化するため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
@@ -32,294 +32,209 @@
   },
   "market": {
     "fearGreed": {
-      "value": 28,
-      "label": "Fear"
+      "value": 20,
+      "label": "Extreme Fear"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 71518,
-        "priceJpy": 11429734,
-        "change24hPct": -4.05,
+        "priceUsd": 70204,
+        "priceJpy": 11227184,
+        "change24hPct": -4.82,
         "sparkline7d": [
-          76269.04,
-          75775.28,
-          75825.42,
-          73828.47,
-          74156.6,
-          73500.2,
-          71690.36
+          76043.53,
+          75961.92,
+          75848.98,
+          74658.6,
+          72839.9,
+          74611.63,
+          71052.34
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 2017.21,
-        "priceJpy": 322385,
-        "change24hPct": -3.09,
+        "priceUsd": 1989.56,
+        "priceJpy": 318173,
+        "change24hPct": -3.18,
         "sparkline7d": [
-          2259.03,
-          2236.28,
-          2235.51,
-          2091.9,
-          2089.12,
-          2052.8,
-          2014.76
+          2238.02,
+          2246.84,
+          2234.57,
+          2123.51,
+          2016.83,
+          2080.48,
+          2009.56
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.14753,
-        "priceJpy": 23.58,
-        "change24hPct": -1.24,
+        "priceUsd": 0.145526,
+        "priceJpy": 23.27,
+        "change24hPct": -1.47,
         "sparkline7d": [
-          0.15504,
-          0.153282,
-          0.150589,
-          0.14407,
-          0.146311,
-          0.149554,
-          0.147389
+          0.15486,
+          0.152931,
+          0.150326,
+          0.147069,
+          0.141586,
+          0.1497,
+          0.149002
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 224.87,
-        "priceJpy": 35937,
-        "change24hPct": -3.24,
+        "priceUsd": 222.41,
+        "priceJpy": 35568,
+        "change24hPct": -3.16,
         "sparkline7d": [
-          276.72,
-          263.61,
-          248.69,
-          236.43,
-          234.58,
-          229.98,
-          225.83
+          274.81,
+          262.06,
+          245.68,
+          241.77,
+          228.25,
+          231.48,
+          224.9
         ]
       }
     ]
   },
   "top": [
-    "hn-front-c6d49ae4",
-    "hn-front-8fcc6468",
-    "hatebu-it-cf1a0587"
+    "lobsters-fbb4c6ab",
+    "lobsters-d631de8e",
+    "zenn-trend-ab8aa557"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "nhk-top-953567c5",
-        "nhk-top-da1a25c1",
-        "nhk-top-4f165b13"
+        "hn-front-87af305f"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hn-front-0f5df483",
-        "hatebu-it-28cd9cc9"
+        "zenn-trend-94d7a3b7",
+        "qiita-popular-e676935a",
+        "zenn-trend-ecaa9d14"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-3ffedfbe"
+        "lobsters-7c27bf54"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hn-front-c6d49ae4",
-      "title": "Jensen Huang resigns",
-      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-12T13:52:29.000Z",
+      "id": "lobsters-fbb4c6ab",
+      "title": "JIT bitmap text rendering for microcontrollers",
+      "url": "https://linebender.org/blog/jit-bitmap-text/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-13T00:16:10.000Z",
       "summaryJa": [
-        "<a href=\"https:&#x2F;&#x2F;nvidianews.",
-        "nvidia.",
-        "com&#x2F;news&#x2F;nvidia-announces-ceo-transition\" rel=\"nofollow\">https:&#x2F;&"
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Jensen",
-        "Huang",
-        "resigns"
+        "JIT",
+        "bitmap",
+        "text",
+        "rendering",
+        "microcontrollers"
       ],
       "heat": {
-        "temperature": 89,
+        "temperature": 54,
         "signals": {
-          "hnPoints": 2168,
+          "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 6,
+          "ageHours": 3,
           "crossSources": 1,
-          "velocity": 337.7
+          "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-8fcc6468",
-      "title": "Ask HN: Microsoft/Azure Outage?",
-      "url": "https://news.ycombinator.com/item?id=50471668",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-12T18:17:13.000Z",
+      "id": "lobsters-d631de8e",
+      "title": "Let’s Write a PostScript Interpreter",
+      "url": "https://beyondloom.com/blog/postscript.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-12T22:17:32.000Z",
       "summaryJa": [
-        "For the past 5 minutes all of our Microsoft Cloud connections are down.",
-        "Anyone else?",
-        "The Status page won&#x27;t even load."
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Microsoft/Azure",
-        "Outage"
+        "Let’s",
+        "Write",
+        "PostScript",
+        "Interpreter"
       ],
       "heat": {
-        "temperature": 85,
+        "temperature": 54,
         "signals": {
-          "hnPoints": 264,
+          "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 2,
+          "ageHours": 5,
           "crossSources": 1,
-          "velocity": 131.4
+          "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-cf1a0587",
-      "title": "Mozkey（もずきー）| 書くことに集中できる、日本語入力。",
-      "url": "https://koyasi777.com/mozkey/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-12T02:13:52.000Z",
+      "id": "zenn-trend-ab8aa557",
+      "title": "【備忘録】Transformerを数式レベルからnumpyのみで実装して理解する（②Backward Propagation編）",
+      "url": "https://zenn.dev/matsu8/articles/a01ba3fc713e03",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-12T13:30:40.000Z",
       "summaryJa": [
-        "書くことに集中できる、 日本語入力。",
-        "自然に変換し、使うほど馴染む。",
-        "あなたの入力スタイルに合わせられる、日本語IME。"
+        "はじめに 前回の記事（①Forward Propagation編）では、Transformerの各部品をnumpyだけで実装し、Forward Propagat",
+        "今回はその続きとして、各部品のBack Propagation（誤差逆伝播法）を実装し、損失から全てのパラメータまで勾配が流れることを確認していきます。",
+        "実装している途中で、「こういう学習内容のまとめは、AIの普及であまり価値がなくなるのでは？"
       ],
       "category": "programming",
       "keywords": [
-        "Mozkey",
-        "書くことに集中できる",
-        "日本語入力"
+        "備忘録",
+        "②Backward",
+        "Propagation編"
       ],
       "heat": {
-        "temperature": 82,
+        "temperature": 51,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 704,
-          "ageHours": 18,
+          "hatebuCount": 0,
+          "ageHours": 13,
           "crossSources": 1,
-          "velocity": 39
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-953567c5",
-      "title": "エヌビディア フアンCEOが辞任 業界全体に影響も",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261112de75078",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-12T19:26:59.000Z",
-      "summaryJa": [
-        "アメリカの半導体大手「エヌビディア」は12日、中国の情報機関の協力者とされる女性と親密な関係にあったなどと報じられた創業者のジェンスン・フアン氏がCEOを辞任し",
-        "AI向け半導体で圧…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "エヌビディア",
-        "フアンCEOが辞任",
-        "業界全体に影響も"
-      ],
-      "heat": {
-        "temperature": 60,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 2,
           "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "nhk-top-da1a25c1",
-      "title": "円相場1ドル＝160円台 約2か月ぶり円安水準",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75110",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-12T19:43:22.000Z",
-      "summaryJa": [
-        "12日のニューヨーク外国為替市場では、円を売ってドルを買う動きが進んで、円相場は一時、およそ2か月ぶりの円安水準となる1ドル＝160円台まで値下がりしました。",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "円相場1ドル＝160円台",
-        "約2か月ぶり円安水準"
-      ],
-      "heat": {
-        "temperature": 60,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 2,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-4f165b13",
-      "title": "ウクライナ アメリカの衛星通信サービス再び制限",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75118",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-12T19:49:42.000Z",
-      "summaryJa": [
-        "ウクライナのゼレンスキー大統領は、ウクライナ軍が使用するアメリカの衛星通信サービスの利用が再び一部制限されたと明らかにし、ロシア軍の無人機の迎撃などに支障が出て",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "ウクライナ",
-        "アメリカの衛星通信サービス再び制限"
-      ],
-      "heat": {
-        "temperature": 60,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 2,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-0f5df483",
-      "title": "Rust 1.100.0",
-      "url": "https://github.com/rust-lang/rust/releases/tag/1.100.0",
+      "id": "hn-front-87af305f",
+      "title": "Rust 1.100",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
       "source": "Hacker News",
       "sourceId": "hn-front",
-      "publishedAt": "2026-11-12T18:24:06.000Z",
+      "publishedAt": "2026-11-12T18:39:05.000Z",
       "summaryJa": [
-        "Rust 1.100.0",
+        "Rust 1.100",
         "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
@@ -328,67 +243,127 @@
         "Rust"
       ],
       "heat": {
-        "temperature": 93,
+        "temperature": 92,
         "signals": {
-          "hnPoints": 290,
-          "hatebuCount": 0,
-          "ageHours": 2,
-          "crossSources": 2,
-          "velocity": 153.1
+          "hnPoints": 460,
+          "hatebuCount": 23,
+          "ageHours": 8,
+          "crossSources": 3,
+          "velocity": 56.5
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-28cd9cc9",
-      "title": "そのヤバいDockerイメージをいつまで使うのか - keroxpのScrapbox",
-      "url": "https://scrapbox.io/keroxp/%E3%81%9D%E3%81%AE%E3%83%A4%E3%83%90%E3%81%84Docker%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%92%E3%81%84%E3%81%A4%E3%81%BE%E3%81%A7%E4%BD%BF%E3%81%86%E3%81%AE%E3%81%8B",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-12T10:43:51.000Z",
+      "id": "zenn-trend-94d7a3b7",
+      "title": "Tauri の MSI インストーラーが更新のたびに削除済みデスクトップショートカットを復活させる問題を直した話",
+      "url": "https://zenn.dev/takahiro_nago/articles/article-tauri-msi-desktop-shortcut",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-12T09:34:34.000Z",
       "summaryJa": [
-        "Dockerコンテナは、環境構築やデプロイの容易さから広く普及して久しいと思う ホストマシンを選ばず（サーバーでは大抵Linuxだろうが）、Kubernetes",
-        "安全！",
-        "安心！"
+        "はじめに Tauri の MSI インストーラーには、「ユーザーがデスクトップショートカットを削除しても、アプリを更新するたびに復活する」という問題がありました",
+        "NSIS 版のインストーラーでは起きない、MSI 版だけの挙動です。",
+        "この問題を tauri-bundler 側で修正し、Pull Request が 2026 年 11 月 12 日に dev ブランチへマージされました。"
       ],
       "category": "programming",
       "keywords": [
-        "keroxpのScrapbox"
+        "Tauri",
+        "MSI"
       ],
       "heat": {
-        "temperature": 81,
+        "temperature": 50,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 123,
-          "ageHours": 10,
+          "hatebuCount": 0,
+          "ageHours": 17,
           "crossSources": 1,
-          "velocity": 12.9
+          "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "gtrends-jp-3ffedfbe",
-      "title": "紅白歌合戦",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E7%B4%85%E7%99%BD%E6%AD%8C%E5%90%88%E6%88%A6",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-12T20:00:00.000Z",
+      "id": "qiita-popular-e676935a",
+      "title": "【Part 1】ハンドトラッキングで行う盆栽育成アプリの開発",
+      "url": "https://qiita.com/Rikuto_q/items/5b27251bb934f50bf903?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-12T07:56:50.000Z",
       "summaryJa": [
-        "紅白歌合戦",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
+        "はじめに 今回、私は株式会社GENEROSITY様のもとでインターンシップを行わせていただき、その間に今回のハンドトラッキングで盆栽を手入れするアプリの企画立て",
+        "その過程を記していきます。",
+        "概要 今回私が開発したのは「MR盆栽」 これは現実空間上にバ."
       ],
-      "category": "trends",
+      "category": "programming",
       "keywords": [
-        "紅白歌合戦"
+        "Part"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 49,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-ecaa9d14",
+      "title": "AWS EmulatorはAWS Blocksのモックを置き換えるのか？実際に動かして見えた「三つ目の層」",
+      "url": "https://zenn.dev/genda_jp/articles/18d1f780f6b41f",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-12T05:20:41.000Z",
+      "summaryJa": [
+        "2026年11月11日（米国時間）、AWSが AWS Emulator をリリースしました。",
+        "AWS SDKやAWS CLIの呼び出しを、クラウドではなく手元のエミュレーターが受けて、AWSと同じ形の応答を返すツールです。",
+        "https://github."
+      ],
+      "category": "programming",
+      "keywords": [
+        "AWS",
+        "EmulatorはAWS",
+        "三つ目の層"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 21,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-7c27bf54",
+      "title": "Building my own ADS-B receiver",
+      "url": "https://kew.edbn.me/blog/adsb-receiver/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-13T00:36:19.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "ADS",
+        "receiver"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 2,
           "crossSources": 1,
           "velocity": 0
         }
@@ -398,38 +373,36 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-baffc682",
-      "title": "Ysurac/openmptcprouter — OpenMPTCProuter is an open source solution to aggregate multiple internet connections using Multipath TCP (MPTCP) on OpenWrt",
-      "url": "https://github.com/Ysurac/openmptcprouter",
-      "source": "GitHub 小さなOSS",
-      "sourceId": "github-gems",
-      "publishedAt": "2026-11-12T09:50:27Z",
+      "id": "show-hn-9a48ce0c",
+      "title": "Show HN: I made an open-source laptop from scratch",
+      "url": "https://www.byran.ee/posts/creation/",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2025-01-22T20:41:52.000Z",
       "summaryJa": [
-        "OpenMPTCProuter is an open source solution to aggregate multiple internet connec",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
+        "Hello!",
+        "I&#x27;m Byran.",
+        "I spent the past ~6 months engineering a laptop from scratch."
       ],
-      "category": "oss",
+      "category": "tech",
       "keywords": [
-        "OpenMPTCProuter",
         "source",
-        "solution",
-        "aggregate",
-        "multiple"
+        "laptop",
+        "scratch"
       ],
       "heat": {
-        "temperature": 52,
+        "temperature": 71,
         "signals": {
-          "hnPoints": 0,
+          "hnPoints": 3237,
           "hatebuCount": 0,
-          "ageHours": 10,
+          "ageHours": 15822,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 0.2
         }
       },
       "image": null
     },
-    "reason": "複数回線を束ねて冗長化するOpenWrt向けツールで、通信を自前で補強できます。大規模クラウド障害が相次ぐ今、手元のネットワーク基盤を自分の手で構築する手応えを与えてくれます。"
+    "reason": "ゼロからノートPCを自作しオープンソースとして全行程を公開している圧巻のプロジェクトです。回路基板から筐体まで自分の手で作り上げる情熱は、ハードウェア制作の面白さを再認識させてくれます。"
   },
   "unavailableSources": []
 }

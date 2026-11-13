@@ -1,69 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "225e19f71014a527": {
-      "url": "https://dev.classmethod.jp/articles/why-tacit-knowledge-cannot-be-documented/",
-      "summaryJa": [
-        "ベテランの判断を若手に引き継ごうとマニュアル化しても、肝心の部分は毎回こぼれ落ちます。",
-        "理由はシンプルで、本人が「言語化できていない・そもそも言語化すべきだと気づいていない」判断こそが価値の中心だからです。",
-        "この記事では、なぜ暗黙知の継承が長年うまくいかなかったのか、その構造と、いまLLMで何が変わりつ."
-      ],
-      "cachedAt": "2026-08-14T20:22:18.512Z"
-    },
-    "198b3d0ff6d4214f": {
-      "url": "https://togetter.com/li/2732994",
-      "summaryJa": [
-        "夏祭りのポップやポスターをAIで作るの本当にやめた方がいい、ぱっと見は整ってるけど美味しそうに見えない→最近やたら増えてきて違和感を持っている人が多いらしい",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-14T20:22:18.512Z"
-    },
-    "77b1cf3b09c3b3c2": {
-      "url": "https://pc.watch.impress.co.jp/docs/news/2132795.html",
-      "summaryJa": [
-        "ChatGPT、PC操作やWeb閲覧履歴を記録し、作業の自動化を助ける機能",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-14T20:22:18.512Z"
-    },
-    "c10e84c9b9ae39e1": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260814de44019",
-      "summaryJa": [
-        "大雨や土砂災害の特別警報が相次いで発表された千葉県では、14日夕方になって再び局地的に雨雲が発達し、激しい雨が降ったところがあります。",
-        "千葉県を含む関東では15日明け方にかけて激しい雨や非常に激しい雨が…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-14T20:22:18.512Z"
-    },
-    "84e24864001832a3": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260814de44176",
-      "summaryJa": [
-        "フィリピンのマルコス大統領は、日本との間で海洋の境界を画定するための交渉をめぐり、中国が対象に台湾の東の海域が含まれるなどとして反発していることについて、「2国",
-        "出典: NHKニュース 国際",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-14T20:22:18.512Z"
-    },
-    "f116f985d32b55b2": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260814de44188",
-      "summaryJa": [
-        "アメリカの個人消費の動向を示す小売業の売上高は、先月、前の月と比べて0.",
-        "6％減少しました。",
-        "ネット通販や自動車販売が落ち込んだことが主な要因で、金融市場ではFRB＝連邦準備制度理事会による早期の利上げ観…"
-      ],
-      "cachedAt": "2026-08-14T20:22:18.512Z"
-    },
-    "2c221755d73a1905": {
-      "url": "https://basecamp.com/managers",
-      "summaryJa": [
-        "Heads up!",
-        "This page uses features your browser doesn’t support.",
-        "Try a modern browser like Firefox or Chrome for the best experience."
-      ],
-      "cachedAt": "2026-08-14T20:22:18.512Z"
-    },
     "e09d799fa1b262f1": {
       "url": "https://zenn.dev/takeshi_teshima/articles/bae79b2f0f97be",
       "summaryJa": [
@@ -15228,6 +15165,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-12T20:18:08.296Z"
+    },
+    "fbb4c6ab199fa8c6": {
+      "url": "https://linebender.org/blog/jit-bitmap-text/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-13T02:49:07.518Z"
+    },
+    "d631de8e06918a9a": {
+      "url": "https://beyondloom.com/blog/postscript.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-13T02:49:07.518Z"
+    },
+    "ab8aa5571243beea": {
+      "url": "https://zenn.dev/matsu8/articles/a01ba3fc713e03",
+      "summaryJa": [
+        "はじめに 前回の記事（①Forward Propagation編）では、Transformerの各部品をnumpyだけで実装し、Forward Propagat",
+        "今回はその続きとして、各部品のBack Propagation（誤差逆伝播法）を実装し、損失から全てのパラメータまで勾配が流れることを確認していきます。",
+        "実装している途中で、「こういう学習内容のまとめは、AIの普及であまり価値がなくなるのでは？"
+      ],
+      "cachedAt": "2026-11-13T02:49:07.518Z"
+    },
+    "9ab435bfd5da65a2": {
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "summaryJa": [
+        "Rust 1.100",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-13T02:49:07.518Z"
+    },
+    "94d7a3b78a77446f": {
+      "url": "https://zenn.dev/takahiro_nago/articles/article-tauri-msi-desktop-shortcut",
+      "summaryJa": [
+        "はじめに Tauri の MSI インストーラーには、「ユーザーがデスクトップショートカットを削除しても、アプリを更新するたびに復活する」という問題がありました",
+        "NSIS 版のインストーラーでは起きない、MSI 版だけの挙動です。",
+        "この問題を tauri-bundler 側で修正し、Pull Request が 2026 年 11 月 12 日に dev ブランチへマージされました。"
+      ],
+      "cachedAt": "2026-11-13T02:49:07.518Z"
+    },
+    "e676935adce569a2": {
+      "url": "https://qiita.com/Rikuto_q/items/5b27251bb934f50bf903?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 今回、私は株式会社GENEROSITY様のもとでインターンシップを行わせていただき、その間に今回のハンドトラッキングで盆栽を手入れするアプリの企画立て",
+        "その過程を記していきます。",
+        "概要 今回私が開発したのは「MR盆栽」 これは現実空間上にバ."
+      ],
+      "cachedAt": "2026-11-13T02:49:07.519Z"
+    },
+    "ecaa9d14f1a29b68": {
+      "url": "https://zenn.dev/genda_jp/articles/18d1f780f6b41f",
+      "summaryJa": [
+        "2026年11月11日（米国時間）、AWSが AWS Emulator をリリースしました。",
+        "AWS SDKやAWS CLIの呼び出しを、クラウドではなく手元のエミュレーターが受けて、AWSと同じ形の応答を返すツールです。",
+        "https://github."
+      ],
+      "cachedAt": "2026-11-13T02:49:07.519Z"
+    },
+    "7c27bf54495c6e41": {
+      "url": "https://kew.edbn.me/blog/adsb-receiver/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-13T02:49:07.519Z"
     }
   }
 }
