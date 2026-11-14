@@ -197,6 +197,13 @@
       "edition": "midday",
       "theme": "手元の構造を整え、仕組みを紐解く",
       "path": "issues/2026-11-14-midday.json"
+    },
+    {
+      "issueNo": 255,
+      "date": "2026-11-15",
+      "edition": "morning",
+      "theme": "開かれた門戸と試される境界",
+      "path": "issues/2026-11-15-morning.json"
     }
   ]
 }

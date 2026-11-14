@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 255,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-15",
+  "dateDisplay": "Sunday, November 15, 2026",
+  "pressTimeJst": "2026-11-15 05:00",
+  "generatedAt": "2026-11-14T20:17:43.707Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "開かれた門戸と試される境界",
+    "note": "便利さや自律化の裏で露呈する設定ミスや環境の変化に対し、いかに手元の防衛力と安全な構造を保つかが問われています。"
+  },
+  "editorial": {
+    "comment": "hatebu-it-dd577865で解説されたCognitoの不用意な開放とAI攻撃ツールの事例は、手元のクラウド設定ひとつが即座に世界へ露出する怖さを教えてくれます。作業に入る前に自らのプロジェクトの認証構成を一度見直したくなります。—— YZRS Times 編集長",
+    "passedOver": "本日のスポーツ戦績や特定の一般政治トピックは、ものづくりと技術の関心に絞り込むため紙面から見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "強い雨",
+    "icon": "rain",
+    "tempMax": 14,
+    "tempMin": 12,
+    "precipChancePct": 100
+  },
+  "market": {
+    "fearGreed": {
+      "value": 13,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 65490,
+        "priceJpy": 10461675,
+        "change24hPct": -5.11,
+        "sparkline7d": [
+          75735,
+          74740.42,
+          74478.71,
+          74000.54,
+          73389.92,
+          68909.18,
+          65517.95
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1825.97,
+        "priceJpy": 291690,
+        "change24hPct": -6.49,
+        "sparkline7d": [
+          2233.24,
+          2124.38,
+          2112.37,
+          2067.12,
+          2042.52,
+          1948.59,
+          1829.79
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.135245,
+        "priceJpy": 21.6,
+        "change24hPct": -9.18,
+        "sparkline7d": [
+          0.150878,
+          0.146331,
+          0.14659,
+          0.145185,
+          0.146034,
+          0.149634,
+          0.136654
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 205.87,
+        "priceJpy": 32887,
+        "change24hPct": -9.36,
+        "sparkline7d": [
+          257.08,
+          238.74,
+          237.94,
+          230.56,
+          229.19,
+          226.55,
+          207.17
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-dd577865",
+    "nhk-top-b65e0368",
+    "hatebu-it-7890649a"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-9f56a955",
+        "yahoo-topics-aec39e8f",
+        "hatebu-it-ff6e48ea"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hn-front-e79d2782",
+        "hatebu-it-4f392b8a"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-75d2067d",
+        "gtrends-jp-1c0509ce"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-dd577865",
+      "title": "Cognitoの自己サインアップが有効だと、誰でもAWSの一時認証情報を取得できる：AI攻撃ツールARTEXの事例と確認したい設定3点 | DevelopersIO",
+      "url": "https://dev.classmethod.jp/articles/cognito-self-signup-agentic-attack/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-14T12:48:25.000Z",
+      "summaryJa": [
+        "どうも！",
+        "オペ部の西村祐二です！",
+        "S3 にフロントエンドを置き、Amazon Cognito のユーザープールでログインさせ、ID プールで AWS の一時認証情報を渡す。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "DevelopersIO"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 34,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 4.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-b65e0368",
+      "title": "全米の空港で運航停止措置 欠航1万便超 解除後も混乱続く",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-14T09:26:00.000Z",
+      "summaryJa": [
+        "アメリカ全土の空港では通信障害の影響で日本時間の14日朝からおよそ4時間半にわたってすべての航空機の運航を停止する措置がとられました。",
+        "この影響で欠航が1万便を超えるなど、措置が解除されたいまも混乱は…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "全米の空港で運航停止措置",
+        "欠航1万便超",
+        "解除後も混乱続く"
+      ],
+      "heat": {
+        "temperature": 57,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-7890649a",
+      "title": "AIについての追記",
+      "url": "https://www.ms.u-tokyo.ac.jp/~konno/grad_ai.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-14T10:13:39.000Z",
+      "summaryJa": [
+        "Associate Professor, Graduate School of Mathematical Sciences 私のところで大学院入学を希望する方へ",
+        ".",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "AIについての追記"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 43,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 4.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-9f56a955",
+      "title": "高市首相 東南アジアなどと「アジア版IEA」創設を提唱で調整",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261114de76011",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-14T15:46:05.000Z",
+      "summaryJa": [
+        "中東情勢を踏まえ、高市総理大臣は、17日に開かれる東南アジア各国などとの首脳会合で、石油備蓄の協調放出のルールづくりなどを検討する新たな枠組みの創設を提唱する方",
+        "アジア版のIEA＝国…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "高市首相",
+        "東南アジアなどと",
+        "アジア版IEA",
+        "創設を提唱で調整"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "yahoo-topics-aec39e8f",
+      "title": "MS 障害原因は過去の増強作業",
+      "url": "https://news.yahoo.co.jp/pickup/6602606?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-11-14T14:42:06.000Z",
+      "summaryJa": [
+        "MS 障害原因は過去の増強作業",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "MS",
+        "障害原因は過去の増強作業"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-ff6e48ea",
+      "title": "【速報】マネックス証券、マイナカード画像漏えいか",
+      "url": "https://www.47news.jp/15227159.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-13T15:36:10.000Z",
+      "summaryJa": [
+        "マネックス証券は13日、委託先が運営・管理する口座開設システムが不正アクセスを受け、運転免許証やマイナンバーカードといった本人確認書類の画像1592件と、最大1",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "速報",
+        "マネックス証券",
+        "マイナカード画像漏えいか"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 285,
+          "ageHours": 29,
+          "crossSources": 1,
+          "velocity": 9.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-e79d2782",
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-14T17:43:10.000Z",
+      "summaryJa": [
+        "Lovable apps expose passport details and more than",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Lovable",
+        "apps",
+        "expose",
+        "passport",
+        "details"
+      ],
+      "heat": {
+        "temperature": 90,
+        "signals": {
+          "hnPoints": 308,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 119.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-4f392b8a",
+      "title": "AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 | The Update",
+      "url": "https://theupdate.coffee/episodes/0J7UP7922ZXV6NBTt7w9Jl/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-14T07:45:30.000Z",
+      "summaryJa": [
+        "2026年11月14日|21分 AIチームを率いるとは、どういうこと？",
+        "with プログラマー・起業家 amachang Part1 ゲスト: 天野仁史（多摩川機構エンジニアリング株式会社 代表） 一人の会社に、開発チームがいくつも",
+        "コードを書くAI、デザインするAI、それらを束ねるAI。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AIチームを率いるとは",
+        "プログラマー",
+        "起業家",
+        "amachang",
+        "Part1"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 100,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-75d2067d",
+      "title": "lol worlds",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=lol%20worlds",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-14T19:50:00.000Z",
+      "summaryJa": [
+        "lol worlds",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "lol",
+        "worlds"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-1c0509ce",
+      "title": "ツイッチ",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%84%E3%82%A4%E3%83%83%E3%83%81",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-14T19:40:00.000Z",
+      "summaryJa": [
+        "ツイッチ",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "ツイッチ"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-d70d7341",
+      "title": "daisyaudio/DaisySP — A Powerful DSP Library in C++",
+      "url": "https://github.com/daisyaudio/DaisySP",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-09-28T19:32:16Z",
+      "summaryJa": [
+        "A Powerful DSP Library in C++",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "daisyaudio/DaisySP",
+        "Powerful",
+        "DSP",
+        "Library",
+        "C++"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1129,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "デジタル信号処理をC++で扱えるこのライブラリは、自作シンセサイザーや音響装置の制作に最適な道具となります。コードで音を組み立てる実験は、音楽とプログラミングの接点を探る良いきっかけになるでしょう。"
+  },
+  "unavailableSources": []
+}

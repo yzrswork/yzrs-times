@@ -300,6 +300,11 @@
       "id": "github-gems-f89c7825",
       "url": "https://github.com/homebridge/docker-homebridge",
       "date": "2026-11-14"
+    },
+    {
+      "id": "github-gems-d70d7341",
+      "url": "https://github.com/daisyaudio/DaisySP",
+      "date": "2026-11-15"
     }
   ]
 }
