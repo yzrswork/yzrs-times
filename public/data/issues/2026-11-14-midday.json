@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 254,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-14",
+  "dateDisplay": "Saturday, November 14, 2026",
+  "pressTimeJst": "2026-11-14 12:00",
+  "generatedAt": "2026-11-14T02:47:35.346Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "手元の構造を整え、仕組みを紐解く",
+    "note": "昼休みの一インプット。ツール構築、メモリ構造、運用の仕組みを解剖し、午後の手を動かす糧とする紙面。"
+  },
+  "editorial": {
+    "comment": "zenn-trend-af19e565で紹介されたNeovim向けのGUI「ng」の、余計な拡張を抱え込まずシンプルな窓だけを提供する割り切った姿勢に惹かれます。午後の開発作業においても、手元の道具から過飾を削ぎ落とす視点を与えてくれます。—— YZRS Times 編集長",
+    "passedOver": "米国の航空管制システム障害やインフラトラブルなど時事ニュースは昼刊の趣旨に鑑み見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "曇り",
+    "icon": "cloudy",
+    "tempMax": 19,
+    "tempMin": 10,
+    "precipChancePct": 4
+  },
+  "market": {
+    "fearGreed": {
+      "value": 13,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 67450,
+        "priceJpy": 10774784,
+        "change24hPct": -3.93,
+        "sparkline7d": [
+          75975.14,
+          75726.56,
+          74217.39,
+          73703.57,
+          74217.98,
+          71387.66,
+          68274.26
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1903.11,
+        "priceJpy": 304012,
+        "change24hPct": -4.38,
+        "sparkline7d": [
+          2244.75,
+          2232.23,
+          2107.07,
+          2064.97,
+          2076.02,
+          2014.61,
+          1930.23
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.143232,
+        "priceJpy": 22.88,
+        "change24hPct": -1.69,
+        "sparkline7d": [
+          0.153815,
+          0.150119,
+          0.146288,
+          0.144291,
+          0.150804,
+          0.148705,
+          0.145925
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 218.07,
+        "priceJpy": 34836,
+        "change24hPct": -2.16,
+        "sparkline7d": [
+          264.18,
+          246.88,
+          239.95,
+          233.93,
+          233.05,
+          225.24,
+          221.52
+        ]
+      }
+    ]
+  },
+  "top": [
+    "zenn-trend-af19e565",
+    "hatebu-it-be7118be",
+    "qiita-popular-75886c98"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hatebu-it-c7e8dc4e"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "zenn-trend-e6af3ca1",
+        "zenn-trend-df2ca3fc"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-e96cddcd",
+        "lobsters-a60c0dee",
+        "lobsters-eda9000f"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "zenn-trend-af19e565",
+      "title": "ng: Neovim のためのシンプルな GUI",
+      "url": "https://zenn.dev/shougo/articles/ng-nvim-simple-gui",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-13T10:49:55.000Z",
+      "summaryJa": [
+        "はじめに 私は今回 Linux 向けの Neovim GUIとして「ng」を作りました。",
+        "Go で書いた、最小限の GUI クライアントです。",
+        "https://github."
+      ],
+      "category": "programming",
+      "keywords": [
+        "ng",
+        "Neovim",
+        "GUI"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-be7118be",
+      "title": "Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例",
+      "url": "https://ktlog.net/posts/claude-code-ai-ecosystem",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-13T05:21:58.000Z",
+      "summaryJa": [
+        "公開 2026.",
+        "11.",
+        "08 Claude Codeのおすすめ環境を全体図で解説。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Codeのおすすめ環境を全体図で解説",
+        "ハーネス",
+        "スキル",
+        "MCPの仕組みと実例"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 384,
+          "ageHours": 21,
+          "crossSources": 1,
+          "velocity": 17.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-75886c98",
+      "title": "バックアップ HDD の「静かな死」を防ぐ仕組み ― smartctl でヘルスチェック",
+      "url": "https://qiita.com/r-jw/items/bd4721fccc457bf8e64a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-13T07:15:13.000Z",
+      "summaryJa": [
+        "この記事は、クリエーションライン株式会社の Tech Blog に掲載した記事の転載です。",
+        "元の記事：バックアップ HDD の「静かな死」を防ぐ仕組み ― smartctl でヘルスチェック 自宅のバックアップでよくあるのは、外付け HDD をもう 1",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "バックアップ",
+        "HDD",
+        "静かな死",
+        "smartctl"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-c7e8dc4e",
+      "title": "学生が発表で使ったスライドがAIを使っていたので使用ソフトを尋ねたら「全部AIです」と言われた、Figmaとかだと思ったらツールごと全部AIとHTMLで作ってた",
+      "url": "https://togetter.com/li/2770106",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-13T13:27:08.000Z",
+      "summaryJa": [
+        "渡邊 恵太 @100kw 今日は衝撃でした。",
+        "私「このスライドはAI使ってますよね？",
+        "ソフトはなんですか？"
+      ],
+      "category": "programming",
+      "keywords": [
+        "全部AIです"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 201,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 15.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-e6af3ca1",
+      "title": "5年後のエンジニアは、何に責任を持つのだろうか",
+      "url": "https://zenn.dev/ara_ta3/articles/thinking-about-engineers-five-years-from-now",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-13T05:03:44.000Z",
+      "summaryJa": [
+        "はじめに 最近は、AI Agentを使ってコードを書くことが日常になりました。",
+        "その一方で、自分で直接コードを書く頻度は本当に減ったと感じています。",
+        "何年もかけて少しずつ変わったというより、ここ2年も経たないうちの変化です。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "5年後のエンジニアは",
+        "何に責任を持つのだろうか"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 22,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-df2ca3fc",
+      "title": "仕組み編：Two-Towerによる検索システム（学習・推論・配信）",
+      "url": "https://zenn.dev/ca_kagglers/articles/two-tower-mechanism",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-13T01:55:36.000Z",
+      "summaryJa": [
+        "はじめに ihiratchです。",
+        "本記事では、検索・推薦タスクで使われる Two-Tower モデルについて解説します。",
+        "Two-Tower は、クエリとアイテムをそれぞれ別のニューラルネットワークでベクトルに変換し、その類似度から関連度を評価するモデルです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "仕組み編：Two",
+        "Towerによる検索システム",
+        "学習",
+        "推論",
+        "配信"
+      ],
+      "heat": {
+        "temperature": 47,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 25,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-e96cddcd",
+      "title": "Kildall's algorithm",
+      "url": "https://bike.github.io/posts/kildall.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-13T19:34:28.000Z",
+      "summaryJa": [
+        "I work on a new [Common] Lisp compiler called Cleavir.",
+        "Cleavir is the compiler part of Dr.",
+        "Robert Strandh’s project, SICL Comments"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Kildall",
+        "algorithm"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-a60c0dee",
+      "title": "Probabilistic data structures in Go",
+      "url": "https://antonz.org/probabilistic-data-structures/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-13T16:03:44.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Probabilistic",
+        "data",
+        "structures",
+        "Go"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-eda9000f",
+      "title": "Pointer Provenance in Rust vs C++",
+      "url": "https://sofiabelen.github.io/projects/pointer-provenance-in-rust-vs-cpp/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-13T18:37:30.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Pointer",
+        "Provenance",
+        "Rust",
+        "C++"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-f89c7825",
+      "title": "homebridge/docker-homebridge — Homebridge Docker. HomeKit support for the impatient using Docker on x86_64, Raspberry Pi (ARM64). Includes ffmpeg + libfdk-aac. ",
+      "url": "https://github.com/homebridge/docker-homebridge",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-13T11:22:21Z",
+      "summaryJa": [
+        "Homebridge Docker.",
+        "HomeKit support for the impatient using Docker on x86_64, Raspberry Pi (ARM64).",
+        "Includes ffmpeg + libfdk-aac."
+      ],
+      "category": "oss",
+      "keywords": [
+        "homebridge/docker",
+        "homebridge",
+        "Docker",
+        "HomeKit",
+        "support"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "HomeKit連携をDocker環境で手軽に動かすための堅実な構成です。家庭内の電子工作やIoT機器を自前の制御下に置く第一歩として刺激的です。"
+  },
+  "unavailableSources": []
+}

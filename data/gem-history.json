@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-779568a9",
-      "url": "https://github.com/cesanta/mongoose-os",
-      "date": "2026-10-15"
-    },
-    {
-      "id": "show-hn-aaad82ae",
-      "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
-      "date": "2026-10-15"
-    },
-    {
       "id": "github-gems-bb01f35a",
       "url": "https://github.com/HermannBjorgvin/Clawdmeter",
       "date": "2026-10-16"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-1c66d8af",
       "url": "https://github.com/Ka1-S/LYNX-SHARE",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "github-gems-f89c7825",
+      "url": "https://github.com/homebridge/docker-homebridge",
       "date": "2026-11-14"
     }
   ]

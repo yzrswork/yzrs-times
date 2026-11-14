@@ -1,343 +1,164 @@
 {
   "schemaVersion": 1,
-  "issueNo": 253,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 254,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-11-14",
   "dateDisplay": "Saturday, November 14, 2026",
-  "pressTimeJst": "2026-11-14 05:00",
-  "generatedAt": "2026-11-13T20:17:45.403Z",
+  "pressTimeJst": "2026-11-14 12:00",
+  "generatedAt": "2026-11-14T02:47:35.346Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.1-flash-lite",
+    "model": "gemini-3.5-flash",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "複雑系の綻びと検証の行方",
-    "note": "巨大システムの接続障害から数理モデルの挙動まで、手元の環境がいかに脆く、あるいは何に支えられているかを凝視する朝。"
+    "title": "手元の構造を整え、仕組みを紐解く",
+    "note": "昼休みの一インプット。ツール構築、メモリ構造、運用の仕組みを解剖し、午後の手を動かす糧とする紙面。"
   },
   "editorial": {
-    "comment": "システム障害の現場での対立を描いたhatebu-it-868b7ea2（紙面外）には痛ましさを感じます。MS障害の影響範囲を詳細に追ったpiyologの冷静なまとめこそ、作り手が自らの環境を守るための羅針盤になります。—— YZRS Times 編集長",
-    "passedOver": "スポーツや芸能のトレンドは、日々の喧騒として今朝は静観しました。",
+    "comment": "zenn-trend-af19e565で紹介されたNeovim向けのGUI「ng」の、余計な拡張を抱え込まずシンプルな窓だけを提供する割り切った姿勢に惹かれます。午後の開発作業においても、手元の道具から過飾を削ぎ落とす視点を与えてくれます。—— YZRS Times 編集長",
+    "passedOver": "米国の航空管制システム障害やインフラトラブルなど時事ニュースは昼刊の趣旨に鑑み見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
     "summary": "曇り",
     "icon": "cloudy",
-    "tempMax": 18,
-    "tempMin": 11,
-    "precipChancePct": 2
+    "tempMax": 19,
+    "tempMin": 10,
+    "precipChancePct": 4
   },
   "market": {
     "fearGreed": {
-      "value": 20,
+      "value": 13,
       "label": "Extreme Fear"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 69032,
-        "priceJpy": 11030302,
-        "change24hPct": -3.41,
+        "priceUsd": 67450,
+        "priceJpy": 10774784,
+        "change24hPct": -3.93,
         "sparkline7d": [
-          75805.88,
-          75776.38,
-          74780.55,
-          74774.77,
-          73979.72,
-          71556.5,
-          68930.61
+          75975.14,
+          75726.56,
+          74217.39,
+          73703.57,
+          74217.98,
+          71387.66,
+          68274.26
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1952.46,
-        "priceJpy": 311975,
-        "change24hPct": -3.14,
+        "priceUsd": 1903.11,
+        "priceJpy": 304012,
+        "change24hPct": -4.38,
         "sparkline7d": [
-          2233.04,
-          2237.05,
-          2138.72,
-          2114.36,
-          2058.13,
-          2002.9,
-          1942.84
+          2244.75,
+          2232.23,
+          2107.07,
+          2064.97,
+          2076.02,
+          2014.61,
+          1930.23
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.149087,
-        "priceJpy": 23.82,
-        "change24hPct": 1.07,
+        "priceUsd": 0.143232,
+        "priceJpy": 22.88,
+        "change24hPct": -1.69,
         "sparkline7d": [
-          0.15546,
-          0.151208,
-          0.146995,
-          0.149189,
-          0.147477,
-          0.1433,
-          0.149575
+          0.153815,
+          0.150119,
+          0.146288,
+          0.144291,
+          0.150804,
+          0.148705,
+          0.145925
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 227.08,
-        "priceJpy": 36284,
-        "change24hPct": 1.02,
+        "priceUsd": 218.07,
+        "priceJpy": 34836,
+        "change24hPct": -2.16,
         "sparkline7d": [
-          264.91,
-          249.42,
-          241.42,
-          238.94,
-          229.67,
-          225.78,
-          225.56
+          264.18,
+          246.88,
+          239.95,
+          233.93,
+          233.05,
+          225.24,
+          221.52
         ]
       }
     ]
   },
   "top": [
-    "hatebu-it-a5c8c85f",
-    "hn-front-e3009f1a",
-    "hn-front-e1468a2f"
+    "zenn-trend-af19e565",
+    "hatebu-it-be7118be",
+    "qiita-popular-75886c98"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "hatebu-it-0725fcfa",
-        "nhk-top-012a83ca",
-        "yahoo-topics-15de41b0",
-        "nhk-top-cb4ab13e"
+        "hatebu-it-c7e8dc4e"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hatebu-it-be7118be"
+        "zenn-trend-e6af3ca1",
+        "zenn-trend-df2ca3fc"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-b6ce03db",
-        "gtrends-jp-111b90ac",
-        "gtrends-jp-f4f9f745"
+        "lobsters-e96cddcd",
+        "lobsters-a60c0dee",
+        "lobsters-eda9000f"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hatebu-it-a5c8c85f",
-      "title": "2026年11月に発生したMicrosoft 365の接続障害についてまとめてみた - piyolog",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/11/13/114230",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-13T03:20:28.000Z",
+      "id": "zenn-trend-af19e565",
+      "title": "ng: Neovim のためのシンプルな GUI",
+      "url": "https://zenn.dev/shougo/articles/ng-nvim-simple-gui",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-13T10:49:55.000Z",
       "summaryJa": [
-        "2026年11月13日、Microsoftは、Exchange Onlineを中心に複数のMicrosoft 365サービスで接続障害が起きていると公表しました",
-        "ここでは関連する情報をまとめます。",
-        "Exchange Onlineの接続障害が複数サービスへ拡大 障害はExchange Onlineのメールボックスに接続できない問題として始まり、複数のMicr"
+        "はじめに 私は今回 Linux 向けの Neovim GUIとして「ng」を作りました。",
+        "Go で書いた、最小限の GUI クライアントです。",
+        "https://github."
       ],
       "category": "programming",
       "keywords": [
-        "365の接続障害についてまとめてみた",
-        "piyolog"
+        "ng",
+        "Neovim",
+        "GUI"
       ],
       "heat": {
-        "temperature": 81,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 205,
-          "ageHours": 17,
-          "crossSources": 1,
-          "velocity": 12.1
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-e3009f1a",
-      "title": "After 600 experiments, here's what I discovered about JEPA world models",
-      "url": "https://haddyalchaer.com/jepa",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-13T17:55:28.000Z",
-      "summaryJa": [
-        "After 600 experiments, here's what I discovered ab",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "experiments",
-        "discovered",
-        "JEPA",
-        "world",
-        "models"
-      ],
-      "heat": {
-        "temperature": 84,
-        "signals": {
-          "hnPoints": 126,
-          "hatebuCount": 0,
-          "ageHours": 2,
-          "crossSources": 1,
-          "velocity": 53.1
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-e1468a2f",
-      "title": "Models can now transmit viruses in weight-space",
-      "url": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-13T18:33:35.000Z",
-      "summaryJa": [
-        "Models can now transmit viruses in weight-space",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Models",
-        "transmit",
-        "viruses",
-        "weight",
-        "space"
-      ],
-      "heat": {
-        "temperature": 78,
-        "signals": {
-          "hnPoints": 74,
-          "hatebuCount": 0,
-          "ageHours": 2,
-          "crossSources": 1,
-          "velocity": 42.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-0725fcfa",
-      "title": "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
-      "url": "https://k-tai.watch.impress.co.jp/docs/news/2156449.html",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-13T12:34:09.000Z",
-      "summaryJa": [
-        "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "マネックス証券"
-      ],
-      "heat": {
-        "temperature": 82,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 83,
-          "ageHours": 8,
-          "crossSources": 1,
-          "velocity": 10.7
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-012a83ca",
-      "title": "ヤマダデンキ 不正アクセスで最大350万件が影響受けた可能性",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75739",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-13T14:39:16.000Z",
-      "summaryJa": [
-        "ヤマダデンキは、リフォームの管理システムが不正アクセスを受け、氏名、住所、電話番号のほかリフォームの実施履歴など最大で350万件の情報が影響を受けた可能性がある",
-        "こうした情報が外部に…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "ヤマダデンキ"
-      ],
-      "heat": {
-        "temperature": 53,
+        "temperature": 50,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 6,
+          "ageHours": 16,
           "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "yahoo-topics-15de41b0",
-      "title": "「週明け怖い」MS障害の影響広く",
-      "url": "https://news.yahoo.co.jp/pickup/6602468?source=rss",
-      "source": "Yahoo!ニュース トピックス",
-      "sourceId": "yahoo-topics",
-      "publishedAt": "2026-11-13T13:14:51.000Z",
-      "summaryJa": [
-        "「週明け怖い」MS障害の影響広く",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "週明け怖い",
-        "MS障害の影響広く"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 7,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-cb4ab13e",
-      "title": "マイクロソフトの接続障害「日本は比較的安定した状態続く」",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75121",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-13T13:46:55.000Z",
-      "summaryJa": [
-        "アメリカのIT大手「マイクロソフト」の「マイクロソフト365」と呼ばれるサービスで発生した接続障害の復旧状況についてマイクロソフトは、日本では比較的安定した状態",
-        "ヨーロッパや北…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "マイクロソフトの接続障害",
-        "日本は比較的安定した状態続く"
-      ],
-      "heat": {
-        "temperature": 58,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 7,
-          "crossSources": 2,
           "velocity": 0
         }
       },
@@ -364,67 +185,42 @@
         "MCPの仕組みと実例"
       ],
       "heat": {
-        "temperature": 85,
+        "temperature": 80,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 274,
-          "ageHours": 15,
+          "hatebuCount": 384,
+          "ageHours": 21,
           "crossSources": 1,
-          "velocity": 18.4
+          "velocity": 17.9
         }
       },
       "image": null
     },
     {
-      "id": "gtrends-jp-b6ce03db",
-      "title": "介護報酬",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E4%BB%8B%E8%AD%B7%E5%A0%B1%E9%85%AC",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-13T20:00:00.000Z",
+      "id": "qiita-popular-75886c98",
+      "title": "バックアップ HDD の「静かな死」を防ぐ仕組み ― smartctl でヘルスチェック",
+      "url": "https://qiita.com/r-jw/items/bd4721fccc457bf8e64a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-13T07:15:13.000Z",
       "summaryJa": [
-        "介護報酬",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
+        "この記事は、クリエーションライン株式会社の Tech Blog に掲載した記事の転載です。",
+        "元の記事：バックアップ HDD の「静かな死」を防ぐ仕組み ― smartctl でヘルスチェック 自宅のバックアップでよくあるのは、外付け HDD をもう 1",
+        "."
       ],
-      "category": "trends",
+      "category": "programming",
       "keywords": [
-        "介護報酬"
+        "バックアップ",
+        "HDD",
+        "静かな死",
+        "smartctl"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 49,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "gtrends-jp-111b90ac",
-      "title": "桐谷広人",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%A1%90%E8%B0%B7%E5%BA%83%E4%BA%BA",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-13T20:00:00.000Z",
-      "summaryJa": [
-        "桐谷広人",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "trends",
-      "keywords": [
-        "桐谷広人"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 20,
           "crossSources": 1,
           "velocity": 0
         }
@@ -432,28 +228,179 @@
       "image": null
     },
     {
-      "id": "gtrends-jp-f4f9f745",
-      "title": "木村 拓哉",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%9C%A8%E6%9D%91%20%E6%8B%93%E5%93%89",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-13T19:50:00.000Z",
+      "id": "hatebu-it-c7e8dc4e",
+      "title": "学生が発表で使ったスライドがAIを使っていたので使用ソフトを尋ねたら「全部AIです」と言われた、Figmaとかだと思ったらツールごと全部AIとHTMLで作ってた",
+      "url": "https://togetter.com/li/2770106",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-13T13:27:08.000Z",
       "summaryJa": [
-        "木村 拓哉",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
+        "渡邊 恵太 @100kw 今日は衝撃でした。",
+        "私「このスライドはAI使ってますよね？",
+        "ソフトはなんですか？"
       ],
-      "category": "trends",
+      "category": "programming",
       "keywords": [
-        "木村",
-        "拓哉"
+        "全部AIです"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 201,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 15.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-e6af3ca1",
+      "title": "5年後のエンジニアは、何に責任を持つのだろうか",
+      "url": "https://zenn.dev/ara_ta3/articles/thinking-about-engineers-five-years-from-now",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-13T05:03:44.000Z",
+      "summaryJa": [
+        "はじめに 最近は、AI Agentを使ってコードを書くことが日常になりました。",
+        "その一方で、自分で直接コードを書く頻度は本当に減ったと感じています。",
+        "何年もかけて少しずつ変わったというより、ここ2年も経たないうちの変化です。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "5年後のエンジニアは",
+        "何に責任を持つのだろうか"
+      ],
+      "heat": {
+        "temperature": 48,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 22,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-df2ca3fc",
+      "title": "仕組み編：Two-Towerによる検索システム（学習・推論・配信）",
+      "url": "https://zenn.dev/ca_kagglers/articles/two-tower-mechanism",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-13T01:55:36.000Z",
+      "summaryJa": [
+        "はじめに ihiratchです。",
+        "本記事では、検索・推薦タスクで使われる Two-Tower モデルについて解説します。",
+        "Two-Tower は、クエリとアイテムをそれぞれ別のニューラルネットワークでベクトルに変換し、その類似度から関連度を評価するモデルです。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "仕組み編：Two",
+        "Towerによる検索システム",
+        "学習",
+        "推論",
+        "配信"
+      ],
+      "heat": {
+        "temperature": 47,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 25,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-e96cddcd",
+      "title": "Kildall's algorithm",
+      "url": "https://bike.github.io/posts/kildall.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-13T19:34:28.000Z",
+      "summaryJa": [
+        "I work on a new [Common] Lisp compiler called Cleavir.",
+        "Cleavir is the compiler part of Dr.",
+        "Robert Strandh’s project, SICL Comments"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Kildall",
+        "algorithm"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-a60c0dee",
+      "title": "Probabilistic data structures in Go",
+      "url": "https://antonz.org/probabilistic-data-structures/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-13T16:03:44.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Probabilistic",
+        "data",
+        "structures",
+        "Go"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-eda9000f",
+      "title": "Pointer Provenance in Rust vs C++",
+      "url": "https://sofiabelen.github.io/projects/pointer-provenance-in-rust-vs-cpp/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-13T18:37:30.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Pointer",
+        "Provenance",
+        "Rust",
+        "C++"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 8,
           "crossSources": 1,
           "velocity": 0
         }
@@ -463,38 +410,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-1c66d8af",
-      "title": "Ka1-S/LYNX-SHARE — LYNX SHARE — lightweight open-source DAW in C++20/JUCE with the FL Studio workflow: Channel Rack, Piano Roll, Playlist, Mixer and .flp import",
-      "url": "https://github.com/Ka1-S/LYNX-SHARE",
+      "id": "github-gems-f89c7825",
+      "title": "homebridge/docker-homebridge — Homebridge Docker. HomeKit support for the impatient using Docker on x86_64, Raspberry Pi (ARM64). Includes ffmpeg + libfdk-aac. ",
+      "url": "https://github.com/homebridge/docker-homebridge",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-11-13T20:12:42Z",
+      "publishedAt": "2026-11-13T11:22:21Z",
       "summaryJa": [
-        "LYNX SHARE — lightweight open-source DAW in C++20/JUCE with the FL Studio workfl",
-        "flp import",
-        "詳細は元記事を参照してください。"
+        "Homebridge Docker.",
+        "HomeKit support for the impatient using Docker on x86_64, Raspberry Pi (ARM64).",
+        "Includes ffmpeg + libfdk-aac."
       ],
       "category": "oss",
       "keywords": [
-        "Ka1",
-        "S/LYNX",
-        "SHARE",
-        "LYNX",
-        "lightweight"
+        "homebridge/docker",
+        "homebridge",
+        "Docker",
+        "HomeKit",
+        "support"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 50,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 15,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "FL Studioのワークフローを模した軽量DAWのC++実装は、音楽とプログラミングの交差点を探るあなたに最適です。そのコードの軽やかさは、午後の創作のインスピレーションを刺激するはずです。"
+    "reason": "HomeKit連携をDocker環境で手軽に動かすための堅実な構成です。家庭内の電子工作やIoT機器を自前の制御下に置く第一歩として刺激的です。"
   },
   "unavailableSources": []
 }

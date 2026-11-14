@@ -190,6 +190,13 @@
       "edition": "morning",
       "theme": "複雑系の綻びと検証の行方",
       "path": "issues/2026-11-14-morning.json"
+    },
+    {
+      "issueNo": 254,
+      "date": "2026-11-14",
+      "edition": "midday",
+      "theme": "手元の構造を整え、仕組みを紐解く",
+      "path": "issues/2026-11-14-midday.json"
     }
   ]
 }
