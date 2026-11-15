@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 257,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-16",
+  "dateDisplay": "Monday, November 16, 2026",
+  "pressTimeJst": "2026-11-16 05:00",
+  "generatedAt": "2026-11-15T20:17:42.388Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "障害が生む波紋と、作り手の創意",
+    "note": "クラウドの障害が実世界へ及ぶ影を直視しつつ、AIや手元のツールを活用して自らの表現を拡大する作り手たちの歩みを集めました。"
+  },
+  "editorial": {
+    "comment": "hatebu-it-16424844で紹介されているCAD『SolidCraft』の爆速開発は、個人開発の規模感を根底から変える刺激に満ちています。AIを単なる補完ではなく設計の推進力として使いこなす姿勢は、午前の作業へ向かう思考を強く鼓舞してくれます。—— YZRS Times 編集長",
+    "passedOver": "AI生成コードのオープンソース化に関する議論（hn-front-48cfed10）は関心を集めましたが、制度論が先行しており手元の創作への示唆が浅いため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "曇り",
+    "icon": "cloudy",
+    "tempMax": 19,
+    "tempMin": 12,
+    "precipChancePct": 47
+  },
+  "market": {
+    "fearGreed": {
+      "value": 10,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 64689,
+        "priceJpy": 10324334,
+        "change24hPct": -1.24,
+        "sparkline7d": [
+          75849.18,
+          75266.77,
+          73695.34,
+          73568.09,
+          69289.7,
+          65874.67,
+          64688.64
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1816.65,
+        "priceJpy": 289939,
+        "change24hPct": -0.49,
+        "sparkline7d": [
+          2230.23,
+          2132.14,
+          2060.61,
+          2048.98,
+          1950.13,
+          1852.24,
+          1814.29
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.139281,
+        "priceJpy": 22.23,
+        "change24hPct": 3.05,
+        "sparkline7d": [
+          0.150119,
+          0.147423,
+          0.144997,
+          0.145847,
+          0.146686,
+          0.140237,
+          0.138247
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 207.83,
+        "priceJpy": 33170,
+        "change24hPct": 1.09,
+        "sparkline7d": [
+          245.89,
+          238.9,
+          230.18,
+          228.67,
+          222.18,
+          212.89,
+          207.79
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-8bdd672b",
+    "hatebu-it-16424844",
+    "hatebu-it-152bf8c4"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-d4a78f1e",
+        "nhk-top-4f18149a",
+        "nhk-top-28e6e907"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hn-front-9091625b",
+        "hn-front-7f157c11"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-8efa1bc2",
+        "gtrends-jp-461f1208",
+        "gtrends-jp-2cbd9fc3"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-8bdd672b",
+      "title": "独プールで15人体調不良　マイクロソフト障害影響 | NEWSjp",
+      "url": "https://news.jp/i/1494496378441958289",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-15T02:57:16.000Z",
+      "summaryJa": [
+        "【ベルリン共同】ドイツ公共放送WDRは14日、米IT大手マイクロソフトの主力業務ソフトの大規模障害による影響で、西部ブリュールのテーマパーク内にあるプールの利用",
+        "障害により安全管理システムの警報メールが担当者に届かず、塩素を注入する装置の不具合に気付かず水中塩素濃度が著し.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "独プールで15人体調不良",
+        "マイクロソフト障害影響",
+        "NEWSjp"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 300,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 17.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-16424844",
+      "title": "個人開発で5週間150万DL、AIと爆速で作るCAD「SolidCraft」 - FabScene（ファブシーン）",
+      "url": "https://fabscene.com/new/interview/solidcraft-open-source-cad-ai-1-5m-downloads-brennen-herbruck/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-14T23:49:57.000Z",
+      "summaryJa": [
+        "Claude CodeやCodexのようなAIコーディングツールが広がり、個人が手がけられるソフトウェアの規模が変わりつつある。",
+        "米国の開発者Brennen Herbruck氏が2026年10月に書き始めたオープンソースの3D CAD「SolidCraft」は、その一例だ。",
+        "公開から約5週間で正式版を58回リリースし、GitHubからのダウンロードは約150万回、ス."
+      ],
+      "category": "programming",
+      "keywords": [
+        "個人開発で5週間150万DL",
+        "AIと爆速で作るCAD",
+        "SolidCraft",
+        "FabScene",
+        "ファブシーン"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 258,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 12.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-152bf8c4",
+      "title": "脱WordPress：10年超の個人ブログをAstro + Cloudflare Workersへ移行しPageSpeed 100点を実現",
+      "url": "https://zenn.dev/unsoluble_sugar/articles/8cdf1efc01e6cb",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-15T04:23:12.000Z",
+      "summaryJa": [
+        "はじめに 10 年以上 WordPress で運用してきた個人ブログを Astro + Cloudflare Workers の静的サイト に移行しました。",
+        "移行の経緯と読者向けのまとめはブログ側の記事に書いています。",
+        "この記事では技術的な中身をまとめます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Cloudflare",
+        "Workersへ移行しPageSpeed",
+        "100点を実現"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 128,
+          "ageHours": 16,
+          "crossSources": 2,
+          "velocity": 8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-d4a78f1e",
+      "title": "福岡市長選挙 再選挙へ 候補者13人 法定得票数に届かず",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76099",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-15T17:17:40.000Z",
+      "summaryJa": [
+        "新人13人の争いとなった福岡市長選挙は、いずれの候補者も当選に必要な有効投票数の4分の1を獲得できず、公職選挙法に基づき再選挙が行われることになりました。",
+        "政令指定都市の市長選挙で再選挙が行われるのは、…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "福岡市長選挙",
+        "再選挙へ",
+        "候補者13人",
+        "法定得票数に届かず"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-4f18149a",
+      "title": "ASEAN首脳会議開幕 ミャンマー本格復帰の議論は先送り",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76209",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-15T12:49:13.000Z",
+      "summaryJa": [
+        "ASEAN＝東南アジア諸国連合の首脳会議が15日行われ、焦点の1つになっていたミャンマー情勢をめぐっては加盟国の間で意見が分かれ、本格復帰に向けた議論は先送りさ",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ASEAN首脳会議開幕",
+        "ミャンマー本格復帰の議論は先送り"
+      ],
+      "heat": {
+        "temperature": 58,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-28e6e907",
+      "title": "野球日本代表 韓国に5対1で勝利し大会3連覇",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76311",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-15T16:37:18.000Z",
+      "summaryJa": [
+        "野球の国際大会「アジアプロ野球チャンピオンシップ」は、15日決勝が行われ日本がソフトバンクの正木智也選手のスリーランホームランなどで韓国に5対1で勝って、大会3",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "野球日本代表",
+        "韓国に5対1で勝利し大会3連覇"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-9091625b",
+      "title": "The MacBook Pro's OLED PWM problem",
+      "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-15T13:15:22.000Z",
+      "summaryJa": [
+        "The MacBook Pro's OLED PWM problem",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "MacBook",
+        "Pro",
+        "OLED",
+        "PWM",
+        "problem"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 309,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 43.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-7f157c11",
+      "title": "Emacs Is My Browser",
+      "url": "https://joshblais.com/blog/emacs-as-my-browser/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-15T15:21:21.000Z",
+      "summaryJa": [
+        "Emacs Is My Browser",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Emacs",
+        "Browser"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 120,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 24.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-8efa1bc2",
+      "title": "金融資産",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E9%87%91%E8%9E%8D%E8%B3%87%E7%94%A3",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-15T20:00:00.000Z",
+      "summaryJa": [
+        "金融資産",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "金融資産"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-461f1208",
+      "title": "藤井聡太",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E8%97%A4%E4%BA%95%E8%81%A1%E5%A4%AA",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-15T19:40:00.000Z",
+      "summaryJa": [
+        "藤井聡太",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "藤井聡太"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-2cbd9fc3",
+      "title": "利益",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E5%88%A9%E7%9B%8A",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-15T19:50:00.000Z",
+      "summaryJa": [
+        "利益",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "利益"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-d4a9ebeb",
+      "title": "aitjcize/esp32-photoframe — Feature-rich firmware for ESP32-based e-paper displays with superior image quality.",
+      "url": "https://github.com/aitjcize/esp32-photoframe",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-14T09:31:33Z",
+      "summaryJa": [
+        "Feature-rich firmware for ESP32-based e-paper displays with superior image quali",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "aitjcize/esp32",
+        "photoframe",
+        "Feature",
+        "rich",
+        "firmware"
+      ],
+      "heat": {
+        "temperature": 44,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 35,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "ESP32を活用した電子ペーパー用ファームウェアであり、表示クオリティと省電力を極限まで高める工夫が詰まっています。自作ハードウェアの仕上げにおいて、細部の質感にこだわりたい作風の読者に強く響く一品です。"
+  },
+  "unavailableSources": []
+}

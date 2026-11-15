@@ -1,114 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "fc4f705487c0283b": {
-      "url": "https://zenn.dev/gacchi/articles/my-cornix-setting",
-      "summaryJa": [
-        "Keychronとギズモード・ジャパンが共同開発したKeychron Orca echoのクラウドファンディングが6億円に迫るなど、分割キーボードが最近盛り上が",
-        "私は、昨今の盛り上がりの火付け役となったと思われるCornixを使っているのですが、いろいろと試行錯誤しながら設定を変えてきました。",
-        "変更するたびに毎回「今回は完璧だな！"
-      ],
-      "cachedAt": "2026-08-17T02:50:05.603Z"
-    },
-    "131ad7139eb2d0c1": {
-      "url": "https://voluntas.ghost.io/local-llm-2026-08/",
-      "summaryJa": [
-        "NVIDIA DGX Spark 互換機 (以下 Spark) を 2 台購入し、クラスター起動して ローカルで DeepSeek V4 Flash 0731 ",
-        "前提悪いのでそもそもコスパを検討するなら API 利用をすべきなので、コスト面でのメリットはとても薄い。",
-        "速度まずローカル LLM の一番気になっていた「速度」だが."
-      ],
-      "cachedAt": "2026-08-17T02:50:05.603Z"
-    },
-    "e17ea68148d61c7c": {
-      "url": "https://www.ponylang.io/blog/2026/08/ponys-arena-allocator/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-17T02:50:05.603Z"
-    },
-    "0ef5795694b3dbb2": {
-      "url": "https://rvembedded.com/blog_post/12/",
-      "summaryJa": [
-        "A 3rd World Embedded Engineer Responds to \"RISC-V ",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-17T02:50:05.603Z"
-    },
-    "6f147f5037dfb6fd": {
-      "url": "https://tech.techtouch.jp/entry/cloudfront-realtime-log-with-rust",
-      "summaryJa": [
-        "テックタッチの SRE チームの tabito です。",
-        "Rust, AWS, Terraform, Lambda が大好きです。",
-        "最近は、業務外で Terraform の AWS Provider にコントリビュートしています （コントリビュートを始めてから約1年で、マージされたPR数は約"
-      ],
-      "cachedAt": "2026-08-17T02:50:05.603Z"
-    },
-    "2a253b3ab75e6c98": {
-      "url": "https://zenn.dev/aws_japan/articles/2b62886aa8735e",
-      "summaryJa": [
-        "皆さんは仕事でどれぐらいのアプリケーションを使用するでしょうか。",
-        "GitHub、Slack、Notion、Outlook/Gmail・・・などの SaaS はもちろん、社内の業務システムもあるでしょう。",
-        "AI エージェントに仕事を任せるとき、これらのサービスと連携させたくなるのは自然です。"
-      ],
-      "cachedAt": "2026-08-17T02:50:05.603Z"
-    },
-    "82737ed8e25dd988": {
-      "url": "https://zenn.dev/r1013t/articles/37669abac10840",
-      "summaryJa": [
-        "はじめに Solid 2.",
-        "0 が RC になりました。",
-        "公式ブログを読みつつ触ってみましたので共有します。"
-      ],
-      "cachedAt": "2026-08-17T02:50:05.603Z"
-    },
-    "26f0ad2c241cbd01": {
-      "url": "https://qiita.com/Omizu-25/items/555c6319df5a97d3c90f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに こんにちは！",
-        "KDDIアイレット株式会社の水野 永遠です。",
-        "この記事は「2026 Japan AWS Jr."
-      ],
-      "cachedAt": "2026-08-17T02:50:05.603Z"
-    },
-    "803162887b9693d4": {
-      "url": "https://zenn.dev/gamella/articles/f5e6bddab37c8d",
-      "summaryJa": [
-        "AlpacaTechの北山です。",
-        "今回は大作、かつ、かなりマニアックな話題なので、興味のある人だけお付き合いください。",
-        "発端は以下のXのやり取りでした。"
-      ],
-      "cachedAt": "2026-08-17T02:50:05.603Z"
-    },
-    "4894b420e1f2f19a": {
-      "url": "https://www.benjoffe.com/fast-day-of-week",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-17T02:50:05.603Z"
-    },
-    "572807654d55fb67": {
-      "url": "https://unsung.aresluna.org/i-think-theres-a-lot-of-value-in-these/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-17T02:50:05.603Z"
-    },
-    "d70982af535293e8": {
-      "url": "https://github.com/nRF24/RF24",
-      "summaryJa": [
-        "OSI Layer 2 driver for nRF24L01 on Arduino & Raspberry Pi/Linux Devices",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-17T02:50:05.603Z"
-    },
     "34fc82f82586ad7b": {
       "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
       "summaryJa": [
@@ -15282,6 +15174,114 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-15T02:47:59.669Z"
+    },
+    "8bdd672bc25655a1": {
+      "url": "https://news.jp/i/1494496378441958289",
+      "summaryJa": [
+        "【ベルリン共同】ドイツ公共放送WDRは14日、米IT大手マイクロソフトの主力業務ソフトの大規模障害による影響で、西部ブリュールのテーマパーク内にあるプールの利用",
+        "障害により安全管理システムの警報メールが担当者に届かず、塩素を注入する装置の不具合に気付かず水中塩素濃度が著し.",
+        "."
+      ],
+      "cachedAt": "2026-11-15T20:18:01.631Z"
+    },
+    "1642484407920383": {
+      "url": "https://fabscene.com/new/interview/solidcraft-open-source-cad-ai-1-5m-downloads-brennen-herbruck/",
+      "summaryJa": [
+        "Claude CodeやCodexのようなAIコーディングツールが広がり、個人が手がけられるソフトウェアの規模が変わりつつある。",
+        "米国の開発者Brennen Herbruck氏が2026年10月に書き始めたオープンソースの3D CAD「SolidCraft」は、その一例だ。",
+        "公開から約5週間で正式版を58回リリースし、GitHubからのダウンロードは約150万回、ス."
+      ],
+      "cachedAt": "2026-11-15T20:18:01.631Z"
+    },
+    "152bf8c4e614a3ee": {
+      "url": "https://zenn.dev/unsoluble_sugar/articles/8cdf1efc01e6cb",
+      "summaryJa": [
+        "はじめに 10 年以上 WordPress で運用してきた個人ブログを Astro + Cloudflare Workers の静的サイト に移行しました。",
+        "移行の経緯と読者向けのまとめはブログ側の記事に書いています。",
+        "この記事では技術的な中身をまとめます。"
+      ],
+      "cachedAt": "2026-11-15T20:18:01.631Z"
+    },
+    "d4a78f1ef361219a": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76099",
+      "summaryJa": [
+        "新人13人の争いとなった福岡市長選挙は、いずれの候補者も当選に必要な有効投票数の4分の1を獲得できず、公職選挙法に基づき再選挙が行われることになりました。",
+        "政令指定都市の市長選挙で再選挙が行われるのは、…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-15T20:18:01.631Z"
+    },
+    "4f18149a44c89cd2": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76209",
+      "summaryJa": [
+        "ASEAN＝東南アジア諸国連合の首脳会議が15日行われ、焦点の1つになっていたミャンマー情勢をめぐっては加盟国の間で意見が分かれ、本格復帰に向けた議論は先送りさ",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-15T20:18:01.631Z"
+    },
+    "28e6e90736c42155": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76311",
+      "summaryJa": [
+        "野球の国際大会「アジアプロ野球チャンピオンシップ」は、15日決勝が行われ日本がソフトバンクの正木智也選手のスリーランホームランなどで韓国に5対1で勝って、大会3",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-15T20:18:01.631Z"
+    },
+    "b14335f00a8d6654": {
+      "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+      "summaryJa": [
+        "The MacBook Pro's OLED PWM problem",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-15T20:18:01.631Z"
+    },
+    "2d856116026bff1c": {
+      "url": "https://joshblais.com/blog/emacs-as-my-browser/",
+      "summaryJa": [
+        "Emacs Is My Browser",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-15T20:18:01.631Z"
+    },
+    "8efa1bc216b0d7d5": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E9%87%91%E8%9E%8D%E8%B3%87%E7%94%A3",
+      "summaryJa": [
+        "金融資産",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-15T20:18:01.631Z"
+    },
+    "461f120803b5423c": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E8%97%A4%E4%BA%95%E8%81%A1%E5%A4%AA",
+      "summaryJa": [
+        "藤井聡太",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-15T20:18:01.631Z"
+    },
+    "2cbd9fc3d4dd4448": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E5%88%A9%E7%9B%8A",
+      "summaryJa": [
+        "利益",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-15T20:18:01.631Z"
+    },
+    "23d123a1ef67f9d1": {
+      "url": "https://github.com/aitjcize/esp32-photoframe",
+      "summaryJa": [
+        "Feature-rich firmware for ESP32-based e-paper displays with superior image quali",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-15T20:18:01.631Z"
     }
   }
 }

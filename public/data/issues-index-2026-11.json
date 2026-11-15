@@ -211,6 +211,13 @@
       "edition": "midday",
       "theme": "自作の骨組と、手元の仕掛け",
       "path": "issues/2026-11-15-midday.json"
+    },
+    {
+      "issueNo": 257,
+      "date": "2026-11-16",
+      "edition": "morning",
+      "theme": "障害が生む波紋と、作り手の創意",
+      "path": "issues/2026-11-16-morning.json"
     }
   ]
 }
