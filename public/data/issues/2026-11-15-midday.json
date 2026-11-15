@@ -1,0 +1,479 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 256,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-15",
+  "dateDisplay": "Sunday, November 15, 2026",
+  "pressTimeJst": "2026-11-15 12:00",
+  "generatedAt": "2026-11-15T02:47:32.472Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "自作の骨組と、手元の仕掛け",
+    "note": "実機なき時代のコード記述から自作GUI、自己起動ZIPまで、構造を直に触り手元で動かす工夫が集まりました。"
+  },
+  "editorial": {
+    "comment": "zenn-trend-af19e565で紹介されたNeovim用GUI「ng」は、余分な拡張を行わずUIの窓枠に徹する潔さが際立ちます。手元の開発道具を自分の手で整え直す姿勢は、午後の作業に向かう創作意欲を静かに刺激してくれます。—— YZRS Times 編集長",
+    "passedOver": "NVIDIA前CEO復帰に関する署名運動やStarship着陸などの時事ニュースは、昼休みの技術インプットに特化するため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "雨",
+    "icon": "rain",
+    "tempMax": 14,
+    "tempMin": 11,
+    "precipChancePct": 100
+  },
+  "market": {
+    "fearGreed": {
+      "value": 10,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 64719,
+        "priceJpy": 10337928,
+        "change24hPct": -4.12,
+        "sparkline7d": [
+          75664.73,
+          74415.04,
+          74448.37,
+          73738.81,
+          71695.05,
+          68823.1,
+          63431.11
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1809.21,
+        "priceJpy": 288994,
+        "change24hPct": -5.06,
+        "sparkline7d": [
+          2231.75,
+          2127.49,
+          2102.44,
+          2055.92,
+          2005.75,
+          1945.88,
+          1740.8
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.137272,
+        "priceJpy": 21.93,
+        "change24hPct": -4.22,
+        "sparkline7d": [
+          0.150871,
+          0.145791,
+          0.147684,
+          0.149785,
+          0.144762,
+          0.147895,
+          0.134781
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 205.31,
+        "priceJpy": 32795,
+        "change24hPct": -5.92,
+        "sparkline7d": [
+          248.67,
+          239.41,
+          236.62,
+          230.68,
+          225.47,
+          225.19,
+          199.3
+        ]
+      }
+    ]
+  },
+  "top": [
+    "zenn-trend-af19e565",
+    "hn-front-1d931e26",
+    "lobsters-d539cb76"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hatebu-it-41c2a186",
+        "hatebu-it-2024e603"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "qiita-popular-69568716",
+        "qiita-popular-7ae36747",
+        "qiita-popular-e80b6e55"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-54d089d2",
+        "lobsters-aae5293e"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "zenn-trend-af19e565",
+      "title": "ng: Neovim のためのシンプルな GUI",
+      "url": "https://zenn.dev/shougo/articles/ng-nvim-simple-gui",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-13T10:49:55.000Z",
+      "summaryJa": [
+        "はじめに 私は今回 Linux 向けの Neovim GUIとして「ng」を作りました。",
+        "Go で書いた、最小限の GUI クライアントです。",
+        "https://github."
+      ],
+      "category": "programming",
+      "keywords": [
+        "ng",
+        "Neovim",
+        "GUI"
+      ],
+      "heat": {
+        "temperature": 43,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 40,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-1d931e26",
+      "title": "How did Woz write the Apple 1 BASIC before building the computer?",
+      "url": "https://retrocomputing.stackexchange.com/questions/17957",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-14T22:22:49.000Z",
+      "summaryJa": [
+        "How did Woz write the Apple 1 BASIC before buildin",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Woz",
+        "write",
+        "Apple",
+        "BASIC",
+        "computer"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 114,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 25.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-d539cb76",
+      "title": "Creating a self booting ZIP archive",
+      "url": "https://goliath32.com/blog/ziphead.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-14T10:01:58.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Creating",
+        "self",
+        "booting",
+        "ZIP",
+        "archive"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-41c2a186",
+      "title": "Qwen3.8 Flash Nextに混ざる中国語を、出力層の書き換えで消した: 27%→0%、他の重みは1バイトも変えずに",
+      "url": "https://zenn.dev/caphtech/articles/qwen38-zh-ban",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-14T10:07:16.000Z",
+      "summaryJa": [
+        "同じ問いに対する書き換えたモデルの答えでは、「誤って攻撃してしまう病気」「ビール: 最も注意」と書かれていました（サンプリングなので、文全体は元と同じではありま",
+        "測った条件 モデル: Qwen3.",
+        "8-Flash-Next。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Qwen3.8",
+        "Flash",
+        "出力層の書き換えで消した",
+        "他の重みは1バイトも変えずに"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 70,
+          "ageHours": 17,
+          "crossSources": 2,
+          "velocity": 4.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-2024e603",
+      "title": "常時稼働エージェントの作り方（Claude公式ブログを資料化）",
+      "url": "https://speakerdeck.com/minorun365/jouji-kadou-ejento-no-tsukurikata",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-14T16:06:17.000Z",
+      "summaryJa": [
+        "以下のURLを私のClaude Codeに渡して、スライドをポン出しする実験です。",
+        "https://claude.",
+        "com/ja/resources/articles/building-always-on-agents"
+      ],
+      "category": "programming",
+      "keywords": [
+        "常時稼働エージェントの作り方",
+        "Claude公式ブログを資料化"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 214,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 20
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-69568716",
+      "title": "AWS Emulatorが一般提供されたので、ローカルでS3バケットを作成してみた",
+      "url": "https://qiita.com/moyomoyomoyo/items/522ba880ff37971aa969?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-14T07:41:30.000Z",
+      "summaryJa": [
+        "はじめに 本記事は2026年11月14日時点の情報です。",
+        "最新の提供条件や料金は、公式ドキュメントを確認してください。",
+        "2026年11月11日、AWSがローカルで動かせるエミュレーター「AWS Emulator」を発表しました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AWS",
+        "Emulatorが一般提供されたので",
+        "ローカルでS3バケットを作成してみた"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-7ae36747",
+      "title": "agentgatewayで始めるMCP管理",
+      "url": "https://qiita.com/licux/items/cd639f2ae807b35b6697?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-14T10:49:51.000Z",
+      "summaryJa": [
+        "agentgateway AIエージェントが様々なタスクをこなすためには、様々なMCPサーバーやAIエージェントと接続して機能を拡張する必要があります。",
+        "数が少なければ、MCPサーバーやAIエージェントとの通信の監視やトラフィックを制御できますが、接続数が増えると管理が煩雑.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-e80b6e55",
+      "title": "あなたのAIはまだ、「ものの調べ方」を知らない。──調査スキル「imozuru」を作ってバズった話",
+      "url": "https://qiita.com/BaspisKawaE/items/933b883e4585ebd59299?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-14T12:14:20.000Z",
+      "summaryJa": [
+        "株式会社パレットリンクの@BaspisKawaEです。",
+        "今回は、AIに調べものをさせるスキルを公開したら反応を多くいただいたので、なぜわざわざ調べものをスキルにしたのかを解説します。",
+        "よろしくお願いします!"
+      ],
+      "category": "programming",
+      "keywords": [
+        "──調査スキル",
+        "imozuru"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-54d089d2",
+      "title": "WebGL Flight Simulator with seed generated terrain",
+      "url": "https://baron.by.dai.studio/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-15T02:39:31.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "WebGL",
+        "Flight",
+        "Simulator",
+        "seed",
+        "generated"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-aae5293e",
+      "title": "Parsing nested lists in BQN",
+      "url": "https://saltysylvi.github.io/blog/parsing-nested-lists-in-bqn.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-15T01:59:26.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Parsing",
+        "nested",
+        "lists",
+        "BQN"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "show-hn-87051218",
+      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+      "url": "https://github.com/arnegiacomo/fugleramme",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2026-09-15T12:31:10.000Z",
+      "summaryJa": [
+        "E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully loc",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "ink",
+        "frame",
+        "hears",
+        "birds",
+        "draws"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 2391,
+          "hatebuCount": 0,
+          "ageHours": 1454,
+          "crossSources": 1,
+          "velocity": 1.6
+        }
+      },
+      "image": null
+    },
+    "reason": "野鳥の鳴き声を検知し、19世紀の図鑑風イラストを描き出す電子ペーパー端末の実装です。野外の自然現象と電子工作、生成アートが交差する創作の喜びが詰まっています。"
+  },
+  "unavailableSources": []
+}

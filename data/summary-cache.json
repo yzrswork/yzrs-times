@@ -1,69 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "85b9e6563af33cf9": {
-      "url": "https://zenn.dev/pdfractal/articles/c7af0a168c0552",
-      "summaryJa": [
-        "はじめに ITの職場では、低スキル者を重要な仕事から排除することが、実はかなり重要な職場づくりの条件の一つです。",
-        "ここでいう排除とは、要件定義、設計、顧客折衝、品質判断、技術的意思決定、レビュー承認のような高い認知負荷を伴う仕事に、適性を満たさない人を置かないという配置上の",
-        "人格の否定や."
-      ],
-      "cachedAt": "2026-08-16T20:20:06.756Z"
-    },
-    "c557d7e748e54b1b": {
-      "url": "https://www.nikkei.com/article/DGXZQOUD245P80U6A720C2000000/",
-      "summaryJa": [
-        "今年に入って、どこの文学賞も応募が急増している――。",
-        "出版関係者らがそんなささやきを交わしている。",
-        "人工知能（AI）を使って気軽に大量の小説を出力できるようになった結果、公募新人文学賞の存続が危うくなりかねない事態を招いている。"
-      ],
-      "cachedAt": "2026-08-16T20:20:06.756Z"
-    },
-    "cf6ec781d9fa6fab": {
-      "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
-      "summaryJa": [
-        "Models Are Getting Dumber on Purpose",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-16T20:20:06.756Z"
-    },
-    "c41b4089a1caac70": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260816de44402",
-      "summaryJa": [
-        "ウクライナは、ロシアの首都モスクワ近郊で物流倉庫などを無人機で攻撃する一方、ロシア軍はウクライナの首都キーウなどにミサイルなどによる攻撃を続けていて、応酬は激し",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-16T20:20:06.756Z"
-    },
-    "224ec799508da476": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
-      "summaryJa": [
-        "記録的な豪雨となった千葉県では、16日、新たに1人の死亡が確認されたと県が発表し、亡くなった人は10人になりました。",
-        "また、千葉市によりますと、水につかって動かなくなった車は市が管理する道路で2500台…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-16T20:20:06.756Z"
-    },
-    "434474cfc1c478eb": {
-      "url": "https://news.yahoo.co.jp/pickup/6592006?source=rss",
-      "summaryJa": [
-        "オープンAI 経営幹部が相次ぎ退社",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-16T20:20:06.756Z"
-    },
-    "7ce665b5448404f3": {
-      "url": "https://www.docswell.com/s/magurotuna/53J4YJ-2026-08-16-aiau-craft-day",
-      "summaryJa": [
-        "2026/08/16 3日間でアプリ・サービスをローンチせよ！",
-        "AIAU Craft Day https://aiau.",
-        "connpass."
-      ],
-      "cachedAt": "2026-08-16T20:20:06.756Z"
-    },
     "fc4f705487c0283b": {
       "url": "https://zenn.dev/gacchi/articles/my-cornix-setting",
       "summaryJa": [
@@ -15264,6 +15201,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-14T20:18:07.957Z"
+    },
+    "04d059df669879a5": {
+      "url": "https://retrocomputing.stackexchange.com/questions/17957",
+      "summaryJa": [
+        "How did Woz write the Apple 1 BASIC before buildin",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-15T02:47:59.669Z"
+    },
+    "d539cb762d2310e1": {
+      "url": "https://goliath32.com/blog/ziphead.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-15T02:47:59.669Z"
+    },
+    "41c2a186a02336ba": {
+      "url": "https://zenn.dev/caphtech/articles/qwen38-zh-ban",
+      "summaryJa": [
+        "同じ問いに対する書き換えたモデルの答えでは、「誤って攻撃してしまう病気」「ビール: 最も注意」と書かれていました（サンプリングなので、文全体は元と同じではありま",
+        "測った条件 モデル: Qwen3.",
+        "8-Flash-Next。"
+      ],
+      "cachedAt": "2026-11-15T02:47:59.669Z"
+    },
+    "2024e60387f3a8ad": {
+      "url": "https://speakerdeck.com/minorun365/jouji-kadou-ejento-no-tsukurikata",
+      "summaryJa": [
+        "以下のURLを私のClaude Codeに渡して、スライドをポン出しする実験です。",
+        "https://claude.",
+        "com/ja/resources/articles/building-always-on-agents"
+      ],
+      "cachedAt": "2026-11-15T02:47:59.669Z"
+    },
+    "6956871683010446": {
+      "url": "https://qiita.com/moyomoyomoyo/items/522ba880ff37971aa969?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに 本記事は2026年11月14日時点の情報です。",
+        "最新の提供条件や料金は、公式ドキュメントを確認してください。",
+        "2026年11月11日、AWSがローカルで動かせるエミュレーター「AWS Emulator」を発表しました。"
+      ],
+      "cachedAt": "2026-11-15T02:47:59.669Z"
+    },
+    "7ae3674708000c5e": {
+      "url": "https://qiita.com/licux/items/cd639f2ae807b35b6697?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "agentgateway AIエージェントが様々なタスクをこなすためには、様々なMCPサーバーやAIエージェントと接続して機能を拡張する必要があります。",
+        "数が少なければ、MCPサーバーやAIエージェントとの通信の監視やトラフィックを制御できますが、接続数が増えると管理が煩雑.",
+        "."
+      ],
+      "cachedAt": "2026-11-15T02:47:59.669Z"
+    },
+    "e80b6e55331140ab": {
+      "url": "https://qiita.com/BaspisKawaE/items/933b883e4585ebd59299?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "株式会社パレットリンクの@BaspisKawaEです。",
+        "今回は、AIに調べものをさせるスキルを公開したら反応を多くいただいたので、なぜわざわざ調べものをスキルにしたのかを解説します。",
+        "よろしくお願いします!"
+      ],
+      "cachedAt": "2026-11-15T02:47:59.669Z"
+    },
+    "54d089d240e348eb": {
+      "url": "https://baron.by.dai.studio/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-15T02:47:59.669Z"
+    },
+    "aae5293edcfe1d58": {
+      "url": "https://saltysylvi.github.io/blog/parsing-nested-lists-in-bqn.html",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-15T02:47:59.669Z"
     }
   }
 }

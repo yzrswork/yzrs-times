@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 255,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 256,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-11-15",
   "dateDisplay": "Sunday, November 15, 2026",
-  "pressTimeJst": "2026-11-15 05:00",
-  "generatedAt": "2026-11-14T20:17:43.707Z",
+  "pressTimeJst": "2026-11-15 12:00",
+  "generatedAt": "2026-11-15T02:47:32.472Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,238 +14,151 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "開かれた門戸と試される境界",
-    "note": "便利さや自律化の裏で露呈する設定ミスや環境の変化に対し、いかに手元の防衛力と安全な構造を保つかが問われています。"
+    "title": "自作の骨組と、手元の仕掛け",
+    "note": "実機なき時代のコード記述から自作GUI、自己起動ZIPまで、構造を直に触り手元で動かす工夫が集まりました。"
   },
   "editorial": {
-    "comment": "hatebu-it-dd577865で解説されたCognitoの不用意な開放とAI攻撃ツールの事例は、手元のクラウド設定ひとつが即座に世界へ露出する怖さを教えてくれます。作業に入る前に自らのプロジェクトの認証構成を一度見直したくなります。—— YZRS Times 編集長",
-    "passedOver": "本日のスポーツ戦績や特定の一般政治トピックは、ものづくりと技術の関心に絞り込むため紙面から見送りました。",
+    "comment": "zenn-trend-af19e565で紹介されたNeovim用GUI「ng」は、余分な拡張を行わずUIの窓枠に徹する潔さが際立ちます。手元の開発道具を自分の手で整え直す姿勢は、午後の作業に向かう創作意欲を静かに刺激してくれます。—— YZRS Times 編集長",
+    "passedOver": "NVIDIA前CEO復帰に関する署名運動やStarship着陸などの時事ニュースは、昼休みの技術インプットに特化するため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "強い雨",
+    "summary": "雨",
     "icon": "rain",
     "tempMax": 14,
-    "tempMin": 12,
+    "tempMin": 11,
     "precipChancePct": 100
   },
   "market": {
     "fearGreed": {
-      "value": 13,
+      "value": 10,
       "label": "Extreme Fear"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 65490,
-        "priceJpy": 10461675,
-        "change24hPct": -5.11,
+        "priceUsd": 64719,
+        "priceJpy": 10337928,
+        "change24hPct": -4.12,
         "sparkline7d": [
-          75735,
-          74740.42,
-          74478.71,
-          74000.54,
-          73389.92,
-          68909.18,
-          65517.95
+          75664.73,
+          74415.04,
+          74448.37,
+          73738.81,
+          71695.05,
+          68823.1,
+          63431.11
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1825.97,
-        "priceJpy": 291690,
-        "change24hPct": -6.49,
+        "priceUsd": 1809.21,
+        "priceJpy": 288994,
+        "change24hPct": -5.06,
         "sparkline7d": [
-          2233.24,
-          2124.38,
-          2112.37,
-          2067.12,
-          2042.52,
-          1948.59,
-          1829.79
+          2231.75,
+          2127.49,
+          2102.44,
+          2055.92,
+          2005.75,
+          1945.88,
+          1740.8
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.135245,
-        "priceJpy": 21.6,
-        "change24hPct": -9.18,
+        "priceUsd": 0.137272,
+        "priceJpy": 21.93,
+        "change24hPct": -4.22,
         "sparkline7d": [
-          0.150878,
-          0.146331,
-          0.14659,
-          0.145185,
-          0.146034,
-          0.149634,
-          0.136654
+          0.150871,
+          0.145791,
+          0.147684,
+          0.149785,
+          0.144762,
+          0.147895,
+          0.134781
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 205.87,
-        "priceJpy": 32887,
-        "change24hPct": -9.36,
+        "priceUsd": 205.31,
+        "priceJpy": 32795,
+        "change24hPct": -5.92,
         "sparkline7d": [
-          257.08,
-          238.74,
-          237.94,
-          230.56,
-          229.19,
-          226.55,
-          207.17
+          248.67,
+          239.41,
+          236.62,
+          230.68,
+          225.47,
+          225.19,
+          199.3
         ]
       }
     ]
   },
   "top": [
-    "hatebu-it-dd577865",
-    "nhk-top-b65e0368",
-    "hatebu-it-7890649a"
+    "zenn-trend-af19e565",
+    "hn-front-1d931e26",
+    "lobsters-d539cb76"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "nhk-top-9f56a955",
-        "yahoo-topics-aec39e8f",
-        "hatebu-it-ff6e48ea"
+        "hatebu-it-41c2a186",
+        "hatebu-it-2024e603"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hn-front-e79d2782",
-        "hatebu-it-4f392b8a"
+        "qiita-popular-69568716",
+        "qiita-popular-7ae36747",
+        "qiita-popular-e80b6e55"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-75d2067d",
-        "gtrends-jp-1c0509ce"
+        "lobsters-54d089d2",
+        "lobsters-aae5293e"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hatebu-it-dd577865",
-      "title": "Cognitoの自己サインアップが有効だと、誰でもAWSの一時認証情報を取得できる：AI攻撃ツールARTEXの事例と確認したい設定3点 | DevelopersIO",
-      "url": "https://dev.classmethod.jp/articles/cognito-self-signup-agentic-attack/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-14T12:48:25.000Z",
+      "id": "zenn-trend-af19e565",
+      "title": "ng: Neovim のためのシンプルな GUI",
+      "url": "https://zenn.dev/shougo/articles/ng-nvim-simple-gui",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-13T10:49:55.000Z",
       "summaryJa": [
-        "どうも！",
-        "オペ部の西村祐二です！",
-        "S3 にフロントエンドを置き、Amazon Cognito のユーザープールでログインさせ、ID プールで AWS の一時認証情報を渡す。"
+        "はじめに 私は今回 Linux 向けの Neovim GUIとして「ng」を作りました。",
+        "Go で書いた、最小限の GUI クライアントです。",
+        "https://github."
       ],
       "category": "programming",
       "keywords": [
-        "DevelopersIO"
+        "ng",
+        "Neovim",
+        "GUI"
       ],
       "heat": {
-        "temperature": 82,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 34,
-          "ageHours": 7,
-          "crossSources": 1,
-          "velocity": 4.5
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-b65e0368",
-      "title": "全米の空港で運航停止措置 欠航1万便超 解除後も混乱続く",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-14T09:26:00.000Z",
-      "summaryJa": [
-        "アメリカ全土の空港では通信障害の影響で日本時間の14日朝からおよそ4時間半にわたってすべての航空機の運航を停止する措置がとられました。",
-        "この影響で欠航が1万便を超えるなど、措置が解除されたいまも混乱は…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "全米の空港で運航停止措置",
-        "欠航1万便超",
-        "解除後も混乱続く"
-      ],
-      "heat": {
-        "temperature": 57,
+        "temperature": 43,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 11,
-          "crossSources": 2,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-7890649a",
-      "title": "AIについての追記",
-      "url": "https://www.ms.u-tokyo.ac.jp/~konno/grad_ai.html",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-14T10:13:39.000Z",
-      "summaryJa": [
-        "Associate Professor, Graduate School of Mathematical Sciences 私のところで大学院入学を希望する方へ",
-        ".",
-        "."
-      ],
-      "category": "programming",
-      "keywords": [
-        "AIについての追記"
-      ],
-      "heat": {
-        "temperature": 81,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 43,
-          "ageHours": 10,
-          "crossSources": 1,
-          "velocity": 4.3
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-9f56a955",
-      "title": "高市首相 東南アジアなどと「アジア版IEA」創設を提唱で調整",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261114de76011",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-14T15:46:05.000Z",
-      "summaryJa": [
-        "中東情勢を踏まえ、高市総理大臣は、17日に開かれる東南アジア各国などとの首脳会合で、石油備蓄の協調放出のルールづくりなどを検討する新たな枠組みの創設を提唱する方",
-        "アジア版のIEA＝国…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "高市首相",
-        "東南アジアなどと",
-        "アジア版IEA",
-        "創設を提唱で調整"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 5,
+          "ageHours": 40,
           "crossSources": 1,
           "velocity": 0
         }
@@ -253,144 +166,235 @@
       "image": null
     },
     {
-      "id": "yahoo-topics-aec39e8f",
-      "title": "MS 障害原因は過去の増強作業",
-      "url": "https://news.yahoo.co.jp/pickup/6602606?source=rss",
-      "source": "Yahoo!ニュース トピックス",
-      "sourceId": "yahoo-topics",
-      "publishedAt": "2026-11-14T14:42:06.000Z",
-      "summaryJa": [
-        "MS 障害原因は過去の増強作業",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "MS",
-        "障害原因は過去の増強作業"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-ff6e48ea",
-      "title": "【速報】マネックス証券、マイナカード画像漏えいか",
-      "url": "https://www.47news.jp/15227159.html",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-13T15:36:10.000Z",
-      "summaryJa": [
-        "マネックス証券は13日、委託先が運営・管理する口座開設システムが不正アクセスを受け、運転免許証やマイナンバーカードといった本人確認書類の画像1592件と、最大1",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "速報",
-        "マネックス証券",
-        "マイナカード画像漏えいか"
-      ],
-      "heat": {
-        "temperature": 80,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 285,
-          "ageHours": 29,
-          "crossSources": 1,
-          "velocity": 9.9
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-e79d2782",
-      "title": "Lovable apps expose passport details and more than 200K private messages",
-      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "id": "hn-front-1d931e26",
+      "title": "How did Woz write the Apple 1 BASIC before building the computer?",
+      "url": "https://retrocomputing.stackexchange.com/questions/17957",
       "source": "Hacker News",
       "sourceId": "hn-front",
-      "publishedAt": "2026-11-14T17:43:10.000Z",
+      "publishedAt": "2026-11-14T22:22:49.000Z",
       "summaryJa": [
-        "Lovable apps expose passport details and more than",
+        "How did Woz write the Apple 1 BASIC before buildin",
         "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Lovable",
-        "apps",
-        "expose",
-        "passport",
-        "details"
+        "Woz",
+        "write",
+        "Apple",
+        "BASIC",
+        "computer"
       ],
       "heat": {
-        "temperature": 90,
+        "temperature": 79,
         "signals": {
-          "hnPoints": 308,
+          "hnPoints": 114,
           "hatebuCount": 0,
-          "ageHours": 3,
+          "ageHours": 4,
           "crossSources": 1,
-          "velocity": 119.6
+          "velocity": 25.8
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-4f392b8a",
-      "title": "AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 | The Update",
-      "url": "https://theupdate.coffee/episodes/0J7UP7922ZXV6NBTt7w9Jl/",
+      "id": "lobsters-d539cb76",
+      "title": "Creating a self booting ZIP archive",
+      "url": "https://goliath32.com/blog/ziphead.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-14T10:01:58.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Creating",
+        "self",
+        "booting",
+        "ZIP",
+        "archive"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-41c2a186",
+      "title": "Qwen3.8 Flash Nextに混ざる中国語を、出力層の書き換えで消した: 27%→0%、他の重みは1バイトも変えずに",
+      "url": "https://zenn.dev/caphtech/articles/qwen38-zh-ban",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-14T07:45:30.000Z",
+      "publishedAt": "2026-11-14T10:07:16.000Z",
       "summaryJa": [
-        "2026年11月14日|21分 AIチームを率いるとは、どういうこと？",
-        "with プログラマー・起業家 amachang Part1 ゲスト: 天野仁史（多摩川機構エンジニアリング株式会社 代表） 一人の会社に、開発チームがいくつも",
-        "コードを書くAI、デザインするAI、それらを束ねるAI。"
+        "同じ問いに対する書き換えたモデルの答えでは、「誤って攻撃してしまう病気」「ビール: 最も注意」と書かれていました（サンプリングなので、文全体は元と同じではありま",
+        "測った条件 モデル: Qwen3.",
+        "8-Flash-Next。"
       ],
       "category": "programming",
       "keywords": [
-        "AIチームを率いるとは",
-        "プログラマー",
-        "起業家",
-        "amachang",
-        "Part1"
+        "Qwen3.8",
+        "Flash",
+        "出力層の書き換えで消した",
+        "他の重みは1バイトも変えずに"
       ],
       "heat": {
-        "temperature": 83,
+        "temperature": 79,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 100,
-          "ageHours": 13,
-          "crossSources": 1,
-          "velocity": 8
+          "hatebuCount": 70,
+          "ageHours": 17,
+          "crossSources": 2,
+          "velocity": 4.2
         }
       },
       "image": null
     },
     {
-      "id": "gtrends-jp-75d2067d",
-      "title": "lol worlds",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=lol%20worlds",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-14T19:50:00.000Z",
+      "id": "hatebu-it-2024e603",
+      "title": "常時稼働エージェントの作り方（Claude公式ブログを資料化）",
+      "url": "https://speakerdeck.com/minorun365/jouji-kadou-ejento-no-tsukurikata",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-14T16:06:17.000Z",
       "summaryJa": [
-        "lol worlds",
-        "出典: Google トレンド",
+        "以下のURLを私のClaude Codeに渡して、スライドをポン出しする実験です。",
+        "https://claude.",
+        "com/ja/resources/articles/building-always-on-agents"
+      ],
+      "category": "programming",
+      "keywords": [
+        "常時稼働エージェントの作り方",
+        "Claude公式ブログを資料化"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 214,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 20
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-69568716",
+      "title": "AWS Emulatorが一般提供されたので、ローカルでS3バケットを作成してみた",
+      "url": "https://qiita.com/moyomoyomoyo/items/522ba880ff37971aa969?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-14T07:41:30.000Z",
+      "summaryJa": [
+        "はじめに 本記事は2026年11月14日時点の情報です。",
+        "最新の提供条件や料金は、公式ドキュメントを確認してください。",
+        "2026年11月11日、AWSがローカルで動かせるエミュレーター「AWS Emulator」を発表しました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AWS",
+        "Emulatorが一般提供されたので",
+        "ローカルでS3バケットを作成してみた"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-7ae36747",
+      "title": "agentgatewayで始めるMCP管理",
+      "url": "https://qiita.com/licux/items/cd639f2ae807b35b6697?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-14T10:49:51.000Z",
+      "summaryJa": [
+        "agentgateway AIエージェントが様々なタスクをこなすためには、様々なMCPサーバーやAIエージェントと接続して機能を拡張する必要があります。",
+        "数が少なければ、MCPサーバーやAIエージェントとの通信の監視やトラフィックを制御できますが、接続数が増えると管理が煩雑.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-e80b6e55",
+      "title": "あなたのAIはまだ、「ものの調べ方」を知らない。──調査スキル「imozuru」を作ってバズった話",
+      "url": "https://qiita.com/BaspisKawaE/items/933b883e4585ebd59299?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-14T12:14:20.000Z",
+      "summaryJa": [
+        "株式会社パレットリンクの@BaspisKawaEです。",
+        "今回は、AIに調べものをさせるスキルを公開したら反応を多くいただいたので、なぜわざわざ調べものをスキルにしたのかを解説します。",
+        "よろしくお願いします!"
+      ],
+      "category": "programming",
+      "keywords": [
+        "──調査スキル",
+        "imozuru"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-54d089d2",
+      "title": "WebGL Flight Simulator with seed generated terrain",
+      "url": "https://baron.by.dai.studio/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-15T02:39:31.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "trends",
+      "category": "tech",
       "keywords": [
-        "lol",
-        "worlds"
+        "WebGL",
+        "Flight",
+        "Simulator",
+        "seed",
+        "generated"
       ],
       "heat": {
         "temperature": 55,
@@ -405,20 +409,23 @@
       "image": null
     },
     {
-      "id": "gtrends-jp-1c0509ce",
-      "title": "ツイッチ",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%84%E3%82%A4%E3%83%83%E3%83%81",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-14T19:40:00.000Z",
+      "id": "lobsters-aae5293e",
+      "title": "Parsing nested lists in BQN",
+      "url": "https://saltysylvi.github.io/blog/parsing-nested-lists-in-bqn.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-15T01:59:26.000Z",
       "summaryJa": [
-        "ツイッチ",
-        "出典: Google トレンド",
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "trends",
+      "category": "tech",
       "keywords": [
-        "ツイッチ"
+        "Parsing",
+        "nested",
+        "lists",
+        "BQN"
       ],
       "heat": {
         "temperature": 55,
@@ -435,38 +442,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-d70d7341",
-      "title": "daisyaudio/DaisySP — A Powerful DSP Library in C++",
-      "url": "https://github.com/daisyaudio/DaisySP",
-      "source": "GitHub 小さなOSS",
-      "sourceId": "github-gems",
-      "publishedAt": "2026-09-28T19:32:16Z",
+      "id": "show-hn-87051218",
+      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+      "url": "https://github.com/arnegiacomo/fugleramme",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2026-09-15T12:31:10.000Z",
       "summaryJa": [
-        "A Powerful DSP Library in C++",
+        "E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully loc",
         "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
-      "category": "oss",
+      "category": "tech",
       "keywords": [
-        "daisyaudio/DaisySP",
-        "Powerful",
-        "DSP",
-        "Library",
-        "C++"
+        "ink",
+        "frame",
+        "hears",
+        "birds",
+        "draws"
       ],
       "heat": {
-        "temperature": 40,
+        "temperature": 78,
         "signals": {
-          "hnPoints": 0,
+          "hnPoints": 2391,
           "hatebuCount": 0,
-          "ageHours": 1129,
+          "ageHours": 1454,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 1.6
         }
       },
       "image": null
     },
-    "reason": "デジタル信号処理をC++で扱えるこのライブラリは、自作シンセサイザーや音響装置の制作に最適な道具となります。コードで音を組み立てる実験は、音楽とプログラミングの接点を探る良いきっかけになるでしょう。"
+    "reason": "野鳥の鳴き声を検知し、19世紀の図鑑風イラストを描き出す電子ペーパー端末の実装です。野外の自然現象と電子工作、生成アートが交差する創作の喜びが詰まっています。"
   },
   "unavailableSources": []
 }

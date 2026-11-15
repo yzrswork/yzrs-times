@@ -204,6 +204,13 @@
       "edition": "morning",
       "theme": "開かれた門戸と試される境界",
       "path": "issues/2026-11-15-morning.json"
+    },
+    {
+      "issueNo": 256,
+      "date": "2026-11-15",
+      "edition": "midday",
+      "theme": "自作の骨組と、手元の仕掛け",
+      "path": "issues/2026-11-15-midday.json"
     }
   ]
 }
