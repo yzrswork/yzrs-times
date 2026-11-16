@@ -1,78 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "34fc82f82586ad7b": {
-      "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
-      "summaryJa": [
-        "AirTag reveals Amazon is trashing rare books to tr",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-17T20:18:23.822Z"
-    },
-    "b9529fbf35fa374b": {
-      "url": "https://www.itmedia.co.jp/aiplus/article/2608/17/2000000564/",
-      "summaryJa": [
-        "味の素は8月16日、レシピサイト「味の素パーク」の公式Xで14日に投稿した画像について謝罪した。",
-        "生成AIによる加工のため、商品のラベルや文字の一部が乱れていたという。",
-        "同社は再発防止に努めるとしている。"
-      ],
-      "cachedAt": "2026-08-17T20:18:23.822Z"
-    },
-    "8a9bc57c6154e57f": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260817de44659",
-      "summaryJa": [
-        "線状降水帯が相次いで発生し、記録的な豪雨となった千葉県では、10人の死亡が確認され、浸水した住宅は、およそ2000棟にのぼります。",
-        "ガスや水道など、ライフラインの復旧が進む一方、被災した店舗の再開や農業…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-17T20:18:23.822Z"
-    },
-    "bcabe1bd4a8afbb1": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260817de44622",
-      "summaryJa": [
-        "神奈川の横浜高校野球部の元監督で、甲子園で春夏連覇を果たすなど春夏合わせて5回優勝に導いた渡辺元智さんが亡くなりました。",
-        "81歳でした。",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-17T20:18:23.822Z"
-    },
-    "8f63c084a0af1cd2": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260817de44637",
-      "summaryJa": [
-        "中国の消費の動向を示す先月の「小売売上高」は去年の同じ月と比べて0.",
-        "6％の増加にとどまり、内需の停滞が続いています。",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-17T20:18:23.822Z"
-    },
-    "ad773abf99a832ac": {
-      "url": "https://news.yahoo.co.jp/pickup/6592116?source=rss",
-      "summaryJa": [
-        "踏切開いたまま電車通過 東急電鉄",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-17T20:18:23.822Z"
-    },
-    "76963b852e28c23f": {
-      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-      "summaryJa": [
-        "AI-Generated GitHub Copilot “Autofix” Allowed Comp",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-17T20:18:23.822Z"
-    },
-    "571aa5915fe8ad58": {
-      "url": "https://tomarigi.me/",
-      "summaryJa": [
-        "日本各地のYouTubeライブカメラを地図から探して、その場で視聴できるサービス「とまり木」。",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-17T20:18:23.822Z"
-    },
     "2e745fe075c33d76": {
       "url": "https://www.publickey1.jp/blog/26/pythonmojo10.html",
       "summaryJa": [
@@ -15282,6 +15210,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-15T20:18:01.631Z"
+    },
+    "6bd28ad4509097ad": {
+      "url": "https://note.com/at_sushi_at/n/n2e6ea3453e37",
+      "summaryJa": [
+        "1年前、私はAIをまだ舐めていたもちろんAIは当時からある程度のコード、というかほとんどのコードを書いてくれた。",
+        "それでも、ソフトウェアエンジニアとしての根本的な能力が足りてなかった。",
+        "保守性を考えない安直で重複したコード、勘違いによるミス、一部しか考慮していないことによる不完全な対応。"
+      ],
+      "cachedAt": "2026-11-16T02:49:56.988Z"
+    },
+    "fcac49bbd3e8aa37": {
+      "url": "https://eli.thegreenplace.net/2009/03/14/some-problems-of-recursive-descent-parsers",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-16T02:49:56.988Z"
+    },
+    "182dcc3fdd0c8d8c": {
+      "url": "https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet11-scale",
+      "summaryJa": [
+        "はじめに 今まで ASP.",
+        "NET Core Blazor の InteractiveServer のモードでは、サーバー側のメモリに保持される回路（Circuit）をスケールイン時に別の",
+        "そのため柔軟なスケールアウト！"
+      ],
+      "cachedAt": "2026-11-16T02:49:56.988Z"
+    },
+    "2be7e4b7950c6a52": {
+      "url": "https://speakerdeck.com/shotashiratori/nw-jaws-10th-keynote",
+      "summaryJa": [
+        "NW-JAWS 10周年イベントのKeynote資料です",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-16T02:49:56.988Z"
+    },
+    "95d7c4647cbbc7ee": {
+      "url": "https://levtech.jp/media/detail_972/",
+      "summaryJa": [
+        "北國 悠人 プロダクトマネージャー。",
+        "1991年生まれ。",
+        "同志社大学在学中に起業を志し、卒業後は株式会社じげんに入社。"
+      ],
+      "cachedAt": "2026-11-16T02:49:56.988Z"
+    },
+    "112743958a94c470": {
+      "url": "https://qiita.com/yakumo_09/items/d6e092dbb566decee632?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに Amazon Cognito に OAuth 2.",
+        "0 のトークン交換 が来たーというアプデについて エージェントが「誰の代わりに」動いているかをトークンで表せるようになるので、AgentCore Gateway",
+        "."
+      ],
+      "cachedAt": "2026-11-16T02:49:56.988Z"
+    },
+    "fa71f2219f58f85d": {
+      "url": "https://qiita.com/songchong/items/fa50cc82e49b24925fe3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "使っている技術の脆弱性を、自分に関係する分だけ、早く知りたい。",
+        "知ったら、何を、いつまでにすればよいのかも知りたい。",
+        "脆弱性の情報を追う人の目的は、この 2 つにまとまります。"
+      ],
+      "cachedAt": "2026-11-16T02:49:56.988Z"
+    },
+    "0ef849baddefbcec": {
+      "url": "https://zenn.dev/ryatora/articles/lightdash-chart-catalog",
+      "summaryJa": [
+        "1.",
+        "概要 1.",
+        "1 本記事の目的 NBA（アメリカのプロバスケットボールリーグ）のデータを使って、Lightdash[1]で様々なグラフを作成してみました。"
+      ],
+      "cachedAt": "2026-11-16T02:49:56.988Z"
+    },
+    "2885ac6e7a6a1904": {
+      "url": "https://burntsushi.net/jiff/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-16T02:49:56.988Z"
+    },
+    "7ea2b5fa6e89a4e6": {
+      "url": "https://sunshowers.io/posts/nextest-install-scripts/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-16T02:49:56.988Z"
     }
   }
 }

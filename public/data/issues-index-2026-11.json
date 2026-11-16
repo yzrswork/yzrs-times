@@ -218,6 +218,13 @@
       "edition": "morning",
       "theme": "障害が生む波紋と、作り手の創意",
       "path": "issues/2026-11-16-morning.json"
+    },
+    {
+      "issueNo": 258,
+      "date": "2026-11-16",
+      "edition": "midday",
+      "theme": "状態の巡りと、解析の骨組み",
+      "path": "issues/2026-11-16-midday.json"
     }
   ]
 }

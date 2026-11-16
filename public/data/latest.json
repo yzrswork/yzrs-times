@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 257,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 258,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-11-16",
   "dateDisplay": "Monday, November 16, 2026",
-  "pressTimeJst": "2026-11-16 05:00",
-  "generatedAt": "2026-11-15T20:17:42.388Z",
+  "pressTimeJst": "2026-11-16 12:00",
+  "generatedAt": "2026-11-16T02:47:34.877Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,12 +14,12 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "障害が生む波紋と、作り手の創意",
-    "note": "クラウドの障害が実世界へ及ぶ影を直視しつつ、AIや手元のツールを活用して自らの表現を拡大する作り手たちの歩みを集めました。"
+    "title": "状態の巡りと、解析の骨組み",
+    "note": "構文解析の罠からWebアプリの状態退避まで、午後の手を動かす創作の足場を固める技術。"
   },
   "editorial": {
-    "comment": "hatebu-it-16424844で紹介されているCAD『SolidCraft』の爆速開発は、個人開発の規模感を根底から変える刺激に満ちています。AIを単なる補完ではなく設計の推進力として使いこなす姿勢は、午前の作業へ向かう思考を強く鼓舞してくれます。—— YZRS Times 編集長",
-    "passedOver": "AI生成コードのオープンソース化に関する議論（hn-front-48cfed10）は関心を集めましたが、制度論が先行しており手元の創作への示唆が浅いため見送りました。",
+    "comment": "lobsters-fcac49bbで語られる再帰降下パーサーの問題点は、自作言語や独自のフォーマット解析に挑む作り手にとって必読の知見です。バックトラックの落とし穴を知ることで、午後のコーディングでより堅牢な構文解析器を組む手がかりが得られます。—— YZRS Times 編集長",
+    "passedOver": "NTTドコモの通信障害など世間のニュースは、技術インプットに集中する昼刊の趣旨に鑑み見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
@@ -39,271 +39,355 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 64689,
-        "priceJpy": 10324334,
-        "change24hPct": -1.24,
+        "priceUsd": 65136,
+        "priceJpy": 10407091,
+        "change24hPct": 0.56,
         "sparkline7d": [
-          75849.18,
-          75266.77,
-          73695.34,
-          73568.09,
-          69289.7,
-          65874.67,
-          64688.64
+          75092.33,
+          74740.47,
+          73715.8,
+          72430.22,
+          68639.52,
+          64831.89,
+          64920.52
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1816.65,
-        "priceJpy": 289939,
-        "change24hPct": -0.49,
+        "priceUsd": 1824.34,
+        "priceJpy": 291483,
+        "change24hPct": 0.71,
         "sparkline7d": [
-          2230.23,
-          2132.14,
-          2060.61,
-          2048.98,
-          1950.13,
-          1852.24,
-          1814.29
+          2140.86,
+          2123.36,
+          2056.23,
+          2010.44,
+          1926.42,
+          1785.63,
+          1814.42
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.139281,
-        "priceJpy": 22.23,
-        "change24hPct": 3.05,
+        "priceUsd": 0.139712,
+        "priceJpy": 22.32,
+        "change24hPct": 1.63,
         "sparkline7d": [
-          0.150119,
-          0.147423,
-          0.144997,
-          0.145847,
-          0.146686,
-          0.140237,
-          0.138247
+          0.147792,
+          0.148076,
+          0.146371,
+          0.144028,
+          0.146662,
+          0.132702,
+          0.139638
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 207.83,
-        "priceJpy": 33170,
-        "change24hPct": 1.09,
+        "priceUsd": 209.87,
+        "priceJpy": 33533,
+        "change24hPct": 2.26,
         "sparkline7d": [
-          245.89,
-          238.9,
-          230.18,
-          228.67,
-          222.18,
-          212.89,
-          207.79
+          241.81,
+          239.59,
+          229.28,
+          225.37,
+          222.66,
+          201.55,
+          209.33
         ]
       }
     ]
   },
   "top": [
-    "hatebu-it-8bdd672b",
-    "hatebu-it-16424844",
-    "hatebu-it-152bf8c4"
+    "hatebu-it-6bd28ad4",
+    "lobsters-fcac49bb",
+    "zenn-trend-182dcc3f"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "nhk-top-d4a78f1e",
-        "nhk-top-4f18149a",
-        "nhk-top-28e6e907"
+        "hatebu-it-2be7e4b7",
+        "hatebu-it-95d7c464"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hn-front-9091625b",
-        "hn-front-7f157c11"
+        "qiita-popular-11274395",
+        "qiita-popular-fa71f221",
+        "zenn-trend-0ef849ba"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-8efa1bc2",
-        "gtrends-jp-461f1208",
-        "gtrends-jp-2cbd9fc3"
+        "lobsters-2885ac6e",
+        "lobsters-7ea2b5fa"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hatebu-it-8bdd672b",
-      "title": "独プールで15人体調不良　マイクロソフト障害影響 | NEWSjp",
-      "url": "https://news.jp/i/1494496378441958289",
+      "id": "hatebu-it-6bd28ad4",
+      "title": "今、ソフトウェアエンジニアとして何を思うか｜Mori Atsushi",
+      "url": "https://note.com/at_sushi_at/n/n2e6ea3453e37",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-15T02:57:16.000Z",
+      "publishedAt": "2026-11-15T09:51:50.000Z",
       "summaryJa": [
-        "【ベルリン共同】ドイツ公共放送WDRは14日、米IT大手マイクロソフトの主力業務ソフトの大規模障害による影響で、西部ブリュールのテーマパーク内にあるプールの利用",
-        "障害により安全管理システムの警報メールが担当者に届かず、塩素を注入する装置の不具合に気付かず水中塩素濃度が著し.",
-        "."
+        "1年前、私はAIをまだ舐めていたもちろんAIは当時からある程度のコード、というかほとんどのコードを書いてくれた。",
+        "それでも、ソフトウェアエンジニアとしての根本的な能力が足りてなかった。",
+        "保守性を考えない安直で重複したコード、勘違いによるミス、一部しか考慮していないことによる不完全な対応。"
       ],
       "category": "programming",
       "keywords": [
-        "独プールで15人体調不良",
-        "マイクロソフト障害影響",
-        "NEWSjp"
+        "Atsushi"
       ],
       "heat": {
         "temperature": 81,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 300,
+          "hatebuCount": 429,
           "ageHours": 17,
           "crossSources": 1,
-          "velocity": 17.3
+          "velocity": 25.3
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-16424844",
-      "title": "個人開発で5週間150万DL、AIと爆速で作るCAD「SolidCraft」 - FabScene（ファブシーン）",
-      "url": "https://fabscene.com/new/interview/solidcraft-open-source-cad-ai-1-5m-downloads-brennen-herbruck/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-14T23:49:57.000Z",
+      "id": "lobsters-fcac49bb",
+      "title": "Some problems of recursive descent parsers (2009)",
+      "url": "https://eli.thegreenplace.net/2009/03/14/some-problems-of-recursive-descent-parsers",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-15T19:38:25.000Z",
       "summaryJa": [
-        "Claude CodeやCodexのようなAIコーディングツールが広がり、個人が手がけられるソフトウェアの規模が変わりつつある。",
-        "米国の開発者Brennen Herbruck氏が2026年10月に書き始めたオープンソースの3D CAD「SolidCraft」は、その一例だ。",
-        "公開から約5週間で正式版を58回リリースし、GitHubからのダウンロードは約150万回、ス."
-      ],
-      "category": "programming",
-      "keywords": [
-        "個人開発で5週間150万DL",
-        "AIと爆速で作るCAD",
-        "SolidCraft",
-        "FabScene",
-        "ファブシーン"
-      ],
-      "heat": {
-        "temperature": 78,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 258,
-          "ageHours": 20,
-          "crossSources": 1,
-          "velocity": 12.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-152bf8c4",
-      "title": "脱WordPress：10年超の個人ブログをAstro + Cloudflare Workersへ移行しPageSpeed 100点を実現",
-      "url": "https://zenn.dev/unsoluble_sugar/articles/8cdf1efc01e6cb",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-15T04:23:12.000Z",
-      "summaryJa": [
-        "はじめに 10 年以上 WordPress で運用してきた個人ブログを Astro + Cloudflare Workers の静的サイト に移行しました。",
-        "移行の経緯と読者向けのまとめはブログ側の記事に書いています。",
-        "この記事では技術的な中身をまとめます。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Cloudflare",
-        "Workersへ移行しPageSpeed",
-        "100点を実現"
-      ],
-      "heat": {
-        "temperature": 81,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 128,
-          "ageHours": 16,
-          "crossSources": 2,
-          "velocity": 8
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-d4a78f1e",
-      "title": "福岡市長選挙 再選挙へ 候補者13人 法定得票数に届かず",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76099",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-15T17:17:40.000Z",
-      "summaryJa": [
-        "新人13人の争いとなった福岡市長選挙は、いずれの候補者も当選に必要な有効投票数の4分の1を獲得できず、公職選挙法に基づき再選挙が行われることになりました。",
-        "政令指定都市の市長選挙で再選挙が行われるのは、…",
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "福岡市長選挙",
-        "再選挙へ",
-        "候補者13人",
-        "法定得票数に届かず"
+        "problems",
+        "recursive",
+        "descent",
+        "parsers"
       ],
       "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 3,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-4f18149a",
-      "title": "ASEAN首脳会議開幕 ミャンマー本格復帰の議論は先送り",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76209",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-15T12:49:13.000Z",
-      "summaryJa": [
-        "ASEAN＝東南アジア諸国連合の首脳会議が15日行われ、焦点の1つになっていたミャンマー情勢をめぐっては加盟国の間で意見が分かれ、本格復帰に向けた議論は先送りさ",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "ASEAN首脳会議開幕",
-        "ミャンマー本格復帰の議論は先送り"
-      ],
-      "heat": {
-        "temperature": 58,
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
           "ageHours": 7,
-          "crossSources": 2,
+          "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "nhk-top-28e6e907",
-      "title": "野球日本代表 韓国に5対1で勝利し大会3連覇",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76311",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-15T16:37:18.000Z",
+      "id": "zenn-trend-182dcc3f",
+      "title": ".NET 11 の ASP.NET Core Blazor の新機能のスケールイン対応機能！",
+      "url": "https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet11-scale",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-15T07:58:03.000Z",
       "summaryJa": [
-        "野球の国際大会「アジアプロ野球チャンピオンシップ」は、15日決勝が行われ日本がソフトバンクの正木智也選手のスリーランホームランなどで韓国に5対1で勝って、大会3",
-        "出典: NHKニュース 主要",
+        "はじめに 今まで ASP.",
+        "NET Core Blazor の InteractiveServer のモードでは、サーバー側のメモリに保持される回路（Circuit）をスケールイン時に別の",
+        "そのため柔軟なスケールアウト！"
+      ],
+      "category": "programming",
+      "keywords": [
+        "NET",
+        "ASP.NET",
+        "Core",
+        "Blazor"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-2be7e4b7",
+      "title": "こんなに変わった！ AWSネットワークの常識",
+      "url": "https://speakerdeck.com/shotashiratori/nw-jaws-10th-keynote",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-15T12:30:54.000Z",
+      "summaryJa": [
+        "NW-JAWS 10周年イベントのKeynote資料です",
+        "出典: はてなブックマーク テクノロジー",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "programming",
       "keywords": [
-        "野球日本代表",
-        "韓国に5対1で勝利し大会3連覇"
+        "AWSネットワークの常識"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 323,
+          "ageHours": 14,
+          "crossSources": 1,
+          "velocity": 22.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-95d7c464",
+      "title": "OpenAIもAnthropicも勧めるのになぜ流行らない？「AIへの指示は99%音声入力」のPdMに聞く活用術 - レバテックLAB",
+      "url": "https://levtech.jp/media/detail_972/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-16T01:34:47.000Z",
+      "summaryJa": [
+        "北國 悠人 プロダクトマネージャー。",
+        "1991年生まれ。",
+        "同志社大学在学中に起業を志し、卒業後は株式会社じげんに入社。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AIへの指示は99%音声入力",
+        "レバテックLAB"
+      ],
+      "heat": {
+        "temperature": 89,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 34,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 28
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-11274395",
+      "title": "【AWS】Cognitoのトークン交換を活用したRAGにおける権限管理について",
+      "url": "https://qiita.com/yakumo_09/items/d6e092dbb566decee632?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-15T14:18:25.000Z",
+      "summaryJa": [
+        "はじめに Amazon Cognito に OAuth 2.",
+        "0 のトークン交換 が来たーというアプデについて エージェントが「誰の代わりに」動いているかをトークンで表せるようになるので、AgentCore Gateway",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "AWS"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-fa71f221",
+      "title": "日本語の脆弱性 DB は 4.6 日かかる。待てないので、46 秒でセキュリティ情報が載るようにした",
+      "url": "https://qiita.com/songchong/items/fa50cc82e49b24925fe3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-15T08:20:40.000Z",
+      "summaryJa": [
+        "使っている技術の脆弱性を、自分に関係する分だけ、早く知りたい。",
+        "知ったら、何を、いつまでにすればよいのかも知りたい。",
+        "脆弱性の情報を追う人の目的は、この 2 つにまとまります。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "日本語の脆弱性",
+        "DB",
+        "日かかる",
+        "待てないので",
+        "秒でセキュリティ情報が載るようにした"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-0ef849ba",
+      "title": "Lightdashで作れるグラフを試してみた【dbt v2】",
+      "url": "https://zenn.dev/ryatora/articles/lightdash-chart-catalog",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-15T15:07:26.000Z",
+      "summaryJa": [
+        "1.",
+        "概要 1.",
+        "1 本記事の目的 NBA（アメリカのプロバスケットボールリーグ）のデータを使って、Lightdash[1]で様々なグラフを作成してみました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "dbt",
+        "v2"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-2885ac6e",
+      "title": "A datetime library for Rust",
+      "url": "https://burntsushi.net/jiff/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-15T22:39:34.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "datetime",
+        "library",
+        "Rust"
       ],
       "heat": {
         "temperature": 54,
@@ -318,144 +402,30 @@
       "image": null
     },
     {
-      "id": "hn-front-9091625b",
-      "title": "The MacBook Pro's OLED PWM problem",
-      "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-15T13:15:22.000Z",
+      "id": "lobsters-7ea2b5fa",
+      "title": "Designing nextest's install scripts",
+      "url": "https://sunshowers.io/posts/nextest-install-scripts/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-16T00:14:56.000Z",
       "summaryJa": [
-        "The MacBook Pro's OLED PWM problem",
-        "出典: Hacker News",
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "MacBook",
-        "Pro",
-        "OLED",
-        "PWM",
-        "problem"
+        "Designing",
+        "nextest",
+        "install",
+        "scripts"
       ],
       "heat": {
-        "temperature": 84,
-        "signals": {
-          "hnPoints": 309,
-          "hatebuCount": 0,
-          "ageHours": 7,
-          "crossSources": 1,
-          "velocity": 43.9
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-7f157c11",
-      "title": "Emacs Is My Browser",
-      "url": "https://joshblais.com/blog/emacs-as-my-browser/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-15T15:21:21.000Z",
-      "summaryJa": [
-        "Emacs Is My Browser",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Emacs",
-        "Browser"
-      ],
-      "heat": {
-        "temperature": 80,
-        "signals": {
-          "hnPoints": 120,
-          "hatebuCount": 0,
-          "ageHours": 5,
-          "crossSources": 1,
-          "velocity": 24.3
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "gtrends-jp-8efa1bc2",
-      "title": "金融資産",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E9%87%91%E8%9E%8D%E8%B3%87%E7%94%A3",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-15T20:00:00.000Z",
-      "summaryJa": [
-        "金融資産",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "trends",
-      "keywords": [
-        "金融資産"
-      ],
-      "heat": {
-        "temperature": 55,
+        "temperature": 54,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "gtrends-jp-461f1208",
-      "title": "藤井聡太",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E8%97%A4%E4%BA%95%E8%81%A1%E5%A4%AA",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-15T19:40:00.000Z",
-      "summaryJa": [
-        "藤井聡太",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "trends",
-      "keywords": [
-        "藤井聡太"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "gtrends-jp-2cbd9fc3",
-      "title": "利益",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E5%88%A9%E7%9B%8A",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-15T19:50:00.000Z",
-      "summaryJa": [
-        "利益",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "trends",
-      "keywords": [
-        "利益"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 3,
           "crossSources": 1,
           "velocity": 0
         }
@@ -465,38 +435,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-d4a9ebeb",
-      "title": "aitjcize/esp32-photoframe — Feature-rich firmware for ESP32-based e-paper displays with superior image quality.",
-      "url": "https://github.com/aitjcize/esp32-photoframe",
+      "id": "github-gems-b899f681",
+      "title": "alexgreensh/anidoodle — Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
+      "url": "https://github.com/alexgreensh/anidoodle",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-11-14T09:31:33Z",
+      "publishedAt": "2026-11-05T20:35:49Z",
       "summaryJa": [
-        "Feature-rich firmware for ESP32-based e-paper displays with superior image quali",
-        "出典: GitHub 小さなOSS",
+        "Art and animation, written as code.",
+        "Illustrations, loops, interactive web art, launch-videos and scored films in doz",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "aitjcize/esp32",
-        "photoframe",
-        "Feature",
-        "rich",
-        "firmware"
+        "Art",
+        "animation",
+        "written",
+        "code",
+        "Illustrations"
       ],
       "heat": {
-        "temperature": 44,
+        "temperature": 40,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 35,
+          "ageHours": 246,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "ESP32を活用した電子ペーパー用ファームウェアであり、表示クオリティと省電力を極限まで高める工夫が詰まっています。自作ハードウェアの仕上げにおいて、細部の質感にこだわりたい作風の読者に強く響く一品です。"
+    "reason": "コードでアニメーションを描き出すanidoodleは、グラフィックとプログラミングの交差点で遊ぶ作り手に強いインスピレーションを与えてくれます。決定論的な描画ループの設計は、インタラクティブアートの制作現場に直結する素晴らしい手触りを持っています。"
   },
   "unavailableSources": []
 }

@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 258,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-16",
+  "dateDisplay": "Monday, November 16, 2026",
+  "pressTimeJst": "2026-11-16 12:00",
+  "generatedAt": "2026-11-16T02:47:34.877Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "85949c92"
+  },
+  "theme": {
+    "title": "状態の巡りと、解析の骨組み",
+    "note": "構文解析の罠からWebアプリの状態退避まで、午後の手を動かす創作の足場を固める技術。"
+  },
+  "editorial": {
+    "comment": "lobsters-fcac49bbで語られる再帰降下パーサーの問題点は、自作言語や独自のフォーマット解析に挑む作り手にとって必読の知見です。バックトラックの落とし穴を知ることで、午後のコーディングでより堅牢な構文解析器を組む手がかりが得られます。—— YZRS Times 編集長",
+    "passedOver": "NTTドコモの通信障害など世間のニュースは、技術インプットに集中する昼刊の趣旨に鑑み見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "曇り",
+    "icon": "cloudy",
+    "tempMax": 19,
+    "tempMin": 12,
+    "precipChancePct": 47
+  },
+  "market": {
+    "fearGreed": {
+      "value": 10,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 65136,
+        "priceJpy": 10407091,
+        "change24hPct": 0.56,
+        "sparkline7d": [
+          75092.33,
+          74740.47,
+          73715.8,
+          72430.22,
+          68639.52,
+          64831.89,
+          64920.52
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1824.34,
+        "priceJpy": 291483,
+        "change24hPct": 0.71,
+        "sparkline7d": [
+          2140.86,
+          2123.36,
+          2056.23,
+          2010.44,
+          1926.42,
+          1785.63,
+          1814.42
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.139712,
+        "priceJpy": 22.32,
+        "change24hPct": 1.63,
+        "sparkline7d": [
+          0.147792,
+          0.148076,
+          0.146371,
+          0.144028,
+          0.146662,
+          0.132702,
+          0.139638
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 209.87,
+        "priceJpy": 33533,
+        "change24hPct": 2.26,
+        "sparkline7d": [
+          241.81,
+          239.59,
+          229.28,
+          225.37,
+          222.66,
+          201.55,
+          209.33
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-6bd28ad4",
+    "lobsters-fcac49bb",
+    "zenn-trend-182dcc3f"
+  ],
+  "sections": [
+    {
+      "id": "deep-tech",
+      "title": "技術の深掘り",
+      "articleIds": [
+        "hatebu-it-2be7e4b7",
+        "hatebu-it-95d7c464"
+      ]
+    },
+    {
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
+      "articleIds": [
+        "qiita-popular-11274395",
+        "qiita-popular-fa71f221",
+        "zenn-trend-0ef849ba"
+      ]
+    },
+    {
+      "id": "global-tech",
+      "title": "海外の技術記事",
+      "articleIds": [
+        "lobsters-2885ac6e",
+        "lobsters-7ea2b5fa"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-6bd28ad4",
+      "title": "今、ソフトウェアエンジニアとして何を思うか｜Mori Atsushi",
+      "url": "https://note.com/at_sushi_at/n/n2e6ea3453e37",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-15T09:51:50.000Z",
+      "summaryJa": [
+        "1年前、私はAIをまだ舐めていたもちろんAIは当時からある程度のコード、というかほとんどのコードを書いてくれた。",
+        "それでも、ソフトウェアエンジニアとしての根本的な能力が足りてなかった。",
+        "保守性を考えない安直で重複したコード、勘違いによるミス、一部しか考慮していないことによる不完全な対応。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Atsushi"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 429,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 25.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-fcac49bb",
+      "title": "Some problems of recursive descent parsers (2009)",
+      "url": "https://eli.thegreenplace.net/2009/03/14/some-problems-of-recursive-descent-parsers",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-15T19:38:25.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "problems",
+        "recursive",
+        "descent",
+        "parsers"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-182dcc3f",
+      "title": ".NET 11 の ASP.NET Core Blazor の新機能のスケールイン対応機能！",
+      "url": "https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet11-scale",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-15T07:58:03.000Z",
+      "summaryJa": [
+        "はじめに 今まで ASP.",
+        "NET Core Blazor の InteractiveServer のモードでは、サーバー側のメモリに保持される回路（Circuit）をスケールイン時に別の",
+        "そのため柔軟なスケールアウト！"
+      ],
+      "category": "programming",
+      "keywords": [
+        "NET",
+        "ASP.NET",
+        "Core",
+        "Blazor"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 19,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-2be7e4b7",
+      "title": "こんなに変わった！ AWSネットワークの常識",
+      "url": "https://speakerdeck.com/shotashiratori/nw-jaws-10th-keynote",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-15T12:30:54.000Z",
+      "summaryJa": [
+        "NW-JAWS 10周年イベントのKeynote資料です",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AWSネットワークの常識"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 323,
+          "ageHours": 14,
+          "crossSources": 1,
+          "velocity": 22.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-95d7c464",
+      "title": "OpenAIもAnthropicも勧めるのになぜ流行らない？「AIへの指示は99%音声入力」のPdMに聞く活用術 - レバテックLAB",
+      "url": "https://levtech.jp/media/detail_972/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-16T01:34:47.000Z",
+      "summaryJa": [
+        "北國 悠人 プロダクトマネージャー。",
+        "1991年生まれ。",
+        "同志社大学在学中に起業を志し、卒業後は株式会社じげんに入社。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AIへの指示は99%音声入力",
+        "レバテックLAB"
+      ],
+      "heat": {
+        "temperature": 89,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 34,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 28
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-11274395",
+      "title": "【AWS】Cognitoのトークン交換を活用したRAGにおける権限管理について",
+      "url": "https://qiita.com/yakumo_09/items/d6e092dbb566decee632?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-15T14:18:25.000Z",
+      "summaryJa": [
+        "はじめに Amazon Cognito に OAuth 2.",
+        "0 のトークン交換 が来たーというアプデについて エージェントが「誰の代わりに」動いているかをトークンで表せるようになるので、AgentCore Gateway",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "AWS"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "qiita-popular-fa71f221",
+      "title": "日本語の脆弱性 DB は 4.6 日かかる。待てないので、46 秒でセキュリティ情報が載るようにした",
+      "url": "https://qiita.com/songchong/items/fa50cc82e49b24925fe3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-15T08:20:40.000Z",
+      "summaryJa": [
+        "使っている技術の脆弱性を、自分に関係する分だけ、早く知りたい。",
+        "知ったら、何を、いつまでにすればよいのかも知りたい。",
+        "脆弱性の情報を追う人の目的は、この 2 つにまとまります。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "日本語の脆弱性",
+        "DB",
+        "日かかる",
+        "待てないので",
+        "秒でセキュリティ情報が載るようにした"
+      ],
+      "heat": {
+        "temperature": 49,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-0ef849ba",
+      "title": "Lightdashで作れるグラフを試してみた【dbt v2】",
+      "url": "https://zenn.dev/ryatora/articles/lightdash-chart-catalog",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-15T15:07:26.000Z",
+      "summaryJa": [
+        "1.",
+        "概要 1.",
+        "1 本記事の目的 NBA（アメリカのプロバスケットボールリーグ）のデータを使って、Lightdash[1]で様々なグラフを作成してみました。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "dbt",
+        "v2"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-2885ac6e",
+      "title": "A datetime library for Rust",
+      "url": "https://burntsushi.net/jiff/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-15T22:39:34.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "datetime",
+        "library",
+        "Rust"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-7ea2b5fa",
+      "title": "Designing nextest's install scripts",
+      "url": "https://sunshowers.io/posts/nextest-install-scripts/",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-16T00:14:56.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Designing",
+        "nextest",
+        "install",
+        "scripts"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-b899f681",
+      "title": "alexgreensh/anidoodle — Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
+      "url": "https://github.com/alexgreensh/anidoodle",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-05T20:35:49Z",
+      "summaryJa": [
+        "Art and animation, written as code.",
+        "Illustrations, loops, interactive web art, launch-videos and scored films in doz",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "Art",
+        "animation",
+        "written",
+        "code",
+        "Illustrations"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 246,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "コードでアニメーションを描き出すanidoodleは、グラフィックとプログラミングの交差点で遊ぶ作り手に強いインスピレーションを与えてくれます。決定論的な描画ループの設計は、インタラクティブアートの制作現場に直結する素晴らしい手触りを持っています。"
+  },
+  "unavailableSources": []
+}
