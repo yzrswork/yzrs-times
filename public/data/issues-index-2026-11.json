@@ -225,6 +225,13 @@
       "edition": "midday",
       "theme": "状態の巡りと、解析の骨組み",
       "path": "issues/2026-11-16-midday.json"
+    },
+    {
+      "issueNo": 259,
+      "date": "2026-11-17",
+      "edition": "morning",
+      "theme": "システムの綻びと基盤の再考",
+      "path": "issues/2026-11-17-morning.json"
     }
   ]
 }

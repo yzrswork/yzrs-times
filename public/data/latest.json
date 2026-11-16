@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "issueNo": 258,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-11-16",
-  "dateDisplay": "Monday, November 16, 2026",
-  "pressTimeJst": "2026-11-16 12:00",
-  "generatedAt": "2026-11-16T02:47:34.877Z",
+  "issueNo": 259,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-17",
+  "dateDisplay": "Tuesday, November 17, 2026",
+  "pressTimeJst": "2026-11-17 05:00",
+  "generatedAt": "2026-11-16T20:17:52.908Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.1-flash-lite",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "状態の巡りと、解析の骨組み",
-    "note": "構文解析の罠からWebアプリの状態退避まで、午後の手を動かす創作の足場を固める技術。"
+    "title": "システムの綻びと基盤の再考",
+    "note": "大規模な障害報告から開発現場の慣習まで、現行システムの脆弱性と、次代へ向けた構築のあり方を問う一日。"
   },
   "editorial": {
-    "comment": "lobsters-fcac49bbで語られる再帰降下パーサーの問題点は、自作言語や独自のフォーマット解析に挑む作り手にとって必読の知見です。バックトラックの落とし穴を知ることで、午後のコーディングでより堅牢な構文解析器を組む手がかりが得られます。—— YZRS Times 編集長",
-    "passedOver": "NTTドコモの通信障害など世間のニュースは、技術インプットに集中する昼刊の趣旨に鑑み見送りました。",
+    "comment": "hn-front-ecba4e26で語られるシステム的な崩壊の兆しは、私たちが日々依存する基盤の脆弱性を浮き彫りにしています。表面的な修正ではなく、設計思想から問い直す姿勢こそが、長続きするコードを書く作り手に求められる規律です。",
+    "passedOver": "日産関連のトピックは、企業の動向という側面が強く、技術的な本質に迫るものが他記事に比べ少なかったため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "曇り",
-    "icon": "cloudy",
-    "tempMax": 19,
-    "tempMin": 12,
-    "precipChancePct": 47
+    "summary": "強い雨",
+    "icon": "rain",
+    "tempMax": 13,
+    "tempMin": 9,
+    "precipChancePct": 100
   },
   "market": {
     "fearGreed": {
@@ -39,362 +39,395 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 65136,
-        "priceJpy": 10407091,
-        "change24hPct": 0.56,
+        "priceUsd": 64971,
+        "priceJpy": 10359486,
+        "change24hPct": 0.42,
         "sparkline7d": [
-          75092.33,
-          74740.47,
-          73715.8,
-          72430.22,
-          68639.52,
-          64831.89,
-          64920.52
+          74803.42,
+          73721.18,
+          73723.46,
+          68541.47,
+          67240.3,
+          64764,
+          64998.07
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1824.34,
-        "priceJpy": 291483,
-        "change24hPct": 0.71,
+        "priceUsd": 1819.18,
+        "priceJpy": 290063,
+        "change24hPct": 0.1,
         "sparkline7d": [
-          2140.86,
-          2123.36,
-          2056.23,
-          2010.44,
-          1926.42,
-          1785.63,
-          1814.42
+          2126.83,
+          2050.34,
+          2052.9,
+          1933.24,
+          1907.4,
+          1807.28,
+          1819.86
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.139712,
-        "priceJpy": 22.32,
-        "change24hPct": 1.63,
+        "priceUsd": 0.137796,
+        "priceJpy": 21.97,
+        "change24hPct": -1.26,
         "sparkline7d": [
-          0.147792,
-          0.148076,
-          0.146371,
-          0.144028,
-          0.146662,
-          0.132702,
-          0.139638
+          0.147147,
+          0.144656,
+          0.146754,
+          0.145056,
+          0.143831,
+          0.13832,
+          0.137784
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 209.87,
-        "priceJpy": 33533,
-        "change24hPct": 2.26,
+        "priceUsd": 208.23,
+        "priceJpy": 33202,
+        "change24hPct": 0.1,
         "sparkline7d": [
-          241.81,
-          239.59,
-          229.28,
-          225.37,
-          222.66,
-          201.55,
-          209.33
+          239.43,
+          230.87,
+          230.1,
+          218.01,
+          216.24,
+          207.8,
+          208.78
         ]
       }
     ]
   },
   "top": [
-    "hatebu-it-6bd28ad4",
-    "lobsters-fcac49bb",
-    "zenn-trend-182dcc3f"
+    "hn-front-872e00b3",
+    "hn-front-ecba4e26",
+    "hatebu-it-f0ad783f"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hatebu-it-2be7e4b7",
-        "hatebu-it-95d7c464"
+        "nhk-top-8931e0c6",
+        "nhk-top-d262b93c",
+        "nhk-top-ea111b63",
+        "nhk-top-42b0b699"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "qiita-popular-11274395",
-        "qiita-popular-fa71f221",
-        "zenn-trend-0ef849ba"
+        "hatebu-it-f7312558"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-2885ac6e",
-        "lobsters-7ea2b5fa"
+        "gtrends-jp-93068956",
+        "gtrends-jp-6f692aa7",
+        "gtrends-jp-b4f7afc4"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hatebu-it-6bd28ad4",
-      "title": "今、ソフトウェアエンジニアとして何を思うか｜Mori Atsushi",
-      "url": "https://note.com/at_sushi_at/n/n2e6ea3453e37",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-15T09:51:50.000Z",
+      "id": "hn-front-872e00b3",
+      "title": "Outages reported at Bank of America, Chase, U.S. Bank, Wells Fargo and Zelle",
+      "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-16T18:31:30.000Z",
       "summaryJa": [
-        "1年前、私はAIをまだ舐めていたもちろんAIは当時からある程度のコード、というかほとんどのコードを書いてくれた。",
-        "それでも、ソフトウェアエンジニアとしての根本的な能力が足りてなかった。",
-        "保守性を考えない安直で重複したコード、勘違いによるミス、一部しか考慮していないことによる不完全な対応。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Atsushi"
-      ],
-      "heat": {
-        "temperature": 81,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 429,
-          "ageHours": 17,
-          "crossSources": 1,
-          "velocity": 25.3
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-fcac49bb",
-      "title": "Some problems of recursive descent parsers (2009)",
-      "url": "https://eli.thegreenplace.net/2009/03/14/some-problems-of-recursive-descent-parsers",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-15T19:38:25.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "Outages reported at Bank of America, Chase, U.S. B",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "problems",
-        "recursive",
-        "descent",
-        "parsers"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 7,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-182dcc3f",
-      "title": ".NET 11 の ASP.NET Core Blazor の新機能のスケールイン対応機能！",
-      "url": "https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet11-scale",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-15T07:58:03.000Z",
-      "summaryJa": [
-        "はじめに 今まで ASP.",
-        "NET Core Blazor の InteractiveServer のモードでは、サーバー側のメモリに保持される回路（Circuit）をスケールイン時に別の",
-        "そのため柔軟なスケールアウト！"
-      ],
-      "category": "programming",
-      "keywords": [
-        "NET",
-        "ASP.NET",
-        "Core",
-        "Blazor"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 19,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-2be7e4b7",
-      "title": "こんなに変わった！ AWSネットワークの常識",
-      "url": "https://speakerdeck.com/shotashiratori/nw-jaws-10th-keynote",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-15T12:30:54.000Z",
-      "summaryJa": [
-        "NW-JAWS 10周年イベントのKeynote資料です",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "AWSネットワークの常識"
-      ],
-      "heat": {
-        "temperature": 81,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 323,
-          "ageHours": 14,
-          "crossSources": 1,
-          "velocity": 22.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-95d7c464",
-      "title": "OpenAIもAnthropicも勧めるのになぜ流行らない？「AIへの指示は99%音声入力」のPdMに聞く活用術 - レバテックLAB",
-      "url": "https://levtech.jp/media/detail_972/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-16T01:34:47.000Z",
-      "summaryJa": [
-        "北國 悠人 プロダクトマネージャー。",
-        "1991年生まれ。",
-        "同志社大学在学中に起業を志し、卒業後は株式会社じげんに入社。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "AIへの指示は99%音声入力",
-        "レバテックLAB"
+        "Outages",
+        "reported",
+        "Bank",
+        "America",
+        "Chase"
       ],
       "heat": {
         "temperature": 89,
         "signals": {
+          "hnPoints": 324,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 182.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-ecba4e26",
+      "title": "Software is breaking down at a systemic level",
+      "url": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-16T18:17:17.000Z",
+      "summaryJa": [
+        "Software is breaking down at a systemic level",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Software",
+        "breaking",
+        "down",
+        "systemic",
+        "level"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 164,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 81.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-f0ad783f",
+      "title": "パスワードより安全なはずが……パスキー対応103サイトを検証→全てに脆弱性　独大学の調査結果",
+      "url": "https://www.itmedia.co.jp/news/article/2611/16/2000003199/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-16T03:03:29.000Z",
+      "summaryJa": [
+        "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。",
+        "執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。",
+        "イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "独大学の調査結果"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
           "hnPoints": 0,
-          "hatebuCount": 34,
+          "hatebuCount": 393,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 22.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-8931e0c6",
+      "title": "トランプ大統領 アジア訪問へ出発 19日には初の米中ロ首脳会談",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261117de76879",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-16T20:01:25.000Z",
+      "summaryJa": [
+        "アメリカのトランプ大統領は、アジア訪問に向けてアメリカを出発しました。",
+        "フィリピンでは、日米豪印4か国でつくる枠組み「クアッド」の首脳会合に出席するほか、中国では、習近平国家主席とロシアのプーチン大…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "トランプ大統領",
+        "アジア訪問へ出発",
+        "19日には初の米中ロ首脳会談"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-d262b93c",
+      "title": "トランプ大統領 中国で「キム総書記と会うかもしれない」",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76866",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-16T20:05:01.000Z",
+      "summaryJa": [
+        "アメリカのトランプ大統領は北朝鮮のキム・ジョンウン総書記と訪問先の中国で会談を行う可能性があることを明らかにしました。",
+        "「キム総書記が来るかもしれない。",
+        "中国の習近平国家主席次第だ」と述べていて、会談…"
+      ],
+      "category": "news",
+      "keywords": [
+        "トランプ大統領",
+        "中国で",
+        "キム総書記と会うかもしれない"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-ea111b63",
+      "title": "高市首相 フィリピン到着 石油備蓄などで新たな枠組み提唱へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76382",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-16T13:10:04.000Z",
+      "summaryJa": [
+        "高市総理大臣は16日午後、ASEANの首脳会議の開催地、フィリピンに到着しました。",
+        "17日に関連の会議に出席し、アジア地域で石油備蓄の協調放出のルールづくりなどを検討する新たな枠組みの創設を提唱する見通…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "高市首相",
+        "フィリピン到着",
+        "石油備蓄などで新たな枠組み提唱へ"
+      ],
+      "heat": {
+        "temperature": 58,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-42b0b699",
+      "title": "東京 中野 路上で女性刺され死亡 強盗殺人未遂容疑で男を逮捕",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76817",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-16T15:30:00.000Z",
+      "summaryJa": [
+        "16日夜、東京・中野区の路上で20代くらいの女性が刃物で刺され、搬送先の病院で死亡が確認されました。",
+        "警視庁は30代から40代くらいの男の容疑者を強盗殺人未遂の疑いで逮捕し、詳しいいきさつを調べています…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "東京",
+        "中野",
+        "路上で女性刺され死亡",
+        "強盗殺人未遂容疑で男を逮捕"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-f7312558",
+      "title": "もういい加減\"技術勉強会\"やめませんか？ - Qiita",
+      "url": "https://qiita.com/kotowazaman/items/9ee7c475a475e7527b0e",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-16T11:51:33.000Z",
+      "summaryJa": [
+        "Deleted articles cannot be recovered.",
+        "Draft of this article would be also deleted.",
+        "Are you sure you want to delete this article?"
+      ],
+      "category": "programming",
+      "keywords": [
+        "技術勉強会",
+        "Qiita"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 154,
+          "ageHours": 8,
+          "crossSources": 2,
+          "velocity": 18.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-93068956",
+      "title": "nyダウ",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=ny%E3%83%80%E3%82%A6",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-16T19:40:00.000Z",
+      "summaryJa": [
+        "nyダウ",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "nyダウ"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
           "ageHours": 1,
           "crossSources": 1,
-          "velocity": 28
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-11274395",
-      "title": "【AWS】Cognitoのトークン交換を活用したRAGにおける権限管理について",
-      "url": "https://qiita.com/yakumo_09/items/d6e092dbb566decee632?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-11-15T14:18:25.000Z",
-      "summaryJa": [
-        "はじめに Amazon Cognito に OAuth 2.",
-        "0 のトークン交換 が来たーというアプデについて エージェントが「誰の代わりに」動いているかをトークンで表せるようになるので、AgentCore Gateway",
-        "."
-      ],
-      "category": "programming",
-      "keywords": [
-        "AWS"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 12,
-          "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "qiita-popular-fa71f221",
-      "title": "日本語の脆弱性 DB は 4.6 日かかる。待てないので、46 秒でセキュリティ情報が載るようにした",
-      "url": "https://qiita.com/songchong/items/fa50cc82e49b24925fe3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-11-15T08:20:40.000Z",
+      "id": "gtrends-jp-6f692aa7",
+      "title": "日産",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%97%A5%E7%94%A3",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-16T19:50:00.000Z",
       "summaryJa": [
-        "使っている技術の脆弱性を、自分に関係する分だけ、早く知りたい。",
-        "知ったら、何を、いつまでにすればよいのかも知りたい。",
-        "脆弱性の情報を追う人の目的は、この 2 つにまとまります。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "日本語の脆弱性",
-        "DB",
-        "日かかる",
-        "待てないので",
-        "秒でセキュリティ情報が載るようにした"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 18,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-0ef849ba",
-      "title": "Lightdashで作れるグラフを試してみた【dbt v2】",
-      "url": "https://zenn.dev/ryatora/articles/lightdash-chart-catalog",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-15T15:07:26.000Z",
-      "summaryJa": [
-        "1.",
-        "概要 1.",
-        "1 本記事の目的 NBA（アメリカのプロバスケットボールリーグ）のデータを使って、Lightdash[1]で様々なグラフを作成してみました。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "dbt",
-        "v2"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 12,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-2885ac6e",
-      "title": "A datetime library for Rust",
-      "url": "https://burntsushi.net/jiff/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-15T22:39:34.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "日産",
+        "出典: Google トレンド",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "trends",
       "keywords": [
-        "datetime",
-        "library",
-        "Rust"
+        "日産"
       ],
       "heat": {
-        "temperature": 54,
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 4,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -402,30 +435,28 @@
       "image": null
     },
     {
-      "id": "lobsters-7ea2b5fa",
-      "title": "Designing nextest's install scripts",
-      "url": "https://sunshowers.io/posts/nextest-install-scripts/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-16T00:14:56.000Z",
+      "id": "gtrends-jp-b4f7afc4",
+      "title": "ドイツ 対 オランダ",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%89%E3%82%A4%E3%83%84%20%E5%AF%BE%20%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-16T19:00:00.000Z",
       "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "ドイツ 対 オランダ",
+        "出典: Google トレンド",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "trends",
       "keywords": [
-        "Designing",
-        "nextest",
-        "install",
-        "scripts"
+        "ドイツ",
+        "オランダ"
       ],
       "heat": {
-        "temperature": 54,
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 3,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -435,38 +466,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-b899f681",
-      "title": "alexgreensh/anidoodle — Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
-      "url": "https://github.com/alexgreensh/anidoodle",
+      "id": "github-gems-9afe73ad",
+      "title": "compozy/compozy — An operating system for AI agents. The autonomous control plane for your agents: see and steer every Claude Code, Codex, and Cursor session. Always-on agents check in on their own, and you step in only when one needs you.",
+      "url": "https://github.com/compozy/compozy",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-11-05T20:35:49Z",
+      "publishedAt": "2026-11-16T20:15:16Z",
       "summaryJa": [
-        "Art and animation, written as code.",
-        "Illustrations, loops, interactive web art, launch-videos and scored films in doz",
-        "詳細は元記事を参照してください。"
+        "An operating system for AI agents.",
+        "The autonomous control plane for your agents: see and steer every Claude Code, C",
+        "Always-on agents check in on their own, and you step in only when one needs you."
       ],
       "category": "oss",
       "keywords": [
-        "Art",
-        "animation",
-        "written",
-        "code",
-        "Illustrations"
+        "compozy/compozy",
+        "operating",
+        "system",
+        "AI",
+        "agents"
       ],
       "heat": {
-        "temperature": 40,
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 246,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "コードでアニメーションを描き出すanidoodleは、グラフィックとプログラミングの交差点で遊ぶ作り手に強いインスピレーションを与えてくれます。決定論的な描画ループの設計は、インタラクティブアートの制作現場に直結する素晴らしい手触りを持っています。"
+    "reason": "自律的なエージェントをOSレベルで制御しようという野心的な試みです。あなたのワークフローを背後から支えるハックの種として最適でしょう。"
   },
   "unavailableSources": []
 }
