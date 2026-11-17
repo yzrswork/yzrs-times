@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-45f6223f",
-      "url": "https://github.com/ad-si/awesome-music-production",
-      "date": "2026-10-18"
-    },
-    {
-      "id": "github-gems-a9532c92",
-      "url": "https://github.com/opencardev/crankshaft",
-      "date": "2026-10-18"
-    },
-    {
       "id": "github-gems-11d28e70",
       "url": "https://github.com/maximecb/noisecraft",
       "date": "2026-10-19"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-9afe73ad",
       "url": "https://github.com/compozy/compozy",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "github-gems-a3aab6b6",
+      "url": "https://github.com/xevrion/hatchzip",
       "date": "2026-11-17"
     }
   ]

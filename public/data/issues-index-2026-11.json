@@ -232,6 +232,13 @@
       "edition": "morning",
       "theme": "システムの綻びと基盤の再考",
       "path": "issues/2026-11-17-morning.json"
+    },
+    {
+      "issueNo": 260,
+      "date": "2026-11-17",
+      "edition": "midday",
+      "theme": "内部構造の解読と、手元の再構築",
+      "path": "issues/2026-11-17-midday.json"
     }
   ]
 }

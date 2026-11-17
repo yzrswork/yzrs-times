@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "issueNo": 259,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 260,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-11-17",
   "dateDisplay": "Tuesday, November 17, 2026",
-  "pressTimeJst": "2026-11-17 05:00",
-  "generatedAt": "2026-11-16T20:17:52.908Z",
+  "pressTimeJst": "2026-11-17 12:00",
+  "generatedAt": "2026-11-17T02:47:33.744Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.1-flash-lite",
+    "model": "gemini-3.5-flash",
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "システムの綻びと基盤の再考",
-    "note": "大規模な障害報告から開発現場の慣習まで、現行システムの脆弱性と、次代へ向けた構築のあり方を問う一日。"
+    "title": "内部構造の解読と、手元の再構築",
+    "note": "昼休みの一息に、手元で動く仕組みの深部へ潜り、午後の創作意欲を呼び覚ます紙面編成。"
   },
   "editorial": {
-    "comment": "hn-front-ecba4e26で語られるシステム的な崩壊の兆しは、私たちが日々依存する基盤の脆弱性を浮き彫りにしています。表面的な修正ではなく、設計思想から問い直す姿勢こそが、長続きするコードを書く作り手に求められる規律です。",
-    "passedOver": "日産関連のトピックは、企業の動向という側面が強く、技術的な本質に迫るものが他記事に比べ少なかったため見送りました。",
+    "comment": "zenn-trend-7886506aのLLM推論エンジン自作記事は、既存の実行フレームワークに頼らずggml上で計算グラフからモデル読み込みまでを手元で組み立てる挑戦が非常に刺激的です。昼休みの技術インプットとして、午後の実装作業や週末のプロトタイピングへの強力な動機を与えてくれます。 —— YZRS Times 編集長",
+    "passedOver": "Microsoft 365の大規模障害や富岳への不正アクセスといった時事ニュースは、手を動かすインプットに特化するため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
@@ -32,310 +32,186 @@
   },
   "market": {
     "fearGreed": {
-      "value": 10,
+      "value": 12,
       "label": "Extreme Fear"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 64971,
-        "priceJpy": 10359486,
-        "change24hPct": 0.42,
+        "priceUsd": 64492,
+        "priceJpy": 10282583,
+        "change24hPct": -1.07,
         "sparkline7d": [
-          74803.42,
-          73721.18,
-          73723.46,
-          68541.47,
-          67240.3,
-          64764,
-          64998.07
+          75004.15,
+          73859.95,
+          73418.46,
+          69507.45,
+          65287.25,
+          65097.86,
+          64583.29
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1819.18,
-        "priceJpy": 290063,
-        "change24hPct": 0.1,
+        "priceUsd": 1814.85,
+        "priceJpy": 289356,
+        "change24hPct": -0.63,
         "sparkline7d": [
-          2126.83,
-          2050.34,
-          2052.9,
-          1933.24,
-          1907.4,
-          1807.28,
-          1819.86
+          2124.27,
+          2069.07,
+          2044.38,
+          1966.02,
+          1823.7,
+          1825.05,
+          1813.29
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.137796,
-        "priceJpy": 21.97,
-        "change24hPct": -1.26,
+        "priceUsd": 0.137689,
+        "priceJpy": 21.95,
+        "change24hPct": -1.62,
         "sparkline7d": [
-          0.147147,
-          0.144656,
-          0.146754,
-          0.145056,
-          0.143831,
-          0.13832,
-          0.137784
+          0.147085,
+          0.145323,
+          0.14648,
+          0.149196,
+          0.137124,
+          0.139846,
+          0.13702
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 208.23,
-        "priceJpy": 33202,
-        "change24hPct": 0.1,
+        "priceUsd": 207.35,
+        "priceJpy": 33060,
+        "change24hPct": -1.26,
         "sparkline7d": [
-          239.43,
-          230.87,
-          230.1,
-          218.01,
-          216.24,
-          207.8,
-          208.78
+          237.93,
+          230.95,
+          228.01,
+          226.72,
+          207.69,
+          209.06,
+          207.56
         ]
       }
     ]
   },
   "top": [
-    "hn-front-872e00b3",
-    "hn-front-ecba4e26",
-    "hatebu-it-f0ad783f"
+    "zenn-trend-7886506a",
+    "hatebu-it-a20d56aa",
+    "lobsters-9fea35ac"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "deep-tech",
+      "title": "技術の深掘り",
       "articleIds": [
-        "nhk-top-8931e0c6",
-        "nhk-top-d262b93c",
-        "nhk-top-ea111b63",
-        "nhk-top-42b0b699"
+        "hn-front-72378b2b",
+        "hn-front-1ce691cb"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "jp-tech",
+      "title": "日本語の技術記事",
       "articleIds": [
-        "hatebu-it-f7312558"
+        "zenn-trend-98dd64fa",
+        "zenn-trend-e0f4e56d",
+        "qiita-popular-f4c8d589"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "global-tech",
+      "title": "海外の技術記事",
       "articleIds": [
-        "gtrends-jp-93068956",
-        "gtrends-jp-6f692aa7",
-        "gtrends-jp-b4f7afc4"
+        "lobsters-02af11e7",
+        "lobsters-21155fe2"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hn-front-872e00b3",
-      "title": "Outages reported at Bank of America, Chase, U.S. Bank, Wells Fargo and Zelle",
-      "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-16T18:31:30.000Z",
+      "id": "zenn-trend-7886506a",
+      "title": "前編　LLM推論エンジンを作る",
+      "url": "https://zenn.dev/shozotanaka/articles/7e86f85974eebb",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-16T07:01:05.000Z",
       "summaryJa": [
-        "Outages reported at Bank of America, Chase, U.S. B",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Outages",
-        "reported",
-        "Bank",
-        "America",
-        "Chase"
-      ],
-      "heat": {
-        "temperature": 89,
-        "signals": {
-          "hnPoints": 324,
-          "hatebuCount": 0,
-          "ageHours": 2,
-          "crossSources": 1,
-          "velocity": 182.7
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-ecba4e26",
-      "title": "Software is breaking down at a systemic level",
-      "url": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-16T18:17:17.000Z",
-      "summaryJa": [
-        "Software is breaking down at a systemic level",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Software",
-        "breaking",
-        "down",
-        "systemic",
-        "level"
-      ],
-      "heat": {
-        "temperature": 88,
-        "signals": {
-          "hnPoints": 164,
-          "hatebuCount": 0,
-          "ageHours": 2,
-          "crossSources": 1,
-          "velocity": 81.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-f0ad783f",
-      "title": "パスワードより安全なはずが……パスキー対応103サイトを検証→全てに脆弱性　独大学の調査結果",
-      "url": "https://www.itmedia.co.jp/news/article/2611/16/2000003199/",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-16T03:03:29.000Z",
-      "summaryJa": [
-        "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。",
-        "執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。",
-        "イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。"
+        "概要 Meta の Llama をはじめとする LLM を 、ローカル環境で実行するオープンソース推論エンジンである llama.",
+        "cpp を使わずに、ggml（ローカル大規模言語モデル向けに作られた軽量な機械学習ライブラリ） の上で LLM の推論エンジンを自作する。",
+        "「モデルの読み込み」「トークナイザ」「計算グラフ」「KV キャッシュ」「Gemma 3・Gemma 4・gpt-ossへの対応」「計算の途中を観測・差し替える仕"
       ],
       "category": "programming",
       "keywords": [
-        "独大学の調査結果"
+        "前編",
+        "LLM推論エンジンを作る"
       ],
       "heat": {
-        "temperature": 83,
+        "temperature": 49,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 393,
-          "ageHours": 17,
+          "hatebuCount": 0,
+          "ageHours": 20,
           "crossSources": 1,
-          "velocity": 22.8
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-8931e0c6",
-      "title": "トランプ大統領 アジア訪問へ出発 19日には初の米中ロ首脳会談",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261117de76879",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-16T20:01:25.000Z",
-      "summaryJa": [
-        "アメリカのトランプ大統領は、アジア訪問に向けてアメリカを出発しました。",
-        "フィリピンでは、日米豪印4か国でつくる枠組み「クアッド」の首脳会合に出席するほか、中国では、習近平国家主席とロシアのプーチン大…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "トランプ大統領",
-        "アジア訪問へ出発",
-        "19日には初の米中ロ首脳会談"
-      ],
-      "heat": {
-        "temperature": 60,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 2,
           "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "nhk-top-d262b93c",
-      "title": "トランプ大統領 中国で「キム総書記と会うかもしれない」",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76866",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-16T20:05:01.000Z",
+      "id": "hatebu-it-a20d56aa",
+      "title": "Node.jsとnpmをWebブラウザ上で実行可能にする「OpenVessel」、神戸ソフトがオープンソースで公開",
+      "url": "https://www.publickey1.jp/blog/26/nodejsnpmwebopenvessel.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-16T19:25:09.000Z",
       "summaryJa": [
-        "アメリカのトランプ大統領は北朝鮮のキム・ジョンウン総書記と訪問先の中国で会談を行う可能性があることを明らかにしました。",
-        "「キム総書記が来るかもしれない。",
-        "中国の習近平国家主席次第だ」と述べていて、会談…"
+        "神戸ソフトは、Webブラウザ上でNode.",
+        "jsとパッケージマネージャのnpm、AstroなどのNode.",
+        "jsに対応したフレームワークなどが実行できる「OpenVessel」をオープンソースで公開しました。"
       ],
-      "category": "news",
+      "category": "programming",
       "keywords": [
-        "トランプ大統領",
-        "中国で",
-        "キム総書記と会うかもしれない"
+        "OpenVessel",
+        "神戸ソフトがオープンソースで公開"
       ],
       "heat": {
-        "temperature": 60,
+        "temperature": 81,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 2,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-ea111b63",
-      "title": "高市首相 フィリピン到着 石油備蓄などで新たな枠組み提唱へ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76382",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-16T13:10:04.000Z",
-      "summaryJa": [
-        "高市総理大臣は16日午後、ASEANの首脳会議の開催地、フィリピンに到着しました。",
-        "17日に関連の会議に出席し、アジア地域で石油備蓄の協調放出のルールづくりなどを検討する新たな枠組みの創設を提唱する見通…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "高市首相",
-        "フィリピン到着",
-        "石油備蓄などで新たな枠組み提唱へ"
-      ],
-      "heat": {
-        "temperature": 58,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
+          "hatebuCount": 48,
           "ageHours": 7,
-          "crossSources": 2,
-          "velocity": 0
+          "crossSources": 1,
+          "velocity": 6.5
         }
       },
       "image": null
     },
     {
-      "id": "nhk-top-42b0b699",
-      "title": "東京 中野 路上で女性刺され死亡 強盗殺人未遂容疑で男を逮捕",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76817",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-16T15:30:00.000Z",
+      "id": "lobsters-9fea35ac",
+      "title": "Safe Systems-programming with Mutable Value Semantics | Dave Abrahams",
+      "url": "https://www.youtube.com/watch?v=op51SyyPJmw",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-16T22:13:03.000Z",
       "summaryJa": [
-        "16日夜、東京・中野区の路上で20代くらいの女性が刃物で刺され、搬送先の病院で死亡が確認されました。",
-        "警視庁は30代から40代くらいの男の容疑者を強盗殺人未遂の疑いで逮捕し、詳しいいきさつを調べています…",
+        "Comments",
+        "出典: Lobsters",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "tech",
       "keywords": [
-        "東京",
-        "中野",
-        "路上で女性刺され死亡",
-        "強盗殺人未遂容疑で男を逮捕"
+        "Safe",
+        "Systems",
+        "Mutable",
+        "Value",
+        "Semantics"
       ],
       "heat": {
         "temperature": 54,
@@ -350,56 +226,90 @@
       "image": null
     },
     {
-      "id": "hatebu-it-f7312558",
-      "title": "もういい加減\"技術勉強会\"やめませんか？ - Qiita",
-      "url": "https://qiita.com/kotowazaman/items/9ee7c475a475e7527b0e",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-16T11:51:33.000Z",
+      "id": "hn-front-72378b2b",
+      "title": "Jiff 1.0: A datetime library for Rust",
+      "url": "https://burntsushi.net/jiff/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-16T16:53:39.000Z",
       "summaryJa": [
-        "Deleted articles cannot be recovered.",
-        "Draft of this article would be also deleted.",
-        "Are you sure you want to delete this article?"
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Jiff",
+        "datetime",
+        "library",
+        "Rust"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 318,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 2,
+          "velocity": 32.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-1ce691cb",
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-16T20:43:36.000Z",
+      "summaryJa": [
+        "Carnegie Mellon is putting computer science course",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Carnegie",
+        "Mellon",
+        "putting",
+        "computer",
+        "science"
+      ],
+      "heat": {
+        "temperature": 87,
+        "signals": {
+          "hnPoints": 801,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 132
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-trend-98dd64fa",
+      "title": "実践パスキー認証設計",
+      "url": "https://zenn.dev/yasuakiomokawa/articles/89f5c46e8effe9",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-16T12:53:34.000Z",
+      "summaryJa": [
+        "この記事の想定読者 これからパスキーを自分のサービスに入れたいが、まず全体像と勘所をつかみたい開発エンジニア パスキーがなぜ有効かを、ビジネス側 (事業責任者、",
+        "「何を決めておけば、後から困らないか」を、実際のサービスで設計した記録として書きます。",
+        "読み方の目安です。"
       ],
       "category": "programming",
       "keywords": [
-        "技術勉強会",
-        "Qiita"
+        "実践パスキー認証設計"
       ],
       "heat": {
-        "temperature": 88,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 154,
-          "ageHours": 8,
-          "crossSources": 2,
-          "velocity": 18.2
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "gtrends-jp-93068956",
-      "title": "nyダウ",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=ny%E3%83%80%E3%82%A6",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-16T19:40:00.000Z",
-      "summaryJa": [
-        "nyダウ",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "trends",
-      "keywords": [
-        "nyダウ"
-      ],
-      "heat": {
-        "temperature": 55,
+        "temperature": 51,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 14,
           "crossSources": 1,
           "velocity": 0
         }
@@ -407,27 +317,28 @@
       "image": null
     },
     {
-      "id": "gtrends-jp-6f692aa7",
-      "title": "日産",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%97%A5%E7%94%A3",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-16T19:50:00.000Z",
+      "id": "zenn-trend-e0f4e56d",
+      "title": "物理世界とAIをつなぐ：可視化で学ぶカメラ・座標系・運動制御入門",
+      "url": "https://zenn.dev/turing_motors/articles/cea9e3c85611b2",
+      "source": "Zenn トレンド",
+      "sourceId": "zenn-trend",
+      "publishedAt": "2026-11-16T08:00:05.000Z",
       "summaryJa": [
-        "日産",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
+        "1.",
+        "はじめに AIが「いま何を考えているのか」を、人間はどうやって知ればいいのでしょうか？",
+        "我々チューリング株式会社は、カメラ映像から走行軌跡を直接予測するEnd-to-End（E2E）自動運転AIを開発しています。"
       ],
-      "category": "trends",
+      "category": "programming",
       "keywords": [
-        "日産"
+        "座標系",
+        "運動制御入門"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 49,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 19,
           "crossSources": 1,
           "velocity": 0
         }
@@ -435,28 +346,91 @@
       "image": null
     },
     {
-      "id": "gtrends-jp-b4f7afc4",
-      "title": "ドイツ 対 オランダ",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%89%E3%82%A4%E3%83%84%20%E5%AF%BE%20%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-16T19:00:00.000Z",
+      "id": "qiita-popular-f4c8d589",
+      "title": "ECSマネージドインスタンスとNitro SandboxでDocker in Dockerして遊んでみる",
+      "url": "https://qiita.com/har1101/items/b7d95297d9cdfe3dc245?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita 人気記事",
+      "sourceId": "qiita-popular",
+      "publishedAt": "2026-11-16T12:16:30.000Z",
       "summaryJa": [
-        "ドイツ 対 オランダ",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
+        "こんにちは、ふくちです。",
+        "最近なんだかコンテナが話題ですね。",
+        "いろんな会社のソフトウェアファクトリーを見ているとKubernetesがよく採用されているのを見ており、なんだかトレンドを感じます。"
       ],
-      "category": "trends",
+      "category": "programming",
       "keywords": [
-        "ドイツ",
-        "オランダ"
+        "ECSマネージドインスタンスとNitro",
+        "SandboxでDocker",
+        "Dockerして遊んでみる"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 50,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-02af11e7",
+      "title": "[SPLASH'26] Mojo: Towards One Systems Language for All Hardware",
+      "url": "https://www.youtube.com/watch?v=9-97SB5XJh4",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-16T23:27:11.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "SPLASH",
+        "Mojo",
+        "Towards",
+        "Systems",
+        "Language"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "lobsters-21155fe2",
+      "title": "Improving the Wii U's Wii Mode",
+      "url": "https://garyodernichts.blogspot.com/2026/11/improving-wii-us-wii-mode.html",
+      "source": "Lobsters",
+      "sourceId": "lobsters",
+      "publishedAt": "2026-11-16T22:39:54.000Z",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Improving",
+        "Wii",
+        "Mode"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
           "crossSources": 1,
           "velocity": 0
         }
@@ -466,38 +440,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-9afe73ad",
-      "title": "compozy/compozy — An operating system for AI agents. The autonomous control plane for your agents: see and steer every Claude Code, Codex, and Cursor session. Always-on agents check in on their own, and you step in only when one needs you.",
-      "url": "https://github.com/compozy/compozy",
+      "id": "github-gems-a3aab6b6",
+      "title": "xevrion/hatchzip — HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted files only. Desktop app and CLI.",
+      "url": "https://github.com/xevrion/hatchzip",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-11-16T20:15:16Z",
+      "publishedAt": "2026-11-16T20:28:37Z",
       "summaryJa": [
-        "An operating system for AI agents.",
-        "The autonomous control plane for your agents: see and steer every Claude Code, C",
-        "Always-on agents check in on their own, and you step in only when one needs you."
+        "HatchZip is a free, open-source archive extractor for Windows, macOS and Linux t",
+        "Desktop app and CLI.",
+        "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "compozy/compozy",
-        "operating",
-        "system",
-        "AI",
-        "agents"
+        "xevrion/hatchzip",
+        "HatchZip",
+        "source",
+        "archive",
+        "extractor"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 6,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "自律的なエージェントをOSレベルで制御しようという野心的な試みです。あなたのワークフローを背後から支えるハックの種として最適でしょう。"
+    "reason": "展開時のディスク消費を抑え、その場でアーカイブを解凍できる実用的なCLI・デスクトップ工具です。ストレージに制約のある自作環境やファイル処理の自動化において確かな威力を発揮します。"
   },
   "unavailableSources": []
 }
