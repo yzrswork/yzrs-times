@@ -239,6 +239,13 @@
       "edition": "midday",
       "theme": "内部構造の解読と、手元の再構築",
       "path": "issues/2026-11-17-midday.json"
+    },
+    {
+      "issueNo": 261,
+      "date": "2026-11-18",
+      "edition": "morning",
+      "theme": "検証の密度と、破られる境界の現実",
+      "path": "issues/2026-11-18-morning.json"
     }
   ]
 }

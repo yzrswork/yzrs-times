@@ -1,78 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "07219bb6dc06194c": {
-      "url": "https://qiita.com/jqit_suwa/items/acb61138c4550eef4803?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "GitHub Trending に「14MB のモデル」が来ていました。",
-        "Cactus Compute の Needle 2 です。",
-        "45M パラメータで、ツール呼び出しに特化しています。"
-      ],
-      "cachedAt": "2026-08-19T02:49:11.042Z"
-    },
-    "743354b8cabd0056": {
-      "url": "https://zenn.dev/itome/articles/e087c6d11d0bd2",
-      "summaryJa": [
-        "こんにちは。",
-        "itome(@itometeam)です。",
-        "Rustでアプリが書けるフレームワークを作ったので、その紹介をします。"
-      ],
-      "cachedAt": "2026-08-19T02:49:11.043Z"
-    },
-    "ff6ae513ffbb6589": {
-      "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2133686.html",
-      "summaryJa": [
-        "【特集】 sigmarion IIIも甦る！「Claude Code」が凄すぎて2カ月間下僕になった",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-19T02:49:11.043Z"
-    },
-    "9d46ade5d1942892": {
-      "url": "https://github.com/DenisSergeevitch/desktop-fly",
-      "summaryJa": [
-        "A 3D fruit fly on macOS desktop powered by the rea",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-19T02:49:11.043Z"
-    },
-    "c7ef34d78abf12e9": {
-      "url": "https://zenn.dev/ito/articles/6b042aa27d65bc",
-      "summaryJa": [
-        "はじめに AIコーディングエージェントに仕事を任せていると、たまにギョッとする瞬間があります。",
-        "通らないテストを skip にして「全テストがパスしました！",
-        "」と報告してくる。"
-      ],
-      "cachedAt": "2026-08-19T02:49:11.043Z"
-    },
-    "b81f04c5bc261bec": {
-      "url": "https://odin-lang.org/docs/inline-asm/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-19T02:49:11.043Z"
-    },
-    "0afc1c9c836dd779": {
-      "url": "https://www.modular.com/blog/mojo-open-source",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-19T02:49:11.043Z"
-    },
-    "d67a2dc3c218f0c2": {
-      "url": "https://github.com/zynaddsubfx/zynaddsubfx",
-      "summaryJa": [
-        "ZynAddSubFX open source synthesizer",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-19T02:49:11.043Z"
-    },
     "8b5739c963498225": {
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00110/00529/",
       "summaryJa": [
@@ -15282,6 +15210,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-17T02:47:53.947Z"
+    },
+    "11709c2adb40051c": {
+      "url": "https://zenn.dev/mizchi/articles/mutation-test-quality",
+      "summaryJa": [
+        "AIがコードを書き散らして認知的負荷が限界に達する今日この頃、皆様いかがお過ごしでしょうか。",
+        "AIによってテストカバレッジを上げることは容易になりました。",
+        "僕も「分岐カバレッジを80%以上にしろ」みたいな雑なプロンプトを書いて昼飯に行ったりします。"
+      ],
+      "cachedAt": "2026-11-17T20:18:02.365Z"
+    },
+    "e496c1b17f1c4f70": {
+      "url": "https://news.yahoo.co.jp/articles/141fe69b0f33952604cde710494bbdff584f269a",
+      "summaryJa": [
+        "楽天証券のスマートフォンアプリ「iSPEED」（CNET Japan） 楽天証券は11月17日、第三者による不正アクセスを受け、最大約447万口座分の氏名や住所",
+        "退会した顧客の情報も含まれる。",
+        "同社は11月16日、一部システム."
+      ],
+      "cachedAt": "2026-11-17T20:18:02.365Z"
+    },
+    "1e9731c87ae24bd2": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261117de77433",
+      "summaryJa": [
+        "服役中の受刑者の投票を一律に認めない公職選挙法の規定が、選挙権を保障した憲法に違反するかどうかが争われている裁判で、最高裁判所大法廷が18日判決を言い渡します。",
+        "受刑者の選挙権制限について最高裁が判決を…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-17T20:18:02.365Z"
+    },
+    "2ff31bdb5b69b24e": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261118de77459",
+      "summaryJa": [
+        "APEC＝アジア太平洋経済協力会議の首脳会議が18日から中国の深センで開かれます。",
+        "日中関係が悪化した状態が続く中、高市総理大臣と中国の習近平国家主席が接触し、関係改善に向けた動きが見られるかや、ア…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-17T20:18:02.365Z"
+    },
+    "b0bb4e03d4d7a73a": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261117de77425",
+      "summaryJa": [
+        "アメリカ商務省が先端半導体などの輸出に関する新たな規則を公表したことについて、中国外務省の報道官は「中国のハイテク産業の発展を不当に抑圧している」などと反発し、",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-17T20:18:02.365Z"
+    },
+    "3a4d3301c790ce8e": {
+      "url": "https://github.com/jquery/jquery/releases/tag/4.1.0",
+      "summaryJa": [
+        "jQuery 4.1.0",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-17T20:18:02.365Z"
+    },
+    "1ef68d8c66fafe73": {
+      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+      "summaryJa": [
+        "New Evidence Shows School Phone Bans Are Gradually",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-17T20:18:02.365Z"
+    },
+    "a477cce78a5d7171": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%97%A5%E7%B1%B3%E8%B1%AA%E5%8D%B0%E6%88%A6%E7%95%A5%E5%AF%BE%E8%A9%B1",
+      "summaryJa": [
+        "日米豪印戦略対話",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-17T20:18:02.365Z"
+    },
+    "bc5d35a3d8d3c933": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E8%8F%8A%E5%9C%B0%E5%90%8F%E7%8E%96",
+      "summaryJa": [
+        "菊地吏玖",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-17T20:18:02.365Z"
+    },
+    "f02aeff2e8e24520": {
+      "url": "https://github.com/NeptuneHub/AudioMuse-AI",
+      "summaryJa": [
+        "AudioMuse-AI uses sonic analysis to rediscover forgotten songs, uncover hidden c",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-17T20:18:02.365Z"
     }
   }
 }

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 260,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-11-17",
-  "dateDisplay": "Tuesday, November 17, 2026",
-  "pressTimeJst": "2026-11-17 12:00",
-  "generatedAt": "2026-11-17T02:47:33.744Z",
+  "issueNo": 261,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-18",
+  "dateDisplay": "Wednesday, November 18, 2026",
+  "pressTimeJst": "2026-11-18 05:00",
+  "generatedAt": "2026-11-17T20:17:41.196Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,19 +14,19 @@
     "promptHash": "85949c92"
   },
   "theme": {
-    "title": "内部構造の解読と、手元の再構築",
-    "note": "昼休みの一息に、手元で動く仕組みの深部へ潜り、午後の創作意欲を呼び覚ます紙面編成。"
+    "title": "検証の密度と、破られる境界の現実",
+    "note": "AI時代のテスト精度への着目から金融インフラの脆弱性まで、手元の確かさと社会の防壁を同時に見つめ直す朝。"
   },
   "editorial": {
-    "comment": "zenn-trend-7886506aのLLM推論エンジン自作記事は、既存の実行フレームワークに頼らずggml上で計算グラフからモデル読み込みまでを手元で組み立てる挑戦が非常に刺激的です。昼休みの技術インプットとして、午後の実装作業や週末のプロトタイピングへの強力な動機を与えてくれます。 —— YZRS Times 編集長",
-    "passedOver": "Microsoft 365の大規模障害や富岳への不正アクセスといった時事ニュースは、手を動かすインプットに特化するため見送りました。",
+    "comment": "hatebu-it-11709c2aのミューテーションテストに関する記事は、AI時代に形骸化しがちなテストカバレッジへの鋭い警鐘であり、手元で動かすコードの品質と真摯に向き合う作り手に勇気を与えてくれます。 —— YZRS Times 編集長",
+    "passedOver": "GPT-6.2やMAI Code 2などのAIモデル速報は見送りました。未検証の宣伝よりも、手元のコード品質や現実のインフラ障害に向き合う記事を優先したためです。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
     "summary": "強い雨",
     "icon": "rain",
-    "tempMax": 13,
+    "tempMax": 20,
     "tempMin": 9,
     "precipChancePct": 100
   },
@@ -39,186 +39,184 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 64492,
-        "priceJpy": 10282583,
-        "change24hPct": -1.07,
+        "priceUsd": 63746,
+        "priceJpy": 10158044,
+        "change24hPct": -1.92,
         "sparkline7d": [
-          75004.15,
-          73859.95,
-          73418.46,
-          69507.45,
-          65287.25,
-          65097.86,
-          64583.29
+          73389.89,
+          73974.39,
+          68890.88,
+          67133.39,
+          65548.56,
+          65141.77,
+          63704.6
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1814.85,
-        "priceJpy": 289356,
-        "change24hPct": -0.63,
+        "priceUsd": 1791.96,
+        "priceJpy": 285552,
+        "change24hPct": -1.54,
         "sparkline7d": [
-          2124.27,
-          2069.07,
-          2044.38,
-          1966.02,
-          1823.7,
-          1825.05,
-          1813.29
+          2042.36,
+          2055.37,
+          1933.34,
+          1897.46,
+          1830.12,
+          1846.09,
+          1788.14
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.137689,
-        "priceJpy": 21.95,
-        "change24hPct": -1.62,
+        "priceUsd": 0.137978,
+        "priceJpy": 21.99,
+        "change24hPct": 0.19,
         "sparkline7d": [
-          0.147085,
-          0.145323,
-          0.14648,
-          0.149196,
-          0.137124,
-          0.139846,
-          0.13702
+          0.144104,
+          0.147092,
+          0.142457,
+          0.142744,
+          0.138935,
+          0.13855,
+          0.136999
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 207.35,
-        "priceJpy": 33060,
-        "change24hPct": -1.26,
+        "priceUsd": 207.49,
+        "priceJpy": 33065,
+        "change24hPct": -0.33,
         "sparkline7d": [
-          237.93,
-          230.95,
-          228.01,
-          226.72,
-          207.69,
-          209.06,
-          207.56
+          229.64,
+          228.69,
+          217.06,
+          213.96,
+          208.64,
+          208.75,
+          206.64
         ]
       }
     ]
   },
   "top": [
-    "zenn-trend-7886506a",
-    "hatebu-it-a20d56aa",
-    "lobsters-9fea35ac"
+    "hatebu-it-11709c2a",
+    "hatebu-it-e496c1b1",
+    "nhk-top-1e9731c8"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hn-front-72378b2b",
-        "hn-front-1ce691cb"
+        "nhk-top-2ff31bdb",
+        "nhk-world-b0bb4e03"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-trend-98dd64fa",
-        "zenn-trend-e0f4e56d",
-        "qiita-popular-f4c8d589"
+        "hn-front-269833d0",
+        "hn-front-ba6613aa"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-02af11e7",
-        "lobsters-21155fe2"
+        "gtrends-jp-a477cce7",
+        "gtrends-jp-bc5d35a3"
       ]
     }
   ],
   "articles": [
     {
-      "id": "zenn-trend-7886506a",
-      "title": "前編　LLM推論エンジンを作る",
-      "url": "https://zenn.dev/shozotanaka/articles/7e86f85974eebb",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-16T07:01:05.000Z",
+      "id": "hatebu-it-11709c2a",
+      "title": "おい、 Mutation Test をやれ。テスト品質を、測るために",
+      "url": "https://zenn.dev/mizchi/articles/mutation-test-quality",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-17T09:59:42.000Z",
       "summaryJa": [
-        "概要 Meta の Llama をはじめとする LLM を 、ローカル環境で実行するオープンソース推論エンジンである llama.",
-        "cpp を使わずに、ggml（ローカル大規模言語モデル向けに作られた軽量な機械学習ライブラリ） の上で LLM の推論エンジンを自作する。",
-        "「モデルの読み込み」「トークナイザ」「計算グラフ」「KV キャッシュ」「Gemma 3・Gemma 4・gpt-ossへの対応」「計算の途中を観測・差し替える仕"
+        "AIがコードを書き散らして認知的負荷が限界に達する今日この頃、皆様いかがお過ごしでしょうか。",
+        "AIによってテストカバレッジを上げることは容易になりました。",
+        "僕も「分岐カバレッジを80%以上にしろ」みたいな雑なプロンプトを書いて昼飯に行ったりします。"
       ],
       "category": "programming",
       "keywords": [
-        "前編",
-        "LLM推論エンジンを作る"
+        "Mutation",
+        "Test",
+        "測るために"
       ],
       "heat": {
-        "temperature": 49,
+        "temperature": 86,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 20,
+          "hatebuCount": 223,
+          "ageHours": 10,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 21.7
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-a20d56aa",
-      "title": "Node.jsとnpmをWebブラウザ上で実行可能にする「OpenVessel」、神戸ソフトがオープンソースで公開",
-      "url": "https://www.publickey1.jp/blog/26/nodejsnpmwebopenvessel.html",
+      "id": "hatebu-it-e496c1b1",
+      "title": "楽天証券に不正アクセス、最大1125万口座のログインIDなど漏えいのおそれ（CNET Japan） - Yahoo!ニュース",
+      "url": "https://news.yahoo.co.jp/articles/141fe69b0f33952604cde710494bbdff584f269a",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-16T19:25:09.000Z",
+      "publishedAt": "2026-11-17T09:33:35.000Z",
       "summaryJa": [
-        "神戸ソフトは、Webブラウザ上でNode.",
-        "jsとパッケージマネージャのnpm、AstroなどのNode.",
-        "jsに対応したフレームワークなどが実行できる「OpenVessel」をオープンソースで公開しました。"
+        "楽天証券のスマートフォンアプリ「iSPEED」（CNET Japan） 楽天証券は11月17日、第三者による不正アクセスを受け、最大約447万口座分の氏名や住所",
+        "退会した顧客の情報も含まれる。",
+        "同社は11月16日、一部システム."
       ],
       "category": "programming",
       "keywords": [
-        "OpenVessel",
-        "神戸ソフトがオープンソースで公開"
+        "楽天証券に不正アクセス",
+        "CNET",
+        "Japan",
+        "Yahoo!ニュース"
       ],
       "heat": {
         "temperature": 81,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 48,
-          "ageHours": 7,
+          "hatebuCount": 93,
+          "ageHours": 11,
           "crossSources": 1,
-          "velocity": 6.5
+          "velocity": 8.7
         }
       },
       "image": null
     },
     {
-      "id": "lobsters-9fea35ac",
-      "title": "Safe Systems-programming with Mutable Value Semantics | Dave Abrahams",
-      "url": "https://www.youtube.com/watch?v=op51SyyPJmw",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-16T22:13:03.000Z",
+      "id": "nhk-top-1e9731c8",
+      "title": "受刑者の投票 一律に認めずは違憲？最高裁大法廷きょう判決",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261117de77433",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-17T20:10:49.000Z",
       "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "服役中の受刑者の投票を一律に認めない公職選挙法の規定が、選挙権を保障した憲法に違反するかどうかが争われている裁判で、最高裁判所大法廷が18日判決を言い渡します。",
+        "受刑者の選挙権制限について最高裁が判決を…",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "Safe",
-        "Systems",
-        "Mutable",
-        "Value",
-        "Semantics"
+        "受刑者の投票"
       ],
       "heat": {
-        "temperature": 54,
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 5,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -226,174 +224,200 @@
       "image": null
     },
     {
-      "id": "hn-front-72378b2b",
-      "title": "Jiff 1.0: A datetime library for Rust",
-      "url": "https://burntsushi.net/jiff/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-16T16:53:39.000Z",
+      "id": "nhk-top-2ff31bdb",
+      "title": "APEC首脳会議　日中接触や米中ロ首脳会談が焦点",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261118de77459",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-17T20:11:40.000Z",
       "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "APEC＝アジア太平洋経済協力会議の首脳会議が18日から中国の深センで開かれます。",
+        "日中関係が悪化した状態が続く中、高市総理大臣と中国の習近平国家主席が接触し、関係改善に向けた動きが見られるかや、ア…",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "Jiff",
-        "datetime",
-        "library",
-        "Rust"
+        "APEC首脳会議",
+        "日中接触や米中ロ首脳会談が焦点"
       ],
       "heat": {
-        "temperature": 82,
+        "temperature": 60,
         "signals": {
-          "hnPoints": 318,
+          "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 10,
+          "ageHours": 1,
           "crossSources": 2,
-          "velocity": 32.1
+          "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-1ce691cb",
-      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
-      "url": "https://www.cs.cmu.edu/learn/",
+      "id": "nhk-world-b0bb4e03",
+      "title": "中国外務省 米の先端半導体輸出新規則に反発",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261117de77425",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-11-17T13:42:00.000Z",
+      "summaryJa": [
+        "アメリカ商務省が先端半導体などの輸出に関する新たな規則を公表したことについて、中国外務省の報道官は「中国のハイテク産業の発展を不当に抑圧している」などと反発し、",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "中国外務省",
+        "米の先端半導体輸出新規則に反発"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-269833d0",
+      "title": "jQuery 4.1.0",
+      "url": "https://github.com/jquery/jquery/releases/tag/4.1.0",
       "source": "Hacker News",
       "sourceId": "hn-front",
-      "publishedAt": "2026-11-16T20:43:36.000Z",
+      "publishedAt": "2026-11-17T19:50:40.000Z",
       "summaryJa": [
-        "Carnegie Mellon is putting computer science course",
+        "jQuery 4.1.0",
         "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Carnegie",
-        "Mellon",
-        "putting",
-        "computer",
-        "science"
+        "jQuery"
       ],
       "heat": {
-        "temperature": 87,
+        "temperature": 79,
         "signals": {
-          "hnPoints": 801,
+          "hnPoints": 30,
           "hatebuCount": 0,
-          "ageHours": 6,
+          "ageHours": 1,
           "crossSources": 1,
-          "velocity": 132
+          "velocity": 60
         }
       },
       "image": null
     },
     {
-      "id": "zenn-trend-98dd64fa",
-      "title": "実践パスキー認証設計",
-      "url": "https://zenn.dev/yasuakiomokawa/articles/89f5c46e8effe9",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-16T12:53:34.000Z",
+      "id": "hn-front-ba6613aa",
+      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-17T11:45:51.000Z",
       "summaryJa": [
-        "この記事の想定読者 これからパスキーを自分のサービスに入れたいが、まず全体像と勘所をつかみたい開発エンジニア パスキーがなぜ有効かを、ビジネス側 (事業責任者、",
-        "「何を決めておけば、後から困らないか」を、実際のサービスで設計した記録として書きます。",
-        "読み方の目安です。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "実践パスキー認証設計"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 14,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-e0f4e56d",
-      "title": "物理世界とAIをつなぐ：可視化で学ぶカメラ・座標系・運動制御入門",
-      "url": "https://zenn.dev/turing_motors/articles/cea9e3c85611b2",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-16T08:00:05.000Z",
-      "summaryJa": [
-        "1.",
-        "はじめに AIが「いま何を考えているのか」を、人間はどうやって知ればいいのでしょうか？",
-        "我々チューリング株式会社は、カメラ映像から走行軌跡を直接予測するEnd-to-End（E2E）自動運転AIを開発しています。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "座標系",
-        "運動制御入門"
-      ],
-      "heat": {
-        "temperature": 49,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 19,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-f4c8d589",
-      "title": "ECSマネージドインスタンスとNitro SandboxでDocker in Dockerして遊んでみる",
-      "url": "https://qiita.com/har1101/items/b7d95297d9cdfe3dc245?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-11-16T12:16:30.000Z",
-      "summaryJa": [
-        "こんにちは、ふくちです。",
-        "最近なんだかコンテナが話題ですね。",
-        "いろんな会社のソフトウェアファクトリーを見ているとKubernetesがよく採用されているのを見ており、なんだかトレンドを感じます。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "ECSマネージドインスタンスとNitro",
-        "SandboxでDocker",
-        "Dockerして遊んでみる"
-      ],
-      "heat": {
-        "temperature": 50,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 15,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-02af11e7",
-      "title": "[SPLASH'26] Mojo: Towards One Systems Language for All Hardware",
-      "url": "https://www.youtube.com/watch?v=9-97SB5XJh4",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-16T23:27:11.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "New Evidence Shows School Phone Bans Are Gradually",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "SPLASH",
-        "Mojo",
-        "Towards",
-        "Systems",
-        "Language"
+        "Evidence",
+        "Shows",
+        "School",
+        "Phone",
+        "Bans"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 1009,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 118.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-a477cce7",
+      "title": "日米豪印戦略対話",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%97%A5%E7%B1%B3%E8%B1%AA%E5%8D%B0%E6%88%A6%E7%95%A5%E5%AF%BE%E8%A9%B1",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-17T19:40:00.000Z",
+      "summaryJa": [
+        "日米豪印戦略対話",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "日米豪印戦略対話"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-bc5d35a3",
+      "title": "菊地吏玖",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E8%8F%8A%E5%9C%B0%E5%90%8F%E7%8E%96",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-17T19:00:00.000Z",
+      "summaryJa": [
+        "菊地吏玖",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "菊地吏玖"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-7e804833",
+      "title": "NeptuneHub/AudioMuse-AI — AudioMuse-AI uses sonic analysis to rediscover forgotten songs, uncover hidden connections in your music library, and generate intelligent playlists for Navidrome, Jellyfin, LMS, Lyrion, Emby and Plex: no metadata or external services required.",
+      "url": "https://github.com/NeptuneHub/AudioMuse-AI",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-17T17:44:08Z",
+      "summaryJa": [
+        "AudioMuse-AI uses sonic analysis to rediscover forgotten songs, uncover hidden c",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "NeptuneHub/AudioMuse",
+        "AI",
+        "AudioMuse",
+        "uses",
+        "sonic"
       ],
       "heat": {
         "temperature": 54,
@@ -407,71 +431,7 @@
       },
       "image": null
     },
-    {
-      "id": "lobsters-21155fe2",
-      "title": "Improving the Wii U's Wii Mode",
-      "url": "https://garyodernichts.blogspot.com/2026/11/improving-wii-us-wii-mode.html",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-16T22:39:54.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Improving",
-        "Wii",
-        "Mode"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 4,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    }
-  ],
-  "hiddenGem": {
-    "article": {
-      "id": "github-gems-a3aab6b6",
-      "title": "xevrion/hatchzip — HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted files only. Desktop app and CLI.",
-      "url": "https://github.com/xevrion/hatchzip",
-      "source": "GitHub 小さなOSS",
-      "sourceId": "github-gems",
-      "publishedAt": "2026-11-16T20:28:37Z",
-      "summaryJa": [
-        "HatchZip is a free, open-source archive extractor for Windows, macOS and Linux t",
-        "Desktop app and CLI.",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "oss",
-      "keywords": [
-        "xevrion/hatchzip",
-        "HatchZip",
-        "source",
-        "archive",
-        "extractor"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    "reason": "展開時のディスク消費を抑え、その場でアーカイブを解凍できる実用的なCLI・デスクトップ工具です。ストレージに制約のある自作環境やファイル処理の自動化において確かな威力を発揮します。"
+    "reason": "メタデータに頼らず音響解析だけでローカルの楽曲ライブラリから隠れた繋がりを再発見するアプローチが秀逸です。音楽とプログラミングを愛するあなたの手元で、眠っていた音源に新たな光を当てるツールになるでしょう。"
   },
   "unavailableSources": []
 }
