@@ -183,6 +183,19 @@ export function selectGemCandidates(items, { blockedDomains, gemHistoryEntries, 
 
 const NO_SIGNAL_SOURCE_TYPES = new Set(['rss', 'gtrends']);
 
+// --- 版ごとの取得対象 ---
+// sources.jsonは全版の情報源の宣言。取得はその版の欄とHidden Gemに使うソースだけに絞る。
+// 他の版専用のソースを取りに行かないことで、取得時間と「取得できなかったソース」の誤表示を減らす。
+export function sourcesForEdition(sourcesConfig, editionConfig) {
+  const used = new Set(editionConfig.sections.flatMap((s) => s.sources));
+  const gemIds = editionConfig.hiddenGemSources;
+  for (const src of sourcesConfig.sources) {
+    if (!src.gemPool) continue;
+    if (!Array.isArray(gemIds) || gemIds.includes(src.id)) used.add(src.id);
+  }
+  return { ...sourcesConfig, sources: sourcesConfig.sources.filter((s) => used.has(s.id)) };
+}
+
 // --- エントリポイント ---
 export function rank(items, { sourcesConfig, editionConfig, gemHistoryEntries, now }) {
   const deduped = dedupe(items);

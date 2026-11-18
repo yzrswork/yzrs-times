@@ -32,7 +32,7 @@ export const STOPWORDS = new Set([
 ]);
 
 // カテゴリIDと同名のキーワードは情報が重複する（カテゴリ結線が既にある）ため除く。
-export const CATEGORY_IDS = new Set(['news', 'tech', 'programming', 'oss', 'blog', 'trends', 'general']);
+export const CATEGORY_IDS = new Set(['news', 'tech', 'programming', 'oss', 'blog', 'trends', '3dprint', 'make', 'repair', 'workflow', 'general']);
 
 // 先頭、末尾の飾りを剥がす対象
 const TRIM_CHARS = /^[\s"'“”‘’「」『』()（）\[\]【】{}<>《》.,!?！？:;、。・･…—–-]+|[\s"'“”‘’「」『』()（）\[\]【】{}<>《》.,!?！？:;、。・･…—–-]+$/gu;

@@ -6,6 +6,9 @@ const CATEGORY_BY_SOURCE = {
   'hn-front': 'tech', 'hatebu-it': 'programming', 'gtrends-jp': 'trends',
   'show-hn': 'tech', 'github-gems': 'oss', 'indieblog': 'blog',
   'zenn-trend': 'programming', 'qiita-popular': 'programming', 'lobsters': 'tech',
+  'zenn-3dprinter': '3dprint', 'hackaday-3dp': '3dprint',
+  'hackaday': 'make', 'zenn-denshi': 'make', 'hackaday-repair': 'repair',
+  'zenn-claudecode': 'workflow', 'zenn-muse': 'workflow', 'zenn-obsidian': 'workflow',
 };
 
 // snippetを整形して要約代わりの3行を機械的に組み立てる（フォールバック・mock用）。
