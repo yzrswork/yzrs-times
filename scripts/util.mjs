@@ -84,16 +84,19 @@ export function jstDateDisplay(date = new Date()) {
   }).format(date);
 }
 
-export async function withRetry(fn, { retries = 2, baseDelayMs = 500 } = {}) {
+// shouldRetry(err) が false を返した失敗は待たずに即座に投げる（404など、待っても直らない失敗）。
+// onError(err, attempt, willRetry) は失敗のたびに呼ばれる（ログ用）。どちらも省略時は従来どおり。
+export async function withRetry(fn, { retries = 2, baseDelayMs = 500, shouldRetry = () => true, onError } = {}) {
   let lastErr;
   for (let attempt = 0; attempt <= retries; attempt++) {
     try {
       return await fn(attempt);
     } catch (err) {
       lastErr = err;
-      if (attempt < retries) {
-        await new Promise((r) => setTimeout(r, baseDelayMs * 2 ** attempt));
-      }
+      const willRetry = attempt < retries && shouldRetry(err);
+      onError?.(err, attempt, willRetry);
+      if (!willRetry) break;
+      await new Promise((r) => setTimeout(r, baseDelayMs * 2 ** attempt));
     }
   }
   throw lastErr;
