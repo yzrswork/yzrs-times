@@ -253,6 +253,13 @@
       "edition": "midday",
       "theme": "手元の計算資源と、構築される基盤の感触",
       "path": "issues/2026-11-18-midday.json"
+    },
+    {
+      "issueNo": 263,
+      "date": "2026-11-19",
+      "edition": "morning",
+      "theme": "システムの綻びと検証の行方",
+      "path": "issues/2026-11-19-morning.json"
     }
   ]
 }

@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 263,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-19",
+  "dateDisplay": "Thursday, November 19, 2026",
+  "pressTimeJst": "2026-11-19 05:00",
+  "generatedAt": "2026-11-18T20:17:46.658Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "promptHash": "27e1e947"
+  },
+  "theme": {
+    "title": "システムの綻びと検証の行方",
+    "note": "デジタル社会のセキュリティ懸念と物理的な地震発生が重なる朝。作り手として、こうした不可抗力や脆弱性といかに距離をとり、自前の環境を整え続けるかが問われています。"
+  },
+  "editorial": {
+    "comment": "今週は「楽天証券への不正アクセスについてまとめてみた」を読み、テスト環境の遮断手順を再確認します。自分の実験用サーバーにも同様の穴がないか、週末に権限設定を見直す予定です。",
+    "passedOver": "トクリュウに関する裁判傍聴記事は、作り手の作業現場に直接的な結びつきが薄いため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ時々曇り",
+    "icon": "partly-cloudy",
+    "tempMax": 19,
+    "tempMin": 10,
+    "precipChancePct": 10
+  },
+  "market": {
+    "fearGreed": {
+      "value": 11,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 62718,
+        "priceJpy": 9994558,
+        "change24hPct": -1.71,
+        "sparkline7d": [
+          74337.98,
+          71371.98,
+          66690.7,
+          63980.1,
+          64533.13,
+          64948.65,
+          63117.25
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1754.7,
+        "priceJpy": 279624,
+        "change24hPct": -2.17,
+        "sparkline7d": [
+          2076.48,
+          2017.35,
+          1882.26,
+          1781.67,
+          1808.1,
+          1812.9,
+          1768.78
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.137761,
+        "priceJpy": 21.95,
+        "change24hPct": -0.28,
+        "sparkline7d": [
+          0.149234,
+          0.14835,
+          0.142709,
+          0.137394,
+          0.138418,
+          0.139922,
+          0.138944
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 206.58,
+        "priceJpy": 32920,
+        "change24hPct": -0.55,
+        "sparkline7d": [
+          231.6,
+          225.06,
+          216.28,
+          203.28,
+          206.23,
+          211.33,
+          208.37
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-b9fe3669",
+    "nhk-top-9a6742e1",
+    "hatebu-it-0a5ba253"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-4c1f6872"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hn-front-2ece75ad",
+        "hn-front-813e61e7",
+        "hn-front-1ea73ff1"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-00a80609",
+        "gtrends-jp-cee20e2e"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-b9fe3669",
+      "title": "楽天証券への不正アクセスについてまとめてみた - piyolog",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/11/18/100525",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-18T01:53:39.000Z",
+      "summaryJa": [
+        "2026年11月17日、楽天証券は第三者による不正アクセスに伴い、保有する顧客情報の一部が漏えいした可能性があると公表しました。",
+        "ここでは関連する情報をまとめます。",
+        "テスト環境から顧客情報漏えいのおそれ 楽天証券は11月16日に一部システムへの第三者による不正アクセスの可能性を検知し、該当箇所へのアクセスを遮断."
+      ],
+      "category": "programming",
+      "keywords": [
+        "piyolog"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 341,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 18.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-9a6742e1",
+      "title": "【地震情報】熊本県で震度5弱 今後1週間程度は注意を",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261119de78097",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-18T20:06:53.000Z",
+      "summaryJa": [
+        "19日午前2時22分ごろ、熊本県で震度5弱の揺れを観測する地震がありました。",
+        "気象庁は、ことし7月の熊本地震の一連の活動だとして、今後1週間程度は最大震度5弱程度の地震に注意するとともに、さらに強い揺れ…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "地震情報",
+        "熊本県で震度5弱"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-0a5ba253",
+      "title": "MUJI Card発行のクレディセゾン、カード番号削除を2度依頼　無印は実行せず",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12190/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-18T14:15:39.000Z",
+      "summaryJa": [
+        "「無印良品」を展開する良品計画から、同社ブランドで発行する「MUJI Card」のクレジットカード番号全桁が約109万件漏洩した恐れがある事案について、新たな事",
+        "MUJI Cardを発行するクレディセゾンが良品計画に対し、2020年と2021年の2度にわたりカード番号の削除を依頼していた。",
+        "2026年11月18日、クレディ."
+      ],
+      "category": "programming",
+      "keywords": [
+        "MUJI",
+        "Card発行のクレディセゾン",
+        "カード番号削除を2度依頼",
+        "無印は実行せず"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 128,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 21.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-4c1f6872",
+      "title": "注目の米中首脳会談 米中ロの3か国首脳会談 きょう開催へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261119de78117",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-18T19:46:00.000Z",
+      "summaryJa": [
+        "APEC＝アジア太平洋経済協力会議が開かれている中国の※深センで19日、アメリカのトランプ大統領と中国の習近平国家主席、それにロシアのプーチン大統領が、3か国の",
+        "核軍縮…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "注目の米中首脳会談",
+        "米中ロの3か国首脳会談"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-2ece75ad",
+      "title": "Unauthenticated remote code execution in Nginx",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-18T15:19:55.000Z",
+      "summaryJa": [
+        "Unauthenticated remote code execution in Nginx",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Unauthenticated",
+        "remote",
+        "code",
+        "execution",
+        "Nginx"
+      ],
+      "heat": {
+        "temperature": 93,
+        "signals": {
+          "hnPoints": 699,
+          "hatebuCount": 15,
+          "ageHours": 5,
+          "crossSources": 2,
+          "velocity": 140.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-813e61e7",
+      "title": "Seven new models at scalable price-performance",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-18T16:08:24.000Z",
+      "summaryJa": [
+        "Seven new models at scalable price-performance",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Seven",
+        "models",
+        "scalable",
+        "price",
+        "performance"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 304,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 73.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-1ea73ff1",
+      "title": "DNS resolvers are the wrong place to fight piracy",
+      "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-18T13:18:02.000Z",
+      "summaryJa": [
+        "DNS resolvers are the wrong place to fight piracy",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "DNS",
+        "resolvers",
+        "wrong",
+        "place",
+        "fight"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 458,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 65.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-00a80609",
+      "title": "半導体",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-18T20:00:00.000Z",
+      "summaryJa": [
+        "半導体",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "半導体"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-cee20e2e",
+      "title": "chat gpt",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=chat%20gpt",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-18T19:10:00.000Z",
+      "summaryJa": [
+        "chat gpt",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "chat",
+        "gpt"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-bb01f35a",
+      "title": "HermannBjorgvin/Clawdmeter — ESP32 display that shows you your Claude Code usage",
+      "url": "https://github.com/HermannBjorgvin/Clawdmeter",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-17T20:29:42Z",
+      "summaryJa": [
+        "ESP32 display that shows you your Claude Code usage",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "ESP32",
+        "display",
+        "shows",
+        "Claude",
+        "Code"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 24,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "Claude Codeの消費量を可視化するこのツールは、開発の熱量とコストを意識する上で最適です。RE:DRIVEのケースに組み込めば、自分だけの作業モニターとして愛着が湧くはずです。"
+  },
+  "unavailableSources": []
+}

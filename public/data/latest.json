@@ -1,96 +1,190 @@
 {
   "schemaVersion": 1,
-  "issueNo": 262,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-11-18",
-  "dateDisplay": "Wednesday, November 18, 2026",
-  "pressTimeJst": "2026-11-18 12:00",
-  "generatedAt": "2026-11-18T02:47:37.747Z",
+  "issueNo": 263,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-19",
+  "dateDisplay": "Thursday, November 19, 2026",
+  "pressTimeJst": "2026-11-19 05:00",
+  "generatedAt": "2026-11-18T20:17:46.658Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
     "model": "gemini-3.1-flash-lite",
-    "promptHash": "85949c92"
+    "promptHash": "27e1e947"
   },
   "theme": {
-    "title": "手元の計算資源と、構築される基盤の感触",
-    "note": "AIモデルをローカルで動かす技術が身近になり、手元のGPU活用や最適化が午後の作業を左右する一日です。"
+    "title": "システムの綻びと検証の行方",
+    "note": "デジタル社会のセキュリティ懸念と物理的な地震発生が重なる朝。作り手として、こうした不可抗力や脆弱性といかに距離をとり、自前の環境を整え続けるかが問われています。"
   },
   "editorial": {
-    "comment": "ローカルLLM入門（zenn-trend-2a91eb3c）を読み、メモリ帯域という制約と向き合うことの重要性を再認識しました。作り手として、自分のハードウェアの限界を理解し最適化を施すプロセスこそが、創造的な午後の作業の基盤となります。",
-    "passedOver": "Java4Shell関連の脆弱性情報は重要ですが、技術的な構築よりも防御とインシデント対応に重きが置かれるため、今回は見送りました。",
+    "comment": "今週は「楽天証券への不正アクセスについてまとめてみた」を読み、テスト環境の遮断手順を再確認します。自分の実験用サーバーにも同様の穴がないか、週末に権限設定を見直す予定です。",
+    "passedOver": "トクリュウに関する裁判傍聴記事は、作り手の作業現場に直接的な結びつきが薄いため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "強い雨",
-    "icon": "rain",
+    "summary": "晴れ時々曇り",
+    "icon": "partly-cloudy",
     "tempMax": 19,
-    "tempMin": 9,
-    "precipChancePct": 100
+    "tempMin": 10,
+    "precipChancePct": 10
   },
   "market": {
     "fearGreed": {
       "value": 11,
       "label": "Extreme Fear"
     },
-    "coins": null
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 62718,
+        "priceJpy": 9994558,
+        "change24hPct": -1.71,
+        "sparkline7d": [
+          74337.98,
+          71371.98,
+          66690.7,
+          63980.1,
+          64533.13,
+          64948.65,
+          63117.25
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1754.7,
+        "priceJpy": 279624,
+        "change24hPct": -2.17,
+        "sparkline7d": [
+          2076.48,
+          2017.35,
+          1882.26,
+          1781.67,
+          1808.1,
+          1812.9,
+          1768.78
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.137761,
+        "priceJpy": 21.95,
+        "change24hPct": -0.28,
+        "sparkline7d": [
+          0.149234,
+          0.14835,
+          0.142709,
+          0.137394,
+          0.138418,
+          0.139922,
+          0.138944
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 206.58,
+        "priceJpy": 32920,
+        "change24hPct": -0.55,
+        "sparkline7d": [
+          231.6,
+          225.06,
+          216.28,
+          203.28,
+          206.23,
+          211.33,
+          208.37
+        ]
+      }
+    ]
   },
   "top": [
-    "zenn-trend-2a91eb3c",
-    "hatebu-it-935ffb89",
-    "zenn-trend-df7dc99a"
+    "hatebu-it-b9fe3669",
+    "nhk-top-9a6742e1",
+    "hatebu-it-0a5ba253"
   ],
   "sections": [
     {
-      "id": "deep-tech",
-      "title": "技術の深掘り",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "lobsters-b2631e10",
-        "lobsters-0f526772",
-        "lobsters-3d66e091"
+        "nhk-top-4c1f6872"
       ]
     },
     {
-      "id": "jp-tech",
-      "title": "日本語の技術記事",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "qiita-popular-e79c7083",
-        "qiita-popular-cb1d11cd"
+        "hn-front-2ece75ad",
+        "hn-front-813e61e7",
+        "hn-front-1ea73ff1"
       ]
     },
     {
-      "id": "global-tech",
-      "title": "海外の技術記事",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "lobsters-b5158176"
+        "gtrends-jp-00a80609",
+        "gtrends-jp-cee20e2e"
       ]
     }
   ],
   "articles": [
     {
-      "id": "zenn-trend-2a91eb3c",
-      "title": "ローカルLLM入門",
-      "url": "https://zenn.dev/port_inc/articles/ff974c7456f4db",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-17T07:17:24.000Z",
+      "id": "hatebu-it-b9fe3669",
+      "title": "楽天証券への不正アクセスについてまとめてみた - piyolog",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/11/18/100525",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-18T01:53:39.000Z",
       "summaryJa": [
-        "!",
-        "2026年10月にポート株式会社として公立はこだて未来大学で行ったゲスト講義「生成AI × UI/UX」の前半2章に、講義のあとで調べた内容を加えて記事にしたも",
-        "数値・モデル名・価格は 2026年10月30日時点 のものです。"
+        "2026年11月17日、楽天証券は第三者による不正アクセスに伴い、保有する顧客情報の一部が漏えいした可能性があると公表しました。",
+        "ここでは関連する情報をまとめます。",
+        "テスト環境から顧客情報漏えいのおそれ 楽天証券は11月16日に一部システムへの第三者による不正アクセスの可能性を検知し、該当箇所へのアクセスを遮断."
       ],
       "category": "programming",
       "keywords": [
-        "ローカルLLM入門"
+        "piyolog"
       ],
       "heat": {
-        "temperature": 49,
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 341,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 18.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-9a6742e1",
+      "title": "【地震情報】熊本県で震度5弱 今後1週間程度は注意を",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261119de78097",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-18T20:06:53.000Z",
+      "summaryJa": [
+        "19日午前2時22分ごろ、熊本県で震度5弱の揺れを観測する地震がありました。",
+        "気象庁は、ことし7月の熊本地震の一連の活動だとして、今後1週間程度は最大震度5弱程度の地震に注意するとともに、さらに強い揺れ…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "地震情報",
+        "熊本県で震度5弱"
+      ],
+      "heat": {
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 20,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -98,247 +192,212 @@
       "image": null
     },
     {
-      "id": "hatebu-it-935ffb89",
-      "title": "［速報］マイクロソフト、コーディング用AIモデルとして高性能かつ低価格「MAI Code 2」「MAI Code 2 Flash」発表",
-      "url": "https://www.publickey1.jp/blog/26/aimai_code_2mai_code_2_flash.html",
+      "id": "hatebu-it-0a5ba253",
+      "title": "MUJI Card発行のクレディセゾン、カード番号削除を2度依頼　無印は実行せず",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12190/",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-17T23:16:58.000Z",
+      "publishedAt": "2026-11-18T14:15:39.000Z",
       "summaryJa": [
-        "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、同社が開発したコーディング用AIモデルのフラグシ",
-        "競合と同等性能を低価格で提供 MAI Code 2とMAI Code 2 Flashは.",
-        "."
+        "「無印良品」を展開する良品計画から、同社ブランドで発行する「MUJI Card」のクレジットカード番号全桁が約109万件漏洩した恐れがある事案について、新たな事",
+        "MUJI Cardを発行するクレディセゾンが良品計画に対し、2020年と2021年の2度にわたりカード番号の削除を依頼していた。",
+        "2026年11月18日、クレディ."
       ],
       "category": "programming",
       "keywords": [
-        "［速報］マイクロソフト",
-        "MAI",
-        "Code",
-        "Flash",
-        "発表"
+        "MUJI",
+        "Card発行のクレディセゾン",
+        "カード番号削除を2度依頼",
+        "無印は実行せず"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 128,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 21.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-4c1f6872",
+      "title": "注目の米中首脳会談 米中ロの3か国首脳会談 きょう開催へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261119de78117",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-18T19:46:00.000Z",
+      "summaryJa": [
+        "APEC＝アジア太平洋経済協力会議が開かれている中国の※深センで19日、アメリカのトランプ大統領と中国の習近平国家主席、それにロシアのプーチン大統領が、3か国の",
+        "核軍縮…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "注目の米中首脳会談",
+        "米中ロの3か国首脳会談"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-2ece75ad",
+      "title": "Unauthenticated remote code execution in Nginx",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-18T15:19:55.000Z",
+      "summaryJa": [
+        "Unauthenticated remote code execution in Nginx",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Unauthenticated",
+        "remote",
+        "code",
+        "execution",
+        "Nginx"
+      ],
+      "heat": {
+        "temperature": 93,
+        "signals": {
+          "hnPoints": 699,
+          "hatebuCount": 15,
+          "ageHours": 5,
+          "crossSources": 2,
+          "velocity": 140.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-813e61e7",
+      "title": "Seven new models at scalable price-performance",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-18T16:08:24.000Z",
+      "summaryJa": [
+        "Seven new models at scalable price-performance",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Seven",
+        "models",
+        "scalable",
+        "price",
+        "performance"
       ],
       "heat": {
         "temperature": 84,
         "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 23,
-          "ageHours": 4,
-          "crossSources": 1,
-          "velocity": 6.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-trend-df7dc99a",
-      "title": "L40S 1台で社内RAGは何人まで使えるか",
-      "url": "https://zenn.dev/epicai_techblog/articles/29b509117755af",
-      "source": "Zenn トレンド",
-      "sourceId": "zenn-trend",
-      "publishedAt": "2026-11-17T10:00:06.000Z",
-      "summaryJa": [
-        "はじめに 社内にLLMを導入する際に、「このGPUで何人まで利用できるのか」とよく尋ねられます。",
-        "答えはモデルや設定によって変わり、検索用の埋め込みモデルを同じGPUで動かすかどうかにも左右されます。",
-        "そこで、実際の利用に近い条件で計測することにしました。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "L40S",
-        "1台で社内RAGは何人まで使えるか"
-      ],
-      "heat": {
-        "temperature": 50,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 17,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-b2631e10",
-      "title": "Automatic Checking of Compiler Correctness with E-Graphs",
-      "url": "https://stng.substack.com/p/automatic-checking-of-compiler-correctness",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-17T18:18:12.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Automatic",
-        "Checking",
-        "Compiler",
-        "Correctness",
-        "Graphs"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 8,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-0f526772",
-      "title": "Making Games in Go: Entity Component System (ECS)",
-      "url": "https://threedots.tech/post/making-games-in-go-ecs/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-17T17:18:53.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Games",
-        "Go",
-        "Entity",
-        "Component",
-        "System"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 9,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-3d66e091",
-      "title": "Vx32: Lightweight User-level Sandboxing on the x86 (2008)",
-      "url": "https://pdos.csail.mit.edu/papers/vx32:usenix08.pdf",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-17T22:49:01.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Vx32",
-        "Lightweight",
-        "User",
-        "level",
-        "Sandboxing"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
+          "hnPoints": 304,
           "hatebuCount": 0,
           "ageHours": 4,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 73.1
         }
       },
       "image": null
     },
     {
-      "id": "qiita-popular-e79c7083",
-      "title": "数学Ⅲの積分を半導体工学で練習してみよう",
-      "url": "https://qiita.com/mahaya123/items/0175b426a7a021ac8d4a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-11-17T11:21:05.000Z",
+      "id": "hn-front-1ea73ff1",
+      "title": "DNS resolvers are the wrong place to fight piracy",
+      "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-18T13:18:02.000Z",
       "summaryJa": [
-        "半導体の仕組みを知りながら、積分計算で工学的な課題を解決する 高校数学Ⅲでは、三角関数や指数関数の積分、置換積分、部分積分、面積、回転体の体積、曲線の長さなどを",
-        "では、こうした計算は実際の工学で何に使われているのでしょうか。",
-        "半導体工学では、光の吸収量、不純物."
-      ],
-      "category": "programming",
-      "keywords": [
-        "数学Ⅲの積分を半導体工学で練習してみよう"
-      ],
-      "heat": {
-        "temperature": 50,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 15,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "qiita-popular-cb1d11cd",
-      "title": "【個人開発/未経験】エラーログが風流な短歌になる「絶望えらぁ短歌」開発してみた【Rails 8 + OpenAI API】",
-      "url": "https://qiita.com/mmsbox/items/12e2b7e06468e1c0a98f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita 人気記事",
-      "sourceId": "qiita-popular",
-      "publishedAt": "2026-11-17T10:21:18.000Z",
-      "summaryJa": [
-        "はじめに はじめまして！",
-        "RUNTEQでエンジニアを目指して学習中の、もーと申します！",
-        "突然ですが、皆さんはエラーで心が折れたことはありますか？"
-      ],
-      "category": "programming",
-      "keywords": [
-        "個人開発/未経験",
-        "エラーログが風流な短歌になる",
-        "絶望えらぁ短歌",
-        "開発してみた",
-        "Rails"
-      ],
-      "heat": {
-        "temperature": 50,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 16,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "lobsters-b5158176",
-      "title": "Nimony: The next version of Nim",
-      "url": "https://nimony.org/",
-      "source": "Lobsters",
-      "sourceId": "lobsters",
-      "publishedAt": "2026-11-17T21:56:09.000Z",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
+        "DNS resolvers are the wrong place to fight piracy",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
       "category": "tech",
       "keywords": [
-        "Nimony",
-        "next",
-        "version",
-        "Nim"
+        "DNS",
+        "resolvers",
+        "wrong",
+        "place",
+        "fight"
       ],
       "heat": {
-        "temperature": 53,
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 458,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 65.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-00a80609",
+      "title": "半導体",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-18T20:00:00.000Z",
+      "summaryJa": [
+        "半導体",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "半導体"
+      ],
+      "heat": {
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 5,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-cee20e2e",
+      "title": "chat gpt",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=chat%20gpt",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-18T19:10:00.000Z",
+      "summaryJa": [
+        "chat gpt",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "chat",
+        "gpt"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -348,40 +407,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-2cab5ac1",
-      "title": "flyfish-dev/file-viewer — Preview 275+ file formats in the browser: Office, PDF, OFD, CAD, 3D, archives. Pure frontend, no server conversion. Vue / React / Svelte / Web Components.",
-      "url": "https://github.com/flyfish-dev/file-viewer",
+      "id": "github-gems-bb01f35a",
+      "title": "HermannBjorgvin/Clawdmeter — ESP32 display that shows you your Claude Code usage",
+      "url": "https://github.com/HermannBjorgvin/Clawdmeter",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-11-17T08:19:19Z",
+      "publishedAt": "2026-11-17T20:29:42Z",
       "summaryJa": [
-        "Preview 275+ file formats in the browser: Office, PDF, OFD, CAD, 3D, archives.",
-        "Pure frontend, no server conversion.",
-        "Vue / React / Svelte / Web Components."
+        "ESP32 display that shows you your Claude Code usage",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "flyfish",
-        "dev/file",
-        "viewer",
-        "Preview",
-        "file"
+        "ESP32",
+        "display",
+        "shows",
+        "Claude",
+        "Code"
       ],
       "heat": {
-        "temperature": 49,
+        "temperature": 48,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 18,
+          "ageHours": 24,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "フロントエンドのみで完結するファイルプレビューの実装は、独自のツールセットを組む際非常に強力な武器になります。サーバー変換を挟まない軽量な設計は、あなたの午後の試作速度を大きく引き上げるはずです。"
+    "reason": "Claude Codeの消費量を可視化するこのツールは、開発の熱量とコストを意識する上で最適です。RE:DRIVEのケースに組み込めば、自分だけの作業モニターとして愛着が湧くはずです。"
   },
-  "unavailableSources": [
-    "Market"
-  ]
+  "unavailableSources": []
 }

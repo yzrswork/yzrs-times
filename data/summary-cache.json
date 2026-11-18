@@ -1,105 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "8cc25cb5d33724d6": {
-      "url": "https://zenn.dev/fjktkm/articles/95ec94e1c2ab38",
-      "summaryJa": [
-        "1.",
-        "はじめに TrueType Collection（TTC）は，複数のフォントを一つのファイルに格納するためのファイル形式です．主には同一のフォントファミリーにお",
-        "というわけで，この記事では実際に Google Fonts."
-      ],
-      "cachedAt": "2026-08-20T02:48:31.054Z"
-    },
-    "f34f50141294eebc": {
-      "url": "https://zenn.dev/nrs/articles/b920540a64e1a1",
-      "summaryJa": [
-        "OpenAI や Anthropic のフロンティアモデルの性能はとてもよいのですが、経済性がよくありません。",
-        "日次や週次のレート制限がどれだけあなたを苛立たせたでしょう。",
-        "また、毎日の仕事道具の生殺与奪を誰かの方針に握られているのも気に入りません。"
-      ],
-      "cachedAt": "2026-08-20T02:48:31.054Z"
-    },
-    "03e07bb8b9762bd8": {
-      "url": "https://blog.ploopy.co/the-aplus-is-finally-here-499",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-20T02:48:31.054Z"
-    },
-    "cc2524d0c5543754": {
-      "url": "https://anond.hatelabo.jp/20260819180816",
-      "summaryJa": [
-        "文章だけの投稿サービスを作ってみた。",
-        "いいねもコメントもないし、見出しや太字とかの装飾すらできない。",
-        "広告もない。"
-      ],
-      "cachedAt": "2026-08-20T02:48:31.054Z"
-    },
-    "8a9e466be6495db0": {
-      "url": "https://levtech.jp/media/detail_910/",
-      "summaryJa": [
-        "株式会社Preferred Networks LLM開発事業本部 本部長 田中大輔 2015年、株式会社Preferred Networks入社。",
-        "自社IoT製品の研究開発や企業導入支援、深層学習 コンパイラ開発に従事。",
-        "エンジニアリングマネージャーを経て、2022年に機械学習基盤担当 VPに就任（当時）。"
-      ],
-      "cachedAt": "2026-08-20T02:48:31.054Z"
-    },
-    "5f78ad9865b39745": {
-      "url": "https://qiita.com/WdknWdkn/items/fe4b1810f45e4b6df166?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに いえらぶＧＲＯＵＰの開発部で執行役員を務めています、和田です。",
-        "わだけんです。",
-        "去年、新人にAIを一時的に禁止した話を書きました。"
-      ],
-      "cachedAt": "2026-08-20T02:48:31.054Z"
-    },
-    "0530d836ee9b4732": {
-      "url": "https://qiita.com/harupython/items/1fba6abe5e2eac105edd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "パスワードを入力せず、顔・指紋・端末のPINなどでログインできる「パスキー」。",
-        "便利なのは分かりますが、仕組みを調べるともっと気になる特徴があります。",
-        "サービス側の認証情報が盗まれても、それだけではログインに使えない。"
-      ],
-      "cachedAt": "2026-08-20T02:48:31.054Z"
-    },
-    "f6b9ac657058682b": {
-      "url": "https://zenn.dev/pksha/articles/e5c8f9b2a41d73",
-      "summaryJa": [
-        "初めまして！",
-        "PKSHA Technology デザイナーの清水と申します。",
-        "普段はデザイナーとしてXで発信しています。"
-      ],
-      "cachedAt": "2026-08-20T02:48:31.054Z"
-    },
-    "ac12ae98f6500e77": {
-      "url": "https://sumnerevans.com/posts/money/plain-text-accounting/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-20T02:48:31.054Z"
-    },
-    "bbe6e6fdcfa1c208": {
-      "url": "https://github.com/helioscout/moecs",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-20T02:48:31.054Z"
-    },
-    "26bf16beff93a9ea": {
-      "url": "https://blog.vrypan.net/2026/08/19/260819-sing-song/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-20T02:48:31.054Z"
-    },
     "cba58727ea88e064": {
       "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
       "summaryJa": [
@@ -15327,6 +15228,87 @@
         "Vue / React / Svelte / Web Components."
       ],
       "cachedAt": "2026-11-18T02:50:44.360Z"
+    },
+    "b9fe3669e7f6a4b1": {
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/11/18/100525",
+      "summaryJa": [
+        "2026年11月17日、楽天証券は第三者による不正アクセスに伴い、保有する顧客情報の一部が漏えいした可能性があると公表しました。",
+        "ここでは関連する情報をまとめます。",
+        "テスト環境から顧客情報漏えいのおそれ 楽天証券は11月16日に一部システムへの第三者による不正アクセスの可能性を検知し、該当箇所へのアクセスを遮断."
+      ],
+      "cachedAt": "2026-11-18T20:19:38.123Z"
+    },
+    "9a6742e197b9285c": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261119de78097",
+      "summaryJa": [
+        "19日午前2時22分ごろ、熊本県で震度5弱の揺れを観測する地震がありました。",
+        "気象庁は、ことし7月の熊本地震の一連の活動だとして、今後1週間程度は最大震度5弱程度の地震に注意するとともに、さらに強い揺れ…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-18T20:19:38.123Z"
+    },
+    "0a5ba2537273a89e": {
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12190/",
+      "summaryJa": [
+        "「無印良品」を展開する良品計画から、同社ブランドで発行する「MUJI Card」のクレジットカード番号全桁が約109万件漏洩した恐れがある事案について、新たな事",
+        "MUJI Cardを発行するクレディセゾンが良品計画に対し、2020年と2021年の2度にわたりカード番号の削除を依頼していた。",
+        "2026年11月18日、クレディ."
+      ],
+      "cachedAt": "2026-11-18T20:19:38.123Z"
+    },
+    "4c1f68725cc29b86": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261119de78117",
+      "summaryJa": [
+        "APEC＝アジア太平洋経済協力会議が開かれている中国の※深センで19日、アメリカのトランプ大統領と中国の習近平国家主席、それにロシアのプーチン大統領が、3か国の",
+        "核軍縮…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-18T20:19:38.123Z"
+    },
+    "0c457241d113ed5a": {
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "summaryJa": [
+        "Unauthenticated remote code execution in Nginx",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-18T20:19:38.123Z"
+    },
+    "ab00b903e6c15228": {
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "summaryJa": [
+        "Seven new models at scalable price-performance",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-18T20:19:38.124Z"
+    },
+    "1d3b46ca8bcb0b99": {
+      "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+      "summaryJa": [
+        "DNS resolvers are the wrong place to fight piracy",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-18T20:19:38.124Z"
+    },
+    "00a806092bd530d8": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "summaryJa": [
+        "半導体",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-18T20:19:38.124Z"
+    },
+    "cee20e2ede94e240": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=chat%20gpt",
+      "summaryJa": [
+        "chat gpt",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-18T20:19:38.124Z"
     }
   }
 }
