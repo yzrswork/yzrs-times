@@ -1,69 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "8b5739c963498225": {
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00110/00529/",
-      "summaryJa": [
-        "東京都建設局は環状7号などの地下に整備する延長約30kmの巨大河川について、洪水時にポンプを使わず、サイホンの原理で東京湾に雨水を放流する方式とする方針を固めた",
-        "内径12.",
-        "5mの圧力管を敷設し、最大で1秒当たり570m3放流する考えだ。"
-      ],
-      "cachedAt": "2026-08-19T20:19:05.177Z"
-    },
-    "4b353cb9409ee33c": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
-      "summaryJa": [
-        "鎌倉時代、元が日本に攻め入った「元寇」で沈んだ船がある長崎県の海底遺跡で、矢の一部が見つかりました。",
-        "元に滅ぼされた南宋のものとみられ、調査した奈良文化財研究所などの研究グループでは、「元がどのように武…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-19T20:19:05.177Z"
-    },
-    "71b475ab36dc741a": {
-      "url": "https://www.publickey1.jp/blog/26/dockerdocker_vmm.html",
-      "summaryJa": [
-        "Docker社は独自開発したコンテナ向けの高性能な新ハイパーバイザ「Docker VMM」をパブリックベータとして公開しました。",
-        "WindowsとmacOSに対応した最新の「Docker Desktop v4.",
-        "86」で利用可能です。"
-      ],
-      "cachedAt": "2026-08-19T20:19:05.177Z"
-    },
-    "10664e43df7ca5f4": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260819de45162",
-      "summaryJa": [
-        "KDDIが企業に提供しているメールシステムで不正アクセスが発生し、アドレスやパスワードが流出したことについて、政府の個人情報保護委員会は、安全管理上の不備が認め",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-19T20:19:05.177Z"
-    },
-    "9faba06a77d48e07": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260819de45135",
-      "summaryJa": [
-        "中国の新興の宇宙開発企業は、ロケットの再利用を目指して、衛星を載せて打ち上げたあとに上空で切り離したロケットの一部の着陸に成功したと発表しました。",
-        "国営メディアは中国初の成果だとして大きく伝えていて、宇…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-19T20:19:05.177Z"
-    },
-    "b106111e9875f086": {
-      "url": "https://go.dev/blog/go1.27",
-      "summaryJa": [
-        "Go 1.27",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-19T20:19:05.177Z"
-    },
-    "61e17252a4c3485e": {
-      "url": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/08/19/1968225633/",
-      "summaryJa": [
-        "2026年8月17日に公表した「当社レンタルサーバーサービスの一部環境に対する不正なアクセスについて」に関して、調査を継続しておりましたところ、新たに判明した事",
-        "このたびは、お客さま、お取引先、パートナー企業その他関係者の皆さまに、多大なるご心配とご迷惑をおかけしてお.",
-        "."
-      ],
-      "cachedAt": "2026-08-19T20:19:05.177Z"
-    },
     "8cc25cb5d33724d6": {
       "url": "https://zenn.dev/fjktkm/articles/95ec94e1c2ab38",
       "summaryJa": [
@@ -15300,6 +15237,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-17T20:18:02.365Z"
+    },
+    "2a91eb3cc34c2542": {
+      "url": "https://zenn.dev/port_inc/articles/ff974c7456f4db",
+      "summaryJa": [
+        "!",
+        "2026年10月にポート株式会社として公立はこだて未来大学で行ったゲスト講義「生成AI × UI/UX」の前半2章に、講義のあとで調べた内容を加えて記事にしたも",
+        "数値・モデル名・価格は 2026年10月30日時点 のものです。"
+      ],
+      "cachedAt": "2026-11-18T02:50:44.359Z"
+    },
+    "935ffb89ab051522": {
+      "url": "https://www.publickey1.jp/blog/26/aimai_code_2mai_code_2_flash.html",
+      "summaryJa": [
+        "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、同社が開発したコーディング用AIモデルのフラグシ",
+        "競合と同等性能を低価格で提供 MAI Code 2とMAI Code 2 Flashは.",
+        "."
+      ],
+      "cachedAt": "2026-11-18T02:50:44.359Z"
+    },
+    "df7dc99a1fb34b95": {
+      "url": "https://zenn.dev/epicai_techblog/articles/29b509117755af",
+      "summaryJa": [
+        "はじめに 社内にLLMを導入する際に、「このGPUで何人まで利用できるのか」とよく尋ねられます。",
+        "答えはモデルや設定によって変わり、検索用の埋め込みモデルを同じGPUで動かすかどうかにも左右されます。",
+        "そこで、実際の利用に近い条件で計測することにしました。"
+      ],
+      "cachedAt": "2026-11-18T02:50:44.359Z"
+    },
+    "b2631e103aa7e141": {
+      "url": "https://stng.substack.com/p/automatic-checking-of-compiler-correctness",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-18T02:50:44.359Z"
+    },
+    "0f52677284b1bc6c": {
+      "url": "https://threedots.tech/post/making-games-in-go-ecs/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-18T02:50:44.360Z"
+    },
+    "3d66e09124a11a61": {
+      "url": "https://pdos.csail.mit.edu/papers/vx32:usenix08.pdf",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-18T02:50:44.360Z"
+    },
+    "e79c7083d5558a3b": {
+      "url": "https://qiita.com/mahaya123/items/0175b426a7a021ac8d4a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "半導体の仕組みを知りながら、積分計算で工学的な課題を解決する 高校数学Ⅲでは、三角関数や指数関数の積分、置換積分、部分積分、面積、回転体の体積、曲線の長さなどを",
+        "では、こうした計算は実際の工学で何に使われているのでしょうか。",
+        "半導体工学では、光の吸収量、不純物."
+      ],
+      "cachedAt": "2026-11-18T02:50:44.360Z"
+    },
+    "cb1d11cd60a24f56": {
+      "url": "https://qiita.com/mmsbox/items/12e2b7e06468e1c0a98f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "summaryJa": [
+        "はじめに はじめまして！",
+        "RUNTEQでエンジニアを目指して学習中の、もーと申します！",
+        "突然ですが、皆さんはエラーで心が折れたことはありますか？"
+      ],
+      "cachedAt": "2026-11-18T02:50:44.360Z"
+    },
+    "b5158176753b64e0": {
+      "url": "https://nimony.org/",
+      "summaryJa": [
+        "Comments",
+        "出典: Lobsters",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-18T02:50:44.360Z"
+    },
+    "5a160d3c076aee78": {
+      "url": "https://github.com/flyfish-dev/file-viewer",
+      "summaryJa": [
+        "Preview 275+ file formats in the browser: Office, PDF, OFD, CAD, 3D, archives.",
+        "Pure frontend, no server conversion.",
+        "Vue / React / Svelte / Web Components."
+      ],
+      "cachedAt": "2026-11-18T02:50:44.360Z"
     }
   }
 }
