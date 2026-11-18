@@ -69,6 +69,62 @@
       "optional": true
     },
     {
+      "id": "zenn-3dprinter",
+      "name": "Zenn 3Dプリンター",
+      "type": "rss",
+      "url": "https://zenn.dev/topics/3dprinter/feed",
+      "lang": "ja",
+      "optional": true
+    },
+    {
+      "id": "hackaday-3dp",
+      "name": "Hackaday 3D Printer Hacks",
+      "type": "rss",
+      "url": "https://hackaday.com/category/3d-printer-hacks/feed/",
+      "lang": "en",
+      "optional": true
+    },
+    {
+      "id": "hackaday-repair",
+      "name": "Hackaday Repair Hacks",
+      "type": "rss",
+      "url": "https://hackaday.com/category/repair-hacks/feed/",
+      "lang": "en",
+      "optional": true
+    },
+    {
+      "id": "zenn-denshi",
+      "name": "Zenn 電子工作",
+      "type": "rss",
+      "url": "https://zenn.dev/topics/%E9%9B%BB%E5%AD%90%E5%B7%A5%E4%BD%9C/feed",
+      "lang": "ja",
+      "optional": true
+    },
+    {
+      "id": "zenn-claudecode",
+      "name": "Zenn Claude Code",
+      "type": "rss",
+      "url": "https://zenn.dev/topics/claudecode/feed",
+      "lang": "ja",
+      "optional": true
+    },
+    {
+      "id": "zenn-muse",
+      "name": "Zenn Muse",
+      "type": "rss",
+      "url": "https://zenn.dev/topics/muse/feed",
+      "lang": "ja",
+      "optional": true
+    },
+    {
+      "id": "zenn-obsidian",
+      "name": "Zenn Obsidian",
+      "type": "rss",
+      "url": "https://zenn.dev/topics/obsidian/feed",
+      "lang": "ja",
+      "optional": true
+    },
+    {
       "id": "zenn-trend",
       "name": "Zenn トレンド",
       "type": "rss",
@@ -77,18 +133,10 @@
       "optional": true
     },
     {
-      "id": "qiita-popular",
-      "name": "Qiita 人気記事",
+      "id": "hackaday",
+      "name": "Hackaday",
       "type": "rss",
-      "url": "https://qiita.com/popular-items/feed",
-      "lang": "ja",
-      "optional": true
-    },
-    {
-      "id": "lobsters",
-      "name": "Lobsters",
-      "type": "rss",
-      "url": "https://lobste.rs/rss",
+      "url": "https://hackaday.com/blog/feed/",
       "lang": "en",
       "optional": true
     },
@@ -105,7 +153,7 @@
       "id": "github-gems",
       "name": "GitHub 小さなOSS",
       "type": "github-gems",
-      "topics": ["esp32", "arduino", "raspberry-pi", "synthesizer", "generative-art", "e-ink", "cli", "self-hosted"],
+      "topics": ["esp32", "arduino", "raspberry-pi", "synthesizer", "generative-art", "e-ink", "cli", "self-hosted", "3d-printing", "klipper"],
       "lang": "en",
       "optional": true,
       "gemPool": true

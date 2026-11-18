@@ -5,7 +5,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { collect } from './collect.mjs';
-import { rank } from './rank.mjs';
+import { rank, sourcesForEdition } from './rank.mjs';
 import { edit } from './edit.mjs';
 import * as store from './store.mjs';
 import { jstDateStr, jstDateDisplay, sha256 } from './util.mjs';
@@ -41,7 +41,7 @@ async function main() {
 
   // --- collect ---
   const health = store.getSourceHealth();
-  const collected = await collect(sourcesConfig, {
+  const collected = await collect(sourcesForEdition(sourcesConfig, editionConfig), {
     now,
     githubToken: process.env.GITHUB_TOKEN,
     health,
