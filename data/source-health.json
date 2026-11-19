@@ -18,12 +18,12 @@
     },
     "hatebu-it": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T20:17:48.727Z",
+      "lastSuccessAt": "2026-11-19T02:47:36.165Z",
       "lastFailureAt": null
     },
     "hn-front": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T20:17:48.727Z",
+      "lastSuccessAt": "2026-11-19T02:47:36.165Z",
       "lastFailureAt": null
     },
     "gtrends-jp": {
@@ -33,22 +33,22 @@
     },
     "show-hn": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T20:17:48.727Z",
+      "lastSuccessAt": "2026-11-19T02:47:36.165Z",
       "lastFailureAt": "2026-10-06T01:17:36.402Z"
     },
     "github-gems": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T20:17:48.727Z",
+      "lastSuccessAt": "2026-11-19T02:47:36.165Z",
       "lastFailureAt": null
     },
     "indieblog": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T20:17:48.727Z",
+      "lastSuccessAt": "2026-11-19T02:47:36.165Z",
       "lastFailureAt": null
     },
     "zenn-trend": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T02:47:39.416Z",
+      "lastSuccessAt": "2026-11-19T02:47:36.165Z",
       "lastFailureAt": null
     },
     "qiita-popular": {
@@ -60,6 +60,46 @@
       "consecutiveFailures": 0,
       "lastSuccessAt": "2026-11-18T02:47:39.416Z",
       "lastFailureAt": "2026-10-18T02:48:08.034Z"
+    },
+    "zenn-3dprinter": {
+      "consecutiveFailures": 0,
+      "lastSuccessAt": "2026-11-19T02:47:36.165Z",
+      "lastFailureAt": null
+    },
+    "hackaday-3dp": {
+      "consecutiveFailures": 0,
+      "lastSuccessAt": "2026-11-19T02:47:36.165Z",
+      "lastFailureAt": null
+    },
+    "hackaday-repair": {
+      "consecutiveFailures": 0,
+      "lastSuccessAt": "2026-11-19T02:47:36.165Z",
+      "lastFailureAt": null
+    },
+    "zenn-denshi": {
+      "consecutiveFailures": 0,
+      "lastSuccessAt": "2026-11-19T02:47:36.165Z",
+      "lastFailureAt": null
+    },
+    "zenn-claudecode": {
+      "consecutiveFailures": 0,
+      "lastSuccessAt": "2026-11-19T02:47:36.165Z",
+      "lastFailureAt": null
+    },
+    "zenn-muse": {
+      "consecutiveFailures": 0,
+      "lastSuccessAt": "2026-11-19T02:47:36.165Z",
+      "lastFailureAt": null
+    },
+    "zenn-obsidian": {
+      "consecutiveFailures": 0,
+      "lastSuccessAt": "2026-11-19T02:47:36.165Z",
+      "lastFailureAt": null
+    },
+    "hackaday": {
+      "consecutiveFailures": 0,
+      "lastSuccessAt": "2026-11-19T02:47:36.165Z",
+      "lastFailureAt": null
     }
   }
 }

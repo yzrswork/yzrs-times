@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-de6f8fe5",
-      "url": "https://news.ycombinator.com/item?id=48968606",
-      "date": "2026-10-20"
-    },
-    {
-      "id": "github-gems-d968106d",
-      "url": "https://github.com/jdxyw/generativeart",
-      "date": "2026-10-20"
-    },
-    {
       "id": "github-gems-09bae87e",
       "url": "https://github.com/zeeyado/koassistant.koplugin",
       "date": "2026-10-21"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-bb01f35a",
       "url": "https://github.com/HermannBjorgvin/Clawdmeter",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "show-hn-de6f8fe5",
+      "url": "https://news.ycombinator.com/item?id=48968606",
       "date": "2026-11-19"
     }
   ]

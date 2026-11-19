@@ -1,0 +1,551 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 264,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-19",
+  "dateDisplay": "Thursday, November 19, 2026",
+  "pressTimeJst": "2026-11-19 12:00",
+  "generatedAt": "2026-11-19T02:47:34.538Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "promptHash": "27e1e947"
+  },
+  "theme": {
+    "title": "手元の制御と、積み重なる自動化の果実",
+    "note": "AIエージェントの運用と、物理的な制作環境を整理する手法を軸に構成しました。"
+  },
+  "editorial": {
+    "comment": "今週は『CLAUDE.md が育ちすぎたら、記憶に逃がす』を試します。指示書が肥大化してAIの指示がぼやけていたので、調査ログとルールを分離してスッキリさせる週末にします。",
+    "passedOver": "セキュリティ関連の速報が多いため、検証や作り手の実例を優先して選別しました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": null,
+  "market": {
+    "fearGreed": {
+      "value": 10,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 62592,
+        "priceJpy": 9977900,
+        "change24hPct": -2.5,
+        "sparkline7d": [
+          73618.21,
+          68061.87,
+          67362.92,
+          65425.22,
+          64864.54,
+          63911.92,
+          63135.45
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1768.81,
+        "priceJpy": 281970,
+        "change24hPct": -1.72,
+        "sparkline7d": [
+          2048.56,
+          1909.24,
+          1912.26,
+          1830.7,
+          1827.48,
+          1797.68,
+          1783.2
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.135595,
+        "priceJpy": 21.62,
+        "change24hPct": -2.97,
+        "sparkline7d": [
+          0.147344,
+          0.142605,
+          0.144508,
+          0.1398,
+          0.137282,
+          0.138768,
+          0.13723
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 204.59,
+        "priceJpy": 32615,
+        "change24hPct": -1.64,
+        "sparkline7d": [
+          228.34,
+          215.56,
+          217.37,
+          210.44,
+          207.82,
+          208.77,
+          208.96
+        ]
+      }
+    ]
+  },
+  "top": [
+    "zenn-muse-98221f0a",
+    "zenn-claudecode-ad84f0be",
+    "hackaday-7ed3397c"
+  ],
+  "sections": [
+    {
+      "id": "make",
+      "title": "作る",
+      "articleIds": [
+        "hackaday-5059785a",
+        "hackaday-3d05680f"
+      ]
+    },
+    {
+      "id": "3d-printing",
+      "title": "3Dプリンタ",
+      "articleIds": [
+        "zenn-3dprinter-28e0cfb7",
+        "hackaday-3dp-e64497fb"
+      ]
+    },
+    {
+      "id": "repair",
+      "title": "直す",
+      "articleIds": [
+        "hackaday-repair-4438a5fb",
+        "hackaday-repair-71f3ae51"
+      ]
+    },
+    {
+      "id": "systems",
+      "title": "仕組みにする・残す",
+      "articleIds": [
+        "zenn-obsidian-9ba0c728"
+      ]
+    },
+    {
+      "id": "tech-buzz",
+      "title": "技術の話題",
+      "articleIds": [
+        "hatebu-it-b79946c9",
+        "hn-front-cc2bba70"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "zenn-muse-98221f0a",
+      "title": "個人開発の相棒にAIエージェント「Muse」を使って、駐車場データベースを構築・運用している話",
+      "url": "https://zenn.dev/kirbykaito/articles/65975ea1110b5d",
+      "source": "Zenn Muse",
+      "sourceId": "zenn-muse",
+      "publishedAt": "2026-11-18T17:34:06.000Z",
+      "summaryJa": [
+        "はじめに 仙台中心部の駐車場データベースを個人で構築・運用しています。",
+        "対象は2026年11月19日時点で1,673件、料金は運営会社の公式情報で確認できたものを中心に掲載し、確認できていない項目は「未確認」と表示しています。",
+        "この開発と運用の相棒として、パーソナルAIエージェントの Muse を使っています。"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "個人開発の相棒にAIエージェント",
+        "Muse",
+        "駐車場データベースを構築",
+        "運用している話"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-ad84f0be",
+      "title": "CLAUDE.md が育ちすぎたら、記憶に逃がす",
+      "url": "https://zenn.dev/kaguraai/articles/claude-md-memory-split",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-18T15:46:34.000Z",
+      "summaryJa": [
+        "並列で走らせたときだけ、結合テストが落ちる。",
+        "調べてみると、複数のワーカーが同じ一時ディレクトリに書き込んでいました。",
+        "ワーカーごとに分けたら直ったので、次に同じことが起きないように CLAUDE."
+      ],
+      "category": "workflow",
+      "keywords": [
+        "CLAUDE.md",
+        "記憶に逃がす"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-7ed3397c",
+      "title": "Handheld Motor Cancels Out Every Twist and Turn",
+      "url": "https://hackaday.com/2026/11/18/handheld-motor-cancels-out-every-twist-and-turn/",
+      "source": "Hackaday",
+      "sourceId": "hackaday",
+      "publishedAt": "2026-11-18T19:30:37.000Z",
+      "summaryJa": [
+        "It’s one thing to know that input from a motion sensor can steer a motor.",
+        "It’s another to see and feel the two cancelling out the other in real-time, righ",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "make",
+      "keywords": [
+        "Handheld",
+        "Motor",
+        "Cancels",
+        "Every",
+        "Twist"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-5059785a",
+      "title": "The Mega Tamagotchi Manga Reader",
+      "url": "https://hackaday.com/2026/11/18/the-mega-tamagotchi-manga-reader/",
+      "source": "Hackaday",
+      "sourceId": "hackaday",
+      "publishedAt": "2026-11-18T21:00:49.000Z",
+      "summaryJa": [
+        "You could read manga in the classic bound paper format.",
+        "But then you’d have to carry around lots of volumes that take up lots of space.",
+        "The way around this …read more"
+      ],
+      "category": "make",
+      "keywords": [
+        "Mega",
+        "Tamagotchi",
+        "Manga",
+        "Reader"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-3d05680f",
+      "title": "Serial: The Port That Won’t Die",
+      "url": "https://hackaday.com/2026/11/18/serial-the-port-that-wont-die/",
+      "source": "Hackaday",
+      "sourceId": "hackaday",
+      "publishedAt": "2026-11-18T18:00:31.000Z",
+      "summaryJa": [
+        "Computers have changed quite a bit over the last 60 years.",
+        "Good luck plugging in an old MFM disk into your modern computer.",
+        "Plugging in a parallel printer is difficult, …read more"
+      ],
+      "category": "make",
+      "keywords": [
+        "Serial",
+        "Port",
+        "Won’t",
+        "Die"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-3dprinter-28e0cfb7",
+      "title": "STL（94,376面）をFreeCADソリッドに忠実再現！基準データを手で直せる形にする",
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-06-ben-freecad-reproduction",
+      "source": "Zenn 3Dプリンター",
+      "sourceId": "zenn-3dprinter",
+      "publishedAt": "2026-11-18T03:11:18.000Z",
+      "summaryJa": [
+        "ネットからダウンロードした素敵な船の3Dデータ（STL）を「1歳児向けの安全なおもちゃ」に改良しようとしたとき、思いがけない壁が2つ立ちはだかりました。",
+        "1つは 「家庭ではおもちゃの破壊試験ができない」 という品質審査の壁、もう1つは 「安全のために角を丸めすぎて、元の船の見た目が消えてしまった」 という設計の差",
+        "今回は、デザインレビュー（DR）手順の改訂と、元STLの全94,376面を FreeCAD のソリッドへ忠実再現した記録をお届けします。"
+      ],
+      "category": "3dprint",
+      "keywords": [
+        "STL",
+        "376面"
+      ],
+      "heat": {
+        "temperature": 48,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 24,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-3dp-e64497fb",
+      "title": "Local Prusa Connect Cuts Out the Cloud",
+      "url": "https://hackaday.com/2026/11/18/local-prusa-connect-cuts-out-the-cloud/",
+      "source": "Hackaday 3D Printer Hacks",
+      "sourceId": "hackaday-3dp",
+      "publishedAt": "2026-11-18T12:00:03.000Z",
+      "summaryJa": [
+        "One of the ways 3D printing has changed over the last few years has come in the ",
+        "In some cases they …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "3dprint",
+      "keywords": [
+        "Local",
+        "Prusa",
+        "Connect",
+        "Cuts",
+        "Cloud"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 15,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-repair-4438a5fb",
+      "title": "Espresso, Meet Custom-Machined Stainless Steel Boiler",
+      "url": "https://hackaday.com/2026/11/12/espresso-meet-custom-machined-stainless-steel-boiler/",
+      "source": "Hackaday Repair Hacks",
+      "sourceId": "hackaday-repair",
+      "publishedAt": "2026-11-12T09:00:33.000Z",
+      "summaryJa": [
+        "While pondering some repairs for his Gaggia Classic Pro espresso machine, [Hans ",
+        "It was a nontrivial undertaking, since the …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "repair",
+      "keywords": [
+        "Espresso",
+        "Meet",
+        "Custom",
+        "Machined",
+        "Stainless"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 162,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-repair-71f3ae51",
+      "title": "Repairing a Polaroid 630 SL Lightmixer Instant Camera",
+      "url": "https://hackaday.com/2026/11/07/repairing-a-polaroid-630-sl-lightmixer-instant-camera/",
+      "source": "Hackaday Repair Hacks",
+      "sourceId": "hackaday-repair",
+      "publishedAt": "2026-11-07T16:30:03.000Z",
+      "summaryJa": [
+        "Before the advent of digital cameras, if you wanted to take a few photos without",
+        "出典: Hackaday Repair Hacks",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "repair",
+      "keywords": [
+        "Repairing",
+        "Polaroid",
+        "SL",
+        "Lightmixer",
+        "Instant"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 274,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-obsidian-9ba0c728",
+      "title": "AIの天使と悪魔が日記を「音声付き掛け合い」でレビューする Obsidian プラグインを作った",
+      "url": "https://zenn.dev/koooyooo/articles/070669007f9527",
+      "source": "Zenn Obsidian",
+      "sourceId": "zenn-obsidian",
+      "publishedAt": "2026-11-18T22:00:05.000Z",
+      "summaryJa": [
+        "概要 Obsidian で書いた日記を、天使と悪魔が音声付きで掛け合いレビューしてくれるプラグインを作った。",
+        "Agent Skill でのプロトタイピングから、API コスト問題を避けるために Obsidian プラグインへ着地するまでの設計と工夫をまとめる。",
+        "GitHub https://github."
+      ],
+      "category": "workflow",
+      "keywords": [
+        "音声付き掛け合い",
+        "Obsidian",
+        "プラグインを作った"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-b79946c9",
+      "title": "「PHP」に再び“致命的”な脆弱性、日本時間19日夜にセキュリティリリースへ／サポート中の全バージョンが対象",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2157690.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-18T23:15:44.000Z",
+      "summaryJa": [
+        "「PHP」に再び“致命的”な脆弱性、日本時間19日夜にセキュリティリリースへ／サポート中の全バージョ",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "PHP",
+        "致命的"
+      ],
+      "heat": {
+        "temperature": 90,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 198,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 56.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-cc2bba70",
+      "title": "AI Will Not Make You Rich (2025)",
+      "url": "https://colossus.com/article/ai-will-not-make-you-rich/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-19T01:51:28.000Z",
+      "summaryJa": [
+        "AI Will Not Make You Rich (2025)",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "AI",
+        "Rich"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 43,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 46
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "show-hn-de6f8fe5",
+      "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+      "url": "https://news.ycombinator.com/item?id=48968606",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2026-07-19T14:41:16.000Z",
+      "summaryJa": [
+        "I might be the only SRE on Earth with his own bowling center.",
+        "It&#x27;s a more in-depth gig than you&#x27;d think.",
+        "<p>My family and I bought an abandoned 8-lane bowling center in the rural mid-we"
+      ],
+      "category": "tech",
+      "keywords": [
+        "replaced",
+        "$120k",
+        "bowling",
+        "center",
+        "system"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 2935,
+          "hatebuCount": 0,
+          "ageHours": 2940,
+          "crossSources": 1,
+          "velocity": 1
+        }
+      },
+      "image": null
+    },
+    "reason": "12万ドルの旧式システムをたった1,600ドルのESP32群で置き換えるという、凄まじい執念の個人プロジェクトです。作り手として、こうした泥臭い置換術こそ一番の刺激になります。"
+  },
+  "unavailableSources": [
+    "Weather"
+  ]
+}

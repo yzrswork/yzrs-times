@@ -1,69 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "cba58727ea88e064": {
-      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
-      "summaryJa": [
-        "I trained a 125M-parameter transformer to autocomplete piano performances in rea",
-        "<p>The idea is basically GitHub Copilot or Tabnine, except instead of prompting ",
-        "The model then continues wh"
-      ],
-      "cachedAt": "2026-08-20T20:18:28.231Z"
-    },
-    "4d2c69fe91798f72": {
-      "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
-      "summaryJa": [
-        "AliExpress runs silent WebAudio fingerprinting tha",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-20T20:18:28.231Z"
-    },
-    "22c29536f2fcb4d2": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-      "summaryJa": [
-        "20日午前、栃木県鹿沼市の東武日光線の駅で、線路で除草作業に当たっていた作業員4人がホームに入ってきた特急列車と接触して死亡しました。",
-        "国の運輸安全委員会が調査官を派遣するとともに、警察が安全管理の状況…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-20T20:18:28.231Z"
-    },
-    "932b60a629056d17": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260820de45409",
-      "summaryJa": [
-        "中国が7月に、日本向けに輸出したレアアース磁石の量が、去年の同じ月と比べて52％減少しました。",
-        "中国政府が、軍民両用の品目の日本向けの輸出規制を強化している影響が出ているとみられます。",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-20T20:18:28.231Z"
-    },
-    "f050dba8781f3133": {
-      "url": "https://news.yahoo.co.jp/pickup/6592471?source=rss",
-      "summaryJa": [
-        "26年産新米 大幅値下がりの見通し",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-20T20:18:28.231Z"
-    },
-    "f3b4f470c65d7c34": {
-      "url": "https://hatena.co.jp/press/release/entry/2026/08/20/163000",
-      "summaryJa": [
-        "株式会社はてな（代表取締役社長：栗栖義臣／本社所在地：京都市中京区）は、本日2026年8月20日、ディスカッションフォーラム「はてなパークス」を正式リリースしま",
-        "2026年5月26日より事前登録ユーザーを対象に提供していたクローズドベータを経て、本日よりはてなIDをお持ちのすべてのユーザーにご利用いただけま.",
-        "."
-      ],
-      "cachedAt": "2026-08-20T20:18:28.231Z"
-    },
-    "36970f46cf3c6181": {
-      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
-      "summaryJa": [
-        "<a href=\"https:&#x2F;&#x2F;blog.",
-        "rust-lang.",
-        "org&#x2F;2026&#x2F;08&#x2F;20&#x2F;supply-chain-attack-on-arrayref&#x2F;\" rel=\"n"
-      ],
-      "cachedAt": "2026-08-20T20:18:28.231Z"
-    },
     "88cba788d4c320eb": {
       "url": "https://zenn.dev/ymotongpoo/books/go-json-v2-history",
       "summaryJa": [
@@ -15309,6 +15246,114 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-18T20:19:38.124Z"
+    },
+    "98221f0a0d0d69f0": {
+      "url": "https://zenn.dev/kirbykaito/articles/65975ea1110b5d",
+      "summaryJa": [
+        "はじめに 仙台中心部の駐車場データベースを個人で構築・運用しています。",
+        "対象は2026年11月19日時点で1,673件、料金は運営会社の公式情報で確認できたものを中心に掲載し、確認できていない項目は「未確認」と表示しています。",
+        "この開発と運用の相棒として、パーソナルAIエージェントの Muse を使っています。"
+      ],
+      "cachedAt": "2026-11-19T02:52:35.622Z"
+    },
+    "ad84f0bed23683c5": {
+      "url": "https://zenn.dev/kaguraai/articles/claude-md-memory-split",
+      "summaryJa": [
+        "並列で走らせたときだけ、結合テストが落ちる。",
+        "調べてみると、複数のワーカーが同じ一時ディレクトリに書き込んでいました。",
+        "ワーカーごとに分けたら直ったので、次に同じことが起きないように CLAUDE."
+      ],
+      "cachedAt": "2026-11-19T02:52:35.622Z"
+    },
+    "7ed3397c48585d04": {
+      "url": "https://hackaday.com/2026/11/18/handheld-motor-cancels-out-every-twist-and-turn/",
+      "summaryJa": [
+        "It’s one thing to know that input from a motion sensor can steer a motor.",
+        "It’s another to see and feel the two cancelling out the other in real-time, righ",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-19T02:52:35.622Z"
+    },
+    "5059785a8be3ffbe": {
+      "url": "https://hackaday.com/2026/11/18/the-mega-tamagotchi-manga-reader/",
+      "summaryJa": [
+        "You could read manga in the classic bound paper format.",
+        "But then you’d have to carry around lots of volumes that take up lots of space.",
+        "The way around this …read more"
+      ],
+      "cachedAt": "2026-11-19T02:52:35.622Z"
+    },
+    "3d05680f356ca914": {
+      "url": "https://hackaday.com/2026/11/18/serial-the-port-that-wont-die/",
+      "summaryJa": [
+        "Computers have changed quite a bit over the last 60 years.",
+        "Good luck plugging in an old MFM disk into your modern computer.",
+        "Plugging in a parallel printer is difficult, …read more"
+      ],
+      "cachedAt": "2026-11-19T02:52:35.622Z"
+    },
+    "28e0cfb753fe5f75": {
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-06-ben-freecad-reproduction",
+      "summaryJa": [
+        "ネットからダウンロードした素敵な船の3Dデータ（STL）を「1歳児向けの安全なおもちゃ」に改良しようとしたとき、思いがけない壁が2つ立ちはだかりました。",
+        "1つは 「家庭ではおもちゃの破壊試験ができない」 という品質審査の壁、もう1つは 「安全のために角を丸めすぎて、元の船の見た目が消えてしまった」 という設計の差",
+        "今回は、デザインレビュー（DR）手順の改訂と、元STLの全94,376面を FreeCAD のソリッドへ忠実再現した記録をお届けします。"
+      ],
+      "cachedAt": "2026-11-19T02:52:35.622Z"
+    },
+    "e64497fb94eef639": {
+      "url": "https://hackaday.com/2026/11/18/local-prusa-connect-cuts-out-the-cloud/",
+      "summaryJa": [
+        "One of the ways 3D printing has changed over the last few years has come in the ",
+        "In some cases they …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-19T02:52:35.622Z"
+    },
+    "4438a5fbe992515a": {
+      "url": "https://hackaday.com/2026/11/12/espresso-meet-custom-machined-stainless-steel-boiler/",
+      "summaryJa": [
+        "While pondering some repairs for his Gaggia Classic Pro espresso machine, [Hans ",
+        "It was a nontrivial undertaking, since the …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-19T02:52:35.622Z"
+    },
+    "71f3ae51116de826": {
+      "url": "https://hackaday.com/2026/11/07/repairing-a-polaroid-630-sl-lightmixer-instant-camera/",
+      "summaryJa": [
+        "Before the advent of digital cameras, if you wanted to take a few photos without",
+        "出典: Hackaday Repair Hacks",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-19T02:52:35.622Z"
+    },
+    "9ba0c72840bb31e9": {
+      "url": "https://zenn.dev/koooyooo/articles/070669007f9527",
+      "summaryJa": [
+        "概要 Obsidian で書いた日記を、天使と悪魔が音声付きで掛け合いレビューしてくれるプラグインを作った。",
+        "Agent Skill でのプロトタイピングから、API コスト問題を避けるために Obsidian プラグインへ着地するまでの設計と工夫をまとめる。",
+        "GitHub https://github."
+      ],
+      "cachedAt": "2026-11-19T02:52:35.622Z"
+    },
+    "b79946c943db16aa": {
+      "url": "https://forest.watch.impress.co.jp/docs/news/2157690.html",
+      "summaryJa": [
+        "「PHP」に再び“致命的”な脆弱性、日本時間19日夜にセキュリティリリースへ／サポート中の全バージョ",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-19T02:52:35.622Z"
+    },
+    "936a5145ec1e1f65": {
+      "url": "https://colossus.com/article/ai-will-not-make-you-rich/",
+      "summaryJa": [
+        "AI Will Not Make You Rich (2025)",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-19T02:52:35.622Z"
     }
   }
 }

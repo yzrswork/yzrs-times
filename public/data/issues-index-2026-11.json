@@ -260,6 +260,13 @@
       "edition": "morning",
       "theme": "システムの綻びと検証の行方",
       "path": "issues/2026-11-19-morning.json"
+    },
+    {
+      "issueNo": 264,
+      "date": "2026-11-19",
+      "edition": "midday",
+      "theme": "手元の制御と、積み重なる自動化の果実",
+      "path": "issues/2026-11-19-midday.json"
     }
   ]
 }
