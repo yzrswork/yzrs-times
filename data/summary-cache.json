@@ -1,96 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "88cba788d4c320eb": {
-      "url": "https://zenn.dev/ymotongpoo/books/go-json-v2-history",
-      "summaryJa": [
-        "encoding/json は Go 1.",
-        "0 から14年間、大文字小文字を区別しないフィールド一致のような既知の問題を抱えたまま修正されませんでした。",
-        "Go 1."
-      ],
-      "cachedAt": "2026-08-21T02:49:15.091Z"
-    },
-    "4033400d943c0746": {
-      "url": "http://mistys-internet.website/blog/blog/2026/08/01/decoding-magic-school-lunars-save-game-format",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-21T02:49:15.091Z"
-    },
-    "89f498fb7aa4e702": {
-      "url": "https://qiita.com/jqit_suwa/items/c87c377fa192de27e2a1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "AGENTS.",
-        "md は、Codex や Cursor など複数のコーディングエージェントが読む共通の指示ファイルです。",
-        "Claude Code はこれを読みません。"
-      ],
-      "cachedAt": "2026-08-21T02:49:15.091Z"
-    },
-    "be076157386177f8": {
-      "url": "https://note.com/fuchagi/n/n42c43cfe0ff0",
-      "summaryJa": [
-        "「次の単語を当てているだけ」のAIが、なぜ数学の証明までできるのか——LLMの創発研究の現在地を調べてみた 「LLMは、次に来る単語を確率的に予測しているだけ」",
-        "GPTもClaudeも、事前学習でやっていることは突き詰めれば次トークンの予測であり、目的関数にそれ以上の何かは書かれてい.",
-        "."
-      ],
-      "cachedAt": "2026-08-21T02:49:15.091Z"
-    },
-    "5585b5d8013ec488": {
-      "url": "https://zenn.dev/mkj/articles/aad5698672aef3",
-      "summaryJa": [
-        "こんにちは、松尾研究所 データサイエンスチームのマネージャーの浮田です。",
-        "最近のAI Agentは、一般的な調査や実装であればかなり高い水準でこなせるようになってきました。",
-        "一方で、実際の社内業務に必要な社内固有の知識は持っておらず、非常に優秀だが、まだオンボーディングを受けていない新入社員に近い状態です。"
-      ],
-      "cachedAt": "2026-08-21T02:49:15.091Z"
-    },
-    "02ed539fac86d3e4": {
-      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
-      "summaryJa": [
-        "The August 17 outage, and the work ahead",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-21T02:49:15.091Z"
-    },
-    "536ba56d32e8bd3c": {
-      "url": "https://zenn.dev/dress_code/articles/2b2832d66b883b",
-      "summaryJa": [
-        "Type-Aware Linting Stable と React Compiler Support を載せた。",
-        "TypeScript 7 への一本化はこれから。",
-        "PR の CI の正は tsc のまま はじめに こんにちは。"
-      ],
-      "cachedAt": "2026-08-21T02:49:15.091Z"
-    },
-    "2d8f9fafce8620df": {
-      "url": "https://qiita.com/KKTeX/items/006cd0dc9e8418dcd703?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "TeXで共通テスト数学の解答用紙を再現 この記事で作るものは、非公式の学習用テンプレートです。",
-        "実際の試験で使用される解答用紙ではありません。",
-        "ロゴや団体名は含めず、科目名なども再現用のダミーとして扱っています。"
-      ],
-      "cachedAt": "2026-08-21T02:49:15.091Z"
-    },
-    "ff6abc89117e87f9": {
-      "url": "https://github.com/emacs-mirror/emacs/blob/062dcd2aead00c3b47c14ff5b6c40313f7a775f5/etc/HISTORY#L246",
-      "summaryJa": [
-        "Biggest thing for me is that tree-sitter's ABI is being bumped to 15 -- fixes co",
-        "For the impatient, RC1 has been posted: https://lists.",
-        "gnu."
-      ],
-      "cachedAt": "2026-08-21T02:49:15.091Z"
-    },
-    "51ca60da9e227069": {
-      "url": "https://00f.net/2026/08/19/why-compiling-rust-to-webassembly-is-slow/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-21T02:49:15.091Z"
-    },
     "acd943a5b9656967": {
       "url": "https://bandarlabs.github.io/Cobalt/",
       "summaryJa": [
@@ -15354,6 +15264,78 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-19T02:52:35.622Z"
+    },
+    "ab88b920a2b7fcd9": {
+      "url": "https://gihyo.jp/book/2026/978-4-297-16073-9",
+      "summaryJa": [
+        "概要 「ダークファクトリー」とは、人間を排除した無人工場ではありません。",
+        "AIコーディングの普及に伴い増幅する「あいまいな仕様」「弱い権限設計」「薄いテスト」「壊れやすい運用」といったリスクに対し、人間の判断・業務知識・失敗の教訓をシ",
+        "."
+      ],
+      "cachedAt": "2026-11-19T20:23:44.406Z"
+    },
+    "c8a4dd9d57a41c34": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261119de78620",
+      "summaryJa": [
+        "先月、重大なぜい弱性が見つかってウェブサイト停止などの影響が出たプログラミング言語「PHP」について、新たに重大なぜい弱性があることが分かり、運営団体は日本時間",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-19T20:23:44.406Z"
+    },
+    "182502f8817ddc40": {
+      "url": "https://www.itmedia.co.jp/news/article/2611/19/2000003351/",
+      "summaryJa": [
+        "11月18日、業務の再委託先が使用する情報機器でマルウェア「K2F」への感染が確認され、個人情報が漏えいした可能性があると発表した北海道岩見沢市と新得町。",
+        "両自治体が業務を委託していたGIS北海道（札幌市）は19日、ITmedia NEWSの取材に応じ、人気ゲーム「勝利の女神：NIKKE」のPC版ランチャー（起動用",
+        "."
+      ],
+      "cachedAt": "2026-11-19T20:23:44.406Z"
+    },
+    "82a8816aa3cb5cbf": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261120de78753",
+      "summaryJa": [
+        "アメリカのAI開発企業、「アンソロピック」が19日、ナスダック市場に上場しました。",
+        "調達額は813億ドル、日本円にしておよそ13兆円にのぼり、ことし6月に上場した宇宙開発などを手がける「スペースX」…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-19T20:23:44.406Z"
+    },
+    "8e877b923f0cc8e7": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261120de78760",
+      "summaryJa": [
+        "19日のニューヨーク株式市場では、AI開発の先行きをめぐる不透明感などが根強いなかで幅広い銘柄に売り注文が広がり、ダウ平均株価は18日の終値と比べて一時、110",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-19T20:23:44.406Z"
+    },
+    "5539344b226074b7": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261120de78757",
+      "summaryJa": [
+        "NASA＝アメリカ航空宇宙局は、無人の宇宙探査機「ボイジャー1号」が日本時間の18日午後7時すぎに、地球からの距離が光の速度で1日かかる「1光日」、およそ259",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-19T20:23:44.406Z"
+    },
+    "99f6b5e1393b31f9": {
+      "url": "https://note.com/y_hirano/n/nc986ab18b90e",
+      "summaryJa": [
+        "2026年10月末で仕事が減ってしまったので、11月から実質的無職をしています。",
+        "この数ヶ月で案件獲得の難易度がかなり高くなってしまっており、そんな中で積極的に案件を取りにいく気分でもないので、しばらくは実質的無職になりそうです。",
+        "筆者について社会人になって以来ソフトウェアエンジニアをずっとやってきました."
+      ],
+      "cachedAt": "2026-11-19T20:23:44.406Z"
+    },
+    "e7d7415ffb1392a1": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E8%84%86%E5%BC%B1%E6%80%A7",
+      "summaryJa": [
+        "脆弱性",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-19T20:23:44.406Z"
     }
   }
 }

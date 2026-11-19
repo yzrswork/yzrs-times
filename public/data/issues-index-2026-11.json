@@ -267,6 +267,13 @@
       "edition": "midday",
       "theme": "手元の制御と、積み重なる自動化の果実",
       "path": "issues/2026-11-19-midday.json"
+    },
+    {
+      "issueNo": 265,
+      "date": "2026-11-20",
+      "edition": "morning",
+      "theme": "暗黙の構造を露わにする工学",
+      "path": "issues/2026-11-20-morning.json"
     }
   ]
 }
