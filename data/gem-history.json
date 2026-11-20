@@ -300,6 +300,11 @@
       "id": "github-gems-779568a9",
       "url": "https://github.com/cesanta/mongoose-os",
       "date": "2026-11-20"
+    },
+    {
+      "id": "github-gems-fbb33e73",
+      "url": "https://github.com/earlephilhower/arduino-pico",
+      "date": "2026-11-21"
     }
   ]
 }

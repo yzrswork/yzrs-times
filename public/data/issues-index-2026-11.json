@@ -281,6 +281,13 @@
       "edition": "midday",
       "theme": "記録の推敲と手元の物理工作",
       "path": "issues/2026-11-20-midday.json"
+    },
+    {
+      "issueNo": 267,
+      "date": "2026-11-21",
+      "edition": "morning",
+      "theme": "独自収集の仕組みと基盤への視線",
+      "path": "issues/2026-11-21-morning.json"
     }
   ]
 }

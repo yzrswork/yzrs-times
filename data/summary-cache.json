@@ -1,123 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "fc2222e9a9df62c5": {
-      "url": "https://www.sbbit.jp/article/cont1/186558",
-      "summaryJa": [
-        "「バイブコーディング」の次に来るAI開発の形が、早くも見え始めている。",
-        "いま筆者の開発作業では、直したい点や作りたい機能を短い文章で伝え、自作の自動運転コマンドを起動するだけだ。",
-        "その後は放っておけば、設計書の作成から実装、テスト、本番への反映まで自動で進み、筆者は途中で上がってくる報告に目を通すだけ."
-      ],
-      "cachedAt": "2026-08-22T02:51:04.427Z"
-    },
-    "27b7e490bced9706": {
-      "url": "https://danluu.com/perf-opt/",
-      "summaryJa": [
-        "There's no reason for software to be slow anymore",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-22T02:51:04.427Z"
-    },
-    "668443e7c93a292c": {
-      "url": "https://zenn.dev/onclimb/articles/ts-to-js-pipeline-onclimb",
-      "summaryJa": [
-        "TypeScript で記載したプログラム（.",
-        "ts）は、.",
-        "js に変換されてから実行されます。"
-      ],
-      "cachedAt": "2026-08-22T02:51:04.427Z"
-    },
-    "0e3f01e84696a65a": {
-      "url": "https://zenn.dev/factory_dx_eng/articles/ai-productivity-team-divide",
-      "summaryJa": [
-        "「すぐには理解できないが、正しいことを言っているのだと思う」 週次の報告会で、上司がそう言った。",
-        "私はAIで作ったスライドとHTMLレポートを画面に映していた。",
-        "上司は内容を否定しなかった。"
-      ],
-      "cachedAt": "2026-08-22T02:51:04.427Z"
-    },
-    "002bec9dcc625f6b": {
-      "url": "https://zenn.dev/dmikurube/articles/a-logresearch-er",
-      "summaryJa": [
-        "Embulk というオープンソース・ソフトウェアのメンテナーをやっていました。",
-        "「やっていました」と過去形なのは、いちおうまだメンテナー権限を持ってはいるものの、プロジェクトは「メンテナンス・モード」として実質的にメンテナンスを終了している",
-        "今から二年ほど前の 202."
-      ],
-      "cachedAt": "2026-08-22T02:51:04.427Z"
-    },
-    "b1eac14e55dcb97e": {
-      "url": "https://hackaday.com/2026/08/20/homebrew-68k-machine-has-a-pci-bus/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-22T02:51:04.427Z"
-    },
-    "0ea259a2cd1df5f6": {
-      "url": "https://qiita.com/a_sato_JQIT/items/a82fccf6d52c05156384?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに はじめまして！",
-        "QAエンジニアのSAです！",
-        "私はQA事業部の代表として、日々ソフトウェアの品質と向き合っています。"
-      ],
-      "cachedAt": "2026-08-22T02:51:04.427Z"
-    },
-    "e0e3c0fb64336b4c": {
-      "url": "https://qiita.com/Hatachi/items/7d59d4860b01cfa21393?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに 私はプログラミング学習3ヶ月目、Swift学習1ヶ月程度の新人エンジニアです。",
-        "最近実務で「設計パターン」や「MVVM」を学習する機会があったので、MVVMパターンを理解する過程の実体験をもとに「使うとどんないいことがあるのか」をまとめまし",
-        "MVVMとは？"
-      ],
-      "cachedAt": "2026-08-22T02:51:04.427Z"
-    },
-    "a937e478d607316a": {
-      "url": "https://zenn.dev/knowledgework/articles/197309c80efb28",
-      "summaryJa": [
-        "こんにちは。",
-        "特撮熱が爆上がり中のbun913と申します。",
-        "2026年8月より株式会社ナレッジワークでQAエンジニアとして働き始めました。"
-      ],
-      "cachedAt": "2026-08-22T02:51:04.427Z"
-    },
-    "5df73227ee8a0be5": {
-      "url": "https://htmlcat.net",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-22T02:51:04.427Z"
-    },
-    "4b1055d5198c97a8": {
-      "url": "https://func25.dev/posts/go-memory-visibility/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-22T02:51:04.427Z"
-    },
-    "748b90f42d330cb9": {
-      "url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-22T02:51:04.427Z"
-    },
-    "8a30713ea751d0b9": {
-      "url": "https://github.com/altsem/gitu",
-      "summaryJa": [
-        "A TUI Git client inspired by Magit",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-22T02:51:04.427Z"
-    },
     "49535ace2b02c7af": {
       "url": "https://news.web.nhk/newsweb/na/nd-20260823de45738",
       "summaryJa": [
@@ -15363,6 +15246,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-20T02:49:28.490Z"
+    },
+    "20d263a4bd29d739": {
+      "url": "https://developer.hatenastaff.com/entry/2026/11/20/162322",
+      "summaryJa": [
+        "はてなには多くのエンジニアが在籍していますが、普段から開発が好きな人が多く、業務以外でも各自が欲しいものなどを自作していることがあります。",
+        "特に近年では生成AIによって自作のハードルはかなり下がったと思われます。",
+        "そんな自作ツールたちですが、今回はRSSリーダーに絞って紹介していきます。"
+      ],
+      "cachedAt": "2026-11-20T20:18:55.058Z"
+    },
+    "ac4679973434e95d": {
+      "url": "https://type.jp/et/feature/32219/",
+      "summaryJa": [
+        "NEW!",
+        "2026.",
+        "11."
+      ],
+      "cachedAt": "2026-11-20T20:18:55.058Z"
+    },
+    "c8b16d13e020c175": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261121de79481",
+      "summaryJa": [
+        "20日のニューヨーク株式市場では、AI開発などをめぐる先行きの不透明感が意識されるなか、半導体をはじめ幅広い銘柄に売り注文が広がり、ハイテク株の比率が高いナスダ",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-20T20:18:55.058Z"
+    },
+    "1e33cc42b527a87d": {
+      "url": "https://news.yahoo.co.jp/pickup/6603347?source=rss",
+      "summaryJa": [
+        "EV補助金受け付け終了 予算枯渇",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-20T20:18:55.058Z"
+    },
+    "29da6a5e93a0f517": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261120de79408",
+      "summaryJa": [
+        "史上初の米中ロ首脳会談を終え、トランプ大統領は「10点満点で12点だ」と胸を張りました。",
+        "「国際秩序の変化を象徴するものになった」と報じられた会談。",
+        "どの国がもっとも“利益”を得たのか。"
+      ],
+      "cachedAt": "2026-11-20T20:18:55.058Z"
+    },
+    "3381c1b46b2b81fa": {
+      "url": "https://architectlabs.com/blog/frostbite",
+      "summaryJa": [
+        "Frostbite: A new CPU architecture discovered, desi",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-20T20:18:55.058Z"
+    },
+    "73b0447ddf4a11d5": {
+      "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2158241.html",
+      "summaryJa": [
+        "「httpS://」だと暗号化されず平文で送信……「PHP」に約20年潜んでいた脆弱性が解決／問題は",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-20T20:18:55.058Z"
+    },
+    "91723d9f40ff4604": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E9%AB%98%E9%80%9F%E9%81%93%E8%B7%AF%E6%83%85%E5%A0%B1",
+      "summaryJa": [
+        "高速道路情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-20T20:18:55.058Z"
+    },
+    "fa3e09ab59cc47d2": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E4%B8%89%E8%8F%B1%E9%87%8D%E5%B7%A5%E6%A5%AD",
+      "summaryJa": [
+        "三菱重工業",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-20T20:18:55.058Z"
+    },
+    "ba683429278f1da8": {
+      "url": "https://github.com/earlephilhower/arduino-pico",
+      "summaryJa": [
+        "Raspberry Pi Pico Arduino core, for all RP2040 and RP2350 boards",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-20T20:18:55.058Z"
     }
   }
 }

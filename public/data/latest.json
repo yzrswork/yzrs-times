@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 266,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-11-20",
-  "dateDisplay": "Friday, November 20, 2026",
-  "pressTimeJst": "2026-11-20 12:00",
-  "generatedAt": "2026-11-20T02:47:34.510Z",
+  "issueNo": 267,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-21",
+  "dateDisplay": "Saturday, November 21, 2026",
+  "pressTimeJst": "2026-11-21 05:00",
+  "generatedAt": "2026-11-20T20:17:44.315Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,15 +14,22 @@
     "promptHash": "27e1e947"
   },
   "theme": {
-    "title": "記録の推敲と手元の物理工作",
-    "note": "AIエージェントのコンテキスト整理と、手元の3Dプリント・電子工作の検証実験が集まった1号。"
+    "title": "独自収集の仕組みと基盤への視線",
+    "note": "自作ツールの構築と、日常を支える技術基盤の点検が交差する朝刊。"
   },
   "editorial": {
-    "comment": "今週は『Claude Code のコンテキスト管理』にならい、長引く会話での/compactと/clearの明確な使い分けを試します。コンテキストの肥大化を予防する運用を整え、指示の通りを良くする検証に取り組みます。 —— YZRS Times 編集長",
-    "passedOver": "大手美容クリニックの個人情報流出報道やAIによる全人類失業説など、手元の制作に直結しない時事ニュースは見送りました。",
+    "comment": "今週は『はてなエンジニアの自作RSSリーダー』にならい、自分の情報収集専用の極小ツールを作るプロトタイピングを試します。既製品の機能に自分を合わせるのではなく、自分に必要な通知や表示だけを切り出す仕組みを手元で組み上げてみます。 —— YZRS Times 編集長",
+    "passedOver": "三井住友銀行の1400万件情報漏えいなど大規模事故の報道が多数ありましたが、手元の制作環境に直接関わる話題に絞るため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
-  "weather": null,
+  "weather": {
+    "location": "Tokyo",
+    "summary": "快晴",
+    "icon": "sunny",
+    "tempMax": 14,
+    "tempMin": 7,
+    "precipChancePct": 0
+  },
   "market": {
     "fearGreed": {
       "value": 12,
@@ -32,134 +39,236 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 61631,
-        "priceJpy": 9813404,
-        "change24hPct": -1.55,
+        "priceUsd": 58349,
+        "priceJpy": 9244286,
+        "change24hPct": -6.34,
         "sparkline7d": [
-          70886.98,
-          67160.27,
-          65321.23,
-          64130.56,
-          63699.65,
-          62503.28,
-          62051.58
+          68994.2,
+          64120.24,
+          65066.21,
+          64695.52,
+          64304.45,
+          63500.3,
+          58416.65
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1733.18,
-        "priceJpy": 275971,
-        "change24hPct": -2.03,
+        "priceUsd": 1605.47,
+        "priceJpy": 254357,
+        "change24hPct": -8.92,
         "sparkline7d": [
-          2010.25,
-          1903.71,
-          1821.63,
-          1801.78,
-          1777.22,
-          1750.98,
-          1754.48
+          1951.7,
+          1768.45,
+          1826.43,
+          1831.02,
+          1805.01,
+          1796.91,
+          1618.7
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.132198,
-        "priceJpy": 21.05,
-        "change24hPct": -2.51,
+        "priceUsd": 0.125899,
+        "priceJpy": 19.95,
+        "change24hPct": -5.34,
         "sparkline7d": [
-          0.14734,
-          0.144187,
-          0.138718,
-          0.136807,
-          0.136913,
-          0.13734,
-          0.133424
+          0.149459,
+          0.135299,
+          0.139969,
+          0.137532,
+          0.141149,
+          0.136787,
+          0.127122
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 204.64,
-        "priceJpy": 32585,
-        "change24hPct": 0.07,
+        "priceUsd": 189.63,
+        "priceJpy": 30043,
+        "change24hPct": -8.65,
         "sparkline7d": [
-          224.43,
-          216.6,
-          208.04,
-          205.94,
-          206.6,
-          206.47,
-          206.08
+          226.72,
+          201.24,
+          208.68,
+          208.86,
+          208.52,
+          207.69,
+          191.81
         ]
       }
     ]
   },
   "top": [
-    "zenn-claudecode-b7e79700",
-    "zenn-3dprinter-47dff1f1",
-    "zenn-denshi-83e63b87"
+    "hatebu-it-20d263a4",
+    "hatebu-it-ac467997",
+    "nhk-top-c8b16d13"
   ],
   "sections": [
     {
-      "id": "make",
-      "title": "作る",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hackaday-08a47eb5",
-        "hackaday-64b5ccc5"
+        "yahoo-topics-1e33cc42",
+        "nhk-world-29da6a5e"
       ]
     },
     {
-      "id": "3d-printing",
-      "title": "3Dプリンタ",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-3dprinter-ff3ed491"
+        "hn-front-807886b3",
+        "hatebu-it-73b0447d"
       ]
     },
     {
-      "id": "repair",
-      "title": "直す",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "hackaday-repair-4438a5fb",
-        "hackaday-repair-d0183c04"
-      ]
-    },
-    {
-      "id": "systems",
-      "title": "仕組みにする・残す",
-      "articleIds": [
-        "zenn-obsidian-ddf27a44",
-        "zenn-claudecode-656c53bc"
-      ]
-    },
-    {
-      "id": "tech-buzz",
-      "title": "技術の話題",
-      "articleIds": [
-        "hackaday-3dp-e64497fb",
-        "hackaday-repair-3789f328"
+        "gtrends-jp-91723d9f",
+        "gtrends-jp-fa3e09ab"
       ]
     }
   ],
   "articles": [
     {
-      "id": "zenn-claudecode-b7e79700",
-      "title": "Claude Code のコンテキスト管理:/compact・/clear の使い分けとトークン節約のコツ",
-      "url": "https://zenn.dev/aicoding_guide/articles/acg-claude-code-context-compact",
-      "source": "Zenn Claude Code",
-      "sourceId": "zenn-claudecode",
-      "publishedAt": "2026-11-19T20:08:19.000Z",
+      "id": "hatebu-it-20d263a4",
+      "title": "はてなエンジニアの自作RSSリーダーをご紹介します 2026 - Hatena Developer Blog",
+      "url": "https://developer.hatenastaff.com/entry/2026/11/20/162322",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-20T08:33:42.000Z",
       "summaryJa": [
-        "長いセッションを続けていると、Claude の応答が遅くなったり、最初に伝えたルールを忘れたように見えたりします。",
-        "原因の多くはコンテキストウィンドウの逼迫です。",
-        "会話履歴、読み込んだファイル、ツールの実行結果はすべてコンテキストに蓄積され、上限に近づくと精度が落ち、圧縮が走って情報が失われます。"
+        "はてなには多くのエンジニアが在籍していますが、普段から開発が好きな人が多く、業務以外でも各自が欲しいものなどを自作していることがあります。",
+        "特に近年では生成AIによって自作のハードルはかなり下がったと思われます。",
+        "そんな自作ツールたちですが、今回はRSSリーダーに絞って紹介していきます。"
       ],
-      "category": "workflow",
+      "category": "programming",
       "keywords": [
-        "Claude",
-        "Code",
-        "/compact",
-        "/clear"
+        "Hatena",
+        "Developer"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 182,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 15.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-ac467997",
+      "title": "「あと10年もたないかもしれない」Rubyの父 まつもとゆきひろが危惧するOSS文化の消滅 - エンジニアtype | 転職type",
+      "url": "https://type.jp/et/feature/32219/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-20T04:31:59.000Z",
+      "summaryJa": [
+        "NEW!",
+        "2026.",
+        "11."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Rubyの父",
+        "エンジニアtype",
+        "転職type"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 444,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 28.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-c8b16d13",
+      "title": "ナスダック指数が一時4%超の下落 アンソロピック14％安",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261121de79481",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-20T19:48:02.000Z",
+      "summaryJa": [
+        "20日のニューヨーク株式市場では、AI開発などをめぐる先行きの不透明感が意識されるなか、半導体をはじめ幅広い銘柄に売り注文が広がり、ハイテク株の比率が高いナスダ",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ナスダック指数が一時4%超の下落",
+        "アンソロピック14％安"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "yahoo-topics-1e33cc42",
+      "title": "EV補助金受け付け終了 予算枯渇",
+      "url": "https://news.yahoo.co.jp/pickup/6603347?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-11-20T14:58:48.000Z",
+      "summaryJa": [
+        "EV補助金受け付け終了 予算枯渇",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "EV補助金受け付け終了",
+        "予算枯渇"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-29da6a5e",
+      "title": "米中ロ首脳会談“国際秩序の変化を象徴” 世界 日本への影響は",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261120de79408",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-11-20T13:04:04.000Z",
+      "summaryJa": [
+        "史上初の米中ロ首脳会談を終え、トランプ大統領は「10点満点で12点だ」と胸を張りました。",
+        "「国際秩序の変化を象徴するものになった」と報じられた会談。",
+        "どの国がもっとも“利益”を得たのか。"
+      ],
+      "category": "news",
+      "keywords": [
+        "米中ロ首脳会談",
+        "国際秩序の変化を象徴",
+        "世界",
+        "日本への影響は"
       ],
       "heat": {
         "temperature": 53,
@@ -174,309 +283,88 @@
       "image": null
     },
     {
-      "id": "zenn-3dprinter-47dff1f1",
-      "title": "名作船「BEN」をベンチマーク分析！サポートレスで250層完走する天井ブリッジの秘密",
-      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-05-ben-roof-bridge-knowledge",
-      "source": "Zenn 3Dプリンター",
-      "sourceId": "zenn-3dprinter",
-      "publishedAt": "2026-11-16T15:18:24.000Z",
+      "id": "hn-front-807886b3",
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "url": "https://architectlabs.com/blog/frostbite",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-20T10:01:41.000Z",
       "summaryJa": [
-        "3Dプリンターで船のモデルを印刷しようとすると、「操舵室の屋根や窓の上って、サポート材（支え）なしだと空中に垂れて崩れるのでは？",
-        "」と心配になりますよね。",
-        "ところが、浮かぶ船の定番ベンチマークモデル「BEN」を赤・白・濃い緑の3色で印刷してみたところ、サポート材ゼロ・250層完走 で最後まで刷り切ることができました"
-      ],
-      "category": "3dprint",
-      "keywords": [
-        "名作船",
-        "BEN"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 83,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-denshi-83e63b87",
-      "title": "Raspberry Zero Wで「人の気配に振り向く座敷童子人形」を作る（組み立て〜動作確認編）",
-      "url": "https://zenn.dev/naiki9982/articles/660826c71d3879",
-      "source": "Zenn 電子工作",
-      "sourceId": "zenn-denshi",
-      "publishedAt": "2026-11-19T14:36:52.000Z",
-      "summaryJa": [
-        "はじめに この記事は、Kiro のハッカソン「Kiroween 2026」の一環として書いています。",
-        "https://aws.",
-        "amazon."
-      ],
-      "category": "make",
-      "keywords": [
-        "Raspberry",
-        "Zero",
-        "Wで",
-        "人の気配に振り向く座敷童子人形",
-        "組み立て〜動作確認編"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 12,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-08a47eb5",
-      "title": "Digital Badge Gets Reverse Engineered",
-      "url": "https://hackaday.com/2026/11/19/digital-badge-gets-reverse-engineered/",
-      "source": "Hackaday",
-      "sourceId": "hackaday",
-      "publishedAt": "2026-11-19T18:00:00.000Z",
-      "summaryJa": [
-        "The JieLi AC707N is a cheap $10 digital badge that actually packs in a fair bit ",
-        "[Sabas] reverse-engineered the product and figured out how to flash custom …read",
+        "Frostbite: A new CPU architecture discovered, desi",
+        "出典: Hacker News",
         "詳細は元記事を参照してください。"
       ],
-      "category": "make",
+      "category": "tech",
       "keywords": [
-        "Digital",
-        "Badge",
-        "Reverse",
-        "Engineered"
+        "Frostbite",
+        "CPU",
+        "architecture",
+        "discovered",
+        "designed"
       ],
       "heat": {
-        "temperature": 52,
+        "temperature": 80,
         "signals": {
-          "hnPoints": 0,
+          "hnPoints": 549,
           "hatebuCount": 0,
-          "ageHours": 9,
+          "ageHours": 10,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 53.5
         }
       },
       "image": null
     },
     {
-      "id": "hackaday-64b5ccc5",
-      "title": "A Big Ol’ LED Matrix Cube",
-      "url": "https://hackaday.com/2026/11/19/a-big-ol-led-matrix-cube/",
-      "source": "Hackaday",
-      "sourceId": "hackaday",
-      "publishedAt": "2026-11-19T21:00:39.000Z",
+      "id": "hatebu-it-73b0447d",
+      "title": "「httpS://」だと暗号化されず平文で送信……「PHP」に約20年潜んでいた脆弱性が解決／問題はいたってシンプル、なんともはや……【やじうまの杜】",
+      "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2158241.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-20T09:26:32.000Z",
       "summaryJa": [
-        "You could have a featureless cube in your house, but that would be boring, and w",
-        "Alternatively, you could whip up a cube …read more",
+        "「httpS://」だと暗号化されず平文で送信……「PHP」に約20年潜んでいた脆弱性が解決／問題は",
+        "出典: はてなブックマーク テクノロジー",
         "詳細は元記事を参照してください。"
       ],
-      "category": "make",
+      "category": "programming",
       "keywords": [
-        "Big",
-        "Ol",
-        "LED",
-        "Matrix",
-        "Cube"
+        "httpS",
+        "PHP"
       ],
       "heat": {
-        "temperature": 53,
+        "temperature": 81,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-3dprinter-ff3ed491",
-      "title": "全部透明の「おさかなキーボード」を自作した ── 3Dプリントの素材選びで学んだこと",
-      "url": "https://zenn.dev/pnrnc485/articles/05b15c274eaf8c",
-      "source": "Zenn 3Dプリンター",
-      "sourceId": "zenn-3dprinter",
-      "publishedAt": "2026-11-16T05:20:33.000Z",
-      "summaryJa": [
-        "はじめに ボディもキーキャップも、全部透明。",
-        "そんなキーボードを自作しました。",
-        "これまでは、自作の「Let's Split（レツプリ）」をずっと愛用していました。"
-      ],
-      "category": "3dprint",
-      "keywords": [
-        "全部透明の",
-        "3Dプリントの素材選びで学んだこと"
-      ],
-      "heat": {
-        "temperature": 45,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 93,
-          "crossSources": 2,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-repair-4438a5fb",
-      "title": "Espresso, Meet Custom-Machined Stainless Steel Boiler",
-      "url": "https://hackaday.com/2026/11/12/espresso-meet-custom-machined-stainless-steel-boiler/",
-      "source": "Hackaday Repair Hacks",
-      "sourceId": "hackaday-repair",
-      "publishedAt": "2026-11-12T09:00:33.000Z",
-      "summaryJa": [
-        "While pondering some repairs for his Gaggia Classic Pro espresso machine, [Hans ",
-        "It was a nontrivial undertaking, since the …read more",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "repair",
-      "keywords": [
-        "Espresso",
-        "Meet",
-        "Custom",
-        "Machined",
-        "Stainless"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 186,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-repair-d0183c04",
-      "title": "Fixing a Dead Socket LGA 1851 Mainboard with a Resistor",
-      "url": "https://hackaday.com/2026/11/13/fixing-a-dead-socket-lga-1851-mainboard-with-a-resistor/",
-      "source": "Hackaday Repair Hacks",
-      "sourceId": "hackaday-repair",
-      "publishedAt": "2026-11-13T12:00:12.000Z",
-      "summaryJa": [
-        "Doing board level diagnosis on a PCB is hardly black magic, but some PCBs are de",
-        "The Socket LGA 1851 mainboard that [Fix the Pixel] got …read more",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "repair",
-      "keywords": [
-        "Fixing",
-        "Dead",
-        "Socket",
-        "LGA",
-        "Mainboard"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 159,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-obsidian-ddf27a44",
-      "title": "AI との作業の記録から記事を書いて裏を取ったら、記事より先に、記録のほうが間違っていた",
-      "url": "https://zenn.dev/claire_ai/articles/kiroku-iriguchi",
-      "source": "Zenn Obsidian",
-      "sourceId": "zenn-obsidian",
-      "publishedAt": "2026-11-19T20:43:12.000Z",
-      "summaryJa": [
-        "Claude Code と一緒に作業した記録は、Obsidian の保管庫（Vault）のノートと、コードのコメントに残している。",
-        "あとで同じ失敗をしないため、何が起きて何が原因だったかを、その場で書いておく。",
-        "!"
-      ],
-      "category": "workflow",
-      "keywords": [
-        "AI",
-        "記事より先に",
-        "記録のほうが間違っていた"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-claudecode-656c53bc",
-      "title": "環境構築と最初の自動化 — 「指示・実行・検証」の型を身につける",
-      "url": "https://zenn.dev/automation_lab/articles/claude-code-automation-02",
-      "source": "Zenn Claude Code",
-      "sourceId": "zenn-claudecode",
-      "publishedAt": "2026-11-19T16:05:37.000Z",
-      "summaryJa": [
-        "第1章では、これまでの「人間がコードを書く」自動化から、「エージェントに意図を伝えて完遂させる」自動化へのパラダイムシフトについて解説しました。",
-        "本章からは実際に手を動かし、Claude Codeを用いた自動化の実践に入ります。",
-        "まずは、ツールが自由に動ける「砂場（サンドボックス）」を整え、ファイル操作やテキスト整形といった基本的なタスクを通じて、エージェントを安全かつ正確に操るための「"
-      ],
-      "category": "workflow",
-      "keywords": [
-        "環境構築と最初の自動化",
-        "指示",
-        "実行",
-        "検証"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
+          "hatebuCount": 178,
           "ageHours": 11,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 16.4
         }
       },
       "image": null
     },
     {
-      "id": "hackaday-3dp-e64497fb",
-      "title": "Local Prusa Connect Cuts Out the Cloud",
-      "url": "https://hackaday.com/2026/11/18/local-prusa-connect-cuts-out-the-cloud/",
-      "source": "Hackaday 3D Printer Hacks",
-      "sourceId": "hackaday-3dp",
-      "publishedAt": "2026-11-18T12:00:03.000Z",
+      "id": "gtrends-jp-91723d9f",
+      "title": "高速道路情報",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E9%AB%98%E9%80%9F%E9%81%93%E8%B7%AF%E6%83%85%E5%A0%B1",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-20T19:40:00.000Z",
       "summaryJa": [
-        "One of the ways 3D printing has changed over the last few years has come in the ",
-        "In some cases they …read more",
+        "高速道路情報",
+        "出典: Google トレンド",
         "詳細は元記事を参照してください。"
       ],
-      "category": "3dprint",
+      "category": "trends",
       "keywords": [
-        "Local",
-        "Prusa",
-        "Connect",
-        "Cuts",
-        "Cloud"
+        "高速道路情報"
       ],
       "heat": {
-        "temperature": 43,
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 39,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -484,31 +372,27 @@
       "image": null
     },
     {
-      "id": "hackaday-repair-3789f328",
-      "title": "Why Engineers are Forced to Create Junk Designs",
-      "url": "https://hackaday.com/2026/11/11/why-engineers-are-forced-to-create-junk-designs/",
-      "source": "Hackaday Repair Hacks",
-      "sourceId": "hackaday-repair",
-      "publishedAt": "2026-11-11T12:00:45.000Z",
+      "id": "gtrends-jp-fa3e09ab",
+      "title": "三菱重工業",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E4%B8%89%E8%8F%B1%E9%87%8D%E5%B7%A5%E6%A5%AD",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-20T19:40:00.000Z",
       "summaryJa": [
-        "It’s become a bit of a platitude to state that products were manufactured better",
-        "出典: Hackaday Repair Hacks",
+        "三菱重工業",
+        "出典: Google トレンド",
         "詳細は元記事を参照してください。"
       ],
-      "category": "repair",
+      "category": "trends",
       "keywords": [
-        "Engineers",
-        "Forced",
-        "Create",
-        "Junk",
-        "Designs"
+        "三菱重工業"
       ],
       "heat": {
-        "temperature": 40,
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 207,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -518,40 +402,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-779568a9",
-      "title": "cesanta/mongoose-os — Mongoose OS - an IoT Firmware Development Framework. Supported microcontrollers: ESP32, ESP8266, CC3220, CC3200, STM32F4, STM32L4, STM32F7. Amazon AWS IoT, Microsoft Azure, Google IoT Core integrated. Code in C or JavaScript.",
-      "url": "https://github.com/cesanta/mongoose-os",
+      "id": "github-gems-fbb33e73",
+      "title": "earlephilhower/arduino-pico — Raspberry Pi Pico Arduino core, for all RP2040 and RP2350 boards",
+      "url": "https://github.com/earlephilhower/arduino-pico",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-10-14T13:38:15Z",
+      "publishedAt": "2026-11-20T05:07:19Z",
       "summaryJa": [
-        "Mongoose OS - an IoT Firmware Development Framework.",
-        "Supported microcontrollers: ESP32, ESP8266, CC3220, CC3200, STM32F4, STM32L4, ST",
-        "Amazon AWS IoT, Microsoft Azure, Google IoT Core integrated."
+        "Raspberry Pi Pico Arduino core, for all RP2040 and RP2350 boards",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "cesanta/mongoose",
-        "os",
-        "Mongoose",
-        "IoT",
-        "Firmware"
+        "pico",
+        "Raspberry",
+        "Pi",
+        "Arduino",
+        "core"
       ],
       "heat": {
-        "temperature": 40,
+        "temperature": 50,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 877,
+          "ageHours": 15,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "ESP32やSTM32など主要マイコンをC言語とJavaScriptで制御できる軽量IoTフレームワークです。基板ごとの設定差分を抽象化し、プロトタイピングからIoT機器への組み込みまでを短時間で実現できます。"
+    "reason": "RP2040や新世代のRP2350をArduino IDEで素直に動かせる定番コアです。手元のマイコン工作で手軽に表示器やセンサーを制御したいとき、まっ先に環境を整えられる強い味方になります。"
   },
-  "unavailableSources": [
-    "Weather"
-  ]
+  "unavailableSources": []
 }

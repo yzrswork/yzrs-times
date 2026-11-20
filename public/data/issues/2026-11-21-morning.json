@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 267,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-21",
+  "dateDisplay": "Saturday, November 21, 2026",
+  "pressTimeJst": "2026-11-21 05:00",
+  "generatedAt": "2026-11-20T20:17:44.315Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "27e1e947"
+  },
+  "theme": {
+    "title": "独自収集の仕組みと基盤への視線",
+    "note": "自作ツールの構築と、日常を支える技術基盤の点検が交差する朝刊。"
+  },
+  "editorial": {
+    "comment": "今週は『はてなエンジニアの自作RSSリーダー』にならい、自分の情報収集専用の極小ツールを作るプロトタイピングを試します。既製品の機能に自分を合わせるのではなく、自分に必要な通知や表示だけを切り出す仕組みを手元で組み上げてみます。 —— YZRS Times 編集長",
+    "passedOver": "三井住友銀行の1400万件情報漏えいなど大規模事故の報道が多数ありましたが、手元の制作環境に直接関わる話題に絞るため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "快晴",
+    "icon": "sunny",
+    "tempMax": 14,
+    "tempMin": 7,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 12,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 58349,
+        "priceJpy": 9244286,
+        "change24hPct": -6.34,
+        "sparkline7d": [
+          68994.2,
+          64120.24,
+          65066.21,
+          64695.52,
+          64304.45,
+          63500.3,
+          58416.65
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1605.47,
+        "priceJpy": 254357,
+        "change24hPct": -8.92,
+        "sparkline7d": [
+          1951.7,
+          1768.45,
+          1826.43,
+          1831.02,
+          1805.01,
+          1796.91,
+          1618.7
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.125899,
+        "priceJpy": 19.95,
+        "change24hPct": -5.34,
+        "sparkline7d": [
+          0.149459,
+          0.135299,
+          0.139969,
+          0.137532,
+          0.141149,
+          0.136787,
+          0.127122
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 189.63,
+        "priceJpy": 30043,
+        "change24hPct": -8.65,
+        "sparkline7d": [
+          226.72,
+          201.24,
+          208.68,
+          208.86,
+          208.52,
+          207.69,
+          191.81
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-20d263a4",
+    "hatebu-it-ac467997",
+    "nhk-top-c8b16d13"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "yahoo-topics-1e33cc42",
+        "nhk-world-29da6a5e"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hn-front-807886b3",
+        "hatebu-it-73b0447d"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-91723d9f",
+        "gtrends-jp-fa3e09ab"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-20d263a4",
+      "title": "はてなエンジニアの自作RSSリーダーをご紹介します 2026 - Hatena Developer Blog",
+      "url": "https://developer.hatenastaff.com/entry/2026/11/20/162322",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-20T08:33:42.000Z",
+      "summaryJa": [
+        "はてなには多くのエンジニアが在籍していますが、普段から開発が好きな人が多く、業務以外でも各自が欲しいものなどを自作していることがあります。",
+        "特に近年では生成AIによって自作のハードルはかなり下がったと思われます。",
+        "そんな自作ツールたちですが、今回はRSSリーダーに絞って紹介していきます。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Hatena",
+        "Developer"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 182,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 15.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-ac467997",
+      "title": "「あと10年もたないかもしれない」Rubyの父 まつもとゆきひろが危惧するOSS文化の消滅 - エンジニアtype | 転職type",
+      "url": "https://type.jp/et/feature/32219/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-20T04:31:59.000Z",
+      "summaryJa": [
+        "NEW!",
+        "2026.",
+        "11."
+      ],
+      "category": "programming",
+      "keywords": [
+        "Rubyの父",
+        "エンジニアtype",
+        "転職type"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 444,
+          "ageHours": 16,
+          "crossSources": 1,
+          "velocity": 28.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-c8b16d13",
+      "title": "ナスダック指数が一時4%超の下落 アンソロピック14％安",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261121de79481",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-20T19:48:02.000Z",
+      "summaryJa": [
+        "20日のニューヨーク株式市場では、AI開発などをめぐる先行きの不透明感が意識されるなか、半導体をはじめ幅広い銘柄に売り注文が広がり、ハイテク株の比率が高いナスダ",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ナスダック指数が一時4%超の下落",
+        "アンソロピック14％安"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "yahoo-topics-1e33cc42",
+      "title": "EV補助金受け付け終了 予算枯渇",
+      "url": "https://news.yahoo.co.jp/pickup/6603347?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-11-20T14:58:48.000Z",
+      "summaryJa": [
+        "EV補助金受け付け終了 予算枯渇",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "EV補助金受け付け終了",
+        "予算枯渇"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-29da6a5e",
+      "title": "米中ロ首脳会談“国際秩序の変化を象徴” 世界 日本への影響は",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261120de79408",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-11-20T13:04:04.000Z",
+      "summaryJa": [
+        "史上初の米中ロ首脳会談を終え、トランプ大統領は「10点満点で12点だ」と胸を張りました。",
+        "「国際秩序の変化を象徴するものになった」と報じられた会談。",
+        "どの国がもっとも“利益”を得たのか。"
+      ],
+      "category": "news",
+      "keywords": [
+        "米中ロ首脳会談",
+        "国際秩序の変化を象徴",
+        "世界",
+        "日本への影響は"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-807886b3",
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "url": "https://architectlabs.com/blog/frostbite",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-20T10:01:41.000Z",
+      "summaryJa": [
+        "Frostbite: A new CPU architecture discovered, desi",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Frostbite",
+        "CPU",
+        "architecture",
+        "discovered",
+        "designed"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 549,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 53.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-73b0447d",
+      "title": "「httpS://」だと暗号化されず平文で送信……「PHP」に約20年潜んでいた脆弱性が解決／問題はいたってシンプル、なんともはや……【やじうまの杜】",
+      "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2158241.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-20T09:26:32.000Z",
+      "summaryJa": [
+        "「httpS://」だと暗号化されず平文で送信……「PHP」に約20年潜んでいた脆弱性が解決／問題は",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "httpS",
+        "PHP"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 178,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 16.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-91723d9f",
+      "title": "高速道路情報",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E9%AB%98%E9%80%9F%E9%81%93%E8%B7%AF%E6%83%85%E5%A0%B1",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-20T19:40:00.000Z",
+      "summaryJa": [
+        "高速道路情報",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "高速道路情報"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-fa3e09ab",
+      "title": "三菱重工業",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E4%B8%89%E8%8F%B1%E9%87%8D%E5%B7%A5%E6%A5%AD",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-20T19:40:00.000Z",
+      "summaryJa": [
+        "三菱重工業",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "三菱重工業"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-fbb33e73",
+      "title": "earlephilhower/arduino-pico — Raspberry Pi Pico Arduino core, for all RP2040 and RP2350 boards",
+      "url": "https://github.com/earlephilhower/arduino-pico",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-20T05:07:19Z",
+      "summaryJa": [
+        "Raspberry Pi Pico Arduino core, for all RP2040 and RP2350 boards",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "pico",
+        "Raspberry",
+        "Pi",
+        "Arduino",
+        "core"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "RP2040や新世代のRP2350をArduino IDEで素直に動かせる定番コアです。手元のマイコン工作で手軽に表示器やセンサーを制御したいとき、まっ先に環境を整えられる強い味方になります。"
+  },
+  "unavailableSources": []
+}
