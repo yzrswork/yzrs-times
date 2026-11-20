@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-09bae87e",
-      "url": "https://github.com/zeeyado/koassistant.koplugin",
-      "date": "2026-10-21"
-    },
-    {
-      "id": "github-gems-de94282f",
-      "url": "https://github.com/aceinnolab/Inkycal",
-      "date": "2026-10-21"
-    },
-    {
       "id": "show-hn-50b1136f",
       "url": "https://dosaygo-studio.github.io/hn-front-page-2035/news",
       "date": "2026-10-22"
@@ -304,6 +294,11 @@
     {
       "id": "show-hn-aaad82ae",
       "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "github-gems-779568a9",
+      "url": "https://github.com/cesanta/mongoose-os",
       "date": "2026-11-20"
     }
   ]

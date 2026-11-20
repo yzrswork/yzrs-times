@@ -1,69 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "acd943a5b9656967": {
-      "url": "https://bandarlabs.github.io/Cobalt/",
-      "summaryJa": [
-        "Kobo can run apps now",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-21T20:18:44.684Z"
-    },
-    "c76e411c605e63ee": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260821de45601",
-      "summaryJa": [
-        "千葉豪雨の際に冠水し、車に乗っていた男性が死亡したアンダーパスで、非常用電源が起動せず、排水ポンプが動いていなかったことを受けて、国土交通省が、全国の排水設備な",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-21T20:18:44.684Z"
-    },
-    "3263194940538007": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260821de45512",
-      "summaryJa": [
-        "組織のあり方が議論され、国の機関から特殊法人に移行することになった日本学術会議は21日、新たな会員125人を公表しました。",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-21T20:18:44.684Z"
-    },
-    "7bc6c86265b3060b": {
-      "url": "https://news.yahoo.co.jp/pickup/6592589?source=rss",
-      "summaryJa": [
-        "埼玉で猛烈な雨 車水没訴える通報",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-21T20:18:44.684Z"
-    },
-    "f74ee8f8fb63c803": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260821de45521",
-      "summaryJa": [
-        "全国のスーパーで今月16日までの1週間に販売されたコメの平均価格は、5キロあたり税込みで3191円と前の週より29円下がりました。",
-        "値下がりは2週ぶりで、再び3200円台を下回りました。",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-21T20:18:44.684Z"
-    },
-    "258b37fd82cccd53": {
-      "url": "https://note.com/saamon_note/n/nf2624bde20d6",
-      "summaryJa": [
-        "はじめにゲームしながらサブモニタでYouTube、やってる人多いと思います。",
-        "私もFF14をやりながら攻略動画や作業用BGMを流してるんですが、あるときからゲーム中だけYouTubeの再生がカクついてしまうようになりました。",
-        "調べてみると「ブラウザのハードウェア アクセラレーションをオフにする」という方法が見つかって、."
-      ],
-      "cachedAt": "2026-08-21T20:18:44.684Z"
-    },
-    "dc6f0a5929be4e99": {
-      "url": "https://kagi.com/changelog#11296",
-      "summaryJa": [
-        "Kagi added a setting for removing paywalled links ",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-21T20:18:44.684Z"
-    },
     "fc2222e9a9df62c5": {
       "url": "https://www.sbbit.jp/article/cont1/186558",
       "summaryJa": [
@@ -15336,6 +15273,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-19T20:23:44.406Z"
+    },
+    "b7e79700e00b0ead": {
+      "url": "https://zenn.dev/aicoding_guide/articles/acg-claude-code-context-compact",
+      "summaryJa": [
+        "長いセッションを続けていると、Claude の応答が遅くなったり、最初に伝えたルールを忘れたように見えたりします。",
+        "原因の多くはコンテキストウィンドウの逼迫です。",
+        "会話履歴、読み込んだファイル、ツールの実行結果はすべてコンテキストに蓄積され、上限に近づくと精度が落ち、圧縮が走って情報が失われます。"
+      ],
+      "cachedAt": "2026-11-20T02:49:28.490Z"
+    },
+    "47dff1f152f73756": {
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-05-ben-roof-bridge-knowledge",
+      "summaryJa": [
+        "3Dプリンターで船のモデルを印刷しようとすると、「操舵室の屋根や窓の上って、サポート材（支え）なしだと空中に垂れて崩れるのでは？",
+        "」と心配になりますよね。",
+        "ところが、浮かぶ船の定番ベンチマークモデル「BEN」を赤・白・濃い緑の3色で印刷してみたところ、サポート材ゼロ・250層完走 で最後まで刷り切ることができました"
+      ],
+      "cachedAt": "2026-11-20T02:49:28.490Z"
+    },
+    "83e63b87772560b4": {
+      "url": "https://zenn.dev/naiki9982/articles/660826c71d3879",
+      "summaryJa": [
+        "はじめに この記事は、Kiro のハッカソン「Kiroween 2026」の一環として書いています。",
+        "https://aws.",
+        "amazon."
+      ],
+      "cachedAt": "2026-11-20T02:49:28.490Z"
+    },
+    "08a47eb5cfd8f916": {
+      "url": "https://hackaday.com/2026/11/19/digital-badge-gets-reverse-engineered/",
+      "summaryJa": [
+        "The JieLi AC707N is a cheap $10 digital badge that actually packs in a fair bit ",
+        "[Sabas] reverse-engineered the product and figured out how to flash custom …read",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-20T02:49:28.490Z"
+    },
+    "64b5ccc5f85f4881": {
+      "url": "https://hackaday.com/2026/11/19/a-big-ol-led-matrix-cube/",
+      "summaryJa": [
+        "You could have a featureless cube in your house, but that would be boring, and w",
+        "Alternatively, you could whip up a cube …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-20T02:49:28.490Z"
+    },
+    "ff3ed4914d6fe522": {
+      "url": "https://zenn.dev/pnrnc485/articles/05b15c274eaf8c",
+      "summaryJa": [
+        "はじめに ボディもキーキャップも、全部透明。",
+        "そんなキーボードを自作しました。",
+        "これまでは、自作の「Let's Split（レツプリ）」をずっと愛用していました。"
+      ],
+      "cachedAt": "2026-11-20T02:49:28.490Z"
+    },
+    "d0183c040ce477d5": {
+      "url": "https://hackaday.com/2026/11/13/fixing-a-dead-socket-lga-1851-mainboard-with-a-resistor/",
+      "summaryJa": [
+        "Doing board level diagnosis on a PCB is hardly black magic, but some PCBs are de",
+        "The Socket LGA 1851 mainboard that [Fix the Pixel] got …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-20T02:49:28.490Z"
+    },
+    "ddf27a4417d2c823": {
+      "url": "https://zenn.dev/claire_ai/articles/kiroku-iriguchi",
+      "summaryJa": [
+        "Claude Code と一緒に作業した記録は、Obsidian の保管庫（Vault）のノートと、コードのコメントに残している。",
+        "あとで同じ失敗をしないため、何が起きて何が原因だったかを、その場で書いておく。",
+        "!"
+      ],
+      "cachedAt": "2026-11-20T02:49:28.490Z"
+    },
+    "656c53bc16b98f9f": {
+      "url": "https://zenn.dev/automation_lab/articles/claude-code-automation-02",
+      "summaryJa": [
+        "第1章では、これまでの「人間がコードを書く」自動化から、「エージェントに意図を伝えて完遂させる」自動化へのパラダイムシフトについて解説しました。",
+        "本章からは実際に手を動かし、Claude Codeを用いた自動化の実践に入ります。",
+        "まずは、ツールが自由に動ける「砂場（サンドボックス）」を整え、ファイル操作やテキスト整形といった基本的なタスクを通じて、エージェントを安全かつ正確に操るための「"
+      ],
+      "cachedAt": "2026-11-20T02:49:28.490Z"
+    },
+    "3789f328a1a42feb": {
+      "url": "https://hackaday.com/2026/11/11/why-engineers-are-forced-to-create-junk-designs/",
+      "summaryJa": [
+        "It’s become a bit of a platitude to state that products were manufactured better",
+        "出典: Hackaday Repair Hacks",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-20T02:49:28.490Z"
     }
   }
 }

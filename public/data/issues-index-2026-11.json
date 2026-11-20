@@ -274,6 +274,13 @@
       "edition": "morning",
       "theme": "暗黙の構造を露わにする工学",
       "path": "issues/2026-11-20-morning.json"
+    },
+    {
+      "issueNo": 266,
+      "date": "2026-11-20",
+      "edition": "midday",
+      "theme": "記録の推敲と手元の物理工作",
+      "path": "issues/2026-11-20-midday.json"
     }
   ]
 }
