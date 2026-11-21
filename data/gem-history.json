@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-50b1136f",
-      "url": "https://dosaygo-studio.github.io/hn-front-page-2035/news",
-      "date": "2026-10-22"
-    },
-    {
-      "id": "github-gems-0957d799",
-      "url": "https://github.com/moltis-org/moltis",
-      "date": "2026-10-22"
-    },
-    {
       "id": "show-hn-5293a25e",
       "url": "https://cannoneyed.com/isometric-nyc/",
       "date": "2026-10-23"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-fbb33e73",
       "url": "https://github.com/earlephilhower/arduino-pico",
+      "date": "2026-11-21"
+    },
+    {
+      "id": "github-gems-94f327c8",
+      "url": "https://github.com/Zer0-bit/gaggiuino",
       "date": "2026-11-21"
     }
   ]

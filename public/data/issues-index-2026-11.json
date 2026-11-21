@@ -288,6 +288,13 @@
       "edition": "morning",
       "theme": "独自収集の仕組みと基盤への視線",
       "path": "issues/2026-11-21-morning.json"
+    },
+    {
+      "issueNo": 268,
+      "date": "2026-11-21",
+      "edition": "midday",
+      "theme": "捨て置かれた枠組みの再点灯",
+      "path": "issues/2026-11-21-midday.json"
     }
   ]
 }

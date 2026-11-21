@@ -1,0 +1,548 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 268,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-21",
+  "dateDisplay": "Saturday, November 21, 2026",
+  "pressTimeJst": "2026-11-21 12:00",
+  "generatedAt": "2026-11-21T02:47:36.273Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "27e1e947"
+  },
+  "theme": {
+    "title": "捨て置かれた枠組みの再点灯",
+    "note": "役目を終えた電子ペーパーや古い音響機器、さらにはAIの会話ログや過去の設計決定まで、手元にある構造を紐解き、再び機能を与える試みが揃いました。"
+  },
+  "editorial": {
+    "comment": "今週は『電子ペーパー値札のフォトフレーム化』にならい、ジャンク市で入手できる小型表示器を仕入れて手元のケースへ組み込む工作を試します。RE:DRIVE制作で余った筐体に収まるサブディスプレイとして、低消費電力な表示枠を手元で作ってみます。 —— YZRS Times 編集長",
+    "passedOver": "リーマン予想に関連する大規模な数学論文発表の速報が相次ぎましたが、手元の工作や自動化に直結する話題を優先し見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": null,
+  "market": {
+    "fearGreed": {
+      "value": 12,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 58553,
+        "priceJpy": 9283502,
+        "change24hPct": -5,
+        "sparkline7d": [
+          68233.81,
+          64506.16,
+          64286.77,
+          65078.97,
+          62656.52,
+          62064.76,
+          58926.04
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1615.93,
+        "priceJpy": 256205,
+        "change24hPct": -6.77,
+        "sparkline7d": [
+          1926.32,
+          1800.63,
+          1796.49,
+          1827.52,
+          1746.39,
+          1759.42,
+          1620.33
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.126069,
+        "priceJpy": 19.99,
+        "change24hPct": -4.54,
+        "sparkline7d": [
+          0.145033,
+          0.137742,
+          0.13698,
+          0.140608,
+          0.13787,
+          0.132796,
+          0.127461
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 193.1,
+        "priceJpy": 30616,
+        "change24hPct": -5.64,
+        "sparkline7d": [
+          220.08,
+          205.75,
+          205.1,
+          211.73,
+          205.32,
+          206.59,
+          193.8
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hackaday-c335b134",
+    "zenn-3dprinter-47dff1f1",
+    "zenn-claudecode-173be23b"
+  ],
+  "sections": [
+    {
+      "id": "make",
+      "title": "作る",
+      "articleIds": [
+        "hackaday-0bfad844",
+        "zenn-denshi-8b1bd335"
+      ]
+    },
+    {
+      "id": "3d-printing",
+      "title": "3Dプリンタ",
+      "articleIds": [
+        "zenn-3dprinter-ff3ed491"
+      ]
+    },
+    {
+      "id": "repair",
+      "title": "直す",
+      "articleIds": [
+        "hackaday-repair-4438a5fb",
+        "hackaday-repair-d0183c04"
+      ]
+    },
+    {
+      "id": "systems",
+      "title": "仕組みにする・残す",
+      "articleIds": [
+        "zenn-claudecode-977abf62",
+        "zenn-claudecode-3de4bd35"
+      ]
+    },
+    {
+      "id": "tech-buzz",
+      "title": "技術の話題",
+      "articleIds": [
+        "hatebu-it-73b0447d",
+        "hn-front-b98bf7c0"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hackaday-c335b134",
+      "title": "e-Paper Price Tags Become Picture Frames",
+      "url": "https://hackaday.com/2026/11/20/e-paper-price-tags-become-picture-frames/",
+      "source": "Hackaday",
+      "sourceId": "hackaday",
+      "publishedAt": "2026-11-20T16:30:42.000Z",
+      "summaryJa": [
+        "E-paper has lots of applications, though it’s found a particularly solid market ",
+        "Because why have a cheap slip of paper for …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "make",
+      "keywords": [
+        "Paper",
+        "Price",
+        "Tags",
+        "Become",
+        "Picture"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-3dprinter-47dff1f1",
+      "title": "名作船「BEN」をベンチマーク分析！サポートレスで250層完走する天井ブリッジの秘密",
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-05-ben-roof-bridge-knowledge",
+      "source": "Zenn 3Dプリンター",
+      "sourceId": "zenn-3dprinter",
+      "publishedAt": "2026-11-16T15:18:24.000Z",
+      "summaryJa": [
+        "3Dプリンターで船のモデルを印刷しようとすると、「操舵室の屋根や窓の上って、サポート材（支え）なしだと空中に垂れて崩れるのでは？",
+        "」と心配になりますよね。",
+        "ところが、浮かぶ船の定番ベンチマークモデル「BEN」を赤・白・濃い緑の3色で印刷してみたところ、サポート材ゼロ・250層完走 で最後まで刷り切ることができました"
+      ],
+      "category": "3dprint",
+      "keywords": [
+        "名作船",
+        "BEN"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 107,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-173be23b",
+      "title": "Claude Code のログを分析する仕組みを作ったら、hook の問題から Claude Code の不具合 2 件まで切り分けられた",
+      "url": "https://zenn.dev/murooka_az/articles/failure-scan-two-claude-code-bugs",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-20T17:37:18.000Z",
+      "summaryJa": [
+        "Claude Code で同じ失敗が何度も起きると、CLAUDE.",
+        "md や rule に「こうしない」と一文足したくなります。",
+        "足しても止まらなければ、言い方を変えてまた足す。"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "Claude",
+        "Code",
+        "hook",
+        "件まで切り分けられた"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-0bfad844",
+      "title": "Old FireWire Audio Interface Gets USB C Upgrade",
+      "url": "https://hackaday.com/2026/11/20/old-firewire-audio-interface-gets-usb-c-upgrade/",
+      "source": "Hackaday",
+      "sourceId": "hackaday",
+      "publishedAt": "2026-11-20T21:00:28.000Z",
+      "summaryJa": [
+        "[bonsembiante] had a PreSonus Firestudio Project on hand.",
+        "It’s a very capable audio interface with 8 inputs and 8 outputs, along with MIDI",
+        "However, it’s got one problem—it …read more"
+      ],
+      "category": "make",
+      "keywords": [
+        "Old",
+        "FireWire",
+        "Audio",
+        "Interface",
+        "USB"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-denshi-8b1bd335",
+      "title": "# BOMとCPLの参照番号のずれを発注前に見つける",
+      "url": "https://zenn.dev/ee_ferret/articles/3c0e2c3bf9517e",
+      "source": "Zenn 電子工作",
+      "sourceId": "zenn-denshi",
+      "publishedAt": "2026-11-20T21:14:27.000Z",
+      "summaryJa": [
+        "基板実装用の部品表（BOM）と部品配置リスト（CPL）を出力した後、両方のCSVにある参照番号を照合する手順です。",
+        "片側にしかない番号を拾い、実装漏れと意図した手実装などを設計データで見分けます。",
+        "Python 3の標準ライブラリで、手元のCSVを読み取り専用で確認できます。"
+      ],
+      "category": "make",
+      "keywords": [
+        "make"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-3dprinter-ff3ed491",
+      "title": "全部透明の「おさかなキーボード」を自作した ── 3Dプリントの素材選びで学んだこと",
+      "url": "https://zenn.dev/pnrnc485/articles/05b15c274eaf8c",
+      "source": "Zenn 3Dプリンター",
+      "sourceId": "zenn-3dprinter",
+      "publishedAt": "2026-11-16T05:20:33.000Z",
+      "summaryJa": [
+        "はじめに ボディもキーキャップも、全部透明。",
+        "そんなキーボードを自作しました。",
+        "これまでは、自作の「Let's Split（レツプリ）」をずっと愛用していました。"
+      ],
+      "category": "3dprint",
+      "keywords": [
+        "全部透明の",
+        "3Dプリントの素材選びで学んだこと"
+      ],
+      "heat": {
+        "temperature": 45,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 117,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-repair-4438a5fb",
+      "title": "Espresso, Meet Custom-Machined Stainless Steel Boiler",
+      "url": "https://hackaday.com/2026/11/12/espresso-meet-custom-machined-stainless-steel-boiler/",
+      "source": "Hackaday Repair Hacks",
+      "sourceId": "hackaday-repair",
+      "publishedAt": "2026-11-12T09:00:33.000Z",
+      "summaryJa": [
+        "While pondering some repairs for his Gaggia Classic Pro espresso machine, [Hans ",
+        "It was a nontrivial undertaking, since the …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "repair",
+      "keywords": [
+        "Espresso",
+        "Meet",
+        "Custom",
+        "Machined",
+        "Stainless"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 210,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-repair-d0183c04",
+      "title": "Fixing a Dead Socket LGA 1851 Mainboard with a Resistor",
+      "url": "https://hackaday.com/2026/11/13/fixing-a-dead-socket-lga-1851-mainboard-with-a-resistor/",
+      "source": "Hackaday Repair Hacks",
+      "sourceId": "hackaday-repair",
+      "publishedAt": "2026-11-13T12:00:12.000Z",
+      "summaryJa": [
+        "Doing board level diagnosis on a PCB is hardly black magic, but some PCBs are de",
+        "The Socket LGA 1851 mainboard that [Fix the Pixel] got …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "repair",
+      "keywords": [
+        "Fixing",
+        "Dead",
+        "Socket",
+        "LGA",
+        "Mainboard"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 183,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-977abf62",
+      "title": "AIが既存決定を無視する本当の理由 — ADR文脈自動注入hookの手法",
+      "url": "https://zenn.dev/chooser/articles/cp-009-ai-dev-process",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-20T17:06:13.000Z",
+      "summaryJa": [
+        "上原正吉（EarthLink Network Co.",
+        ", Ltd.",
+        "）。"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "AIが既存決定を無視する本当の理由",
+        "ADR文脈自動注入hookの手法"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-3de4bd35",
+      "title": "Claude Codeに自動化を作らせるとき、最初に決めるべき「4つの層」— 取得・変換・生成・書き出し",
+      "url": "https://zenn.dev/automation_lab/articles/claude-code-4-layers",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-20T16:19:55.000Z",
+      "summaryJa": [
+        "Claude Codeを触っていると、一瞬でスクリプトが組み上がる万能感に驚かされます。",
+        "ただ、実務の自動化を任せきりにすると、すぐに一つの壁にぶつかりました。",
+        "AIが生成するコードが、どうしても巨大な一本道（モノリス）になりがちだという点です。"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "Claude",
+        "Codeに自動化を作らせるとき",
+        "最初に決めるべき",
+        "4つの層",
+        "取得"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-73b0447d",
+      "title": "「httpS://」だと暗号化されず平文で送信……「PHP」に約20年潜んでいた脆弱性が解決／問題はいたってシンプル、なんともはや……【やじうまの杜】",
+      "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2158241.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-20T09:26:32.000Z",
+      "summaryJa": [
+        "「httpS://」だと暗号化されず平文で送信……「PHP」に約20年潜んでいた脆弱性が解決／問題は",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "httpS",
+        "PHP"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 218,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 12.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-b98bf7c0",
+      "title": "Inkling 2 Mini",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-20T20:12:19.000Z",
+      "summaryJa": [
+        "Inkling 2 Mini",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Inkling",
+        "Mini"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 723,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 109.7
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-94f327c8",
+      "title": "Zer0-bit/gaggiuino — A Gaggia Classic control project using microcontrollers.",
+      "url": "https://github.com/Zer0-bit/gaggiuino",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-09T08:48:34Z",
+      "summaryJa": [
+        "A Gaggia Classic control project using microcontrollers.",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "Zer0",
+        "bit/gaggiuino",
+        "Gaggia",
+        "Classic",
+        "control"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 282,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "エスプレッソマシンの基板と制御をマイコンで置き換える熱狂的なオープンソースプロジェクトです。ハード修理から一歩進んで、手元の家電を完全に自分好みにハックする勇気を与えてくれます。"
+  },
+  "unavailableSources": [
+    "Weather"
+  ]
+}
