@@ -1,87 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "3bfc17e907a3e430": {
-      "url": "https://zenn.dev/holy_fox/articles/53b82eed45f956",
-      "summaryJa": [
-        "2026年8月22日時点のFreeToken 0.",
-        "1.",
-        "2を、RTX 5090 32GBとRAM 128GBのPCで試しました。"
-      ],
-      "cachedAt": "2026-08-23T02:49:58.051Z"
-    },
-    "53de3fca829591e9": {
-      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-      "summaryJa": [
-        "Why your local LLM feels dumber than it is",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-23T02:49:58.051Z"
-    },
-    "4106bedf5b97be4d": {
-      "url": "https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384?__readwiseLocation=",
-      "summaryJa": [
-        "概要 Claude CodeやCodexのようなAIコーディングエージェントは、コードの調査、実装、テスト、ドキュメント更新などをまとめて進められます。",
-        "小さな修正であれば、「この不具合を直してください」という指示だけでも十分な結果が得られることがあります。",
-        "一方、数十〜数百件のタスクを含む開発では、同じ進め方は通用."
-      ],
-      "cachedAt": "2026-08-23T02:49:58.051Z"
-    },
-    "e0d8c8c7bd37a766": {
-      "url": "https://note.com/npaka/n/nf7108e6bd18e",
-      "summaryJa": [
-        "「Qwen3.",
-        "8-27B」におすすめのハーネスをまとめました。",
-        "1."
-      ],
-      "cachedAt": "2026-08-23T02:49:58.051Z"
-    },
-    "aad77f87b7ad5e3e": {
-      "url": "https://zenn.dev/uhyo/articles/react-use-browser-usage",
-      "summaryJa": [
-        "皆さんこんにちは。",
-        "最近、React公式ドキュメントにbrowser() APIの記事が追加されました。",
-        "この記事公開時点ではまだ正式版のReactでは使用できませんが、次バージョンのReact 19."
-      ],
-      "cachedAt": "2026-08-23T02:49:58.051Z"
-    },
-    "afa6df717e4e7b6f": {
-      "url": "https://qiita.com/Gotoubun_taiwan/items/cd6dc2ce80e2fafce712?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに こんにちは、事業会社で働いているデータサイエンティストです。",
-        "突然ですが、予測精度が一番高いモデルを選べば、一番良いモデルを選んだことになるのでしょうか？",
-        "機械学習モデルを作るとき、RMSEやMAE、AUCなどの予測精度を比較して、「一番当たるモデル」を採."
-      ],
-      "cachedAt": "2026-08-23T02:49:58.051Z"
-    },
-    "eea01cc9bee80d93": {
-      "url": "https://www.thebyteattic.com/2026/08/the-immortal-macintosh-restoration-diary.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-23T02:49:58.051Z"
-    },
-    "87575a6fbc4b15d2": {
-      "url": "https://blog.wybxc.cc/blog/rust-gui-survey-2026/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-23T02:49:58.051Z"
-    },
-    "8c2f342ea8fe68bc": {
-      "url": "https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-23T02:49:58.051Z"
-    },
     "0343f01109892cdb": {
       "url": "https://togetter.com/li/2736568",
       "summaryJa": [
@@ -15336,6 +15255,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-21T02:48:52.944Z"
+    },
+    "7cacba4b92c4b392": {
+      "url": "https://github.com/mitaku/andon",
+      "summaryJa": [
+        "Andon — a one-person software factory.",
+        "AI coding agents take issues from a ledger through implementation, review and me",
+        "一人で使うソフトウェア工場。"
+      ],
+      "cachedAt": "2026-11-21T20:18:52.604Z"
+    },
+    "a985c5791549e6a7": {
+      "url": "https://note.com/katobungen/n/n9c2bb939b9c7",
+      "summaryJa": [
+        "（2026年11月21日夜現在。",
+        "時刻は特に断らない限り日本時間。",
+        "Andrew Sutherland氏の公開検証記録の最終更新、11月21日21時55分＝同日12時55分 UTCに基づく。"
+      ],
+      "cachedAt": "2026-11-21T20:18:52.604Z"
+    },
+    "c7638d027db236f3": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261121de79741",
+      "summaryJa": [
+        "那覇市にある首里城正殿は7年前（2019年）の火災で焼失したあと復元され、22日、完成を祝う国主催の式典が行われます。",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-21T20:18:52.604Z"
+    },
+    "357aa0cf99e80b7e": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261122de79781",
+      "summaryJa": [
+        "福島県北塩原村ではおとといから雪による倒木が相次いだ影響で国道の一部が通行止めになり、500世帯余りのほか、ホテルの宿泊客の孤立状態が続いています。",
+        "県は22日朝から除雪作業を再開する予定ですが、通行止…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-21T20:18:52.604Z"
+    },
+    "00a682369722ad67": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261121de79490",
+      "summaryJa": [
+        "冬型の気圧配置の影響で、新潟県では雨が降り続き、「レベル4土砂災害危険警報」が発表されている地域があるほか、北日本と東日本の山沿いを中心に積雪が増えています。",
+        "冬型の気圧配置は西からしだいに緩みます…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-21T20:18:52.604Z"
+    },
+    "5fa20d00c7107ae5": {
+      "url": "https://kosui.me/posts/2026/11/15/code-design-after-agents",
+      "summaryJa": [
+        "横軸を時間とし、上段に人、下段にエージェントを置いた図です。",
+        "人の指示、エージェントの実行、人の確認が交互に3回続きます。",
+        "2回目と3回目の間に、人が離席している区間があります。"
+      ],
+      "cachedAt": "2026-11-21T20:18:52.604Z"
+    },
+    "6c69e97c5257c80c": {
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "summaryJa": [
+        "Inkling-2-Mini in 5.4 GB Memory",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-21T20:18:52.604Z"
+    },
+    "1de11bcbefa63911": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E5%B0%8F%E9%9B%AA",
+      "summaryJa": [
+        "小雪",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-21T20:18:52.604Z"
+    },
+    "2da59cbf2b61ac31": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E4%B8%AD%E5%A4%AE%E6%96%B0%E5%B9%B9%E7%B7%9A",
+      "summaryJa": [
+        "中央新幹線",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-21T20:18:52.604Z"
+    },
+    "1c0680778329eb66": {
+      "url": "https://www.rasulkireev.com/in-search-of-great-automations/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "summaryJa": [
+        "In Search of Great Automations | Article by Rasul ",
+        "出典: indieblog.page（個人ブログ）",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-21T20:18:52.604Z"
     }
   }
 }

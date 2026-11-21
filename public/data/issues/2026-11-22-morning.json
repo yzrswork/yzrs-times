@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 269,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-22",
+  "dateDisplay": "Sunday, November 22, 2026",
+  "pressTimeJst": "2026-11-22 05:00",
+  "generatedAt": "2026-11-21T20:17:47.338Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "27e1e947"
+  },
+  "theme": {
+    "title": "数学的検証と自律自動化の現在",
+    "note": "AIを用いた厳密な検証と、個人開発を一人工場化する仕組みの可能性を探る朝刊。"
+  },
+  "editorial": {
+    "comment": "今週は『Andon』の設計を参考に、Claude Codeを用いた個人開発のパイプライン化を試してみます。課題の切り出しからテスト・マージまでをどこまで自動化し、人間が最終判断に専念できるかを自分のリポジトリで実験します。 —— YZRS Times 編集長",
+    "passedOver": "スポーツの試合結果や個別の窃盗事件・事故の報道は、手元の作業や工作への直接の示唆が薄いため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "晴れ",
+    "icon": "sunny",
+    "tempMax": 13,
+    "tempMin": 6,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 12,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 60211,
+        "priceJpy": 9546498,
+        "change24hPct": 3.06,
+        "sparkline7d": [
+          65721.85,
+          65305.28,
+          65003.33,
+          64827.57,
+          63747.05,
+          61679.26,
+          60056.28
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1682.54,
+        "priceJpy": 266767,
+        "change24hPct": 4.59,
+        "sparkline7d": [
+          1834.99,
+          1834.53,
+          1831.16,
+          1815.81,
+          1802.1,
+          1741.13,
+          1680.05
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.129465,
+        "priceJpy": 20.53,
+        "change24hPct": 2.57,
+        "sparkline7d": [
+          0.136459,
+          0.141503,
+          0.139339,
+          0.14224,
+          0.138151,
+          0.131524,
+          0.129165
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 198.26,
+        "priceJpy": 31434,
+        "change24hPct": 4.45,
+        "sparkline7d": [
+          207.82,
+          210.72,
+          209.41,
+          208.69,
+          208.96,
+          199.85,
+          198.91
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-7cacba4b",
+    "hatebu-it-a985c579",
+    "nhk-top-c7638d02"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-357aa0cf",
+        "nhk-top-00a68236"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-5fa20d00",
+        "hn-front-f33734a3"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-1de11bcb",
+        "gtrends-jp-2da59cbf"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-7cacba4b",
+      "title": "GitHub - mitaku/andon: A one-person software factory: AI coding agents take tasks from a ledger through review to merge, and call the human only for decisions only they can make.",
+      "url": "https://github.com/mitaku/andon",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-21T10:52:10.000Z",
+      "summaryJa": [
+        "Andon — a one-person software factory.",
+        "AI coding agents take issues from a ledger through implementation, review and me",
+        "一人で使うソフトウェア工場。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "GitHub",
+        "mitaku/andon",
+        "person",
+        "software",
+        "factory"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 80,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 8.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-a985c579",
+      "title": "\"リーマン予想の証明\"の検証は現在どこまで進んでいるか｜加藤文元",
+      "url": "https://note.com/katobungen/n/n9c2bb939b9c7",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-21T13:55:02.000Z",
+      "summaryJa": [
+        "（2026年11月21日夜現在。",
+        "時刻は特に断らない限り日本時間。",
+        "Andrew Sutherland氏の公開検証記録の最終更新、11月21日21時55分＝同日12時55分 UTCに基づく。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "リーマン予想の証明"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 21,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 3.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-c7638d02",
+      "title": "沖縄 火災で焼失の首里城正殿 きょう国主催の「復元完成式」",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261121de79741",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-21T19:50:36.000Z",
+      "summaryJa": [
+        "那覇市にある首里城正殿は7年前（2019年）の火災で焼失したあと復元され、22日、完成を祝う国主催の式典が行われます。",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "沖縄",
+        "火災で焼失の首里城正殿",
+        "復元完成式"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-357aa0cf",
+      "title": "福島 北塩原村で国道通行止め 住民や宿泊客の孤立状態続く",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261122de79781",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-21T20:02:31.000Z",
+      "summaryJa": [
+        "福島県北塩原村ではおとといから雪による倒木が相次いだ影響で国道の一部が通行止めになり、500世帯余りのほか、ホテルの宿泊客の孤立状態が続いています。",
+        "県は22日朝から除雪作業を再開する予定ですが、通行止…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "福島",
+        "北塩原村で国道通行止め",
+        "住民や宿泊客の孤立状態続く"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-00a68236",
+      "title": "冬型の気圧配置 北・東日本の山沿い中心に積雪増 交通に影響",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261121de79490",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-21T14:11:25.000Z",
+      "summaryJa": [
+        "冬型の気圧配置の影響で、新潟県では雨が降り続き、「レベル4土砂災害危険警報」が発表されている地域があるほか、北日本と東日本の山沿いを中心に積雪が増えています。",
+        "冬型の気圧配置は西からしだいに緩みます…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "冬型の気圧配置",
+        "東日本の山沿い中心に積雪増",
+        "交通に影響"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-5fa20d00",
+      "title": "ソフトウェアファクトリーとコード設計と顧客価値",
+      "url": "https://kosui.me/posts/2026/11/15/code-design-after-agents",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-21T00:35:47.000Z",
+      "summaryJa": [
+        "横軸を時間とし、上段に人、下段にエージェントを置いた図です。",
+        "人の指示、エージェントの実行、人の確認が交互に3回続きます。",
+        "2回目と3回目の間に、人が離席している区間があります。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 143,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 7.3
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-f33734a3",
+      "title": "Inkling-2-Mini in 5.4 GB Memory",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-21T18:02:19.000Z",
+      "summaryJa": [
+        "Inkling-2-Mini in 5.4 GB Memory",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Inkling",
+        "Mini",
+        "GB",
+        "Memory"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 176,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 77.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-1de11bcb",
+      "title": "小雪",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E5%B0%8F%E9%9B%AA",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-21T19:40:00.000Z",
+      "summaryJa": [
+        "小雪",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "小雪"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-2da59cbf",
+      "title": "中央新幹線",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E4%B8%AD%E5%A4%AE%E6%96%B0%E5%B9%B9%E7%B7%9A",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-21T19:20:00.000Z",
+      "summaryJa": [
+        "中央新幹線",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "中央新幹線"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "indieblog-1c068077",
+      "title": "In Search of Great Automations | Article by Rasul Kireev",
+      "url": "https://www.rasulkireev.com/in-search-of-great-automations/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "source": "indieblog.page（個人ブログ）",
+      "sourceId": "indieblog",
+      "publishedAt": "2026-11-21T20:17:47.338Z",
+      "summaryJa": [
+        "In Search of Great Automations | Article by Rasul ",
+        "出典: indieblog.page（個人ブログ）",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "blog",
+      "keywords": [
+        "Search",
+        "Great",
+        "Automations",
+        "Article",
+        "Rasul"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "個人の日々の作業や記録をどこまで自動化できるかを探求した個人の実践記録です。手元の雑務をスクリプトやエージェントで仕組み化する具体的な着想が得られます。"
+  },
+  "unavailableSources": []
+}

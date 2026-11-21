@@ -295,6 +295,13 @@
       "edition": "midday",
       "theme": "捨て置かれた枠組みの再点灯",
       "path": "issues/2026-11-21-midday.json"
+    },
+    {
+      "issueNo": 269,
+      "date": "2026-11-22",
+      "edition": "morning",
+      "theme": "数学的検証と自律自動化の現在",
+      "path": "issues/2026-11-22-morning.json"
     }
   ]
 }
