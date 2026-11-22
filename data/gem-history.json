@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "show-hn-5293a25e",
-      "url": "https://cannoneyed.com/isometric-nyc/",
-      "date": "2026-10-23"
-    },
-    {
-      "id": "show-hn-1db08d87",
-      "url": "https://jameshard.ing/pilot",
-      "date": "2026-10-23"
-    },
-    {
       "id": "github-gems-4a992d3e",
       "url": "https://github.com/pschatzmann/ESP32-A2DP",
       "date": "2026-10-24"
@@ -304,6 +294,11 @@
     {
       "id": "indieblog-1c068077",
       "url": "https://www.rasulkireev.com/in-search-of-great-automations/?utm_source=indieblog.page&utm_medium=random&utm_campaign=indieblog.page",
+      "date": "2026-11-22"
+    },
+    {
+      "id": "github-gems-0c605160",
+      "url": "https://github.com/OpenHD/OpenHD",
       "date": "2026-11-22"
     }
   ]

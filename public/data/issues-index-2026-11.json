@@ -302,6 +302,13 @@
       "edition": "morning",
       "theme": "数学的検証と自律自動化の現在",
       "path": "issues/2026-11-22-morning.json"
+    },
+    {
+      "issueNo": 270,
+      "date": "2026-11-22",
+      "edition": "midday",
+      "theme": "手元の造形と自動化の確度",
+      "path": "issues/2026-11-22-midday.json"
     }
   ]
 }

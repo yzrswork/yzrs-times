@@ -1,87 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "0343f01109892cdb": {
-      "url": "https://togetter.com/li/2736568",
-      "summaryJa": [
-        "Yu F @fj_twt 😢 ハードウェア故障対応として筐体交換を実施したNTPサーバの時刻が1024週(約20年)巻き戻ってしまう ↓ サーバ証明書の有効期",
-        ".",
-        "."
-      ],
-      "cachedAt": "2026-08-23T20:19:58.605Z"
-    },
-    "fb9ff45bd90d9b09": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260823de45895",
-      "summaryJa": [
-        "開発競争が進む量子コンピューターをめぐり、「中性原子」と呼ばれる国産としては初めての方式を採用した量子コンピューターが、愛知県内で稼働を始めたことがわかりました",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-23T20:19:58.605Z"
-    },
-    "8643c9395c2b5f8b": {
-      "url": "https://malisper.me/jit-compiling-code-in-5-us/",
-      "summaryJa": [
-        "JIT Compiling Code in 5μs",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-23T20:19:58.606Z"
-    },
-    "586a2d2c6735f227": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260823de45846",
-      "summaryJa": [
-        "中国政府が人型ロボットの開発に力を入れる中、北京で人型ロボットの運動会が開かれています。",
-        "2回目となることしは、陸上の100メートルでウサイン・ボルトさんが持つ男子100メートルの世界記録9秒58を上回…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-23T20:19:58.606Z"
-    },
-    "e3639c818729f27d": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260823de45881",
-      "summaryJa": [
-        "23日未明に起きた茨城県南部を震源とする最大震度5弱の地震について、専門家は関東の地下にある「地震の巣」とも呼ばれる地震活動が活発な領域の一つで起きたと指摘して",
-        "海側のプレートとともに沈み込む「…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-23T20:19:58.606Z"
-    },
-    "18bffb29bbd68f8f": {
-      "url": "https://news.yahoo.co.jp/pickup/6592818?source=rss",
-      "summaryJa": [
-        "原油輸送確保 首脳外交求める声も",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-23T20:19:58.606Z"
-    },
-    "8558d02589ff502b": {
-      "url": "https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/",
-      "summaryJa": [
-        "I gave Qwen 3.8 27B a reverse-engineering job and ",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-23T20:19:58.606Z"
-    },
-    "53ff04c7aba269e8": {
-      "url": "https://zenn.dev/unchox/articles/backup-restorability-levels",
-      "summaryJa": [
-        "どの段も、次の段を保証しない。",
-        "処理が成功していても、書き出したものが実在するとは 限らない。",
-        "実在していても、開けるとは限らない。"
-      ],
-      "cachedAt": "2026-08-23T20:19:58.606Z"
-    },
-    "51d793248c1d3d84": {
-      "url": "https://gist.github.com/koutyuke/e2a68888bd9db30fa25c05f1bd030112",
-      "summaryJa": [
-        "Rustを超絶丁寧に教えてくれる君.",
-        "md Rustを超絶丁寧に教えてくれる君.",
-        "md Role あなたは Rust の学習を支援するメンターです。"
-      ],
-      "cachedAt": "2026-08-23T20:19:58.606Z"
-    },
     "176c1a9de246f13e": {
       "url": "https://www.scd31.com/posts/defcon-choker",
       "summaryJa": [
@@ -15345,6 +15264,105 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-21T20:18:52.604Z"
+    },
+    "77b42c80204a9961": {
+      "url": "https://hackaday.com/2026/11/20/printable-homelab-racks-you-can-design-in-a-browser/",
+      "summaryJa": [
+        "If you’re whipping up a homelab, you might find that you’ve got a mess of little",
+        "If you’re wanting …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-22T02:47:55.381Z"
+    },
+    "939cf91d7105f150": {
+      "url": "https://zenn.dev/chobitnet/articles/mikoto-voice-call",
+      "summaryJa": [
+        "AIエージェントから、iPhoneに電話がかかってくるようにしました。",
+        "アプリを閉じていても、普通の着信画面が出ます。",
+        "朝7時半に、これで起こされました きっかけは、Grokで動かしているAIエージェント（Grok Bot）との通話でした。"
+      ],
+      "cachedAt": "2026-11-22T02:47:55.381Z"
+    },
+    "be7326690cb164e9": {
+      "url": "https://hackaday.com/2026/11/21/esp32-drives-mda-display-for-wireless-terminal/",
+      "summaryJa": [
+        "Don’t you miss the days where you had to point a particle accelerator at your fa",
+        "Well, maybe not when we think of it that way, …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-22T02:47:55.381Z"
+    },
+    "05bf6e93161905b9": {
+      "url": "https://hackaday.com/2026/11/21/hdmi-to-csi-for-anyone/",
+      "summaryJa": [
+        "Digitizing an HDMI source should in theory be straightforward, but the interface",
+        "But happily there’s another way, which is to transform the HDMI into CSI …read m",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-22T02:47:55.381Z"
+    },
+    "80e9f5e1f764f4ba": {
+      "url": "https://hackaday.com/2026/11/21/thermite-powered-instant-phone-charger/",
+      "summaryJa": [
+        "Thermite is an amazing material, using mostly easily obtainable ingredients like",
+        "出典: Hackaday",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-22T02:47:55.381Z"
+    },
+    "79760e0a4989752d": {
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-08-rover-r11-and-recalibration",
+      "summaryJa": [
+        "ソラリスと並行して進めていたもうひとつのプロジェクトが、6輪の 月面探査ローバー「NKM-LMR-01」 です。",
+        "こちらは R00 から R11 まで12回もの設計改修を重ねて DR0〜4（データ審査）を通過し、ついに Bambu Lab A1 mini での3色実機印刷へ",
+        "しかし、順調にいくかと思われた白パーツの印刷中、47層目 で造形の乱れが発生して緊急停止することになりました。"
+      ],
+      "cachedAt": "2026-11-22T02:47:55.381Z"
+    },
+    "1afc3244a034bae6": {
+      "url": "https://hackaday.com/2026/11/08/saving-a-vintage-high-voltage-power-supply-from-the-scrap-heap/",
+      "summaryJa": [
+        "[Mr Carlson’s Lab] saves a Fluke Model 407 high-voltage power supply from the sc",
+        "出典: Hackaday Repair Hacks",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-22T02:47:55.382Z"
+    },
+    "eee8cba6c47951a6": {
+      "url": "https://zenn.dev/automation_lab/articles/automation-verification-gates",
+      "summaryJa": [
+        "「プログラムは正常に終了しました。",
+        "終了コード：0」 ターミナルに表示されるこの一行を鵜呑みにして、何度痛い目を見たかわかりません。",
+        "処理が終わった数時間後に、データが更新されていなかったり、特定のレコードが丸ごと空になっていたりする。"
+      ],
+      "cachedAt": "2026-11-22T02:47:55.382Z"
+    },
+    "2c93b6e63d214406": {
+      "url": "https://zenn.dev/oursship_blog/articles/ff9cdb2e04e781",
+      "summaryJa": [
+        "はじめに 2026年10月31日、ISUCON に参加してきました。",
+        "テーマは、タイトルのとおり 「ISUCON を AI アシスタント（Muse）にやらせてみた」 です。",
+        "この記事は、その準備と当日の記録をまとめたものです。"
+      ],
+      "cachedAt": "2026-11-22T02:47:55.382Z"
+    },
+    "bf485886c9d7da81": {
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "summaryJa": [
+        "Lean verification of the Riemann Hypothesis",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-22T02:47:55.382Z"
+    },
+    "dec5376cfebf5d8d": {
+      "url": "https://hackaday.com/2026/11/21/lidar-glasses-for-the-visually-impaired/",
+      "summaryJa": [
+        "The human brain has a fairly remarkable ability to take any sensory input and co",
+        "Most notably, those with vision impairments can use systems that produce …read m",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-22T02:47:55.382Z"
     }
   }
 }
