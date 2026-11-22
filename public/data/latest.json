@@ -1,33 +1,33 @@
 {
   "schemaVersion": 1,
-  "issueNo": 270,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-11-22",
-  "dateDisplay": "Sunday, November 22, 2026",
-  "pressTimeJst": "2026-11-22 12:00",
-  "generatedAt": "2026-11-22T02:47:35.207Z",
+  "issueNo": 271,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-23",
+  "dateDisplay": "Monday, November 23, 2026",
+  "pressTimeJst": "2026-11-23 05:00",
+  "generatedAt": "2026-11-22T20:17:44.716Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.1-flash-lite",
     "promptHash": "27e1e947"
   },
   "theme": {
-    "title": "手元の造形と自動化の確度",
-    "note": "加工とプリントで物理的な形を立ち上げつつ、コードとAIの出力を厳密に確かめる技法が集まりました。"
+    "title": "検証の密度と崩れる境界",
+    "note": "AIによる証明の妥当性と、デジタル社会の信頼基盤が揺らぐ現実を直視する"
   },
   "editorial": {
-    "comment": "今週はブラウザ上でパラメトリックに設計できるラック用ツールを使って、作業場の小物をまとめるミニラックのモデリングと出力に挑戦してみます。 —— YZRS Times 編集長",
-    "passedOver": "リーマン予想のLean証明に関する加熱した報道は、検証の進展を見極めるため速報追尾を見送り、主要な検証動向1本に絞りました。",
+    "comment": "MetaのAIエージェント「Muse」を今週試します。まずは自分の日々のルーチンを一つ任せてみて、メモリの蓄積速度とコンテキストの管理がどう変化するかを記録してみます。 —— YZRS Times 編集長",
+    "passedOver": "気候変動会議の難航や芸能関連のトレンドは、紙面の焦点が技術と作り手の足元にあるため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "晴れ時々曇り",
-    "icon": "partly-cloudy",
+    "summary": "快晴",
+    "icon": "sunny",
     "tempMax": 13,
-    "tempMin": 6,
+    "tempMin": 5,
     "precipChancePct": 0
   },
   "market": {
@@ -39,145 +39,215 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 59492,
-        "priceJpy": 9432398,
-        "change24hPct": 1.54,
+        "priceUsd": 60614,
+        "priceJpy": 9608203,
+        "change24hPct": 0.63,
         "sparkline7d": [
-          62612.09,
-          64403.16,
-          64314.2,
-          63873.83,
-          62751.68,
-          58299.95,
-          60099.35
+          64923.57,
+          64840.87,
+          64395.7,
+          63676.55,
+          61997.97,
+          60234.79,
+          60688.13
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1666.53,
-        "priceJpy": 264229,
-        "change24hPct": 3.05,
+        "priceUsd": 1710.92,
+        "priceJpy": 271206,
+        "change24hPct": 1.67,
         "sparkline7d": [
-          1729.19,
-          1810.72,
-          1810.4,
-          1788.64,
-          1768.66,
-          1599.22,
-          1681.29
+          1823.84,
+          1819.45,
+          1803.53,
+          1802.88,
+          1755.39,
+          1687.81,
+          1712.63
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.127335,
-        "priceJpy": 20.19,
-        "change24hPct": 0.93,
+        "priceUsd": 0.127598,
+        "priceJpy": 20.23,
+        "change24hPct": -1.47,
         "sparkline7d": [
-          0.131765,
-          0.138759,
-          0.137885,
-          0.140757,
-          0.133056,
-          0.125137,
-          0.129108
+          0.139516,
+          0.137743,
+          0.140296,
+          0.1373,
+          0.133222,
+          0.129052,
+          0.127923
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 197.59,
-        "priceJpy": 31327,
-        "change24hPct": 2.31,
+        "priceUsd": 197.95,
+        "priceJpy": 31378,
+        "change24hPct": -0.2,
         "sparkline7d": [
-          197.45,
-          207.7,
-          209.06,
-          208.38,
-          205.37,
-          188.67,
-          199.04
+          209.12,
+          208.42,
+          208.59,
+          207.74,
+          202.13,
+          199.41,
+          197.76
         ]
       }
     ]
   },
   "top": [
-    "hackaday-3dp-77b42c80",
-    "zenn-claudecode-939cf91d",
-    "hackaday-repair-4438a5fb"
+    "hatebu-it-d4115601",
+    "hatebu-it-9995394f",
+    "hatebu-it-6ce0fd09"
   ],
   "sections": [
     {
-      "id": "make",
-      "title": "作る",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hackaday-be732669",
-        "hackaday-05bf6e93",
-        "hackaday-80e9f5e1"
+        "nhk-top-6cf09497",
+        "hatebu-it-5554c3da",
+        "hatebu-it-02a8aace",
+        "nhk-top-8b2133d4"
       ]
     },
     {
-      "id": "3d-printing",
-      "title": "3Dプリンタ",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-3dprinter-79760e0a",
-        "zenn-3dprinter-28e0cfb7"
+        "hn-front-80e91d12"
       ]
     },
     {
-      "id": "repair",
-      "title": "直す",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "hackaday-repair-d0183c04",
-        "hackaday-repair-1afc3244"
-      ]
-    },
-    {
-      "id": "systems",
-      "title": "仕組みにする・残す",
-      "articleIds": [
-        "hatebu-it-7cacba4b",
-        "zenn-claudecode-eee8cba6",
-        "zenn-muse-2c93b6e6"
-      ]
-    },
-    {
-      "id": "tech-buzz",
-      "title": "技術の話題",
-      "articleIds": [
-        "hn-front-a4f6b243",
-        "hackaday-dec5376c"
+        "gtrends-jp-9e8fd9a6",
+        "nhk-top-91e28ee3",
+        "gtrends-jp-70c6b6e7"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hackaday-3dp-77b42c80",
-      "title": "Printable Homelab Racks You Can Design In A Browser",
-      "url": "https://hackaday.com/2026/11/20/printable-homelab-racks-you-can-design-in-a-browser/",
-      "source": "Hackaday 3D Printer Hacks",
-      "sourceId": "hackaday-3dp",
-      "publishedAt": "2026-11-21T06:00:12.000Z",
+      "id": "hatebu-it-d4115601",
+      "title": "2026年11月21日をもって世界はシンギュラリティに突入した｜たてはま",
+      "url": "https://note.com/cgbeginner/n/n5856d402f125",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-22T13:51:31.000Z",
       "summaryJa": [
-        "If you’re whipping up a homelab, you might find that you’ve got a mess of little",
-        "If you’re wanting …read more",
-        "詳細は元記事を参照してください。"
+        "2026年11月21日をもって、世界はシンギュラリティに突入したのではないか。",
+        "この日、AnthropicのAI「Claude」との共同作業で書かれた「リーマン予想の証明」について、検証コミュニティが「正しい」と認定した。",
+        "独立に検証したマサチューセッツ工科大学の数学者アンドリュー・サザーランド氏も「何か怪しい点がある可能."
       ],
-      "category": "3dprint",
+      "category": "programming",
       "keywords": [
-        "Printable",
-        "Homelab",
-        "Racks",
-        "Design",
-        "Browser"
+        "programming"
       ],
       "heat": {
-        "temperature": 54,
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 54,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 8.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-9995394f",
+      "title": "MetaのAIエージェント「Muse」は何ができる？　ChatGPTやGeminiとの違い、注意点を解説",
+      "url": "https://www.itmedia.co.jp/mobile/articles/2611/22/news005.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-22T02:46:03.000Z",
+      "summaryJa": [
+        "MetaのAIエージェント「Muse」は何ができる？",
+        "ChatGPTやGeminiとの違い、注意点を解説（1/2 ページ） Metaは10月23日、パーソナルAIエージェント「Muse（ミューズ）」の日本での提供を",
+        "9月に先行した北米以外では、日本が最初の提供地域です。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "MetaのAIエージェント",
+        "Muse",
+        "ChatGPTやGeminiとの違い",
+        "注意点を解説"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 337,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 19.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-6ce0fd09",
+      "title": "「委託したとこ全部漏洩してんじゃんよ💢」プレイド『KARTE』の不正アクセスで、ZOZOTOWNや三菱UFJ銀行など影響を受けた企業が次々判明…不安や警戒の声が広がる",
+      "url": "https://togetter.com/li/2773732",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-22T14:51:25.000Z",
+      "summaryJa": [
+        "多情仏心 @jiangminjp プレイド「KARTE」の情報漏洩2200社 サービス停止で20億円の赤字へ - 日本経済新聞 nikkei.",
+        "com/article/DGXZQO… 不正アクセスによる個人情報を含む可能性のある情報等の漏えいに関するお詫びとお知らせ plaid.",
+        "co."
+      ],
+      "category": "programming",
+      "keywords": [
+        "委託したとこ全部漏洩してんじゃんよ💢",
+        "プレイド",
+        "KARTE"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 39,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 7.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-6cf09497",
+      "title": "COP31成果文書採択断念 化石燃料からの脱却言及なしに反発の声",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261122de79933",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-22T19:45:05.000Z",
+      "summaryJa": [
+        "トルコで開かれた気候変動対策を話し合う国連の会議「COP31」は、会期を延長して行われましたが、会議全体を総括する成果文書を採択できずに閉幕しました。",
+        "文書案に化石燃料からの脱却などについて言及がなか…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "COP31成果文書採択断念",
+        "化石燃料からの脱却言及なしに反発の声"
+      ],
+      "heat": {
+        "temperature": 60,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 21,
+          "ageHours": 1,
           "crossSources": 2,
           "velocity": 0
         }
@@ -185,29 +255,146 @@
       "image": null
     },
     {
-      "id": "zenn-claudecode-939cf91d",
-      "title": "朝7時半、Claude Codeからの電話で起こされた",
-      "url": "https://zenn.dev/chobitnet/articles/mikoto-voice-call",
-      "source": "Zenn Claude Code",
-      "sourceId": "zenn-claudecode",
-      "publishedAt": "2026-11-21T23:55:05.000Z",
+      "id": "hatebu-it-5554c3da",
+      "title": "タワーレコード 不正アクセスで約1100万件の個人情報流出 | NHKニュース",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261122de79936",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-22T10:00:18.000Z",
       "summaryJa": [
-        "AIエージェントから、iPhoneに電話がかかってくるようにしました。",
-        "アプリを閉じていても、普通の着信画面が出ます。",
-        "朝7時半に、これで起こされました きっかけは、Grokで動かしているAIエージェント（Grok Bot）との通話でした。"
+        "音楽コンテンツなどを販売する「タワーレコード」は、運営する通販サイトが不正アクセスを受け、顧客のメールアドレスや氏名などあわせておよそ1100万件の個人情報が流",
+        "「タワーレコ…",
+        "詳細は元記事を参照してください。"
       ],
-      "category": "workflow",
+      "category": "programming",
       "keywords": [
-        "朝7時半",
-        "Claude",
-        "Codeからの電話で起こされた"
+        "タワーレコード",
+        "NHKニュース"
       ],
       "heat": {
-        "temperature": 54,
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 76,
+          "ageHours": 10,
+          "crossSources": 2,
+          "velocity": 7.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-02a8aace",
+      "title": "おやつ屋「六花亭」が不正アクセス、クレカのセキュリティコードまで流出→最上位のやらかしなのに誠実さを感じてかあまり荒れていない……なぜ他社にこれができないのか？",
+      "url": "https://togetter.com/li/2773676",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-22T08:52:11.000Z",
+      "summaryJa": [
+        "六花亭公式 @rokkatei 「六花亭オンラインショップ」への不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ このたび、弊社が運営する「六花亭",
+        "これにより、お客さまが入力された.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "六花亭"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 111,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 9.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-8b2133d4",
+      "title": "韓国 大学入試 スマートグラスなどの対策で混乱 教育相が辞意",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261122de80041",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-22T11:21:50.000Z",
+      "summaryJa": [
+        "韓国で今月19日に行われた大学進学のための共通試験で、スマートグラスを使用するなどAIを悪用した不正行為への対策を政府が試験直前に強化して混乱が広がったことを受",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "韓国",
+        "大学入試",
+        "スマートグラスなどの対策で混乱",
+        "教育相が辞意"
+      ],
+      "heat": {
+        "temperature": 57,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 3,
+          "ageHours": 9,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-80e91d12",
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-22T08:57:34.000Z",
+      "summaryJa": [
+        "87% of the Anthropic power will come from gas and ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Anthropic",
+        "power",
+        "come",
+        "gas"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 694,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 61.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-9e8fd9a6",
+      "title": "鳥インフルエンザ",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E9%B3%A5%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AB%E3%82%A8%E3%83%B3%E3%82%B6",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-22T20:00:00.000Z",
+      "summaryJa": [
+        "鳥インフルエンザ",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "鳥インフルエンザ"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -215,56 +402,23 @@
       "image": null
     },
     {
-      "id": "hackaday-repair-4438a5fb",
-      "title": "Espresso, Meet Custom-Machined Stainless Steel Boiler",
-      "url": "https://hackaday.com/2026/11/12/espresso-meet-custom-machined-stainless-steel-boiler/",
-      "source": "Hackaday Repair Hacks",
-      "sourceId": "hackaday-repair",
-      "publishedAt": "2026-11-12T09:00:33.000Z",
+      "id": "nhk-top-91e28ee3",
+      "title": "大相撲九州場所 大の里 7回目の優勝 若元春との優勝決定戦制す",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261122de79989",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-22T14:11:24.000Z",
       "summaryJa": [
-        "While pondering some repairs for his Gaggia Classic Pro espresso machine, [Hans ",
-        "It was a nontrivial undertaking, since the …read more",
+        "大相撲九州場所は千秋楽、横綱・大の里が13勝2敗で並んだ平幕の若元春との優勝決定戦を制し、7回目の優勝を果たしました。",
+        "大の里は横綱に昇進してから初めての2場所連続での優勝となります。",
         "詳細は元記事を参照してください。"
       ],
-      "category": "repair",
+      "category": "news",
       "keywords": [
-        "Espresso",
-        "Meet",
-        "Custom",
-        "Machined",
-        "Stainless"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 234,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-be732669",
-      "title": "ESP32 Drives MDA Display For Wireless Terminal",
-      "url": "https://hackaday.com/2026/11/21/esp32-drives-mda-display-for-wireless-terminal/",
-      "source": "Hackaday",
-      "sourceId": "hackaday",
-      "publishedAt": "2026-11-21T21:00:25.000Z",
-      "summaryJa": [
-        "Don’t you miss the days where you had to point a particle accelerator at your fa",
-        "Well, maybe not when we think of it that way, …read more",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "make",
-      "keywords": [
-        "ESP32",
-        "Drives",
-        "MDA",
-        "Display",
-        "Wireless"
+        "大相撲九州場所",
+        "大の里",
+        "7回目の優勝",
+        "若元春との優勝決定戦制す"
       ],
       "heat": {
         "temperature": 53,
@@ -279,338 +433,27 @@
       "image": null
     },
     {
-      "id": "hackaday-05bf6e93",
-      "title": "HDMI to CSI For Anyone",
-      "url": "https://hackaday.com/2026/11/21/hdmi-to-csi-for-anyone/",
-      "source": "Hackaday",
-      "sourceId": "hackaday",
-      "publishedAt": "2026-11-21T09:00:32.000Z",
+      "id": "gtrends-jp-70c6b6e7",
+      "title": "株式公開",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%A0%AA%E5%BC%8F%E5%85%AC%E9%96%8B",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-22T19:30:00.000Z",
       "summaryJa": [
-        "Digitizing an HDMI source should in theory be straightforward, but the interface",
-        "But happily there’s another way, which is to transform the HDMI into CSI …read m",
+        "株式公開",
+        "出典: Google トレンド",
         "詳細は元記事を参照してください。"
       ],
-      "category": "make",
+      "category": "trends",
       "keywords": [
-        "HDMI",
-        "CSI",
-        "Anyone"
+        "株式公開"
       ],
       "heat": {
-        "temperature": 49,
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 18,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-80e9f5e1",
-      "title": "Thermite Powered Instant Phone Charger",
-      "url": "https://hackaday.com/2026/11/21/thermite-powered-instant-phone-charger/",
-      "source": "Hackaday",
-      "sourceId": "hackaday",
-      "publishedAt": "2026-11-22T00:00:29.000Z",
-      "summaryJa": [
-        "Thermite is an amazing material, using mostly easily obtainable ingredients like",
-        "出典: Hackaday",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "make",
-      "keywords": [
-        "Thermite",
-        "Powered",
-        "Instant",
-        "Phone",
-        "Charger"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 3,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-3dprinter-79760e0a",
-      "title": "月面探査ローバー（R11）の3色設計と、47層目の造形不良・再キャリブレーション",
-      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-08-rover-r11-and-recalibration",
-      "source": "Zenn 3Dプリンター",
-      "sourceId": "zenn-3dprinter",
-      "publishedAt": "2026-11-21T03:10:41.000Z",
-      "summaryJa": [
-        "ソラリスと並行して進めていたもうひとつのプロジェクトが、6輪の 月面探査ローバー「NKM-LMR-01」 です。",
-        "こちらは R00 から R11 まで12回もの設計改修を重ねて DR0〜4（データ審査）を通過し、ついに Bambu Lab A1 mini での3色実機印刷へ",
-        "しかし、順調にいくかと思われた白パーツの印刷中、47層目 で造形の乱れが発生して緊急停止することになりました。"
-      ],
-      "category": "3dprint",
-      "keywords": [
-        "月面探査ローバー",
-        "R11",
-        "47層目の造形不良",
-        "再キャリブレーション"
-      ],
-      "heat": {
-        "temperature": 48,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 24,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-3dprinter-28e0cfb7",
-      "title": "STL（94,376面）をFreeCADソリッドに忠実再現！基準データを手で直せる形にする",
-      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-06-ben-freecad-reproduction",
-      "source": "Zenn 3Dプリンター",
-      "sourceId": "zenn-3dprinter",
-      "publishedAt": "2026-11-18T03:11:18.000Z",
-      "summaryJa": [
-        "ネットからダウンロードした素敵な船の3Dデータ（STL）を「1歳児向けの安全なおもちゃ」に改良しようとしたとき、思いがけない壁が2つ立ちはだかりました。",
-        "1つは 「家庭ではおもちゃの破壊試験ができない」 という品質審査の壁、もう1つは 「安全のために角を丸めすぎて、元の船の見た目が消えてしまった」 という設計の差",
-        "今回は、デザインレビュー（DR）手順の改訂と、元STLの全94,376面を FreeCAD のソリッドへ忠実再現した記録をお届けします。"
-      ],
-      "category": "3dprint",
-      "keywords": [
-        "STL",
-        "376面"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 96,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-repair-d0183c04",
-      "title": "Fixing a Dead Socket LGA 1851 Mainboard with a Resistor",
-      "url": "https://hackaday.com/2026/11/13/fixing-a-dead-socket-lga-1851-mainboard-with-a-resistor/",
-      "source": "Hackaday Repair Hacks",
-      "sourceId": "hackaday-repair",
-      "publishedAt": "2026-11-13T12:00:12.000Z",
-      "summaryJa": [
-        "Doing board level diagnosis on a PCB is hardly black magic, but some PCBs are de",
-        "The Socket LGA 1851 mainboard that [Fix the Pixel] got …read more",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "repair",
-      "keywords": [
-        "Fixing",
-        "Dead",
-        "Socket",
-        "LGA",
-        "Mainboard"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 207,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-repair-1afc3244",
-      "title": "Saving a Vintage High-Voltage Power Supply From the Scrap Heap",
-      "url": "https://hackaday.com/2026/11/08/saving-a-vintage-high-voltage-power-supply-from-the-scrap-heap/",
-      "source": "Hackaday Repair Hacks",
-      "sourceId": "hackaday-repair",
-      "publishedAt": "2026-11-09T03:00:42.000Z",
-      "summaryJa": [
-        "[Mr Carlson’s Lab] saves a Fluke Model 407 high-voltage power supply from the sc",
-        "出典: Hackaday Repair Hacks",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "repair",
-      "keywords": [
-        "Saving",
-        "Vintage",
-        "High",
-        "Voltage",
-        "Power"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 312,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-7cacba4b",
-      "title": "GitHub - mitaku/andon: A one-person software factory: AI coding agents take tasks from a ledger through review to merge, and call the human only for decisions only they can make.",
-      "url": "https://github.com/mitaku/andon",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-21T10:52:10.000Z",
-      "summaryJa": [
-        "Andon — a one-person software factory.",
-        "AI coding agents take issues from a ledger through implementation, review and me",
-        "一人で使うソフトウェア工場。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "GitHub",
-        "mitaku/andon",
-        "person",
-        "software",
-        "factory"
-      ],
-      "heat": {
-        "temperature": 80,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 153,
-          "ageHours": 16,
-          "crossSources": 1,
-          "velocity": 9.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-claudecode-eee8cba6",
-      "title": "自動化の出力を信じる前に通す3つの検証ゲート — 実行ログ・件数照合・差分確認",
-      "url": "https://zenn.dev/automation_lab/articles/automation-verification-gates",
-      "source": "Zenn Claude Code",
-      "sourceId": "zenn-claudecode",
-      "publishedAt": "2026-11-21T16:21:09.000Z",
-      "summaryJa": [
-        "「プログラムは正常に終了しました。",
-        "終了コード：0」 ターミナルに表示されるこの一行を鵜呑みにして、何度痛い目を見たかわかりません。",
-        "処理が終わった数時間後に、データが更新されていなかったり、特定のレコードが丸ごと空になっていたりする。"
-      ],
-      "category": "workflow",
-      "keywords": [
-        "実行ログ",
-        "件数照合",
-        "差分確認"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 10,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-muse-2c93b6e6",
-      "title": "ISUCONを Muse にやらせてみた：計測と実装を任せた8時間の記録｜バックエンドエンジニア・H執筆",
-      "url": "https://zenn.dev/oursship_blog/articles/ff9cdb2e04e781",
-      "source": "Zenn Muse",
-      "sourceId": "zenn-muse",
-      "publishedAt": "2026-11-21T17:19:02.000Z",
-      "summaryJa": [
-        "はじめに 2026年10月31日、ISUCON に参加してきました。",
-        "テーマは、タイトルのとおり 「ISUCON を AI アシスタント（Muse）にやらせてみた」 です。",
-        "この記事は、その準備と当日の記録をまとめたものです。"
-      ],
-      "category": "workflow",
-      "keywords": [
-        "Muse",
-        "H執筆"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 9,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-a4f6b243",
-      "title": "Lean verification of the Riemann Hypothesis",
-      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-21T14:36:45.000Z",
-      "summaryJa": [
-        "Lean verification of the Riemann Hypothesis",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "tech",
-      "keywords": [
-        "Lean",
-        "verification",
-        "Riemann",
-        "Hypothesis"
-      ],
-      "heat": {
-        "temperature": 90,
-        "signals": {
-          "hnPoints": 861,
-          "hatebuCount": 29,
-          "ageHours": 12,
-          "crossSources": 2,
-          "velocity": 70.7
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-dec5376c",
-      "title": "LiDAR Glasses For the Visually Impaired",
-      "url": "https://hackaday.com/2026/11/21/lidar-glasses-for-the-visually-impaired/",
-      "source": "Hackaday",
-      "sourceId": "hackaday",
-      "publishedAt": "2026-11-21T15:00:59.000Z",
-      "summaryJa": [
-        "The human brain has a fairly remarkable ability to take any sensory input and co",
-        "Most notably, those with vision impairments can use systems that produce …read m",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "make",
-      "keywords": [
-        "LiDAR",
-        "Glasses",
-        "Visually",
-        "Impaired"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 12,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
@@ -620,35 +463,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-0c605160",
-      "title": "OpenHD/OpenHD — OpenHD",
-      "url": "https://github.com/OpenHD/OpenHD",
+      "id": "github-gems-7ce9a417",
+      "title": "Ryder191/haloflux — Beat-driven sci-fi light-ring visualization. Pure Canvas, single HTML, zero dependencies. Noncommercial use only. RYDER CODE / Ms MAIKEBAIs CAT ｜ 节拍驱动的科幻光环数据可视化，纯原生 Canvas 单文件 HTML、零依赖，支持 Wallpaper Engine 动态壁纸。仅限非商业使用，严禁商用。",
+      "url": "https://github.com/Ryder191/haloflux",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-11-21T22:19:08Z",
+      "publishedAt": "2026-11-22T07:25:09Z",
       "summaryJa": [
-        "OpenHD",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
+        "Beat-driven sci-fi light-ring visualization.",
+        "Pure Canvas, single HTML, zero dependencies.",
+        "Noncommercial use only."
       ],
       "category": "oss",
       "keywords": [
-        "OpenHD/OpenHD",
-        "OpenHD"
+        "Ryder191/haloflux",
+        "Beat",
+        "driven",
+        "sci",
+        "fi"
       ],
       "heat": {
-        "temperature": 54,
+        "temperature": 51,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 4,
+          "ageHours": 13,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "市販のシングルボードコンピュータを使ってドローン等の低遅延デジタル映像伝送を構築するオープンソースプロジェクトです。市販品をハックして独自の伝送系を作る楽しさが詰まっています。"
+    "reason": "純粋なHTMLとCanvasだけで描画されるSF的な光の輪は、単機能で美しいコードの好例です。デスクトップの背景や小物の表示器として、自作の電子工作に彩りを添えるヒントになります。"
   },
   "unavailableSources": []
 }

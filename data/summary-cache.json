@@ -1,159 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "176c1a9de246f13e": {
-      "url": "https://www.scd31.com/posts/defcon-choker",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-24T02:50:14.411Z"
-    },
-    "7c71ec22db3b8607": {
-      "url": "https://qiita.com/Tks_Yoshinaga/items/21997eab275b57539173?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに 以前、手軽に始める 360° 画像を用いた Gaussian Splatting（基本手順編） という記事で、360° Gaussian を使って 3",
-        ".",
-        "."
-      ],
-      "cachedAt": "2026-08-24T02:50:14.411Z"
-    },
-    "e664ca8c7a7963d7": {
-      "url": "https://news.denfaminicogamer.jp/news/260824f",
-      "summaryJa": [
-        "SteamにてSQLで事件の真相に迫るゲーム『Ghost in the SQL Data』のストアページが公開されている。",
-        "日本語にも対応予定のタイトルだ。",
-        "本作において、事件の捜査はデータベースを操作するためのプログラミング言語「SQL」を操ることで行う。"
-      ],
-      "cachedAt": "2026-08-24T02:50:14.411Z"
-    },
-    "fc500e25b689402b": {
-      "url": "https://qiita.com/utah_T/items/833f106807bb8642fa35?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "背景 私は最近、業務もプライベートでもコーディングエージェントと作業することが多くなりGUIエディタを使わずターミナル中心になってきています。",
-        "しかしコードレビューの際はGUIエディタがないと読みづらく、なんとなくコミットしがちになってしまうので、ただレビューの為.",
-        "."
-      ],
-      "cachedAt": "2026-08-24T02:50:14.411Z"
-    },
-    "85079d2bd0304420": {
-      "url": "https://zenn.dev/biwacoder/articles/fbbf12f755f5d8",
-      "summaryJa": [
-        "はじめに 例外について、言語によって考え方も違うため、C#の例外の使い方に整理しておく。",
-        "例外って言ってるのだから、制御できる失敗は、戻り値で処理する 通常の制御フロー(if、戻り値)で管理できる失敗は、例外を使わず戻り値で処理する。",
-        "これが原則で、例外はその原則から外れた場合にだけ使う道具だ。"
-      ],
-      "cachedAt": "2026-08-24T02:50:14.411Z"
-    },
-    "f5f2e3dc94d6d2cf": {
-      "url": "https://zenn.dev/kimushun1101/articles/family-ai-agents-on-discord",
-      "summaryJa": [
-        "はじめに もともと自分専用のAIエージェントをDiscordに常駐させて、メモの記録や調べ物をチャットから頼んでおりました。",
-        "使っているうちに旅行の計画や献立の相談など家族に関わる話題が増えてきたため、妻も同じサーバーからエージェントに話しかけられる形に拡張しました。",
-        "ただしClaude Maxのような個人向け定額プランは、アカウントを本人以外が使うと規約違反になってしまいます。"
-      ],
-      "cachedAt": "2026-08-24T02:50:14.411Z"
-    },
-    "ac4e51d0ef197e1b": {
-      "url": "https://hugodaniel.com/posts/declarative-webgpu-with-s-expressions/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-24T02:50:14.411Z"
-    },
-    "f6b2f4821033e1ec": {
-      "url": "https://tympanus.net/codrops/2019/02/19/svg-filter-effects-creating-texture-with-feturbulence/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-24T02:50:14.411Z"
-    },
-    "77565ed3c7a60d48": {
-      "url": "https://github.com/ailyProject/aily-builder",
-      "summaryJa": [
-        "Faster Arduino compilation CLI.",
-        "Arduino快速编译工具，小项目提速50%，大项目提速80%!",
-        "时间就是金钱，我的朋友!"
-      ],
-      "cachedAt": "2026-08-24T02:50:14.411Z"
-    },
-    "3f9be69046a627db": {
-      "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
-      "summaryJa": [
-        "MS Paint and Photos inivisibly watermark even loca",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-24T20:17:41.743Z"
-    },
-    "ad7c23e95ca12b16": {
-      "url": "https://www.itmedia.co.jp/news/article/2608/24/2000000718/",
-      "summaryJa": [
-        "1秒単位で世界の標準時を調整する「うるう秒」を事実上廃止する案について、10月13～15日にフランスで開催する国際度量衡総会（CGPM）で審議する。",
-        "国際度量衡局（BIPM）の決議案では、採択されれば2027年5月20日から、うるう秒による調整を行わない「連続的な協定世界時（continuous UTC）」に",
-        "うるう秒は、原."
-      ],
-      "cachedAt": "2026-08-24T20:17:41.743Z"
-    },
-    "119ea843fc442ee3": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
-      "summaryJa": [
-        "24日も広い範囲で気温が上がり、近畿では39度を超える危険な暑さとなったところがありました。",
-        "25日は熊本地震の被災地で最高気温が40度と「酷暑日」が見込まれるなど、西日本と東日本の各地で危険な暑さが予…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-24T20:17:41.743Z"
-    },
-    "9a941a0ca1beaa09": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
-      "summaryJa": [
-        "非常に強い台風18号は25日の朝には沖縄県の大東島地方にかなり接近し、その後、沖縄本島地方や奄美地方にも近づく見込みです。",
-        "沖縄・奄美では26日にかけて、一部の住宅が倒壊するような猛烈な風が吹くおそれ…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-24T20:17:41.743Z"
-    },
-    "7382198b352a9b2b": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260824de46042",
-      "summaryJa": [
-        "ロシアによるウクライナへの軍事侵攻が始まってから4年半となった24日は、ウクライナにとっては旧ソビエトからの独立記念日にあたります。",
-        "ゼレンスキー大統領は、ウクライナが平和と安全を取り戻すまで戦い続ける…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-24T20:17:41.743Z"
-    },
-    "e355fbc80d80f5db": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
-      "summaryJa": [
-        "アメリカのベッセント財務長官はイランの孤立化を図るためイランと取り引きのある企業や個人などに対し、大規模な経済制裁を科す措置を開始したと発表しました。",
-        "ベッセント長官は、「あらゆる国や組織がアメリカの…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-24T20:17:41.743Z"
-    },
-    "0e4656970456430e": {
-      "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
-      "summaryJa": [
-        "How Europe is killing makers and micro-entrepreneu",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-24T20:17:41.743Z"
-    },
-    "8317e1187afa3abd": {
-      "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
-      "summaryJa": [
-        "Coding expertise is going to collapse from AI reli",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-24T20:17:41.743Z"
-    },
     "8243a86ed2b95034": {
       "url": "https://routeup.dev",
       "summaryJa": [
@@ -15363,6 +15210,114 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-22T02:47:55.382Z"
+    },
+    "d41156014e008f70": {
+      "url": "https://note.com/cgbeginner/n/n5856d402f125",
+      "summaryJa": [
+        "2026年11月21日をもって、世界はシンギュラリティに突入したのではないか。",
+        "この日、AnthropicのAI「Claude」との共同作業で書かれた「リーマン予想の証明」について、検証コミュニティが「正しい」と認定した。",
+        "独立に検証したマサチューセッツ工科大学の数学者アンドリュー・サザーランド氏も「何か怪しい点がある可能."
+      ],
+      "cachedAt": "2026-11-22T20:23:33.829Z"
+    },
+    "9995394f36044d84": {
+      "url": "https://www.itmedia.co.jp/mobile/articles/2611/22/news005.html",
+      "summaryJa": [
+        "MetaのAIエージェント「Muse」は何ができる？",
+        "ChatGPTやGeminiとの違い、注意点を解説（1/2 ページ） Metaは10月23日、パーソナルAIエージェント「Muse（ミューズ）」の日本での提供を",
+        "9月に先行した北米以外では、日本が最初の提供地域です。"
+      ],
+      "cachedAt": "2026-11-22T20:23:33.829Z"
+    },
+    "6ce0fd0914e0c438": {
+      "url": "https://togetter.com/li/2773732",
+      "summaryJa": [
+        "多情仏心 @jiangminjp プレイド「KARTE」の情報漏洩2200社 サービス停止で20億円の赤字へ - 日本経済新聞 nikkei.",
+        "com/article/DGXZQO… 不正アクセスによる個人情報を含む可能性のある情報等の漏えいに関するお詫びとお知らせ plaid.",
+        "co."
+      ],
+      "cachedAt": "2026-11-22T20:23:33.829Z"
+    },
+    "6cf09497c0f1efa4": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261122de79933",
+      "summaryJa": [
+        "トルコで開かれた気候変動対策を話し合う国連の会議「COP31」は、会期を延長して行われましたが、会議全体を総括する成果文書を採択できずに閉幕しました。",
+        "文書案に化石燃料からの脱却などについて言及がなか…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-22T20:23:33.829Z"
+    },
+    "5554c3dad3d290a3": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261122de79936",
+      "summaryJa": [
+        "音楽コンテンツなどを販売する「タワーレコード」は、運営する通販サイトが不正アクセスを受け、顧客のメールアドレスや氏名などあわせておよそ1100万件の個人情報が流",
+        "「タワーレコ…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-22T20:23:33.829Z"
+    },
+    "02a8aaceea90ee55": {
+      "url": "https://togetter.com/li/2773676",
+      "summaryJa": [
+        "六花亭公式 @rokkatei 「六花亭オンラインショップ」への不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ このたび、弊社が運営する「六花亭",
+        "これにより、お客さまが入力された.",
+        "."
+      ],
+      "cachedAt": "2026-11-22T20:23:33.829Z"
+    },
+    "8b2133d405096ed9": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261122de80041",
+      "summaryJa": [
+        "韓国で今月19日に行われた大学進学のための共通試験で、スマートグラスを使用するなどAIを悪用した不正行為への対策を政府が試験直前に強化して混乱が広がったことを受",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-22T20:23:33.829Z"
+    },
+    "8c9d1d1bd7692dd2": {
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "summaryJa": [
+        "87% of the Anthropic power will come from gas and ",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-22T20:23:33.829Z"
+    },
+    "9e8fd9a6ae42feb1": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E9%B3%A5%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AB%E3%82%A8%E3%83%B3%E3%82%B6",
+      "summaryJa": [
+        "鳥インフルエンザ",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-22T20:23:33.829Z"
+    },
+    "91e28ee35ae4d4da": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261122de79989",
+      "summaryJa": [
+        "大相撲九州場所は千秋楽、横綱・大の里が13勝2敗で並んだ平幕の若元春との優勝決定戦を制し、7回目の優勝を果たしました。",
+        "大の里は横綱に昇進してから初めての2場所連続での優勝となります。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-22T20:23:33.829Z"
+    },
+    "70c6b6e7e02ed781": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%A0%AA%E5%BC%8F%E5%85%AC%E9%96%8B",
+      "summaryJa": [
+        "株式公開",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-22T20:23:33.829Z"
+    },
+    "5fbc1d05805560fd": {
+      "url": "https://github.com/Ryder191/haloflux",
+      "summaryJa": [
+        "Beat-driven sci-fi light-ring visualization.",
+        "Pure Canvas, single HTML, zero dependencies.",
+        "Noncommercial use only."
+      ],
+      "cachedAt": "2026-11-22T20:23:33.829Z"
     }
   }
 }

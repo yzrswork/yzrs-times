@@ -309,6 +309,13 @@
       "edition": "midday",
       "theme": "手元の造形と自動化の確度",
       "path": "issues/2026-11-22-midday.json"
+    },
+    {
+      "issueNo": 271,
+      "date": "2026-11-23",
+      "edition": "morning",
+      "theme": "検証の密度と崩れる境界",
+      "path": "issues/2026-11-23-morning.json"
     }
   ]
 }
