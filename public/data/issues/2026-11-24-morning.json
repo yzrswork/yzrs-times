@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 273,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-24",
+  "dateDisplay": "Tuesday, November 24, 2026",
+  "pressTimeJst": "2026-11-24 05:00",
+  "generatedAt": "2026-11-23T20:17:43.671Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "27e1e947"
+  },
+  "theme": {
+    "title": "厳密な検証と自走の足場",
+    "note": "コードの正しさを保証する検証技術と、エージェントを安全に動かす隔離環境が同時に注目を集めています。"
+  },
+  "editorial": {
+    "comment": "今週は hatebu-it-193d1ecb で紹介されている Docker Sandboxes を使った Claude Code の隔離実行環境を試してみます。開発環境を安全に保ちつつ、エージェントへの任せ切りをどこまで実用化できるか検証してみます。 —— YZRS Times 編集長",
+    "passedOver": "経営トップの復帰に関する動向記事や、芸能・ゴシップ関連の検索急上昇ワードを多数見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "雨",
+    "icon": "rain",
+    "tempMax": 19,
+    "tempMin": 8,
+    "precipChancePct": 100
+  },
+  "market": {
+    "fearGreed": {
+      "value": 11,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 61297,
+        "priceJpy": 9741809,
+        "change24hPct": 1.21,
+        "sparkline7d": [
+          65010.15,
+          64889.41,
+          63136.74,
+          61804.25,
+          57872.52,
+          60865.1,
+          61327.22
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1730.93,
+        "priceJpy": 275094,
+        "change24hPct": 1.21,
+        "sparkline7d": [
+          1822.12,
+          1822.96,
+          1791.25,
+          1751.27,
+          1639.25,
+          1711.16,
+          1738.61
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.131012,
+        "priceJpy": 20.82,
+        "change24hPct": 2.73,
+        "sparkline7d": [
+          0.137652,
+          0.141385,
+          0.136769,
+          0.134016,
+          0.124356,
+          0.127806,
+          0.131093
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 200.74,
+        "priceJpy": 31903,
+        "change24hPct": 1.43,
+        "sparkline7d": [
+          208.35,
+          212.25,
+          206.43,
+          202.79,
+          189.12,
+          198.25,
+          201.89
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-193d1ecb",
+    "hatebu-it-2afa605e",
+    "nhk-top-9d5e3090"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-top-849b87c6",
+        "nhk-top-cb0a5e97"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-0c5ef57f",
+        "hn-front-cc696a19"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-04ef3088",
+        "gtrends-jp-0fbcb972"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-193d1ecb",
+      "title": "Claude Code を安全に「自走」させるなら、もう Docker Sandboxes 一択でよくない？と思った話。｜YamaC / ﾔﾏｼｰ",
+      "url": "https://note.com/yamac_/n/n198bdc344c64",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-22T10:08:35.000Z",
+      "summaryJa": [
+        "Claude Code を安全に「自走」させるなら、もう Docker Sandboxes 一択でよくない？",
+        "と思った話。",
+        "Claude Codeとか、Codex、使ってますか。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Claude",
+        "Code",
+        "自走",
+        "Docker",
+        "Sandboxes"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 680,
+          "ageHours": 34,
+          "crossSources": 1,
+          "velocity": 19.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-2afa605e",
+      "title": "著名なRust製OSSをLean 4で形式検証してみたら、めちゃめちゃバグが見つかった話",
+      "url": "https://zenn.dev/koukyosyumei/articles/31c8fcf4da45b7",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-23T10:14:56.000Z",
+      "summaryJa": [
+        "こんにちは。",
+        "コロンビア大学の博士課程でシステムセキュリティ・形式検証の研究をしている Koukyosyumei です。",
+        "今回は、ざっくり言うと、Rust製の有名なOSSをLean 4で形式検証するベンチマークを作っていたら、思いがけず実際のセキュリティ脆弱性をいくつも発見してしま"
+      ],
+      "category": "programming",
+      "keywords": [
+        "著名なRust製OSSをLean",
+        "4で形式検証してみたら"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 113,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 11.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-9d5e3090",
+      "title": "エヌビディアCEO 辞任のフアン氏が復帰へ 株価一時36％超上昇",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261123de80304",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-23T19:57:16.000Z",
+      "summaryJa": [
+        "アメリカの半導体大手「エヌビディア」は、中国の情報機関の協力者とされる女性と親密な関係にあったと報じられ、辞任したジェンスン・フアン氏がCEOに復帰したと発表し",
+        "会社はフアン氏の復帰が国家安全…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "エヌビディアCEO",
+        "辞任のフアン氏が復帰へ",
+        "株価一時36％超上昇"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-849b87c6",
+      "title": "24日は荒れた天気に 強風や大雨による土砂災害に十分注意を",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261123de80272",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-23T10:05:06.000Z",
+      "summaryJa": [
+        "低気圧と前線の影響で、24日は全国的に大気の状態が非常に不安定になり、日本海側では雨風ともに強まり荒れた天気となる見込みです。",
+        "気象庁は強風や大雨による土砂災害に十分注意し、落雷や竜巻などの激しい突風に…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "24日は荒れた天気に"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-cb0a5e97",
+      "title": "リーグ連覇の阪神がパレード ファンと喜び分かち合う",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261123de80286",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-23T13:06:43.000Z",
+      "summaryJa": [
+        "プロ野球、セ・リーグ連覇を果たした阪神の選手たちが大阪・御堂筋でパレードを行い、ファンと喜びを分かち合いました。",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "リーグ連覇の阪神がパレード",
+        "ファンと喜び分かち合う"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-0c5ef57f",
+      "title": "Lean で手続き的プログラム の証明が書けるようになった",
+      "url": "https://speakerdeck.com/inoueasei/slide-aa115490-ea99-4286-9de2-40794f4e861f",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-23T08:38:03.000Z",
+      "summaryJa": [
+        "Leanで、最近手続き的プログラムの形式検証がDafnyのようにできるようになりました。",
+        "それについて軽く紹介します",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Lean"
+      ],
+      "heat": {
+        "temperature": 80,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 102,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 8.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-cc696a19",
+      "title": "Ladybird is now in alpha",
+      "url": "https://ladybird.org/posts/alpha/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-23T16:13:12.000Z",
+      "summaryJa": [
+        "Ladybird is now in alpha",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Ladybird",
+        "alpha"
+      ],
+      "heat": {
+        "temperature": 87,
+        "signals": {
+          "hnPoints": 868,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 213
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-04ef3088",
+      "title": "豊臣秀次",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E8%B1%8A%E8%87%A3%E7%A7%80%E6%AC%A1",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-23T20:00:00.000Z",
+      "summaryJa": [
+        "豊臣秀次",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "豊臣秀次"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-0fbcb972",
+      "title": "グラミー賞",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%BC%E8%B3%9E",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-23T20:00:00.000Z",
+      "summaryJa": [
+        "グラミー賞",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "グラミー賞"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-de94282f",
+      "title": "aceinnolab/Inkycal — Create awesome e-paper dashboards within minutes! Modularity? Check! Python3? Check? Works on Raspberry Pi Zero W? Check! Support for own modules? Check! ",
+      "url": "https://github.com/aceinnolab/Inkycal",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-23T03:06:41Z",
+      "summaryJa": [
+        "Create awesome e-paper dashboards within minutes!",
+        "Modularity?",
+        "Check!"
+      ],
+      "category": "oss",
+      "keywords": [
+        "aceinnolab/Inkycal",
+        "Create",
+        "awesome",
+        "paper",
+        "dashboards"
+      ],
+      "heat": {
+        "temperature": 50,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "電子ペーパー表示器を簡単に構築できるPythonライブラリで、Raspberry Pi Zero Wにも対応しています。小型の時計や状態モニターを仕込むRE:DRIVEシリーズなどの自作工作に打ってつけのツールです。"
+  },
+  "unavailableSources": []
+}

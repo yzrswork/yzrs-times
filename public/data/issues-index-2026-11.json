@@ -323,6 +323,13 @@
       "edition": "midday",
       "theme": "手元の試行と整う作業域",
       "path": "issues/2026-11-23-midday.json"
+    },
+    {
+      "issueNo": 273,
+      "date": "2026-11-24",
+      "edition": "morning",
+      "theme": "厳密な検証と自走の足場",
+      "path": "issues/2026-11-24-morning.json"
     }
   ]
 }
