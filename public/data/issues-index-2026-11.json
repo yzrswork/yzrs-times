@@ -316,6 +316,13 @@
       "edition": "morning",
       "theme": "検証の密度と崩れる境界",
       "path": "issues/2026-11-23-morning.json"
+    },
+    {
+      "issueNo": 272,
+      "date": "2026-11-23",
+      "edition": "midday",
+      "theme": "手元の試行と整う作業域",
+      "path": "issues/2026-11-23-midday.json"
     }
   ]
 }

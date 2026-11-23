@@ -1,0 +1,551 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 272,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-23",
+  "dateDisplay": "Monday, November 23, 2026",
+  "pressTimeJst": "2026-11-23 12:00",
+  "generatedAt": "2026-11-23T02:47:37.523Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "27e1e947"
+  },
+  "theme": {
+    "title": "手元の試行と整う作業域",
+    "note": "今日の紙面は、エッジAIの振動認識、3Dプリントの障害リカバリ、サブエージェントによる文脈管理など、身近な作業環境を手元で調整し快適にする実践が集まりました。"
+  },
+  "editorial": {
+    "comment": "今週は zenn-muse-baf8fddc で紹介されている「判断待ちダッシュボード」の手法を試します。AIエージェントに任せたタスクの滞留を1画面で一覧できるようにし、毎朝の確認運用をシンプルに整えてみます。 —— YZRS Times 編集長",
+    "passedOver": "プレイド「KARTE」の不正アクセス関連のニュースは社会的影響が大きいものの、個人ものづくりや手元の開発作業に直接還元しにくいため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "快晴",
+    "icon": "sunny",
+    "tempMax": 13,
+    "tempMin": 5,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 11,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 60444,
+        "priceJpy": 9602991,
+        "change24hPct": 1.64,
+        "sparkline7d": [
+          64618.51,
+          64784.51,
+          64564.34,
+          63978.14,
+          59454.73,
+          60342.2,
+          61227.54
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1699.54,
+        "priceJpy": 270012,
+        "change24hPct": 2.01,
+        "sparkline7d": [
+          1805.62,
+          1833.26,
+          1811.36,
+          1811.49,
+          1643.32,
+          1683.29,
+          1718.33
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.125418,
+        "priceJpy": 19.93,
+        "change24hPct": -1.49,
+        "sparkline7d": [
+          0.138532,
+          0.138549,
+          0.140974,
+          0.138313,
+          0.127676,
+          0.12969,
+          0.127092
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 194.37,
+        "priceJpy": 30881,
+        "change24hPct": -1.59,
+        "sparkline7d": [
+          207.94,
+          209.04,
+          208.99,
+          209.62,
+          190.53,
+          199,
+          198.37
+        ]
+      }
+    ]
+  },
+  "top": [
+    "zenn-denshi-af008d06",
+    "zenn-muse-baf8fddc",
+    "zenn-3dprinter-79760e0a"
+  ],
+  "sections": [
+    {
+      "id": "make",
+      "title": "作る",
+      "articleIds": [
+        "zenn-denshi-625cb12e",
+        "hackaday-baee9386"
+      ]
+    },
+    {
+      "id": "3d-printing",
+      "title": "3Dプリンタ",
+      "articleIds": [
+        "zenn-3dprinter-ff3ed491"
+      ]
+    },
+    {
+      "id": "repair",
+      "title": "直す",
+      "articleIds": [
+        "hackaday-repair-d0183c04",
+        "hackaday-repair-4438a5fb"
+      ]
+    },
+    {
+      "id": "systems",
+      "title": "仕組みにする・残す",
+      "articleIds": [
+        "zenn-claudecode-51b41d00",
+        "zenn-claudecode-ebc97ca3"
+      ]
+    },
+    {
+      "id": "tech-buzz",
+      "title": "技術の話題",
+      "articleIds": [
+        "hn-front-41803755",
+        "hatebu-it-d4115601"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "zenn-denshi-af008d06",
+      "title": "データを増やしたら精度が下がった ― M5StickS3 × Edge Impulseで学ぶエッジAIの全手順と混同行列の読み方",
+      "url": "https://zenn.dev/beavers_hive/articles/edge-impulse-dpad",
+      "source": "Zenn 電子工作",
+      "sourceId": "zenn-denshi",
+      "publishedAt": "2026-11-23T01:22:51.000Z",
+      "summaryJa": [
+        "https://www.",
+        "youtube.",
+        "com/watch?"
+      ],
+      "category": "make",
+      "keywords": [
+        "データを増やしたら精度が下がった",
+        "M5StickS3",
+        "Edge"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-muse-baf8fddc",
+      "title": "Museで判断待ちダッシュボードを作る方法｜AI秘書の運用と定期タスクを1画面で見える化した実践記録",
+      "url": "https://zenn.dev/sktt_panda/articles/muse-dashboard-judgment",
+      "source": "Zenn Muse",
+      "sourceId": "zenn-muse",
+      "publishedAt": "2026-11-23T02:01:43.000Z",
+      "summaryJa": [
+        "3行まとめ AI秘書に任せるほど、「今、何が止まっているか」が見えなくなる ダッシュボードは、判断待ちを一番上に置く「朝の確認画面」と割り切ると続く この記事は",
+        "失敗の経緯や更新の仕組みの詳細は、本の第6章に分けてある はじめに AI秘書に仕事を任せるほど、別の問題が出てくる。",
+        "「今、何が止まっているのか」が分からない。"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "workflow"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-3dprinter-79760e0a",
+      "title": "月面探査ローバー（R11）の3色設計と、47層目の造形不良・再キャリブレーション",
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-08-rover-r11-and-recalibration",
+      "source": "Zenn 3Dプリンター",
+      "sourceId": "zenn-3dprinter",
+      "publishedAt": "2026-11-21T03:10:41.000Z",
+      "summaryJa": [
+        "ソラリスと並行して進めていたもうひとつのプロジェクトが、6輪の 月面探査ローバー「NKM-LMR-01」 です。",
+        "こちらは R00 から R11 まで12回もの設計改修を重ねて DR0〜4（データ審査）を通過し、ついに Bambu Lab A1 mini での3色実機印刷へ",
+        "しかし、順調にいくかと思われた白パーツの印刷中、47層目 で造形の乱れが発生して緊急停止することになりました。"
+      ],
+      "category": "3dprint",
+      "keywords": [
+        "月面探査ローバー",
+        "R11",
+        "47層目の造形不良",
+        "再キャリブレーション"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 48,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-denshi-625cb12e",
+      "title": "ラジコンをSDVにする — Raspberry Pi 5＋PiCar-Xで「車の振る舞いをソフトウェアで定義する」実験",
+      "url": "https://zenn.dev/hydenori24/articles/sdv-picarx-real-device",
+      "source": "Zenn 電子工作",
+      "sourceId": "zenn-denshi",
+      "publishedAt": "2026-11-22T14:21:45.000Z",
+      "summaryJa": [
+        "趣味で SDV（Software-Defined Vehicle）を作っている。",
+        "車の振る舞いを、ハードウェアではなくソフトウェアで決めて、あとから差し替えられるようにする。",
+        "その考え方を、ラジコンくらいの大きさで、手を動かして理解したかった。"
+      ],
+      "category": "make",
+      "keywords": [
+        "ラジコンをSDVにする",
+        "Raspberry",
+        "Pi",
+        "5＋PiCar",
+        "Xで"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-baee9386",
+      "title": "Recycling Thousands of Coffee Capsules into a Moka Pot",
+      "url": "https://hackaday.com/2026/11/22/recycling-thousands-of-coffee-capsules-into-a-moka-pot/",
+      "source": "Hackaday",
+      "sourceId": "hackaday",
+      "publishedAt": "2026-11-22T21:00:56.000Z",
+      "summaryJa": [
+        "Everyone who has ever used a Nespresso or similar single-use pod system to make ",
+        "A happy …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "make",
+      "keywords": [
+        "Recycling",
+        "Thousands",
+        "Coffee",
+        "Capsules",
+        "Moka"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-3dprinter-ff3ed491",
+      "title": "全部透明の「おさかなキーボード」を自作した ── 3Dプリントの素材選びで学んだこと",
+      "url": "https://zenn.dev/pnrnc485/articles/05b15c274eaf8c",
+      "source": "Zenn 3Dプリンター",
+      "sourceId": "zenn-3dprinter",
+      "publishedAt": "2026-11-16T05:20:33.000Z",
+      "summaryJa": [
+        "はじめに ボディもキーキャップも、全部透明。",
+        "そんなキーボードを自作しました。",
+        "これまでは、自作の「Let's Split（レツプリ）」をずっと愛用していました。"
+      ],
+      "category": "3dprint",
+      "keywords": [
+        "全部透明の",
+        "3Dプリントの素材選びで学んだこと"
+      ],
+      "heat": {
+        "temperature": 45,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 165,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-repair-d0183c04",
+      "title": "Fixing a Dead Socket LGA 1851 Mainboard with a Resistor",
+      "url": "https://hackaday.com/2026/11/13/fixing-a-dead-socket-lga-1851-mainboard-with-a-resistor/",
+      "source": "Hackaday Repair Hacks",
+      "sourceId": "hackaday-repair",
+      "publishedAt": "2026-11-13T12:00:12.000Z",
+      "summaryJa": [
+        "Doing board level diagnosis on a PCB is hardly black magic, but some PCBs are de",
+        "The Socket LGA 1851 mainboard that [Fix the Pixel] got …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "repair",
+      "keywords": [
+        "Fixing",
+        "Dead",
+        "Socket",
+        "LGA",
+        "Mainboard"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 231,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-repair-4438a5fb",
+      "title": "Espresso, Meet Custom-Machined Stainless Steel Boiler",
+      "url": "https://hackaday.com/2026/11/12/espresso-meet-custom-machined-stainless-steel-boiler/",
+      "source": "Hackaday Repair Hacks",
+      "sourceId": "hackaday-repair",
+      "publishedAt": "2026-11-12T09:00:33.000Z",
+      "summaryJa": [
+        "While pondering some repairs for his Gaggia Classic Pro espresso machine, [Hans ",
+        "It was a nontrivial undertaking, since the …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "repair",
+      "keywords": [
+        "Espresso",
+        "Meet",
+        "Custom",
+        "Machined",
+        "Stainless"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 258,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-51b41d00",
+      "title": "サブエージェントに調査を丸投げする型：Exploreと自作エージェントで本体の文脈を汚さない",
+      "url": "https://zenn.dev/aizangyobu/articles/claude-code-subagent-chousa",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-22T15:26:20.000Z",
+      "summaryJa": [
+        "結論：調べものは別窓のエージェントに投げ、本体には要約だけを持ち帰らせる コードベースの調査を本体の会話でやると、読んだファイルの中身がそのまま文脈に積もり、や",
+        "サブエージェントはこの問題の答えです。",
+        "調査は別の文脈ウィンドウで走らせ、返ってくるのは要約だけ。"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "workflow"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-ebc97ca3",
+      "title": "Claude CodeのHooksでテストと整形を自動で回す：PostToolUseとPreToolUseの実践レシピ",
+      "url": "https://zenn.dev/aizangyobu/articles/claude-code-hooks-jidouka",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-22T15:26:19.000Z",
+      "summaryJa": [
+        "結論：頼んだ後の「仕上げ」をHooksに任せると、確認の手間が消える Claude CodeのHooksは、セッションの特定のタイミングで自動実行されるコマンド",
+        "ファイル編集の直後に整形ツールを走らせるPostToolUse、危険なコマンドの実行前に止めるPreToolUse、応答の終わりにテストを走らせるStop。",
+        "この3つを仕込んでおくと、「書かせたあと整形し直す」「実行前にコマンドを目視で確認する」という手作業が消え、レビューに集中できます。"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "Claude"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-41803755",
+      "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+      "url": "https://spelunkr.tv",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-23T01:13:51.000Z",
+      "summaryJa": [
+        "Free alternative TV network built from the Interne",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "alternative",
+        "TV",
+        "network",
+        "Internet",
+        "Archive"
+      ],
+      "heat": {
+        "temperature": 89,
+        "signals": {
+          "hnPoints": 106,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 67.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-d4115601",
+      "title": "2026年11月21日をもって世界はシンギュラリティに突入した｜たてはま",
+      "url": "https://note.com/cgbeginner/n/n5856d402f125",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-22T13:51:31.000Z",
+      "summaryJa": [
+        "2026年11月21日をもって、世界はシンギュラリティに突入したのではないか。",
+        "この日、AnthropicのAI「Claude」との共同作業で書かれた「リーマン予想の証明」について、検証コミュニティが「正しい」と認定した。",
+        "独立に検証したマサチューセッツ工科大学の数学者アンドリュー・サザーランド氏も「何か怪しい点がある可能."
+      ],
+      "category": "programming",
+      "keywords": [
+        "programming"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 259,
+          "ageHours": 13,
+          "crossSources": 1,
+          "velocity": 20
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-c30261fb",
+      "title": "probonopd/MiniDexed — Dexed FM synthesizer similar to 8x DX7 (TX816/TX802) running on a bare metal Raspberry Pi (without a Linux kernel or operating system)",
+      "url": "https://github.com/probonopd/MiniDexed",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-15T12:57:02Z",
+      "summaryJa": [
+        "Dexed FM synthesizer similar to 8x DX7 (TX816/TX802) running on a bare metal Ras",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "probonopd/MiniDexed",
+        "Dexed",
+        "FM",
+        "synthesizer",
+        "similar"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 182,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "Linux OSを介さずベアメタルでRaspberry PiをFMシンセサイザー化する極限の軽量化プロジェクトです。手元で眠っている古いPiに専用ハードウェアとしての命を吹き込む刺激をくれます。"
+  },
+  "unavailableSources": []
+}

@@ -15318,6 +15318,78 @@
         "Noncommercial use only."
       ],
       "cachedAt": "2026-11-22T20:23:33.829Z"
+    },
+    "af008d06b70b25e9": {
+      "url": "https://zenn.dev/beavers_hive/articles/edge-impulse-dpad",
+      "summaryJa": [
+        "https://www.",
+        "youtube.",
+        "com/watch?"
+      ],
+      "cachedAt": "2026-11-23T02:48:07.616Z"
+    },
+    "baf8fddc2ab7cb18": {
+      "url": "https://zenn.dev/sktt_panda/articles/muse-dashboard-judgment",
+      "summaryJa": [
+        "3行まとめ AI秘書に任せるほど、「今、何が止まっているか」が見えなくなる ダッシュボードは、判断待ちを一番上に置く「朝の確認画面」と割り切ると続く この記事は",
+        "失敗の経緯や更新の仕組みの詳細は、本の第6章に分けてある はじめに AI秘書に仕事を任せるほど、別の問題が出てくる。",
+        "「今、何が止まっているのか」が分からない。"
+      ],
+      "cachedAt": "2026-11-23T02:48:07.616Z"
+    },
+    "625cb12ec675c2e7": {
+      "url": "https://zenn.dev/hydenori24/articles/sdv-picarx-real-device",
+      "summaryJa": [
+        "趣味で SDV（Software-Defined Vehicle）を作っている。",
+        "車の振る舞いを、ハードウェアではなくソフトウェアで決めて、あとから差し替えられるようにする。",
+        "その考え方を、ラジコンくらいの大きさで、手を動かして理解したかった。"
+      ],
+      "cachedAt": "2026-11-23T02:48:07.616Z"
+    },
+    "baee9386070fe461": {
+      "url": "https://hackaday.com/2026/11/22/recycling-thousands-of-coffee-capsules-into-a-moka-pot/",
+      "summaryJa": [
+        "Everyone who has ever used a Nespresso or similar single-use pod system to make ",
+        "A happy …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-23T02:48:07.616Z"
+    },
+    "51b41d0028738f79": {
+      "url": "https://zenn.dev/aizangyobu/articles/claude-code-subagent-chousa",
+      "summaryJa": [
+        "結論：調べものは別窓のエージェントに投げ、本体には要約だけを持ち帰らせる コードベースの調査を本体の会話でやると、読んだファイルの中身がそのまま文脈に積もり、や",
+        "サブエージェントはこの問題の答えです。",
+        "調査は別の文脈ウィンドウで走らせ、返ってくるのは要約だけ。"
+      ],
+      "cachedAt": "2026-11-23T02:48:07.616Z"
+    },
+    "ebc97ca3d129d1e5": {
+      "url": "https://zenn.dev/aizangyobu/articles/claude-code-hooks-jidouka",
+      "summaryJa": [
+        "結論：頼んだ後の「仕上げ」をHooksに任せると、確認の手間が消える Claude CodeのHooksは、セッションの特定のタイミングで自動実行されるコマンド",
+        "ファイル編集の直後に整形ツールを走らせるPostToolUse、危険なコマンドの実行前に止めるPreToolUse、応答の終わりにテストを走らせるStop。",
+        "この3つを仕込んでおくと、「書かせたあと整形し直す」「実行前にコマンドを目視で確認する」という手作業が消え、レビューに集中できます。"
+      ],
+      "cachedAt": "2026-11-23T02:48:07.616Z"
+    },
+    "eab63579d6f6bbeb": {
+      "url": "https://spelunkr.tv",
+      "summaryJa": [
+        "Free alternative TV network built from the Interne",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-23T02:48:07.616Z"
+    },
+    "fddb522133ad3c74": {
+      "url": "https://github.com/probonopd/MiniDexed",
+      "summaryJa": [
+        "Dexed FM synthesizer similar to 8x DX7 (TX816/TX802) running on a bare metal Ras",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-23T02:48:07.616Z"
     }
   }
 }

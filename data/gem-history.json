@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-4a992d3e",
-      "url": "https://github.com/pschatzmann/ESP32-A2DP",
-      "date": "2026-10-24"
-    },
-    {
-      "id": "github-gems-5b2f6fa6",
-      "url": "https://github.com/akdeb/ElatoAI",
-      "date": "2026-10-24"
-    },
-    {
       "id": "github-gems-c22bfac4",
       "url": "https://github.com/nRF24/RF24",
       "date": "2026-10-25"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-7ce9a417",
       "url": "https://github.com/Ryder191/haloflux",
+      "date": "2026-11-23"
+    },
+    {
+      "id": "github-gems-c30261fb",
+      "url": "https://github.com/probonopd/MiniDexed",
       "date": "2026-11-23"
     }
   ]
