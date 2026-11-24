@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-c22bfac4",
-      "url": "https://github.com/nRF24/RF24",
-      "date": "2026-10-25"
-    },
-    {
-      "id": "github-gems-af27f1c6",
-      "url": "https://github.com/earlephilhower/ESP8266Audio",
-      "date": "2026-10-25"
-    },
-    {
       "id": "github-gems-551e05b2",
       "url": "https://github.com/jameshball/osci-render",
       "date": "2026-10-26"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-de94282f",
       "url": "https://github.com/aceinnolab/Inkycal",
+      "date": "2026-11-24"
+    },
+    {
+      "id": "github-gems-5aeac1f1",
+      "url": "https://github.com/ReKindleOS/ReKindle",
       "date": "2026-11-24"
     }
   ]

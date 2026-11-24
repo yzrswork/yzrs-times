@@ -330,6 +330,13 @@
       "edition": "morning",
       "theme": "厳密な検証と自走の足場",
       "path": "issues/2026-11-24-morning.json"
+    },
+    {
+      "issueNo": 274,
+      "date": "2026-11-24",
+      "edition": "midday",
+      "theme": "トラブル復元と手作りの仕組み",
+      "path": "issues/2026-11-24-midday.json"
     }
   ]
 }

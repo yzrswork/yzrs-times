@@ -1,78 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "0c6b106ff3944d57": {
-      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
-      "summaryJa": [
-        "<a href=\"https:&#x2F;&#x2F;techcrunch.",
-        "com&#x2F;2026&#x2F;08&#x2F;25&#x2F;apple-debuts-its-most-powerful-chip-ever-in-m",
-        "com&#x2F;2026&#x2F;08&#x2F;25&#x2F;apple-debuts-its-most-powe."
-      ],
-      "cachedAt": "2026-08-25T20:20:42.464Z"
-    },
-    "96ce7c0d23a3394d": {
-      "url": "https://www.apple.com/jp/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
-      "summaryJa": [
-        "M6とM5 Pro搭載の新しいMac mini、AIパフォーマンスを飛躍的に向上。",
-        "常時稼働のエージェント型コンピューティングで業界をリードするデスクトップに驚異的なパワーを Mac miniは、最大4倍高速なAIパフォーマンス、最大2倍高速な",
-        "."
-      ],
-      "cachedAt": "2026-08-25T20:20:42.464Z"
-    },
-    "540b53bf706d4d7a": {
-      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
-      "summaryJa": [
-        "New Mac Studio with M5 Max and M5 Ultra",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-25T20:20:42.464Z"
-    },
-    "32bbd16b406045c6": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260825de46321",
-      "summaryJa": [
-        "来年度予算案の概算要求で、財務省は、国債の償還や利払いにあてる国債費について、債券市場での金利の上昇傾向を背景に利払い費が膨らむことなどから、過去最大となる36",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-25T20:20:42.464Z"
-    },
-    "85df33b29a88cc01": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260826de46333",
-      "summaryJa": [
-        "強い台風18号は鹿児島県の奄美地方や沖縄本島に最も近づき、屋外での行動が極めて危険になるほどの非常に強い風が吹いています。",
-        "奄美地方では線状降水帯が発生して、1時間に100ミリを超える猛烈な雨が降り…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-25T20:20:42.464Z"
-    },
-    "9d818026020cba57": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260825de46306",
-      "summaryJa": [
-        "去年、大きな流行となった「百日せき」について、大阪大学などの研究グループが下水に含まれる菌の遺伝子を継続的に調べたところ、患者数が増え始める2か月以上前に流行の",
-        "研究…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-25T20:20:42.464Z"
-    },
-    "9774240e36743d2c": {
-      "url": "https://ics.media/entry/260825/",
-      "summaryJa": [
-        "新API「HTML-in-Canvas」を紹介 CanvasにHTMLを描くAPIは何を解決するのか？",
-        "波打つ入力フォームや発光するボタン、ウェブページ全体の派手なグリッチ表現やトランジション……。",
-        "最近SNSでこうしたウェブページデモを見かける機会が増えてきました。"
-      ],
-      "cachedAt": "2026-08-25T20:20:42.464Z"
-    },
-    "7cb81afd4bb38668": {
-      "url": "https://github.com/nextcloud/nextcloudpi",
-      "summaryJa": [
-        "📦 Build code for NextcloudPi: Raspberry Pi, Odroid, Rock64, curl installer.",
-        ".",
-        "."
-      ],
-      "cachedAt": "2026-08-25T20:20:42.464Z"
-    },
     "5f364b694342fd6d": {
       "url": "https://zenn.dev/eggletric/articles/4ea81df765fb66",
       "summaryJa": [
@@ -15390,6 +15318,78 @@
         "Check!"
       ],
       "cachedAt": "2026-11-23T20:18:19.024Z"
+    },
+    "c9154137b5b34d42": {
+      "url": "https://zenn.dev/urin/articles/muse-free-tailscale-wsl",
+      "summaryJa": [
+        "TL;DR Museの無料枠クレジットは他のサービスより多いっぽい Museは無料枠にVM（Ubuntu）がついてくる そのVMにTailscaleを入れればM",
+        "という話。",
+        "こんな人向け 個人で何か開発したり記事を書いたりする とにかく契約したくない、無料でサクッとやりたい 無料界隈ではCodexやGitHub Copilotのクレ"
+      ],
+      "cachedAt": "2026-11-24T02:50:40.493Z"
+    },
+    "c381198ec0e9f30f": {
+      "url": "https://zenn.dev/rucky/articles/8937f45e5002a2",
+      "summaryJa": [
+        "はじめに 本業はハードとソフトの両方を触る新人エンジニアです。",
+        "仕事以外でも手を動かして何か作り、スキルを身に着けたいと思い、電子工作を始めることにしました。",
+        "せっかくなので、初心者の自分がつまずいたところも含めて、製作記録をここに残していきます。"
+      ],
+      "cachedAt": "2026-11-24T02:50:40.493Z"
+    },
+    "5a126dbf3bd56e07": {
+      "url": "https://hackaday.com/2026/11/23/building-a-wireless-network-adapter-for-the-super-nintendo/",
+      "summaryJa": [
+        "The Super Nintendo Entertainment System, or SNES for short, didn’t have much in ",
+        "While it originally did have an expansion board on the bottom that …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-24T02:50:40.493Z"
+    },
+    "2d36494d98520d0b": {
+      "url": "https://hackaday.com/2026/11/23/a-dozen-completely-diy-robot-actuators/",
+      "summaryJa": [
+        "It’s one of those tropes that comes up every so often on Hackaday: Someone says ",
+        "出典: Hackaday",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-24T02:50:40.493Z"
+    },
+    "72c64e47029157c4": {
+      "url": "https://zenn.dev/hifn/articles/resume-3d-print-power-loss-gcode",
+      "summaryJa": [
+        "はじめに 3Dプリンタで1時間以上かかるパーツを出力している最中，ブレーカー落ちやコンセントの誤抜去，スマートプラグの誤作動などで突然電源が落ちてしまった経験は",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-11-24T02:50:40.493Z"
+    },
+    "67f022d4da185d43": {
+      "url": "https://zenn.dev/murzim/articles/f5066afd82976c",
+      "summaryJa": [
+        "AIに、出品の下書きを作ってもらいたい。",
+        "でも、公開ボタンだけは押してほしくない。",
+        "まず思いつくのは、プロンプトに「公開はしないでね」と書くことです。"
+      ],
+      "cachedAt": "2026-11-24T02:50:40.493Z"
+    },
+    "6ddaeba5f5068b3c": {
+      "url": "https://zenn.dev/mugipod/articles/henji-mado-no-hanashi",
+      "summaryJa": [
+        "こんにちは、むぎです。",
+        "MetaのパーソナルAIエージェント「Muse」の、うち専用の姿と名前です。",
+        "第3回で、むぎの声が決まって、家のスピーカーから届くようになりました。"
+      ],
+      "cachedAt": "2026-11-24T02:50:40.493Z"
+    },
+    "7453c954f5d4073c": {
+      "url": "https://github.com/ReKindleOS/ReKindle",
+      "summaryJa": [
+        "Your Kindle Upgraded",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-24T02:50:40.493Z"
     }
   }
 }
