@@ -1,96 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "5f364b694342fd6d": {
-      "url": "https://zenn.dev/eggletric/articles/4ea81df765fb66",
-      "summaryJa": [
-        "SNSに溢れる「AI常時ぶん回し」への違和感 近年、SNSでこういう投稿をよく見かけます。",
-        "「AIエージェントを24時間動かして開発を完全自動化しました」 「寝ている間もAIがコードを書き続けています」 「AI社員を常時稼働させて、プロダクトを量産中で",
-        "実際、こうした."
-      ],
-      "cachedAt": "2026-08-26T02:51:07.666Z"
-    },
-    "b83ff923ceab5743": {
-      "url": "https://zenn.dev/layerx/articles/e01465a15e79c2",
-      "summaryJa": [
-        "こんにちは。",
-        "アカウント基盤開発部でエンジニアをしている tkmt (たくまつ) です。",
-        "今回は、IETF で標準化が進んでいる Transaction Tokens について調査してまとめてみました。"
-      ],
-      "cachedAt": "2026-08-26T02:51:07.666Z"
-    },
-    "df1f73b59713f07d": {
-      "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
-      "summaryJa": [
-        "FDA authorizes first wearable device that monitors",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-26T02:51:07.666Z"
-    },
-    "7efb044fb105763a": {
-      "url": "https://ai-x-security-con.findy-tools.io/2026",
-      "summaryJa": [
-        "AIの進化と浸透により、企業におけるAI利活用は急速に広がっています。",
-        "生成AIの個人利用やAIエージェントの増加が進む一方で、Shadow AIによる情報漏洩リスクや、AIエージェントへの過剰な権限付与、従来の境界型防御では対応し",
-        "."
-      ],
-      "cachedAt": "2026-08-26T02:51:07.666Z"
-    },
-    "9f62213c8d213e87": {
-      "url": "https://qiita.com/sewiihidekikudo/items/1c835d5d1f0a8b3dbf65?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに こんにちは！",
-        "ソーイ株式会社の工藤です。",
-        "日常業務でAPIを実装し、Postmanで動作確認、手動のAPI単体テストを行っています。"
-      ],
-      "cachedAt": "2026-08-26T02:51:07.666Z"
-    },
-    "3b3019c8d78b6b6b": {
-      "url": "https://qiita.com/songchong/items/0788ebd25ea6400df81e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "「うちのシステムにもAPIがあります。",
-        "相手にもAPIがあります。",
-        "だから繋がりますよね？"
-      ],
-      "cachedAt": "2026-08-26T02:51:07.666Z"
-    },
-    "178de6265ced8f8b": {
-      "url": "https://qiita.com/nr-mito/items/20d4b104679227ff4314?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "2026年7月のNew Relic のアップデートをまとめて紹介です！",
-        "！",
-        "AIエージェントがテレメトリデータへアクセスし、障害調査の自律自動化と即時復旧を実現するAutopilot(旧SRE Agent)や、トラブルシューティングの際"
-      ],
-      "cachedAt": "2026-08-26T02:51:07.666Z"
-    },
-    "5721fab066fcbf44": {
-      "url": "https://kevinmahoney.co.uk/articles/ai-review-loops/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-26T02:51:07.666Z"
-    },
-    "c99b76f31c7e6b18": {
-      "url": "https://pointersgonewild.com/2026-08-25-replacing-a-rust-enum-with-a-64-bit-word/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-26T02:51:07.666Z"
-    },
-    "3e27ddb19e040a47": {
-      "url": "https://infosec.exchange/@david_chisnall/117156204452541109",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-26T02:51:07.666Z"
-    },
     "ccf35328c11f70ec": {
       "url": "https://zenn.dev/sc30gsw/articles/953334f11df507",
       "summaryJa": [
@@ -15390,6 +15300,114 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-24T02:50:40.493Z"
+    },
+    "2ec1ea251c5860cd": {
+      "url": "https://www.m3tech.blog/entry/contract-programming-in-lean",
+      "summaryJa": [
+        "こんにちは。",
+        "Unit3 / 基盤開発チームを兼務している林です。",
+        "Unit3では、主に医学書の電子書籍サービスや、医師の開業サポートなどのサービスを担当しています。"
+      ],
+      "cachedAt": "2026-11-24T20:24:11.771Z"
+    },
+    "a3e4a091d1f24be8": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261124de80890",
+      "summaryJa": [
+        "不正アクセスを受けて、個人情報が漏えいした可能性があると発表していたネット証券大手の楽天証券は、顧客から預かっている資産残高の情報などおよそ441万件が漏えいし",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-24T20:24:11.771Z"
+    },
+    "9d8ef44660a0fb71": {
+      "url": "https://news.ycombinator.com/item?id=50630809",
+      "summaryJa": [
+        "Basically the title.",
+        "<p>Anthropic is accusing me and my company of using their API for distillation.",
+        "We are not."
+      ],
+      "cachedAt": "2026-11-24T20:24:11.771Z"
+    },
+    "76b004f56bd92a7b": {
+      "url": "https://www.rakuten-sec.co.jp/web/info/info20261124-04.html",
+      "summaryJa": [
+        "2026年11月17日（火）にお知らせした、「楽天証券のお客様の情報漏えいの可能性に関するお詫びとお知らせ」（以下「第1報」）について、これまでの調査で判明した",
+        "外部に持ち出された情報について（第2報） 部店・お客様コード、ログインID※1に加え，氏名、カナ氏名、生年月日、住所.",
+        "."
+      ],
+      "cachedAt": "2026-11-24T20:24:11.771Z"
+    },
+    "0f758523ef3ed859": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261125de80903",
+      "summaryJa": [
+        "政治資金パーティーをめぐる指摘が相次いでいる関文部科学大臣について、参議院の野党6党は、閣僚にふさわしくないとして問責決議案を提出する方針です。",
+        "これに対し与党側は、法的には問題が無いとして、決議案…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-24T20:24:11.772Z"
+    },
+    "e36b4150abc99845": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261124de80879",
+      "summaryJa": [
+        "中国の国営メディアは、中国共産党の最高指導部に次ぐ地位の政治局委員の1人で、上海市トップを務める陳吉寧書記が「重大な規律違反の疑いがある」などとして調査を受けて",
+        "陳氏は今後、最高指…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-24T20:24:11.772Z"
+    },
+    "b063463687a3ef70": {
+      "url": "https://grafana.com/grafana/download",
+      "summaryJa": [
+        "Grafana 12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-24T20:24:11.772Z"
+    },
+    "5a790b19f934b3bf": {
+      "url": "https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you/",
+      "summaryJa": [
+        "What Cloudflare Doesn't Tell You",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-24T20:24:11.772Z"
+    },
+    "e2bf8f747e5a3ea6": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261124de80861",
+      "summaryJa": [
+        "民間企業単独としては国内初となる人工衛星の軌道投入を目指す小型ロケット「カイロス」の4号機について、開発した東京の企業は2027年1月22日に和歌山県にある発射",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-24T20:24:11.772Z"
+    },
+    "0c01788a4fdcb2c3": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E9%8A%85",
+      "summaryJa": [
+        "銅",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-24T20:24:11.772Z"
+    },
+    "dea5d51a32c4026a": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E6%A0%AA%E4%BE%A1",
+      "summaryJa": [
+        "アメリカ株価",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-24T20:24:11.772Z"
+    },
+    "eea633541f500a61": {
+      "url": "https://github.com/zeeyado/koassistant.koplugin",
+      "summaryJa": [
+        "A powerful AI assistant integrated into KOReader.",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-24T20:24:11.772Z"
     }
   }
 }

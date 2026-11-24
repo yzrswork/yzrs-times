@@ -337,6 +337,13 @@
       "edition": "midday",
       "theme": "トラブル復元と手作りの仕組み",
       "path": "issues/2026-11-24-midday.json"
+    },
+    {
+      "issueNo": 275,
+      "date": "2026-11-25",
+      "edition": "morning",
+      "theme": "証明する安全性と手元の基盤",
+      "path": "issues/2026-11-25-morning.json"
     }
   ]
 }

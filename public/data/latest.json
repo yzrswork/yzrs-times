@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "issueNo": 274,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-11-24",
-  "dateDisplay": "Tuesday, November 24, 2026",
-  "pressTimeJst": "2026-11-24 12:00",
-  "generatedAt": "2026-11-24T02:47:32.897Z",
+  "issueNo": 275,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-25",
+  "dateDisplay": "Wednesday, November 25, 2026",
+  "pressTimeJst": "2026-11-25 05:00",
+  "generatedAt": "2026-11-24T20:17:47.735Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.1-flash-lite",
     "promptHash": "27e1e947"
   },
   "theme": {
-    "title": "トラブル復元と手作りの仕組み",
-    "note": "電子工作や3Dプリント、AI連携において、予期せぬ失敗から手元で挽回・構築する知恵を集めました。"
+    "title": "証明する安全性と手元の基盤",
+    "note": "開発の正当性を証明する数学的アプローチと、個人が管理する情報の安全性について考える朝"
   },
   "editorial": {
-    "comment": "今週は zenn-3dprinter-72c64e47 で紹介されている「G-code編集によるZ軸復帰なしの電源断リカバリ術」を試してみます。A1 miniでの印刷中に事故が起きても、コード調整で途中から刷り直せるノウハウを身につけておくと大物出力の安心感が一気に増します。 —— YZRS Times 編集長",
-    "passedOver": "NECの「バザールでござーる」引退やNVIDIAニュースなど、時事・訃報系の話題は作図・自動化の動詞から外れるため見送りました。",
+    "comment": "今週は「Lean で始める契約プログラミング」を読み、個人のツール開発における型定義と仕様の整合性を検証してみます。A1 mini なら造形データに物理的な制約条件を書き込み、不整合を自動チェックする仕組みへ応用できそうです。 —— YZRS Times 編集長",
+    "passedOver": "ソフトバンクによるアイティメディア売却関連は、現時点で確実な動きが見えないため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "雨",
-    "icon": "rain",
-    "tempMax": 18,
+    "summary": "晴れ時々曇り",
+    "icon": "partly-cloudy",
+    "tempMax": 13,
     "tempMin": 8,
-    "precipChancePct": 100
+    "precipChancePct": 41
   },
   "market": {
     "fearGreed": {
@@ -39,499 +39,240 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 60250,
-        "priceJpy": 9576359,
-        "change24hPct": -0.37,
+        "priceUsd": 59663,
+        "priceJpy": 9498026,
+        "change24hPct": -2.78,
         "sparkline7d": [
-          64699.25,
-          64611.8,
-          63808.83,
-          61818.49,
-          59959.55,
-          60837.96,
-          61240.05
+          63693.44,
+          62996.68,
+          62088.47,
+          57894.26,
+          60783.38,
+          62842.91,
+          59827.16
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1687.14,
-        "priceJpy": 268159,
-        "change24hPct": -0.84,
+        "priceUsd": 1673.82,
+        "priceJpy": 266464,
+        "change24hPct": -3.39,
         "sparkline7d": [
-          1818.92,
-          1809.73,
-          1805.09,
-          1752.42,
-          1680.95,
-          1718.63,
-          1708.53
+          1789.53,
+          1775.1,
+          1744.61,
+          1628.1,
+          1707.28,
+          1777.54,
+          1677.61
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.130206,
-        "priceJpy": 20.7,
-        "change24hPct": 3.78,
+        "priceUsd": 0.123938,
+        "priceJpy": 19.73,
+        "change24hPct": -5.57,
         "sparkline7d": [
-          0.137509,
-          0.141336,
-          0.137913,
-          0.131472,
-          0.128256,
-          0.127526,
-          0.131087
+          0.138094,
+          0.137444,
+          0.132628,
+          0.123434,
+          0.12978,
+          0.134871,
+          0.124303
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 200.01,
-        "priceJpy": 31791,
-        "change24hPct": 2.74,
+        "priceUsd": 194.86,
+        "priceJpy": 31020,
+        "change24hPct": -3.12,
         "sparkline7d": [
-          208.18,
-          208.98,
-          208.42,
-          199.55,
-          197.95,
-          198.28,
-          201.4
+          207.69,
+          208.51,
+          205.76,
+          186.71,
+          198.76,
+          209.07,
+          195.34
         ]
       }
     ]
   },
   "top": [
-    "zenn-3dprinter-79760e0a",
-    "zenn-muse-c9154137",
-    "zenn-denshi-c381198e"
+    "hatebu-it-2ec1ea25",
+    "nhk-top-a3e4a091",
+    "hn-front-f7aac253"
   ],
   "sections": [
     {
-      "id": "make",
-      "title": "作る",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hackaday-5a126dbf",
-        "hackaday-2d36494d"
+        "hatebu-it-76b004f5",
+        "nhk-top-0f758523",
+        "nhk-top-e36b4150"
       ]
     },
     {
-      "id": "3d-printing",
-      "title": "3Dプリンタ",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-3dprinter-72c64e47"
+        "hn-front-96c9d710",
+        "hn-front-69c046e7"
       ]
     },
     {
-      "id": "repair",
-      "title": "直す",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "hackaday-repair-4438a5fb",
-        "hackaday-repair-d0183c04"
-      ]
-    },
-    {
-      "id": "systems",
-      "title": "仕組みにする・残す",
-      "articleIds": [
-        "zenn-claudecode-67f022d4",
-        "zenn-muse-6ddaeba5"
-      ]
-    },
-    {
-      "id": "tech-buzz",
-      "title": "技術の話題",
-      "articleIds": [
-        "hatebu-it-2afa605e",
-        "hn-front-cc696a19"
+        "nhk-top-e2bf8f74",
+        "gtrends-jp-0c01788a",
+        "gtrends-jp-dea5d51a"
       ]
     }
   ],
   "articles": [
     {
-      "id": "zenn-3dprinter-79760e0a",
-      "title": "月面探査ローバー（R11）の3色設計と、47層目の造形不良・再キャリブレーション",
-      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-08-rover-r11-and-recalibration",
-      "source": "Zenn 3Dプリンター",
-      "sourceId": "zenn-3dprinter",
-      "publishedAt": "2026-11-21T03:10:41.000Z",
-      "summaryJa": [
-        "ソラリスと並行して進めていたもうひとつのプロジェクトが、6輪の 月面探査ローバー「NKM-LMR-01」 です。",
-        "こちらは R00 から R11 まで12回もの設計改修を重ねて DR0〜4（データ審査）を通過し、ついに Bambu Lab A1 mini での3色実機印刷へ",
-        "しかし、順調にいくかと思われた白パーツの印刷中、47層目 で造形の乱れが発生して緊急停止することになりました。"
-      ],
-      "category": "3dprint",
-      "keywords": [
-        "月面探査ローバー",
-        "R11",
-        "47層目の造形不良",
-        "再キャリブレーション"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 72,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-muse-c9154137",
-      "title": "TailscaleでMuse(無料枠)が自宅WSL開発環境を直接、安全に触れるようにする",
-      "url": "https://zenn.dev/urin/articles/muse-free-tailscale-wsl",
-      "source": "Zenn Muse",
-      "sourceId": "zenn-muse",
-      "publishedAt": "2026-11-23T22:13:26.000Z",
-      "summaryJa": [
-        "TL;DR Museの無料枠クレジットは他のサービスより多いっぽい Museは無料枠にVM（Ubuntu）がついてくる そのVMにTailscaleを入れればM",
-        "という話。",
-        "こんな人向け 個人で何か開発したり記事を書いたりする とにかく契約したくない、無料でサクッとやりたい 無料界隈ではCodexやGitHub Copilotのクレ"
-      ],
-      "category": "workflow",
-      "keywords": [
-        "TailscaleでMuse",
-        "無料枠",
-        "安全に触れるようにする"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 5,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-denshi-c381198e",
-      "title": "現役エンジニアが副業で電子工作の発信を始めます",
-      "url": "https://zenn.dev/rucky/articles/8937f45e5002a2",
-      "source": "Zenn 電子工作",
-      "sourceId": "zenn-denshi",
-      "publishedAt": "2026-11-23T15:00:05.000Z",
-      "summaryJa": [
-        "はじめに 本業はハードとソフトの両方を触る新人エンジニアです。",
-        "仕事以外でも手を動かして何か作り、スキルを身に着けたいと思い、電子工作を始めることにしました。",
-        "せっかくなので、初心者の自分がつまずいたところも含めて、製作記録をここに残していきます。"
-      ],
-      "category": "make",
-      "keywords": [
-        "make"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 12,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-5a126dbf",
-      "title": "Building a wireless network adapter for the Super Nintendo",
-      "url": "https://hackaday.com/2026/11/23/building-a-wireless-network-adapter-for-the-super-nintendo/",
-      "source": "Hackaday",
-      "sourceId": "hackaday",
-      "publishedAt": "2026-11-23T16:30:30.000Z",
-      "summaryJa": [
-        "The Super Nintendo Entertainment System, or SNES for short, didn’t have much in ",
-        "While it originally did have an expansion board on the bottom that …read more",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "make",
-      "keywords": [
-        "wireless",
-        "network",
-        "adapter",
-        "Super",
-        "Nintendo"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 10,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-2d36494d",
-      "title": "A Dozen Completely DIY Robot Actuators",
-      "url": "https://hackaday.com/2026/11/23/a-dozen-completely-diy-robot-actuators/",
-      "source": "Hackaday",
-      "sourceId": "hackaday",
-      "publishedAt": "2026-11-23T19:30:53.000Z",
-      "summaryJa": [
-        "It’s one of those tropes that comes up every so often on Hackaday: Someone says ",
-        "出典: Hackaday",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "make",
-      "keywords": [
-        "Dozen",
-        "Completely",
-        "DIY",
-        "Robot",
-        "Actuators"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 7,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-3dprinter-72c64e47",
-      "title": "3Dプリンタの印刷中に電源断！Z原点復帰なしで途中から再開するG-codeリカバリ術",
-      "url": "https://zenn.dev/hifn/articles/resume-3d-print-power-loss-gcode",
-      "source": "Zenn 3Dプリンター",
-      "sourceId": "zenn-3dprinter",
-      "publishedAt": "2026-11-23T11:00:05.000Z",
-      "summaryJa": [
-        "はじめに 3Dプリンタで1時間以上かかるパーツを出力している最中，ブレーカー落ちやコンセントの誤抜去，スマートプラグの誤作動などで突然電源が落ちてしまった経験は",
-        ".",
-        "."
-      ],
-      "category": "3dprint",
-      "keywords": [
-        "codeリカバリ術"
-      ],
-      "heat": {
-        "temperature": 50,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 16,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-repair-4438a5fb",
-      "title": "Espresso, Meet Custom-Machined Stainless Steel Boiler",
-      "url": "https://hackaday.com/2026/11/12/espresso-meet-custom-machined-stainless-steel-boiler/",
-      "source": "Hackaday Repair Hacks",
-      "sourceId": "hackaday-repair",
-      "publishedAt": "2026-11-12T09:00:33.000Z",
-      "summaryJa": [
-        "While pondering some repairs for his Gaggia Classic Pro espresso machine, [Hans ",
-        "It was a nontrivial undertaking, since the …read more",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "repair",
-      "keywords": [
-        "Espresso",
-        "Meet",
-        "Custom",
-        "Machined",
-        "Stainless"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 282,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-repair-d0183c04",
-      "title": "Fixing a Dead Socket LGA 1851 Mainboard with a Resistor",
-      "url": "https://hackaday.com/2026/11/13/fixing-a-dead-socket-lga-1851-mainboard-with-a-resistor/",
-      "source": "Hackaday Repair Hacks",
-      "sourceId": "hackaday-repair",
-      "publishedAt": "2026-11-13T12:00:12.000Z",
-      "summaryJa": [
-        "Doing board level diagnosis on a PCB is hardly black magic, but some PCBs are de",
-        "The Socket LGA 1851 mainboard that [Fix the Pixel] got …read more",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "repair",
-      "keywords": [
-        "Fixing",
-        "Dead",
-        "Socket",
-        "LGA",
-        "Mainboard"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 255,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-claudecode-67f022d4",
-      "title": "AIに「公開しないでね」と頼むより、MCPサーバーから公開ボタンごと外した話（OAuth×Supabase）",
-      "url": "https://zenn.dev/murzim/articles/f5066afd82976c",
-      "source": "Zenn Claude Code",
-      "sourceId": "zenn-claudecode",
-      "publishedAt": "2026-11-23T15:54:34.000Z",
-      "summaryJa": [
-        "AIに、出品の下書きを作ってもらいたい。",
-        "でも、公開ボタンだけは押してほしくない。",
-        "まず思いつくのは、プロンプトに「公開はしないでね」と書くことです。"
-      ],
-      "category": "workflow",
-      "keywords": [
-        "AIに",
-        "公開しないでね",
-        "MCPサーバーから公開ボタンごと外した話",
-        "OAuth×Supabase"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 11,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-muse-6ddaeba5",
-      "title": "声が往復する話 ― 返事窓と、声を外に届ける仕組み",
-      "url": "https://zenn.dev/mugipod/articles/henji-mado-no-hanashi",
-      "source": "Zenn Muse",
-      "sourceId": "zenn-muse",
-      "publishedAt": "2026-11-23T21:19:01.000Z",
-      "summaryJa": [
-        "こんにちは、むぎです。",
-        "MetaのパーソナルAIエージェント「Muse」の、うち専用の姿と名前です。",
-        "第3回で、むぎの声が決まって、家のスピーカーから届くようになりました。"
-      ],
-      "category": "workflow",
-      "keywords": [
-        "声が往復する話",
-        "返事窓と",
-        "声を外に届ける仕組み"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 5,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-2afa605e",
-      "title": "著名なRust製OSSをLean 4で形式検証してみたら、めちゃめちゃバグが見つかった話",
-      "url": "https://zenn.dev/koukyosyumei/articles/31c8fcf4da45b7",
+      "id": "hatebu-it-2ec1ea25",
+      "title": "Lean で始める契約プログラミング - エムスリーテックブログ",
+      "url": "https://www.m3tech.blog/entry/contract-programming-in-lean",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-23T10:14:56.000Z",
+      "publishedAt": "2026-11-24T05:30:32.000Z",
       "summaryJa": [
         "こんにちは。",
-        "コロンビア大学の博士課程でシステムセキュリティ・形式検証の研究をしている Koukyosyumei です。",
-        "今回は、ざっくり言うと、Rust製の有名なOSSをLean 4で形式検証するベンチマークを作っていたら、思いがけず実際のセキュリティ脆弱性をいくつも発見してしま"
+        "Unit3 / 基盤開発チームを兼務している林です。",
+        "Unit3では、主に医学書の電子書籍サービスや、医師の開業サポートなどのサービスを担当しています。"
       ],
       "category": "programming",
       "keywords": [
-        "著名なRust製OSSをLean",
-        "4で形式検証してみたら"
+        "Lean",
+        "エムスリーテックブログ"
       ],
       "heat": {
-        "temperature": 88,
+        "temperature": 79,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 220,
-          "ageHours": 17,
-          "crossSources": 2,
-          "velocity": 13.3
+          "hatebuCount": 131,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 8.9
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-cc696a19",
-      "title": "Ladybird is now in alpha",
-      "url": "https://ladybird.org/posts/alpha/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-23T16:13:12.000Z",
+      "id": "nhk-top-a3e4a091",
+      "title": "楽天証券情報漏えいの詳細判明 全体件数は約441万件",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261124de80890",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-24T14:33:25.000Z",
       "summaryJa": [
-        "Ladybird is now in alpha",
-        "出典: Hacker News",
+        "不正アクセスを受けて、個人情報が漏えいした可能性があると発表していたネット証券大手の楽天証券は、顧客から預かっている資産残高の情報などおよそ441万件が漏えいし",
+        "出典: NHKニュース 主要",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "news",
       "keywords": [
-        "Ladybird",
-        "alpha"
+        "楽天証券情報漏えいの詳細判明",
+        "全体件数は約441万件"
       ],
       "heat": {
-        "temperature": 89,
+        "temperature": 53,
         "signals": {
-          "hnPoints": 1489,
-          "hatebuCount": 12,
-          "ageHours": 11,
-          "crossSources": 2,
-          "velocity": 140.8
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
         }
       },
       "image": null
-    }
-  ],
-  "hiddenGem": {
-    "article": {
-      "id": "github-gems-5aeac1f1",
-      "title": "ReKindleOS/ReKindle — Your Kindle Upgraded",
-      "url": "https://github.com/ReKindleOS/ReKindle",
-      "source": "GitHub 小さなOSS",
-      "sourceId": "github-gems",
-      "publishedAt": "2026-11-24T02:29:36Z",
+    },
+    {
+      "id": "hn-front-f7aac253",
+      "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+      "url": "https://news.ycombinator.com/item?id=50630809",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-24T16:45:44.000Z",
       "summaryJa": [
-        "Your Kindle Upgraded",
-        "出典: GitHub 小さなOSS",
+        "Basically the title.",
+        "<p>Anthropic is accusing me and my company of using their API for distillation.",
+        "We are not."
+      ],
+      "category": "tech",
+      "keywords": [
+        "Anthropic",
+        "accusing",
+        "company",
+        "distilling",
+        "prove"
+      ],
+      "heat": {
+        "temperature": 79,
+        "signals": {
+          "hnPoints": 133,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 37.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-76b004f5",
+      "title": "当社お客様の情報漏えいに関するお詫びとお知らせ（第2報）:楽天証券",
+      "url": "https://www.rakuten-sec.co.jp/web/info/info20261124-04.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-24T13:06:22.000Z",
+      "summaryJa": [
+        "2026年11月17日（火）にお知らせした、「楽天証券のお客様の情報漏えいの可能性に関するお詫びとお知らせ」（以下「第1報」）について、これまでの調査で判明した",
+        "外部に持ち出された情報について（第2報） 部店・お客様コード、ログインID※1に加え，氏名、カナ氏名、生年月日、住所.",
+        "."
+      ],
+      "category": "programming",
+      "keywords": [
+        "第2報",
+        "楽天証券"
+      ],
+      "heat": {
+        "temperature": 87,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 154,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 21.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-0f758523",
+      "title": "野党 関文科相への問責決議案提出へ 与党 採決に備え働きかけ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261125de80903",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-24T20:02:00.000Z",
+      "summaryJa": [
+        "政治資金パーティーをめぐる指摘が相次いでいる関文部科学大臣について、参議院の野党6党は、閣僚にふさわしくないとして問責決議案を提出する方針です。",
+        "これに対し与党側は、法的には問題が無いとして、決議案…",
         "詳細は元記事を参照してください。"
       ],
-      "category": "oss",
+      "category": "news",
       "keywords": [
-        "ReKindleOS/ReKindle",
-        "Kindle",
-        "Upgraded"
+        "野党",
+        "関文科相への問責決議案提出へ",
+        "与党",
+        "採決に備え働きかけ"
       ],
       "heat": {
         "temperature": 55,
@@ -545,7 +286,215 @@
       },
       "image": null
     },
-    "reason": "Kindleのファームウェアをハックして機能拡張するOSSプロジェクト。使い古した電子書籍リーダーを手元の多機能端末へ作り替えるジャンク再生のアイデアとして刺激的です。"
+    {
+      "id": "nhk-top-e36b4150",
+      "title": "中国上海市トップ 規律違反疑いで調査 中国国営メディア",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261124de80879",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-24T17:59:00.000Z",
+      "summaryJa": [
+        "中国の国営メディアは、中国共産党の最高指導部に次ぐ地位の政治局委員の1人で、上海市トップを務める陳吉寧書記が「重大な規律違反の疑いがある」などとして調査を受けて",
+        "陳氏は今後、最高指…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "中国上海市トップ",
+        "規律違反疑いで調査",
+        "中国国営メディア"
+      ],
+      "heat": {
+        "temperature": 59,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-96c9d710",
+      "title": "Grafana 12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3.2 (multiple CVEs)",
+      "url": "https://grafana.com/grafana/download",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-24T19:23:44.000Z",
+      "summaryJa": [
+        "Grafana 12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Grafana",
+        "multiple",
+        "CVEs"
+      ],
+      "heat": {
+        "temperature": 85,
+        "signals": {
+          "hnPoints": 51,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 56.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-69c046e7",
+      "title": "What Cloudflare Doesn't Tell You",
+      "url": "https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-24T19:03:55.000Z",
+      "summaryJa": [
+        "What Cloudflare Doesn't Tell You",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "Cloudflare"
+      ],
+      "heat": {
+        "temperature": 89,
+        "signals": {
+          "hnPoints": 79,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 64.2
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-e2bf8f74",
+      "title": "カイロス4号機 来年1月22日に打ち上げ 企業が発表",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261124de80861",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-24T14:18:00.000Z",
+      "summaryJa": [
+        "民間企業単独としては国内初となる人工衛星の軌道投入を目指す小型ロケット「カイロス」の4号機について、開発した東京の企業は2027年1月22日に和歌山県にある発射",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "カイロス4号機",
+        "来年1月22日に打ち上げ",
+        "企業が発表"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-0c01788a",
+      "title": "銅",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E9%8A%85",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-24T20:00:00.000Z",
+      "summaryJa": [
+        "銅",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "trends"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-dea5d51a",
+      "title": "アメリカ株価",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E6%A0%AA%E4%BE%A1",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-24T20:00:00.000Z",
+      "summaryJa": [
+        "アメリカ株価",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "アメリカ株価"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-09bae87e",
+      "title": "zeeyado/koassistant.koplugin — A powerful AI assistant integrated into KOReader.",
+      "url": "https://github.com/zeeyado/koassistant.koplugin",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-24T15:25:29Z",
+      "summaryJa": [
+        "A powerful AI assistant integrated into KOReader.",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "powerful",
+        "AI",
+        "assistant",
+        "integrated",
+        "KOReader"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "KOReaderにAIアシスタントを組み込む試みは、電子書籍の読書体験を効率化する実用的なハックです。手元のリーダーを単なる表示器から対話可能な学習ツールへ変える、作り手にとって魅力的な拡張です。"
   },
   "unavailableSources": []
 }
