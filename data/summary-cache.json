@@ -1,195 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "240d713e9878499f": {
-      "url": "https://alyssarosenzweig.ca/blog/asahi-gpu-part-n.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-27T02:50:41.804Z"
-    },
-    "24d90158256c9373": {
-      "url": "https://qiita.com/AkiraTakasaki/items/44c6f3b78a6a1dce0d57?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "こんにちは、ソーイ株式会社の髙﨑です。",
-        "私は業務で時々、Vimを使ってファイルを編集することがあります。",
-        "例えば、サーバー上のファイルを直接確認・修正するときなど、普段使っているエディタを使えない環境でVimを使うことがあります。"
-      ],
-      "cachedAt": "2026-08-27T02:50:41.804Z"
-    },
-    "9273994e99b64c55": {
-      "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
-      "summaryJa": [
-        "AWS Acquires DuckLabs",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-27T02:50:41.804Z"
-    },
-    "72a70ed5be2d2474": {
-      "url": "https://qiita.com/jqit_suwa/items/92a59e7a464fac9731da?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "手元の Claude Code のログを数えたら、読めない文字列が 19.",
-        "6 MB 積まれていました。",
-        "thinking ブロック : 5,419 件（全件に signature つき） signature の合計 : 19."
-      ],
-      "cachedAt": "2026-08-27T02:50:41.804Z"
-    },
-    "b22f449bf0e96647": {
-      "url": "https://qiita.com/ssc-ksaitou/items/14068dd23e636387b9f6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに 今は MySQL Shell dump utilities などのより高速な手段が推奨されつつありますが、MySQLの論理バックアップに mysqld",
-        "mysqldumpの出力例 -- MySQ.",
-        "."
-      ],
-      "cachedAt": "2026-08-27T02:50:41.804Z"
-    },
-    "e7fae31b7d2dd4ed": {
-      "url": "https://zenn.dev/genda_jp/articles/e7e831636a769d",
-      "summaryJa": [
-        "はじめに Secrets Managerでは、1つのシークレットの中でJSON形式を用いて複数のKey-Valueが登録できます。",
-        "どんな粒度で分けるべきか疑問に思い調べたところ、意外と情報が見つからなかったので書いてみました。",
-        "公式ドキュメントを探索してみる ベストプラクティスは？"
-      ],
-      "cachedAt": "2026-08-27T02:50:41.804Z"
-    },
-    "254678a2789d4dac": {
-      "url": "https://rohanrd.mataroa.blog/blog/freedom-to-handcraft-software/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-27T02:50:41.804Z"
-    },
-    "e01952e46c48bc74": {
-      "url": "https://gist.github.com/stagas/09ad937b493bf8cd3285917279de2488",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-27T02:50:41.804Z"
-    },
-    "9fee64f43158c5c1": {
-      "url": "https://github.com/calf-studio-gear/calf",
-      "summaryJa": [
-        "Developers repository of Calf Studio Gear.",
-        "Expect some issues when using it for production.",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-27T02:50:41.804Z"
-    },
-    "dd7bac07285486b7": {
-      "url": "https://zenn.dev/aniki_maker/articles/33d1dc45604537",
-      "summaryJa": [
-        "!",
-        "本記事は、随時加筆修正を行う可能性がありますので、ご容赦ください。",
-        "1."
-      ],
-      "cachedAt": "2026-08-27T15:24:08.336Z"
-    },
-    "9a70ffe1e7b3d849": {
-      "url": "https://zenn.dev/s0nmy/articles/85761a4d31c8c2",
-      "summaryJa": [
-        "はじめに 題名の通り DMM Sprint Go に参加してきました！",
-        "DMMの新卒技術研修をアレンジした、Goを実践的に学べる5日間のインターンとなっており、オンラインと対面のハイブリットでの実施でした。",
-        "2027年の参加を考えている学生さんの参考や、社員さんと関わる中で垣間見えたDMMの雰囲気をお伝えします！"
-      ],
-      "cachedAt": "2026-08-27T15:24:08.336Z"
-    },
-    "2aefb7ad1f24f653": {
-      "url": "https://qiita.com/jqit_suwa/items/e11d49c9bb7eb7aaea37?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "AI に作らせたコードは、手元では動きます。",
-        "では、まっさらな環境に置いたらどうなるか。",
-        "OS だけの環境に移して、AI が「これが要る」と書いた依存だけを入れて動かす。"
-      ],
-      "cachedAt": "2026-08-27T15:24:08.336Z"
-    },
-    "f2aead8f74aa1b9c": {
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00157/082500111/",
-      "summaryJa": [
-        "天才的なプログラマーで台湾の初代デジタル担当相として知られるオードリー・タン氏に、AI（人工知能）への依存が進めば、人間は自分で考えなくなるのではないかという疑",
-        "インタビュー記事（下）では、自分の頭で「考えない人」が増えるリスクへの対処法や、AI時代の仕事と教育、デジタル技術を社会に生か.",
-        "."
-      ],
-      "cachedAt": "2026-08-27T15:24:08.336Z"
-    },
-    "cb7e4bbf99b47a30": {
-      "url": "https://github.com/SenteLabsAI/OpenExecutive",
-      "summaryJa": [
-        "CEO fired developers to make room for AI. Develope",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-27T15:24:08.336Z"
-    },
-    "f361f6b133520a0d": {
-      "url": "https://zenn.dev/gangy/articles/04597efe1b64c5",
-      "summaryJa": [
-        "梅を必ず入れるのがコツです。",
-        "「予算ゼロでもここまでは下げられる」を示すと、議論が「やるか/やらないか」から「どこまでやるか」に変わります。",
-        "この時点で提案は半分通っています。"
-      ],
-      "cachedAt": "2026-08-27T15:24:08.336Z"
-    },
-    "c182c5a6bd2eaef0": {
-      "url": "https://neilalexander.dev/2026/06/30/flooding-contributions.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-27T15:24:08.337Z"
-    },
-    "d306de5d85877cd2": {
-      "url": "https://zenn.dev/edash_tech_blog/articles/0ea5ab1ef9a751",
-      "summaryJa": [
-        "はじめに Zenn 読者のみなさん、こんにちは。",
-        "e-dash VPoE の伊藤です。",
-        "e-dash ではアプリケーションインフラとして多くのプロダクトで AWS を採用しており、IaC として Terraform でインフラリソースを全面的に管理"
-      ],
-      "cachedAt": "2026-08-27T15:24:08.337Z"
-    },
-    "160cdd9f4d1b46cf": {
-      "url": "https://lucascarlson.net/2026/08/24/introducing-open-source-durable-objects/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-27T15:24:08.337Z"
-    },
-    "547411f6f93f8971": {
-      "url": "https://github.com/JiangJQ2000/png2jxl",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-27T15:24:08.337Z"
-    },
-    "0285ac60e79053bd": {
-      "url": "https://sourcehut.org/blog/2026-08-27-tos-changes-and-llms/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-27T15:24:08.337Z"
-    },
-    "4cce9847002752b1": {
-      "url": "https://github.com/agiwhitelist/auteur",
-      "summaryJa": [
-        "The Claude Code skill that directs a website like a film.",
-        "Commit-sheet, generated assets, build, and an executable anti-slop linter that g",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-27T15:24:08.337Z"
-    },
     "029dcd6193e52a6b": {
       "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
       "summaryJa": [
@@ -15417,6 +15228,69 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-25T02:49:07.984Z"
+    },
+    "7c61db760d82b88b": {
+      "url": "https://onk.hatenablog.jp/entry/2026/11/25/022804",
+      "summaryJa": [
+        "コーディングエージェントにコミットメッセージや PR 本文を書かせると、まぁ伝わらない文章が出てくる。",
+        "調べたことを全部書いてあって、それはありがたいんだけど、読み手に伝えたいのはそこじゃない、みたいな。",
+        "そこで、最近は伝えたいことをネストした箇条書きで出させている。"
+      ],
+      "cachedAt": "2026-11-25T20:18:49.851Z"
+    },
+    "aafa019874fb3a07": {
+      "url": "https://zenn.dev/henteko/articles/ed8d1458246d7a",
+      "summaryJa": [
+        "形式手法の勉強のために、マーダーミステリーのシナリオの矛盾を検出するCLIを開発しました。",
+        "決まった仕様(JSON)でシナリオを記述すると、到達しないエンディングがあるなど、矛盾を指摘してくれます。",
+        "$ mmcheck check --strict examples/hexagon-house/scenario."
+      ],
+      "cachedAt": "2026-11-25T20:18:49.851Z"
+    },
+    "001265ef8d5bcf7d": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261126de81560",
+      "summaryJa": [
+        "USTR＝アメリカ通商代表部は、過剰に製品を生産して輸出し、アメリカの産業に打撃を及ぼしているとして、通商法301条に基づき、日本などに新たな追加関税を課す方針",
+        "このうち日本から…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-25T20:18:49.851Z"
+    },
+    "7cc3836e87b81f2e": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261126de81547",
+      "summaryJa": [
+        "良質な食材を使った介護食「いのちのスープ」で知られ、料理番組などに出演して家庭料理や食文化のあり方を提言してきた料理研究家の辰巳芳子さんが25日、亡くなりました",
+        "101歳でした。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-25T20:18:49.851Z"
+    },
+    "512a2a9b615bc9fb": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261126de81556",
+      "summaryJa": [
+        "25日のニューヨーク株式市場では、AIの先行きに対する不透明感が強まるなかで、半導体をはじめ幅広い銘柄に売り注文が広がり、ハイテク株の比率が高いナスダックの株価",
+        "出典: NHKニュース 国際",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-25T20:18:49.851Z"
+    },
+    "16bccba2655aaa01": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261125de81518",
+      "summaryJa": [
+        "ネパールと中国で1500人以上が犠牲になった大規模な土石流の発生から、26日で3か月です。",
+        "被災地では復興に向けた動きが進む一方、被災者の住宅の確保など生活再建が課題になっています。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-25T20:18:49.851Z"
+    },
+    "3387496dbedd8c29": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=ai%E3%83%90%E3%83%96%E3%83%AB",
+      "summaryJa": [
+        "aiバブル",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-25T20:18:49.851Z"
     }
   }
 }

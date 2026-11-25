@@ -351,6 +351,13 @@
       "edition": "midday",
       "theme": "試行の積層と手元の修繕",
       "path": "issues/2026-11-25-midday.json"
+    },
+    {
+      "issueNo": 277,
+      "date": "2026-11-26",
+      "edition": "morning",
+      "theme": "対話の構造化と検証の精度",
+      "path": "issues/2026-11-26-morning.json"
     }
   ]
 }
