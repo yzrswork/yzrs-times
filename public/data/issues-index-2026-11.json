@@ -344,6 +344,13 @@
       "edition": "morning",
       "theme": "証明する安全性と手元の基盤",
       "path": "issues/2026-11-25-morning.json"
+    },
+    {
+      "issueNo": 276,
+      "date": "2026-11-25",
+      "edition": "midday",
+      "theme": "試行の積層と手元の修繕",
+      "path": "issues/2026-11-25-midday.json"
     }
   ]
 }

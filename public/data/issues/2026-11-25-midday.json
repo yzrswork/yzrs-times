@@ -1,0 +1,550 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 276,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-25",
+  "dateDisplay": "Wednesday, November 25, 2026",
+  "pressTimeJst": "2026-11-25 12:00",
+  "generatedAt": "2026-11-25T02:47:35.028Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "27e1e947"
+  },
+  "theme": {
+    "title": "試行の積層と手元の修繕",
+    "note": "昼休みに手が動き出す、3Dプリントの試行錯誤とハード修繕の知見を集めました。"
+  },
+  "editorial": {
+    "comment": "今週は「透明フィラメントを使ったキーボードケースの自作」を試してみます。A1 mini ならクリア系PETGの印刷温度とインフィル密度を調整し、筐体の透過度を変化させる実験が楽しめそうです。 —— YZRS Times 編集長",
+    "passedOver": "大型パーツのABSプリントや高度な行列乗算理論の解説記事は、手元での即時試行から離れるため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "曇り",
+    "icon": "cloudy",
+    "tempMax": 13,
+    "tempMin": 8,
+    "precipChancePct": 20
+  },
+  "market": {
+    "fearGreed": {
+      "value": 13,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 59189,
+        "priceJpy": 9423878,
+        "change24hPct": -1.9,
+        "sparkline7d": [
+          64259.67,
+          63291.87,
+          61599.25,
+          60511.89,
+          61179.63,
+          61191.67,
+          59588.23
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1655.62,
+        "priceJpy": 263601,
+        "change24hPct": -1.95,
+        "sparkline7d": [
+          1801.71,
+          1798.23,
+          1744.75,
+          1700.67,
+          1721.03,
+          1723.6,
+          1671.32
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.122322,
+        "priceJpy": 19.48,
+        "change24hPct": -6.05,
+        "sparkline7d": [
+          0.139683,
+          0.136511,
+          0.132697,
+          0.129339,
+          0.128073,
+          0.130282,
+          0.123373
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 195.73,
+        "priceJpy": 31163,
+        "change24hPct": -2.11,
+        "sparkline7d": [
+          208.4,
+          206.85,
+          200.92,
+          199.01,
+          198.64,
+          199.81,
+          197.2
+        ]
+      }
+    ]
+  },
+  "top": [
+    "zenn-3dprinter-79760e0a",
+    "zenn-3dprinter-ff3ed491",
+    "hackaday-repair-4438a5fb"
+  ],
+  "sections": [
+    {
+      "id": "make",
+      "title": "作る",
+      "articleIds": [
+        "zenn-denshi-42bc9b8c",
+        "hackaday-231167d0",
+        "hackaday-96f9fa97"
+      ]
+    },
+    {
+      "id": "3d-printing",
+      "title": "3Dプリンタ",
+      "articleIds": []
+    },
+    {
+      "id": "repair",
+      "title": "直す",
+      "articleIds": [
+        "hackaday-repair-300ecb27"
+      ]
+    },
+    {
+      "id": "systems",
+      "title": "仕組みにする・残す",
+      "articleIds": [
+        "zenn-muse-cfb554fa",
+        "zenn-claudecode-0023c3bc",
+        "zenn-claudecode-9e43690c"
+      ]
+    },
+    {
+      "id": "tech-buzz",
+      "title": "技術の話題",
+      "articleIds": [
+        "hatebu-it-0745fbdf",
+        "hatebu-it-ff31472d"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "zenn-3dprinter-79760e0a",
+      "title": "月面探査ローバー（R11）の3色設計と、47層目の造形不良・再キャリブレーション",
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-08-rover-r11-and-recalibration",
+      "source": "Zenn 3Dプリンター",
+      "sourceId": "zenn-3dprinter",
+      "publishedAt": "2026-11-21T03:10:41.000Z",
+      "summaryJa": [
+        "ソラリスと並行して進めていたもうひとつのプロジェクトが、6輪の 月面探査ローバー「NKM-LMR-01」 です。",
+        "こちらは R00 から R11 まで12回もの設計改修を重ねて DR0〜4（データ審査）を通過し、ついに Bambu Lab A1 mini での3色実機印刷へ",
+        "しかし、順調にいくかと思われた白パーツの印刷中、47層目 で造形の乱れが発生して緊急停止することになりました。"
+      ],
+      "category": "3dprint",
+      "keywords": [
+        "月面探査ローバー",
+        "R11",
+        "47層目の造形不良",
+        "再キャリブレーション"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 96,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-3dprinter-ff3ed491",
+      "title": "全部透明の「おさかなキーボード」を自作した ── 3Dプリントの素材選びで学んだこと",
+      "url": "https://zenn.dev/pnrnc485/articles/05b15c274eaf8c",
+      "source": "Zenn 3Dプリンター",
+      "sourceId": "zenn-3dprinter",
+      "publishedAt": "2026-11-16T05:20:33.000Z",
+      "summaryJa": [
+        "はじめに ボディもキーキャップも、全部透明。",
+        "そんなキーボードを自作しました。",
+        "これまでは、自作の「Let's Split（レツプリ）」をずっと愛用していました。"
+      ],
+      "category": "3dprint",
+      "keywords": [
+        "全部透明の",
+        "3Dプリントの素材選びで学んだこと"
+      ],
+      "heat": {
+        "temperature": 45,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 213,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-repair-4438a5fb",
+      "title": "Espresso, Meet Custom-Machined Stainless Steel Boiler",
+      "url": "https://hackaday.com/2026/11/12/espresso-meet-custom-machined-stainless-steel-boiler/",
+      "source": "Hackaday Repair Hacks",
+      "sourceId": "hackaday-repair",
+      "publishedAt": "2026-11-12T09:00:33.000Z",
+      "summaryJa": [
+        "While pondering some repairs for his Gaggia Classic Pro espresso machine, [Hans ",
+        "It was a nontrivial undertaking, since the …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "repair",
+      "keywords": [
+        "Espresso",
+        "Meet",
+        "Custom",
+        "Machined",
+        "Stainless"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 306,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-denshi-42bc9b8c",
+      "title": "ESP32の開発環境を作る(ドライバーとボード選びでつまずいた話)",
+      "url": "https://zenn.dev/rucky/articles/c78eba0693ea75",
+      "source": "Zenn 電子工作",
+      "sourceId": "zenn-denshi",
+      "publishedAt": "2026-11-24T15:00:05.000Z",
+      "summaryJa": [
+        "はじめに 前回買ったESP32を、PCにつないでプログラムを書き込める状態にします。",
+        "環境はWindows 11、ボードはELEGOOのESP32開発ボードです。",
+        "1."
+      ],
+      "category": "make",
+      "keywords": [
+        "ESP32の開発環境を作る",
+        "ドライバーとボード選びでつまずいた話"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-231167d0",
+      "title": "A Switchboard Operator Simulator, On Real Hardware",
+      "url": "https://hackaday.com/2026/11/24/a-switchboard-operator-simulator-on-real-hardware/",
+      "source": "Hackaday",
+      "sourceId": "hackaday",
+      "publishedAt": "2026-11-24T19:30:35.000Z",
+      "summaryJa": [
+        "After having been around computer games since the end of the 1970s, one might th",
+        "出典: Hackaday",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "make",
+      "keywords": [
+        "Switchboard",
+        "Operator",
+        "Simulator",
+        "Real",
+        "Hardware"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-96f9fa97",
+      "title": "Watch This (Virtual) Mechanical Watch Do Its Thing",
+      "url": "https://hackaday.com/2026/11/24/watch-this-virtual-mechanical-watch-do-its-thing/",
+      "source": "Hackaday",
+      "sourceId": "hackaday",
+      "publishedAt": "2026-11-24T21:00:12.000Z",
+      "summaryJa": [
+        "Normally, when we write about watches, they are the electronic kind.",
+        "But we’re also fascinated by mechanical watches.",
+        "It is amazing that these mechanisms have existed for centuries."
+      ],
+      "category": "make",
+      "keywords": [
+        "Watch",
+        "Virtual",
+        "Mechanical"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-repair-300ecb27",
+      "title": "A Hazeltine 1420 Lives Again",
+      "url": "https://hackaday.com/2026/11/14/a-hazeltine-1420-lives-again/",
+      "source": "Hackaday Repair Hacks",
+      "sourceId": "hackaday-repair",
+      "publishedAt": "2026-11-14T18:00:19.000Z",
+      "summaryJa": [
+        "There was a time when buying a computer also meant picking out a compatible term",
+        "There were many to choose from, some good and some bad.",
+        "While we were partial …read more"
+      ],
+      "category": "repair",
+      "keywords": [
+        "Hazeltine",
+        "Lives"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 249,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-muse-cfb554fa",
+      "title": "常駐プログラムのログ集約ビューアを Muse と作った話",
+      "url": "https://zenn.dev/userisdev/articles/log-aggregation-viewer",
+      "source": "Zenn Muse",
+      "sourceId": "zenn-muse",
+      "publishedAt": "2026-11-25T01:17:25.000Z",
+      "summaryJa": [
+        "※ この記事は、AIエージェント「Muse」を使って作成されました。",
+        "構成と文章の作成から Qiita への投稿まで、Muse に手伝ってもらっています。",
+        "常駐プログラムのログ集約ビューアを Muse と作った話 自宅の Windows マシンでは、Discord ボットやローカル LLM、画像生成サーバなどの常駐"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "Muse"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-0023c3bc",
+      "title": "MCPの記録ツールを追記だけで作ると、訂正のたびに重複が残る。AIは「消せない」と正直に言うが、集計は間違える",
+      "url": "https://zenn.dev/kentaro_tak/articles/mcp-logger-append-only-corrections",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-24T14:04:27.000Z",
+      "summaryJa": [
+        "家の記録を、Claude Codeに書かせている。",
+        "その日にやったことの時間、休肝日、一言日記、外食、子どもの記録など、Googleスプレッドシートに書き込むMCPのツールが7つある（家の用事をClaude Co",
+        "作ってから気づいたのは、7つのうち6つが「追記」と「読む」しか持っていなかったことだ。"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "MCPの記録ツールを追記だけで作ると",
+        "訂正のたびに重複が残る",
+        "AIは",
+        "消せない",
+        "集計は間違える"
+      ],
+      "heat": {
+        "temperature": 56,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 13,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-9e43690c",
+      "title": "[生成AI利用] ノートのグラフを three.js で「盆栽」にして、6回作り直して最初の形に戻った話",
+      "url": "https://zenn.dev/rezora/articles/20261125-kb-bonsai-threejs",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-24T16:05:46.000Z",
+      "summaryJa": [
+        "はじめに Obsidian で個人のノートを書きためている。",
+        "ノートどうしは [[リンク]] でつながっていて、Obsidian のグラフビューで見ると網の目になる。",
+        "これを眺めていて、「盆栽の形で 3D にしたら面白いのでは」と思った。"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "生成AI利用",
+        "three.js",
+        "盆栽",
+        "6回作り直して最初の形に戻った話"
+      ],
+      "heat": {
+        "temperature": 57,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-0745fbdf",
+      "title": "個人開発 with AI",
+      "url": "https://zenn.dev/holygrail/scraps/dec6ae85d06b4f",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-24T22:02:28.000Z",
+      "summaryJa": [
+        "## ユーザーへの報告 ユーザーが読む報告（進捗、完了、判断の依頼、手作業の案内）に適用する。",
+        "subagent や子セッションが親に返す報告には適用しない。",
+        "ユーザーは 2〜3 本のセッションを並行し、時間を空けて戻る。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "個人開発",
+        "AI"
+      ],
+      "heat": {
+        "temperature": 90,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 133,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 28
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-ff31472d",
+      "title": "34年目の秀丸エディタと、AIの距離感　「正直皆どんな目的で使ってるかよく分かりません」 - レバテックLAB",
+      "url": "https://levtech.jp/media/detail_973/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-25T00:58:54.000Z",
+      "summaryJa": [
+        "有限会社サイトー企画 代表 斉藤 秀夫 1993年に「秀丸エディタ」を開発・公開。",
+        "以来、サイトー企画で秀丸シリーズの開発を続ける。",
+        "現在は秀丸メールをはじめ、秀丸エディタ以外の大半のソフトを担当。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "34年目の秀丸エディタと",
+        "AIの距離感",
+        "レバテックLAB"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 40,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 22.1
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-2749f28b",
+      "title": "Szybet/InkWatchy — A firmware for the open source Watchy/Yatchy - with some unique features",
+      "url": "https://github.com/Szybet/InkWatchy",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-13T19:19:58Z",
+      "summaryJa": [
+        "A firmware for the open source Watchy/Yatchy - with some unique features",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "Szybet/InkWatchy",
+        "firmware",
+        "source",
+        "Watchy/Yatchy",
+        "unique"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 271,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "電子ペーパー時計Watchy用の独自ファームウェアであり、手元の小型ディスプレイ工作に直接刺激を与えるOSSです。RE:DRIVE制作における低消費電力UIの設計にも大いに参考になります。"
+  },
+  "unavailableSources": []
+}

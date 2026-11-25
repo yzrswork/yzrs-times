@@ -1,87 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "ccf35328c11f70ec": {
-      "url": "https://zenn.dev/sc30gsw/articles/953334f11df507",
-      "summaryJa": [
-        "はじめに 退勤直前にタスクを投げ、PCを閉じて帰る。",
-        "寝ている間にテスト、AIによるレビュー修正まで回ってPRが上がってくる。",
-        "翌朝、上がってきたPRをレビューする。"
-      ],
-      "cachedAt": "2026-08-26T20:20:33.085Z"
-    },
-    "f294d64c012773c7": {
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00157/082500110/",
-      "summaryJa": [
-        "天才的プログラマーで台湾の初代デジタル担当相として知られるオードリー・タン氏。",
-        "「サイバー攻撃を高度化させている」「人間の仕事を奪う」といった懸念が高まるAI（人工知能）をどう見ているのか。",
-        "インタビュー記事（上）では、AIの進化とリスク、そして経営者がどう向き合うべきかについて聞いた。"
-      ],
-      "cachedAt": "2026-08-26T20:20:33.085Z"
-    },
-    "084c17c0b46365ab": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260827de46576",
-      "summaryJa": [
-        "ネパールと中国の国境地帯で26日、大規模な土石流が発生し、ネパールの首都カトマンズにある日本大使館によりますと、観光ツアーに参加していたとみられる日本人5人と連",
-        "日本大使館は…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-26T20:20:33.085Z"
-    },
-    "089cb756f7dc3622": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260827de46577",
-      "summaryJa": [
-        "気象庁は27日午前3時8分、石川県の加賀と能登に「線状降水帯発生」の気象防災速報を発表しました。",
-        "「線状降水帯」は発達した積乱雲が連なって大雨をもたらす現象で、気象庁は、石川県の加賀と能登では命に危…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-26T20:20:33.085Z"
-    },
-    "dc7edd9493982b6b": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260827de46586",
-      "summaryJa": [
-        "気象庁は富山県東部と西部、そして石川県能登では今後3時間以内に線状降水帯が発生する可能性が高まっているとして、午前4時48分「線状降水帯直前予測」の気象防災速報",
-        "「線状降水帯」は発達…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-26T20:20:33.085Z"
-    },
-    "7c9536fe188e675f": {
-      "url": "https://news.yahoo.co.jp/pickup/6593196?source=rss",
-      "summaryJa": [
-        "学校版カスハラ指針 国が策定へ",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-26T20:20:33.085Z"
-    },
-    "e2f800cf55605b30": {
-      "url": "https://github.com/tailscale/tailcat",
-      "summaryJa": [
-        "Tailcat – Like netcat, but over Tailscale’s data p",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-26T20:20:33.085Z"
-    },
-    "5e9935c4f63c5065": {
-      "url": "https://eng-blog.iij.ad.jp/archives/37490",
-      "summaryJa": [
-        "長くゲーム業界に出向していましたが、2022年秋に戻ってきました。",
-        "ゲーム業界での経験も生かしながらIIJのエンジニアとしてちょっと面白いことを提供できていければいいなぁと思っています。",
-        "格闘ゲームの世界チャンピオンになった従兄弟がいますが彼にゲームを教えたのは僕ではありません(笑) 。"
-      ],
-      "cachedAt": "2026-08-26T20:20:33.085Z"
-    },
-    "756231e5aba68b5a": {
-      "url": "https://github.com/tiagolr/ripplerx",
-      "summaryJa": [
-        "A physically modeled synth",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-26T20:20:33.085Z"
-    },
     "240d713e9878499f": {
       "url": "https://alyssarosenzweig.ca/blog/asahi-gpu-part-n.html",
       "summaryJa": [
@@ -15408,6 +15327,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-24T20:24:11.772Z"
+    },
+    "42bc9b8ceed1fe3e": {
+      "url": "https://zenn.dev/rucky/articles/c78eba0693ea75",
+      "summaryJa": [
+        "はじめに 前回買ったESP32を、PCにつないでプログラムを書き込める状態にします。",
+        "環境はWindows 11、ボードはELEGOOのESP32開発ボードです。",
+        "1."
+      ],
+      "cachedAt": "2026-11-25T02:49:07.983Z"
+    },
+    "231167d0a355f447": {
+      "url": "https://hackaday.com/2026/11/24/a-switchboard-operator-simulator-on-real-hardware/",
+      "summaryJa": [
+        "After having been around computer games since the end of the 1970s, one might th",
+        "出典: Hackaday",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-25T02:49:07.984Z"
+    },
+    "96f9fa97c3a9208d": {
+      "url": "https://hackaday.com/2026/11/24/watch-this-virtual-mechanical-watch-do-its-thing/",
+      "summaryJa": [
+        "Normally, when we write about watches, they are the electronic kind.",
+        "But we’re also fascinated by mechanical watches.",
+        "It is amazing that these mechanisms have existed for centuries."
+      ],
+      "cachedAt": "2026-11-25T02:49:07.984Z"
+    },
+    "300ecb273163a7f6": {
+      "url": "https://hackaday.com/2026/11/14/a-hazeltine-1420-lives-again/",
+      "summaryJa": [
+        "There was a time when buying a computer also meant picking out a compatible term",
+        "There were many to choose from, some good and some bad.",
+        "While we were partial …read more"
+      ],
+      "cachedAt": "2026-11-25T02:49:07.984Z"
+    },
+    "cfb554fa06a5aa5b": {
+      "url": "https://zenn.dev/userisdev/articles/log-aggregation-viewer",
+      "summaryJa": [
+        "※ この記事は、AIエージェント「Muse」を使って作成されました。",
+        "構成と文章の作成から Qiita への投稿まで、Muse に手伝ってもらっています。",
+        "常駐プログラムのログ集約ビューアを Muse と作った話 自宅の Windows マシンでは、Discord ボットやローカル LLM、画像生成サーバなどの常駐"
+      ],
+      "cachedAt": "2026-11-25T02:49:07.984Z"
+    },
+    "0023c3bcc3dc577d": {
+      "url": "https://zenn.dev/kentaro_tak/articles/mcp-logger-append-only-corrections",
+      "summaryJa": [
+        "家の記録を、Claude Codeに書かせている。",
+        "その日にやったことの時間、休肝日、一言日記、外食、子どもの記録など、Googleスプレッドシートに書き込むMCPのツールが7つある（家の用事をClaude Co",
+        "作ってから気づいたのは、7つのうち6つが「追記」と「読む」しか持っていなかったことだ。"
+      ],
+      "cachedAt": "2026-11-25T02:49:07.984Z"
+    },
+    "9e43690c81884653": {
+      "url": "https://zenn.dev/rezora/articles/20261125-kb-bonsai-threejs",
+      "summaryJa": [
+        "はじめに Obsidian で個人のノートを書きためている。",
+        "ノートどうしは [[リンク]] でつながっていて、Obsidian のグラフビューで見ると網の目になる。",
+        "これを眺めていて、「盆栽の形で 3D にしたら面白いのでは」と思った。"
+      ],
+      "cachedAt": "2026-11-25T02:49:07.984Z"
+    },
+    "0745fbdf0583a62d": {
+      "url": "https://zenn.dev/holygrail/scraps/dec6ae85d06b4f",
+      "summaryJa": [
+        "## ユーザーへの報告 ユーザーが読む報告（進捗、完了、判断の依頼、手作業の案内）に適用する。",
+        "subagent や子セッションが親に返す報告には適用しない。",
+        "ユーザーは 2〜3 本のセッションを並行し、時間を空けて戻る。"
+      ],
+      "cachedAt": "2026-11-25T02:49:07.984Z"
+    },
+    "ff31472ddea14a83": {
+      "url": "https://levtech.jp/media/detail_973/",
+      "summaryJa": [
+        "有限会社サイトー企画 代表 斉藤 秀夫 1993年に「秀丸エディタ」を開発・公開。",
+        "以来、サイトー企画で秀丸シリーズの開発を続ける。",
+        "現在は秀丸メールをはじめ、秀丸エディタ以外の大半のソフトを担当。"
+      ],
+      "cachedAt": "2026-11-25T02:49:07.984Z"
+    },
+    "0aac257adf236073": {
+      "url": "https://github.com/Szybet/InkWatchy",
+      "summaryJa": [
+        "A firmware for the open source Watchy/Yatchy - with some unique features",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-25T02:49:07.984Z"
     }
   }
 }

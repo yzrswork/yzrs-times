@@ -1,193 +1,178 @@
 {
   "schemaVersion": 1,
-  "issueNo": 275,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 276,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-11-25",
   "dateDisplay": "Wednesday, November 25, 2026",
-  "pressTimeJst": "2026-11-25 05:00",
-  "generatedAt": "2026-11-24T20:17:47.735Z",
+  "pressTimeJst": "2026-11-25 12:00",
+  "generatedAt": "2026-11-25T02:47:35.028Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.1-flash-lite",
+    "model": "gemini-3.5-flash",
     "promptHash": "27e1e947"
   },
   "theme": {
-    "title": "証明する安全性と手元の基盤",
-    "note": "開発の正当性を証明する数学的アプローチと、個人が管理する情報の安全性について考える朝"
+    "title": "試行の積層と手元の修繕",
+    "note": "昼休みに手が動き出す、3Dプリントの試行錯誤とハード修繕の知見を集めました。"
   },
   "editorial": {
-    "comment": "今週は「Lean で始める契約プログラミング」を読み、個人のツール開発における型定義と仕様の整合性を検証してみます。A1 mini なら造形データに物理的な制約条件を書き込み、不整合を自動チェックする仕組みへ応用できそうです。 —— YZRS Times 編集長",
-    "passedOver": "ソフトバンクによるアイティメディア売却関連は、現時点で確実な動きが見えないため見送りました。",
+    "comment": "今週は「透明フィラメントを使ったキーボードケースの自作」を試してみます。A1 mini ならクリア系PETGの印刷温度とインフィル密度を調整し、筐体の透過度を変化させる実験が楽しめそうです。 —— YZRS Times 編集長",
+    "passedOver": "大型パーツのABSプリントや高度な行列乗算理論の解説記事は、手元での即時試行から離れるため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "晴れ時々曇り",
-    "icon": "partly-cloudy",
+    "summary": "曇り",
+    "icon": "cloudy",
     "tempMax": 13,
     "tempMin": 8,
-    "precipChancePct": 41
+    "precipChancePct": 20
   },
   "market": {
     "fearGreed": {
-      "value": 11,
+      "value": 13,
       "label": "Extreme Fear"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 59663,
-        "priceJpy": 9498026,
-        "change24hPct": -2.78,
+        "priceUsd": 59189,
+        "priceJpy": 9423878,
+        "change24hPct": -1.9,
         "sparkline7d": [
-          63693.44,
-          62996.68,
-          62088.47,
-          57894.26,
-          60783.38,
-          62842.91,
-          59827.16
+          64259.67,
+          63291.87,
+          61599.25,
+          60511.89,
+          61179.63,
+          61191.67,
+          59588.23
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1673.82,
-        "priceJpy": 266464,
-        "change24hPct": -3.39,
+        "priceUsd": 1655.62,
+        "priceJpy": 263601,
+        "change24hPct": -1.95,
         "sparkline7d": [
-          1789.53,
-          1775.1,
-          1744.61,
-          1628.1,
-          1707.28,
-          1777.54,
-          1677.61
+          1801.71,
+          1798.23,
+          1744.75,
+          1700.67,
+          1721.03,
+          1723.6,
+          1671.32
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.123938,
-        "priceJpy": 19.73,
-        "change24hPct": -5.57,
+        "priceUsd": 0.122322,
+        "priceJpy": 19.48,
+        "change24hPct": -6.05,
         "sparkline7d": [
-          0.138094,
-          0.137444,
-          0.132628,
-          0.123434,
-          0.12978,
-          0.134871,
-          0.124303
+          0.139683,
+          0.136511,
+          0.132697,
+          0.129339,
+          0.128073,
+          0.130282,
+          0.123373
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 194.86,
-        "priceJpy": 31020,
-        "change24hPct": -3.12,
+        "priceUsd": 195.73,
+        "priceJpy": 31163,
+        "change24hPct": -2.11,
         "sparkline7d": [
-          207.69,
-          208.51,
-          205.76,
-          186.71,
-          198.76,
-          209.07,
-          195.34
+          208.4,
+          206.85,
+          200.92,
+          199.01,
+          198.64,
+          199.81,
+          197.2
         ]
       }
     ]
   },
   "top": [
-    "hatebu-it-2ec1ea25",
-    "nhk-top-a3e4a091",
-    "hn-front-f7aac253"
+    "zenn-3dprinter-79760e0a",
+    "zenn-3dprinter-ff3ed491",
+    "hackaday-repair-4438a5fb"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "make",
+      "title": "作る",
       "articleIds": [
-        "hatebu-it-76b004f5",
-        "nhk-top-0f758523",
-        "nhk-top-e36b4150"
+        "zenn-denshi-42bc9b8c",
+        "hackaday-231167d0",
+        "hackaday-96f9fa97"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "3d-printing",
+      "title": "3Dプリンタ",
+      "articleIds": []
+    },
+    {
+      "id": "repair",
+      "title": "直す",
       "articleIds": [
-        "hn-front-96c9d710",
-        "hn-front-69c046e7"
+        "hackaday-repair-300ecb27"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "systems",
+      "title": "仕組みにする・残す",
       "articleIds": [
-        "nhk-top-e2bf8f74",
-        "gtrends-jp-0c01788a",
-        "gtrends-jp-dea5d51a"
+        "zenn-muse-cfb554fa",
+        "zenn-claudecode-0023c3bc",
+        "zenn-claudecode-9e43690c"
+      ]
+    },
+    {
+      "id": "tech-buzz",
+      "title": "技術の話題",
+      "articleIds": [
+        "hatebu-it-0745fbdf",
+        "hatebu-it-ff31472d"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hatebu-it-2ec1ea25",
-      "title": "Lean で始める契約プログラミング - エムスリーテックブログ",
-      "url": "https://www.m3tech.blog/entry/contract-programming-in-lean",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-24T05:30:32.000Z",
+      "id": "zenn-3dprinter-79760e0a",
+      "title": "月面探査ローバー（R11）の3色設計と、47層目の造形不良・再キャリブレーション",
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-08-rover-r11-and-recalibration",
+      "source": "Zenn 3Dプリンター",
+      "sourceId": "zenn-3dprinter",
+      "publishedAt": "2026-11-21T03:10:41.000Z",
       "summaryJa": [
-        "こんにちは。",
-        "Unit3 / 基盤開発チームを兼務している林です。",
-        "Unit3では、主に医学書の電子書籍サービスや、医師の開業サポートなどのサービスを担当しています。"
+        "ソラリスと並行して進めていたもうひとつのプロジェクトが、6輪の 月面探査ローバー「NKM-LMR-01」 です。",
+        "こちらは R00 から R11 まで12回もの設計改修を重ねて DR0〜4（データ審査）を通過し、ついに Bambu Lab A1 mini での3色実機印刷へ",
+        "しかし、順調にいくかと思われた白パーツの印刷中、47層目 で造形の乱れが発生して緊急停止することになりました。"
       ],
-      "category": "programming",
+      "category": "3dprint",
       "keywords": [
-        "Lean",
-        "エムスリーテックブログ"
+        "月面探査ローバー",
+        "R11",
+        "47層目の造形不良",
+        "再キャリブレーション"
       ],
       "heat": {
-        "temperature": 79,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 131,
-          "ageHours": 15,
-          "crossSources": 1,
-          "velocity": 8.9
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-a3e4a091",
-      "title": "楽天証券情報漏えいの詳細判明 全体件数は約441万件",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261124de80890",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-24T14:33:25.000Z",
-      "summaryJa": [
-        "不正アクセスを受けて、個人情報が漏えいした可能性があると発表していたネット証券大手の楽天証券は、顧客から預かっている資産残高の情報などおよそ441万件が漏えいし",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "楽天証券情報漏えいの詳細判明",
-        "全体件数は約441万件"
-      ],
-      "heat": {
-        "temperature": 53,
+        "temperature": 40,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 6,
+          "ageHours": 96,
           "crossSources": 1,
           "velocity": 0
         }
@@ -195,121 +180,28 @@
       "image": null
     },
     {
-      "id": "hn-front-f7aac253",
-      "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
-      "url": "https://news.ycombinator.com/item?id=50630809",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-24T16:45:44.000Z",
+      "id": "zenn-3dprinter-ff3ed491",
+      "title": "全部透明の「おさかなキーボード」を自作した ── 3Dプリントの素材選びで学んだこと",
+      "url": "https://zenn.dev/pnrnc485/articles/05b15c274eaf8c",
+      "source": "Zenn 3Dプリンター",
+      "sourceId": "zenn-3dprinter",
+      "publishedAt": "2026-11-16T05:20:33.000Z",
       "summaryJa": [
-        "Basically the title.",
-        "<p>Anthropic is accusing me and my company of using their API for distillation.",
-        "We are not."
+        "はじめに ボディもキーキャップも、全部透明。",
+        "そんなキーボードを自作しました。",
+        "これまでは、自作の「Let's Split（レツプリ）」をずっと愛用していました。"
       ],
-      "category": "tech",
+      "category": "3dprint",
       "keywords": [
-        "Anthropic",
-        "accusing",
-        "company",
-        "distilling",
-        "prove"
+        "全部透明の",
+        "3Dプリントの素材選びで学んだこと"
       ],
       "heat": {
-        "temperature": 79,
-        "signals": {
-          "hnPoints": 133,
-          "hatebuCount": 0,
-          "ageHours": 4,
-          "crossSources": 1,
-          "velocity": 37.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-76b004f5",
-      "title": "当社お客様の情報漏えいに関するお詫びとお知らせ（第2報）:楽天証券",
-      "url": "https://www.rakuten-sec.co.jp/web/info/info20261124-04.html",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-24T13:06:22.000Z",
-      "summaryJa": [
-        "2026年11月17日（火）にお知らせした、「楽天証券のお客様の情報漏えいの可能性に関するお詫びとお知らせ」（以下「第1報」）について、これまでの調査で判明した",
-        "外部に持ち出された情報について（第2報） 部店・お客様コード、ログインID※1に加え，氏名、カナ氏名、生年月日、住所.",
-        "."
-      ],
-      "category": "programming",
-      "keywords": [
-        "第2報",
-        "楽天証券"
-      ],
-      "heat": {
-        "temperature": 87,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 154,
-          "ageHours": 7,
-          "crossSources": 1,
-          "velocity": 21.4
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-0f758523",
-      "title": "野党 関文科相への問責決議案提出へ 与党 採決に備え働きかけ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261125de80903",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-24T20:02:00.000Z",
-      "summaryJa": [
-        "政治資金パーティーをめぐる指摘が相次いでいる関文部科学大臣について、参議院の野党6党は、閣僚にふさわしくないとして問責決議案を提出する方針です。",
-        "これに対し与党側は、法的には問題が無いとして、決議案…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "野党",
-        "関文科相への問責決議案提出へ",
-        "与党",
-        "採決に備え働きかけ"
-      ],
-      "heat": {
-        "temperature": 55,
+        "temperature": 45,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-e36b4150",
-      "title": "中国上海市トップ 規律違反疑いで調査 中国国営メディア",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261124de80879",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-24T17:59:00.000Z",
-      "summaryJa": [
-        "中国の国営メディアは、中国共産党の最高指導部に次ぐ地位の政治局委員の1人で、上海市トップを務める陳吉寧書記が「重大な規律違反の疑いがある」などとして調査を受けて",
-        "陳氏は今後、最高指…",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "中国上海市トップ",
-        "規律違反疑いで調査",
-        "中国国営メディア"
-      ],
-      "heat": {
-        "temperature": 59,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 2,
+          "ageHours": 213,
           "crossSources": 2,
           "velocity": 0
         }
@@ -317,80 +209,115 @@
       "image": null
     },
     {
-      "id": "hn-front-96c9d710",
-      "title": "Grafana 12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3.2 (multiple CVEs)",
-      "url": "https://grafana.com/grafana/download",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-24T19:23:44.000Z",
+      "id": "hackaday-repair-4438a5fb",
+      "title": "Espresso, Meet Custom-Machined Stainless Steel Boiler",
+      "url": "https://hackaday.com/2026/11/12/espresso-meet-custom-machined-stainless-steel-boiler/",
+      "source": "Hackaday Repair Hacks",
+      "sourceId": "hackaday-repair",
+      "publishedAt": "2026-11-12T09:00:33.000Z",
       "summaryJa": [
-        "Grafana 12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3",
-        "出典: Hacker News",
+        "While pondering some repairs for his Gaggia Classic Pro espresso machine, [Hans ",
+        "It was a nontrivial undertaking, since the …read more",
         "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "repair",
       "keywords": [
-        "Grafana",
-        "multiple",
-        "CVEs"
+        "Espresso",
+        "Meet",
+        "Custom",
+        "Machined",
+        "Stainless"
       ],
       "heat": {
-        "temperature": 85,
+        "temperature": 40,
         "signals": {
-          "hnPoints": 51,
+          "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 306,
           "crossSources": 1,
-          "velocity": 56.6
+          "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "hn-front-69c046e7",
-      "title": "What Cloudflare Doesn't Tell You",
-      "url": "https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-24T19:03:55.000Z",
+      "id": "zenn-denshi-42bc9b8c",
+      "title": "ESP32の開発環境を作る(ドライバーとボード選びでつまずいた話)",
+      "url": "https://zenn.dev/rucky/articles/c78eba0693ea75",
+      "source": "Zenn 電子工作",
+      "sourceId": "zenn-denshi",
+      "publishedAt": "2026-11-24T15:00:05.000Z",
       "summaryJa": [
-        "What Cloudflare Doesn't Tell You",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
+        "はじめに 前回買ったESP32を、PCにつないでプログラムを書き込める状態にします。",
+        "環境はWindows 11、ボードはELEGOOのESP32開発ボードです。",
+        "1."
       ],
-      "category": "tech",
+      "category": "make",
       "keywords": [
-        "Cloudflare"
+        "ESP32の開発環境を作る",
+        "ドライバーとボード選びでつまずいた話"
       ],
       "heat": {
-        "temperature": 89,
+        "temperature": 51,
         "signals": {
-          "hnPoints": 79,
+          "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 12,
           "crossSources": 1,
-          "velocity": 64.2
+          "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "nhk-top-e2bf8f74",
-      "title": "カイロス4号機 来年1月22日に打ち上げ 企業が発表",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261124de80861",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-24T14:18:00.000Z",
+      "id": "hackaday-231167d0",
+      "title": "A Switchboard Operator Simulator, On Real Hardware",
+      "url": "https://hackaday.com/2026/11/24/a-switchboard-operator-simulator-on-real-hardware/",
+      "source": "Hackaday",
+      "sourceId": "hackaday",
+      "publishedAt": "2026-11-24T19:30:35.000Z",
       "summaryJa": [
-        "民間企業単独としては国内初となる人工衛星の軌道投入を目指す小型ロケット「カイロス」の4号機について、開発した東京の企業は2027年1月22日に和歌山県にある発射",
-        "出典: NHKニュース 主要",
+        "After having been around computer games since the end of the 1970s, one might th",
+        "出典: Hackaday",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "make",
       "keywords": [
-        "カイロス4号機",
-        "来年1月22日に打ち上げ",
-        "企業が発表"
+        "Switchboard",
+        "Operator",
+        "Simulator",
+        "Real",
+        "Hardware"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-96f9fa97",
+      "title": "Watch This (Virtual) Mechanical Watch Do Its Thing",
+      "url": "https://hackaday.com/2026/11/24/watch-this-virtual-mechanical-watch-do-its-thing/",
+      "source": "Hackaday",
+      "sourceId": "hackaday",
+      "publishedAt": "2026-11-24T21:00:12.000Z",
+      "summaryJa": [
+        "Normally, when we write about watches, they are the electronic kind.",
+        "But we’re also fascinated by mechanical watches.",
+        "It is amazing that these mechanisms have existed for centuries."
+      ],
+      "category": "make",
+      "keywords": [
+        "Watch",
+        "Virtual",
+        "Mechanical"
       ],
       "heat": {
         "temperature": 53,
@@ -405,27 +332,28 @@
       "image": null
     },
     {
-      "id": "gtrends-jp-0c01788a",
-      "title": "銅",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E9%8A%85",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-24T20:00:00.000Z",
+      "id": "hackaday-repair-300ecb27",
+      "title": "A Hazeltine 1420 Lives Again",
+      "url": "https://hackaday.com/2026/11/14/a-hazeltine-1420-lives-again/",
+      "source": "Hackaday Repair Hacks",
+      "sourceId": "hackaday-repair",
+      "publishedAt": "2026-11-14T18:00:19.000Z",
       "summaryJa": [
-        "銅",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
+        "There was a time when buying a computer also meant picking out a compatible term",
+        "There were many to choose from, some good and some bad.",
+        "While we were partial …read more"
       ],
-      "category": "trends",
+      "category": "repair",
       "keywords": [
-        "trends"
+        "Hazeltine",
+        "Lives"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 40,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 249,
           "crossSources": 1,
           "velocity": 0
         }
@@ -433,29 +361,151 @@
       "image": null
     },
     {
-      "id": "gtrends-jp-dea5d51a",
-      "title": "アメリカ株価",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E6%A0%AA%E4%BE%A1",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-24T20:00:00.000Z",
+      "id": "zenn-muse-cfb554fa",
+      "title": "常駐プログラムのログ集約ビューアを Muse と作った話",
+      "url": "https://zenn.dev/userisdev/articles/log-aggregation-viewer",
+      "source": "Zenn Muse",
+      "sourceId": "zenn-muse",
+      "publishedAt": "2026-11-25T01:17:25.000Z",
       "summaryJa": [
-        "アメリカ株価",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
+        "※ この記事は、AIエージェント「Muse」を使って作成されました。",
+        "構成と文章の作成から Qiita への投稿まで、Muse に手伝ってもらっています。",
+        "常駐プログラムのログ集約ビューアを Muse と作った話 自宅の Windows マシンでは、Discord ボットやローカル LLM、画像生成サーバなどの常駐"
       ],
-      "category": "trends",
+      "category": "workflow",
       "keywords": [
-        "アメリカ株価"
+        "Muse"
       ],
       "heat": {
         "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 2,
           "crossSources": 1,
           "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-0023c3bc",
+      "title": "MCPの記録ツールを追記だけで作ると、訂正のたびに重複が残る。AIは「消せない」と正直に言うが、集計は間違える",
+      "url": "https://zenn.dev/kentaro_tak/articles/mcp-logger-append-only-corrections",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-24T14:04:27.000Z",
+      "summaryJa": [
+        "家の記録を、Claude Codeに書かせている。",
+        "その日にやったことの時間、休肝日、一言日記、外食、子どもの記録など、Googleスプレッドシートに書き込むMCPのツールが7つある（家の用事をClaude Co",
+        "作ってから気づいたのは、7つのうち6つが「追記」と「読む」しか持っていなかったことだ。"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "MCPの記録ツールを追記だけで作ると",
+        "訂正のたびに重複が残る",
+        "AIは",
+        "消せない",
+        "集計は間違える"
+      ],
+      "heat": {
+        "temperature": 56,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 13,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-9e43690c",
+      "title": "[生成AI利用] ノートのグラフを three.js で「盆栽」にして、6回作り直して最初の形に戻った話",
+      "url": "https://zenn.dev/rezora/articles/20261125-kb-bonsai-threejs",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-24T16:05:46.000Z",
+      "summaryJa": [
+        "はじめに Obsidian で個人のノートを書きためている。",
+        "ノートどうしは [[リンク]] でつながっていて、Obsidian のグラフビューで見ると網の目になる。",
+        "これを眺めていて、「盆栽の形で 3D にしたら面白いのでは」と思った。"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "生成AI利用",
+        "three.js",
+        "盆栽",
+        "6回作り直して最初の形に戻った話"
+      ],
+      "heat": {
+        "temperature": 57,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 11,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-0745fbdf",
+      "title": "個人開発 with AI",
+      "url": "https://zenn.dev/holygrail/scraps/dec6ae85d06b4f",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-24T22:02:28.000Z",
+      "summaryJa": [
+        "## ユーザーへの報告 ユーザーが読む報告（進捗、完了、判断の依頼、手作業の案内）に適用する。",
+        "subagent や子セッションが親に返す報告には適用しない。",
+        "ユーザーは 2〜3 本のセッションを並行し、時間を空けて戻る。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "個人開発",
+        "AI"
+      ],
+      "heat": {
+        "temperature": 90,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 133,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 28
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-ff31472d",
+      "title": "34年目の秀丸エディタと、AIの距離感　「正直皆どんな目的で使ってるかよく分かりません」 - レバテックLAB",
+      "url": "https://levtech.jp/media/detail_973/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-25T00:58:54.000Z",
+      "summaryJa": [
+        "有限会社サイトー企画 代表 斉藤 秀夫 1993年に「秀丸エディタ」を開発・公開。",
+        "以来、サイトー企画で秀丸シリーズの開発を続ける。",
+        "現在は秀丸メールをはじめ、秀丸エディタ以外の大半のソフトを担当。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "34年目の秀丸エディタと",
+        "AIの距離感",
+        "レバテックLAB"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 40,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 22.1
         }
       },
       "image": null
@@ -463,38 +513,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-09bae87e",
-      "title": "zeeyado/koassistant.koplugin — A powerful AI assistant integrated into KOReader.",
-      "url": "https://github.com/zeeyado/koassistant.koplugin",
+      "id": "github-gems-2749f28b",
+      "title": "Szybet/InkWatchy — A firmware for the open source Watchy/Yatchy - with some unique features",
+      "url": "https://github.com/Szybet/InkWatchy",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-11-24T15:25:29Z",
+      "publishedAt": "2026-11-13T19:19:58Z",
       "summaryJa": [
-        "A powerful AI assistant integrated into KOReader.",
+        "A firmware for the open source Watchy/Yatchy - with some unique features",
         "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "powerful",
-        "AI",
-        "assistant",
-        "integrated",
-        "KOReader"
+        "Szybet/InkWatchy",
+        "firmware",
+        "source",
+        "Watchy/Yatchy",
+        "unique"
       ],
       "heat": {
-        "temperature": 53,
+        "temperature": 40,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 5,
+          "ageHours": 271,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "KOReaderにAIアシスタントを組み込む試みは、電子書籍の読書体験を効率化する実用的なハックです。手元のリーダーを単なる表示器から対話可能な学習ツールへ変える、作り手にとって魅力的な拡張です。"
+    "reason": "電子ペーパー時計Watchy用の独自ファームウェアであり、手元の小型ディスプレイ工作に直接刺激を与えるOSSです。RE:DRIVE制作における低消費電力UIの設計にも大いに参考になります。"
   },
   "unavailableSources": []
 }

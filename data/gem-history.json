@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-551e05b2",
-      "url": "https://github.com/jameshball/osci-render",
-      "date": "2026-10-26"
-    },
-    {
-      "id": "github-gems-1388008e",
-      "url": "https://github.com/cncjs/cncjs",
-      "date": "2026-10-26"
-    },
-    {
       "id": "github-gems-6edb6109",
       "url": "https://github.com/shorepine/tulipcc",
       "date": "2026-10-27"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-09bae87e",
       "url": "https://github.com/zeeyado/koassistant.koplugin",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "github-gems-2749f28b",
+      "url": "https://github.com/Szybet/InkWatchy",
       "date": "2026-11-25"
     }
   ]
