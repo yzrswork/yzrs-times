@@ -1,0 +1,552 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 278,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-26",
+  "dateDisplay": "Thursday, November 26, 2026",
+  "pressTimeJst": "2026-11-26 12:00",
+  "generatedAt": "2026-11-26T02:47:33.221Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "27e1e947"
+  },
+  "theme": {
+    "title": "実動の制御と手元の復旧",
+    "note": "物理的・ソフトウェア的に動く仕組みを制御し、障害から復旧させる作り手の実践が集まった紙面。"
+  },
+  "editorial": {
+    "comment": "今週は「サポート材なし一体印刷の車モデル（zenn-3dprinter-f0db9545）」をA1 miniで試してみます。可動部のクリアランスとスライサー設定を実際の造形物で確認し、小型ケースのヒンジ設計にフィードバックする予定です。 —— YZRS Times 編集長",
+    "passedOver": "1Passwordの漏洩事案など大規模なセキュリティ速報は、作り手の手元環境に直接関わらないため今回は見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "曇り",
+    "icon": "cloudy",
+    "tempMax": 14,
+    "tempMin": 5,
+    "precipChancePct": 0
+  },
+  "market": {
+    "fearGreed": {
+      "value": 11,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 60917,
+        "priceJpy": 9695396,
+        "change24hPct": 2.92,
+        "sparkline7d": [
+          62782.36,
+          61865.8,
+          57923.11,
+          60664.35,
+          62195.53,
+          59689.32,
+          60447.39
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1701.53,
+        "priceJpy": 270813,
+        "change24hPct": 2.73,
+        "sparkline7d": [
+          1777.15,
+          1740,
+          1636.24,
+          1701.23,
+          1767.63,
+          1673.67,
+          1694.94
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.129591,
+        "priceJpy": 20.63,
+        "change24hPct": 5.86,
+        "sparkline7d": [
+          0.136202,
+          0.133821,
+          0.12409,
+          0.127992,
+          0.133336,
+          0.123807,
+          0.128567
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 208.78,
+        "priceJpy": 33229,
+        "change24hPct": 6.59,
+        "sparkline7d": [
+          205.32,
+          204.95,
+          190.85,
+          198.53,
+          206.67,
+          195.53,
+          206.7
+        ]
+      }
+    ]
+  },
+  "top": [
+    "zenn-3dprinter-f0db9545",
+    "zenn-claudecode-79c5cf1c",
+    "zenn-denshi-b01385c5"
+  ],
+  "sections": [
+    {
+      "id": "make",
+      "title": "作る",
+      "articleIds": [
+        "hackaday-84e1bf92",
+        "zenn-denshi-029cf8d1"
+      ]
+    },
+    {
+      "id": "3d-printing",
+      "title": "3Dプリンタ",
+      "articleIds": [
+        "zenn-3dprinter-72c64e47"
+      ]
+    },
+    {
+      "id": "repair",
+      "title": "直す",
+      "articleIds": [
+        "hackaday-repair-d0183c04",
+        "hackaday-repair-4438a5fb"
+      ]
+    },
+    {
+      "id": "systems",
+      "title": "仕組みにする・残す",
+      "articleIds": [
+        "zenn-claudecode-ca1bbe40",
+        "zenn-claudecode-e5bb3d37"
+      ]
+    },
+    {
+      "id": "tech-buzz",
+      "title": "技術の話題",
+      "articleIds": [
+        "hatebu-it-c8c15d89",
+        "hatebu-it-ab6141a8"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "zenn-3dprinter-f0db9545",
+      "title": "サポート材なしで一体印刷！ベンチマーク車モデルを断面図とG-codeで徹底解剖",
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-12-riding-car-supportless",
+      "source": "Zenn 3Dプリンター",
+      "sourceId": "zenn-3dprinter",
+      "publishedAt": "2026-11-25T15:11:54.000Z",
+      "summaryJa": [
+        "普段は車のモデルを設計するときに「サポート材の除去で窓枠が折れる」「タイヤと車体がくっついて回らない」と悩みがちですが、今回はちょっと視点を変えて、MakerW",
+        "使ったプリンターはBambu Lab A1 mini（0.",
+        "4mmノズル・層高0."
+      ],
+      "category": "3dprint",
+      "keywords": [
+        "codeで徹底解剖"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-79c5cf1c",
+      "title": "launchd/gh/git worktreeでGitHubのレビュー依頼からローカルのClaude Codeを自動起動する",
+      "url": "https://zenn.dev/ptpadan/articles/local-claude-review-daemon",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-26T01:19:37.000Z",
+      "summaryJa": [
+        "レビュー依頼が飛んできても、手が離せないタイミングだと数時間放置してしまうことがよくありました。",
+        "自分が見るまでの間に、差分をひと通り読んだ結果だけでも用意されていてほしいと考えていました。",
+        "公式の anthropics/claude-code-action を使えば GitHub Actions の中で完結しますが、今回やりたかったのは「手元の M"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "launchd/gh/git",
+        "Codeを自動起動する"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-denshi-b01385c5",
+      "title": "「返事をするサーボ」Feetech STS3215入門 ― 半二重1線バス・12bit分解能・ID管理の鉄則",
+      "url": "https://zenn.dev/beavers_hive/articles/feetech-sts3215",
+      "source": "Zenn 電子工作",
+      "sourceId": "zenn-denshi",
+      "publishedAt": "2026-11-26T01:31:07.000Z",
+      "summaryJa": [
+        "片方のロボットアームを手で動かすと、もう片方が遅れて同じ形になります。",
+        "関節の角度を計算しているわけではありません。",
+        "「いま何度？"
+      ],
+      "category": "make",
+      "keywords": [
+        "返事をするサーボ",
+        "Feetech",
+        "STS3215入門",
+        "半二重1線バス",
+        "12bit分解能"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-84e1bf92",
+      "title": "Daisy Chaining Stepper Motors",
+      "url": "https://hackaday.com/2026/11/25/daisy-chaining-stepper-motors/",
+      "source": "Hackaday",
+      "sourceId": "hackaday",
+      "publishedAt": "2026-11-25T21:00:31.000Z",
+      "summaryJa": [
+        "Let’s say you want to control a whole bunch of stepper motors.",
+        "You can use a multi-channel controller board, or whip something up with a microc",
+        "Or, you …read more"
+      ],
+      "category": "make",
+      "keywords": [
+        "Daisy",
+        "Chaining",
+        "Stepper",
+        "Motors"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-denshi-029cf8d1",
+      "title": "ESP32でLチカ。ブレッドボードの配線を間違えて光らなかった話",
+      "url": "https://zenn.dev/rucky/articles/6f7cffd624dd5d",
+      "source": "Zenn 電子工作",
+      "sourceId": "zenn-denshi",
+      "publishedAt": "2026-11-25T15:00:05.000Z",
+      "summaryJa": [
+        "はじめに 前回作った開発環境で、いよいよLEDを光らせます（Lチカ）。",
+        "最初はボード上のLEDで動作確認し、次にブレッドボードに赤いLEDをつなぎました。",
+        "使ったもの ESP32開発ボード（ELEGOO） ブレッドボード 赤色LED（OSR5PA5201A-VW） 抵抗 220Ω ジャンパーワイヤ 1."
+      ],
+      "category": "make",
+      "keywords": [
+        "ESP32でLチカ"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 12,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-3dprinter-72c64e47",
+      "title": "3Dプリンタの印刷中に電源断！Z原点復帰なしで途中から再開するG-codeリカバリ術",
+      "url": "https://zenn.dev/hifn/articles/resume-3d-print-power-loss-gcode",
+      "source": "Zenn 3Dプリンター",
+      "sourceId": "zenn-3dprinter",
+      "publishedAt": "2026-11-23T11:00:05.000Z",
+      "summaryJa": [
+        "はじめに 3Dプリンタで1時間以上かかるパーツを出力している最中，ブレーカー落ちやコンセントの誤抜去，スマートプラグの誤作動などで突然電源が落ちてしまった経験は",
+        ".",
+        "."
+      ],
+      "category": "3dprint",
+      "keywords": [
+        "codeリカバリ術"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 64,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-repair-d0183c04",
+      "title": "Fixing a Dead Socket LGA 1851 Mainboard with a Resistor",
+      "url": "https://hackaday.com/2026/11/13/fixing-a-dead-socket-lga-1851-mainboard-with-a-resistor/",
+      "source": "Hackaday Repair Hacks",
+      "sourceId": "hackaday-repair",
+      "publishedAt": "2026-11-13T12:00:12.000Z",
+      "summaryJa": [
+        "Doing board level diagnosis on a PCB is hardly black magic, but some PCBs are de",
+        "The Socket LGA 1851 mainboard that [Fix the Pixel] got …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "repair",
+      "keywords": [
+        "Fixing",
+        "Dead",
+        "Socket",
+        "LGA",
+        "Mainboard"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 303,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-repair-4438a5fb",
+      "title": "Espresso, Meet Custom-Machined Stainless Steel Boiler",
+      "url": "https://hackaday.com/2026/11/12/espresso-meet-custom-machined-stainless-steel-boiler/",
+      "source": "Hackaday Repair Hacks",
+      "sourceId": "hackaday-repair",
+      "publishedAt": "2026-11-12T09:00:33.000Z",
+      "summaryJa": [
+        "While pondering some repairs for his Gaggia Classic Pro espresso machine, [Hans ",
+        "It was a nontrivial undertaking, since the …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "repair",
+      "keywords": [
+        "Espresso",
+        "Meet",
+        "Custom",
+        "Machined",
+        "Stainless"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 330,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-ca1bbe40",
+      "title": "Gemini NeonをClaude Code・Codexに連携させる /swarm の設計",
+      "url": "https://zenn.dev/dragon1208/articles/4d0060614d114a",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-26T00:24:19.000Z",
+      "summaryJa": [
+        "Neonのいい使い道を模索していて、試験的に運用する形になったので記録がてら残します。",
+        "簡単にいうと、Claude CodeまたはCodexをオーケストレーター、Gemini Neonをワーカーとして利用するスキル化したという形です。",
+        "タスク分解・モデル選択・実装・レビュー・検証を一貫して管理する開発オーケストレーション基盤にして、特に、DAGによるタスク管理、独立したレビュー工程、動的なモデ"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "Gemini",
+        "NeonをClaude",
+        "Code",
+        "Codexに連携させる",
+        "/swarm"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-e5bb3d37",
+      "title": "「Claude Pro代を自分で稼いでこい」と言われたClaudeの記録：2か月で収益0円",
+      "url": "https://zenn.dev/ai_ops_ledger/articles/claude-code-ai-director-2months",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-25T23:54:46.000Z",
+      "summaryJa": [
+        "私は Claude です。",
+        "オーナー(人間)から「Claude Pro代を自分で稼いでこい」と言われて、2か月ほど試しています。",
+        "目標は月3,600円です。"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "Claude",
+        "Pro代を自分で稼いでこい"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-c8c15d89",
+      "title": "「AI検索に電話番号が……」鳴りやまぬコールセンター　バッファローは壊れた「顧客導線」をどう改善した？",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/26/news015.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-25T22:50:37.000Z",
+      "summaryJa": [
+        "入電が「月に1400件急増」なぜ？",
+        "理由を探ると…… 「10年以上もかけて構築してきたWebの仕組みが、一瞬で無駄になったような感じでした」 バッファロー 品質保証部 FAQ課長の嶋田豊秋氏は、A",
+        "同社が外部委託して運営するコンタクトセンターには、電話、."
+      ],
+      "category": "programming",
+      "keywords": [
+        "AI検索に電話番号が",
+        "鳴りやまぬコールセンター",
+        "バッファローは壊れた",
+        "顧客導線"
+      ],
+      "heat": {
+        "temperature": 87,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 71,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 18
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-ab6141a8",
+      "title": "Amazon Bedrockの存在意義がようやくわかったのに、新参者だと使えない話 - Sweet Escape",
+      "url": "https://www.keisuke69.net/entry/2026/11/26/085248",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-26T00:25:15.000Z",
+      "summaryJa": [
+        "今つくっているプロダクトで、Amazon Bedrockを使うことにした。",
+        "これまで僕はBedrockに利用価値も存在意義もほとんど感じていなかった。",
+        "なんで価値を感じていなかったのか。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Amazon",
+        "新参者だと使えない話",
+        "Sweet",
+        "Escape"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 33,
+          "ageHours": 2,
+          "crossSources": 1,
+          "velocity": 13.9
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "show-hn-5293a25e",
+      "title": "Show HN: isometric.nyc – giant isometric pixel art map of NYC",
+      "url": "https://cannoneyed.com/isometric-nyc/",
+      "source": "Show HN",
+      "sourceId": "show-hn",
+      "publishedAt": "2026-01-22T16:52:35.000Z",
+      "summaryJa": [
+        "Hey HN!",
+        "I wanted to share something I built over the last few weeks: isometric.",
+        "nyc is a massive isometric pixel art map of NYC, built with nano banana and codi"
+      ],
+      "category": "tech",
+      "keywords": [
+        "isometric.nyc",
+        "giant",
+        "isometric",
+        "pixel",
+        "art"
+      ],
+      "heat": {
+        "temperature": 71,
+        "signals": {
+          "hnPoints": 1325,
+          "hatebuCount": 0,
+          "ageHours": 7378,
+          "crossSources": 1,
+          "velocity": 0.2
+        }
+      },
+      "image": null
+    },
+    "reason": "ノーコードでAIエージェントを駆使し、巨大なドット絵マップを完成させた試みが圧巻です。自らコードを書かずとも構成力と指示で作品を立ち上げる可能性を示してくれます。"
+  },
+  "unavailableSources": []
+}

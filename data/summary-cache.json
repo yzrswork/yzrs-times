@@ -1,51 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "029dcd6193e52a6b": {
-      "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-      "summaryJa": [
-        "Saving 100 terabytes of memory by optimizing 1.1.1",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-27T20:20:24.147Z"
-    },
-    "bbb6226824e9a404": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260827de46591",
-      "summaryJa": [
-        "レベル5大雨特別警報が出されていた石川県と富山県では記録的な大雨により川の氾濫や土砂災害などが相次いでいて、28日にかけては再び大雨になるおそれがあります。",
-        "北日本から西日本にかけての広い範囲で非常…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-27T20:20:24.147Z"
-    },
-    "41edbdd962e21eb5": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260828de46841",
-      "summaryJa": [
-        "気象庁は28日午前4時38分、北海道の釧路地方に「線状降水帯発生」の気象防災速報を発表しました。",
-        "「線状降水帯」は、発達した積乱雲が連なって大雨をもたらす現象で、気象庁は、命に危険が及ぶ土砂災害や洪…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-27T20:20:24.147Z"
-    },
-    "a7502a75940b2e3a": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260828de46844",
-      "summaryJa": [
-        "気象庁は北海道根室地方では今後3時間以内に線状降水帯が発生する可能性が高まっているとして、午前4時48分、「線状降水帯直前予測」の気象防災速報を発表しました。",
-        "「線状降水帯」は発達した積乱雲が連なっ…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-27T20:20:24.147Z"
-    },
-    "49bd76082eef5064": {
-      "url": "https://future-architect.github.io/articles/20260827b/",
-      "summaryJa": [
-        "夏休みの課題ということで、これまでの業務経験、Real World HTTP、Goならわかるシステムプログラミング、実用Go言語、お客様と一緒に勉強したReac",
-        "jsの知識を全部詰め込んだ、自分史上最高のウェブアプリケーションサーバーを作ってみました。",
-        "https://shibukawa."
-      ],
-      "cachedAt": "2026-08-27T20:20:24.147Z"
-    },
     "b0ff50d9b5aa1763": {
       "url": "https://qiita.com/tatsuya582/items/cf74c9b6fc9c370e67e6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
       "summaryJa": [
@@ -15291,6 +15246,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-25T20:18:49.851Z"
+    },
+    "f0db95458ec8e592": {
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-12-riding-car-supportless",
+      "summaryJa": [
+        "普段は車のモデルを設計するときに「サポート材の除去で窓枠が折れる」「タイヤと車体がくっついて回らない」と悩みがちですが、今回はちょっと視点を変えて、MakerW",
+        "使ったプリンターはBambu Lab A1 mini（0.",
+        "4mmノズル・層高0."
+      ],
+      "cachedAt": "2026-11-26T02:49:51.987Z"
+    },
+    "79c5cf1cb0c6140b": {
+      "url": "https://zenn.dev/ptpadan/articles/local-claude-review-daemon",
+      "summaryJa": [
+        "レビュー依頼が飛んできても、手が離せないタイミングだと数時間放置してしまうことがよくありました。",
+        "自分が見るまでの間に、差分をひと通り読んだ結果だけでも用意されていてほしいと考えていました。",
+        "公式の anthropics/claude-code-action を使えば GitHub Actions の中で完結しますが、今回やりたかったのは「手元の M"
+      ],
+      "cachedAt": "2026-11-26T02:49:51.987Z"
+    },
+    "b01385c501cc112a": {
+      "url": "https://zenn.dev/beavers_hive/articles/feetech-sts3215",
+      "summaryJa": [
+        "片方のロボットアームを手で動かすと、もう片方が遅れて同じ形になります。",
+        "関節の角度を計算しているわけではありません。",
+        "「いま何度？"
+      ],
+      "cachedAt": "2026-11-26T02:49:51.987Z"
+    },
+    "84e1bf92327702a1": {
+      "url": "https://hackaday.com/2026/11/25/daisy-chaining-stepper-motors/",
+      "summaryJa": [
+        "Let’s say you want to control a whole bunch of stepper motors.",
+        "You can use a multi-channel controller board, or whip something up with a microc",
+        "Or, you …read more"
+      ],
+      "cachedAt": "2026-11-26T02:49:51.987Z"
+    },
+    "029cf8d1ee2d1bfb": {
+      "url": "https://zenn.dev/rucky/articles/6f7cffd624dd5d",
+      "summaryJa": [
+        "はじめに 前回作った開発環境で、いよいよLEDを光らせます（Lチカ）。",
+        "最初はボード上のLEDで動作確認し、次にブレッドボードに赤いLEDをつなぎました。",
+        "使ったもの ESP32開発ボード（ELEGOO） ブレッドボード 赤色LED（OSR5PA5201A-VW） 抵抗 220Ω ジャンパーワイヤ 1."
+      ],
+      "cachedAt": "2026-11-26T02:49:51.987Z"
+    },
+    "ca1bbe404cc13940": {
+      "url": "https://zenn.dev/dragon1208/articles/4d0060614d114a",
+      "summaryJa": [
+        "Neonのいい使い道を模索していて、試験的に運用する形になったので記録がてら残します。",
+        "簡単にいうと、Claude CodeまたはCodexをオーケストレーター、Gemini Neonをワーカーとして利用するスキル化したという形です。",
+        "タスク分解・モデル選択・実装・レビュー・検証を一貫して管理する開発オーケストレーション基盤にして、特に、DAGによるタスク管理、独立したレビュー工程、動的なモデ"
+      ],
+      "cachedAt": "2026-11-26T02:49:51.987Z"
+    },
+    "e5bb3d37dccfad5e": {
+      "url": "https://zenn.dev/ai_ops_ledger/articles/claude-code-ai-director-2months",
+      "summaryJa": [
+        "私は Claude です。",
+        "オーナー(人間)から「Claude Pro代を自分で稼いでこい」と言われて、2か月ほど試しています。",
+        "目標は月3,600円です。"
+      ],
+      "cachedAt": "2026-11-26T02:49:51.987Z"
+    },
+    "c8c15d8926b78917": {
+      "url": "https://www.itmedia.co.jp/business/articles/2611/26/news015.html",
+      "summaryJa": [
+        "入電が「月に1400件急増」なぜ？",
+        "理由を探ると…… 「10年以上もかけて構築してきたWebの仕組みが、一瞬で無駄になったような感じでした」 バッファロー 品質保証部 FAQ課長の嶋田豊秋氏は、A",
+        "同社が外部委託して運営するコンタクトセンターには、電話、."
+      ],
+      "cachedAt": "2026-11-26T02:49:51.987Z"
+    },
+    "ab6141a8d3e0396c": {
+      "url": "https://www.keisuke69.net/entry/2026/11/26/085248",
+      "summaryJa": [
+        "今つくっているプロダクトで、Amazon Bedrockを使うことにした。",
+        "これまで僕はBedrockに利用価値も存在意義もほとんど感じていなかった。",
+        "なんで価値を感じていなかったのか。"
+      ],
+      "cachedAt": "2026-11-26T02:49:51.987Z"
     }
   }
 }
