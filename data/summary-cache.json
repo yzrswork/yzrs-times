@@ -1,87 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "b0ff50d9b5aa1763": {
-      "url": "https://qiita.com/tatsuya582/items/cf74c9b6fc9c370e67e6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに Claude Code の Auto mode では、「このコマンドを実行していいか」の判定をユーザーの代わりに別のモデルがやっています。",
-        "では、そのモデルはどんな指示を受けて判定しているのでしょうか。",
-        "この記事では、公式ドキュメントと Anthropic のエンジ."
-      ],
-      "cachedAt": "2026-08-28T16:44:33.874Z"
-    },
-    "c6c0e4bf3ca77cda": {
-      "url": "https://zenn.dev/estie/articles/a6d1e78e8e41d5",
-      "summaryJa": [
-        "※この記事は、estie プログラミングコンテスト2026 懇親会の LT で紹介した内容をブログ記事として再構成したものです。",
-        "はじめに 昨今、AIのコーディング能力は飛躍的に向上し、業務におけるコーディングの大半をAIが担うようになってきました。",
-        "また、プログラミングコンテストにおいてもAIがトッププレイヤーを上回る成績を残すことも起こり始めています。"
-      ],
-      "cachedAt": "2026-08-28T16:44:33.874Z"
-    },
-    "5cbc0787a2e511b4": {
-      "url": "https://qiita.com/inoyu-qiita/items/e8315b7bf4acee70c164?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに 「お前がみろ」 このプロンプトを書いたのは、同僚の @Shinn_Matsumoto さんです。",
-        "本人のClaude Codeセッションを見せてもらったとき、画面に出てきました。",
-        "自分は普段、AIにも「確認してください」「お願いします」と話します。"
-      ],
-      "cachedAt": "2026-08-28T16:44:33.874Z"
-    },
-    "a3d40848cd03fefd": {
-      "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
-      "summaryJa": [
-        "Just the rumour of a bug is enough to find an expl",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-28T16:44:33.874Z"
-    },
-    "49a125937c6fa9f0": {
-      "url": "https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/",
-      "summaryJa": [
-        "“It works better in the app”",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-28T16:44:33.874Z"
-    },
-    "75c483e042b74fd3": {
-      "url": "https://qiita.com/ntaka329/items/c9a5d4f1734c8b51c257?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに GMOコネクトの永田です。",
-        "5年以上動いている業務システムのAPIに、新機能を足すことになりました。",
-        "コミットは1,000件を超えていて、書いた人は10人近く。"
-      ],
-      "cachedAt": "2026-08-28T16:44:33.874Z"
-    },
-    "d67058106ec27d66": {
-      "url": "https://noahlev.org/blog/2026/08/27/making-rustdoc-faster/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-28T16:44:33.874Z"
-    },
-    "5a7df0cc7e1150a5": {
-      "url": "https://jointhefreeworld.org/blog/articles/gnu-linux/quest-for-eternal-dock/index.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-28T16:44:33.874Z"
-    },
-    "54a1ed3a06c0e3a6": {
-      "url": "https://github.com/mudita/MuditaOS",
-      "summaryJa": [
-        "Mobile operating system based on FreeRTOS™ optimized for E Ink displays - develo",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-28T16:44:33.874Z"
-    },
     "cff4e4931ef46630": {
       "url": "https://zenn.dev/happy_onigiri/articles/1a0601d2afec2c",
       "summaryJa": [
@@ -15327,6 +15246,114 @@
         "なんで価値を感じていなかったのか。"
       ],
       "cachedAt": "2026-11-26T02:49:51.987Z"
+    },
+    "9fb05ca0de413c2c": {
+      "url": "https://speakerdeck.com/tonkotsuboy_com/index-1f2ed0d2-597d-459d-abf2-db8db109c5d6",
+      "summaryJa": [
+        "「【Claude Code】鹿野さんが実践するエンジニアの日常業務を爆速にする最新推しツール 大公開」で発表した資料です。",
+        "実際にはスライドをほとんど見せずにずっと喋っていました笑 https://offers-jp.",
+        "connpass."
+      ],
+      "cachedAt": "2026-11-26T20:22:56.071Z"
+    },
+    "b8356d4cf29d267f": {
+      "url": "https://anond.hatelabo.jp/20261126144022",
+      "summaryJa": [
+        "~/.",
+        "claude/CLAUDE.",
+        "md のようなグローバルの設定ファイルについて、自分好みの出力をさせるようにしておくことは、よいことだと思う。"
+      ],
+      "cachedAt": "2026-11-26T20:22:56.072Z"
+    },
+    "5515b89efb620587": {
+      "url": "https://dev.sin5d.com/meta-muse-usage",
+      "summaryJa": [
+        "XAIのGrokBot、Nous ResearchのHermes Aagent、OpenAIのChatGPT Bots、などなど、クラウドエージェントタイプのA",
+        "前回の記事でGrokBotについて詳しく書きましたので、今回はGrokBot以上によく使っているMeta社のMuseについてくわしく書いていこうと思います。",
+        "執筆時2026/11/25時点での情報なので状況."
+      ],
+      "cachedAt": "2026-11-26T20:22:56.072Z"
+    },
+    "536f5fc8670ece15": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261127de82176",
+      "summaryJa": [
+        "前線の影響で、沖縄県では非常に激しい雨が降り気象庁は、午前4時8分、沖縄県本島北部に「線状降水帯発生」の気象防災速報を発表しました。",
+        "沖縄県ではレベル4の危険警報が出されている地域があり、土砂災害や…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-26T20:22:56.072Z"
+    },
+    "f5ced862e2617653": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261127de82178",
+      "summaryJa": [
+        "沖縄県の東村は、レベル4土砂災害危険警報が発表されたことを受けて、27日午前3時10分に村内全域に避難指示を出しました。",
+        "5段階の警戒レベルのうち、レベル4にあたる情報で危険な場所から全員避難するよ…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-26T20:22:56.072Z"
+    },
+    "a2dfdffe21af3ab1": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261127de82141",
+      "summaryJa": [
+        "東南アジアを中心にアジア各国で合わせて2000人以上が犠牲になった記録的な大雨から11月で1年です。",
+        "最大の被災地となったインドネシアでは被災者の生活再建が進まず、一部で政府に対する不満も高まっていま…",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-26T20:22:56.072Z"
+    },
+    "5bd3454761347e27": {
+      "url": "https://news.web.nhk/newsweb/na/nd-20261126de81607",
+      "summaryJa": [
+        "ロシアの治安機関に拘束された北海道新聞の記者の妻が手記を公開し、「家族は悲しみのどん底にあり続けています。",
+        "小さな娘に、どうか大切なパパを返してください」などと早期の解放を訴えました。",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-26T20:22:56.072Z"
+    },
+    "9e54414e57b85ca1": {
+      "url": "https://bunshun.jp/articles/-/93682",
+      "summaryJa": [
+        "◆◆◆ 授業中にゲーム、ウィキペディアを組み合わせレポート提出…GPA0.",
+        "9で落第寸前だった ――AIを使いこなす前の大塚さんは、どんな大学生活を送っていたのですか。",
+        "大塚あみさん（以下、大塚） 多分、びっくりするぐらい普通だと思います。"
+      ],
+      "cachedAt": "2026-11-26T20:22:56.072Z"
+    },
+    "c4c39d2a3d341869": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%97%A5%E6%9C%AC%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83",
+      "summaryJa": [
+        "日本プロ野球",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-26T20:22:56.072Z"
+    },
+    "9d7f369037109587": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E8%A7%92%E7%94%B0%E8%A3%95%E6%AF%85",
+      "summaryJa": [
+        "角田裕毅",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-26T20:22:56.073Z"
+    },
+    "8d6caf361925de49": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%82%BD%E3%82%B7%E3%82%A8%E3%83%80",
+      "summaryJa": [
+        "ソシエダ",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-26T20:22:56.073Z"
+    },
+    "1db5ceb67774b836": {
+      "url": "https://github.com/TNT-Likely/BeeCount",
+      "summaryJa": [
+        "Local-first bookkeeping for iOS/Android/Web · Self-hosted cloud + iCloud/WebDAV/",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-26T20:22:56.073Z"
     }
   }
 }

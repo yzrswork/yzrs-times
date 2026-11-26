@@ -365,6 +365,13 @@
       "edition": "midday",
       "theme": "実動の制御と手元の復旧",
       "path": "issues/2026-11-26-midday.json"
+    },
+    {
+      "issueNo": 279,
+      "date": "2026-11-27",
+      "edition": "morning",
+      "theme": "エージェント運用の試行と手元の再構築",
+      "path": "issues/2026-11-27-morning.json"
     }
   ]
 }

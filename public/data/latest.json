@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "issueNo": 278,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-11-26",
-  "dateDisplay": "Thursday, November 26, 2026",
-  "pressTimeJst": "2026-11-26 12:00",
-  "generatedAt": "2026-11-26T02:47:33.221Z",
+  "issueNo": 279,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-27",
+  "dateDisplay": "Friday, November 27, 2026",
+  "pressTimeJst": "2026-11-27 05:00",
+  "generatedAt": "2026-11-26T20:17:43.896Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.1-flash-lite",
     "promptHash": "27e1e947"
   },
   "theme": {
-    "title": "実動の制御と手元の復旧",
-    "note": "物理的・ソフトウェア的に動く仕組みを制御し、障害から復旧させる作り手の実践が集まった紙面。"
+    "title": "エージェント運用の試行と手元の再構築",
+    "note": "AIエージェントの実践的な設定と、個人の開発・運用環境を最適化するための知見を深める。"
   },
   "editorial": {
-    "comment": "今週は「サポート材なし一体印刷の車モデル（zenn-3dprinter-f0db9545）」をA1 miniで試してみます。可動部のクリアランスとスライサー設定を実際の造形物で確認し、小型ケースのヒンジ設計にフィードバックする予定です。 —— YZRS Times 編集長",
-    "passedOver": "1Passwordの漏洩事案など大規模なセキュリティ速報は、作り手の手元環境に直接関わらないため今回は見送りました。",
+    "comment": "今週は「CLAUDE.mdへの継続的な書き出し設定」を自身の環境で試します。エージェントが自らの振る舞いを更新する仕組みを整え、RE:DRIVEの設計記録に応用します。 —— YZRS Times 編集長",
+    "passedOver": "気象関連の報道は重要ですが、紙面構成の都合上、避難指示などの緊急情報は随時更新を確認するよう促すに留めました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
     "summary": "曇り",
     "icon": "cloudy",
-    "tempMax": 14,
-    "tempMin": 5,
-    "precipChancePct": 0
+    "tempMax": 16,
+    "tempMin": 7,
+    "precipChancePct": 16
   },
   "market": {
     "fearGreed": {
@@ -39,475 +39,422 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 60917,
-        "priceJpy": 9695396,
-        "change24hPct": 2.92,
+        "priceUsd": 60674,
+        "priceJpy": 9663349,
+        "change24hPct": 1.05,
         "sparkline7d": [
-          62782.36,
-          61865.8,
-          57923.11,
-          60664.35,
-          62195.53,
-          59689.32,
-          60447.39
+          62258.69,
+          58817.93,
+          59259.29,
+          61397.81,
+          59702.16,
+          58131.22,
+          60422.25
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1701.53,
-        "priceJpy": 270813,
-        "change24hPct": 2.73,
+        "priceUsd": 1702.09,
+        "priceJpy": 271085,
+        "change24hPct": 0.93,
         "sparkline7d": [
-          1777.15,
-          1740,
-          1636.24,
-          1701.23,
-          1767.63,
-          1673.67,
-          1694.94
+          1767.44,
+          1619.51,
+          1658.48,
+          1720.77,
+          1681.96,
+          1643.49,
+          1698.59
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.129591,
-        "priceJpy": 20.63,
-        "change24hPct": 5.86,
+        "priceUsd": 0.127379,
+        "priceJpy": 20.29,
+        "change24hPct": -0.17,
         "sparkline7d": [
-          0.136202,
-          0.133821,
-          0.12409,
-          0.127992,
-          0.133336,
-          0.123807,
-          0.128567
+          0.132923,
+          0.127381,
+          0.126932,
+          0.128996,
+          0.127192,
+          0.121756,
+          0.127555
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 208.78,
-        "priceJpy": 33229,
-        "change24hPct": 6.59,
+        "priceUsd": 209.04,
+        "priceJpy": 33293,
+        "change24hPct": 2.23,
         "sparkline7d": [
-          205.32,
-          204.95,
-          190.85,
-          198.53,
-          206.67,
-          195.53,
-          206.7
+          207.66,
+          194.41,
+          196.78,
+          199.69,
+          197.6,
+          194.28,
+          209.23
         ]
       }
     ]
   },
   "top": [
-    "zenn-3dprinter-f0db9545",
-    "zenn-claudecode-79c5cf1c",
-    "zenn-denshi-b01385c5"
+    "hatebu-it-9fb05ca0",
+    "hatebu-it-b8356d4c",
+    "hatebu-it-5515b89e"
   ],
   "sections": [
     {
-      "id": "make",
-      "title": "作る",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hackaday-84e1bf92",
-        "zenn-denshi-029cf8d1"
+        "nhk-top-536f5fc8",
+        "nhk-top-f5ced862",
+        "nhk-top-a2dfdffe",
+        "nhk-top-5bd34547"
       ]
     },
     {
-      "id": "3d-printing",
-      "title": "3Dプリンタ",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-3dprinter-72c64e47"
+        "hatebu-it-9e54414e"
       ]
     },
     {
-      "id": "repair",
-      "title": "直す",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "hackaday-repair-d0183c04",
-        "hackaday-repair-4438a5fb"
-      ]
-    },
-    {
-      "id": "systems",
-      "title": "仕組みにする・残す",
-      "articleIds": [
-        "zenn-claudecode-ca1bbe40",
-        "zenn-claudecode-e5bb3d37"
-      ]
-    },
-    {
-      "id": "tech-buzz",
-      "title": "技術の話題",
-      "articleIds": [
-        "hatebu-it-c8c15d89",
-        "hatebu-it-ab6141a8"
+        "gtrends-jp-c4c39d2a",
+        "gtrends-jp-9d7f3690",
+        "gtrends-jp-8d6caf36"
       ]
     }
   ],
   "articles": [
     {
-      "id": "zenn-3dprinter-f0db9545",
-      "title": "サポート材なしで一体印刷！ベンチマーク車モデルを断面図とG-codeで徹底解剖",
-      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-12-riding-car-supportless",
-      "source": "Zenn 3Dプリンター",
-      "sourceId": "zenn-3dprinter",
-      "publishedAt": "2026-11-25T15:11:54.000Z",
+      "id": "hatebu-it-9fb05ca0",
+      "title": "【Claude Code】鹿野さんが実践するエンジニアの日常業務を爆速にする最新推しツール 大公開",
+      "url": "https://speakerdeck.com/tonkotsuboy_com/index-1f2ed0d2-597d-459d-abf2-db8db109c5d6",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-26T12:31:47.000Z",
       "summaryJa": [
-        "普段は車のモデルを設計するときに「サポート材の除去で窓枠が折れる」「タイヤと車体がくっついて回らない」と悩みがちですが、今回はちょっと視点を変えて、MakerW",
-        "使ったプリンターはBambu Lab A1 mini（0.",
-        "4mmノズル・層高0."
+        "「【Claude Code】鹿野さんが実践するエンジニアの日常業務を爆速にする最新推しツール 大公開」で発表した資料です。",
+        "実際にはスライドをほとんど見せずにずっと喋っていました笑 https://offers-jp.",
+        "connpass."
       ],
-      "category": "3dprint",
-      "keywords": [
-        "codeで徹底解剖"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 12,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-claudecode-79c5cf1c",
-      "title": "launchd/gh/git worktreeでGitHubのレビュー依頼からローカルのClaude Codeを自動起動する",
-      "url": "https://zenn.dev/ptpadan/articles/local-claude-review-daemon",
-      "source": "Zenn Claude Code",
-      "sourceId": "zenn-claudecode",
-      "publishedAt": "2026-11-26T01:19:37.000Z",
-      "summaryJa": [
-        "レビュー依頼が飛んできても、手が離せないタイミングだと数時間放置してしまうことがよくありました。",
-        "自分が見るまでの間に、差分をひと通り読んだ結果だけでも用意されていてほしいと考えていました。",
-        "公式の anthropics/claude-code-action を使えば GitHub Actions の中で完結しますが、今回やりたかったのは「手元の M"
-      ],
-      "category": "workflow",
-      "keywords": [
-        "launchd/gh/git",
-        "Codeを自動起動する"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-denshi-b01385c5",
-      "title": "「返事をするサーボ」Feetech STS3215入門 ― 半二重1線バス・12bit分解能・ID管理の鉄則",
-      "url": "https://zenn.dev/beavers_hive/articles/feetech-sts3215",
-      "source": "Zenn 電子工作",
-      "sourceId": "zenn-denshi",
-      "publishedAt": "2026-11-26T01:31:07.000Z",
-      "summaryJa": [
-        "片方のロボットアームを手で動かすと、もう片方が遅れて同じ形になります。",
-        "関節の角度を計算しているわけではありません。",
-        "「いま何度？"
-      ],
-      "category": "make",
-      "keywords": [
-        "返事をするサーボ",
-        "Feetech",
-        "STS3215入門",
-        "半二重1線バス",
-        "12bit分解能"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-84e1bf92",
-      "title": "Daisy Chaining Stepper Motors",
-      "url": "https://hackaday.com/2026/11/25/daisy-chaining-stepper-motors/",
-      "source": "Hackaday",
-      "sourceId": "hackaday",
-      "publishedAt": "2026-11-25T21:00:31.000Z",
-      "summaryJa": [
-        "Let’s say you want to control a whole bunch of stepper motors.",
-        "You can use a multi-channel controller board, or whip something up with a microc",
-        "Or, you …read more"
-      ],
-      "category": "make",
-      "keywords": [
-        "Daisy",
-        "Chaining",
-        "Stepper",
-        "Motors"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-denshi-029cf8d1",
-      "title": "ESP32でLチカ。ブレッドボードの配線を間違えて光らなかった話",
-      "url": "https://zenn.dev/rucky/articles/6f7cffd624dd5d",
-      "source": "Zenn 電子工作",
-      "sourceId": "zenn-denshi",
-      "publishedAt": "2026-11-25T15:00:05.000Z",
-      "summaryJa": [
-        "はじめに 前回作った開発環境で、いよいよLEDを光らせます（Lチカ）。",
-        "最初はボード上のLEDで動作確認し、次にブレッドボードに赤いLEDをつなぎました。",
-        "使ったもの ESP32開発ボード（ELEGOO） ブレッドボード 赤色LED（OSR5PA5201A-VW） 抵抗 220Ω ジャンパーワイヤ 1."
-      ],
-      "category": "make",
-      "keywords": [
-        "ESP32でLチカ"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 12,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-3dprinter-72c64e47",
-      "title": "3Dプリンタの印刷中に電源断！Z原点復帰なしで途中から再開するG-codeリカバリ術",
-      "url": "https://zenn.dev/hifn/articles/resume-3d-print-power-loss-gcode",
-      "source": "Zenn 3Dプリンター",
-      "sourceId": "zenn-3dprinter",
-      "publishedAt": "2026-11-23T11:00:05.000Z",
-      "summaryJa": [
-        "はじめに 3Dプリンタで1時間以上かかるパーツを出力している最中，ブレーカー落ちやコンセントの誤抜去，スマートプラグの誤作動などで突然電源が落ちてしまった経験は",
-        ".",
-        "."
-      ],
-      "category": "3dprint",
-      "keywords": [
-        "codeリカバリ術"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 64,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-repair-d0183c04",
-      "title": "Fixing a Dead Socket LGA 1851 Mainboard with a Resistor",
-      "url": "https://hackaday.com/2026/11/13/fixing-a-dead-socket-lga-1851-mainboard-with-a-resistor/",
-      "source": "Hackaday Repair Hacks",
-      "sourceId": "hackaday-repair",
-      "publishedAt": "2026-11-13T12:00:12.000Z",
-      "summaryJa": [
-        "Doing board level diagnosis on a PCB is hardly black magic, but some PCBs are de",
-        "The Socket LGA 1851 mainboard that [Fix the Pixel] got …read more",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "repair",
-      "keywords": [
-        "Fixing",
-        "Dead",
-        "Socket",
-        "LGA",
-        "Mainboard"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 303,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-repair-4438a5fb",
-      "title": "Espresso, Meet Custom-Machined Stainless Steel Boiler",
-      "url": "https://hackaday.com/2026/11/12/espresso-meet-custom-machined-stainless-steel-boiler/",
-      "source": "Hackaday Repair Hacks",
-      "sourceId": "hackaday-repair",
-      "publishedAt": "2026-11-12T09:00:33.000Z",
-      "summaryJa": [
-        "While pondering some repairs for his Gaggia Classic Pro espresso machine, [Hans ",
-        "It was a nontrivial undertaking, since the …read more",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "repair",
-      "keywords": [
-        "Espresso",
-        "Meet",
-        "Custom",
-        "Machined",
-        "Stainless"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 330,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-claudecode-ca1bbe40",
-      "title": "Gemini NeonをClaude Code・Codexに連携させる /swarm の設計",
-      "url": "https://zenn.dev/dragon1208/articles/4d0060614d114a",
-      "source": "Zenn Claude Code",
-      "sourceId": "zenn-claudecode",
-      "publishedAt": "2026-11-26T00:24:19.000Z",
-      "summaryJa": [
-        "Neonのいい使い道を模索していて、試験的に運用する形になったので記録がてら残します。",
-        "簡単にいうと、Claude CodeまたはCodexをオーケストレーター、Gemini Neonをワーカーとして利用するスキル化したという形です。",
-        "タスク分解・モデル選択・実装・レビュー・検証を一貫して管理する開発オーケストレーション基盤にして、特に、DAGによるタスク管理、独立したレビュー工程、動的なモデ"
-      ],
-      "category": "workflow",
-      "keywords": [
-        "Gemini",
-        "NeonをClaude",
-        "Code",
-        "Codexに連携させる",
-        "/swarm"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 2,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-claudecode-e5bb3d37",
-      "title": "「Claude Pro代を自分で稼いでこい」と言われたClaudeの記録：2か月で収益0円",
-      "url": "https://zenn.dev/ai_ops_ledger/articles/claude-code-ai-director-2months",
-      "source": "Zenn Claude Code",
-      "sourceId": "zenn-claudecode",
-      "publishedAt": "2026-11-25T23:54:46.000Z",
-      "summaryJa": [
-        "私は Claude です。",
-        "オーナー(人間)から「Claude Pro代を自分で稼いでこい」と言われて、2か月ほど試しています。",
-        "目標は月3,600円です。"
-      ],
-      "category": "workflow",
+      "category": "programming",
       "keywords": [
         "Claude",
-        "Pro代を自分で稼いでこい"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 3,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-c8c15d89",
-      "title": "「AI検索に電話番号が……」鳴りやまぬコールセンター　バッファローは壊れた「顧客導線」をどう改善した？",
-      "url": "https://www.itmedia.co.jp/business/articles/2611/26/news015.html",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-25T22:50:37.000Z",
-      "summaryJa": [
-        "入電が「月に1400件急増」なぜ？",
-        "理由を探ると…… 「10年以上もかけて構築してきたWebの仕組みが、一瞬で無駄になったような感じでした」 バッファロー 品質保証部 FAQ課長の嶋田豊秋氏は、A",
-        "同社が外部委託して運営するコンタクトセンターには、電話、."
-      ],
-      "category": "programming",
-      "keywords": [
-        "AI検索に電話番号が",
-        "鳴りやまぬコールセンター",
-        "バッファローは壊れた",
-        "顧客導線"
-      ],
-      "heat": {
-        "temperature": 87,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 71,
-          "ageHours": 4,
-          "crossSources": 1,
-          "velocity": 18
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-ab6141a8",
-      "title": "Amazon Bedrockの存在意義がようやくわかったのに、新参者だと使えない話 - Sweet Escape",
-      "url": "https://www.keisuke69.net/entry/2026/11/26/085248",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-26T00:25:15.000Z",
-      "summaryJa": [
-        "今つくっているプロダクトで、Amazon Bedrockを使うことにした。",
-        "これまで僕はBedrockに利用価値も存在意義もほとんど感じていなかった。",
-        "なんで価値を感じていなかったのか。"
-      ],
-      "category": "programming",
-      "keywords": [
-        "Amazon",
-        "新参者だと使えない話",
-        "Sweet",
-        "Escape"
+        "Code",
+        "大公開"
       ],
       "heat": {
         "temperature": 84,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 33,
-          "ageHours": 2,
+          "hatebuCount": 102,
+          "ageHours": 8,
+          "crossSources": 1,
+          "velocity": 13.1
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-b8356d4c",
+      "title": "CLAUDE.md / AGENTS.md を Claude Codeに継続的に書かせる",
+      "url": "https://anond.hatelabo.jp/20261126144022",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-26T05:40:51.000Z",
+      "summaryJa": [
+        "~/.",
+        "claude/CLAUDE.",
+        "md のようなグローバルの設定ファイルについて、自分好みの出力をさせるようにしておくことは、よいことだと思う。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "CLAUDE.md",
+        "AGENTS.md",
+        "Claude",
+        "Codeに継続的に書かせる"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 175,
+          "ageHours": 15,
+          "crossSources": 1,
+          "velocity": 12
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-5515b89e",
+      "title": "MetaのAIエージェント Museを1ヶ月使い倒してわかったこと | kinoko dev",
+      "url": "https://dev.sin5d.com/meta-muse-usage",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-25T22:53:15.000Z",
+      "summaryJa": [
+        "XAIのGrokBot、Nous ResearchのHermes Aagent、OpenAIのChatGPT Bots、などなど、クラウドエージェントタイプのA",
+        "前回の記事でGrokBotについて詳しく書きましたので、今回はGrokBot以上によく使っているMeta社のMuseについてくわしく書いていこうと思います。",
+        "執筆時2026/11/25時点での情報なので状況."
+      ],
+      "category": "programming",
+      "keywords": [
+        "MetaのAIエージェント",
+        "Museを1ヶ月使い倒してわかったこと",
+        "kinoko",
+        "dev"
+      ],
+      "heat": {
+        "temperature": 81,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 444,
+          "ageHours": 21,
+          "crossSources": 1,
+          "velocity": 20.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-536f5fc8",
+      "title": "沖縄県本島北部に線状降水帯発生",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261127de82176",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-26T20:04:00.000Z",
+      "summaryJa": [
+        "前線の影響で、沖縄県では非常に激しい雨が降り気象庁は、午前4時8分、沖縄県本島北部に「線状降水帯発生」の気象防災速報を発表しました。",
+        "沖縄県ではレベル4の危険警報が出されている地域があり、土砂災害や…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "沖縄県本島北部に線状降水帯発生"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-f5ced862",
+      "title": "沖縄 東村全域に避難指示",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261127de82178",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-26T19:32:00.000Z",
+      "summaryJa": [
+        "沖縄県の東村は、レベル4土砂災害危険警報が発表されたことを受けて、27日午前3時10分に村内全域に避難指示を出しました。",
+        "5段階の警戒レベルのうち、レベル4にあたる情報で危険な場所から全員避難するよ…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "沖縄",
+        "東村全域に避難指示"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-a2dfdffe",
+      "title": "死者2000人超のアジアの記録的大雨から1年 生活再建が課題",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261127de82141",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-26T19:47:45.000Z",
+      "summaryJa": [
+        "東南アジアを中心にアジア各国で合わせて2000人以上が犠牲になった記録的な大雨から11月で1年です。",
+        "最大の被災地となったインドネシアでは被災者の生活再建が進まず、一部で政府に対する不満も高まっていま…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "生活再建が課題"
+      ],
+      "heat": {
+        "temperature": 60,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-5bd34547",
+      "title": "ロシア拘束の北海道新聞記者 妻が手記を公開【全文掲載】",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261126de81607",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-26T05:01:00.000Z",
+      "summaryJa": [
+        "ロシアの治安機関に拘束された北海道新聞の記者の妻が手記を公開し、「家族は悲しみのどん底にあり続けています。",
+        "小さな娘に、どうか大切なパパを返してください」などと早期の解放を訴えました。",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "ロシア拘束の北海道新聞記者",
+        "妻が手記を公開",
+        "全文掲載"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 15,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-9e54414e",
+      "title": "ニート寸前の女子大生→“ChatGPTを使い倒して”未経験で100日連続アプリ開発→国際学会で発表…年収2000万円・25歳経営者の“生成AIで激変した人生” | 文春オンライン",
+      "url": "https://bunshun.jp/articles/-/93682",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-26T01:24:43.000Z",
+      "summaryJa": [
+        "◆◆◆ 授業中にゲーム、ウィキペディアを組み合わせレポート提出…GPA0.",
+        "9で落第寸前だった ――AIを使いこなす前の大塚さんは、どんな大学生活を送っていたのですか。",
+        "大塚あみさん（以下、大塚） 多分、びっくりするぐらい普通だと思います。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "ニート寸前の女子大生→",
+        "ChatGPTを使い倒して",
+        "25歳経営者の",
+        "生成AIで激変した人生",
+        "文春オンライン"
+      ],
+      "heat": {
+        "temperature": 82,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 262,
+          "ageHours": 19,
           "crossSources": 1,
           "velocity": 13.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-c4c39d2a",
+      "title": "日本プロ野球",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E6%97%A5%E6%9C%AC%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-26T20:00:00.000Z",
+      "summaryJa": [
+        "日本プロ野球",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "日本プロ野球"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-9d7f3690",
+      "title": "角田裕毅",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E8%A7%92%E7%94%B0%E8%A3%95%E6%AF%85",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-26T19:50:00.000Z",
+      "summaryJa": [
+        "角田裕毅",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "角田裕毅"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-8d6caf36",
+      "title": "ソシエダ",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%82%BD%E3%82%B7%E3%82%A8%E3%83%80",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-26T19:50:00.000Z",
+      "summaryJa": [
+        "ソシエダ",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "ソシエダ"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
         }
       },
       "image": null
@@ -515,38 +462,38 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "show-hn-5293a25e",
-      "title": "Show HN: isometric.nyc – giant isometric pixel art map of NYC",
-      "url": "https://cannoneyed.com/isometric-nyc/",
-      "source": "Show HN",
-      "sourceId": "show-hn",
-      "publishedAt": "2026-01-22T16:52:35.000Z",
+      "id": "github-gems-dfada582",
+      "title": "TNT-Likely/BeeCount — Local-first bookkeeping for iOS/Android/Web · Self-hosted cloud + iCloud/WebDAV/S3 sync · AI capture · MCP | 本地优先的跨端记账 · 自建云 + iCloud/WebDAV/S3 同步 · AI 记账 · MCP",
+      "url": "https://github.com/TNT-Likely/BeeCount",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-26T16:26:30Z",
       "summaryJa": [
-        "Hey HN!",
-        "I wanted to share something I built over the last few weeks: isometric.",
-        "nyc is a massive isometric pixel art map of NYC, built with nano banana and codi"
+        "Local-first bookkeeping for iOS/Android/Web · Self-hosted cloud + iCloud/WebDAV/",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
       ],
-      "category": "tech",
+      "category": "oss",
       "keywords": [
-        "isometric.nyc",
-        "giant",
-        "isometric",
-        "pixel",
-        "art"
+        "TNT",
+        "Likely/BeeCount",
+        "Local",
+        "bookkeeping",
+        "iOS/Android/Web"
       ],
       "heat": {
-        "temperature": 71,
+        "temperature": 54,
         "signals": {
-          "hnPoints": 1325,
+          "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 7378,
+          "ageHours": 4,
           "crossSources": 1,
-          "velocity": 0.2
+          "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "ノーコードでAIエージェントを駆使し、巨大なドット絵マップを完成させた試みが圧巻です。自らコードを書かずとも構成力と指示で作品を立ち上げる可能性を示してくれます。"
+    "reason": "ローカルファーストかつMCP対応の記账アプリとして非常に実用性が高い。個人の支出記録をセルフホストで管理したい作り手に、手元のデータ主権を取り戻す選択肢として推奨します。"
   },
   "unavailableSources": []
 }
