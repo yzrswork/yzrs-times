@@ -372,6 +372,13 @@
       "edition": "morning",
       "theme": "エージェント運用の試行と手元の再構築",
       "path": "issues/2026-11-27-morning.json"
+    },
+    {
+      "issueNo": 280,
+      "date": "2026-11-27",
+      "edition": "midday",
+      "theme": "物理駆動の工作と開発環境の整流",
+      "path": "issues/2026-11-27-midday.json"
     }
   ]
 }

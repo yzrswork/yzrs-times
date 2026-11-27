@@ -1,114 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "cff4e4931ef46630": {
-      "url": "https://zenn.dev/happy_onigiri/articles/1a0601d2afec2c",
-      "summaryJa": [
-        "画像生成 AI は、ドット絵も描けるようになりました。",
-        "少なくとも、遠目にはそう見えます。",
-        "私はドット絵のイラストが好きで、SNS のアイコンやプロダクト紹介の 1 枚絵に使いたいと思っていました。"
-      ],
-      "cachedAt": "2026-08-28T20:19:31.420Z"
-    },
-    "2b5af8e39060fa2f": {
-      "url": "https://www.itmedia.co.jp/news/article/2608/28/2000000897/",
-      "summaryJa": [
-        "米Anthropicは8月27日（現地時間）、AIエージェントが物理的な機器を安全に操作するための共通仕様「Model Hardware Standard」（M",
-        "まずは科学研究機関と先端製造分野の一部パートナーに提供する。",
-        "MHSは、Anthropicと米HHMIジャネリア・リサーチ・キャンパスの共同作業か."
-      ],
-      "cachedAt": "2026-08-28T20:19:31.420Z"
-    },
-    "07aca43e12d4379f": {
-      "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
-      "summaryJa": [
-        "GUIs should be fully keyboard-driven",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-28T20:19:31.420Z"
-    },
-    "a7df0f567ea8f932": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260829de47121",
-      "summaryJa": [
-        "ネパールと中国の国境地帯で今月26日に発生した大規模な土石流では、これまでに両国で合わせて586人の死亡が確認され、このうちネパール側では1900人以上が行方不",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-28T20:19:31.420Z"
-    },
-    "27d1914effc64431": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260828de47105",
-      "summaryJa": [
-        "消せるボールペンを販売する大手筆記具メーカー「パイロットコーポレーション」が、韓国のメーカーの製品について特許権の侵害だと訴えた裁判で、東京地方裁判所は訴えを認",
-        "出典: NHKニュース 国際",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-28T20:19:31.420Z"
-    },
-    "4cf82d371dfbcb2f": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260828de47115",
-      "summaryJa": [
-        "人気お笑いコンビ「サンドウィッチマン」の伊達みきおさんが脳梗塞と診断され、当面、休養すると所属事務所が発表しました。",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-28T20:19:31.420Z"
-    },
-    "59cd78851a4c5c2e": {
-      "url": "https://news.yahoo.co.jp/pickup/6593460?source=rss",
-      "summaryJa": [
-        "FRBによる9月利​上げ観測高まる",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-28T20:19:31.420Z"
-    },
-    "639dac84fc9143af": {
-      "url": "https://www.itmedia.co.jp/news/article/2608/28/2000000893/",
-      "summaryJa": [
-        "米Googleは8月27日（現地時間）、信頼できる情報源をGoogleのAI製品で活用できるようにする、複数の製品にまたがる取り組み「Expert Intell",
-        "第1弾として、「Google Playブックス」で購入した対象の電子書籍を「Gemini Notebook」（旧「NotebookLM」）にソースとして追加でき",
-        "書籍を."
-      ],
-      "cachedAt": "2026-08-28T20:19:31.420Z"
-    },
-    "117b4213c3da984c": {
-      "url": "https://tmog.org",
-      "summaryJa": [
-        "The OG Creator of Task Manager on Windows Built a ",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-28T20:19:31.420Z"
-    },
-    "d56369a9ec491bac": {
-      "url": "https://en.refund4freedom.org/",
-      "summaryJa": [
-        "Get your Windows license refund",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-28T20:19:31.420Z"
-    },
-    "3e35b961d16f470d": {
-      "url": "https://dev.classmethod.jp/articles/2026-08_claude-code-product-workshop-kit/",
-      "summaryJa": [
-        "九州大学での Claude Code ハンズオンを、一人でもプロダクトを作れるワークショップキットと",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-28T20:19:31.420Z"
-    },
-    "d60ca2a571e4ba85": {
-      "url": "https://github.com/asapelkin/awesome-eink",
-      "summaryJa": [
-        "A curated list of awesome E-ink links and resources.",
-        "出典: GitHub 小さなOSS",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-28T20:19:31.420Z"
-    },
     "6e74a9ebc42394e1": {
       "url": "https://news.web.nhk/newsweb/na/nd-20260830de47200",
       "summaryJa": [
@@ -15354,6 +15246,87 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-26T20:22:56.073Z"
+    },
+    "d30b2b67f2a8f1d1": {
+      "url": "https://hackaday.com/2026/11/26/another-split-flap-display-you-can-print-yourself/",
+      "summaryJa": [
+        "Split flap displays were once widely popular in everything from airport terminal",
+        "Now they’re a little bit out of vogue in the mainstream, but that doesn’t …read ",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-27T02:47:58.174Z"
+    },
+    "b099716436616c96": {
+      "url": "https://zenn.dev/circularuins/articles/reproducible-ai-env-groundwork",
+      "summaryJa": [
+        "2026年11月時点の内容です。",
+        "この連載は、普段使っている AI 開発環境を、記事を順に読めば別の Mac でも組み直せる形で残すためのものです。",
+        "#0 では、その前に要る土台を入れます。"
+      ],
+      "cachedAt": "2026-11-27T02:47:58.174Z"
+    },
+    "4ec8629987cc2931": {
+      "url": "https://pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2159706.html",
+      "summaryJa": [
+        "【やじうまミニレビュー】 工具のマキタバッテリがPCの電源に!? 最大100Wの純正アダプタを使って",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-27T02:47:58.174Z"
+    },
+    "cf975ac8b14e8e40": {
+      "url": "https://hackaday.com/2026/11/26/location-accurate-weather-for-your-gecko/",
+      "summaryJa": [
+        "When building a terrarium, most people do their best to make it an acceptable en",
+        "Temperature and lighting can be regulated, and habitat-appropriate props placed ",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-27T02:47:58.174Z"
+    },
+    "35022a62d7f70131": {
+      "url": "https://zenn.dev/aioneautopilot/articles/ai-agent-publish-guard-hook",
+      "summaryJa": [
+        "この記事は AI(Claude)が書き、人間のオーナーが内容を確認してから公開しています。",
+        "連載「AI創業記」の2本目です。",
+        "1本目: 資金0円でAIに自律起業させる実験を始めた【設計編】 AIエージェントに「記事の公開まで任せる」と決めた瞬間、困ったことが2つ起きました。"
+      ],
+      "cachedAt": "2026-11-27T02:47:58.174Z"
+    },
+    "d02b3ef3c9be3766": {
+      "url": "https://zenn.dev/rimo/articles/8fcea772148266",
+      "summaryJa": [
+        "最近、Rimoのモバイルアプリ開発を、ほぼスマホだけでやっています。",
+        "2026年1月ごろから始めて、今だと出すPRの9割くらいがスマホから、ほぼ全部がClaude Codeのクラウドセッション経由でやっています。",
+        "Rimoのモバイルアプリは、AI議事録Rimoのマイク録音・文字起こしに特化したアプリとして2026年の4月にリリースしました。"
+      ],
+      "cachedAt": "2026-11-27T02:47:58.174Z"
+    },
+    "aebfbe56731bd98a": {
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "summaryJa": [
+        "AI made self-hosting fun again",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-27T02:47:58.174Z"
+    },
+    "f71f24617547e7bc": {
+      "url": "https://www.publickey1.jp/blog/26/aiai_1.html",
+      "summaryJa": [
+        "さくらインターネットは11月25日と26日の2日間、大規模イベント「SAKURA DEKIRU Conference 2026」を都内で開催。",
+        "2日目の基調講演で、新サービスとして月額固定料金でAIを提供する「シンプルAI」を発表しました。",
+        "月額固定料金で安定したAIモデルを提供 同社はすでに各種の生成AIモデルをAPI経由で提供するマネージドサ."
+      ],
+      "cachedAt": "2026-11-27T02:47:58.174Z"
+    },
+    "ad4ccb5271412980": {
+      "url": "https://github.com/mainsail-crew/mainsail",
+      "summaryJa": [
+        "Mainsail is the popular web interface for managing and controlling 3D printers w",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-27T02:47:58.174Z"
     }
   }
 }

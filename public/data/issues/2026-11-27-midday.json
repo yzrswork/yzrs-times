@@ -1,0 +1,552 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 280,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
+  "date": "2026-11-27",
+  "dateDisplay": "Friday, November 27, 2026",
+  "pressTimeJst": "2026-11-27 12:00",
+  "generatedAt": "2026-11-27T02:47:32.650Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "27e1e947"
+  },
+  "theme": {
+    "title": "物理駆動の工作と開発環境の整流",
+    "note": "手元の実体工作からエージェント実行環境の構築まで、手を動かす土台を整える昼刊。"
+  },
+  "editorial": {
+    "comment": "今週は『サポート材なしで一体印刷できるベンチマーク車モデル』を試してみます。A1 miniでサポート無効にして印刷し、一体成型の可動機構がどうG-codeで出力されるかを手に取って観察するのが楽しみです。 —— YZRS Times 編集長",
+    "passedOver": "宇宙空間への大量データセンター配置や大規模展示会の基調講演速報は、手元の作業領域から距離があるため見送りました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "霧雨",
+    "icon": "rain",
+    "tempMax": 16,
+    "tempMin": 7,
+    "precipChancePct": 9
+  },
+  "market": {
+    "fearGreed": {
+      "value": 12,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 61375,
+        "priceJpy": 9769143,
+        "change24hPct": 0.69,
+        "sparkline7d": [
+          61494.47,
+          55711.45,
+          61080.05,
+          63697.28,
+          59375.76,
+          60216.33,
+          60623.73
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1722.54,
+        "priceJpy": 274181,
+        "change24hPct": 1.2,
+        "sparkline7d": [
+          1733.3,
+          1559,
+          1715.94,
+          1805.03,
+          1667.05,
+          1688.24,
+          1698.97
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.128751,
+        "priceJpy": 20.49,
+        "change24hPct": -0.64,
+        "sparkline7d": [
+          0.132098,
+          0.120795,
+          0.129633,
+          0.133043,
+          0.122789,
+          0.128302,
+          0.126859
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 218.58,
+        "priceJpy": 34792,
+        "change24hPct": 4.69,
+        "sparkline7d": [
+          204.35,
+          181.69,
+          199.59,
+          207.95,
+          195.68,
+          204.2,
+          210.39
+        ]
+      }
+    ]
+  },
+  "top": [
+    "zenn-3dprinter-f0db9545",
+    "hackaday-d30b2b67",
+    "zenn-claudecode-b0997164"
+  ],
+  "sections": [
+    {
+      "id": "make",
+      "title": "作る",
+      "articleIds": [
+        "hatebu-it-4ec86299",
+        "hackaday-cf975ac8"
+      ]
+    },
+    {
+      "id": "3d-printing",
+      "title": "3Dプリンタ",
+      "articleIds": [
+        "zenn-3dprinter-ff3ed491"
+      ]
+    },
+    {
+      "id": "repair",
+      "title": "直す",
+      "articleIds": [
+        "hackaday-repair-4438a5fb",
+        "hackaday-repair-d0183c04"
+      ]
+    },
+    {
+      "id": "systems",
+      "title": "仕組みにする・残す",
+      "articleIds": [
+        "zenn-claudecode-35022a62",
+        "zenn-claudecode-d02b3ef3"
+      ]
+    },
+    {
+      "id": "tech-buzz",
+      "title": "技術の話題",
+      "articleIds": [
+        "hn-front-68a42325",
+        "hatebu-it-f71f2461"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "zenn-3dprinter-f0db9545",
+      "title": "サポート材なしで一体印刷！ベンチマーク車モデルを断面図とG-codeで徹底解剖",
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-12-riding-car-supportless",
+      "source": "Zenn 3Dプリンター",
+      "sourceId": "zenn-3dprinter",
+      "publishedAt": "2026-11-25T15:11:54.000Z",
+      "summaryJa": [
+        "普段は車のモデルを設計するときに「サポート材の除去で窓枠が折れる」「タイヤと車体がくっついて回らない」と悩みがちですが、今回はちょっと視点を変えて、MakerW",
+        "使ったプリンターはBambu Lab A1 mini（0.",
+        "4mmノズル・層高0."
+      ],
+      "category": "3dprint",
+      "keywords": [
+        "codeで徹底解剖"
+      ],
+      "heat": {
+        "temperature": 44,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 36,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-d30b2b67",
+      "title": "Another Split Flap Display You Can Print Yourself",
+      "url": "https://hackaday.com/2026/11/26/another-split-flap-display-you-can-print-yourself/",
+      "source": "Hackaday",
+      "sourceId": "hackaday",
+      "publishedAt": "2026-11-26T21:00:35.000Z",
+      "summaryJa": [
+        "Split flap displays were once widely popular in everything from airport terminal",
+        "Now they’re a little bit out of vogue in the mainstream, but that doesn’t …read ",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "make",
+      "keywords": [
+        "Another",
+        "Split",
+        "Flap",
+        "Display",
+        "Print"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-b0997164",
+      "title": "再現性のあるAI開発環境構築 #0 ―― 下ごしらえ: Claude Code 本体と ~/.claude の中身",
+      "url": "https://zenn.dev/circularuins/articles/reproducible-ai-env-groundwork",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-27T01:39:46.000Z",
+      "summaryJa": [
+        "2026年11月時点の内容です。",
+        "この連載は、普段使っている AI 開発環境を、記事を順に読めば別の Mac でも組み直せる形で残すためのものです。",
+        "#0 では、その前に要る土台を入れます。"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "再現性のあるAI開発環境構築",
+        "下ごしらえ",
+        "Claude",
+        "Code",
+        "本体と"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-4ec86299",
+      "title": "【やじうまミニレビュー】 工具のマキタバッテリがPCの電源に!? 最大100Wの純正アダプタを使ってみた",
+      "url": "https://pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2159706.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-26T22:47:09.000Z",
+      "summaryJa": [
+        "【やじうまミニレビュー】 工具のマキタバッテリがPCの電源に!? 最大100Wの純正アダプタを使って",
+        "出典: はてなブックマーク テクノロジー",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "工具のマキタバッテリがPCの電源に",
+        "最大100Wの純正アダプタを使ってみた"
+      ],
+      "heat": {
+        "temperature": 84,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 30,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 7.5
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-cf975ac8",
+      "title": "Location-Accurate Weather For Your Gecko",
+      "url": "https://hackaday.com/2026/11/26/location-accurate-weather-for-your-gecko/",
+      "source": "Hackaday",
+      "sourceId": "hackaday",
+      "publishedAt": "2026-11-26T18:00:31.000Z",
+      "summaryJa": [
+        "When building a terrarium, most people do their best to make it an acceptable en",
+        "Temperature and lighting can be regulated, and habitat-appropriate props placed ",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "make",
+      "keywords": [
+        "Location",
+        "Accurate",
+        "Weather",
+        "Gecko"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-3dprinter-ff3ed491",
+      "title": "全部透明の「おさかなキーボード」を自作した ── 3Dプリントの素材選びで学んだこと",
+      "url": "https://zenn.dev/pnrnc485/articles/05b15c274eaf8c",
+      "source": "Zenn 3Dプリンター",
+      "sourceId": "zenn-3dprinter",
+      "publishedAt": "2026-11-16T05:20:33.000Z",
+      "summaryJa": [
+        "はじめに ボディもキーキャップも、全部透明。",
+        "そんなキーボードを自作しました。",
+        "これまでは、自作の「Let's Split（レツプリ）」をずっと愛用していました。"
+      ],
+      "category": "3dprint",
+      "keywords": [
+        "全部透明の",
+        "3Dプリントの素材選びで学んだこと"
+      ],
+      "heat": {
+        "temperature": 45,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 261,
+          "crossSources": 2,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-repair-4438a5fb",
+      "title": "Espresso, Meet Custom-Machined Stainless Steel Boiler",
+      "url": "https://hackaday.com/2026/11/12/espresso-meet-custom-machined-stainless-steel-boiler/",
+      "source": "Hackaday Repair Hacks",
+      "sourceId": "hackaday-repair",
+      "publishedAt": "2026-11-12T09:00:33.000Z",
+      "summaryJa": [
+        "While pondering some repairs for his Gaggia Classic Pro espresso machine, [Hans ",
+        "It was a nontrivial undertaking, since the …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "repair",
+      "keywords": [
+        "Espresso",
+        "Meet",
+        "Custom",
+        "Machined",
+        "Stainless"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 354,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-repair-d0183c04",
+      "title": "Fixing a Dead Socket LGA 1851 Mainboard with a Resistor",
+      "url": "https://hackaday.com/2026/11/13/fixing-a-dead-socket-lga-1851-mainboard-with-a-resistor/",
+      "source": "Hackaday Repair Hacks",
+      "sourceId": "hackaday-repair",
+      "publishedAt": "2026-11-13T12:00:12.000Z",
+      "summaryJa": [
+        "Doing board level diagnosis on a PCB is hardly black magic, but some PCBs are de",
+        "The Socket LGA 1851 mainboard that [Fix the Pixel] got …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "repair",
+      "keywords": [
+        "Fixing",
+        "Dead",
+        "Socket",
+        "LGA",
+        "Mainboard"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 327,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-35022a62",
+      "title": "AIエージェントに公開権限を渡す前に入れた、30行のガードレール",
+      "url": "https://zenn.dev/aioneautopilot/articles/ai-agent-publish-guard-hook",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-27T01:19:38.000Z",
+      "summaryJa": [
+        "この記事は AI(Claude)が書き、人間のオーナーが内容を確認してから公開しています。",
+        "連載「AI創業記」の2本目です。",
+        "1本目: 資金0円でAIに自律起業させる実験を始めた【設計編】 AIエージェントに「記事の公開まで任せる」と決めた瞬間、困ったことが2つ起きました。"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "30行のガードレール"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-d02b3ef3",
+      "title": "Claudeクラウドセッション駆動にデバッグメニューと配信を整えたら、アプリの月間マージ数が3倍になった話",
+      "url": "https://zenn.dev/rimo/articles/8fcea772148266",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-27T01:40:04.000Z",
+      "summaryJa": [
+        "最近、Rimoのモバイルアプリ開発を、ほぼスマホだけでやっています。",
+        "2026年1月ごろから始めて、今だと出すPRの9割くらいがスマホから、ほぼ全部がClaude Codeのクラウドセッション経由でやっています。",
+        "Rimoのモバイルアプリは、AI議事録Rimoのマイク録音・文字起こしに特化したアプリとして2026年の4月にリリースしました。"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "アプリの月間マージ数が3倍になった話"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-68a42325",
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-26T21:47:45.000Z",
+      "summaryJa": [
+        "AI made self-hosting fun again",
+        "出典: Hacker News",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "tech",
+      "keywords": [
+        "AI",
+        "self",
+        "hosting",
+        "fun"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 347,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 69.4
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-f71f2461",
+      "title": "さくらインターネット、AIを月額固定料金で提供する「シンプルAI」発表、システムへの組み込み用途を想定",
+      "url": "https://www.publickey1.jp/blog/26/aiai_1.html",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-26T23:09:25.000Z",
+      "summaryJa": [
+        "さくらインターネットは11月25日と26日の2日間、大規模イベント「SAKURA DEKIRU Conference 2026」を都内で開催。",
+        "2日目の基調講演で、新サービスとして月額固定料金でAIを提供する「シンプルAI」を発表しました。",
+        "月額固定料金で安定したAIモデルを提供 同社はすでに各種の生成AIモデルをAPI経由で提供するマネージドサ."
+      ],
+      "category": "programming",
+      "keywords": [
+        "AIを月額固定料金で提供する",
+        "シンプルAI",
+        "発表",
+        "システムへの組み込み用途を想定"
+      ],
+      "heat": {
+        "temperature": 88,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 57,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 15.7
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-305c5a30",
+      "title": "mainsail-crew/mainsail — Mainsail is the popular web interface for managing and controlling 3D printers with Klipper.",
+      "url": "https://github.com/mainsail-crew/mainsail",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-26T22:41:11Z",
+      "summaryJa": [
+        "Mainsail is the popular web interface for managing and controlling 3D printers w",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "mainsail",
+        "crew/mainsail",
+        "popular",
+        "web",
+        "interface"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "3Dプリンタの制御とステータス監視をブラウザから軽快に行えるオープンソースのUIです。手元のプリント状況を可視化し、印刷フローを自分好みに拡張したい作り手に寄り添ってくれます。"
+  },
+  "unavailableSources": []
+}
