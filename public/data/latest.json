@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 280,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-11-27",
-  "dateDisplay": "Friday, November 27, 2026",
-  "pressTimeJst": "2026-11-27 12:00",
-  "generatedAt": "2026-11-27T02:47:32.650Z",
+  "issueNo": 281,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-28",
+  "dateDisplay": "Saturday, November 28, 2026",
+  "pressTimeJst": "2026-11-28 05:00",
+  "generatedAt": "2026-11-27T20:17:44.145Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,21 +14,21 @@
     "promptHash": "27e1e947"
   },
   "theme": {
-    "title": "物理駆動の工作と開発環境の整流",
-    "note": "手元の実体工作からエージェント実行環境の構築まで、手を動かす土台を整える昼刊。"
+    "title": "設計の復権とAI時代の道具観",
+    "note": "AIがコード生成を肩代わりする時代において、人間が全体像を記述するモデリングや基礎技術の価値が改めて見直されています。"
   },
   "editorial": {
-    "comment": "今週は『サポート材なしで一体印刷できるベンチマーク車モデル』を試してみます。A1 miniでサポート無効にして印刷し、一体成型の可動機構がどうG-codeで出力されるかを手に取って観察するのが楽しみです。 —— YZRS Times 編集長",
-    "passedOver": "宇宙空間への大量データセンター配置や大規模展示会の基調講演速報は、手元の作業領域から距離があるため見送りました。",
+    "comment": "今週は『AI使って開発するなら、モデリングするんだよ』で紹介されている4つの基本図を使った設計フローを実際の開発作業に取り入れてみます。Claude Codeに直接コードを書かせる前に、まずモデリング図で全体の構造と役割分担を定義して渡す実験を試すのが楽しみです。 —— YZRS Times 編集長",
+    "passedOver": "ロリポップやKARTEでの個人情報漏えい被害の報が多く見られましたが、利用者の直接的な対策手法に乏しいため選外としました。",
     "signature": "—— YZRS Times 編集長"
   },
   "weather": {
     "location": "Tokyo",
-    "summary": "霧雨",
+    "summary": "雨",
     "icon": "rain",
-    "tempMax": 16,
-    "tempMin": 7,
-    "precipChancePct": 9
+    "tempMax": 20,
+    "tempMin": 9,
+    "precipChancePct": 100
   },
   "market": {
     "fearGreed": {
@@ -39,475 +39,332 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 61375,
-        "priceJpy": 9769143,
-        "change24hPct": 0.69,
+        "priceUsd": 59711,
+        "priceJpy": 9527552,
+        "change24hPct": -1.53,
         "sparkline7d": [
-          61494.47,
-          55711.45,
-          61080.05,
-          63697.28,
-          59375.76,
-          60216.33,
-          60623.73
+          58502.26,
+          60121.3,
+          61215.87,
+          60368.11,
+          58816.96,
+          60692.58,
+          59858.3
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1722.54,
-        "priceJpy": 274181,
-        "change24hPct": 1.2,
+        "priceUsd": 1667.21,
+        "priceJpy": 266020,
+        "change24hPct": -2,
         "sparkline7d": [
-          1733.3,
-          1559,
-          1715.94,
-          1805.03,
-          1667.05,
-          1688.24,
-          1698.97
+          1606.77,
+          1682.85,
+          1730.59,
+          1696.29,
+          1645.77,
+          1696.63,
+          1669.89
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.128751,
-        "priceJpy": 20.49,
-        "change24hPct": -0.64,
+        "priceUsd": 0.126843,
+        "priceJpy": 20.24,
+        "change24hPct": -0.42,
         "sparkline7d": [
-          0.132098,
-          0.120795,
-          0.129633,
-          0.133043,
-          0.122789,
-          0.128302,
-          0.126859
+          0.126037,
+          0.128963,
+          0.127027,
+          0.129302,
+          0.122847,
+          0.127322,
+          0.12683
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 218.58,
-        "priceJpy": 34792,
-        "change24hPct": 4.69,
+        "priceUsd": 206.58,
+        "priceJpy": 32963,
+        "change24hPct": -1.15,
         "sparkline7d": [
-          204.35,
-          181.69,
-          199.59,
-          207.95,
-          195.68,
-          204.2,
-          210.39
+          190.72,
+          199.44,
+          197.59,
+          199.88,
+          194.58,
+          207.18,
+          206.23
         ]
       }
     ]
   },
   "top": [
-    "zenn-3dprinter-f0db9545",
-    "hackaday-d30b2b67",
-    "zenn-claudecode-b0997164"
+    "hatebu-it-4f191db4",
+    "nhk-top-d4312586",
+    "hatebu-it-13367c0c"
   ],
   "sections": [
     {
-      "id": "make",
-      "title": "作る",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hatebu-it-4ec86299",
-        "hackaday-cf975ac8"
+        "nhk-world-6c382782"
       ]
     },
     {
-      "id": "3d-printing",
-      "title": "3Dプリンタ",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-3dprinter-ff3ed491"
+        "hatebu-it-d19a74f3",
+        "hn-front-263e0ee1"
       ]
     },
     {
-      "id": "repair",
-      "title": "直す",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "hackaday-repair-4438a5fb",
-        "hackaday-repair-d0183c04"
-      ]
-    },
-    {
-      "id": "systems",
-      "title": "仕組みにする・残す",
-      "articleIds": [
-        "zenn-claudecode-35022a62",
-        "zenn-claudecode-d02b3ef3"
-      ]
-    },
-    {
-      "id": "tech-buzz",
-      "title": "技術の話題",
-      "articleIds": [
-        "hn-front-68a42325",
-        "hatebu-it-f71f2461"
+        "gtrends-jp-3d8a715c",
+        "gtrends-jp-1e1b73f6"
       ]
     }
   ],
   "articles": [
     {
-      "id": "zenn-3dprinter-f0db9545",
-      "title": "サポート材なしで一体印刷！ベンチマーク車モデルを断面図とG-codeで徹底解剖",
-      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-12-riding-car-supportless",
-      "source": "Zenn 3Dプリンター",
-      "sourceId": "zenn-3dprinter",
-      "publishedAt": "2026-11-25T15:11:54.000Z",
-      "summaryJa": [
-        "普段は車のモデルを設計するときに「サポート材の除去で窓枠が折れる」「タイヤと車体がくっついて回らない」と悩みがちですが、今回はちょっと視点を変えて、MakerW",
-        "使ったプリンターはBambu Lab A1 mini（0.",
-        "4mmノズル・層高0."
-      ],
-      "category": "3dprint",
-      "keywords": [
-        "codeで徹底解剖"
-      ],
-      "heat": {
-        "temperature": 44,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 36,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-d30b2b67",
-      "title": "Another Split Flap Display You Can Print Yourself",
-      "url": "https://hackaday.com/2026/11/26/another-split-flap-display-you-can-print-yourself/",
-      "source": "Hackaday",
-      "sourceId": "hackaday",
-      "publishedAt": "2026-11-26T21:00:35.000Z",
-      "summaryJa": [
-        "Split flap displays were once widely popular in everything from airport terminal",
-        "Now they’re a little bit out of vogue in the mainstream, but that doesn’t …read ",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "make",
-      "keywords": [
-        "Another",
-        "Split",
-        "Flap",
-        "Display",
-        "Print"
-      ],
-      "heat": {
-        "temperature": 53,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 6,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-claudecode-b0997164",
-      "title": "再現性のあるAI開発環境構築 #0 ―― 下ごしらえ: Claude Code 本体と ~/.claude の中身",
-      "url": "https://zenn.dev/circularuins/articles/reproducible-ai-env-groundwork",
-      "source": "Zenn Claude Code",
-      "sourceId": "zenn-claudecode",
-      "publishedAt": "2026-11-27T01:39:46.000Z",
-      "summaryJa": [
-        "2026年11月時点の内容です。",
-        "この連載は、普段使っている AI 開発環境を、記事を順に読めば別の Mac でも組み直せる形で残すためのものです。",
-        "#0 では、その前に要る土台を入れます。"
-      ],
-      "category": "workflow",
-      "keywords": [
-        "再現性のあるAI開発環境構築",
-        "下ごしらえ",
-        "Claude",
-        "Code",
-        "本体と"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-4ec86299",
-      "title": "【やじうまミニレビュー】 工具のマキタバッテリがPCの電源に!? 最大100Wの純正アダプタを使ってみた",
-      "url": "https://pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2159706.html",
+      "id": "hatebu-it-4f191db4",
+      "title": "AI使って開発するなら、モデリングするんだよ - 4つの図で始めるモデリングと、AIにモデルを実装させるアーキテクチャ",
+      "url": "https://speakerdeck.com/littlehands/umtp-suraido-20261125",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-26T22:47:09.000Z",
+      "publishedAt": "2026-11-26T23:54:33.000Z",
       "summaryJa": [
-        "【やじうまミニレビュー】 工具のマキタバッテリがPCの電源に!? 最大100Wの純正アダプタを使って",
-        "出典: はてなブックマーク テクノロジー",
-        "詳細は元記事を参照してください。"
+        "UMTP モデリングフォーラム 2026（2026/11/25）での登壇資料です。",
+        "https://umtp-japan.",
+        "org/event-seminar/mf2026/78668 AIで実装が速くなった今、人に残る仕事は何か。"
       ],
       "category": "programming",
       "keywords": [
-        "工具のマキタバッテリがPCの電源に",
-        "最大100Wの純正アダプタを使ってみた"
+        "AI使って開発するなら",
+        "モデリングするんだよ",
+        "4つの図で始めるモデリングと",
+        "AIにモデルを実装させるアーキテクチャ"
       ],
       "heat": {
-        "temperature": 84,
+        "temperature": 77,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 30,
-          "ageHours": 4,
+          "hatebuCount": 182,
+          "ageHours": 20,
           "crossSources": 1,
-          "velocity": 7.5
+          "velocity": 8.9
         }
       },
       "image": null
     },
     {
-      "id": "hackaday-cf975ac8",
-      "title": "Location-Accurate Weather For Your Gecko",
-      "url": "https://hackaday.com/2026/11/26/location-accurate-weather-for-your-gecko/",
-      "source": "Hackaday",
-      "sourceId": "hackaday",
-      "publishedAt": "2026-11-26T18:00:31.000Z",
+      "id": "nhk-top-d4312586",
+      "title": "生成AIへの不安 「犯罪に悪用される」が73% NHK世論調査",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261127de82786",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-27T20:05:17.000Z",
       "summaryJa": [
-        "When building a terrarium, most people do their best to make it an acceptable en",
-        "Temperature and lighting can be regulated, and habitat-appropriate props placed ",
+        "急速に普及が進む生成AIについて、NHKの世論調査で期待と不安を聞いたところ、期待することとしては「仕事の効率化が進む」が62％だった一方、不安は「犯罪に悪用さ",
+        "出典: NHKニュース 主要",
         "詳細は元記事を参照してください。"
       ],
-      "category": "make",
+      "category": "news",
       "keywords": [
-        "Location",
-        "Accurate",
-        "Weather",
-        "Gecko"
+        "生成AIへの不安",
+        "犯罪に悪用される",
+        "NHK世論調査"
       ],
       "heat": {
-        "temperature": 52,
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-13367c0c",
+      "title": "2026年に刊行されてよかったなと思うコンピューター技術書 - golden-luckyの日記",
+      "url": "https://golden-lucky.hatenablog.com/entry/2026/11/27/111643",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-27T02:26:32.000Z",
+      "summaryJa": [
+        "コンピューター技術書の市況は2026年に入ったころから冷え込みに拍車がかかっているように感じてます。",
+        "AIチャットで答えらしきものが得られるのでリファレンスの需要は激減したし、ノウハウ集っぽい本も不要になりました。",
+        "自分でコードを読み書きしなくてもエージェントでとりあえずアプリが生成されるので、プログラミ."
+      ],
+      "category": "programming",
+      "keywords": [
+        "golden",
+        "luckyの日記"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 227,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 12.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-6c382782",
+      "title": "米でブラックフライデー 年末商戦が本格化 個人消費に注目",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261128de82826",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-11-27T20:11:09.000Z",
+      "summaryJa": [
+        "アメリカでは27日、年末商戦が本格化する「ブラックフライデー」を迎え、ニューヨークのデパートなどは多くの買い物客でにぎわっています。",
+        "インフレが長期化するなかでも個人消費は堅調に推移してきましたが、年末…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "米でブラックフライデー",
+        "年末商戦が本格化",
+        "個人消費に注目"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-d19a74f3",
+      "title": "はじめての Lean",
+      "url": "https://unaoya.github.io/lean-intro/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-27T11:19:18.000Z",
+      "summaryJa": [
+        "この教材の目的は、Lean のコードを書けるようになることではなく、証明が検査される仕組みを納得することである。",
+        "目標目標1 — Lean を読めるようになる。",
+        "Lean のコードを読むとは、書かれた項の型を推測することである。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Lean"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 104,
           "ageHours": 9,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 11.6
         }
       },
       "image": null
     },
     {
-      "id": "zenn-3dprinter-ff3ed491",
-      "title": "全部透明の「おさかなキーボード」を自作した ── 3Dプリントの素材選びで学んだこと",
-      "url": "https://zenn.dev/pnrnc485/articles/05b15c274eaf8c",
-      "source": "Zenn 3Dプリンター",
-      "sourceId": "zenn-3dprinter",
-      "publishedAt": "2026-11-16T05:20:33.000Z",
-      "summaryJa": [
-        "はじめに ボディもキーキャップも、全部透明。",
-        "そんなキーボードを自作しました。",
-        "これまでは、自作の「Let's Split（レツプリ）」をずっと愛用していました。"
-      ],
-      "category": "3dprint",
-      "keywords": [
-        "全部透明の",
-        "3Dプリントの素材選びで学んだこと"
-      ],
-      "heat": {
-        "temperature": 45,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 261,
-          "crossSources": 2,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-repair-4438a5fb",
-      "title": "Espresso, Meet Custom-Machined Stainless Steel Boiler",
-      "url": "https://hackaday.com/2026/11/12/espresso-meet-custom-machined-stainless-steel-boiler/",
-      "source": "Hackaday Repair Hacks",
-      "sourceId": "hackaday-repair",
-      "publishedAt": "2026-11-12T09:00:33.000Z",
-      "summaryJa": [
-        "While pondering some repairs for his Gaggia Classic Pro espresso machine, [Hans ",
-        "It was a nontrivial undertaking, since the …read more",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "repair",
-      "keywords": [
-        "Espresso",
-        "Meet",
-        "Custom",
-        "Machined",
-        "Stainless"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 354,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-repair-d0183c04",
-      "title": "Fixing a Dead Socket LGA 1851 Mainboard with a Resistor",
-      "url": "https://hackaday.com/2026/11/13/fixing-a-dead-socket-lga-1851-mainboard-with-a-resistor/",
-      "source": "Hackaday Repair Hacks",
-      "sourceId": "hackaday-repair",
-      "publishedAt": "2026-11-13T12:00:12.000Z",
-      "summaryJa": [
-        "Doing board level diagnosis on a PCB is hardly black magic, but some PCBs are de",
-        "The Socket LGA 1851 mainboard that [Fix the Pixel] got …read more",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "repair",
-      "keywords": [
-        "Fixing",
-        "Dead",
-        "Socket",
-        "LGA",
-        "Mainboard"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 327,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-claudecode-35022a62",
-      "title": "AIエージェントに公開権限を渡す前に入れた、30行のガードレール",
-      "url": "https://zenn.dev/aioneautopilot/articles/ai-agent-publish-guard-hook",
-      "source": "Zenn Claude Code",
-      "sourceId": "zenn-claudecode",
-      "publishedAt": "2026-11-27T01:19:38.000Z",
-      "summaryJa": [
-        "この記事は AI(Claude)が書き、人間のオーナーが内容を確認してから公開しています。",
-        "連載「AI創業記」の2本目です。",
-        "1本目: 資金0円でAIに自律起業させる実験を始めた【設計編】 AIエージェントに「記事の公開まで任せる」と決めた瞬間、困ったことが2つ起きました。"
-      ],
-      "category": "workflow",
-      "keywords": [
-        "30行のガードレール"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-claudecode-d02b3ef3",
-      "title": "Claudeクラウドセッション駆動にデバッグメニューと配信を整えたら、アプリの月間マージ数が3倍になった話",
-      "url": "https://zenn.dev/rimo/articles/8fcea772148266",
-      "source": "Zenn Claude Code",
-      "sourceId": "zenn-claudecode",
-      "publishedAt": "2026-11-27T01:40:04.000Z",
-      "summaryJa": [
-        "最近、Rimoのモバイルアプリ開発を、ほぼスマホだけでやっています。",
-        "2026年1月ごろから始めて、今だと出すPRの9割くらいがスマホから、ほぼ全部がClaude Codeのクラウドセッション経由でやっています。",
-        "Rimoのモバイルアプリは、AI議事録Rimoのマイク録音・文字起こしに特化したアプリとして2026年の4月にリリースしました。"
-      ],
-      "category": "workflow",
-      "keywords": [
-        "アプリの月間マージ数が3倍になった話"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-68a42325",
-      "title": "AI made self-hosting fun again",
-      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "id": "hn-front-263e0ee1",
+      "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+      "url": "https://bouncemarket.minhanhday.com/",
       "source": "Hacker News",
       "sourceId": "hn-front",
-      "publishedAt": "2026-11-26T21:47:45.000Z",
+      "publishedAt": "2026-11-27T15:01:50.000Z",
       "summaryJa": [
-        "AI made self-hosting fun again",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
+        "a ball will fall.",
+        "trade on where it lands.",
+        "<p>I made this game!"
       ],
       "category": "tech",
       "keywords": [
-        "AI",
-        "self",
-        "hosting",
-        "fun"
+        "bouncemarket",
+        "live",
+        "prediction",
+        "market",
+        "game"
       ],
       "heat": {
-        "temperature": 88,
+        "temperature": 86,
         "signals": {
-          "hnPoints": 347,
+          "hnPoints": 273,
           "hatebuCount": 0,
           "ageHours": 5,
           "crossSources": 1,
-          "velocity": 69.4
+          "velocity": 51.9
         }
       },
       "image": null
     },
     {
-      "id": "hatebu-it-f71f2461",
-      "title": "さくらインターネット、AIを月額固定料金で提供する「シンプルAI」発表、システムへの組み込み用途を想定",
-      "url": "https://www.publickey1.jp/blog/26/aiai_1.html",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-26T23:09:25.000Z",
+      "id": "gtrends-jp-3d8a715c",
+      "title": "マネックス証券",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%9E%E3%83%8D%E3%83%83%E3%82%AF%E3%82%B9%E8%A8%BC%E5%88%B8",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-27T20:00:00.000Z",
       "summaryJa": [
-        "さくらインターネットは11月25日と26日の2日間、大規模イベント「SAKURA DEKIRU Conference 2026」を都内で開催。",
-        "2日目の基調講演で、新サービスとして月額固定料金でAIを提供する「シンプルAI」を発表しました。",
-        "月額固定料金で安定したAIモデルを提供 同社はすでに各種の生成AIモデルをAPI経由で提供するマネージドサ."
+        "マネックス証券",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
       ],
-      "category": "programming",
+      "category": "trends",
       "keywords": [
-        "AIを月額固定料金で提供する",
-        "シンプルAI",
-        "発表",
-        "システムへの組み込み用途を想定"
+        "マネックス証券"
       ],
       "heat": {
-        "temperature": 88,
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 57,
-          "ageHours": 4,
+          "hatebuCount": 0,
+          "ageHours": 1,
           "crossSources": 1,
-          "velocity": 15.7
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-1e1b73f6",
+      "title": "給付",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E7%B5%A6%E4%BB%98",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-27T19:40:00.000Z",
+      "summaryJa": [
+        "給付",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "給付"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
         }
       },
       "image": null
@@ -515,38 +372,36 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-305c5a30",
-      "title": "mainsail-crew/mainsail — Mainsail is the popular web interface for managing and controlling 3D printers with Klipper.",
-      "url": "https://github.com/mainsail-crew/mainsail",
+      "id": "github-gems-25c582bc",
+      "title": "MarlinFirmware/Configurations — Configurations for Marlin Firmware",
+      "url": "https://github.com/MarlinFirmware/Configurations",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-11-26T22:41:11Z",
+      "publishedAt": "2026-11-27T20:12:27Z",
       "summaryJa": [
-        "Mainsail is the popular web interface for managing and controlling 3D printers w",
+        "Configurations for Marlin Firmware",
         "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "mainsail",
-        "crew/mainsail",
-        "popular",
-        "web",
-        "interface"
+        "Configurations",
+        "Marlin",
+        "Firmware"
       ],
       "heat": {
-        "temperature": 54,
+        "temperature": 55,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 4,
+          "ageHours": 1,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "3Dプリンタの制御とステータス監視をブラウザから軽快に行えるオープンソースのUIです。手元のプリント状況を可視化し、印刷フローを自分好みに拡張したい作り手に寄り添ってくれます。"
+    "reason": "3Dプリンタの各種実機向け設定ファイルが網羅されており、ファームウェアのパラメータチューニングを知る宝庫です。自作機や設定カスタマイズの際に、パラメータの標準値やベストプラクティスを確認するリファレンスとして役立ちます。"
   },
   "unavailableSources": []
 }

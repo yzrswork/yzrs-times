@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "issueNo": 281,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-28",
+  "dateDisplay": "Saturday, November 28, 2026",
+  "pressTimeJst": "2026-11-28 05:00",
+  "generatedAt": "2026-11-27T20:17:44.145Z",
+  "generator": {
+    "appVersion": "0.1.0",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "promptHash": "27e1e947"
+  },
+  "theme": {
+    "title": "設計の復権とAI時代の道具観",
+    "note": "AIがコード生成を肩代わりする時代において、人間が全体像を記述するモデリングや基礎技術の価値が改めて見直されています。"
+  },
+  "editorial": {
+    "comment": "今週は『AI使って開発するなら、モデリングするんだよ』で紹介されている4つの基本図を使った設計フローを実際の開発作業に取り入れてみます。Claude Codeに直接コードを書かせる前に、まずモデリング図で全体の構造と役割分担を定義して渡す実験を試すのが楽しみです。 —— YZRS Times 編集長",
+    "passedOver": "ロリポップやKARTEでの個人情報漏えい被害の報が多く見られましたが、利用者の直接的な対策手法に乏しいため選外としました。",
+    "signature": "—— YZRS Times 編集長"
+  },
+  "weather": {
+    "location": "Tokyo",
+    "summary": "雨",
+    "icon": "rain",
+    "tempMax": 20,
+    "tempMin": 9,
+    "precipChancePct": 100
+  },
+  "market": {
+    "fearGreed": {
+      "value": 12,
+      "label": "Extreme Fear"
+    },
+    "coins": [
+      {
+        "id": "bitcoin",
+        "symbol": "BTC",
+        "priceUsd": 59711,
+        "priceJpy": 9527552,
+        "change24hPct": -1.53,
+        "sparkline7d": [
+          58502.26,
+          60121.3,
+          61215.87,
+          60368.11,
+          58816.96,
+          60692.58,
+          59858.3
+        ]
+      },
+      {
+        "id": "ethereum",
+        "symbol": "ETH",
+        "priceUsd": 1667.21,
+        "priceJpy": 266020,
+        "change24hPct": -2,
+        "sparkline7d": [
+          1606.77,
+          1682.85,
+          1730.59,
+          1696.29,
+          1645.77,
+          1696.63,
+          1669.89
+        ]
+      },
+      {
+        "id": "stellar",
+        "symbol": "XLM",
+        "priceUsd": 0.126843,
+        "priceJpy": 20.24,
+        "change24hPct": -0.42,
+        "sparkline7d": [
+          0.126037,
+          0.128963,
+          0.127027,
+          0.129302,
+          0.122847,
+          0.127322,
+          0.12683
+        ]
+      },
+      {
+        "id": "bitcoin-cash",
+        "symbol": "BCH",
+        "priceUsd": 206.58,
+        "priceJpy": 32963,
+        "change24hPct": -1.15,
+        "sparkline7d": [
+          190.72,
+          199.44,
+          197.59,
+          199.88,
+          194.58,
+          207.18,
+          206.23
+        ]
+      }
+    ]
+  },
+  "top": [
+    "hatebu-it-4f191db4",
+    "nhk-top-d4312586",
+    "hatebu-it-13367c0c"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "title": "時事",
+      "articleIds": [
+        "nhk-world-6c382782"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "世界のテック",
+      "articleIds": [
+        "hatebu-it-d19a74f3",
+        "hn-front-263e0ee1"
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "トレンド",
+      "articleIds": [
+        "gtrends-jp-3d8a715c",
+        "gtrends-jp-1e1b73f6"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "hatebu-it-4f191db4",
+      "title": "AI使って開発するなら、モデリングするんだよ - 4つの図で始めるモデリングと、AIにモデルを実装させるアーキテクチャ",
+      "url": "https://speakerdeck.com/littlehands/umtp-suraido-20261125",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-26T23:54:33.000Z",
+      "summaryJa": [
+        "UMTP モデリングフォーラム 2026（2026/11/25）での登壇資料です。",
+        "https://umtp-japan.",
+        "org/event-seminar/mf2026/78668 AIで実装が速くなった今、人に残る仕事は何か。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "AI使って開発するなら",
+        "モデリングするんだよ",
+        "4つの図で始めるモデリングと",
+        "AIにモデルを実装させるアーキテクチャ"
+      ],
+      "heat": {
+        "temperature": 77,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 182,
+          "ageHours": 20,
+          "crossSources": 1,
+          "velocity": 8.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-top-d4312586",
+      "title": "生成AIへの不安 「犯罪に悪用される」が73% NHK世論調査",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261127de82786",
+      "source": "NHKニュース 主要",
+      "sourceId": "nhk-top",
+      "publishedAt": "2026-11-27T20:05:17.000Z",
+      "summaryJa": [
+        "急速に普及が進む生成AIについて、NHKの世論調査で期待と不安を聞いたところ、期待することとしては「仕事の効率化が進む」が62％だった一方、不安は「犯罪に悪用さ",
+        "出典: NHKニュース 主要",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "生成AIへの不安",
+        "犯罪に悪用される",
+        "NHK世論調査"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-13367c0c",
+      "title": "2026年に刊行されてよかったなと思うコンピューター技術書 - golden-luckyの日記",
+      "url": "https://golden-lucky.hatenablog.com/entry/2026/11/27/111643",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-27T02:26:32.000Z",
+      "summaryJa": [
+        "コンピューター技術書の市況は2026年に入ったころから冷え込みに拍車がかかっているように感じてます。",
+        "AIチャットで答えらしきものが得られるのでリファレンスの需要は激減したし、ノウハウ集っぽい本も不要になりました。",
+        "自分でコードを読み書きしなくてもエージェントでとりあえずアプリが生成されるので、プログラミ."
+      ],
+      "category": "programming",
+      "keywords": [
+        "golden",
+        "luckyの日記"
+      ],
+      "heat": {
+        "temperature": 83,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 227,
+          "ageHours": 18,
+          "crossSources": 1,
+          "velocity": 12.7
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "nhk-world-6c382782",
+      "title": "米でブラックフライデー 年末商戦が本格化 個人消費に注目",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261128de82826",
+      "source": "NHKニュース 国際",
+      "sourceId": "nhk-world",
+      "publishedAt": "2026-11-27T20:11:09.000Z",
+      "summaryJa": [
+        "アメリカでは27日、年末商戦が本格化する「ブラックフライデー」を迎え、ニューヨークのデパートなどは多くの買い物客でにぎわっています。",
+        "インフレが長期化するなかでも個人消費は堅調に推移してきましたが、年末…",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "米でブラックフライデー",
+        "年末商戦が本格化",
+        "個人消費に注目"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hatebu-it-d19a74f3",
+      "title": "はじめての Lean",
+      "url": "https://unaoya.github.io/lean-intro/",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-27T11:19:18.000Z",
+      "summaryJa": [
+        "この教材の目的は、Lean のコードを書けるようになることではなく、証明が検査される仕組みを納得することである。",
+        "目標目標1 — Lean を読めるようになる。",
+        "Lean のコードを読むとは、書かれた項の型を推測することである。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "Lean"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 104,
+          "ageHours": 9,
+          "crossSources": 1,
+          "velocity": 11.6
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hn-front-263e0ee1",
+      "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+      "url": "https://bouncemarket.minhanhday.com/",
+      "source": "Hacker News",
+      "sourceId": "hn-front",
+      "publishedAt": "2026-11-27T15:01:50.000Z",
+      "summaryJa": [
+        "a ball will fall.",
+        "trade on where it lands.",
+        "<p>I made this game!"
+      ],
+      "category": "tech",
+      "keywords": [
+        "bouncemarket",
+        "live",
+        "prediction",
+        "market",
+        "game"
+      ],
+      "heat": {
+        "temperature": 86,
+        "signals": {
+          "hnPoints": 273,
+          "hatebuCount": 0,
+          "ageHours": 5,
+          "crossSources": 1,
+          "velocity": 51.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-3d8a715c",
+      "title": "マネックス証券",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%9E%E3%83%8D%E3%83%83%E3%82%AF%E3%82%B9%E8%A8%BC%E5%88%B8",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-27T20:00:00.000Z",
+      "summaryJa": [
+        "マネックス証券",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "マネックス証券"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-1e1b73f6",
+      "title": "給付",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E7%B5%A6%E4%BB%98",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-27T19:40:00.000Z",
+      "summaryJa": [
+        "給付",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "給付"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    }
+  ],
+  "hiddenGem": {
+    "article": {
+      "id": "github-gems-25c582bc",
+      "title": "MarlinFirmware/Configurations — Configurations for Marlin Firmware",
+      "url": "https://github.com/MarlinFirmware/Configurations",
+      "source": "GitHub 小さなOSS",
+      "sourceId": "github-gems",
+      "publishedAt": "2026-11-27T20:12:27Z",
+      "summaryJa": [
+        "Configurations for Marlin Firmware",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "oss",
+      "keywords": [
+        "Configurations",
+        "Marlin",
+        "Firmware"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    "reason": "3Dプリンタの各種実機向け設定ファイルが網羅されており、ファームウェアのパラメータチューニングを知る宝庫です。自作機や設定カスタマイズの際に、パラメータの標準値やベストプラクティスを確認するリファレンスとして役立ちます。"
+  },
+  "unavailableSources": []
+}

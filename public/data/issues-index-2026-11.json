@@ -379,6 +379,13 @@
       "edition": "midday",
       "theme": "物理駆動の工作と開発環境の整流",
       "path": "issues/2026-11-27-midday.json"
+    },
+    {
+      "issueNo": 281,
+      "date": "2026-11-28",
+      "edition": "morning",
+      "theme": "設計の復権とAI時代の道具観",
+      "path": "issues/2026-11-28-morning.json"
     }
   ]
 }
