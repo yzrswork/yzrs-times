@@ -1,96 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "cd2d85dedc4ad6d7": {
-      "url": "https://zenn.dev/holy_fox/articles/572083c130ce46",
-      "summaryJa": [
-        "みなさん、GPUを燃やしていますか？",
-        "もちろん「研究や開発でGPUを燃やすほど使い倒している」という意味なら、多くの方はイエスでしょう。",
-        "でも本記事で聞きたいのは、もう少し物理的な意味です。"
-      ],
-      "cachedAt": "2026-08-30T02:49:56.389Z"
-    },
-    "9bf4f675e94f095a": {
-      "url": "https://blog.shibayu36.org/entry/2026/08/29/154324",
-      "summaryJa": [
-        "技術書典21で「Goで作って学ぶリアルタイム通信サーバー入門 〜自作ターミナルゲームでわかるオンラインゲームの裏側〜」という本を出します。",
-        "技術書典21のオンライン開催は2026/11/21(土)〜12/6(日)。",
-        "オフライン開催は11/23(月・祝)に池袋サンシャインシティで行われ、どちらでも頒布する予定です。"
-      ],
-      "cachedAt": "2026-08-30T02:49:56.389Z"
-    },
-    "d8d04b884d07789b": {
-      "url": "https://zenn.dev/safie_inc/articles/ee72b837e4a5f1",
-      "summaryJa": [
-        "みなさんこんにちは。",
-        "セーフィーで認証基盤まわりを担当しています、中（なか）です。",
-        "最近は Claude Code に設計や実装を相談することが多く、プロンプトを毎日大量に打っています。"
-      ],
-      "cachedAt": "2026-08-30T02:49:56.389Z"
-    },
-    "3b1de9f08a97176f": {
-      "url": "https://gigazine.net/news/20260829-chatto/",
-      "summaryJa": [
-        "Discordなどのチャットサービスでは手軽にサーバーを作成してグループ内で会話できますが、メッセージや個人情報を含むチャットデータはサービス提供者のインフラ上",
-        "そこで、セルフホスト可能で数十MB程度のRAMから軽快に動.",
-        "."
-      ],
-      "cachedAt": "2026-08-30T02:49:56.389Z"
-    },
-    "1668a9343b57629c": {
-      "url": "https://defrag98.com",
-      "summaryJa": [
-        "Defrag98: Windows 98 Disk Defragmenter Simulator O",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-30T02:49:56.389Z"
-    },
-    "05502ae5938a9d5e": {
-      "url": "https://danluu.com/bug-blind/",
-      "summaryJa": [
-        "Bug Blindness",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-30T02:49:56.389Z"
-    },
-    "17ece153bf793947": {
-      "url": "https://qiita.com/youtoy/items/13410e47f27cdc136705?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "はじめに この記事は、「Isaac Sim（※ 以前、Qiita の記事に書いたNVIDIA のロボティクスシミュレーションなどのアプリ）」や、「Isaac L",
-        ".",
-        "."
-      ],
-      "cachedAt": "2026-08-30T02:49:56.389Z"
-    },
-    "6e96dc8f72cfb5f6": {
-      "url": "https://qiita.com/jqit_suwa/items/4231026d13f7527c0f69?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "summaryJa": [
-        "AI が書いた文章には、特徴的な語彙がある。",
-        "そういう分析が Hacker News で 663 ポイントを集めていました。",
-        "面白かったので、自分の Qiita 記事30本で同じことをやろうとしました。"
-      ],
-      "cachedAt": "2026-08-30T02:49:56.389Z"
-    },
-    "f00721c0e219c8ce": {
-      "url": "https://yogthos.net/posts/2026-08-29-glimmer-ui.html",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-30T02:49:56.389Z"
-    },
-    "988e010c0d48c1c3": {
-      "url": "https://www.quantamagazine.org/does-computer-science-need-computers-20260828/",
-      "summaryJa": [
-        "Comments",
-        "出典: Lobsters",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-30T02:49:56.389Z"
-    },
     "1e4307476f281ee0": {
       "url": "https://www.itmedia.co.jp/news/article/2608/30/2000000949/",
       "summaryJa": [
@@ -15390,6 +15300,96 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-28T02:48:12.333Z"
+    },
+    "050def87fcac82c3": {
+      "url": "https://togetter.com/li/2776106",
+      "summaryJa": [
+        "なゆえんじん @nayuengin 人類はまだ、「 Windowsキー + Shift + T 」で、本来文字としてコピーできないはずの画像をOCRで無理やり文",
+        ".",
+        "."
+      ],
+      "cachedAt": "2026-11-28T20:23:37.331Z"
+    },
+    "12c9d232118c58d2": {
+      "url": "https://zenn.dev/miraizuk/articles/ae8db2bc3ff561",
+      "summaryJa": [
+        "「脆弱性対応をしてほしい」と頼まれたとき、古い PHP や Laravel のシステムでまずやるべきことは、個別のパッチ当てではありません。",
+        "サポートが切れたバージョンには、もうセキュリティ修正が出ないからです。",
+        "脆弱性対応の本体はサポートされているバージョンまで上げることです。"
+      ],
+      "cachedAt": "2026-11-28T20:23:37.331Z"
+    },
+    "090e2b40313a66f4": {
+      "url": "https://speakerdeck.com/yossyds/deta-saientisuto-no-claude-code-katsuyoujutsu",
+      "summaryJa": [
+        "Claude Codeによってデータサイエンティスト業務を効率化する方法論をまとめました。",
+        "プロジェクトナレッジを溜める方法論から、ナレッジベースの作り方、AI時代のレビューしやすい分析コードのまとめかた（Claude.",
+        "md）など多岐にわたって筆者が実践している方法論を書いています。"
+      ],
+      "cachedAt": "2026-11-28T20:23:37.331Z"
+    },
+    "e5800d20e77bdd8b": {
+      "url": "https://news.yahoo.co.jp/pickup/6604336?source=rss",
+      "summaryJa": [
+        "亡き夫の愛車復活も白煙 妻の思い",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-28T20:23:37.331Z"
+    },
+    "3a873f5d285289e3": {
+      "url": "https://news.yahoo.co.jp/pickup/6604351?source=rss",
+      "summaryJa": [
+        "車5台が絡む事故 女性2人死亡",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-28T20:23:37.331Z"
+    },
+    "538bf129f3e9bcea": {
+      "url": "https://news.yahoo.co.jp/pickup/6604340?source=rss",
+      "summaryJa": [
+        "政党収入 グッズ販売で数千万円も",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-28T20:23:37.331Z"
+    },
+    "a661bd3be1efdf01": {
+      "url": "https://zenn.dev/kantacky/articles/b5a03eab70c7b1",
+      "summaryJa": [
+        "はじめに 近年、パスワード漏洩やフィッシングによる不正アクセス、さらには証券口座の乗っ取りといった認証にまつわるセキュリティ事件が後を絶ちません。",
+        "こうしたニュースが出るたびに、「パスワードを使い回さないようにしよう」「SMS や認証アプリによる 2 段階認証を設定しよう」といった対策記事や呼びかけを目に.",
+        "."
+      ],
+      "cachedAt": "2026-11-28T20:23:37.332Z"
+    },
+    "d07ab22b47f96d8b": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E5%AE%B6%E8%A8%88",
+      "summaryJa": [
+        "家計",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-28T20:23:37.332Z"
+    },
+    "10a64a589598bd38": {
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E7%87%83%E8%B2%BB",
+      "summaryJa": [
+        "燃費",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-28T20:23:37.332Z"
+    },
+    "f4bde2c02733b977": {
+      "url": "https://github.com/TheSpaghettiDetective/obico-server",
+      "summaryJa": [
+        "Open-source AI failure detection and remote monitoring for 3D printers running O",
+        "Self-host it on your own computer.",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-28T20:23:37.332Z"
     }
   }
 }

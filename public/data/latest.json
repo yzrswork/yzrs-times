@@ -1,28 +1,35 @@
 {
   "schemaVersion": 1,
-  "issueNo": 282,
-  "edition": "midday",
-  "editionTitle": "Midday Edition",
-  "date": "2026-11-28",
-  "dateDisplay": "Saturday, November 28, 2026",
-  "pressTimeJst": "2026-11-28 12:00",
-  "generatedAt": "2026-11-28T02:47:34.456Z",
+  "issueNo": 283,
+  "edition": "morning",
+  "editionTitle": "Morning Edition",
+  "date": "2026-11-29",
+  "dateDisplay": "Sunday, November 29, 2026",
+  "pressTimeJst": "2026-11-29 05:00",
+  "generatedAt": "2026-11-28T20:17:46.475Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.1-flash-lite",
     "promptHash": "27e1e947"
   },
   "theme": {
-    "title": "造形の工夫とエージェントの規律",
-    "note": "一体成型の巧みな構造からAIエージェントの安全な運用境界まで、手元の作業と仕組みを整える視点を集めました。"
+    "title": "手元の道具を再定義する",
+    "note": "既存の機材やツールを組み替え、日常の作業を最適化する視点を集めました。"
   },
   "editorial": {
-    "comment": "今週は『サポート材なしで一体印刷！ベンチマーク車モデルを断面図とG-codeで徹底解剖』を参考に、A1 miniでサポート不要の一体成型ミニカーを出力してみます。積層方向とブリッジ処理の巧みな工夫を実物の動きで確認し、RE:DRIVEの可動パーツ設計に応用するヒントを探ります。 —— YZRS Times 編集長",
-    "passedOver": "今日の見送り: シリコンバレーの管理職不要論や大型SaaSのアクセス制御の話題は、手元の物理工作やエージェント運用の試行から距離があるため見送りました。",
+    "comment": "今週は『古い PHP / Laravel の脆弱性対応は、Rector と AI でだいたい簡単に終わる』を参考に、手元の古いスクリプト群をRectorで近代化してみます。枯れた資産を最新の書き方に整える作業は、RE:DRIVEの設計見直しにも通じる快感があります。",
+    "passedOver": "ドナルド・クヌース氏の報奨金停止ニュースは、AI時代の信憑性と対価について考える重要な示唆を含みますが、今回は実務的なツール活用の記事を優先しました。",
     "signature": "—— YZRS Times 編集長"
   },
-  "weather": null,
+  "weather": {
+    "location": "Tokyo",
+    "summary": "曇り",
+    "icon": "cloudy",
+    "tempMax": 14,
+    "tempMin": 7,
+    "precipChancePct": 35
+  },
   "market": {
     "fearGreed": {
       "value": 10,
@@ -32,187 +39,266 @@
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 59937,
-        "priceJpy": 9563215,
-        "change24hPct": -2.31,
+        "priceUsd": 59297,
+        "priceJpy": 9461137,
+        "change24hPct": -0.68,
         "sparkline7d": [
-          58929.27,
-          58816.7,
-          61368.09,
-          59952.6,
-          58512.26,
-          60702.33,
-          59849.02
+          60260.62,
+          61172.02,
+          60272.13,
+          58679.19,
+          60459.52,
+          59185.98,
+          59443.28
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1662.87,
-        "priceJpy": 265319,
-        "change24hPct": -3.45,
+        "priceUsd": 1645.63,
+        "priceJpy": 262568,
+        "change24hPct": -1.25,
         "sparkline7d": [
-          1623.25,
-          1654.08,
-          1721.31,
-          1688.44,
-          1643.1,
-          1702.77,
-          1660.38
+          1684.25,
+          1721.62,
+          1694.49,
+          1639.14,
+          1693.14,
+          1653.85,
+          1647.64
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.126435,
-        "priceJpy": 20.17,
-        "change24hPct": -1.73,
+        "priceUsd": 0.123048,
+        "priceJpy": 19.63,
+        "change24hPct": -2.93,
         "sparkline7d": [
-          0.127217,
-          0.126682,
-          0.128554,
-          0.124583,
-          0.122855,
-          0.127634,
-          0.12685
+          0.129531,
+          0.127649,
+          0.13006,
+          0.122779,
+          0.127469,
+          0.125274,
+          0.122927
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 209.19,
-        "priceJpy": 33377,
-        "change24hPct": -4.37,
+        "priceUsd": 209.35,
+        "priceJpy": 33402,
+        "change24hPct": 1.44,
         "sparkline7d": [
-          194.28,
-          194.55,
-          199.94,
-          197.24,
-          196.07,
-          209.86,
-          208.26
+          198.41,
+          199.23,
+          201.14,
+          195.97,
+          206.3,
+          204.19,
+          208.18
         ]
       }
     ]
   },
   "top": [
-    "zenn-3dprinter-f0db9545",
-    "zenn-muse-fe4ca3f4",
-    "hackaday-370cc9e3"
+    "hatebu-it-050def87",
+    "hatebu-it-12c9d232",
+    "hatebu-it-090e2b40"
   ],
   "sections": [
     {
-      "id": "make",
-      "title": "作る",
+      "id": "news",
+      "title": "時事",
       "articleIds": [
-        "hackaday-2525c411",
-        "hackaday-6bbf050e"
+        "yahoo-topics-e5800d20",
+        "yahoo-topics-3a873f5d",
+        "yahoo-topics-538bf129"
       ]
     },
     {
-      "id": "3d-printing",
-      "title": "3Dプリンタ",
+      "id": "tech",
+      "title": "世界のテック",
       "articleIds": [
-        "zenn-3dprinter-72c64e47"
+        "hatebu-it-a661bd3b"
       ]
     },
     {
-      "id": "repair",
-      "title": "直す",
+      "id": "trends",
+      "title": "トレンド",
       "articleIds": [
-        "hackaday-repair-d0183c04",
-        "hackaday-repair-300ecb27"
-      ]
-    },
-    {
-      "id": "systems",
-      "title": "仕組みにする・残す",
-      "articleIds": [
-        "zenn-claudecode-7f499fb1",
-        "zenn-claudecode-7d7fbad1"
-      ]
-    },
-    {
-      "id": "tech-buzz",
-      "title": "技術の話題",
-      "articleIds": [
-        "hatebu-it-d19a74f3"
+        "gtrends-jp-d07ab22b",
+        "gtrends-jp-10a64a58"
       ]
     }
   ],
   "articles": [
     {
-      "id": "zenn-3dprinter-f0db9545",
-      "title": "サポート材なしで一体印刷！ベンチマーク車モデルを断面図とG-codeで徹底解剖",
-      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-12-riding-car-supportless",
-      "source": "Zenn 3Dプリンター",
-      "sourceId": "zenn-3dprinter",
-      "publishedAt": "2026-11-25T15:11:54.000Z",
+      "id": "hatebu-it-050def87",
+      "title": "人類はまだWin+Shift+Tで画像に表示された文字をOCRでコピー出来ることを知らない…ただしMicrosoft PowerToysを入れる必要がある",
+      "url": "https://togetter.com/li/2776106",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-28T12:07:43.000Z",
       "summaryJa": [
-        "普段は車のモデルを設計するときに「サポート材の除去で窓枠が折れる」「タイヤと車体がくっついて回らない」と悩みがちですが、今回はちょっと視点を変えて、MakerW",
-        "使ったプリンターはBambu Lab A1 mini（0.",
-        "4mmノズル・層高0."
+        "なゆえんじん @nayuengin 人類はまだ、「 Windowsキー + Shift + T 」で、本来文字としてコピーできないはずの画像をOCRで無理やり文",
+        ".",
+        "."
       ],
-      "category": "3dprint",
+      "category": "programming",
       "keywords": [
-        "codeで徹底解剖"
+        "PowerToysを入れる必要がある"
       ],
       "heat": {
-        "temperature": 40,
+        "temperature": 88,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 60,
+          "hatebuCount": 178,
+          "ageHours": 8,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 21.8
         }
       },
       "image": null
     },
     {
-      "id": "zenn-muse-fe4ca3f4",
-      "title": "AIエージェントに渡す権限の設計：読み取り専用から始めて、取り返しのつかない操作だけを分離する",
-      "url": "https://zenn.dev/aletheia_jp/articles/c4cd7b90c63e30",
-      "source": "Zenn Muse",
-      "sourceId": "zenn-muse",
-      "publishedAt": "2026-11-27T17:46:37.000Z",
+      "id": "hatebu-it-12c9d232",
+      "title": "古い PHP / Laravel の脆弱性対応は、Rector と AI でだいたい簡単に終わる",
+      "url": "https://zenn.dev/miraizuk/articles/ae8db2bc3ff561",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-27T23:24:49.000Z",
       "summaryJa": [
-        "AIエージェントの事故というと、「指示を誤解して変なことをした」という話を思い浮かべがちです。",
-        "でも実際に怖いのは、解釈の話ではなくて、触れてはいけないものに、正しい手順で触れてしまった事故の方です。",
-        "送信ボタンを押す権限があれば、エージェントは迷わず押します。"
+        "「脆弱性対応をしてほしい」と頼まれたとき、古い PHP や Laravel のシステムでまずやるべきことは、個別のパッチ当てではありません。",
+        "サポートが切れたバージョンには、もうセキュリティ修正が出ないからです。",
+        "脆弱性対応の本体はサポートされているバージョンまで上げることです。"
       ],
-      "category": "workflow",
+      "category": "programming",
       "keywords": [
-        "取り返しのつかない操作だけを分離する"
+        "古い",
+        "PHP",
+        "Laravel",
+        "Rector",
+        "AI"
       ],
       "heat": {
-        "temperature": 52,
+        "temperature": 73,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 9,
+          "hatebuCount": 96,
+          "ageHours": 21,
           "crossSources": 1,
-          "velocity": 0
+          "velocity": 4.6
         }
       },
       "image": null
     },
     {
-      "id": "hackaday-370cc9e3",
-      "title": "How to Make a Nixie Tube",
-      "url": "https://hackaday.com/2026/11/27/how-to-make-a-nixie-tube/",
-      "source": "Hackaday",
-      "sourceId": "hackaday",
-      "publishedAt": "2026-11-27T21:00:20.000Z",
+      "id": "hatebu-it-090e2b40",
+      "title": "データサイエンティストの Claude Code 活用術-Claude Code にデータ分析をさせる方法論",
+      "url": "https://speakerdeck.com/yossyds/deta-saientisuto-no-claude-code-katsuyoujutsu",
+      "source": "はてなブックマーク テクノロジー",
+      "sourceId": "hatebu-it",
+      "publishedAt": "2026-11-28T03:03:30.000Z",
       "summaryJa": [
-        "Recently [polymatt] had a poke at one of the all-time favorites in the retro com",
-        "Over the course of two weeks he tried to …read more",
+        "Claude Codeによってデータサイエンティスト業務を効率化する方法論をまとめました。",
+        "プロジェクトナレッジを溜める方法論から、ナレッジベースの作り方、AI時代のレビューしやすい分析コードのまとめかた（Claude.",
+        "md）など多岐にわたって筆者が実践している方法論を書いています。"
+      ],
+      "category": "programming",
+      "keywords": [
+        "データサイエンティストの",
+        "Claude",
+        "Code",
+        "活用術"
+      ],
+      "heat": {
+        "temperature": 78,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 118,
+          "ageHours": 17,
+          "crossSources": 1,
+          "velocity": 6.8
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "yahoo-topics-e5800d20",
+      "title": "亡き夫の愛車復活も白煙 妻の思い",
+      "url": "https://news.yahoo.co.jp/pickup/6604336?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-11-28T13:16:43.000Z",
+      "summaryJa": [
+        "亡き夫の愛車復活も白煙 妻の思い",
+        "出典: Yahoo!ニュース トピックス",
         "詳細は元記事を参照してください。"
       ],
-      "category": "make",
+      "category": "news",
       "keywords": [
-        "Nixie",
-        "Tube"
+        "亡き夫の愛車復活も白煙",
+        "妻の思い"
+      ],
+      "heat": {
+        "temperature": 53,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 7,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "yahoo-topics-3a873f5d",
+      "title": "車5台が絡む事故 女性2人死亡",
+      "url": "https://news.yahoo.co.jp/pickup/6604351?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-11-28T16:12:48.000Z",
+      "summaryJa": [
+        "車5台が絡む事故 女性2人死亡",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "車5台が絡む事故",
+        "女性2人死亡"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 4,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "yahoo-topics-538bf129",
+      "title": "政党収入 グッズ販売で数千万円も",
+      "url": "https://news.yahoo.co.jp/pickup/6604340?source=rss",
+      "source": "Yahoo!ニュース トピックス",
+      "sourceId": "yahoo-topics",
+      "publishedAt": "2026-11-28T13:49:15.000Z",
+      "summaryJa": [
+        "政党収入 グッズ販売で数千万円も",
+        "出典: Yahoo!ニュース トピックス",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "news",
+      "keywords": [
+        "政党収入",
+        "グッズ販売で数千万円も"
       ],
       "heat": {
         "temperature": 53,
@@ -227,245 +313,86 @@
       "image": null
     },
     {
-      "id": "hackaday-2525c411",
-      "title": "ESP32 Remote Access Done Light",
-      "url": "https://hackaday.com/2026/11/27/esp32-remote-access-done-light/",
-      "source": "Hackaday",
-      "sourceId": "hackaday",
-      "publishedAt": "2026-11-28T00:00:09.000Z",
-      "summaryJa": [
-        "The team behind Pinscope had a problem.",
-        "They needed an ESP32 to stay securely connected to a server, but they didn’t hav",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "make",
-      "keywords": [
-        "ESP32",
-        "Remote",
-        "Access",
-        "Light"
-      ],
-      "heat": {
-        "temperature": 54,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 3,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-6bbf050e",
-      "title": "uCompute Junior is an Easy Entry to the Embedded Platform",
-      "url": "https://hackaday.com/2026/11/27/ucompute-junior-is-an-easy-entry-to-the-embedded-platform/",
-      "source": "Hackaday",
-      "sourceId": "hackaday",
-      "publishedAt": "2026-11-27T16:30:52.000Z",
-      "summaryJa": [
-        "[JP Michon] has long been working on a bit of a modular microcontroller hardware",
-        "The latest entry in this series is …read more",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "make",
-      "keywords": [
-        "uCompute",
-        "Junior",
-        "Easy",
-        "Entry",
-        "Embedded"
-      ],
-      "heat": {
-        "temperature": 52,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 10,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-3dprinter-72c64e47",
-      "title": "3Dプリンタの印刷中に電源断！Z原点復帰なしで途中から再開するG-codeリカバリ術",
-      "url": "https://zenn.dev/hifn/articles/resume-3d-print-power-loss-gcode",
-      "source": "Zenn 3Dプリンター",
-      "sourceId": "zenn-3dprinter",
-      "publishedAt": "2026-11-23T11:00:05.000Z",
-      "summaryJa": [
-        "はじめに 3Dプリンタで1時間以上かかるパーツを出力している最中，ブレーカー落ちやコンセントの誤抜去，スマートプラグの誤作動などで突然電源が落ちてしまった経験は",
-        ".",
-        "."
-      ],
-      "category": "3dprint",
-      "keywords": [
-        "codeリカバリ術"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 112,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-repair-d0183c04",
-      "title": "Fixing a Dead Socket LGA 1851 Mainboard with a Resistor",
-      "url": "https://hackaday.com/2026/11/13/fixing-a-dead-socket-lga-1851-mainboard-with-a-resistor/",
-      "source": "Hackaday Repair Hacks",
-      "sourceId": "hackaday-repair",
-      "publishedAt": "2026-11-13T12:00:12.000Z",
-      "summaryJa": [
-        "Doing board level diagnosis on a PCB is hardly black magic, but some PCBs are de",
-        "The Socket LGA 1851 mainboard that [Fix the Pixel] got …read more",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "repair",
-      "keywords": [
-        "Fixing",
-        "Dead",
-        "Socket",
-        "LGA",
-        "Mainboard"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 351,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hackaday-repair-300ecb27",
-      "title": "A Hazeltine 1420 Lives Again",
-      "url": "https://hackaday.com/2026/11/14/a-hazeltine-1420-lives-again/",
-      "source": "Hackaday Repair Hacks",
-      "sourceId": "hackaday-repair",
-      "publishedAt": "2026-11-14T18:00:19.000Z",
-      "summaryJa": [
-        "There was a time when buying a computer also meant picking out a compatible term",
-        "There were many to choose from, some good and some bad.",
-        "While we were partial …read more"
-      ],
-      "category": "repair",
-      "keywords": [
-        "Hazeltine",
-        "Lives"
-      ],
-      "heat": {
-        "temperature": 40,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 321,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-claudecode-7f499fb1",
-      "title": "Claude Code のフックで「前回の続き」を差し込んでたら、1 万字を超えて頭だけになってた（設定とスクリプトつき）",
-      "url": "https://zenn.dev/azarashi_ora/articles/ora-claude-code-hook-cap",
-      "source": "Zenn Claude Code",
-      "sourceId": "zenn-claudecode",
-      "publishedAt": "2026-11-27T13:14:21.000Z",
-      "summaryJa": [
-        "AI のアザラシ「オラ」だ。",
-        "この記事も、オラが書いてる。",
-        "Claude Code の部屋（会話）は、閉じると前の事を忘れる。"
-      ],
-      "category": "workflow",
-      "keywords": [
-        "Claude",
-        "Code",
-        "前回の続き",
-        "万字を超えて頭だけになってた",
-        "設定とスクリプトつき"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 14,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "zenn-claudecode-7d7fbad1",
-      "title": "Windows の Claude Code で裏の Bash を止めても、中で動かしたものは残り続ける",
-      "url": "https://zenn.dev/kamijo_aoto/articles/claude-code-bash-orphan-processes",
-      "source": "Zenn Claude Code",
-      "sourceId": "zenn-claudecode",
-      "publishedAt": "2026-11-27T13:31:36.000Z",
-      "summaryJa": [
-        "Claude Code の Bash ツールは、時間のかかるコマンドを裏で動かせます（run_in_background）。",
-        "止めたいときは TaskStop で止めます。",
-        "ところが Windows（Git for Windows の Bash）では、TaskStop で止めても、そのコマンドの中で動かしたもの（& で裏に回したもの"
-      ],
-      "category": "workflow",
-      "keywords": [
-        "Windows",
-        "Claude",
-        "Code",
-        "Bash",
-        "中で動かしたものは残り続ける"
-      ],
-      "heat": {
-        "temperature": 51,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 13,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hatebu-it-d19a74f3",
-      "title": "はじめての Lean",
-      "url": "https://unaoya.github.io/lean-intro/",
+      "id": "hatebu-it-a661bd3b",
+      "title": "パスキーは最強で美しいよ、正しく実装すればね",
+      "url": "https://zenn.dev/kantacky/articles/b5a03eab70c7b1",
       "source": "はてなブックマーク テクノロジー",
       "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-27T11:19:18.000Z",
+      "publishedAt": "2026-11-28T08:31:00.000Z",
       "summaryJa": [
-        "この教材の目的は、Lean のコードを書けるようになることではなく、証明が検査される仕組みを納得することである。",
-        "目標目標1 — Lean を読めるようになる。",
-        "Lean のコードを読むとは、書かれた項の型を推測することである。"
+        "はじめに 近年、パスワード漏洩やフィッシングによる不正アクセス、さらには証券口座の乗っ取りといった認証にまつわるセキュリティ事件が後を絶ちません。",
+        "こうしたニュースが出るたびに、「パスワードを使い回さないようにしよう」「SMS や認証アプリによる 2 段階認証を設定しよう」といった対策記事や呼びかけを目に.",
+        "."
       ],
       "category": "programming",
       "keywords": [
-        "Lean"
+        "パスキーは最強で美しいよ",
+        "正しく実装すればね"
       ],
       "heat": {
-        "temperature": 85,
+        "temperature": 78,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 241,
-          "ageHours": 15,
+          "hatebuCount": 69,
+          "ageHours": 12,
           "crossSources": 1,
-          "velocity": 15.6
+          "velocity": 5.9
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-d07ab22b",
+      "title": "家計",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E5%AE%B6%E8%A8%88",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-28T20:00:00.000Z",
+      "summaryJa": [
+        "家計",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "家計"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "gtrends-jp-10a64a58",
+      "title": "燃費",
+      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E7%87%83%E8%B2%BB",
+      "source": "Google トレンド",
+      "sourceId": "gtrends-jp",
+      "publishedAt": "2026-11-28T19:40:00.000Z",
+      "summaryJa": [
+        "燃費",
+        "出典: Google トレンド",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "trends",
+      "keywords": [
+        "燃費"
+      ],
+      "heat": {
+        "temperature": 55,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 1,
+          "crossSources": 1,
+          "velocity": 0
         }
       },
       "image": null
@@ -473,23 +400,24 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-ffd799fb",
-      "title": "fluidd-core/fluidd — Fluidd, the klipper UI.",
-      "url": "https://github.com/fluidd-core/fluidd",
+      "id": "github-gems-ed895c9a",
+      "title": "TheSpaghettiDetective/obico-server — Open-source AI failure detection and remote monitoring for 3D printers running OctoPrint or Klipper. Self-host it on your own computer.",
+      "url": "https://github.com/TheSpaghettiDetective/obico-server",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-11-28T01:09:32Z",
+      "publishedAt": "2026-11-28T18:12:49Z",
       "summaryJa": [
-        "Fluidd, the klipper UI.",
-        "出典: GitHub 小さなOSS",
+        "Open-source AI failure detection and remote monitoring for 3D printers running O",
+        "Self-host it on your own computer.",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "fluidd",
-        "core/fluidd",
-        "klipper",
-        "UI"
+        "server",
+        "source",
+        "AI",
+        "failure",
+        "detection"
       ],
       "heat": {
         "temperature": 54,
@@ -503,9 +431,10 @@
       },
       "image": null
     },
-    "reason": "3Dプリンタの制御UIであるFluiddは、Web上から軽快に動作状況を監視・操作できる優れたインターフェースです。手元のプリント環境をより直感的にアップデートしたい作図派にとって試す価値のあるツールです。"
+    "reason": "3Dプリンタの監視を自前サーバーで完結させるOSSです。A1 miniでの長時間プリントの安心材料として、Raspberry Piを活用するきっかけになります。"
   },
   "unavailableSources": [
-    "Weather"
+    "NHKニュース 主要",
+    "NHKニュース 国際"
   ]
 }

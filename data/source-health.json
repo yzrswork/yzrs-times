@@ -2,48 +2,48 @@
   "schemaVersion": 1,
   "sources": {
     "nhk-top": {
-      "consecutiveFailures": 0,
+      "consecutiveFailures": 1,
       "lastSuccessAt": "2026-11-27T20:17:47.265Z",
-      "lastFailureAt": null
+      "lastFailureAt": "2026-11-28T20:17:47.624Z"
     },
     "nhk-world": {
-      "consecutiveFailures": 0,
+      "consecutiveFailures": 1,
       "lastSuccessAt": "2026-11-27T20:17:47.265Z",
-      "lastFailureAt": null
+      "lastFailureAt": "2026-11-28T20:17:47.624Z"
     },
     "yahoo-topics": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-27T20:17:47.265Z",
+      "lastSuccessAt": "2026-11-28T20:17:47.624Z",
       "lastFailureAt": null
     },
     "hatebu-it": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-28T02:47:35.797Z",
+      "lastSuccessAt": "2026-11-28T20:17:47.624Z",
       "lastFailureAt": null
     },
     "hn-front": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-28T02:47:35.797Z",
+      "lastSuccessAt": "2026-11-28T20:17:47.624Z",
       "lastFailureAt": null
     },
     "gtrends-jp": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-27T20:17:47.265Z",
+      "lastSuccessAt": "2026-11-28T20:17:47.624Z",
       "lastFailureAt": null
     },
     "show-hn": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-28T02:47:35.797Z",
+      "lastSuccessAt": "2026-11-28T20:17:47.624Z",
       "lastFailureAt": "2026-10-06T01:17:36.402Z"
     },
     "github-gems": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-28T02:47:35.797Z",
+      "lastSuccessAt": "2026-11-28T20:17:47.624Z",
       "lastFailureAt": null
     },
     "indieblog": {
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-28T02:47:35.797Z",
+      "lastSuccessAt": "2026-11-28T20:17:47.624Z",
       "lastFailureAt": null
     },
     "zenn-trend": {

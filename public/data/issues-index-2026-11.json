@@ -393,6 +393,13 @@
       "edition": "midday",
       "theme": "造形の工夫とエージェントの規律",
       "path": "issues/2026-11-28-midday.json"
+    },
+    {
+      "issueNo": 283,
+      "date": "2026-11-29",
+      "edition": "morning",
+      "theme": "手元の道具を再定義する",
+      "path": "issues/2026-11-29-morning.json"
     }
   ]
 }
