@@ -1,87 +1,6 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "6e74a9ebc42394e1": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260830de47200",
-      "summaryJa": [
-        "前線と湿った空気の影響で福井県では当初の予想を上回る大雨となり、気象庁は午前4時30分、レベル5大雨特別警報を発表しました。",
-        "浸水や川の氾濫による重大な災害がすでに発生している可能性が極めて高く、気…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-29T20:20:00.927Z"
-    },
-    "c9cf59b44a2d246e": {
-      "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
-      "summaryJa": [
-        "Good Culture Is the Biggest Productivity Hack, Not",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-29T20:20:00.927Z"
-    },
-    "2a1d5ed21ba4d489": {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/28/news020.html",
-      "summaryJa": [
-        "画像生成・コード実行・API化を1つのアプリに統合「Unsloth Desktop」登場 クラウド生成AIの普及が進む一方、情報漏えいを防ぎコストを抑えるローカ",
-        "本Tech TIPSでは2026年8月に登場した「Unsloth Desktop」を解説する。",
-        "チャットだけでなくノーコード学習や画像生成までGUIで完結する本ツー."
-      ],
-      "cachedAt": "2026-08-29T20:20:00.927Z"
-    },
-    "64e145c099cc797d": {
-      "url": "https://news.yahoo.co.jp/pickup/6593206?source=rss",
-      "summaryJa": [
-        "安全確保を 大雨のときのNG行動",
-        "出典: Yahoo!ニュース トピックス",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-29T20:20:00.927Z"
-    },
-    "11131b03d4110998": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260828de46854",
-      "summaryJa": [
-        "30日午前0時17分ごろ、茨城県で震度4の揺れを観測する地震がありました。",
-        "この地震による津波の心配はありません。",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-29T20:20:00.927Z"
-    },
-    "99ac0b7e82e9ea09": {
-      "url": "https://news.web.nhk/newsweb/na/nd-20260830de47203",
-      "summaryJa": [
-        "ネパールと中国の国境地帯で発生した大規模な土石流では、これまでに両国であわせて682人が死亡したほか、ネパール側では2400人以上が行方不明となっています。",
-        "土石流が発生した際、税関事務所で働いてい…",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-29T20:20:00.927Z"
-    },
-    "6b67b7c843708761": {
-      "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
-      "summaryJa": [
-        "Htmx 4.0",
-        "出典: Hacker News",
-        "詳細は元記事を参照してください。"
-      ],
-      "cachedAt": "2026-08-29T20:20:00.927Z"
-    },
-    "24ce681aa223b175": {
-      "url": "https://ktrmnm.jp/blog/2026-08-29-what-is-ai-ism-jp/",
-      "summaryJa": [
-        "まず以下の文章を見てほしい。",
-        "はじめまして。",
-        "今日から転校してきました、山田スロップ太郎と申します。"
-      ],
-      "cachedAt": "2026-08-29T20:20:00.927Z"
-    },
-    "c86db880b2f314ab": {
-      "url": "https://github.com/maziggy/bambuddy",
-      "summaryJa": [
-        "Your Bambu Lab.",
-        "No Cloud.",
-        "Your Rules."
-      ],
-      "cachedAt": "2026-08-29T20:20:00.927Z"
-    },
     "cd2d85dedc4ad6d7": {
       "url": "https://zenn.dev/holy_fox/articles/572083c130ce46",
       "summaryJa": [
@@ -15408,6 +15327,69 @@
         "詳細は元記事を参照してください。"
       ],
       "cachedAt": "2026-11-27T20:18:47.860Z"
+    },
+    "fe4ca3f477fd6e15": {
+      "url": "https://zenn.dev/aletheia_jp/articles/c4cd7b90c63e30",
+      "summaryJa": [
+        "AIエージェントの事故というと、「指示を誤解して変なことをした」という話を思い浮かべがちです。",
+        "でも実際に怖いのは、解釈の話ではなくて、触れてはいけないものに、正しい手順で触れてしまった事故の方です。",
+        "送信ボタンを押す権限があれば、エージェントは迷わず押します。"
+      ],
+      "cachedAt": "2026-11-28T02:48:12.333Z"
+    },
+    "370cc9e31c584d11": {
+      "url": "https://hackaday.com/2026/11/27/how-to-make-a-nixie-tube/",
+      "summaryJa": [
+        "Recently [polymatt] had a poke at one of the all-time favorites in the retro com",
+        "Over the course of two weeks he tried to …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-28T02:48:12.333Z"
+    },
+    "2525c41185e6e431": {
+      "url": "https://hackaday.com/2026/11/27/esp32-remote-access-done-light/",
+      "summaryJa": [
+        "The team behind Pinscope had a problem.",
+        "They needed an ESP32 to stay securely connected to a server, but they didn’t hav",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-28T02:48:12.333Z"
+    },
+    "6bbf050ed794b0c3": {
+      "url": "https://hackaday.com/2026/11/27/ucompute-junior-is-an-easy-entry-to-the-embedded-platform/",
+      "summaryJa": [
+        "[JP Michon] has long been working on a bit of a modular microcontroller hardware",
+        "The latest entry in this series is …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-28T02:48:12.333Z"
+    },
+    "7f499fb18dd01eb8": {
+      "url": "https://zenn.dev/azarashi_ora/articles/ora-claude-code-hook-cap",
+      "summaryJa": [
+        "AI のアザラシ「オラ」だ。",
+        "この記事も、オラが書いてる。",
+        "Claude Code の部屋（会話）は、閉じると前の事を忘れる。"
+      ],
+      "cachedAt": "2026-11-28T02:48:12.333Z"
+    },
+    "7d7fbad1b25dfefb": {
+      "url": "https://zenn.dev/kamijo_aoto/articles/claude-code-bash-orphan-processes",
+      "summaryJa": [
+        "Claude Code の Bash ツールは、時間のかかるコマンドを裏で動かせます（run_in_background）。",
+        "止めたいときは TaskStop で止めます。",
+        "ところが Windows（Git for Windows の Bash）では、TaskStop で止めても、そのコマンドの中で動かしたもの（& で裏に回したもの"
+      ],
+      "cachedAt": "2026-11-28T02:48:12.333Z"
+    },
+    "805d2c2222d4b6e7": {
+      "url": "https://github.com/fluidd-core/fluidd",
+      "summaryJa": [
+        "Fluidd, the klipper UI.",
+        "出典: GitHub 小さなOSS",
+        "詳細は元記事を参照してください。"
+      ],
+      "cachedAt": "2026-11-28T02:48:12.333Z"
     }
   }
 }

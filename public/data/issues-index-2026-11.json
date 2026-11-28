@@ -386,6 +386,13 @@
       "edition": "morning",
       "theme": "設計の復権とAI時代の道具観",
       "path": "issues/2026-11-28-morning.json"
+    },
+    {
+      "issueNo": 282,
+      "date": "2026-11-28",
+      "edition": "midday",
+      "theme": "造形の工夫とエージェントの規律",
+      "path": "issues/2026-11-28-midday.json"
     }
   ]
 }

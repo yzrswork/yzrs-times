@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "issueNo": 281,
-  "edition": "morning",
-  "editionTitle": "Morning Edition",
+  "issueNo": 282,
+  "edition": "midday",
+  "editionTitle": "Midday Edition",
   "date": "2026-11-28",
   "dateDisplay": "Saturday, November 28, 2026",
-  "pressTimeJst": "2026-11-28 05:00",
-  "generatedAt": "2026-11-27T20:17:44.145Z",
+  "pressTimeJst": "2026-11-28 12:00",
+  "generatedAt": "2026-11-28T02:47:34.456Z",
   "generator": {
     "appVersion": "0.1.0",
     "provider": "gemini",
@@ -14,180 +14,155 @@
     "promptHash": "27e1e947"
   },
   "theme": {
-    "title": "設計の復権とAI時代の道具観",
-    "note": "AIがコード生成を肩代わりする時代において、人間が全体像を記述するモデリングや基礎技術の価値が改めて見直されています。"
+    "title": "造形の工夫とエージェントの規律",
+    "note": "一体成型の巧みな構造からAIエージェントの安全な運用境界まで、手元の作業と仕組みを整える視点を集めました。"
   },
   "editorial": {
-    "comment": "今週は『AI使って開発するなら、モデリングするんだよ』で紹介されている4つの基本図を使った設計フローを実際の開発作業に取り入れてみます。Claude Codeに直接コードを書かせる前に、まずモデリング図で全体の構造と役割分担を定義して渡す実験を試すのが楽しみです。 —— YZRS Times 編集長",
-    "passedOver": "ロリポップやKARTEでの個人情報漏えい被害の報が多く見られましたが、利用者の直接的な対策手法に乏しいため選外としました。",
+    "comment": "今週は『サポート材なしで一体印刷！ベンチマーク車モデルを断面図とG-codeで徹底解剖』を参考に、A1 miniでサポート不要の一体成型ミニカーを出力してみます。積層方向とブリッジ処理の巧みな工夫を実物の動きで確認し、RE:DRIVEの可動パーツ設計に応用するヒントを探ります。 —— YZRS Times 編集長",
+    "passedOver": "今日の見送り: シリコンバレーの管理職不要論や大型SaaSのアクセス制御の話題は、手元の物理工作やエージェント運用の試行から距離があるため見送りました。",
     "signature": "—— YZRS Times 編集長"
   },
-  "weather": {
-    "location": "Tokyo",
-    "summary": "雨",
-    "icon": "rain",
-    "tempMax": 20,
-    "tempMin": 9,
-    "precipChancePct": 100
-  },
+  "weather": null,
   "market": {
     "fearGreed": {
-      "value": 12,
+      "value": 10,
       "label": "Extreme Fear"
     },
     "coins": [
       {
         "id": "bitcoin",
         "symbol": "BTC",
-        "priceUsd": 59711,
-        "priceJpy": 9527552,
-        "change24hPct": -1.53,
+        "priceUsd": 59937,
+        "priceJpy": 9563215,
+        "change24hPct": -2.31,
         "sparkline7d": [
-          58502.26,
-          60121.3,
-          61215.87,
-          60368.11,
-          58816.96,
-          60692.58,
-          59858.3
+          58929.27,
+          58816.7,
+          61368.09,
+          59952.6,
+          58512.26,
+          60702.33,
+          59849.02
         ]
       },
       {
         "id": "ethereum",
         "symbol": "ETH",
-        "priceUsd": 1667.21,
-        "priceJpy": 266020,
-        "change24hPct": -2,
+        "priceUsd": 1662.87,
+        "priceJpy": 265319,
+        "change24hPct": -3.45,
         "sparkline7d": [
-          1606.77,
-          1682.85,
-          1730.59,
-          1696.29,
-          1645.77,
-          1696.63,
-          1669.89
+          1623.25,
+          1654.08,
+          1721.31,
+          1688.44,
+          1643.1,
+          1702.77,
+          1660.38
         ]
       },
       {
         "id": "stellar",
         "symbol": "XLM",
-        "priceUsd": 0.126843,
-        "priceJpy": 20.24,
-        "change24hPct": -0.42,
+        "priceUsd": 0.126435,
+        "priceJpy": 20.17,
+        "change24hPct": -1.73,
         "sparkline7d": [
-          0.126037,
-          0.128963,
-          0.127027,
-          0.129302,
-          0.122847,
-          0.127322,
-          0.12683
+          0.127217,
+          0.126682,
+          0.128554,
+          0.124583,
+          0.122855,
+          0.127634,
+          0.12685
         ]
       },
       {
         "id": "bitcoin-cash",
         "symbol": "BCH",
-        "priceUsd": 206.58,
-        "priceJpy": 32963,
-        "change24hPct": -1.15,
+        "priceUsd": 209.19,
+        "priceJpy": 33377,
+        "change24hPct": -4.37,
         "sparkline7d": [
-          190.72,
-          199.44,
-          197.59,
-          199.88,
-          194.58,
-          207.18,
-          206.23
+          194.28,
+          194.55,
+          199.94,
+          197.24,
+          196.07,
+          209.86,
+          208.26
         ]
       }
     ]
   },
   "top": [
-    "hatebu-it-4f191db4",
-    "nhk-top-d4312586",
-    "hatebu-it-13367c0c"
+    "zenn-3dprinter-f0db9545",
+    "zenn-muse-fe4ca3f4",
+    "hackaday-370cc9e3"
   ],
   "sections": [
     {
-      "id": "news",
-      "title": "時事",
+      "id": "make",
+      "title": "作る",
       "articleIds": [
-        "nhk-world-6c382782"
+        "hackaday-2525c411",
+        "hackaday-6bbf050e"
       ]
     },
     {
-      "id": "tech",
-      "title": "世界のテック",
+      "id": "3d-printing",
+      "title": "3Dプリンタ",
       "articleIds": [
-        "hatebu-it-d19a74f3",
-        "hn-front-263e0ee1"
+        "zenn-3dprinter-72c64e47"
       ]
     },
     {
-      "id": "trends",
-      "title": "トレンド",
+      "id": "repair",
+      "title": "直す",
       "articleIds": [
-        "gtrends-jp-3d8a715c",
-        "gtrends-jp-1e1b73f6"
+        "hackaday-repair-d0183c04",
+        "hackaday-repair-300ecb27"
+      ]
+    },
+    {
+      "id": "systems",
+      "title": "仕組みにする・残す",
+      "articleIds": [
+        "zenn-claudecode-7f499fb1",
+        "zenn-claudecode-7d7fbad1"
+      ]
+    },
+    {
+      "id": "tech-buzz",
+      "title": "技術の話題",
+      "articleIds": [
+        "hatebu-it-d19a74f3"
       ]
     }
   ],
   "articles": [
     {
-      "id": "hatebu-it-4f191db4",
-      "title": "AI使って開発するなら、モデリングするんだよ - 4つの図で始めるモデリングと、AIにモデルを実装させるアーキテクチャ",
-      "url": "https://speakerdeck.com/littlehands/umtp-suraido-20261125",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-26T23:54:33.000Z",
+      "id": "zenn-3dprinter-f0db9545",
+      "title": "サポート材なしで一体印刷！ベンチマーク車モデルを断面図とG-codeで徹底解剖",
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-12-riding-car-supportless",
+      "source": "Zenn 3Dプリンター",
+      "sourceId": "zenn-3dprinter",
+      "publishedAt": "2026-11-25T15:11:54.000Z",
       "summaryJa": [
-        "UMTP モデリングフォーラム 2026（2026/11/25）での登壇資料です。",
-        "https://umtp-japan.",
-        "org/event-seminar/mf2026/78668 AIで実装が速くなった今、人に残る仕事は何か。"
+        "普段は車のモデルを設計するときに「サポート材の除去で窓枠が折れる」「タイヤと車体がくっついて回らない」と悩みがちですが、今回はちょっと視点を変えて、MakerW",
+        "使ったプリンターはBambu Lab A1 mini（0.",
+        "4mmノズル・層高0."
       ],
-      "category": "programming",
+      "category": "3dprint",
       "keywords": [
-        "AI使って開発するなら",
-        "モデリングするんだよ",
-        "4つの図で始めるモデリングと",
-        "AIにモデルを実装させるアーキテクチャ"
+        "codeで徹底解剖"
       ],
       "heat": {
-        "temperature": 77,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 182,
-          "ageHours": 20,
-          "crossSources": 1,
-          "velocity": 8.9
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "nhk-top-d4312586",
-      "title": "生成AIへの不安 「犯罪に悪用される」が73% NHK世論調査",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261127de82786",
-      "source": "NHKニュース 主要",
-      "sourceId": "nhk-top",
-      "publishedAt": "2026-11-27T20:05:17.000Z",
-      "summaryJa": [
-        "急速に普及が進む生成AIについて、NHKの世論調査で期待と不安を聞いたところ、期待することとしては「仕事の効率化が進む」が62％だった一方、不安は「犯罪に悪用さ",
-        "出典: NHKニュース 主要",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "news",
-      "keywords": [
-        "生成AIへの不安",
-        "犯罪に悪用される",
-        "NHK世論調査"
-      ],
-      "heat": {
-        "temperature": 55,
+        "temperature": 40,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 60,
           "crossSources": 1,
           "velocity": 0
         }
@@ -195,58 +170,272 @@
       "image": null
     },
     {
-      "id": "hatebu-it-13367c0c",
-      "title": "2026年に刊行されてよかったなと思うコンピューター技術書 - golden-luckyの日記",
-      "url": "https://golden-lucky.hatenablog.com/entry/2026/11/27/111643",
-      "source": "はてなブックマーク テクノロジー",
-      "sourceId": "hatebu-it",
-      "publishedAt": "2026-11-27T02:26:32.000Z",
+      "id": "zenn-muse-fe4ca3f4",
+      "title": "AIエージェントに渡す権限の設計：読み取り専用から始めて、取り返しのつかない操作だけを分離する",
+      "url": "https://zenn.dev/aletheia_jp/articles/c4cd7b90c63e30",
+      "source": "Zenn Muse",
+      "sourceId": "zenn-muse",
+      "publishedAt": "2026-11-27T17:46:37.000Z",
       "summaryJa": [
-        "コンピューター技術書の市況は2026年に入ったころから冷え込みに拍車がかかっているように感じてます。",
-        "AIチャットで答えらしきものが得られるのでリファレンスの需要は激減したし、ノウハウ集っぽい本も不要になりました。",
-        "自分でコードを読み書きしなくてもエージェントでとりあえずアプリが生成されるので、プログラミ."
+        "AIエージェントの事故というと、「指示を誤解して変なことをした」という話を思い浮かべがちです。",
+        "でも実際に怖いのは、解釈の話ではなくて、触れてはいけないものに、正しい手順で触れてしまった事故の方です。",
+        "送信ボタンを押す権限があれば、エージェントは迷わず押します。"
       ],
-      "category": "programming",
+      "category": "workflow",
       "keywords": [
-        "golden",
-        "luckyの日記"
+        "取り返しのつかない操作だけを分離する"
       ],
       "heat": {
-        "temperature": 83,
+        "temperature": 52,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 227,
-          "ageHours": 18,
+          "hatebuCount": 0,
+          "ageHours": 9,
           "crossSources": 1,
-          "velocity": 12.7
+          "velocity": 0
         }
       },
       "image": null
     },
     {
-      "id": "nhk-world-6c382782",
-      "title": "米でブラックフライデー 年末商戦が本格化 個人消費に注目",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261128de82826",
-      "source": "NHKニュース 国際",
-      "sourceId": "nhk-world",
-      "publishedAt": "2026-11-27T20:11:09.000Z",
+      "id": "hackaday-370cc9e3",
+      "title": "How to Make a Nixie Tube",
+      "url": "https://hackaday.com/2026/11/27/how-to-make-a-nixie-tube/",
+      "source": "Hackaday",
+      "sourceId": "hackaday",
+      "publishedAt": "2026-11-27T21:00:20.000Z",
       "summaryJa": [
-        "アメリカでは27日、年末商戦が本格化する「ブラックフライデー」を迎え、ニューヨークのデパートなどは多くの買い物客でにぎわっています。",
-        "インフレが長期化するなかでも個人消費は堅調に推移してきましたが、年末…",
+        "Recently [polymatt] had a poke at one of the all-time favorites in the retro com",
+        "Over the course of two weeks he tried to …read more",
         "詳細は元記事を参照してください。"
       ],
-      "category": "news",
+      "category": "make",
       "keywords": [
-        "米でブラックフライデー",
-        "年末商戦が本格化",
-        "個人消費に注目"
+        "Nixie",
+        "Tube"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 53,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 6,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-2525c411",
+      "title": "ESP32 Remote Access Done Light",
+      "url": "https://hackaday.com/2026/11/27/esp32-remote-access-done-light/",
+      "source": "Hackaday",
+      "sourceId": "hackaday",
+      "publishedAt": "2026-11-28T00:00:09.000Z",
+      "summaryJa": [
+        "The team behind Pinscope had a problem.",
+        "They needed an ESP32 to stay securely connected to a server, but they didn’t hav",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "make",
+      "keywords": [
+        "ESP32",
+        "Remote",
+        "Access",
+        "Light"
+      ],
+      "heat": {
+        "temperature": 54,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 3,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-6bbf050e",
+      "title": "uCompute Junior is an Easy Entry to the Embedded Platform",
+      "url": "https://hackaday.com/2026/11/27/ucompute-junior-is-an-easy-entry-to-the-embedded-platform/",
+      "source": "Hackaday",
+      "sourceId": "hackaday",
+      "publishedAt": "2026-11-27T16:30:52.000Z",
+      "summaryJa": [
+        "[JP Michon] has long been working on a bit of a modular microcontroller hardware",
+        "The latest entry in this series is …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "make",
+      "keywords": [
+        "uCompute",
+        "Junior",
+        "Easy",
+        "Entry",
+        "Embedded"
+      ],
+      "heat": {
+        "temperature": 52,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 10,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-3dprinter-72c64e47",
+      "title": "3Dプリンタの印刷中に電源断！Z原点復帰なしで途中から再開するG-codeリカバリ術",
+      "url": "https://zenn.dev/hifn/articles/resume-3d-print-power-loss-gcode",
+      "source": "Zenn 3Dプリンター",
+      "sourceId": "zenn-3dprinter",
+      "publishedAt": "2026-11-23T11:00:05.000Z",
+      "summaryJa": [
+        "はじめに 3Dプリンタで1時間以上かかるパーツを出力している最中，ブレーカー落ちやコンセントの誤抜去，スマートプラグの誤作動などで突然電源が落ちてしまった経験は",
+        ".",
+        "."
+      ],
+      "category": "3dprint",
+      "keywords": [
+        "codeリカバリ術"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 112,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-repair-d0183c04",
+      "title": "Fixing a Dead Socket LGA 1851 Mainboard with a Resistor",
+      "url": "https://hackaday.com/2026/11/13/fixing-a-dead-socket-lga-1851-mainboard-with-a-resistor/",
+      "source": "Hackaday Repair Hacks",
+      "sourceId": "hackaday-repair",
+      "publishedAt": "2026-11-13T12:00:12.000Z",
+      "summaryJa": [
+        "Doing board level diagnosis on a PCB is hardly black magic, but some PCBs are de",
+        "The Socket LGA 1851 mainboard that [Fix the Pixel] got …read more",
+        "詳細は元記事を参照してください。"
+      ],
+      "category": "repair",
+      "keywords": [
+        "Fixing",
+        "Dead",
+        "Socket",
+        "LGA",
+        "Mainboard"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 351,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "hackaday-repair-300ecb27",
+      "title": "A Hazeltine 1420 Lives Again",
+      "url": "https://hackaday.com/2026/11/14/a-hazeltine-1420-lives-again/",
+      "source": "Hackaday Repair Hacks",
+      "sourceId": "hackaday-repair",
+      "publishedAt": "2026-11-14T18:00:19.000Z",
+      "summaryJa": [
+        "There was a time when buying a computer also meant picking out a compatible term",
+        "There were many to choose from, some good and some bad.",
+        "While we were partial …read more"
+      ],
+      "category": "repair",
+      "keywords": [
+        "Hazeltine",
+        "Lives"
+      ],
+      "heat": {
+        "temperature": 40,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 321,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-7f499fb1",
+      "title": "Claude Code のフックで「前回の続き」を差し込んでたら、1 万字を超えて頭だけになってた（設定とスクリプトつき）",
+      "url": "https://zenn.dev/azarashi_ora/articles/ora-claude-code-hook-cap",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-27T13:14:21.000Z",
+      "summaryJa": [
+        "AI のアザラシ「オラ」だ。",
+        "この記事も、オラが書いてる。",
+        "Claude Code の部屋（会話）は、閉じると前の事を忘れる。"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "Claude",
+        "Code",
+        "前回の続き",
+        "万字を超えて頭だけになってた",
+        "設定とスクリプトつき"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 14,
+          "crossSources": 1,
+          "velocity": 0
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "zenn-claudecode-7d7fbad1",
+      "title": "Windows の Claude Code で裏の Bash を止めても、中で動かしたものは残り続ける",
+      "url": "https://zenn.dev/kamijo_aoto/articles/claude-code-bash-orphan-processes",
+      "source": "Zenn Claude Code",
+      "sourceId": "zenn-claudecode",
+      "publishedAt": "2026-11-27T13:31:36.000Z",
+      "summaryJa": [
+        "Claude Code の Bash ツールは、時間のかかるコマンドを裏で動かせます（run_in_background）。",
+        "止めたいときは TaskStop で止めます。",
+        "ところが Windows（Git for Windows の Bash）では、TaskStop で止めても、そのコマンドの中で動かしたもの（& で裏に回したもの"
+      ],
+      "category": "workflow",
+      "keywords": [
+        "Windows",
+        "Claude",
+        "Code",
+        "Bash",
+        "中で動かしたものは残り続ける"
+      ],
+      "heat": {
+        "temperature": 51,
+        "signals": {
+          "hnPoints": 0,
+          "hatebuCount": 0,
+          "ageHours": 13,
           "crossSources": 1,
           "velocity": 0
         }
@@ -270,101 +459,13 @@
         "Lean"
       ],
       "heat": {
-        "temperature": 86,
+        "temperature": 85,
         "signals": {
           "hnPoints": 0,
-          "hatebuCount": 104,
-          "ageHours": 9,
+          "hatebuCount": 241,
+          "ageHours": 15,
           "crossSources": 1,
-          "velocity": 11.6
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "hn-front-263e0ee1",
-      "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
-      "url": "https://bouncemarket.minhanhday.com/",
-      "source": "Hacker News",
-      "sourceId": "hn-front",
-      "publishedAt": "2026-11-27T15:01:50.000Z",
-      "summaryJa": [
-        "a ball will fall.",
-        "trade on where it lands.",
-        "<p>I made this game!"
-      ],
-      "category": "tech",
-      "keywords": [
-        "bouncemarket",
-        "live",
-        "prediction",
-        "market",
-        "game"
-      ],
-      "heat": {
-        "temperature": 86,
-        "signals": {
-          "hnPoints": 273,
-          "hatebuCount": 0,
-          "ageHours": 5,
-          "crossSources": 1,
-          "velocity": 51.9
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "gtrends-jp-3d8a715c",
-      "title": "マネックス証券",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E3%83%9E%E3%83%8D%E3%83%83%E3%82%AF%E3%82%B9%E8%A8%BC%E5%88%B8",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-27T20:00:00.000Z",
-      "summaryJa": [
-        "マネックス証券",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "trends",
-      "keywords": [
-        "マネックス証券"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
-        }
-      },
-      "image": null
-    },
-    {
-      "id": "gtrends-jp-1e1b73f6",
-      "title": "給付",
-      "url": "https://trends.google.com/trends/explore?geo=JP&q=%E7%B5%A6%E4%BB%98",
-      "source": "Google トレンド",
-      "sourceId": "gtrends-jp",
-      "publishedAt": "2026-11-27T19:40:00.000Z",
-      "summaryJa": [
-        "給付",
-        "出典: Google トレンド",
-        "詳細は元記事を参照してください。"
-      ],
-      "category": "trends",
-      "keywords": [
-        "給付"
-      ],
-      "heat": {
-        "temperature": 55,
-        "signals": {
-          "hnPoints": 0,
-          "hatebuCount": 0,
-          "ageHours": 1,
-          "crossSources": 1,
-          "velocity": 0
+          "velocity": 15.6
         }
       },
       "image": null
@@ -372,36 +473,39 @@
   ],
   "hiddenGem": {
     "article": {
-      "id": "github-gems-25c582bc",
-      "title": "MarlinFirmware/Configurations — Configurations for Marlin Firmware",
-      "url": "https://github.com/MarlinFirmware/Configurations",
+      "id": "github-gems-ffd799fb",
+      "title": "fluidd-core/fluidd — Fluidd, the klipper UI.",
+      "url": "https://github.com/fluidd-core/fluidd",
       "source": "GitHub 小さなOSS",
       "sourceId": "github-gems",
-      "publishedAt": "2026-11-27T20:12:27Z",
+      "publishedAt": "2026-11-28T01:09:32Z",
       "summaryJa": [
-        "Configurations for Marlin Firmware",
+        "Fluidd, the klipper UI.",
         "出典: GitHub 小さなOSS",
         "詳細は元記事を参照してください。"
       ],
       "category": "oss",
       "keywords": [
-        "Configurations",
-        "Marlin",
-        "Firmware"
+        "fluidd",
+        "core/fluidd",
+        "klipper",
+        "UI"
       ],
       "heat": {
-        "temperature": 55,
+        "temperature": 54,
         "signals": {
           "hnPoints": 0,
           "hatebuCount": 0,
-          "ageHours": 1,
+          "ageHours": 2,
           "crossSources": 1,
           "velocity": 0
         }
       },
       "image": null
     },
-    "reason": "3Dプリンタの各種実機向け設定ファイルが網羅されており、ファームウェアのパラメータチューニングを知る宝庫です。自作機や設定カスタマイズの際に、パラメータの標準値やベストプラクティスを確認するリファレンスとして役立ちます。"
+    "reason": "3Dプリンタの制御UIであるFluiddは、Web上から軽快に動作状況を監視・操作できる優れたインターフェースです。手元のプリント環境をより直感的にアップデートしたい作図派にとって試す価値のあるツールです。"
   },
-  "unavailableSources": []
+  "unavailableSources": [
+    "Weather"
+  ]
 }

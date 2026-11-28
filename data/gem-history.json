@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "entries": [
     {
-      "id": "github-gems-2afbb1c1",
-      "url": "https://github.com/SolderedElectronics/Inkplate-Arduino-library",
-      "date": "2026-10-29"
-    },
-    {
-      "id": "github-gems-83f0eda9",
-      "url": "https://github.com/altsem/gitu",
-      "date": "2026-10-29"
-    },
-    {
       "id": "show-hn-1f47465a",
       "url": "https://ytch.xyz",
       "date": "2026-10-30"
@@ -304,6 +294,11 @@
     {
       "id": "github-gems-25c582bc",
       "url": "https://github.com/MarlinFirmware/Configurations",
+      "date": "2026-11-28"
+    },
+    {
+      "id": "github-gems-ffd799fb",
+      "url": "https://github.com/fluidd-core/fluidd",
       "date": "2026-11-28"
     }
   ]
